@@ -5,5 +5,17 @@
   "status": "design",
   "cls": "derived",
   "summary": "30 mm 高，四种第三方矢量花纹铺满正面与两侧；原卡扣及加高镂空候选，Logo 独立粘贴。几何已检查，切片、实配与承重未验收。",
-  "cover": "Models/FullSides_OriginalClip/lv/perspective.png"
+  "cover": "Models/FullSides_OriginalClip/lv/perspective.png",
+  "downloadGroups": [
+    {
+      "prefix": "Models/FullSides_HollowRaisedClip_Candidate/",
+      "label": "加高镂空卡扣 · 候选方案",
+      "note": "两侧加高、中间减重；先打印本组卡扣小样。不得与原卡扣部件混用，实配与承重未验收。"
+    },
+    {
+      "prefix": "Models/FullSides_OriginalClip/",
+      "label": "原卡扣 · 基线方案",
+      "note": "原有卡扣几何；本组小样仅对应原卡扣。与加高镂空候选分开选择。"
+    }
+  ]
 }

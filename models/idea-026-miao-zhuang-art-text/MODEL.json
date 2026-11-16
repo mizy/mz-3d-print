@@ -4,7 +4,11 @@
   "category": "桌面摆件/名牌",
   "status": "idea",
   "cls": "original",
-  "summary": "主人原话（2026-10-31）：你帮我生成用的苗壮的艺术字然后变成 3d 建模 我好打印；交付件 3 个：miao-zhuang-xingkai（135.0x73.3x9.0）、miao-zhuang-weibei（132.5x71.0x9.0）、miao-zhuang-base（141.0x45.0x10.0），各配 STL + 3MF + 真几何效果图",
-  "dir": "idea-026-miao-zhuang-art-text",
-  "bytes": 21791509
+  "summary": "行楷、魏碑字面与插槽底座；封面为魏碑面板的真实3MF几何，不是已装配立架。保留其他字体及工艺试错，打印以各文件说明为准。",
+  "cover": "preview/weibei-actual-geometry.png",
+  "downloads": [
+    "miao-zhuang-weibei.3mf",
+    "miao-zhuang-xingkai.3mf",
+    "miao-zhuang-base.3mf"
+  ]
 }

@@ -1,0 +1,230 @@
+{
+  "baseline_commit": "1a3857e66d85402ff11d6b37cea2dce812b89031",
+  "removed_exports": [
+    {
+      "path": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl",
+      "sha256": "a7e1e21a7b2c50b11f8eb3d1a558fd0d3c801e24f6210dea6ed2ff7a8046002d",
+      "bytes": 15974284,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": false
+    },
+    {
+      "path": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv_body_only_unfinished.stl",
+      "sha256": "3c6ec1cadec8e762764efa2bc96367fb0f588c3cd354e42f0300d979c3f147b6",
+      "bytes": 15974284,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl",
+      "sha256": "4d4d3891455267d6baa332f1cdcb4413abe2c0809749ce5fc65d8f61c0c95db5",
+      "bytes": 30105484,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": false
+    },
+    {
+      "path": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl",
+      "sha256": "b8968228eb3fba8b773c99b1c8049277a2c20e27e189a1b330782a2482bcbef2",
+      "bytes": 30105484,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl",
+      "sha256": "28ddb500ed0af587ad35b779e4355ed86d62b0a0ae6bd2d4b9747e2792f67be4",
+      "bytes": 30105484,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": false
+    },
+    {
+      "path": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel_candidate_unverified.stl",
+      "sha256": "ab525e23afe51c3a86197caa1805d9c3c398484ea41bef5f2f3f9254c08bda81",
+      "bytes": 30058584,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": false
+    },
+    {
+      "path": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_candidate_unverified.stl",
+      "sha256": "1806e223668804eaad49e4e660a8e7686c7b7186cd5a286ec5b9ff04a5f6c4a4",
+      "bytes": 29925284,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl",
+      "sha256": "7838930ef0cdbe7637164abce6ff082f55fbe86e4dab370d052f626ae9a7b542",
+      "bytes": 87192684,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel_body_only_unfinished.stl",
+      "sha256": "28ddb500ed0af587ad35b779e4355ed86d62b0a0ae6bd2d4b9747e2792f67be4",
+      "bytes": 30105484,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_body_only_unfinished.stl",
+      "sha256": "28ddb500ed0af587ad35b779e4355ed86d62b0a0ae6bd2d4b9747e2792f67be4",
+      "bytes": 30105484,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl",
+      "sha256": "a40e69618ca44d5de074f0d27291cea68eec19aad0a62beab05526a0e9254aab",
+      "bytes": 89553884,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": false
+    },
+    {
+      "path": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl",
+      "sha256": "a7e1e21a7b2c50b11f8eb3d1a558fd0d3c801e24f6210dea6ed2ff7a8046002d",
+      "bytes": 15974284,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv_body_only_unfinished.stl",
+      "sha256": "3c6ec1cadec8e762764efa2bc96367fb0f588c3cd354e42f0300d979c3f147b6",
+      "bytes": 15974284,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": false
+    },
+    {
+      "path": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl",
+      "sha256": "4d4d3891455267d6baa332f1cdcb4413abe2c0809749ce5fc65d8f61c0c95db5",
+      "bytes": 30105484,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl",
+      "sha256": "b8968228eb3fba8b773c99b1c8049277a2c20e27e189a1b330782a2482bcbef2",
+      "bytes": 30105484,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": false
+    },
+    {
+      "path": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl",
+      "sha256": "28ddb500ed0af587ad35b779e4355ed86d62b0a0ae6bd2d4b9747e2792f67be4",
+      "bytes": 30105484,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel_candidate_unverified.stl",
+      "sha256": "ab525e23afe51c3a86197caa1805d9c3c398484ea41bef5f2f3f9254c08bda81",
+      "bytes": 30058584,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_body_only_unfinished.stl",
+      "sha256": "b8968228eb3fba8b773c99b1c8049277a2c20e27e189a1b330782a2482bcbef2",
+      "bytes": 30105484,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_candidate_unverified.stl",
+      "sha256": "1806e223668804eaad49e4e660a8e7686c7b7186cd5a286ec5b9ff04a5f6c4a4",
+      "bytes": 29925284,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": false
+    },
+    {
+      "path": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl",
+      "sha256": "7838930ef0cdbe7637164abce6ff082f55fbe86e4dab370d052f626ae9a7b542",
+      "bytes": 87192684,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": false
+    },
+    {
+      "path": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl",
+      "sha256": "a40e69618ca44d5de074f0d27291cea68eec19aad0a62beab05526a0e9254aab",
+      "bytes": 89553884,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl",
+      "sha256": "a7e1e21a7b2c50b11f8eb3d1a558fd0d3c801e24f6210dea6ed2ff7a8046002d",
+      "bytes": 15974284,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/lv_body_only_unfinished.stl",
+      "sha256": "3c6ec1cadec8e762764efa2bc96367fb0f588c3cd354e42f0300d979c3f147b6",
+      "bytes": 15974284,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl",
+      "sha256": "4d4d3891455267d6baa332f1cdcb4413abe2c0809749ce5fc65d8f61c0c95db5",
+      "bytes": 30105484,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl",
+      "sha256": "b8968228eb3fba8b773c99b1c8049277a2c20e27e189a1b330782a2482bcbef2",
+      "bytes": 30105484,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl",
+      "sha256": "28ddb500ed0af587ad35b779e4355ed86d62b0a0ae6bd2d4b9747e2792f67be4",
+      "bytes": 30105484,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/chanel_candidate_unverified.stl",
+      "sha256": "ab525e23afe51c3a86197caa1805d9c3c398484ea41bef5f2f3f9254c08bda81",
+      "bytes": 30058584,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/lv_candidate_unverified.stl",
+      "sha256": "1806e223668804eaad49e4e660a8e7686c7b7186cd5a286ec5b9ff04a5f6c4a4",
+      "bytes": 29925284,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl",
+      "sha256": "7838930ef0cdbe7637164abce6ff082f55fbe86e4dab370d052f626ae9a7b542",
+      "bytes": 87192684,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    },
+    {
+      "path": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl",
+      "sha256": "a40e69618ca44d5de074f0d27291cea68eec19aad0a62beab05526a0e9254aab",
+      "bytes": 89553884,
+      "reason": "未完成或未验收实验导出；保留源场景、设计图、脚本与失败记录",
+      "symlink": true
+    }
+  ],
+  "deduplicated_exact_files": [
+    {
+      "path": "projects/dog-bow/Shared/Documentation/TallBowl_ReleaseRecords/packages/LV_Bowl_InvertedT_2026-11-14.zip",
+      "canonical": "models/dog-bowl-lv/Documentation/RecoveredPackages/LV_Bowl_InvertedT_2026-11-14.zip"
+    },
+    {
+      "path": "projects/dog-bow/Shared/DesignProcess/Outline_OriginalRelease/packages/Bowl_Outline_Frames_2mm_2026-11-15.zip",
+      "canonical": "projects/dog-bow/Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames_2mm_2026-11-15.zip"
+    },
+    {
+      "path": "projects/dog-bow/Shared/FitSamples/OutlineFrames/packages/Bowl_Outline_Frames_2mm_2026-11-15.zip",
+      "canonical": "projects/dog-bow/Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames_2mm_2026-11-15.zip"
+    }
+  ],
+  "preserved": "设计图、文档、源场景、脚本和试错日志保留；移除文件可在baseline_commit恢复"
+}

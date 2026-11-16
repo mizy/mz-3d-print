@@ -60,11 +60,6 @@
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel-build.log"
       },
       {
-        "rel": "DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl",
-        "size": 15974284,
-        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl"
-      },
-      {
         "rel": "DesignProcess/Experimental_v4/chanel_concept.blend",
         "size": 12492647,
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel_concept.blend"
@@ -93,11 +88,6 @@
         "rel": "DesignProcess/Experimental_v4/lv-build.log",
         "size": 19671,
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv-build.log"
-      },
-      {
-        "rel": "DesignProcess/Experimental_v4/lv_body_only_unfinished.stl",
-        "size": 15974284,
-        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv_body_only_unfinished.stl"
       },
       {
         "rel": "DesignProcess/Experimental_v4/lv_concept.blend",
@@ -130,11 +120,6 @@
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel-build.log"
       },
       {
-        "rel": "DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl",
-        "size": 30105484,
-        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl"
-      },
-      {
         "rel": "DesignProcess/Experimental_v5/chanel_concept.blend",
         "size": 22802991,
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel_concept.blend"
@@ -163,11 +148,6 @@
         "rel": "DesignProcess/Experimental_v5/lv-build.log",
         "size": 24049,
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv-build.log"
-      },
-      {
-        "rel": "DesignProcess/Experimental_v5/lv_body_only_unfinished.stl",
-        "size": 30105484,
-        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl"
       },
       {
         "rel": "DesignProcess/Experimental_v5/lv_concept.blend",
@@ -225,16 +205,6 @@
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel-fuse.log"
       },
       {
-        "rel": "DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl",
-        "size": 30105484,
-        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl"
-      },
-      {
-        "rel": "DesignProcess/Experimental_v6/chanel_candidate_unverified.stl",
-        "size": 30058584,
-        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel_candidate_unverified.stl"
-      },
-      {
         "rel": "DesignProcess/Experimental_v6/chanel_concept.blend",
         "size": 22802991,
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel_concept.blend"
@@ -275,11 +245,6 @@
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv-voxel.log"
       },
       {
-        "rel": "DesignProcess/Experimental_v6/lv_candidate_unverified.stl",
-        "size": 29925284,
-        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_candidate_unverified.stl"
-      },
-      {
         "rel": "DesignProcess/Experimental_v6/lv_concept.blend",
         "size": 23099891,
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_concept.blend"
@@ -298,11 +263,6 @@
         "rel": "DesignProcess/Experimental_v6/lv_top.png",
         "size": 1464243,
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_top.png"
-      },
-      {
-        "rel": "DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl",
-        "size": 87192684,
-        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl"
       },
       {
         "rel": "DesignProcess/Experimental_v6/lv_voxel_front.png",
@@ -350,11 +310,6 @@
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel-build.log"
       },
       {
-        "rel": "DesignProcess/Experimental_v7/chanel_body_only_unfinished.stl",
-        "size": 30105484,
-        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel_body_only_unfinished.stl"
-      },
-      {
         "rel": "DesignProcess/Experimental_v7/chanel_concept.blend",
         "size": 22802991,
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel_concept.blend"
@@ -400,11 +355,6 @@
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel-voxel.log"
       },
       {
-        "rel": "DesignProcess/Experimental_v8/chanel_body_only_unfinished.stl",
-        "size": 30105484,
-        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_body_only_unfinished.stl"
-      },
-      {
         "rel": "DesignProcess/Experimental_v8/chanel_concept.blend",
         "size": 22802991,
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_concept.blend"
@@ -423,11 +373,6 @@
         "rel": "DesignProcess/Experimental_v8/chanel_top.png",
         "size": 1515946,
         "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_top.png"
-      },
-      {
-        "rel": "DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl",
-        "size": 89553884,
-        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl"
       },
       {
         "rel": "DesignProcess/Experimental_v8/chanel_voxel_front.png",
@@ -945,7 +890,7 @@
         "url": "models/dog-bowl-chanel/README.md"
       }
     ],
-    "bytes": 930797391
+    "bytes": 511590967
   },
   {
     "id": "dog-bowl-lv",
@@ -955,6 +900,18 @@
     "cls": "derived",
     "summary": "30 mm 高，四种第三方矢量花纹铺满正面与两侧；原卡扣及加高镂空候选，Logo 独立粘贴。几何已检查，切片、实配与承重未验收。",
     "cover": "dog-bowl-lv/Models/FullSides_OriginalClip/lv/perspective.png",
+    "downloadGroups": [
+      {
+        "prefix": "Models/FullSides_HollowRaisedClip_Candidate/",
+        "label": "加高镂空卡扣 · 候选方案",
+        "note": "两侧加高、中间减重；先打印本组卡扣小样。不得与原卡扣部件混用，实配与承重未验收。"
+      },
+      {
+        "prefix": "Models/FullSides_OriginalClip/",
+        "label": "原卡扣 · 基线方案",
+        "note": "原有卡扣几何；本组小样仅对应原卡扣。与加高镂空候选分开选择。"
+      }
+    ],
     "dir": "dog-bowl-lv",
     "files": [
       {
@@ -1163,11 +1120,6 @@
         "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel-build.log"
       },
       {
-        "rel": "DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl",
-        "size": 15974284,
-        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl"
-      },
-      {
         "rel": "DesignProcess/Experimental_v4/chanel_concept.blend",
         "size": 12492647,
         "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel_concept.blend"
@@ -1196,11 +1148,6 @@
         "rel": "DesignProcess/Experimental_v4/lv-build.log",
         "size": 19671,
         "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv-build.log"
-      },
-      {
-        "rel": "DesignProcess/Experimental_v4/lv_body_only_unfinished.stl",
-        "size": 15974284,
-        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv_body_only_unfinished.stl"
       },
       {
         "rel": "DesignProcess/Experimental_v4/lv_concept.blend",
@@ -1233,11 +1180,6 @@
         "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel-build.log"
       },
       {
-        "rel": "DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl",
-        "size": 30105484,
-        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl"
-      },
-      {
         "rel": "DesignProcess/Experimental_v5/chanel_concept.blend",
         "size": 22802991,
         "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel_concept.blend"
@@ -1266,11 +1208,6 @@
         "rel": "DesignProcess/Experimental_v5/lv-build.log",
         "size": 24049,
         "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv-build.log"
-      },
-      {
-        "rel": "DesignProcess/Experimental_v5/lv_body_only_unfinished.stl",
-        "size": 30105484,
-        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl"
       },
       {
         "rel": "DesignProcess/Experimental_v5/lv_concept.blend",
@@ -1328,16 +1265,6 @@
         "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel-fuse.log"
       },
       {
-        "rel": "DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl",
-        "size": 30105484,
-        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl"
-      },
-      {
-        "rel": "DesignProcess/Experimental_v6/chanel_candidate_unverified.stl",
-        "size": 30058584,
-        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel_candidate_unverified.stl"
-      },
-      {
         "rel": "DesignProcess/Experimental_v6/chanel_concept.blend",
         "size": 22802991,
         "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel_concept.blend"
@@ -1378,16 +1305,6 @@
         "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv-voxel.log"
       },
       {
-        "rel": "DesignProcess/Experimental_v6/lv_body_only_unfinished.stl",
-        "size": 30105484,
-        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_body_only_unfinished.stl"
-      },
-      {
-        "rel": "DesignProcess/Experimental_v6/lv_candidate_unverified.stl",
-        "size": 29925284,
-        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_candidate_unverified.stl"
-      },
-      {
         "rel": "DesignProcess/Experimental_v6/lv_concept.blend",
         "size": 23099891,
         "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_concept.blend"
@@ -1406,11 +1323,6 @@
         "rel": "DesignProcess/Experimental_v6/lv_top.png",
         "size": 1464243,
         "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_top.png"
-      },
-      {
-        "rel": "DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl",
-        "size": 87192684,
-        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl"
       },
       {
         "rel": "DesignProcess/Experimental_v6/lv_voxel_front.png",
@@ -1516,11 +1428,6 @@
         "rel": "DesignProcess/Experimental_v8/chanel_top.png",
         "size": 1515946,
         "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_top.png"
-      },
-      {
-        "rel": "DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl",
-        "size": 89553884,
-        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl"
       },
       {
         "rel": "DesignProcess/Experimental_v8/chanel_voxel_front.png",
@@ -2408,7 +2315,7 @@
         "url": "models/dog-bowl-lv/README.md"
       }
     ],
-    "bytes": 1135988495
+    "bytes": 746887555
   },
   {
     "id": "idea-003",
@@ -2416,10 +2323,14 @@
     "category": "展示收纳",
     "status": "design",
     "cls": "original",
-    "summary": "展示用过的内存条与 CPU，像收藏陈列一样摆出来；内存条靠基板边缘承托，绝不夹压金手指；CPU 四边托住基板，中心悬空不碰针脚",
+    "summary": "V17 SKADIS接口展示架：4条内存与3颗CPU，独立底脚及托架。当前下载为整板、修正挂钩配件盘及配合小样；实物适配、承载与打印尚未验收。",
+    "cover": "idea-003-memory-cpu-rack/v17-skadis/design.png",
+    "downloads": [
+      "v17-skadis/print-plates/01_board.3mf",
+      "v17-skadis/print-plates/02_relief_feet_trays-hookfix.3mf",
+      "v17-skadis/print-plates/00_fit_test-hookfix.3mf"
+    ],
     "dir": "idea-003-memory-cpu-rack",
-    "bytes": 27608247,
-    "cover": "idea-003-memory-cpu-rack/makerworld-export/skadis-tray-makerworld/skadis-tray-preview.png",
     "files": [
       {
         "rel": "README.md",
@@ -2666,7 +2577,8 @@
         "size": 7484,
         "url": "models/idea-003-memory-cpu-rack/v17-skadis/universal_tray.stl"
       }
-    ]
+    ],
+    "bytes": 27608247
   },
   {
     "id": "idea-004",
@@ -2675,9 +2587,8 @@
     "status": "design",
     "cls": "original",
     "summary": "主人原话：拿桐庐江色那张水彩做一版透光浮雕试试，出 3MF 发他；亮处薄、暗处厚：最薄 0.8mm 最厚 3.0mm（背光时画面透出来）",
-    "dir": "idea-004-lithophane-fuchun",
-    "bytes": 2020752,
     "cover": "idea-004-lithophane-fuchun/lithophane-fuchun-river-preview.png",
+    "dir": "idea-004-lithophane-fuchun",
     "files": [
       {
         "rel": "README.md",
@@ -2704,7 +2615,8 @@
         "size": 114851,
         "url": "models/idea-004-lithophane-fuchun/source.jpg"
       }
-    ]
+    ],
+    "bytes": 2020752
   },
   {
     "id": "idea-005",
@@ -2713,9 +2625,8 @@
     "status": "idea",
     "cls": "original",
     "summary": "主人原话：做一个 2 次元卡通人物的实体浮雕模型看看（他担心线条做不细）；实体凸起浮雕，不靠背光：底盘平板 + 人物剪影抬高 + 勾线/暗部再抬高一层",
-    "dir": "idea-005-anime-relief",
-    "bytes": 13552893,
     "cover": "idea-005-anime-relief/relief-anime-girl-s105-preview.png",
+    "dir": "idea-005-anime-relief",
     "files": [
       {
         "rel": "README.md",
@@ -2757,7 +2668,8 @@
         "size": 3178294,
         "url": "models/idea-005-anime-relief/source.png"
       }
-    ]
+    ],
+    "bytes": 13552893
   },
   {
     "id": "idea-006",
@@ -2766,9 +2678,8 @@
     "status": "idea",
     "cls": "original",
     "summary": "主人原话：参数化建模加进 skill，然后做一个例子，用家里常用的一些工具；一件成型：剪刀 / 卷尺 5m / 美工刀 / 记号笔×2 / 胶带卷 各自一个位，放进去不晃",
-    "dir": "idea-006-tool-tray",
-    "bytes": 71249,
     "cover": "idea-006-tool-tray/tool-tray-preview.png",
+    "dir": "idea-006-tool-tray",
     "files": [
       {
         "rel": "README.md",
@@ -2800,7 +2711,8 @@
         "size": 17680,
         "url": "models/idea-006-tool-tray/tool-tray.3mf"
       }
-    ]
+    ],
+    "bytes": 71249
   },
   {
     "id": "idea-007",
@@ -2809,14 +2721,18 @@
     "status": "idea",
     "cls": "original",
     "summary": "主人原话：我的名字呢能打印 3D 立体的吗；把主人的名字做成 3D 立体字（中英混排都行，OpenSCAD text() 直接放样）",
+    "cover": "sample-nameplate/keychain-actual.png",
     "dir": "sample-nameplate",
-    "bytes": 159196,
-    "cover": "sample-nameplate/keychain-preview.png",
     "files": [
       {
         "rel": "README.md",
         "size": 1142,
         "url": "models/sample-nameplate/README.md"
+      },
+      {
+        "rel": "keychain-actual.png",
+        "size": 144508,
+        "url": "models/sample-nameplate/keychain-actual.png"
       },
       {
         "rel": "keychain-preview.png",
@@ -2878,7 +2794,8 @@
         "size": 722,
         "url": "models/sample-nameplate/name-tag.scad"
       }
-    ]
+    ],
+    "bytes": 303704
   },
   {
     "id": "idea-008",
@@ -2887,9 +2804,8 @@
     "status": "idea",
     "cls": "original",
     "summary": "主人原话：可以，你做成你的水印吧；把机甲风「苗白菜」logotype 做成我的水印：实物印章 + 数字水印两种",
-    "dir": "idea-008-miao-watermark",
-    "bytes": 4273831,
     "cover": "idea-008-miao-watermark/miao-stamp-preview.png",
+    "dir": "idea-008-miao-watermark",
     "files": [
       {
         "rel": "README.md",
@@ -2941,7 +2857,8 @@
         "size": 1668,
         "url": "models/idea-008-miao-watermark/stamp-report.json"
       }
-    ]
+    ],
+    "bytes": 4273831
   },
   {
     "id": "idea-009",
@@ -2950,9 +2867,8 @@
     "status": "design",
     "cls": "original",
     "summary": "主人原话(10/2)：我想 3d 打印手办怎么搞；回答定位：讲清手办的完整链路（模型来源→分件切片→打印→后处理上色），不是只有『打印』一环",
-    "dir": "idea-009-miao-chibi",
-    "bytes": 577641,
     "cover": "idea-009-miao-chibi/preview.png",
+    "dir": "idea-009-miao-chibi",
     "files": [
       {
         "rel": "README.md",
@@ -2984,7 +2900,8 @@
         "size": 177019,
         "url": "models/idea-009-miao-chibi/preview.png"
       }
-    ]
+    ],
+    "bytes": 577641
   },
   {
     "id": "idea-010",
@@ -2993,10 +2910,10 @@
     "status": "design",
     "cls": "derived",
     "summary": "AI 生成网格，我们做可打印化：分盘、支撑、朝向、层高与首层工艺。完整工程（源工程 120MB / 当前 v2 120MB / 蓝盘 47MB）在 Release 资产里，点卡片上的按钮下",
-    "dir": "deepfish-figure",
-    "bytes": 239570,
     "release": "https://github.com/mizy/mz-3d-print/releases/tag/v1",
-    "cover": "deepfish-figure/04_预览/deepfish_剩余6件v2_预览.png",
+    "cover": "deepfish-figure/04_预览/deepfish_安全盘v2_预览.png",
+    "downloads": [],
+    "dir": "deepfish-figure",
     "files": [
       {
         "rel": "01_当前_v2_2026-11-15/README.md",
@@ -3053,7 +2970,8 @@
         "size": 8326,
         "url": "models/deepfish-figure/README.md"
       }
-    ]
+    ],
+    "bytes": 239570
   },
   {
     "id": "idea-013",
@@ -3062,9 +2980,8 @@
     "status": "design",
     "cls": "original",
     "summary": "主人原话（2026-10-24）：给「苗白菜」系列先预建 4 件「零输入」可打印件，这是第 1 件 —— 白菜叶钥匙扣；叶形造型：叶身波边（峰谷 2.10mm）+ 浅叶脉 7 条（露出叶面 1.0mm）+ 叶柄收窄；外廓 55 x 35 x 4mm",
-    "dir": "idea-013-miao-leaf-keychain",
-    "bytes": 107965,
     "cover": "idea-013-miao-leaf-keychain/leaf-keychain-preview.png",
+    "dir": "idea-013-miao-leaf-keychain",
     "files": [
       {
         "rel": "README.md",
@@ -3106,7 +3023,8 @@
         "size": 3946,
         "url": "models/idea-013-miao-leaf-keychain/model.scad"
       }
-    ]
+    ],
+    "bytes": 107965
   },
   {
     "id": "idea-014",
@@ -3115,9 +3033,8 @@
     "status": "design",
     "cls": "original",
     "summary": "主人原话（2026-10-24）：4 件预建里的第 2 件 —— 白菜叶冰箱贴，与钥匙扣同款叶形、放大到 60 x 40mm；外廓 60 x 40 x 5mm：同一套轮廓公式（波边峰谷 2.45mm、叶脉 7 条露出叶面 1.0mm），板厚加到 4mm 好给背面留磁铁槽",
-    "dir": "idea-014-miao-leaf-fridge-magnet",
-    "bytes": 116648,
     "cover": "idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet-preview.png",
+    "dir": "idea-014-miao-leaf-fridge-magnet",
     "files": [
       {
         "rel": "README.md",
@@ -3159,7 +3076,8 @@
         "size": 3889,
         "url": "models/idea-014-miao-leaf-fridge-magnet/model.scad"
       }
-    ]
+    ],
+    "bytes": 116648
   },
   {
     "id": "idea-015",
@@ -3168,9 +3086,8 @@
     "status": "design",
     "cls": "original",
     "summary": "主人原话（2026-10-24）：4 件预建里的第 3 件 —— 桌面理线夹，夹持线径 4/6/8mm 三款，参数化 d_line，一次打多颗；尺寸链（参数在 model.scad）：孔中心高 = 贴胶底 2.5 + r；总高 = 2.5 + d + 顶壁 2.0；总宽 = d + 2 x 侧壁 2.4；卡入口宽 = 0.9 x 线径（比线细才有卡持），入口做 30 度喇叭好塞线",
-    "dir": "idea-015-desk-cable-clip",
-    "bytes": 68334,
     "cover": "idea-015-desk-cable-clip/cable-clip-3pcs-preview.png",
+    "dir": "idea-015-desk-cable-clip",
     "files": [
       {
         "rel": "README.md",
@@ -3212,7 +3129,8 @@
         "size": 3197,
         "url": "models/idea-015-desk-cable-clip/model.scad"
       }
-    ]
+    ],
+    "bytes": 68334
   },
   {
     "id": "idea-016",
@@ -3221,9 +3139,8 @@
     "status": "design",
     "cls": "original",
     "summary": "主人原话（2026-10-24）：4 件预建里的第 4 件 —— 吉他拨片盒，装 8-10 片标准 351 形拨片（约 31x26mm、厚 <=1.5mm）；无铰链插拔式上盖（避开悬垂与薄壁铰链）：盒身 + 上盖两件套，盖用 4mm 高裙边套在盒口外侧，插拔单边间隙 0.25mm（FDM 装配 0.2-0.3 区间）",
-    "dir": "idea-016-guitar-pick-case",
-    "bytes": 70855,
     "cover": "idea-016-guitar-pick-case/pick-case-preview.png",
+    "dir": "idea-016-guitar-pick-case",
     "files": [
       {
         "rel": "README.md",
@@ -3265,7 +3182,8 @@
         "size": 10645,
         "url": "models/idea-016-guitar-pick-case/pick-case.3mf"
       }
-    ]
+    ],
+    "bytes": 70855
   },
   {
     "id": "idea-017",
@@ -3274,9 +3192,8 @@
     "status": "design",
     "cls": "original",
     "summary": "主人原话（2026-10-25）：你帮我建模 3d 打印 镂空的抽屉吧 用来分隔柜子 收纳，柜子要有标记苗壮制造；镂空：外壁/隔板/底板都开孔减料，孔间韧带 >= 3.2mm（0.4 喷嘴的 8 倍），底板上沿/下沿留实心带保刚度",
-    "dir": "idea-017-lattice-drawer-divider",
-    "bytes": 198576,
     "cover": "idea-017-lattice-drawer-divider/lattice-divider-preview.png",
+    "dir": "idea-017-lattice-drawer-divider",
     "files": [
       {
         "rel": "README.md",
@@ -3318,7 +3235,8 @@
         "size": 3298,
         "url": "models/idea-017-lattice-drawer-divider/model.scad"
       }
-    ]
+    ],
+    "bytes": 198576
   },
   {
     "id": "idea-018",
@@ -3327,9 +3245,12 @@
     "status": "design",
     "cls": "original",
     "summary": "主人原话（2026-10-25）：我需要一个桌面晾发带的小晾衣架，期望能放到或者戴到或者架在这个玩偶的上面，比如晾 2 到 3 个发带；要能同时晾 2–3 条发带：有横杆/挂钩位，杆距与杆径要够分开晾、不互相压叠",
+    "cover": "idea-018-headband-rack/headband-rack-preview.png",
+    "downloads": [
+      "headband-rack.3mf",
+      "headband-hook.3mf"
+    ],
     "dir": "idea-018-headband-rack",
-    "bytes": 135086,
-    "cover": "idea-018-headband-rack/headband-hook-preview.png",
     "files": [
       {
         "rel": "DESIGN.md",
@@ -3386,7 +3307,8 @@
         "size": 3337,
         "url": "models/idea-018-headband-rack/model.scad"
       }
-    ]
+    ],
+    "bytes": 135086
   },
   {
     "id": "idea-020",
@@ -3395,9 +3317,8 @@
     "status": "design",
     "cls": "original",
     "summary": "主人原话（2026-10-25）：一个二次元人物，左右手，一只手托一个杆子，这种是不是可以当做衣架呢？—— 即不用框架，改由小人偶本体当支架、两只手各持一根晾杆；用途与 idea-018 龙门架相同：同时晾 2–3 条发带，杆距与杆径要够分开、不互相压叠",
-    "dir": "idea-020-figure-rack",
-    "bytes": 454167,
     "cover": "idea-020-figure-rack/figure-rack-preview.png",
+    "dir": "idea-020-figure-rack",
     "files": [
       {
         "rel": "DESIGN.md",
@@ -3444,7 +3365,8 @@
         "size": 5335,
         "url": "models/idea-020-figure-rack/model.scad"
       }
-    ]
+    ],
+    "bytes": 454167
   },
   {
     "id": "idea-026",
@@ -3452,10 +3374,14 @@
     "category": "桌面摆件/名牌",
     "status": "idea",
     "cls": "original",
-    "summary": "主人原话（2026-10-31）：你帮我生成用的苗壮的艺术字然后变成 3d 建模 我好打印；交付件 3 个：miao-zhuang-xingkai（135.0x73.3x9.0）、miao-zhuang-weibei（132.5x71.0x9.0）、miao-zhuang-base（141.0x45.0x10.0），各配 STL + 3MF + 真几何效果图",
+    "summary": "行楷、魏碑字面与插槽底座；封面为魏碑面板的真实3MF几何，不是已装配立架。保留其他字体及工艺试错，打印以各文件说明为准。",
+    "cover": "idea-026-miao-zhuang-art-text/preview/weibei-actual-geometry.png",
+    "downloads": [
+      "miao-zhuang-weibei.3mf",
+      "miao-zhuang-xingkai.3mf",
+      "miao-zhuang-base.3mf"
+    ],
     "dir": "idea-026-miao-zhuang-art-text",
-    "bytes": 8318811,
-    "cover": "idea-026-miao-zhuang-art-text/preview/assembled-weibei.png",
     "files": [
       {
         "rel": "README.md",
@@ -3743,11 +3669,17 @@
         "url": "models/idea-026-miao-zhuang-art-text/preview/solid-xingkai.png"
       },
       {
+        "rel": "preview/weibei-actual-geometry.png",
+        "size": 144562,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/weibei-actual-geometry.png"
+      },
+      {
         "rel": "preview_separate.py",
         "size": 2028,
         "url": "models/idea-026-miao-zhuang-art-text/preview_separate.py"
       }
-    ]
+    ],
+    "bytes": 8463373
   },
   {
     "id": "idea-027",
@@ -3756,9 +3688,8 @@
     "status": "done",
     "cls": "derived",
     "summary": "纯圆盘 Ø45.7 + 顶部挂孔，整件 45.7×60×3.2（和原始 60mm 同尺寸）；正面去掉「卡卡」，保留狗头 + 0.7mm 黑包边 + 双灰线",
-    "dir": "kaka-tag-circle",
-    "bytes": 8523540,
     "cover": "kaka-tag-circle/final-preview.png",
+    "dir": "kaka-tag-circle",
     "files": [
       {
         "rel": "README.md",
@@ -3790,7 +3721,8 @@
         "size": 5682,
         "url": "models/kaka-tag-circle/render_preview.py"
       }
-    ]
+    ],
+    "bytes": 8523540
   },
   {
     "id": "idea-028",
@@ -3799,9 +3731,8 @@
     "status": "done",
     "cls": "original",
     "summary": "挂在 SKADIS 5×15mm 长圆孔上，孔距 40mm，不打孔；底盘有前后挡边，放手办/盲盒不滑出",
-    "dir": "idea-028-cloud-shelf-skadis",
-    "bytes": 3258000,
     "cover": "idea-028-cloud-shelf-skadis/preview/cover-colored.png",
+    "dir": "idea-028-cloud-shelf-skadis",
     "files": [
       {
         "rel": "3mf/cloud-shelf-all-10pcs.3mf",
@@ -3928,7 +3859,8 @@
         "size": 131797,
         "url": "models/idea-028-cloud-shelf-skadis/preview/cover-views.png"
       }
-    ]
+    ],
+    "bytes": 3258000
   },
   {
     "id": "mark",
@@ -3937,9 +3869,8 @@
     "status": "design",
     "cls": "original",
     "summary": null,
-    "dir": "mark-miao-zhuang",
-    "bytes": 420338,
     "cover": "mark-miao-zhuang/seal-mark.png",
+    "dir": "mark-miao-zhuang",
     "files": [
       {
         "rel": "README.md",
@@ -3966,7 +3897,8 @@
         "size": 103884,
         "url": "models/mark-miao-zhuang/seal-tool-16mm.stl"
       }
-    ]
+    ],
+    "bytes": 420338
   },
   {
     "id": "mark-variants",
@@ -3975,9 +3907,8 @@
     "status": "design",
     "cls": "derived",
     "summary": null,
-    "dir": "mark-miaozhuang-three-variants",
-    "bytes": 13384752,
     "cover": "mark-miaozhuang-three-variants/01_Intaglio_Stamp_Preview.png",
+    "dir": "mark-miaozhuang-three-variants",
     "files": [
       {
         "rel": "01_Intaglio_Stamp.step",
@@ -4099,7 +4030,8 @@
         "size": 2331,
         "url": "models/mark-miaozhuang-three-variants/validation_report.json"
       }
-    ]
+    ],
+    "bytes": 13384752
   },
   {
     "id": "p1s-exhaust-tee",
@@ -4107,10 +4039,13 @@
     "category": "其他",
     "status": "design",
     "cls": "original",
-    "summary": null,
-    "dir": "exhaust-tee-p1s",
-    "bytes": 7109976,
+    "summary": "V3对开两瓣排风三通；主入口为带支撑打印工程和接口试配小样，旧几何及装配示意仅供设计参考。",
     "cover": "exhaust-tee-p1s/exhaust-tee-split-assembled_preview.png",
+    "downloads": [
+      "exhaust-tee-split_print_support.3mf",
+      "tee-test-fit.3mf"
+    ],
+    "dir": "exhaust-tee-p1s",
     "files": [
       {
         "rel": "README.md",
@@ -4272,6 +4207,7 @@
         "size": 110053,
         "url": "models/exhaust-tee-p1s/three_views.png"
       }
-    ]
+    ],
+    "bytes": 7109976
   }
 ]

@@ -43,6 +43,8 @@ function isModel(rel) {
 const enc = (rel) => rel.split("/").map(encodeURIComponent).join("/");
 const human = (n) => (n >= 1048576 ? `${(n / 1048576).toFixed(1)} MB` : `${Math.max(1, Math.round(n / 1024))} KB`);
 
+const tracked = new Set(execFileSync("git", ["ls-files", "-z"], {cwd: ROOT, encoding: "utf8"}).split("\0").filter(Boolean));
+const isTracked = (file) => tracked.has(path.relative(ROOT, file)) || tracked.has(path.relative(ROOT, fs.realpathSync(file)));
 const models = [];
 for (const dir of fs.readdirSync(MODELS, { withFileTypes: true })) {
   if (!dir.isDirectory()) continue;
@@ -50,7 +52,7 @@ for (const dir of fs.readdirSync(MODELS, { withFileTypes: true })) {
   const metaPath = path.join(abs, "MODEL.json");
   if (!fs.existsSync(metaPath)) continue;
   const meta = JSON.parse(fs.readFileSync(metaPath, "utf8"));
-  const files = walk(abs)
+  const files = walk(abs).filter(isTracked)
     .map((f) => path.relative(abs, f))
     .filter((r) => !r.endsWith("MODEL.json"))
     .map((r) => ({ rel: r, size: fs.statSync(path.join(abs, r)).size }));
@@ -77,8 +79,19 @@ const assetUrl = (rel) => {
 };
 const card = (m) => {
   const hasCurrentModels = m.files.some(f => f.rel.startsWith("Models/"));
-  const models_ = m.files.filter((f) => isModel(f.rel) && (!hasCurrentModels || f.rel.startsWith("Models/")));
-  const others = m.files.filter((f) => (!isModel(f.rel) || (hasCurrentModels && !f.rel.startsWith("Models/"))) && !isImage(f.rel) && !f.rel.endsWith("MODEL.json"));
+  const selected = Array.isArray(m.downloads) ? new Set(m.downloads) : null;
+  const models_ = m.files.filter((f) => isModel(f.rel) && (selected ? selected.has(f.rel) : (!hasCurrentModels || f.rel.startsWith("Models/"))));
+  const partLabels = {"clip_fit_coupon.stl":"卡扣配合小样", "whole_bowl_AMS.stl":"整碗几何（STL不含颜色配置）", "ivory_bottom_z0_2.stl":"奶白底层 0–2 mm", "blue_middle_z2_28.stl":"蓝色主体 2–28 mm", "ivory_top_z28_30.stl":"奶白顶层 28–30 mm", "ivory_logo_print_flat.stl":"Logo 平放打印件", "ivory_glue_logo.stl":"Logo 装配位置参考"};
+  const fileItem = f => {
+    const name = path.basename(f.rel);
+    const label = partLabels[name];
+    return `<li><a href="${assetUrl(`models/${m.dir}/${f.rel}`)}" download>${label ? `${esc(label)}<small>${esc(name)}</small>` : esc(f.rel)}</a><span>${KIND_LABEL[path.extname(f.rel).toLowerCase()] ?? ""} ${human(f.size)}</span></li>`;
+  };
+  const groups = Array.isArray(m.downloadGroups) ? m.downloadGroups : [];
+  const grouped = groups.map(g => ({...g, files: models_.filter(f => f.rel.startsWith(g.prefix))})).filter(g => g.files.length);
+  const ungrouped = models_.filter(f => !grouped.some(g => g.files.includes(f)));
+  const downloadHtml = grouped.map(g => `<section class="download-group"><h3>${esc(g.label)}</h3>${g.note ? `<p class="group-note">${esc(g.note)}</p>` : ""}<ul class="files">${g.files.map(fileItem).join("")}</ul></section>`).join("") + (ungrouped.length ? `<ul class="files">${ungrouped.map(fileItem).join("")}</ul>` : "");
+  const others = m.files.filter((f) => (!models_.includes(f)) && !isImage(f.rel) && !f.rel.endsWith("MODEL.json"));
   const imgs = m.files.filter((f) => isImage(f.rel) && `${m.dir}/${f.rel}` !== m.cover);
   return `<article id="model-${esc(m.id)}" class="card" data-cls="${esc(m.cls)}" data-id="${esc(m.id)}" data-text="${encodeURIComponent(
     [m.title, m.category, m.id, ...m.files.map((f) => f.rel)].join(" ")
@@ -91,14 +104,7 @@ const card = (m) => {
     ${m.release ? `<p class="rel"><a href="${m.release}">⬇ 完整工程 / 大文件（Release 资产）</a></p>` : ""}
     <p class="meta"><span class="badge ${esc(m.cls)}">${CLS_LABEL[m.cls] ?? m.cls}</span> ${esc(m.category)} · ${esc(m.id)} · ${human(m.bytes)}</p>
     ${m.summary ? `<p class="sum">${esc(m.summary)}</p>` : ""}
-    <details class="downloads"><summary>模型文件 <span>${models_.length} 个 · 展开下载</span></summary><ul class="files">
-      ${models_
-        .map(
-          (f) =>
-            `<li><a href="${assetUrl(`models/${m.dir}/${f.rel}`)}" download>${esc(f.rel.split("/").pop())}</a><span>${KIND_LABEL[path.extname(f.rel).toLowerCase()] ?? ""} ${human(f.size)}</span></li>`
-        )
-        .join("\n      ")}
-    </ul></details>
+    <details class="downloads"><summary>模型文件 <span>${models_.length} 个 · 展开下载</span></summary>${downloadHtml}</details>
     ${
       others.length
         ? `<details><summary>其他文件（${others.length}）</summary><ul class="files dim">${others
@@ -129,13 +135,12 @@ const html = `<!doctype html>
 <body>
 <a class="skip" href="#grid">跳到模型列表</a>
 <header>
-  <div class="topline"><a class="brand" href="./">MZ<span> / </span>3D PRINT</a><a class="repo" href="https://github.com/mizy/mz-3d-print">GitHub 仓库 ↗</a></div>
-  <div class="hero"><div><p class="eyebrow">THE PERSONAL WORKSHOP · 个人打印工坊</p><h1>从想法，<br>到手里的实物<span>。</span></h1><p class="lead">苗壮的 3D 打印模型库。把模型、设计过程与试错记录放在一起，让每一次迭代都有迹可循。</p></div>
-  <div class="workshop"><span class="machine">BAMBU LAB P1S / AMS</span><strong>${models.length}<small>个模型项目</small></strong><div class="formats">STL · 3MF · STEP · 设计文档</div></div></div>
-  <p class="notice"><span>关于来源</span> 并非全部原创；各项目标注原创、改造或样片。打印设置与验证状态以项目文档为准。<a href="README.md">阅读说明 ↗</a></p>
+  <div class="topline"><h1>苗壮的 3D 打印模型库</h1><a class="repo" href="https://github.com/mizy/mz-3d-print">GitHub ↗</a></div>
+  <p class="lead">模型、设计图和试错记录。打印机：Bambu Lab P1S · AMS</p>
+  <p class="notice">来源与打印验证状态见各项目说明。<a href="README.md">仓库说明 ↗</a></p>
 </header>
 <section class="catalog" aria-label="模型筛选">
-  <div class="catalog-heading"><h2>模型与实验</h2><span id="count" aria-live="polite">${models.length} 个项目</span></div>
+  <div class="catalog-heading"><h2>全部项目</h2><span id="count" aria-live="polite">${models.length} 个项目</span></div>
   <div class="bar"><label class="search"><span>⌕</span><input id="q" type="search" aria-label="搜索模型名称、分类或文件名" placeholder="搜索名称、分类、文件名…" autocomplete="off"></label>
   <div class="filters" role="group" aria-label="来源类别">
     <button data-f="all" aria-pressed="true">全部</button>
@@ -149,7 +154,7 @@ ${models.map(card).join("\n")}
 <div class="empty" id="empty" hidden><h2>没有找到匹配的项目</h2><p>试试其他关键词，或清除筛选。</p><button id="reset">查看全部模型</button></div>
 </main>
 <footer>
-  生成时间 ${new Date().toISOString().slice(0, 10)} · 共 ${models.length} 个模型 / ${human(models.reduce((s, m) => s + m.bytes, 0))}
+  生成时间 ${new Date().toISOString().slice(0, 10)} · 共 ${models.length} 个项目 · 文件大小按目录引用合计（含重复引用）
   · 索引由 <code>tools/build-site.mjs</code> 从 <code>models/*/MODEL.json</code> 生成 · 打印机：Bambu Lab P1S
 </footer>
 <script>

@@ -4,7 +4,10 @@
   "category": "其他",
   "status": "design",
   "cls": "original",
-  "summary": null,
-  "dir": "exhaust-tee-p1s",
-  "bytes": 7109976
+  "summary": "V3对开两瓣排风三通；主入口为带支撑打印工程和接口试配小样，旧几何及装配示意仅供设计参考。",
+  "cover": "exhaust-tee-split-assembled_preview.png",
+  "downloads": [
+    "exhaust-tee-split_print_support.3mf",
+    "tee-test-fit.3mf"
+  ]
 }
