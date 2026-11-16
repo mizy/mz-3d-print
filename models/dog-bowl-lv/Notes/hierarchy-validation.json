@@ -1,0 +1,238 @@
+{
+  "before_original": [
+    {
+      "face_colors": [],
+      "name": "LV_bowl_and_separate_tenon_logo",
+      "assembly": true,
+      "color": null,
+      "children": [
+        {
+          "face_colors": [],
+          "name": "ivory_bottom",
+          "assembly": false,
+          "color": [
+            0.9729184508323669,
+            0.8377929329872131,
+            0.6720539331436157
+          ],
+          "children": []
+        },
+        {
+          "face_colors": [],
+          "name": "light_blue_body",
+          "assembly": false,
+          "color": [
+            0.48441895842552185,
+            0.6939077973365784,
+            0.8316508531570435
+          ],
+          "children": []
+        },
+        {
+          "face_colors": [],
+          "name": "ivory_rim",
+          "assembly": false,
+          "color": [
+            0.9729184508323669,
+            0.8377929329872131,
+            0.6720539331436157
+          ],
+          "children": []
+        },
+        {
+          "face_colors": [],
+          "name": "ivory_logo_with_tenons",
+          "assembly": false,
+          "color": [
+            0.9729184508323669,
+            0.8377929329872131,
+            0.6720539331436157
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "before_marked": [
+    {
+      "face_colors": [],
+      "name": "LV_bowl_and_separate_tenon_logo",
+      "assembly": true,
+      "color": null,
+      "children": [
+        {
+          "face_colors": [],
+          "name": "LV_bowl_and_separate_tenon_logo",
+          "assembly": true,
+          "color": null,
+          "children": [
+            {
+              "face_colors": [],
+              "name": "ivory_bottom_personal_mark",
+              "assembly": true,
+              "color": null,
+              "children": [
+                {
+                  "face_colors": [],
+                  "name": "ivory_bottom_personal_mark_part",
+                  "assembly": false,
+                  "color": [
+                    0.9879999756813049,
+                    0.925000011920929,
+                    0.8389999866485596
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "face_colors": [],
+              "name": "light_blue_body",
+              "assembly": true,
+              "color": null,
+              "children": [
+                {
+                  "face_colors": [],
+                  "name": "light_blue_body_part",
+                  "assembly": false,
+                  "color": [
+                    0.7250000238418579,
+                    0.8510000109672546,
+                    0.921999990940094
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "face_colors": [],
+              "name": "ivory_rim",
+              "assembly": true,
+              "color": null,
+              "children": [
+                {
+                  "face_colors": [],
+                  "name": "ivory_rim_part",
+                  "assembly": false,
+                  "color": [
+                    0.9879999756813049,
+                    0.925000011920929,
+                    0.8389999866485596
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "face_colors": [],
+              "name": "ivory_logo_with_tenons",
+              "assembly": true,
+              "color": null,
+              "children": [
+                {
+                  "face_colors": [],
+                  "name": "ivory_logo_with_tenons_part",
+                  "assembly": false,
+                  "color": [
+                    0.9879999756813049,
+                    0.925000011920929,
+                    0.8389999866485596
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new": [
+    {
+      "face_colors": [],
+      "name": "LV_bowl_and_logo",
+      "assembly": true,
+      "color": null,
+      "children": [
+        {
+          "face_colors": [],
+          "name": "Bowl",
+          "assembly": true,
+          "color": null,
+          "children": [
+            {
+              "face_colors": [],
+              "name": "ivory_bottom_personal_mark",
+              "assembly": false,
+              "color": [
+                0.9879999756813049,
+                0.925000011920929,
+                0.8389999866485596
+              ],
+              "children": []
+            },
+            {
+              "face_colors": [],
+              "name": "light_blue_body",
+              "assembly": false,
+              "color": [
+                0.7250000238418579,
+                0.8510000109672546,
+                0.921999990940094
+              ],
+              "children": []
+            },
+            {
+              "face_colors": [],
+              "name": "ivory_rim",
+              "assembly": false,
+              "color": [
+                0.9879999756813049,
+                0.925000011920929,
+                0.8389999866485596
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "face_colors": [],
+          "name": "Logo_with_tenons",
+          "assembly": false,
+          "color": [
+            0.9879999756813049,
+            0.925000011920929,
+            0.8389999866485596
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "geometry": [
+    {
+      "valid": true,
+      "volume_mm3": 41986.50984287738,
+      "source_volume_mm3": 41986.50984287738,
+      "volume_difference_mm3": 0.0
+    },
+    {
+      "valid": true,
+      "volume_mm3": 91858.51155470956,
+      "source_volume_mm3": 91858.51155485101,
+      "volume_difference_mm3": -1.414446160197258e-07
+    },
+    {
+      "valid": true,
+      "volume_mm3": 3805.365529865293,
+      "source_volume_mm3": 3805.365529865293,
+      "volume_difference_mm3": 0.0
+    },
+    {
+      "valid": true,
+      "volume_mm3": 338.30740153766754,
+      "source_volume_mm3": 338.30740153766766,
+      "volume_difference_mm3": -1.1368683772161603e-13
+    }
+  ]
+}

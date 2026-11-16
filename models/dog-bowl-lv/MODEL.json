@@ -10,7 +10,7 @@
     {
       "prefix": "Models/",
       "label": "当前唯一 STEP · 完整碗＋独立 Logo",
-      "note": "4个可选择实体，2种显示颜色；Logo在碗右侧独立放置。无试样，不是已切片工程。自行摆盘、分配耗材。"
+      "note": "STEP层级为Bowl（三部件）＋独立Logo；4实体、2色。Studio GUI导入层级尚未验证，请自行核对、摆盘并分配耗材。"
     }
   ],
   "downloads": [
