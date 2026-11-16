@@ -7,5 +7,8 @@
   "summary": "AI 生成网格，我们做可打印化：分盘、支撑、朝向、层高与首层工艺。完整工程（源工程 120MB / 当前 v2 120MB / 蓝盘 47MB）在 Release 资产里，点卡片上的按钮下",
   "release": "https://github.com/mizy/mz-3d-print/releases/tag/v1",
   "cover": "04_预览/deepfish_安全盘v2_预览.png",
-  "downloads": []
+  "downloads": [],
+  "gallery": [
+    "04_预览/deepfish_安全盘v2_预览.png"
+  ]
 }

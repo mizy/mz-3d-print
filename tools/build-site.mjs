@@ -56,7 +56,11 @@ for (const dir of fs.readdirSync(MODELS, { withFileTypes: true })) {
     .map((f) => path.relative(abs, f))
     .filter((r) => !r.endsWith("MODEL.json"))
     .map((r) => ({ rel: r, size: fs.statSync(path.join(abs, r)).size }));
-  const cover = files.find((f) => f.rel === meta.cover) ?? files.find((f) => isCover(f.rel)) ?? files.find((f) => isImage(f.rel));
+  const cover = meta.cover ? files.find(f => f.rel === meta.cover && isImage(f.rel)) : null;
+  if (meta.cover && !cover) throw new Error(`${dir.name}: cover is missing or untracked: ${meta.cover}`);
+  for (const rel of [...(meta.downloads ?? []), ...(meta.gallery ?? [])]) {
+    if (!files.some(f => f.rel === rel)) throw new Error(`${dir.name}: selected file is missing or untracked: ${rel}`);
+  }
   models.push({
     ...meta,
     dir: dir.name,
@@ -91,8 +95,9 @@ const card = (m) => {
   const grouped = groups.map(g => ({...g, files: models_.filter(f => f.rel.startsWith(g.prefix))})).filter(g => g.files.length);
   const ungrouped = models_.filter(f => !grouped.some(g => g.files.includes(f)));
   const downloadHtml = grouped.map(g => `<section class="download-group"><h3>${esc(g.label)}</h3>${g.note ? `<p class="group-note">${esc(g.note)}</p>` : ""}<ul class="files">${g.files.map(fileItem).join("")}</ul></section>`).join("") + (ungrouped.length ? `<ul class="files">${ungrouped.map(fileItem).join("")}</ul>` : "");
-  const others = m.files.filter((f) => (!models_.includes(f)) && !isImage(f.rel) && !f.rel.endsWith("MODEL.json"));
-  const imgs = m.files.filter((f) => isImage(f.rel) && `${m.dir}/${f.rel}` !== m.cover);
+  const gallery = new Set(m.gallery ?? []);
+  const imgs = m.files.filter(f => isImage(f.rel) && gallery.has(f.rel) && `${m.dir}/${f.rel}` !== m.cover);
+  const others = m.files.filter(f => !models_.includes(f) && !imgs.includes(f) && `${m.dir}/${f.rel}` !== m.cover);
   return `<article id="model-${esc(m.id)}" class="card" data-cls="${esc(m.cls)}" data-id="${esc(m.id)}" data-text="${encodeURIComponent(
     [m.title, m.category, m.id, ...m.files.map((f) => f.rel)].join(" ")
   )}">
@@ -101,21 +106,21 @@ const card = (m) => {
   </a>
   <div class="body">
     <h2>${esc(m.title)}</h2>
-    ${m.release ? `<p class="rel"><a href="${m.release}">⬇ 完整工程 / 大文件（Release 资产）</a></p>` : ""}
+    ${m.release ? `<p class="rel"><a href="${esc(m.release)}">⬇ 完整工程 / 大文件（Release 资产）</a></p>` : ""}
     <p class="meta"><span class="badge ${esc(m.cls)}">${CLS_LABEL[m.cls] ?? m.cls}</span> ${esc(m.category)} · ${esc(m.id)} · ${human(m.bytes)}</p>
     ${m.summary ? `<p class="sum">${esc(m.summary)}</p>` : ""}
-    <details class="downloads"><summary>模型文件 <span>${models_.length} 个 · 展开下载</span></summary>${downloadHtml}</details>
+    ${models_.length ? `<details class="downloads"><summary>当前模型 <span>${models_.length} 个 · 展开下载</span></summary>${downloadHtml}</details>` : `<p class="group-note">${m.release ? "完整工程请从上方 Release 获取。" : "暂无当前模型下载。"}</p>`}
     ${
       others.length
-        ? `<details><summary>其他文件（${others.length}）</summary><ul class="files dim">${others
+        ? `<details><summary>设计文档与历史资料（${others.length}）</summary><ul class="files dim">${others
             .map((f) => `<li><a href="${assetUrl(`models/${m.dir}/${f.rel}`)}">${esc(f.rel)}</a><span>${human(f.size)}</span></li>`)
             .join("")}</ul></details>`
         : ""
     }
     ${
       imgs.length
-        ? `<details><summary>预览图（${imgs.length}）</summary><ul class="files dim">${imgs
-            .map((f) => `<li><a href="${assetUrl(`models/${m.dir}/${f.rel}`)}">${esc(f.rel.split("/").pop())}</a></li>`)
+        ? `<details><summary>当前预览（${imgs.length}）</summary><ul class="files dim">${imgs
+            .map((f) => `<li><a href="${assetUrl(`models/${m.dir}/${f.rel}`)}">${esc(f.rel)}</a></li>`)
             .join("")}</ul></details>`
         : ""
     }
@@ -137,6 +142,7 @@ const html = `<!doctype html>
 <header>
   <div class="topline"><h1>苗壮的 3D 打印模型库</h1><a class="repo" href="https://github.com/mizy/mz-3d-print">GitHub ↗</a></div>
   <p class="lead">模型、设计图和试错记录。打印机：Bambu Lab P1S · AMS</p>
+  <nav class="resources" aria-label="资料导航"><a href="https://github.com/mizy/mz-3d-print/tree/main/models">项目目录</a><a href="https://github.com/mizy/mz-3d-print/tree/main/models/dog-bowl-shared">狗碗共享资料</a></nav>
   <p class="notice">来源与打印验证状态见各项目说明。<a href="README.md">仓库说明 ↗</a></p>
 </header>
 <section class="catalog" aria-label="模型筛选">

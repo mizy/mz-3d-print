@@ -17,5 +17,8 @@
       "label": "当前模型 · STEP",
       "note": "总装STEP含4实体（含CC），另有平放CC和卡扣小样。不要将总装中的CC与独立CC重复打印。自行分配耗材及切片。"
     }
+  ],
+  "gallery": [
+    "Design/current-exterior.png"
   ]
 }

@@ -3,6 +3,6 @@
 node_modules/
 
 # Historical dog-bowl diagnostics, retained via LFS (not print-ready)
-!projects/dog-bow/**/*.gcode
+!models/dog-bowl-shared/**/*.gcode
 !models/dog-bowl-lv/**/*.gcode
 !models/dog-bowl-chanel/**/*.gcode

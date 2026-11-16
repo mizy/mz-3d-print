@@ -5,5 +5,8 @@
   "status": "design",
   "cls": "derived",
   "summary": null,
-  "cover": "01_Intaglio_Stamp_Preview.png"
+  "cover": "01_Intaglio_Stamp_Preview.png",
+  "gallery": [
+    "01_Intaglio_Stamp_Preview.png"
+  ]
 }

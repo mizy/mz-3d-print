@@ -5,5 +5,8 @@
   "status": "idea",
   "cls": "original",
   "summary": "主人原话：可以，你做成你的水印吧；把机甲风「苗白菜」logotype 做成我的水印：实物印章 + 数字水印两种",
-  "cover": "miao-stamp-preview.png"
+  "cover": "miao-stamp-preview.png",
+  "gallery": [
+    "miao-stamp-preview.png"
+  ]
 }

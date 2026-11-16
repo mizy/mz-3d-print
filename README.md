@@ -27,6 +27,8 @@
 
 ## 目录结构
 
+所有项目统一位于 `models/`，不再与 `projects/` 并列。共享狗碗设计资料在 [`models/dog-bowl-shared/`](models/dog-bowl-shared/README.md)，不是另一套可打印模型。
+
 ```
 .
 ├── index.html              # GitHub Pages 索引页（自动生成，别手改）
@@ -48,7 +50,7 @@
 
 ### 狗碗设计档案例外
 
-按项目要求，`models/dog-bowl-lv/`、`models/dog-bowl-chanel/` 及 `projects/dog-bow/Shared/` 保留设计图、文档、试错记录及历史工程，不受上面的通用清理规则影响。`Models/` 是当前模型入口，`DesignProcess/` / `Documentation/` 是设计档案。大二进制通过 Git LFS 保存，历史不等于打印成品。
+按项目要求，`models/dog-bowl-lv/`、`models/dog-bowl-chanel/` 与共享档案 `models/dog-bowl-shared/` 保留设计图、文档和试错记录。品牌内 `Models/` 仅保留当前模型，`Design/`、`Notes/`、`Source/` 分别存放图片、说明及源脚本/矢量；旧模型仅在 Git 历史。大二进制通过 Git LFS 保存。LV 当前只维护一个 STEP，不要将历史记录误当当前交付。
 
 ## 下载方式
 

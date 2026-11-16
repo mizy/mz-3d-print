@@ -5,5 +5,8 @@
   "status": "design",
   "cls": "original",
   "summary": "主人原话（2026-10-24）：4 件预建里的第 4 件 —— 吉他拨片盒，装 8-10 片标准 351 形拨片（约 31x26mm、厚 <=1.5mm）；无铰链插拔式上盖（避开悬垂与薄壁铰链）：盒身 + 上盖两件套，盖用 4mm 高裙边套在盒口外侧，插拔单边间隙 0.25mm（FDM 装配 0.2-0.3 区间）",
-  "cover": "pick-case-preview.png"
+  "cover": "pick-case-preview.png",
+  "gallery": [
+    "pick-case-preview.png"
+  ]
 }

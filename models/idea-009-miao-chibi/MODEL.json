@@ -5,5 +5,8 @@
   "status": "design",
   "cls": "original",
   "summary": "主人原话(10/2)：我想 3d 打印手办怎么搞；回答定位：讲清手办的完整链路（模型来源→分件切片→打印→后处理上色），不是只有『打印』一环",
-  "cover": "preview.png"
+  "cover": "preview.png",
+  "gallery": [
+    "preview.png"
+  ]
 }

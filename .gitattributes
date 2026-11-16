@@ -14,13 +14,13 @@ models/dog-bowl-chanel/**/*.blend1 filter=lfs diff=lfs merge=lfs -text
 models/dog-bowl-chanel/**/*.zip filter=lfs diff=lfs merge=lfs -text
 models/dog-bowl-chanel/**/*.gcode filter=lfs diff=lfs merge=lfs -text
 models/dog-bowl-chanel/**/*.ai filter=lfs diff=lfs merge=lfs -text
-projects/dog-bow/**/*.stl filter=lfs diff=lfs merge=lfs -text
-projects/dog-bow/**/*.step filter=lfs diff=lfs merge=lfs -text
-projects/dog-bow/**/*.stp filter=lfs diff=lfs merge=lfs -text
-projects/dog-bow/**/*.blend filter=lfs diff=lfs merge=lfs -text
-projects/dog-bow/**/*.blend1 filter=lfs diff=lfs merge=lfs -text
-projects/dog-bow/**/*.zip filter=lfs diff=lfs merge=lfs -text
-projects/dog-bow/**/*.gcode filter=lfs diff=lfs merge=lfs -text
-projects/dog-bow/**/*.ai filter=lfs diff=lfs merge=lfs -text
+models/dog-bowl-shared/**/*.stl filter=lfs diff=lfs merge=lfs -text
+models/dog-bowl-shared/**/*.step filter=lfs diff=lfs merge=lfs -text
+models/dog-bowl-shared/**/*.stp filter=lfs diff=lfs merge=lfs -text
+models/dog-bowl-shared/**/*.blend filter=lfs diff=lfs merge=lfs -text
+models/dog-bowl-shared/**/*.blend1 filter=lfs diff=lfs merge=lfs -text
+models/dog-bowl-shared/**/*.zip filter=lfs diff=lfs merge=lfs -text
+models/dog-bowl-shared/**/*.gcode filter=lfs diff=lfs merge=lfs -text
+models/dog-bowl-shared/**/*.ai filter=lfs diff=lfs merge=lfs -text
 
 models/dog-bowl-lv/**/*.3mf filter=lfs diff=lfs merge=lfs -text

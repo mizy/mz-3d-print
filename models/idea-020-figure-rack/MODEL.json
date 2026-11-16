@@ -5,5 +5,8 @@
   "status": "design",
   "cls": "original",
   "summary": "主人原话（2026-10-25）：一个二次元人物，左右手，一只手托一个杆子，这种是不是可以当做衣架呢？—— 即不用框架，改由小人偶本体当支架、两只手各持一根晾杆；用途与 idea-018 龙门架相同：同时晾 2–3 条发带，杆距与杆径要够分开、不互相压叠",
-  "cover": "figure-rack-preview.png"
+  "cover": "figure-rack-preview.png",
+  "gallery": [
+    "figure-rack-preview.png"
+  ]
 }

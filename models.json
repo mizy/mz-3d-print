@@ -19,6 +19,9 @@
         "note": "总装STEP含4实体（含CC），另有平放CC和卡扣小样。不要将总装中的CC与独立CC重复打印。自行分配耗材及切片。"
       }
     ],
+    "gallery": [
+      "Design/current-exterior.png"
+    ],
     "dir": "dog-bowl-chanel",
     "files": [
       {
@@ -561,6 +564,10 @@
     ],
     "downloads": [
       "Models/LV_bowl_and_logo.step"
+    ],
+    "gallery": [
+      "Design/current-exterior.png",
+      "Design/bottom-personal-mark.png"
     ],
     "dir": "dog-bowl-lv",
     "files": [
@@ -1420,6 +1427,9 @@
       "v17-skadis/print-plates/02_relief_feet_trays-hookfix.3mf",
       "v17-skadis/print-plates/00_fit_test-hookfix.3mf"
     ],
+    "gallery": [
+      "v17-skadis/design.png"
+    ],
     "dir": "idea-003-memory-cpu-rack",
     "files": [
       {
@@ -1678,6 +1688,9 @@
     "cls": "original",
     "summary": "主人原话：拿桐庐江色那张水彩做一版透光浮雕试试，出 3MF 发他；亮处薄、暗处厚：最薄 0.8mm 最厚 3.0mm（背光时画面透出来）",
     "cover": "idea-004-lithophane-fuchun/lithophane-fuchun-river-preview.png",
+    "gallery": [
+      "lithophane-fuchun-river-preview.png"
+    ],
     "dir": "idea-004-lithophane-fuchun",
     "files": [
       {
@@ -1716,6 +1729,9 @@
     "cls": "original",
     "summary": "主人原话：做一个 2 次元卡通人物的实体浮雕模型看看（他担心线条做不细）；实体凸起浮雕，不靠背光：底盘平板 + 人物剪影抬高 + 勾线/暗部再抬高一层",
     "cover": "idea-005-anime-relief/relief-anime-girl-s105-preview.png",
+    "gallery": [
+      "relief-anime-girl-s105-preview.png"
+    ],
     "dir": "idea-005-anime-relief",
     "files": [
       {
@@ -1769,6 +1785,9 @@
     "cls": "original",
     "summary": "主人原话：参数化建模加进 skill，然后做一个例子，用家里常用的一些工具；一件成型：剪刀 / 卷尺 5m / 美工刀 / 记号笔×2 / 胶带卷 各自一个位，放进去不晃",
     "cover": "idea-006-tool-tray/tool-tray-preview.png",
+    "gallery": [
+      "tool-tray-preview.png"
+    ],
     "dir": "idea-006-tool-tray",
     "files": [
       {
@@ -1812,6 +1831,9 @@
     "cls": "original",
     "summary": "主人原话：我的名字呢能打印 3D 立体的吗；把主人的名字做成 3D 立体字（中英混排都行，OpenSCAD text() 直接放样）",
     "cover": "sample-nameplate/keychain-actual.png",
+    "gallery": [
+      "keychain-actual.png"
+    ],
     "dir": "sample-nameplate",
     "files": [
       {
@@ -1895,6 +1917,9 @@
     "cls": "original",
     "summary": "主人原话：可以，你做成你的水印吧；把机甲风「苗白菜」logotype 做成我的水印：实物印章 + 数字水印两种",
     "cover": "idea-008-miao-watermark/miao-stamp-preview.png",
+    "gallery": [
+      "miao-stamp-preview.png"
+    ],
     "dir": "idea-008-miao-watermark",
     "files": [
       {
@@ -1958,6 +1983,9 @@
     "cls": "original",
     "summary": "主人原话(10/2)：我想 3d 打印手办怎么搞；回答定位：讲清手办的完整链路（模型来源→分件切片→打印→后处理上色），不是只有『打印』一环",
     "cover": "idea-009-miao-chibi/preview.png",
+    "gallery": [
+      "preview.png"
+    ],
     "dir": "idea-009-miao-chibi",
     "files": [
       {
@@ -2003,6 +2031,9 @@
     "release": "https://github.com/mizy/mz-3d-print/releases/tag/v1",
     "cover": "deepfish-figure/04_预览/deepfish_安全盘v2_预览.png",
     "downloads": [],
+    "gallery": [
+      "04_预览/deepfish_安全盘v2_预览.png"
+    ],
     "dir": "deepfish-figure",
     "files": [
       {
@@ -2071,6 +2102,9 @@
     "cls": "original",
     "summary": "主人原话（2026-10-24）：给「苗白菜」系列先预建 4 件「零输入」可打印件，这是第 1 件 —— 白菜叶钥匙扣；叶形造型：叶身波边（峰谷 2.10mm）+ 浅叶脉 7 条（露出叶面 1.0mm）+ 叶柄收窄；外廓 55 x 35 x 4mm",
     "cover": "idea-013-miao-leaf-keychain/leaf-keychain-preview.png",
+    "gallery": [
+      "leaf-keychain-preview.png"
+    ],
     "dir": "idea-013-miao-leaf-keychain",
     "files": [
       {
@@ -2124,6 +2158,9 @@
     "cls": "original",
     "summary": "主人原话（2026-10-24）：4 件预建里的第 2 件 —— 白菜叶冰箱贴，与钥匙扣同款叶形、放大到 60 x 40mm；外廓 60 x 40 x 5mm：同一套轮廓公式（波边峰谷 2.45mm、叶脉 7 条露出叶面 1.0mm），板厚加到 4mm 好给背面留磁铁槽",
     "cover": "idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet-preview.png",
+    "gallery": [
+      "leaf-fridge-magnet-preview.png"
+    ],
     "dir": "idea-014-miao-leaf-fridge-magnet",
     "files": [
       {
@@ -2177,6 +2214,9 @@
     "cls": "original",
     "summary": "主人原话（2026-10-24）：4 件预建里的第 3 件 —— 桌面理线夹，夹持线径 4/6/8mm 三款，参数化 d_line，一次打多颗；尺寸链（参数在 model.scad）：孔中心高 = 贴胶底 2.5 + r；总高 = 2.5 + d + 顶壁 2.0；总宽 = d + 2 x 侧壁 2.4；卡入口宽 = 0.9 x 线径（比线细才有卡持），入口做 30 度喇叭好塞线",
     "cover": "idea-015-desk-cable-clip/cable-clip-3pcs-preview.png",
+    "gallery": [
+      "cable-clip-3pcs-preview.png"
+    ],
     "dir": "idea-015-desk-cable-clip",
     "files": [
       {
@@ -2230,6 +2270,9 @@
     "cls": "original",
     "summary": "主人原话（2026-10-24）：4 件预建里的第 4 件 —— 吉他拨片盒，装 8-10 片标准 351 形拨片（约 31x26mm、厚 <=1.5mm）；无铰链插拔式上盖（避开悬垂与薄壁铰链）：盒身 + 上盖两件套，盖用 4mm 高裙边套在盒口外侧，插拔单边间隙 0.25mm（FDM 装配 0.2-0.3 区间）",
     "cover": "idea-016-guitar-pick-case/pick-case-preview.png",
+    "gallery": [
+      "pick-case-preview.png"
+    ],
     "dir": "idea-016-guitar-pick-case",
     "files": [
       {
@@ -2283,6 +2326,9 @@
     "cls": "original",
     "summary": "主人原话（2026-10-25）：你帮我建模 3d 打印 镂空的抽屉吧 用来分隔柜子 收纳，柜子要有标记苗壮制造；镂空：外壁/隔板/底板都开孔减料，孔间韧带 >= 3.2mm（0.4 喷嘴的 8 倍），底板上沿/下沿留实心带保刚度",
     "cover": "idea-017-lattice-drawer-divider/lattice-divider-preview.png",
+    "gallery": [
+      "lattice-divider-preview.png"
+    ],
     "dir": "idea-017-lattice-drawer-divider",
     "files": [
       {
@@ -2339,6 +2385,9 @@
     "downloads": [
       "headband-rack.3mf",
       "headband-hook.3mf"
+    ],
+    "gallery": [
+      "headband-rack-preview.png"
     ],
     "dir": "idea-018-headband-rack",
     "files": [
@@ -2408,6 +2457,9 @@
     "cls": "original",
     "summary": "主人原话（2026-10-25）：一个二次元人物，左右手，一只手托一个杆子，这种是不是可以当做衣架呢？—— 即不用框架，改由小人偶本体当支架、两只手各持一根晾杆；用途与 idea-018 龙门架相同：同时晾 2–3 条发带，杆距与杆径要够分开、不互相压叠",
     "cover": "idea-020-figure-rack/figure-rack-preview.png",
+    "gallery": [
+      "figure-rack-preview.png"
+    ],
     "dir": "idea-020-figure-rack",
     "files": [
       {
@@ -2470,6 +2522,9 @@
       "miao-zhuang-weibei.3mf",
       "miao-zhuang-xingkai.3mf",
       "miao-zhuang-base.3mf"
+    ],
+    "gallery": [
+      "preview/weibei-actual-geometry.png"
     ],
     "dir": "idea-026-miao-zhuang-art-text",
     "files": [
@@ -2779,6 +2834,9 @@
     "cls": "derived",
     "summary": "纯圆盘 Ø45.7 + 顶部挂孔，整件 45.7×60×3.2（和原始 60mm 同尺寸）；正面去掉「卡卡」，保留狗头 + 0.7mm 黑包边 + 双灰线",
     "cover": "kaka-tag-circle/final-preview.png",
+    "gallery": [
+      "final-preview.png"
+    ],
     "dir": "kaka-tag-circle",
     "files": [
       {
@@ -2822,6 +2880,9 @@
     "cls": "original",
     "summary": "挂在 SKADIS 5×15mm 长圆孔上，孔距 40mm，不打孔；底盘有前后挡边，放手办/盲盒不滑出",
     "cover": "idea-028-cloud-shelf-skadis/preview/cover-colored.png",
+    "gallery": [
+      "preview/cover-colored.png"
+    ],
     "dir": "idea-028-cloud-shelf-skadis",
     "files": [
       {
@@ -2960,6 +3021,9 @@
     "cls": "original",
     "summary": null,
     "cover": "mark-miao-zhuang/seal-mark.png",
+    "gallery": [
+      "seal-mark.png"
+    ],
     "dir": "mark-miao-zhuang",
     "files": [
       {
@@ -2998,6 +3062,9 @@
     "cls": "derived",
     "summary": null,
     "cover": "mark-miaozhuang-three-variants/01_Intaglio_Stamp_Preview.png",
+    "gallery": [
+      "01_Intaglio_Stamp_Preview.png"
+    ],
     "dir": "mark-miaozhuang-three-variants",
     "files": [
       {
@@ -3134,6 +3201,9 @@
     "downloads": [
       "exhaust-tee-split_print_support.3mf",
       "tee-test-fit.3mf"
+    ],
+    "gallery": [
+      "exhaust-tee-split-assembled_preview.png"
     ],
     "dir": "exhaust-tee-p1s",
     "files": [
