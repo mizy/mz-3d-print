@@ -1,30 +1,73 @@
 {
-  "ivory_bottom": {
-    "solids": 1,
-    "volume": 42149.25491280535
+  "parts": {
+    "ivory_bottom": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 42149.25491280535,
+      "bounds": [
+        -80.0,
+        -90.0,
+        0.0,
+        80.0,
+        66.5,
+        2.0
+      ]
+    },
+    "light_blue_body": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 91858.51155471106,
+      "bounds": [
+        -80.00000010000001,
+        -90.0000001,
+        1.9999999,
+        80.00000010000001,
+        66.5,
+        28.0000001
+      ]
+    },
+    "ivory_rim": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3805.365529865293,
+      "bounds": [
+        -80.0,
+        -90.0,
+        28.0,
+        80.0,
+        66.5,
+        30.0
+      ]
+    },
+    "ivory_logo_with_tenons": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 338.30740119983284,
+      "bounds": [
+        100.83629282834794,
+        -9.0000001,
+        -6.962264919350514e-15,
+        119.16370717165212,
+        9.000000100000257,
+        4.156402986643
+      ]
+    }
   },
-  "light_blue_body": {
-    "solids": 1,
-    "volume": 91858.51157810682
+  "pair_intersections_mm3": {
+    "ivory_bottom / light_blue_body": 0.0,
+    "ivory_bottom / ivory_rim": 0.0,
+    "ivory_bottom / ivory_logo_with_tenons": 0.0,
+    "light_blue_body / ivory_rim": 0.0,
+    "light_blue_body / ivory_logo_with_tenons": 0.0,
+    "ivory_rim / ivory_logo_with_tenons": 0.0
   },
-  "ivory_rim": {
-    "solids": 1,
-    "volume": 3805.365529865293
-  },
-  "logo_solids": 1,
-  "interference_mm3": 0.0,
-  "clearance_radial_mm": 0.2,
-  "travel_down_mm": 1.5,
-  "min_nominal_remaining_wall_mm": 1.35,
-  "peg_positions_x_z": [
-    [
-      -3.0,
-      10.0
-    ],
-    [
-      -5.0,
-      20.0
-    ]
+  "roundtrip_solids": 4,
+  "roundtrip_all_valid": true,
+  "assembly_size_mm": [
+    199.1637072716518,
+    156.5000001,
+    30.000000000000007
   ],
-  "roundtrip_solids": 3
+  "colour_rgb_entries": 2,
+  "logo_bowl_x_gap_mm": 20.836292728347928
 }

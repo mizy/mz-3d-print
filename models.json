@@ -550,20 +550,17 @@
     "category": "宠物用品 / 狗碗",
     "status": "design",
     "cls": "derived",
-    "summary": "30 mm 两排矢量花纹狗碗；当前交付为三实体双色STEP、独立榫卯Logo及两种试配小样。Logo可上滑拆卸，非弹性止退锁；用户自行切片，实体试配和承重未验证。",
+    "summary": "当前唯一STEP：完整碗3实体与独立榫卯Logo，共4可选实体、2种显示颜色。用户自行摆盘切片；Logo可上滑拆卸，未实体试配和承重验证。",
     "cover": "dog-bowl-lv/Design/current-exterior.png",
     "downloadGroups": [
       {
         "prefix": "Models/",
-        "label": "当前模型 · STEP",
-        "note": "仅保留当前方案。STEP需自行分配耗材和切片；先试配，未实体承重验证。"
+        "label": "当前唯一 STEP · 完整碗＋独立 Logo",
+        "note": "4个可选择实体，2种显示颜色；Logo在碗右侧独立放置。无试样，不是已切片工程。自行摆盘、分配耗材。"
       }
     ],
     "downloads": [
-      "Models/LV_bowl_multibody.step",
-      "Models/LV_logo_tenon.step",
-      "Models/LV_logo_socket_test.step",
-      "Models/rear_clip_fit_test.step"
+      "Models/LV_bowl_and_logo.step"
     ],
     "dir": "dog-bowl-lv",
     "files": [
@@ -798,24 +795,9 @@
         "url": "models/dog-bowl-lv/Design/side--d79d3ce1f1.png"
       },
       {
-        "rel": "Models/LV_bowl_multibody.step",
-        "size": 8466287,
-        "url": "models/dog-bowl-lv/Models/LV_bowl_multibody.step"
-      },
-      {
-        "rel": "Models/LV_logo_socket_test.step",
-        "size": 151236,
-        "url": "models/dog-bowl-lv/Models/LV_logo_socket_test.step"
-      },
-      {
-        "rel": "Models/LV_logo_tenon.step",
-        "size": 405857,
-        "url": "models/dog-bowl-lv/Models/LV_logo_tenon.step"
-      },
-      {
-        "rel": "Models/rear_clip_fit_test.step",
-        "size": 47293,
-        "url": "models/dog-bowl-lv/Models/rear_clip_fit_test.step"
+        "rel": "Models/LV_bowl_and_logo.step",
+        "size": 9072430,
+        "url": "models/dog-bowl-lv/Models/LV_bowl_and_logo.step"
       },
       {
         "rel": "Notes/BUILD--8635a966e0.txt",
@@ -979,7 +961,7 @@
       },
       {
         "rel": "Notes/current-model.txt",
-        "size": 1428,
+        "size": 918,
         "url": "models/dog-bowl-lv/Notes/current-model.txt"
       },
       {
@@ -989,7 +971,7 @@
       },
       {
         "rel": "Notes/current-validation.json",
-        "size": 493,
+        "size": 1543,
         "url": "models/dog-bowl-lv/Notes/current-validation.json"
       },
       {
@@ -1179,7 +1161,7 @@
       },
       {
         "rel": "README.md",
-        "size": 546,
+        "size": 511,
         "url": "models/dog-bowl-lv/README.md"
       },
       {
@@ -1288,6 +1270,11 @@
         "url": "models/dog-bowl-lv/Source/check_interfaces--13baa97d67.py"
       },
       {
+        "rel": "Source/combine-current-step.py",
+        "size": 1539,
+        "url": "models/dog-bowl-lv/Source/combine-current-step.py"
+      },
+      {
         "rel": "Source/fuse--471015fcca.py",
         "size": 1509,
         "url": "models/dog-bowl-lv/Source/fuse--471015fcca.py"
@@ -1383,7 +1370,7 @@
         "url": "models/dog-bowl-lv/Source/voxel_fuse--4f229288e3.py"
       }
     ],
-    "bytes": 76455248
+    "bytes": 76459049
   },
   {
     "id": "idea-003",
