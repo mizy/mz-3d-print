@@ -5,5 +5,17 @@
   "status": "design",
   "cls": "derived",
   "summary": "30 mm 高，绗缝表面与独立 CC Logo，双色分层主体与倒 T 接口。切片、实配与承重尚未验证。",
-  "cover": "Models/LowBowl_30mm/perspective.png"
+  "cover": "Design/current-exterior.png",
+  "downloads": [
+    "Models/Chanel_assembly.step",
+    "Models/Chanel_CC_print_flat.step",
+    "Models/Chanel_clip_fit_test.step"
+  ],
+  "downloadGroups": [
+    {
+      "prefix": "Models/",
+      "label": "当前模型 · STEP",
+      "note": "总装STEP含4实体（含CC），另有平放CC和卡扣小样。不要将总装中的CC与独立CC重复打印。自行分配耗材及切片。"
+    }
+  ]
 }

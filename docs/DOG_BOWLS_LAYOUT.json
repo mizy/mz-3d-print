@@ -1,0 +1,2794 @@
+{
+  "baseline_commit": "c64102c9f646f1c487e327cde16cb9272b83a995",
+  "preserved_files": [
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/README.txt",
+      "new": "models/dog-bowl-chanel/Notes/current-model.txt",
+      "sha256": "9444dfbe8b4dfc1da8cd296ac34a1ae89be3965e6a62c386b8d6c2d637163494"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/chanel_bowl_assembly.step",
+      "new": "models/dog-bowl-chanel/Models/Chanel_assembly.step",
+      "sha256": "a8d572c2c07f243711cf13055e289e9cb285d2a5b2bdf13edba9a58922d3e4d5"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_glue_CC_print_flat.step",
+      "new": "models/dog-bowl-chanel/Models/Chanel_CC_print_flat.step",
+      "sha256": "ebe4fb909b537b80987558886880dd51438759c459109745807e6b8042e3c763"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.step",
+      "new": "models/dog-bowl-chanel/Models/Chanel_clip_fit_test.step",
+      "sha256": "d7c65e0d5f8bac1093358e1600741f6e8d5f558a09f03a3ea16b91ef8b0b5820"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/perspective.png",
+      "new": "models/dog-bowl-chanel/Design/current-exterior.png",
+      "sha256": "06e19244f3b18cf49822588070776eb9d72dfbafe8bff0606c394a173c059935"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/validation.json",
+      "new": "models/dog-bowl-chanel/Notes/current-validation.json",
+      "sha256": "cf36beae2be7e7e95a782ffd1568cc3f7d83a1e89ef390180259c2891ee5eec8"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_bowl_multibody.step",
+      "new": "models/dog-bowl-lv/Models/LV_bowl_multibody.step",
+      "sha256": "aefa5c78866d72457bd60df9cccfdb2dd66d8c7519af870f86ddc44452914a83"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_logo_socket_test.step",
+      "new": "models/dog-bowl-lv/Models/LV_logo_socket_test.step",
+      "sha256": "39f15c77c11dc5fb75dc6b6d01ece8d1c92dec7919ea336708330e19fa3d78f1"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_logo_tenon.step",
+      "new": "models/dog-bowl-lv/Models/LV_logo_tenon.step",
+      "sha256": "2b6078621d6c541ae094c892deb444a4fc44edace320e60b24881ff9be710873"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/README.txt",
+      "new": "models/dog-bowl-lv/Notes/current-model.txt",
+      "sha256": "27911e824714da595acb26440ff7ba0e75fdd96c751418728aac668553bf4154"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/motion_check.json",
+      "new": "models/dog-bowl-lv/Notes/current-motion-check.json",
+      "sha256": "091f4dfdeb0035cfc2fa1d0d4c1fa98bc61955dd06daa34fcb3d87cae6f036ba"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/rear_clip_fit_test.step",
+      "new": "models/dog-bowl-lv/Models/rear_clip_fit_test.step",
+      "sha256": "f105227c32973bcec1816b1cfc7897fc01017355cb34a9625bfcc0f58fe2ff02"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/validation.json",
+      "new": "models/dog-bowl-lv/Notes/current-validation.json",
+      "sha256": "dd8b73688115bb0ea785e0b929f41a6b5a4ba258b3dc62bf0fd945a154a4f2a0"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/perspective.png",
+      "new": "models/dog-bowl-lv/Design/current-exterior.png",
+      "sha256": "14c59c67e57bac1b0c72d42953f5525d2a5235c1c2fddf93fa2b9d35b1a6926c"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v2/build.py",
+      "new": "models/dog-bowl-chanel/Source/build--2bd779ae39.py",
+      "sha256": "2bd779ae39e8e73de55b7e189f1e06ff917e7b5a39dd5f51a85fafb5b112ee4e"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v2/dog_bowls_v2.png",
+      "new": "models/dog-bowl-chanel/Design/dog_bowls_v2--e7a178e4df.png",
+      "sha256": "e7a178e4df94f069a5405927b3f3cb265b74982974c626cfee44378a8f756e11"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v3/build.py",
+      "new": "models/dog-bowl-chanel/Source/build--9aa0dc537e.py",
+      "sha256": "9aa0dc537e5f56f8b5246ce0fa7209a188e7bc5ccb960d5aef14527c8481ad3e"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v3/dog_bowls_v3.png",
+      "new": "models/dog-bowl-chanel/Design/dog_bowls_v3--508b895829.png",
+      "sha256": "508b8958295316ce349b02517e4b26d5a5d21c7da521b9a09d4f52c4faae55e3"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v3/prepare.py",
+      "new": "models/dog-bowl-chanel/Source/prepare--a16593c89f.py",
+      "sha256": "a16593c89f3798ecdb3491c0c2c6317725fbf2e123302b4f340cd7e4ffc681dc"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/build.py",
+      "new": "models/dog-bowl-chanel/Source/build--0d6c559dd5.py",
+      "sha256": "0d6c559dd5a65ddeb1876b598c6279b7a550f66e6a4c6864c643eac423dd42f5"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel-build.log",
+      "new": "models/dog-bowl-chanel/Notes/chanel-build--3dc44d289f.log",
+      "sha256": "3dc44d289f32d66a24dc9fde5b526468befa0f0990282d654efefc906fb68435"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel_front.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_front--e7a00c4087.png",
+      "sha256": "e7a00c408700bba9adc7d2da42f1e873068292e008e12104736fb54c5af602e0"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel_rear.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_rear--7546afcb8b.png",
+      "sha256": "7546afcb8bc0d7a170e8824494eaef04e7acf695d2bc2534f06a2b4401c7ee42"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel_top.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_top--33d8248e51.png",
+      "sha256": "33d8248e51d0e2b067485364b24bbffbfad26d1bc92d3e054ec835e94b6d444c"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/fuse.py",
+      "new": "models/dog-bowl-chanel/Source/fuse--c040b01c65.py",
+      "sha256": "c040b01c6532c04143175928b2288ad78ee7946d73b383d86b80109c573f4de9"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv-build.log",
+      "new": "models/dog-bowl-chanel/Notes/lv-build--09e729af20.log",
+      "sha256": "09e729af201acca0df43454083f26e9d8bcd0de426683e809f3ef8cc862a816c"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv_front.png",
+      "new": "models/dog-bowl-chanel/Design/lv_front--2f89287605.png",
+      "sha256": "2f89287605f63fde6eb959e3cddf93f5ff48f9b7bfc29dbc3c295f1e586719f2"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv_rear.png",
+      "new": "models/dog-bowl-chanel/Design/lv_rear--ce182b6f12.png",
+      "sha256": "ce182b6f12a3dcdd8e1a3683a138b68ac18c6e899edbd6dc85c4ee6ce46ebfb1"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv_top.png",
+      "new": "models/dog-bowl-chanel/Design/lv_top--d6b952cd72.png",
+      "sha256": "d6b952cd72ef74cb19b500623e246103f39940007b1e94f867dd07a6c2e15506"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/build.py",
+      "new": "models/dog-bowl-chanel/Source/build--3ac35b6e43.py",
+      "sha256": "3ac35b6e438d02c02cff598842a0904022f52ed058e9624ad6e6a0dca90b6955"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel-build.log",
+      "new": "models/dog-bowl-chanel/Notes/chanel-build--f5f548c1b3.log",
+      "sha256": "f5f548c1b389956232092d0cc2fca722fdd372f380c2ea35e3090d14aea8ff45"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel_front.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_front--741fde7bf7.png",
+      "sha256": "741fde7bf7f67c1a379b18de5617806b404976fab53382454d4038b56e71eb31"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel_rear.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_rear--5e433db648.png",
+      "sha256": "5e433db648b448613edbd096b0787eca1741749b94bb92a8d52104676916c225"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel_top.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_top--c12143be08.png",
+      "sha256": "c12143be08fa0782d6094b4371ed4e48a994c19fc9ed2f28e3682af81e077b94"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/fuse.py",
+      "new": "models/dog-bowl-chanel/Source/fuse--471015fcca.py",
+      "sha256": "471015fcca2abe0146155572c16c21927b799c1eaf5a32216b0917ed0b662f77"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv-build.log",
+      "new": "models/dog-bowl-chanel/Notes/lv-build--f9bca28223.log",
+      "sha256": "f9bca2822311fa21d9217694568e9ab48e0e7ca4210cbe7886a6bd9df7a303ff"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv_front.png",
+      "new": "models/dog-bowl-chanel/Design/lv_front--4e19176593.png",
+      "sha256": "4e191765933231584363edacdeb4c125c82e65bc1e501d8cb046753223ada2d9"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv_rear.png",
+      "new": "models/dog-bowl-chanel/Design/lv_rear--d0218ca07e.png",
+      "sha256": "d0218ca07e859d01ec5b5329a5f4bb240199aa09174bffe1bc05f06daeb0fe5c"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv_top.png",
+      "new": "models/dog-bowl-chanel/Design/lv_top--6cd51c8530.png",
+      "sha256": "6cd51c85301856d5f110d924a4813c330834e4b7c7ef1a2831fcc253f5f84ad0"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/audit_caps.py",
+      "new": "models/dog-bowl-chanel/Source/audit_caps--9863a58a8a.py",
+      "sha256": "9863a58a8a6664282202a38b869aee1a203cf16fc4315706e6fd190fb2c5938e"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/audit_scene.py",
+      "new": "models/dog-bowl-chanel/Source/audit_scene--49177e8379.py",
+      "sha256": "49177e837996268b748510e909eeacb77cde89e82baacdf10c3aa0707b9ed731"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/audit_weld.py",
+      "new": "models/dog-bowl-chanel/Source/audit_weld--724984caba.py",
+      "sha256": "724984caba3cd2791181e2aba6815a7b04bd0309c424b681d9b1a1eb993c820b"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/build.py",
+      "new": "models/dog-bowl-chanel/Source/build--085d8d9a98.py",
+      "sha256": "085d8d9a98333af73039a2056c3dd3b98800bc19398c2833f459c685062479d7"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/cap-audit.log",
+      "new": "models/dog-bowl-chanel/Notes/cap-audit--8911e3d895.log",
+      "sha256": "8911e3d895237065f15f022c42368a231276b3257b7ea9f10757633387f1bbd4"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel-build.log",
+      "new": "models/dog-bowl-chanel/Notes/chanel-build--db3613b80d.log",
+      "sha256": "db3613b80d062014ed7fd23a3de304c0c2cfda5263d02605c85251dc4e9e9e7f"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel-fuse.log",
+      "new": "models/dog-bowl-chanel/Notes/chanel-fuse--be7e987a21.log",
+      "sha256": "be7e987a2149fc62f75339cbab81c2ec946bd647c9383d3201e696faf5360e75"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel_front.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_front--df1e91aa79.png",
+      "sha256": "df1e91aa792c2d3c691ebd25dcc4d244bb8b51b6b8346ff2de5439bfb3e64d08"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/fuse.py",
+      "new": "models/dog-bowl-chanel/Source/fuse--b6323ea860.py",
+      "sha256": "b6323ea86052e4bbea23fa42a6e17640ab6a9c1c5f4d1c3de2357183ca9e18cf"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/inspect_voxel.py",
+      "new": "models/dog-bowl-chanel/Source/inspect_voxel--658e7809b5.py",
+      "sha256": "658e7809b5cdcb7678a504547983e98ca7676e5be9c579c8305f44e712f94e9b"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv-build.log",
+      "new": "models/dog-bowl-chanel/Notes/lv-build--2f06aa3bc0.log",
+      "sha256": "2f06aa3bc0b9615b86bdb8c683746edb0c9a9b6290f2ed5ae1edbf34ee71d001"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv-fuse.log",
+      "new": "models/dog-bowl-chanel/Notes/lv-fuse--6f33a32d37.log",
+      "sha256": "6f33a32d3732ac860a7851454a7ad466936f24bda5a4a85f28c44c7360cfb594"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv-voxel-render.log",
+      "new": "models/dog-bowl-chanel/Notes/lv-voxel-render--5837644fb5.log",
+      "sha256": "5837644fb565b7378be230343976fa31b9db8695f3b60897b6ac5677ad72e0fb"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv-voxel.log",
+      "new": "models/dog-bowl-chanel/Notes/lv-voxel--9ed2f09462.log",
+      "sha256": "9ed2f09462590f1d1fdcaa320e987f9a01182a65831411f6fb365a80f24aa396"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_front.png",
+      "new": "models/dog-bowl-chanel/Design/lv_front--a3a191f988.png",
+      "sha256": "a3a191f988eec3c8dca2871f16be889f53773242f767fb676ea0bb265ee65330"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_rear.png",
+      "new": "models/dog-bowl-chanel/Design/lv_rear--a1c8745593.png",
+      "sha256": "a1c8745593f014765e340539c619aa6eead8cd67fc35a101fb9a65cf03c2532e"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_top.png",
+      "new": "models/dog-bowl-chanel/Design/lv_top--c675974699.png",
+      "sha256": "c67597469977f141e2eb5b86366d3e4bddcb205c651464667f5d6d31bab632b7"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_voxel_front.png",
+      "new": "models/dog-bowl-chanel/Design/lv_voxel_front--d9458f8ae1.png",
+      "sha256": "d9458f8ae175e004d50c05a07541152556df53eb1bc0ce4b5f63398852ee09bf"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_voxel_rear.png",
+      "new": "models/dog-bowl-chanel/Design/lv_voxel_rear--829206949c.png",
+      "sha256": "829206949cfa04822991954f3daf72e4a74840f35017e6032fc51edc9c3df03a"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/scene-audit.log",
+      "new": "models/dog-bowl-chanel/Notes/scene-audit--36ebf724c7.log",
+      "sha256": "36ebf724c790400674dc684c9e181000eade21747c7fbec82187610a7dbdfd5d"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/slice_chanel/cli.log",
+      "new": "models/dog-bowl-chanel/Notes/cli--c6bc00ddf5.log",
+      "sha256": "c6bc00ddf5efca7bf16ce5203b20198f30c6fc9cf30d8a5e1854fffe50cef1d9"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/voxel_fuse.py",
+      "new": "models/dog-bowl-chanel/Source/voxel_fuse--4f229288e3.py",
+      "sha256": "4f229288e3b877552a886c804a29c2a842d80a20196b4b916c02203c2510426a"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/weld-audit.log",
+      "new": "models/dog-bowl-chanel/Notes/weld-audit--811abedc7b.log",
+      "sha256": "811abedc7b07889d53929984e5d6b340033be6babd1cbd3a6c2aaf1a0f816469"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/build.py",
+      "new": "models/dog-bowl-chanel/Source/build--e4874419cd.py",
+      "sha256": "e4874419cd623fb5fd6cd3896e36412e2a426fa2e451d96b6c2e99efb0887dd4"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel-build.log",
+      "new": "models/dog-bowl-chanel/Notes/chanel-build--7ab605406f.log",
+      "sha256": "7ab605406f3f7db1d5e6ff14fe2ee872f55c7cc59b60b2ef7c89e6858284f928"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel_front.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_front--e775b4edd8.png",
+      "sha256": "e775b4edd853c9b419fb1a93457816e57ff77609adfe25587d4a0188e757ddc0"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel_rear.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_rear--27e0d5d4f5.png",
+      "sha256": "27e0d5d4f5d36ea96d682478491619dc56f7ddb275744f4f8193d1ff111eaa99"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel_top.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_top--aac6beae85.png",
+      "sha256": "aac6beae85c13ff51685adeddec899bf9daaa7799299b2e1ac2cd2ff8e1e1ef6"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/fuse.py",
+      "new": "models/dog-bowl-chanel/Source/fuse--488a790983.py",
+      "sha256": "488a790983f146c98d4c758a57b846328f8bc957ac04dfee2601d54f61cbfc6d"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/build.py",
+      "new": "models/dog-bowl-chanel/Source/build--a0640a5939.py",
+      "sha256": "a0640a5939aa0c2b0ecd46b0ba764ca4fdb051376493184d68316b088618b4be"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel-build.log",
+      "new": "models/dog-bowl-chanel/Notes/chanel-build--8c6ae1773d.log",
+      "sha256": "8c6ae1773db3835dcbd04ebf77112f264b446d830766d58d08ccb84f568cdfa4"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel-voxel-render.log",
+      "new": "models/dog-bowl-chanel/Notes/chanel-voxel-render--2522dfff23.log",
+      "sha256": "2522dfff230dbbfba0906209c4bd4c155018f85f5067792e24c0eb2fe9ce8147"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel-voxel.log",
+      "new": "models/dog-bowl-chanel/Notes/chanel-voxel--944ced1f08.log",
+      "sha256": "944ced1f081ee2c03a1100aa6a932daafb2280d3c654d9b60524e34f1199cdfb"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_front.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_front--837be9bbbf.png",
+      "sha256": "837be9bbbf559660bad3a0a6304f3334ac7bc53ff530709820c9f471e6a2e9d9"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_rear.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_rear--1af10c931d.png",
+      "sha256": "1af10c931d94128979ea252f6c5a2f973d6f5e7fe226e0b64e1a449a390b87a1"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_top.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_top--5ca72eedaa.png",
+      "sha256": "5ca72eedaa4a078e92493c7853fb06c82c5533a05cc6a75e8bd1af481b475e32"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_voxel_front.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_voxel_front--dbaa36a7a6.png",
+      "sha256": "dbaa36a7a6abf3fe60ea96a526151d72d77a85351df3580446cb436f767b160c"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_voxel_rear.png",
+      "new": "models/dog-bowl-chanel/Design/chanel_voxel_rear--04000d8223.png",
+      "sha256": "04000d8223d394bc70d7bec643fd04f63ac7410559ee9a785c2b33c270b26c3d"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/fuse.py",
+      "new": "models/dog-bowl-chanel/Source/fuse--488a790983.py",
+      "sha256": "488a790983f146c98d4c758a57b846328f8bc957ac04dfee2601d54f61cbfc6d"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/inspect_voxel.py",
+      "new": "models/dog-bowl-chanel/Source/inspect_voxel--658e7809b5.py",
+      "sha256": "658e7809b5cdcb7678a504547983e98ca7676e5be9c579c8305f44e712f94e9b"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/cli.log",
+      "new": "models/dog-bowl-chanel/Notes/cli--26aa22c018.log",
+      "sha256": "26aa22c0180487e7f24acff6499c0a21a151250ccd920d5b544c3c43eee51864"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/cli2.log",
+      "new": "models/dog-bowl-chanel/Notes/cli2--e330e2d117.log",
+      "sha256": "e330e2d1171bdca332758dfb066945d901be4d37c51df77b65dfaf6ffb1a8b7c"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/cli3.log",
+      "new": "models/dog-bowl-chanel/Notes/cli3--f63421115c.log",
+      "sha256": "f63421115cd87eac51ef33bd2c565f3e8d29b43e88cc551c00690b9edc171239"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/cli4.log",
+      "new": "models/dog-bowl-chanel/Notes/cli4--f6a5f74936.log",
+      "sha256": "f6a5f74936584eb7eb2317efbc19c1965022cc2df7dc365f475e0f315ffdc4ae"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/filament.json",
+      "new": "models/dog-bowl-chanel/Notes/filament--7c686cb805.json",
+      "sha256": "7c686cb8051268051a8029518ab79523ecd6edad91eef701ab455accd492d623"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/filament2.json",
+      "new": "models/dog-bowl-chanel/Notes/filament2--7184fcec72.json",
+      "sha256": "7184fcec72dff7bf7fb617c609bd7ad0f1a2888b51f4bfd065d9fdd40216e769"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/filament3.json",
+      "new": "models/dog-bowl-chanel/Notes/filament3--2e95d406eb.json",
+      "sha256": "2e95d406ebb7ed4e26451c6a3957d1e64972456dbb8cedf778b9a88f235889f8"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/machine.json",
+      "new": "models/dog-bowl-chanel/Notes/machine--64dec1e251.json",
+      "sha256": "64dec1e25107b304fce7656fd3369c891881081b9e7e3a73f95a0ee6c610362d"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/machine2.json",
+      "new": "models/dog-bowl-chanel/Notes/machine2--b2f9774a30.json",
+      "sha256": "b2f9774a309af503b4b368cd883a50fb6f7f2b77d039e5494bafc7748b0c5604"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/preset.json",
+      "new": "models/dog-bowl-chanel/Notes/preset--ab517da88d.json",
+      "sha256": "ab517da88d23f2f701cbba2adc5b14650c278eb352f9e256abdec6c502bf94cd"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/process.json",
+      "new": "models/dog-bowl-chanel/Notes/process--1be117faea.json",
+      "sha256": "1be117faea3f29a45688fdd69d1da07639d5b7e44767510812db0c4ddb0eb481"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/process2.json",
+      "new": "models/dog-bowl-chanel/Notes/process2--1ca6a99374.json",
+      "sha256": "1ca6a99374d98892b9faa2c302e61517ba048e8aa0578f541a6be526471b8dd2"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/process3.json",
+      "new": "models/dog-bowl-chanel/Notes/process3--0fafc8ef50.json",
+      "sha256": "0fafc8ef50695d29f82268140880a50b3cd988d95f42d274397c8d2c7e6396e4"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/result.json",
+      "new": "models/dog-bowl-chanel/Notes/result--4898a01a96.json",
+      "sha256": "4898a01a9632ae320645159a5fc9182343873cb09d277720b4f1881958d28111"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/voxel_fuse.py",
+      "new": "models/dog-bowl-chanel/Source/voxel_fuse--4f229288e3.py",
+      "sha256": "4f229288e3b877552a886c804a29c2a842d80a20196b4b916c02203c2510426a"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/README.txt",
+      "new": "models/dog-bowl-chanel/Notes/current-model.txt",
+      "sha256": "9444dfbe8b4dfc1da8cd296ac34a1ae89be3965e6a62c386b8d6c2d637163494"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/build.py",
+      "new": "models/dog-bowl-chanel/Source/build--9bd6144192.py",
+      "sha256": "9bd614419292f6d5a704821867d5bc439b5174008cffe3934f7b22ae03758189"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/finalize_meshes.py",
+      "new": "models/dog-bowl-chanel/Source/finalize_meshes--9b296bc742.py",
+      "sha256": "9b296bc7425f09e71223819360978b5ed630b3c2a837aa56c70662145c27e85a"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/manifest.json",
+      "new": "models/dog-bowl-chanel/Notes/manifest--df86827676.json",
+      "sha256": "df868276762e007681e51f42695211c143327fb17c856652f51364e5c026ebf2"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parameters.json",
+      "new": "models/dog-bowl-chanel/Notes/parameters--2c554d66bc.json",
+      "sha256": "2c554d66bc87dba59c07339572ba76098b6234fefec5bb355a63675c7224e5d1"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/perspective.png",
+      "new": "models/dog-bowl-chanel/Design/current-exterior.png",
+      "sha256": "06e19244f3b18cf49822588070776eb9d72dfbafe8bff0606c394a173c059935"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/rear.png",
+      "new": "models/dog-bowl-chanel/Design/rear--2ff4619fec.png",
+      "sha256": "2ff4619fecbe819a7d7ef6373dfb912211bb84d4faf6df308e74507bfb5ca760"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/render.py",
+      "new": "models/dog-bowl-chanel/Source/render--f9d950b8f2.py",
+      "sha256": "f9d950b8f27ea2a6524bb97a750ee4d837c0491ed65967670b8dac2c327e03fa"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/surface_helpers.py",
+      "new": "models/dog-bowl-chanel/Source/surface_helpers--a588657e19.py",
+      "sha256": "a588657e1977fa8efc7f2bd761f2e2c1a189bb6632f751e71256671190f0f4fc"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/validate.py",
+      "new": "models/dog-bowl-chanel/Source/validate--4c948f3388.py",
+      "sha256": "4c948f33887cde30370918c351dbdc4c3d9e1834586b7f6ca87e39e5122493e3"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/validation.json",
+      "new": "models/dog-bowl-chanel/Notes/current-validation.json",
+      "sha256": "cf36beae2be7e7e95a782ffd1568cc3f7d83a1e89ef390180259c2891ee5eec8"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/README.txt",
+      "new": "models/dog-bowl-chanel/Notes/README--22bd111e91.txt",
+      "sha256": "22bd111e91a669b5f4dd5bf77fcc30ba2db60ce77cb0976d0108d344cc0cdf4c"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/build.py",
+      "new": "models/dog-bowl-chanel/Source/build--f569013dce.py",
+      "sha256": "f569013dce3cd9a3f974d419e82216d8c7091c42156e60db7d5f6f756f7e88db"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/finalize_meshes.py",
+      "new": "models/dog-bowl-chanel/Source/finalize_meshes--9b296bc742.py",
+      "sha256": "9b296bc7425f09e71223819360978b5ed630b3c2a837aa56c70662145c27e85a"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/manifest.json",
+      "new": "models/dog-bowl-chanel/Notes/manifest--5d421d42fc.json",
+      "sha256": "5d421d42fc1a40abc6f2c321257f84f004e15f6be8046db2542062b5aa45746f"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/package_BUILD.txt",
+      "new": "models/dog-bowl-chanel/Notes/package_BUILD--8635a966e0.txt",
+      "sha256": "8635a966e03b554b87ecd06b80317e0f711959dd3a534d9ad9463a62a5be7263"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/package_README_打印说明.txt",
+      "new": "models/dog-bowl-chanel/Notes/package_README_打印说明--39df3df46a.txt",
+      "sha256": "39df3df46ada13a1c451cfea5125d9d6a63238f679b2f63cf487e322527585e2"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/package_interface_validation.json",
+      "new": "models/dog-bowl-chanel/Notes/package_interface_validation--80ceeb3a87.json",
+      "sha256": "80ceeb3a8787b39144a83fa1a8e1c1346a62b81e16c3f3a0ef24afc2d8cc9706"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parameters.json",
+      "new": "models/dog-bowl-chanel/Notes/parameters--dd962b98b5.json",
+      "sha256": "dd962b98b51193aca6af337aca79b68367b95bde8221af22bf0c0e760813bd34"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/perspective.png",
+      "new": "models/dog-bowl-chanel/Design/perspective--f5f22602bb.png",
+      "sha256": "f5f22602bbb5181b58e26b4241a992526a0ce032a294ac6ceae4922bf6a0d422"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/rear.png",
+      "new": "models/dog-bowl-chanel/Design/rear--4b6af4f10c.png",
+      "sha256": "4b6af4f10c7eaa2378173cde8484acc49b110f02cc02d80e190756cae0287833"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/render.py",
+      "new": "models/dog-bowl-chanel/Source/render--15d654bd82.py",
+      "sha256": "15d654bd823eab7235adc92761dc63e02ceb16fab0a9412dc5969819ee589c52"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/surface_helpers.py",
+      "new": "models/dog-bowl-chanel/Source/surface_helpers--a588657e19.py",
+      "sha256": "a588657e1977fa8efc7f2bd761f2e2c1a189bb6632f751e71256671190f0f4fc"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/validate.py",
+      "new": "models/dog-bowl-chanel/Source/validate--4c948f3388.py",
+      "sha256": "4c948f33887cde30370918c351dbdc4c3d9e1834586b7f6ca87e39e5122493e3"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/validation.json",
+      "new": "models/dog-bowl-chanel/Notes/validation--8b3cc53f97.json",
+      "sha256": "8b3cc53f97940a03a3debba695012625fb96a28ea17dd43caa8719f4cf9a8eae"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/build.py",
+      "new": "models/dog-bowl-chanel/Source/build--9bd6144192.py",
+      "sha256": "9bd614419292f6d5a704821867d5bc439b5174008cffe3934f7b22ae03758189"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/finalize_meshes.py",
+      "new": "models/dog-bowl-chanel/Source/finalize_meshes--9b296bc742.py",
+      "sha256": "9b296bc7425f09e71223819360978b5ed630b3c2a837aa56c70662145c27e85a"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/manifest.json",
+      "new": "models/dog-bowl-chanel/Notes/manifest--df86827676.json",
+      "sha256": "df868276762e007681e51f42695211c143327fb17c856652f51364e5c026ebf2"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parameters.json",
+      "new": "models/dog-bowl-chanel/Notes/parameters--2c554d66bc.json",
+      "sha256": "2c554d66bc87dba59c07339572ba76098b6234fefec5bb355a63675c7224e5d1"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/rear.png",
+      "new": "models/dog-bowl-chanel/Design/rear--2ff4619fec.png",
+      "sha256": "2ff4619fecbe819a7d7ef6373dfb912211bb84d4faf6df308e74507bfb5ca760"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/render.py",
+      "new": "models/dog-bowl-chanel/Source/render--f9d950b8f2.py",
+      "sha256": "f9d950b8f27ea2a6524bb97a750ee4d837c0491ed65967670b8dac2c327e03fa"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/surface_helpers.py",
+      "new": "models/dog-bowl-chanel/Source/surface_helpers--a588657e19.py",
+      "sha256": "a588657e1977fa8efc7f2bd761f2e2c1a189bb6632f751e71256671190f0f4fc"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/validate.py",
+      "new": "models/dog-bowl-chanel/Source/validate--4c948f3388.py",
+      "sha256": "4c948f33887cde30370918c351dbdc4c3d9e1834586b7f6ca87e39e5122493e3"
+    },
+    {
+      "old": "models/dog-bowl-chanel/README.md",
+      "new": "models/dog-bowl-chanel/Notes/README--2f6f51d2c9.md",
+      "sha256": "2f6f51d2c9c248d2bdd95d4d7555fd41297400dc1765c37a8e3e99997199c3a4"
+    },
+    {
+      "old": "models/dog-bowl-lv/Design/ApprovedTwoRows/approved_design.png",
+      "new": "models/dog-bowl-lv/Design/approved_design--d8bc176beb.png",
+      "sha256": "d8bc176bebf965021553f7e281cfa699079943130e6b01d54939b8c575e7d1f6"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/LV_Dense4_30mm_Front.png",
+      "new": "models/dog-bowl-lv/Design/LV_Dense4_30mm_Front--76ca4c37e6.png",
+      "sha256": "76ca4c37e6146d4c39f6208954eff3e5679f6ca69244a3202da3050af6bce449"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/LV_Dense4_30mm_Perspective.png",
+      "new": "models/dog-bowl-lv/Design/LV_Dense4_30mm_Perspective--7c5d5385bf.png",
+      "sha256": "7c5d5385bff1c4c244cb9a6414ebf280ef757d61ba9d5e00d6890f6a0f68b935"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/README_四类老花密排.txt",
+      "new": "models/dog-bowl-lv/Notes/README_四类老花密排--0f7cfc72e8.txt",
+      "sha256": "0f7cfc72e872570485b37ab5489835fb05a1eb5aa621b2ebb9d2d0bd1824f7dc"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/LV_Monogram.svg",
+      "new": "models/dog-bowl-lv/Source/LV_Monogram--fcdbedf42e.svg",
+      "sha256": "fcdbedf42e66b75c7ec33d4544d253f6d0f8c2a8204f18be7086b54bcceca93a"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/build.py",
+      "new": "models/dog-bowl-lv/Source/build--3c9597ae78.py",
+      "sha256": "3c9597ae789f38e90b9d31d97687552470f13e8bfc9a930a50fe20cc8a8b24aa"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/front.png",
+      "new": "models/dog-bowl-lv/Design/LV_Dense4_30mm_Front--76ca4c37e6.png",
+      "sha256": "76ca4c37e6146d4c39f6208954eff3e5679f6ca69244a3202da3050af6bce449"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/manifest.json",
+      "new": "models/dog-bowl-lv/Notes/manifest--5b7e666b65.json",
+      "sha256": "5b7e666b655b0817de38de3a31ff570327a5280c0deaeb2cc5eee8ca817d8c06"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parameters.json",
+      "new": "models/dog-bowl-lv/Notes/parameters--298da15f5e.json",
+      "sha256": "298da15f5ecc7cb79ba317ba94dbf987e70113516355ccf82b8866a3777e15b8"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/pattern_layout.json",
+      "new": "models/dog-bowl-lv/Notes/pattern_layout--edbbac2267.json",
+      "sha256": "edbbac2267d4bd162996d3fc3a86b20ec8f2c6efc13b9c7f1d66fe4d919b2e71"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/perspective.png",
+      "new": "models/dog-bowl-lv/Design/LV_Dense4_30mm_Perspective--7c5d5385bf.png",
+      "sha256": "7c5d5385bff1c4c244cb9a6414ebf280ef757d61ba9d5e00d6890f6a0f68b935"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/render.py",
+      "new": "models/dog-bowl-lv/Source/render--33efb2fe0f.py",
+      "sha256": "33efb2fe0f0ed2b7921b1fb9ff50bed657772acc97bb8a1ac20914ded0151745"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/validation.json",
+      "new": "models/dog-bowl-lv/Notes/validation--059ea90239.json",
+      "sha256": "059ea902399b31d7109d29191ad060498e90ffe606ac70fb5413180708151161"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/material_estimate.json",
+      "new": "models/dog-bowl-lv/Notes/material_estimate--426058f1f8.json",
+      "sha256": "426058f1f8233c69ba6b397cf687cdaeb10bb56729afd66647dc73444d78248e"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/validate.py",
+      "new": "models/dog-bowl-lv/Source/validate--7c6ed9dda0.py",
+      "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v2/build.py",
+      "new": "models/dog-bowl-lv/Source/build--2bd779ae39.py",
+      "sha256": "2bd779ae39e8e73de55b7e189f1e06ff917e7b5a39dd5f51a85fafb5b112ee4e"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v2/dog_bowls_v2.png",
+      "new": "models/dog-bowl-lv/Design/dog_bowls_v2--e7a178e4df.png",
+      "sha256": "e7a178e4df94f069a5405927b3f3cb265b74982974c626cfee44378a8f756e11"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v3/build.py",
+      "new": "models/dog-bowl-lv/Source/build--9aa0dc537e.py",
+      "sha256": "9aa0dc537e5f56f8b5246ce0fa7209a188e7bc5ccb960d5aef14527c8481ad3e"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v3/dog_bowls_v3.png",
+      "new": "models/dog-bowl-lv/Design/dog_bowls_v3--508b895829.png",
+      "sha256": "508b8958295316ce349b02517e4b26d5a5d21c7da521b9a09d4f52c4faae55e3"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v3/prepare.py",
+      "new": "models/dog-bowl-lv/Source/prepare--a16593c89f.py",
+      "sha256": "a16593c89f3798ecdb3491c0c2c6317725fbf2e123302b4f340cd7e4ffc681dc"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v4/build.py",
+      "new": "models/dog-bowl-lv/Source/build--0d6c559dd5.py",
+      "sha256": "0d6c559dd5a65ddeb1876b598c6279b7a550f66e6a4c6864c643eac423dd42f5"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel-build.log",
+      "new": "models/dog-bowl-lv/Notes/chanel-build--3dc44d289f.log",
+      "sha256": "3dc44d289f32d66a24dc9fde5b526468befa0f0990282d654efefc906fb68435"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel_front.png",
+      "new": "models/dog-bowl-lv/Design/chanel_front--e7a00c4087.png",
+      "sha256": "e7a00c408700bba9adc7d2da42f1e873068292e008e12104736fb54c5af602e0"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel_rear.png",
+      "new": "models/dog-bowl-lv/Design/chanel_rear--7546afcb8b.png",
+      "sha256": "7546afcb8bc0d7a170e8824494eaef04e7acf695d2bc2534f06a2b4401c7ee42"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel_top.png",
+      "new": "models/dog-bowl-lv/Design/chanel_top--33d8248e51.png",
+      "sha256": "33d8248e51d0e2b067485364b24bbffbfad26d1bc92d3e054ec835e94b6d444c"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v4/fuse.py",
+      "new": "models/dog-bowl-lv/Source/fuse--c040b01c65.py",
+      "sha256": "c040b01c6532c04143175928b2288ad78ee7946d73b383d86b80109c573f4de9"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv-build.log",
+      "new": "models/dog-bowl-lv/Notes/lv-build--09e729af20.log",
+      "sha256": "09e729af201acca0df43454083f26e9d8bcd0de426683e809f3ef8cc862a816c"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv_front.png",
+      "new": "models/dog-bowl-lv/Design/lv_front--2f89287605.png",
+      "sha256": "2f89287605f63fde6eb959e3cddf93f5ff48f9b7bfc29dbc3c295f1e586719f2"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv_rear.png",
+      "new": "models/dog-bowl-lv/Design/lv_rear--ce182b6f12.png",
+      "sha256": "ce182b6f12a3dcdd8e1a3683a138b68ac18c6e899edbd6dc85c4ee6ce46ebfb1"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv_top.png",
+      "new": "models/dog-bowl-lv/Design/lv_top--d6b952cd72.png",
+      "sha256": "d6b952cd72ef74cb19b500623e246103f39940007b1e94f867dd07a6c2e15506"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v5/build.py",
+      "new": "models/dog-bowl-lv/Source/build--3ac35b6e43.py",
+      "sha256": "3ac35b6e438d02c02cff598842a0904022f52ed058e9624ad6e6a0dca90b6955"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel-build.log",
+      "new": "models/dog-bowl-lv/Notes/chanel-build--f5f548c1b3.log",
+      "sha256": "f5f548c1b389956232092d0cc2fca722fdd372f380c2ea35e3090d14aea8ff45"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel_front.png",
+      "new": "models/dog-bowl-lv/Design/chanel_front--741fde7bf7.png",
+      "sha256": "741fde7bf7f67c1a379b18de5617806b404976fab53382454d4038b56e71eb31"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel_rear.png",
+      "new": "models/dog-bowl-lv/Design/chanel_rear--5e433db648.png",
+      "sha256": "5e433db648b448613edbd096b0787eca1741749b94bb92a8d52104676916c225"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel_top.png",
+      "new": "models/dog-bowl-lv/Design/chanel_top--c12143be08.png",
+      "sha256": "c12143be08fa0782d6094b4371ed4e48a994c19fc9ed2f28e3682af81e077b94"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v5/fuse.py",
+      "new": "models/dog-bowl-lv/Source/fuse--471015fcca.py",
+      "sha256": "471015fcca2abe0146155572c16c21927b799c1eaf5a32216b0917ed0b662f77"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv-build.log",
+      "new": "models/dog-bowl-lv/Notes/lv-build--f9bca28223.log",
+      "sha256": "f9bca2822311fa21d9217694568e9ab48e0e7ca4210cbe7886a6bd9df7a303ff"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv_front.png",
+      "new": "models/dog-bowl-lv/Design/lv_front--4e19176593.png",
+      "sha256": "4e191765933231584363edacdeb4c125c82e65bc1e501d8cb046753223ada2d9"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv_rear.png",
+      "new": "models/dog-bowl-lv/Design/lv_rear--d0218ca07e.png",
+      "sha256": "d0218ca07e859d01ec5b5329a5f4bb240199aa09174bffe1bc05f06daeb0fe5c"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv_top.png",
+      "new": "models/dog-bowl-lv/Design/lv_top--6cd51c8530.png",
+      "sha256": "6cd51c85301856d5f110d924a4813c330834e4b7c7ef1a2831fcc253f5f84ad0"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/audit_caps.py",
+      "new": "models/dog-bowl-lv/Source/audit_caps--9863a58a8a.py",
+      "sha256": "9863a58a8a6664282202a38b869aee1a203cf16fc4315706e6fd190fb2c5938e"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/audit_scene.py",
+      "new": "models/dog-bowl-lv/Source/audit_scene--49177e8379.py",
+      "sha256": "49177e837996268b748510e909eeacb77cde89e82baacdf10c3aa0707b9ed731"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/audit_weld.py",
+      "new": "models/dog-bowl-lv/Source/audit_weld--724984caba.py",
+      "sha256": "724984caba3cd2791181e2aba6815a7b04bd0309c424b681d9b1a1eb993c820b"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/build.py",
+      "new": "models/dog-bowl-lv/Source/build--085d8d9a98.py",
+      "sha256": "085d8d9a98333af73039a2056c3dd3b98800bc19398c2833f459c685062479d7"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/cap-audit.log",
+      "new": "models/dog-bowl-lv/Notes/cap-audit--8911e3d895.log",
+      "sha256": "8911e3d895237065f15f022c42368a231276b3257b7ea9f10757633387f1bbd4"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel-build.log",
+      "new": "models/dog-bowl-lv/Notes/chanel-build--db3613b80d.log",
+      "sha256": "db3613b80d062014ed7fd23a3de304c0c2cfda5263d02605c85251dc4e9e9e7f"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel-fuse.log",
+      "new": "models/dog-bowl-lv/Notes/chanel-fuse--be7e987a21.log",
+      "sha256": "be7e987a2149fc62f75339cbab81c2ec946bd647c9383d3201e696faf5360e75"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel_front.png",
+      "new": "models/dog-bowl-lv/Design/chanel_front--df1e91aa79.png",
+      "sha256": "df1e91aa792c2d3c691ebd25dcc4d244bb8b51b6b8346ff2de5439bfb3e64d08"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/fuse.py",
+      "new": "models/dog-bowl-lv/Source/fuse--b6323ea860.py",
+      "sha256": "b6323ea86052e4bbea23fa42a6e17640ab6a9c1c5f4d1c3de2357183ca9e18cf"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/inspect_voxel.py",
+      "new": "models/dog-bowl-lv/Source/inspect_voxel--658e7809b5.py",
+      "sha256": "658e7809b5cdcb7678a504547983e98ca7676e5be9c579c8305f44e712f94e9b"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv-build.log",
+      "new": "models/dog-bowl-lv/Notes/lv-build--2f06aa3bc0.log",
+      "sha256": "2f06aa3bc0b9615b86bdb8c683746edb0c9a9b6290f2ed5ae1edbf34ee71d001"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv-fuse.log",
+      "new": "models/dog-bowl-lv/Notes/lv-fuse--6f33a32d37.log",
+      "sha256": "6f33a32d3732ac860a7851454a7ad466936f24bda5a4a85f28c44c7360cfb594"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv-voxel-render.log",
+      "new": "models/dog-bowl-lv/Notes/lv-voxel-render--5837644fb5.log",
+      "sha256": "5837644fb565b7378be230343976fa31b9db8695f3b60897b6ac5677ad72e0fb"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv-voxel.log",
+      "new": "models/dog-bowl-lv/Notes/lv-voxel--9ed2f09462.log",
+      "sha256": "9ed2f09462590f1d1fdcaa320e987f9a01182a65831411f6fb365a80f24aa396"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_front.png",
+      "new": "models/dog-bowl-lv/Design/lv_front--a3a191f988.png",
+      "sha256": "a3a191f988eec3c8dca2871f16be889f53773242f767fb676ea0bb265ee65330"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_rear.png",
+      "new": "models/dog-bowl-lv/Design/lv_rear--a1c8745593.png",
+      "sha256": "a1c8745593f014765e340539c619aa6eead8cd67fc35a101fb9a65cf03c2532e"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_top.png",
+      "new": "models/dog-bowl-lv/Design/lv_top--c675974699.png",
+      "sha256": "c67597469977f141e2eb5b86366d3e4bddcb205c651464667f5d6d31bab632b7"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_voxel_front.png",
+      "new": "models/dog-bowl-lv/Design/lv_voxel_front--d9458f8ae1.png",
+      "sha256": "d9458f8ae175e004d50c05a07541152556df53eb1bc0ce4b5f63398852ee09bf"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_voxel_rear.png",
+      "new": "models/dog-bowl-lv/Design/lv_voxel_rear--829206949c.png",
+      "sha256": "829206949cfa04822991954f3daf72e4a74840f35017e6032fc51edc9c3df03a"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/scene-audit.log",
+      "new": "models/dog-bowl-lv/Notes/scene-audit--36ebf724c7.log",
+      "sha256": "36ebf724c790400674dc684c9e181000eade21747c7fbec82187610a7dbdfd5d"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/voxel_fuse.py",
+      "new": "models/dog-bowl-lv/Source/voxel_fuse--4f229288e3.py",
+      "sha256": "4f229288e3b877552a886c804a29c2a842d80a20196b4b916c02203c2510426a"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/weld-audit.log",
+      "new": "models/dog-bowl-lv/Notes/weld-audit--811abedc7b.log",
+      "sha256": "811abedc7b07889d53929984e5d6b340033be6babd1cbd3a6c2aaf1a0f816469"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v7/build.py",
+      "new": "models/dog-bowl-lv/Source/build--e4874419cd.py",
+      "sha256": "e4874419cd623fb5fd6cd3896e36412e2a426fa2e451d96b6c2e99efb0887dd4"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v7/chanel-build.log",
+      "new": "models/dog-bowl-lv/Notes/chanel-build--7ab605406f.log",
+      "sha256": "7ab605406f3f7db1d5e6ff14fe2ee872f55c7cc59b60b2ef7c89e6858284f928"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v7/chanel_front.png",
+      "new": "models/dog-bowl-lv/Design/chanel_front--e775b4edd8.png",
+      "sha256": "e775b4edd853c9b419fb1a93457816e57ff77609adfe25587d4a0188e757ddc0"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v7/chanel_rear.png",
+      "new": "models/dog-bowl-lv/Design/chanel_rear--27e0d5d4f5.png",
+      "sha256": "27e0d5d4f5d36ea96d682478491619dc56f7ddb275744f4f8193d1ff111eaa99"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v7/chanel_top.png",
+      "new": "models/dog-bowl-lv/Design/chanel_top--aac6beae85.png",
+      "sha256": "aac6beae85c13ff51685adeddec899bf9daaa7799299b2e1ac2cd2ff8e1e1ef6"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v7/fuse.py",
+      "new": "models/dog-bowl-lv/Source/fuse--488a790983.py",
+      "sha256": "488a790983f146c98d4c758a57b846328f8bc957ac04dfee2601d54f61cbfc6d"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/build.py",
+      "new": "models/dog-bowl-lv/Source/build--a0640a5939.py",
+      "sha256": "a0640a5939aa0c2b0ecd46b0ba764ca4fdb051376493184d68316b088618b4be"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel-build.log",
+      "new": "models/dog-bowl-lv/Notes/chanel-build--8c6ae1773d.log",
+      "sha256": "8c6ae1773db3835dcbd04ebf77112f264b446d830766d58d08ccb84f568cdfa4"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel-voxel-render.log",
+      "new": "models/dog-bowl-lv/Notes/chanel-voxel-render--2522dfff23.log",
+      "sha256": "2522dfff230dbbfba0906209c4bd4c155018f85f5067792e24c0eb2fe9ce8147"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel-voxel.log",
+      "new": "models/dog-bowl-lv/Notes/chanel-voxel--944ced1f08.log",
+      "sha256": "944ced1f081ee2c03a1100aa6a932daafb2280d3c654d9b60524e34f1199cdfb"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_front.png",
+      "new": "models/dog-bowl-lv/Design/chanel_front--837be9bbbf.png",
+      "sha256": "837be9bbbf559660bad3a0a6304f3334ac7bc53ff530709820c9f471e6a2e9d9"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_rear.png",
+      "new": "models/dog-bowl-lv/Design/chanel_rear--1af10c931d.png",
+      "sha256": "1af10c931d94128979ea252f6c5a2f973d6f5e7fe226e0b64e1a449a390b87a1"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_top.png",
+      "new": "models/dog-bowl-lv/Design/chanel_top--5ca72eedaa.png",
+      "sha256": "5ca72eedaa4a078e92493c7853fb06c82c5533a05cc6a75e8bd1af481b475e32"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_voxel_front.png",
+      "new": "models/dog-bowl-lv/Design/chanel_voxel_front--dbaa36a7a6.png",
+      "sha256": "dbaa36a7a6abf3fe60ea96a526151d72d77a85351df3580446cb436f767b160c"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_voxel_rear.png",
+      "new": "models/dog-bowl-lv/Design/chanel_voxel_rear--04000d8223.png",
+      "sha256": "04000d8223d394bc70d7bec643fd04f63ac7410559ee9a785c2b33c270b26c3d"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/fuse.py",
+      "new": "models/dog-bowl-lv/Source/fuse--488a790983.py",
+      "sha256": "488a790983f146c98d4c758a57b846328f8bc957ac04dfee2601d54f61cbfc6d"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/inspect_voxel.py",
+      "new": "models/dog-bowl-lv/Source/inspect_voxel--658e7809b5.py",
+      "sha256": "658e7809b5cdcb7678a504547983e98ca7676e5be9c579c8305f44e712f94e9b"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/voxel_fuse.py",
+      "new": "models/dog-bowl-lv/Source/voxel_fuse--4f229288e3.py",
+      "sha256": "4f229288e3b877552a886c804a29c2a842d80a20196b4b916c02203c2510426a"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/LV_Monogram.svg",
+      "new": "models/dog-bowl-lv/Source/LV_Monogram--fcdbedf42e.svg",
+      "sha256": "fcdbedf42e66b75c7ec33d4544d253f6d0f8c2a8204f18be7086b54bcceca93a"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/build.py",
+      "new": "models/dog-bowl-lv/Source/build--8cc93054d4.py",
+      "sha256": "8cc93054d4dc542a6134d1a60628868bb6fb8473cc08443fe94370ad8913c15e"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/manifest.json",
+      "new": "models/dog-bowl-lv/Notes/manifest--e4e030de1e.json",
+      "sha256": "e4e030de1e57b8e5de6375800dbd56a4aee22ce8a3e582167446090439240920"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parameters.json",
+      "new": "models/dog-bowl-lv/Notes/parameters--697793b641.json",
+      "sha256": "697793b641b6d7ca5f191341cc86e3022c6017bff2851ff0f196e1695ec487cc"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/perspective.png",
+      "new": "models/dog-bowl-lv/Design/perspective--bca0b9e486.png",
+      "sha256": "bca0b9e486e154ea4b2efb987bf231ebe427350bce03a1d7d00f68437b143648"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/rear.png",
+      "new": "models/dog-bowl-lv/Design/rear--04488c43bf.png",
+      "sha256": "04488c43bfd8d98f3331da516cfc26f87ad9689814b31f88196e8d465a6e255f"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/render.py",
+      "new": "models/dog-bowl-lv/Source/render--8b7ceee877.py",
+      "sha256": "8b7ceee8779d2d83a7537f732f716b62aa3524e132e83a5e8d2f875a9915f40a"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/validation.json",
+      "new": "models/dog-bowl-lv/Notes/validation--ce70d4f0f6.json",
+      "sha256": "ce70d4f0f6bb403aecc0aa0c12946f04f74ba1d2fef754028d9f5dc8ad99f834"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/BUILD.txt",
+      "new": "models/dog-bowl-lv/Notes/BUILD--8635a966e0.txt",
+      "sha256": "8635a966e03b554b87ecd06b80317e0f711959dd3a534d9ad9463a62a5be7263"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/README_打印说明.txt",
+      "new": "models/dog-bowl-lv/Notes/README_打印说明--39df3df46a.txt",
+      "sha256": "39df3df46ada13a1c451cfea5125d9d6a63238f679b2f63cf487e322527585e2"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/check_interfaces.py",
+      "new": "models/dog-bowl-lv/Source/check_interfaces--13baa97d67.py",
+      "sha256": "13baa97d673442d5639778d118e2443071eb562593884151512c059b36d0c7b3"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/interface_validation.json",
+      "new": "models/dog-bowl-lv/Notes/interface_validation--80ceeb3a87.json",
+      "sha256": "80ceeb3a8787b39144a83fa1a8e1c1346a62b81e16c3f3a0ef24afc2d8cc9706"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/LV_Monogram.svg",
+      "new": "models/dog-bowl-lv/Source/LV_Monogram--fcdbedf42e.svg",
+      "sha256": "fcdbedf42e66b75c7ec33d4544d253f6d0f8c2a8204f18be7086b54bcceca93a"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/back.png",
+      "new": "models/dog-bowl-lv/Design/back--9d02c63128.png",
+      "sha256": "9d02c631283f0c5de0d9e28d474a8d7a23d6917d4d69183fce09adc4fbee84aa"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/build.py",
+      "new": "models/dog-bowl-lv/Source/build--ae1ef28c3d.py",
+      "sha256": "ae1ef28c3deed361dbdadc4d1835046437b0e66220b26caecb43a2f6004f4bf4"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/check_clip.py",
+      "new": "models/dog-bowl-lv/Source/check_clip--6035d423cf.py",
+      "sha256": "6035d423cf79a2cead8cf4421e4c958aad80ac9742b18eb7b46776bc12edae5f"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/clip_validation.json",
+      "new": "models/dog-bowl-lv/Notes/clip_validation--7431e94cc2.json",
+      "sha256": "7431e94cc2795cc33ba27e1cd1d891208b91676cdd7f3810db556e58b619a7d7"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/manifest.json",
+      "new": "models/dog-bowl-lv/Notes/manifest--52687fc507.json",
+      "sha256": "52687fc50714943c49116905d8fc09e9f150e6566bb693697edd2f1db319f21d"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parameters.json",
+      "new": "models/dog-bowl-lv/Notes/parameters--7ba6af1c4f.json",
+      "sha256": "7ba6af1c4fa987f816143261a8f2ce38f9752bf45885d123d8fa6057ca567684"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/perspective.png",
+      "new": "models/dog-bowl-lv/Design/perspective--3e20804659.png",
+      "sha256": "3e208046596e7c17a21034bb6899278dd04d1665963e5c8e0cf09ed80c0da02a"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/print_helpers.py",
+      "new": "models/dog-bowl-lv/Source/print_helpers--b912683ef9.py",
+      "sha256": "b912683ef9dd8cf551a4ec1b1e36f58f52fcb452094f63f6369fe2ccfcb6b0b1"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/remesh.py",
+      "new": "models/dog-bowl-lv/Source/remesh--4eb8ccb5a2.py",
+      "sha256": "4eb8ccb5a2a793831e7f5cfba52a8ada6048222b31eb62fad5707923a3b88892"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/render.py",
+      "new": "models/dog-bowl-lv/Source/render--d48d6efbd3.py",
+      "sha256": "d48d6efbd3d3b02ade07233b01e74f314ef2621885d138b66db34fb232b6c973"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/side.png",
+      "new": "models/dog-bowl-lv/Design/side--4fb73105d8.png",
+      "sha256": "4fb73105d853a59910039b87497e7489c9bb25a21a6648ce0ab9aafdcca14461"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/validate.py",
+      "new": "models/dog-bowl-lv/Source/validate--4d1cacad59.py",
+      "sha256": "4d1cacad59679da66f026859dc9d3ec9615a9e976dc50c21062fcb63535cf3d3"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/validation.json",
+      "new": "models/dog-bowl-lv/Notes/validation--d4b4c71453.json",
+      "sha256": "d4b4c714534fbd5fdabecdfa64ef571d9209d7a32f283c762acafaf3c0b09b40"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/PRINT_README.txt",
+      "new": "models/dog-bowl-lv/Notes/PRINT_README--0e49c2ea43.txt",
+      "sha256": "0e49c2ea43c830377c55f0678accaa5f48418f1d79de8c4662951d52f44a9e11"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/SHA256SUMS.txt",
+      "new": "models/dog-bowl-lv/Notes/SHA256SUMS--c13e043abc.txt",
+      "sha256": "c13e043abc9bcd97d77cc9cb0691a158b4973d72bfc89e103658a419c054b04a"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/SOURCE_LICENSE.md",
+      "new": "models/dog-bowl-lv/Notes/SOURCE_LICENSE--42440773f5.md",
+      "sha256": "42440773f5aa6d87ae512fad5f98aad716242dec294fa76af1c9ee0815b94519"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/approved_design.png",
+      "new": "models/dog-bowl-lv/Design/approved_design--d8bc176beb.png",
+      "sha256": "d8bc176bebf965021553f7e281cfa699079943130e6b01d54939b8c575e7d1f6"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/approved_layout.json",
+      "new": "models/dog-bowl-lv/Notes/approved_layout--4b90caabb7.json",
+      "sha256": "4b90caabb7ae790ac3f2240c9d3c930f16f55541453f0e1ad63f2a0fbf7c088e"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/build.py",
+      "new": "models/dog-bowl-lv/Source/build--ccb937939a.py",
+      "sha256": "ccb937939aac2cd64630666b5fe8dce4a1d39db7e9a68bf690bd7c32374f47e8"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/front.png",
+      "new": "models/dog-bowl-lv/Design/front--c13a322325.png",
+      "sha256": "c13a322325824561a53953bddd60c495297feb1017c3669ae72eef7aa040f00d"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/manifest.json",
+      "new": "models/dog-bowl-lv/Notes/manifest--42209996a1.json",
+      "sha256": "42209996a1c47a62b4a09f9d33e19d947f774571541d1cf119116fbbfe53cfae"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/pattern_layout.json",
+      "new": "models/dog-bowl-lv/Notes/pattern_layout--93ba576962.json",
+      "sha256": "93ba576962f70667220ef5f6d668581a7ae02fe4b9cb87483e4addb40dfed62a"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/perspective.png",
+      "new": "models/dog-bowl-lv/Design/perspective--fd8b90e6e1.png",
+      "sha256": "fd8b90e6e11259c409a92789e8e4b1181932e4d45a9e4d4752c5733b78aeb29d"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/rear.png",
+      "new": "models/dog-bowl-lv/Design/rear--11a40ef160.png",
+      "sha256": "11a40ef16093dba24aeda45d52ae41b515a5a7f7082f3ecc294459c61636ad3b"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/render.py",
+      "new": "models/dog-bowl-lv/Source/render--c3efefdb9a.py",
+      "sha256": "c3efefdb9a0b1cb4e7323e85c9dcaf2e8c99ab05afe43ab622f901fa9ceb77fc"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/source.ai",
+      "new": "models/dog-bowl-lv/Source/source--eda50631ae.ai",
+      "sha256": "eda50631aeb5c9f3817a9da713523815a6069bd724d2448c37abbe619f09c4aa"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/topology_checks.json",
+      "new": "models/dog-bowl-lv/Notes/topology_checks--cd2556c103.json",
+      "sha256": "cd2556c1035013cb8bb8da454c901e959e2df77b7dbfa4432ca52e68950672ac"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/validation.json",
+      "new": "models/dog-bowl-lv/Notes/validation--268dc2b170.json",
+      "sha256": "268dc2b1708ed3cf1ba872e9c682c5d7c70c24bb34e7e2c1d31f9846f7429cce"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/vector_shapes.py",
+      "new": "models/dog-bowl-lv/Source/vector_shapes--051510d7da.py",
+      "sha256": "051510d7da2713b90ccce732fd41ee1d997e6c6d39fa05219020c15e684e4743"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/slicing_diagnostic/README.txt",
+      "new": "models/dog-bowl-lv/Notes/README--e8ef9674a8.txt",
+      "sha256": "e8ef9674a8cbfa05594c9673b417b22f14ffc03b5b3f1592c0104ed696bdd7d5"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/slicing_diagnostic/bowl_result.json",
+      "new": "models/dog-bowl-lv/Notes/bowl_result--384b2b6d5b.json",
+      "sha256": "384b2b6d5bd50240f1771f5c35c3a79410412f23f1330dfcb2cb59f93b5fd369"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/slicing_diagnostic/logo_result.json",
+      "new": "models/dog-bowl-lv/Notes/logo_result--56d3ecef59.json",
+      "sha256": "56d3ecef59b464f652d3350a44a844b8c90a8605b6ce00b67b775e80cbf0d997"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/validate.py",
+      "new": "models/dog-bowl-lv/Source/validate--7c6ed9dda0.py",
+      "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/打印说明.txt",
+      "new": "models/dog-bowl-lv/Notes/打印说明--c145e4f4cb.txt",
+      "sha256": "c145e4f4cb71a769630ce6af53976dbf4c92407d11ed2e3e8dbe6cdce63d0f96"
+    },
+    {
+      "old": "models/dog-bowl-lv/Documentation/FullSides_ReleaseRecords/slicing_diagnostic/README.txt",
+      "new": "models/dog-bowl-lv/Notes/README--c0d881e636.txt",
+      "sha256": "c0d881e636c2a604f3caef1e8b7ca3a32652d77f5c48c7fd6a6ddbb8d4c68231"
+    },
+    {
+      "old": "models/dog-bowl-lv/Documentation/FullSides_ReleaseRecords/slicing_diagnostic/clip_fit_coupon_result.json",
+      "new": "models/dog-bowl-lv/Notes/clip_fit_coupon_result--c7a5a385c3.json",
+      "sha256": "c7a5a385c3b6c8df54b196d0e5348edaa52a4e78d6d20265c7cdd60a6e8f839a"
+    },
+    {
+      "old": "models/dog-bowl-lv/Documentation/FullSides_ReleaseRecords/slicing_diagnostic/whole_bowl_AMS_result.json",
+      "new": "models/dog-bowl-lv/Notes/whole_bowl_AMS_result--804a26cae9.json",
+      "sha256": "804a26cae9f090731d236bba36bb06bf5ef0ba42af7eac1c7fc403504d27fb6c"
+    },
+    {
+      "old": "models/dog-bowl-lv/Documentation/FullSides_ReleaseRecords/请先读_版本选择.txt",
+      "new": "models/dog-bowl-lv/Notes/请先读_版本选择--204878e005.txt",
+      "sha256": "204878e0050a6f764478af60ae4d785c6e14e03d8e4fef7035cdf0ce1dea36b8"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/PRINT_README.txt",
+      "new": "models/dog-bowl-lv/Notes/PRINT_README--01ceb1e1b5.txt",
+      "sha256": "01ceb1e1b533db0098d1a856c321e340458a8fb0d84094735ec13288432e61fb"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/PrintProject/README.md",
+      "new": "models/dog-bowl-lv/Notes/README--e47ca36b51.md",
+      "sha256": "e47ca36b512692dd5fa6ccffe9c18e9c776904b8e52665af477865924a675815"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/SHA256SUMS.txt",
+      "new": "models/dog-bowl-lv/Notes/SHA256SUMS--dc39f614a7.txt",
+      "sha256": "dc39f614a7469bf117fb3723e864beca427e4ae6f7b1f4aab5de89af54a5f994"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/SOURCE_LICENSE.md",
+      "new": "models/dog-bowl-lv/Notes/SOURCE_LICENSE--42440773f5.md",
+      "sha256": "42440773f5aa6d87ae512fad5f98aad716242dec294fa76af1c9ee0815b94519"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/SHA256.json",
+      "new": "models/dog-bowl-lv/Notes/SHA256--08640495df.json",
+      "sha256": "08640495dfc147a6e5834a0d261d997aacc8e42caf15adf8366166d4ed131c0a"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/build.log",
+      "new": "models/dog-bowl-lv/Notes/build--4daa1ea6fc.log",
+      "sha256": "4daa1ea6fc97ce291b9a0ac3d188c6fae6cac53255c1ab3fe08865c5659f623d"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/build.py",
+      "new": "models/dog-bowl-lv/Source/build--3c7ef200bf.py",
+      "sha256": "3c7ef200bfece6c94d73a9bae46fe413540eaf7c0cb232ccd347e76904f19927"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/check.py",
+      "new": "models/dog-bowl-lv/Source/check--212329ac3a.py",
+      "sha256": "212329ac3aacb8da9dfeb1ff3ad21797161adbfd623e322088a35bd69ab89a8f"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/approved_design.png",
+      "new": "models/dog-bowl-lv/Design/approved_design--d8bc176beb.png",
+      "sha256": "d8bc176bebf965021553f7e281cfa699079943130e6b01d54939b8c575e7d1f6"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/coverage_verification.json",
+      "new": "models/dog-bowl-lv/Notes/coverage_verification--0a446234aa.json",
+      "sha256": "0a446234aa67b0858c8b27852888419ddd56aac99b299579797139401adbbe2e"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/approved_layout.json",
+      "new": "models/dog-bowl-lv/Notes/approved_layout--4b90caabb7.json",
+      "sha256": "4b90caabb7ae790ac3f2240c9d3c930f16f55541453f0e1ad63f2a0fbf7c088e"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/build.py",
+      "new": "models/dog-bowl-lv/Source/build--ad22f58eb1.py",
+      "sha256": "ad22f58eb19d2b59c43e7d3a6eaa93ca51b1a8eb6198c54d4b8f7277ab145ad6"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/clip.png",
+      "new": "models/dog-bowl-lv/Design/clip--dc0e4e464d.png",
+      "sha256": "dc0e4e464d102fdac2b2757c1fd7b3ebf8cb3c59b9984c948dae66c982f6c24d"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/clip_checks.json",
+      "new": "models/dog-bowl-lv/Notes/clip_checks--97d0db2402.json",
+      "sha256": "97d0db2402e5a1ecc5707694346dd38d86ddae88e753d05b8f7583e27595dc2d"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/manifest.json",
+      "new": "models/dog-bowl-lv/Notes/manifest--d346b12f9f.json",
+      "sha256": "d346b12f9f0351844d8a7d2513ebe3d6bcc412b11104d5553b0f3cb0ac4fe2f8"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/pattern_layout.json",
+      "new": "models/dog-bowl-lv/Notes/pattern_layout--38cd814f00.json",
+      "sha256": "38cd814f007ca81330bf279dd3cf1122fcf477467f421c6ba6d11e42d33f6877"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/rear.png",
+      "new": "models/dog-bowl-lv/Design/rear--ead8a4b19d.png",
+      "sha256": "ead8a4b19dcf7d85658f56e71460fab649324af976377e66b574e1c8738e0711"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/render.py",
+      "new": "models/dog-bowl-lv/Source/render--ddc2c06a84.py",
+      "sha256": "ddc2c06a8420f34a088dcd81382f1141f73adf104243e371f995e0c6671aaf21"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/source.ai",
+      "new": "models/dog-bowl-lv/Source/source--eda50631ae.ai",
+      "sha256": "eda50631aeb5c9f3817a9da713523815a6069bd724d2448c37abbe619f09c4aa"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/topology_checks.json",
+      "new": "models/dog-bowl-lv/Notes/topology_checks--63749466c9.json",
+      "sha256": "63749466c96d1a9e5458cdc7d813f8943a84acfcd71d022e82c078c1eff63f87"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/validation.json",
+      "new": "models/dog-bowl-lv/Notes/validation--7ed9a77a08.json",
+      "sha256": "7ed9a77a0892b2b059d2a266c029529ac60daa3bc4c5701ca7f8992e4d380866"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/vector_shapes.py",
+      "new": "models/dog-bowl-lv/Source/vector_shapes--051510d7da.py",
+      "sha256": "051510d7da2713b90ccce732fd41ee1d997e6c6d39fa05219020c15e684e4743"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/validate.py",
+      "new": "models/dog-bowl-lv/Source/validate--7c6ed9dda0.py",
+      "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/打印说明.txt",
+      "new": "models/dog-bowl-lv/Notes/打印说明--c685bff68d.txt",
+      "sha256": "c685bff68d0c43e49b3f1b56f4cb57f3802f29a48cbe19957e7662125e43881a"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/PRINT_README.txt",
+      "new": "models/dog-bowl-lv/Notes/PRINT_README--e5e3ea53b7.txt",
+      "sha256": "e5e3ea53b7924d85822beaef99e5862b6acc52e8e58c05489e0c34bd847d87c7"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/SHA256SUMS.txt",
+      "new": "models/dog-bowl-lv/Notes/SHA256SUMS--f5859043d8.txt",
+      "sha256": "f5859043d8321345159c2e2536787b4c02800fd011da2acd28fdd9294499b61b"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/SOURCE_LICENSE.md",
+      "new": "models/dog-bowl-lv/Notes/SOURCE_LICENSE--42440773f5.md",
+      "sha256": "42440773f5aa6d87ae512fad5f98aad716242dec294fa76af1c9ee0815b94519"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/approved_design.png",
+      "new": "models/dog-bowl-lv/Design/approved_design--d8bc176beb.png",
+      "sha256": "d8bc176bebf965021553f7e281cfa699079943130e6b01d54939b8c575e7d1f6"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/coverage_verification.json",
+      "new": "models/dog-bowl-lv/Notes/coverage_verification--ff82ff4141.json",
+      "sha256": "ff82ff414151a7d2733954563983b03f3dae3e568a4893c49f45bb85f466e02b"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/approved_layout.json",
+      "new": "models/dog-bowl-lv/Notes/approved_layout--4b90caabb7.json",
+      "sha256": "4b90caabb7ae790ac3f2240c9d3c930f16f55541453f0e1ad63f2a0fbf7c088e"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/build.py",
+      "new": "models/dog-bowl-lv/Source/build--f3186550a4.py",
+      "sha256": "f3186550a4b519c44f017983bfdb09e94642221555982a95658d7df7d99c06c7"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/front.png",
+      "new": "models/dog-bowl-lv/Design/front--7f54bb60d6.png",
+      "sha256": "7f54bb60d6096d767b10f807a23863b207e9185d02aea23e41871a0e34db0897"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/left.png",
+      "new": "models/dog-bowl-lv/Design/left--83e808a326.png",
+      "sha256": "83e808a326e70cb2525acf95e75f7f8a740d0368070d2ead04b6dd5e280cb94e"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/manifest.json",
+      "new": "models/dog-bowl-lv/Notes/manifest--9976ef5d30.json",
+      "sha256": "9976ef5d3071120e85d532ee35a341081d18e46670e36104b9d1968dfdab5e21"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/pattern_layout.json",
+      "new": "models/dog-bowl-lv/Notes/pattern_layout--38cd814f00.json",
+      "sha256": "38cd814f007ca81330bf279dd3cf1122fcf477467f421c6ba6d11e42d33f6877"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/rear.png",
+      "new": "models/dog-bowl-lv/Design/rear--548be69d81.png",
+      "sha256": "548be69d81c468f1e9da0ce150793d8cc4dc598014a8a8483c307439d44a0451"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/render.py",
+      "new": "models/dog-bowl-lv/Source/render--142e15ff53.py",
+      "sha256": "142e15ff53d7cc36bfbc2bf04a8c2e70d8a8520cf2df7b8944ae618cf526731a"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/side.png",
+      "new": "models/dog-bowl-lv/Design/side--d79d3ce1f1.png",
+      "sha256": "d79d3ce1f10f8a0444fa9722f67a99d35639fcee30370855924c02fb70e6602c"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/source.ai",
+      "new": "models/dog-bowl-lv/Source/source--eda50631ae.ai",
+      "sha256": "eda50631aeb5c9f3817a9da713523815a6069bd724d2448c37abbe619f09c4aa"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/topology_checks.json",
+      "new": "models/dog-bowl-lv/Notes/topology_checks--fcdbd1ffc2.json",
+      "sha256": "fcdbd1ffc2023d5427f2260b74488a6afd6be4dd6ad912b151308c247568502e"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/validation.json",
+      "new": "models/dog-bowl-lv/Notes/validation--1249f58844.json",
+      "sha256": "1249f588447606c279c10fe95a3e603e4ec79032b4cf7fa1923759d37bbdc8ac"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/vector_shapes.py",
+      "new": "models/dog-bowl-lv/Source/vector_shapes--051510d7da.py",
+      "sha256": "051510d7da2713b90ccce732fd41ee1d997e6c6d39fa05219020c15e684e4743"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/validate.py",
+      "new": "models/dog-bowl-lv/Source/validate--7c6ed9dda0.py",
+      "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/打印说明.txt",
+      "new": "models/dog-bowl-lv/Notes/打印说明--1d1e440fcd.txt",
+      "sha256": "1d1e440fcd65510e9aad0038fd5b22a80b494cfd15f3d70ed7441c3777a17714"
+    },
+    {
+      "old": "models/dog-bowl-lv/README.md",
+      "new": "models/dog-bowl-lv/Notes/README--32a656e569.md",
+      "sha256": "32a656e5696648537c0768ec07100e3b586ad36fa0da6d1b923f59b4c6a3e7f2"
+    },
+    {
+      "old": "projects/dog-bow/MIGRATION_MANIFEST.json",
+      "new": "projects/dog-bow/Notes/MIGRATION_MANIFEST--2ab7d68137.json",
+      "sha256": "2ab7d681371de19fe725e8066c68d456dd07af3488789c93bf84b299ed0c19c9"
+    },
+    {
+      "old": "projects/dog-bow/README.md",
+      "new": "projects/dog-bow/Notes/README--a039845084.md",
+      "sha256": "a039845084ada367b8546b7c80aada287b347a527975c51e266ea38818728aa2"
+    },
+    {
+      "old": "projects/dog-bow/README_项目索引.txt",
+      "new": "projects/dog-bow/Notes/README_项目索引--c46aa58ac4.txt",
+      "sha256": "c46aa58ac48460c3b41956f2eb9ae4f015208b643924819d99d6647777e0b8e5"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v2/build.py",
+      "new": "projects/dog-bow/Source/build--2bd779ae39.py",
+      "sha256": "2bd779ae39e8e73de55b7e189f1e06ff917e7b5a39dd5f51a85fafb5b112ee4e"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v2/dog_bowls_v2.png",
+      "new": "projects/dog-bow/Design/dog_bowls_v2--e7a178e4df.png",
+      "sha256": "e7a178e4df94f069a5405927b3f3cb265b74982974c626cfee44378a8f756e11"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v3/build.py",
+      "new": "projects/dog-bow/Source/build--9aa0dc537e.py",
+      "sha256": "9aa0dc537e5f56f8b5246ce0fa7209a188e7bc5ccb960d5aef14527c8481ad3e"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v3/dog_bowls_v3.png",
+      "new": "projects/dog-bow/Design/dog_bowls_v3--508b895829.png",
+      "sha256": "508b8958295316ce349b02517e4b26d5a5d21c7da521b9a09d4f52c4faae55e3"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v3/prepare.py",
+      "new": "projects/dog-bow/Source/prepare--a16593c89f.py",
+      "sha256": "a16593c89f3798ecdb3491c0c2c6317725fbf2e123302b4f340cd7e4ffc681dc"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/build.py",
+      "new": "projects/dog-bow/Source/build--0d6c559dd5.py",
+      "sha256": "0d6c559dd5a65ddeb1876b598c6279b7a550f66e6a4c6864c643eac423dd42f5"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/chanel-build.log",
+      "new": "projects/dog-bow/Notes/chanel-build--3dc44d289f.log",
+      "sha256": "3dc44d289f32d66a24dc9fde5b526468befa0f0990282d654efefc906fb68435"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/chanel_front.png",
+      "new": "projects/dog-bow/Design/chanel_front--e7a00c4087.png",
+      "sha256": "e7a00c408700bba9adc7d2da42f1e873068292e008e12104736fb54c5af602e0"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/chanel_rear.png",
+      "new": "projects/dog-bow/Design/chanel_rear--7546afcb8b.png",
+      "sha256": "7546afcb8bc0d7a170e8824494eaef04e7acf695d2bc2534f06a2b4401c7ee42"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/chanel_top.png",
+      "new": "projects/dog-bow/Design/chanel_top--33d8248e51.png",
+      "sha256": "33d8248e51d0e2b067485364b24bbffbfad26d1bc92d3e054ec835e94b6d444c"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/fuse.py",
+      "new": "projects/dog-bow/Source/fuse--c040b01c65.py",
+      "sha256": "c040b01c6532c04143175928b2288ad78ee7946d73b383d86b80109c573f4de9"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/lv-build.log",
+      "new": "projects/dog-bow/Notes/lv-build--09e729af20.log",
+      "sha256": "09e729af201acca0df43454083f26e9d8bcd0de426683e809f3ef8cc862a816c"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/lv_front.png",
+      "new": "projects/dog-bow/Design/lv_front--2f89287605.png",
+      "sha256": "2f89287605f63fde6eb959e3cddf93f5ff48f9b7bfc29dbc3c295f1e586719f2"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/lv_rear.png",
+      "new": "projects/dog-bow/Design/lv_rear--ce182b6f12.png",
+      "sha256": "ce182b6f12a3dcdd8e1a3683a138b68ac18c6e899edbd6dc85c4ee6ce46ebfb1"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/lv_top.png",
+      "new": "projects/dog-bow/Design/lv_top--d6b952cd72.png",
+      "sha256": "d6b952cd72ef74cb19b500623e246103f39940007b1e94f867dd07a6c2e15506"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/build.py",
+      "new": "projects/dog-bow/Source/build--3ac35b6e43.py",
+      "sha256": "3ac35b6e438d02c02cff598842a0904022f52ed058e9624ad6e6a0dca90b6955"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/chanel-build.log",
+      "new": "projects/dog-bow/Notes/chanel-build--f5f548c1b3.log",
+      "sha256": "f5f548c1b389956232092d0cc2fca722fdd372f380c2ea35e3090d14aea8ff45"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/chanel_front.png",
+      "new": "projects/dog-bow/Design/chanel_front--741fde7bf7.png",
+      "sha256": "741fde7bf7f67c1a379b18de5617806b404976fab53382454d4038b56e71eb31"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/chanel_rear.png",
+      "new": "projects/dog-bow/Design/chanel_rear--5e433db648.png",
+      "sha256": "5e433db648b448613edbd096b0787eca1741749b94bb92a8d52104676916c225"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/chanel_top.png",
+      "new": "projects/dog-bow/Design/chanel_top--c12143be08.png",
+      "sha256": "c12143be08fa0782d6094b4371ed4e48a994c19fc9ed2f28e3682af81e077b94"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/fuse.py",
+      "new": "projects/dog-bow/Source/fuse--471015fcca.py",
+      "sha256": "471015fcca2abe0146155572c16c21927b799c1eaf5a32216b0917ed0b662f77"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/lv-build.log",
+      "new": "projects/dog-bow/Notes/lv-build--f9bca28223.log",
+      "sha256": "f9bca2822311fa21d9217694568e9ab48e0e7ca4210cbe7886a6bd9df7a303ff"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/lv_front.png",
+      "new": "projects/dog-bow/Design/lv_front--4e19176593.png",
+      "sha256": "4e191765933231584363edacdeb4c125c82e65bc1e501d8cb046753223ada2d9"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/lv_rear.png",
+      "new": "projects/dog-bow/Design/lv_rear--d0218ca07e.png",
+      "sha256": "d0218ca07e859d01ec5b5329a5f4bb240199aa09174bffe1bc05f06daeb0fe5c"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/lv_top.png",
+      "new": "projects/dog-bow/Design/lv_top--6cd51c8530.png",
+      "sha256": "6cd51c85301856d5f110d924a4813c330834e4b7c7ef1a2831fcc253f5f84ad0"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/audit_caps.py",
+      "new": "projects/dog-bow/Source/audit_caps--9863a58a8a.py",
+      "sha256": "9863a58a8a6664282202a38b869aee1a203cf16fc4315706e6fd190fb2c5938e"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/audit_scene.py",
+      "new": "projects/dog-bow/Source/audit_scene--49177e8379.py",
+      "sha256": "49177e837996268b748510e909eeacb77cde89e82baacdf10c3aa0707b9ed731"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/audit_weld.py",
+      "new": "projects/dog-bow/Source/audit_weld--724984caba.py",
+      "sha256": "724984caba3cd2791181e2aba6815a7b04bd0309c424b681d9b1a1eb993c820b"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/build.py",
+      "new": "projects/dog-bow/Source/build--085d8d9a98.py",
+      "sha256": "085d8d9a98333af73039a2056c3dd3b98800bc19398c2833f459c685062479d7"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/cap-audit.log",
+      "new": "projects/dog-bow/Notes/cap-audit--8911e3d895.log",
+      "sha256": "8911e3d895237065f15f022c42368a231276b3257b7ea9f10757633387f1bbd4"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/chanel-build.log",
+      "new": "projects/dog-bow/Notes/chanel-build--db3613b80d.log",
+      "sha256": "db3613b80d062014ed7fd23a3de304c0c2cfda5263d02605c85251dc4e9e9e7f"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/chanel-fuse.log",
+      "new": "projects/dog-bow/Notes/chanel-fuse--be7e987a21.log",
+      "sha256": "be7e987a2149fc62f75339cbab81c2ec946bd647c9383d3201e696faf5360e75"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/chanel_front.png",
+      "new": "projects/dog-bow/Design/chanel_front--df1e91aa79.png",
+      "sha256": "df1e91aa792c2d3c691ebd25dcc4d244bb8b51b6b8346ff2de5439bfb3e64d08"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/fuse.py",
+      "new": "projects/dog-bow/Source/fuse--b6323ea860.py",
+      "sha256": "b6323ea86052e4bbea23fa42a6e17640ab6a9c1c5f4d1c3de2357183ca9e18cf"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/inspect_voxel.py",
+      "new": "projects/dog-bow/Source/inspect_voxel--658e7809b5.py",
+      "sha256": "658e7809b5cdcb7678a504547983e98ca7676e5be9c579c8305f44e712f94e9b"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/lv-build.log",
+      "new": "projects/dog-bow/Notes/lv-build--2f06aa3bc0.log",
+      "sha256": "2f06aa3bc0b9615b86bdb8c683746edb0c9a9b6290f2ed5ae1edbf34ee71d001"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/lv-fuse.log",
+      "new": "projects/dog-bow/Notes/lv-fuse--6f33a32d37.log",
+      "sha256": "6f33a32d3732ac860a7851454a7ad466936f24bda5a4a85f28c44c7360cfb594"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/lv-voxel-render.log",
+      "new": "projects/dog-bow/Notes/lv-voxel-render--5837644fb5.log",
+      "sha256": "5837644fb565b7378be230343976fa31b9db8695f3b60897b6ac5677ad72e0fb"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/lv-voxel.log",
+      "new": "projects/dog-bow/Notes/lv-voxel--9ed2f09462.log",
+      "sha256": "9ed2f09462590f1d1fdcaa320e987f9a01182a65831411f6fb365a80f24aa396"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/lv_front.png",
+      "new": "projects/dog-bow/Design/lv_front--a3a191f988.png",
+      "sha256": "a3a191f988eec3c8dca2871f16be889f53773242f767fb676ea0bb265ee65330"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/lv_rear.png",
+      "new": "projects/dog-bow/Design/lv_rear--a1c8745593.png",
+      "sha256": "a1c8745593f014765e340539c619aa6eead8cd67fc35a101fb9a65cf03c2532e"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/lv_top.png",
+      "new": "projects/dog-bow/Design/lv_top--c675974699.png",
+      "sha256": "c67597469977f141e2eb5b86366d3e4bddcb205c651464667f5d6d31bab632b7"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/lv_voxel_front.png",
+      "new": "projects/dog-bow/Design/lv_voxel_front--d9458f8ae1.png",
+      "sha256": "d9458f8ae175e004d50c05a07541152556df53eb1bc0ce4b5f63398852ee09bf"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/lv_voxel_rear.png",
+      "new": "projects/dog-bow/Design/lv_voxel_rear--829206949c.png",
+      "sha256": "829206949cfa04822991954f3daf72e4a74840f35017e6032fc51edc9c3df03a"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/scene-audit.log",
+      "new": "projects/dog-bow/Notes/scene-audit--36ebf724c7.log",
+      "sha256": "36ebf724c790400674dc684c9e181000eade21747c7fbec82187610a7dbdfd5d"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/voxel_fuse.py",
+      "new": "projects/dog-bow/Source/voxel_fuse--4f229288e3.py",
+      "sha256": "4f229288e3b877552a886c804a29c2a842d80a20196b4b916c02203c2510426a"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/weld-audit.log",
+      "new": "projects/dog-bow/Notes/weld-audit--811abedc7b.log",
+      "sha256": "811abedc7b07889d53929984e5d6b340033be6babd1cbd3a6c2aaf1a0f816469"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v7/build.py",
+      "new": "projects/dog-bow/Source/build--e4874419cd.py",
+      "sha256": "e4874419cd623fb5fd6cd3896e36412e2a426fa2e451d96b6c2e99efb0887dd4"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v7/chanel-build.log",
+      "new": "projects/dog-bow/Notes/chanel-build--7ab605406f.log",
+      "sha256": "7ab605406f3f7db1d5e6ff14fe2ee872f55c7cc59b60b2ef7c89e6858284f928"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v7/chanel_front.png",
+      "new": "projects/dog-bow/Design/chanel_front--e775b4edd8.png",
+      "sha256": "e775b4edd853c9b419fb1a93457816e57ff77609adfe25587d4a0188e757ddc0"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v7/chanel_rear.png",
+      "new": "projects/dog-bow/Design/chanel_rear--27e0d5d4f5.png",
+      "sha256": "27e0d5d4f5d36ea96d682478491619dc56f7ddb275744f4f8193d1ff111eaa99"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v7/chanel_top.png",
+      "new": "projects/dog-bow/Design/chanel_top--aac6beae85.png",
+      "sha256": "aac6beae85c13ff51685adeddec899bf9daaa7799299b2e1ac2cd2ff8e1e1ef6"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v7/fuse.py",
+      "new": "projects/dog-bow/Source/fuse--488a790983.py",
+      "sha256": "488a790983f146c98d4c758a57b846328f8bc957ac04dfee2601d54f61cbfc6d"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/build.py",
+      "new": "projects/dog-bow/Source/build--a0640a5939.py",
+      "sha256": "a0640a5939aa0c2b0ecd46b0ba764ca4fdb051376493184d68316b088618b4be"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/chanel-build.log",
+      "new": "projects/dog-bow/Notes/chanel-build--8c6ae1773d.log",
+      "sha256": "8c6ae1773db3835dcbd04ebf77112f264b446d830766d58d08ccb84f568cdfa4"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/chanel-voxel-render.log",
+      "new": "projects/dog-bow/Notes/chanel-voxel-render--2522dfff23.log",
+      "sha256": "2522dfff230dbbfba0906209c4bd4c155018f85f5067792e24c0eb2fe9ce8147"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/chanel-voxel.log",
+      "new": "projects/dog-bow/Notes/chanel-voxel--944ced1f08.log",
+      "sha256": "944ced1f081ee2c03a1100aa6a932daafb2280d3c654d9b60524e34f1199cdfb"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/chanel_front.png",
+      "new": "projects/dog-bow/Design/chanel_front--837be9bbbf.png",
+      "sha256": "837be9bbbf559660bad3a0a6304f3334ac7bc53ff530709820c9f471e6a2e9d9"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/chanel_rear.png",
+      "new": "projects/dog-bow/Design/chanel_rear--1af10c931d.png",
+      "sha256": "1af10c931d94128979ea252f6c5a2f973d6f5e7fe226e0b64e1a449a390b87a1"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/chanel_top.png",
+      "new": "projects/dog-bow/Design/chanel_top--5ca72eedaa.png",
+      "sha256": "5ca72eedaa4a078e92493c7853fb06c82c5533a05cc6a75e8bd1af481b475e32"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/chanel_voxel_front.png",
+      "new": "projects/dog-bow/Design/chanel_voxel_front--dbaa36a7a6.png",
+      "sha256": "dbaa36a7a6abf3fe60ea96a526151d72d77a85351df3580446cb436f767b160c"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/chanel_voxel_rear.png",
+      "new": "projects/dog-bow/Design/chanel_voxel_rear--04000d8223.png",
+      "sha256": "04000d8223d394bc70d7bec643fd04f63ac7410559ee9a785c2b33c270b26c3d"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/fuse.py",
+      "new": "projects/dog-bow/Source/fuse--488a790983.py",
+      "sha256": "488a790983f146c98d4c758a57b846328f8bc957ac04dfee2601d54f61cbfc6d"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/inspect_voxel.py",
+      "new": "projects/dog-bow/Source/inspect_voxel--658e7809b5.py",
+      "sha256": "658e7809b5cdcb7678a504547983e98ca7676e5be9c579c8305f44e712f94e9b"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/voxel_fuse.py",
+      "new": "projects/dog-bow/Source/voxel_fuse--4f229288e3.py",
+      "sha256": "4f229288e3b877552a886c804a29c2a842d80a20196b4b916c02203c2510426a"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/InitialConcept/build.py",
+      "new": "projects/dog-bow/Source/build--d3045a86bf.py",
+      "sha256": "d3045a86bfd4ebf4af3a960a7fe47b03a6d949a2422a8ee7b23c1addcebcc2e3"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/InitialConcept/dog_bowl_preview.png",
+      "new": "projects/dog-bow/Design/dog_bowl_preview--ed9b052a6d.png",
+      "sha256": "ed9b052a6dd4b51b2474843b19b8880dc8c37eba580c54f610de0288bef3ea90"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/InitialConcept/result.json",
+      "new": "projects/dog-bow/Notes/result--42e22306a2.json",
+      "sha256": "42e22306a237958098f3c9096eaf2a6cdd630cca627b302e89055d097ef18cfb"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Outline_OriginalRelease/models/build_frames.py",
+      "new": "projects/dog-bow/Source/build_frames--8440440e30.py",
+      "sha256": "8440440e304bcb505fac21115152eb7cebf48916dfd728d1b306f821d6be093c"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Outline_OriginalRelease/models/validation.json",
+      "new": "projects/dog-bow/Notes/validation--7b64ff236a.json",
+      "sha256": "7b64ff236a4d7188edaebdbb56e79bc15742cef912df6bbfa4f7b08884105755"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Outline_OriginalRelease/models/先打印这个_边框小样.txt",
+      "new": "projects/dog-bow/Notes/先打印这个_边框小样--c44dcfe0bf.txt",
+      "sha256": "c44dcfe0bfbcae266bdc588397ed4a3c4fb2e001c3ab2dea9ce2b2b855662e09"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/LowBowl_OriginalRelease/README_30mm新版.txt",
+      "new": "projects/dog-bow/Notes/README_30mm新版--6a13880602.txt",
+      "sha256": "6a138806029a95e2fe2936eb4df22185c66f747bf126212280ca48cfc445ea84"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/LowBowl_OriginalRelease/material_estimate.json",
+      "new": "projects/dog-bow/Notes/material_estimate--c2d6d9f689.json",
+      "sha256": "c2d6d9f6896b821b77c20be787be3464b1d7f166a77dc0be8b3eed0e51ffc356"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/LowBowl_OriginalRelease/validate.py",
+      "new": "projects/dog-bow/Source/validate--7c6ed9dda0.py",
+      "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/LowBowl_SharedContext/README_30mm新版.txt",
+      "new": "projects/dog-bow/Notes/README_30mm新版--6a13880602.txt",
+      "sha256": "6a138806029a95e2fe2936eb4df22185c66f747bf126212280ca48cfc445ea84"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/LowBowl_SharedContext/material_estimate.json",
+      "new": "projects/dog-bow/Notes/material_estimate--c2d6d9f689.json",
+      "sha256": "c2d6d9f6896b821b77c20be787be3464b1d7f166a77dc0be8b3eed0e51ffc356"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/LowBowl_SharedContext/validate.py",
+      "new": "projects/dog-bow/Source/validate--7c6ed9dda0.py",
+      "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/OrganizationHistory/README_版本索引.txt",
+      "new": "projects/dog-bow/Notes/README_版本索引--e855d39c55.txt",
+      "sha256": "e855d39c554e59c12a67c5a8d0e03bd4e8adb6f64afd094a2d17d1f1a9b8bb10"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/OrganizationHistory/brand_organization_moves.json",
+      "new": "projects/dog-bow/Notes/brand_organization_moves--c87b7d7e87.json",
+      "sha256": "c87b7d7e874e24619a7ea89e545d3660e1b343bf3c49836ff47daf46bea277b9"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/OrganizationHistory/cleanup_2026-11-15.json",
+      "new": "projects/dog-bow/Notes/cleanup_2026-11-15--0e0e317b7f.json",
+      "sha256": "0e0e317b7f7411c6fb6e1c4e593e5028e709f4a3df12a32633c019fd90eb6b47"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/OrganizationHistory/daily_retention_2026-11-16.json",
+      "new": "projects/dog-bow/Notes/daily_retention_2026-11-16--609a9b84a8.json",
+      "sha256": "609a9b84a8b57570785e629f3a8706a018224c1ee71b18f1bc6656b2071ec026"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/OrganizationHistory/identical_model_references.json",
+      "new": "projects/dog-bow/Notes/identical_model_references--c82bd95710.json",
+      "sha256": "c82bd957100a75c694f1e14e06a4432ee2f03d59b6ec7b42d37bb5755972f11f"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/OrganizationHistory/manifest_sha256.json",
+      "new": "projects/dog-bow/Notes/manifest_sha256--27bf36351f.json",
+      "sha256": "27bf36351fffa3ac7b3afac55c3b60904a0d414a0886671e8c3fe7d30d67a903"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/OrganizationHistory/recovery_log.json",
+      "new": "projects/dog-bow/Notes/recovery_log--e04f292cac.json",
+      "sha256": "e04f292cac194740b27b4c696ad9a4fb403654563f85c0c17a5b8ffbeeb6cade"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/build_frames.py",
+      "new": "projects/dog-bow/Source/build_frames--8440440e30.py",
+      "sha256": "8440440e304bcb505fac21115152eb7cebf48916dfd728d1b306f821d6be093c"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/validation.json",
+      "new": "projects/dog-bow/Notes/validation--7b64ff236a.json",
+      "sha256": "7b64ff236a4d7188edaebdbb56e79bc15742cef912df6bbfa4f7b08884105755"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/先打印这个_边框小样.txt",
+      "new": "projects/dog-bow/Notes/先打印这个_边框小样--c44dcfe0bf.txt",
+      "sha256": "c44dcfe0bfbcae266bdc588397ed4a3c4fb2e001c3ab2dea9ce2b2b855662e09"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/UnfinishedExperimentalDelivery/READ_ME_FIRST.txt",
+      "new": "projects/dog-bow/Notes/READ_ME_FIRST--232f3422fc.txt",
+      "sha256": "232f3422fc664396c2c94e3e886b4a9298b523fb6636695963591e564da92d8c"
+    },
+    {
+      "old": "projects/dog-bow/Shared/FitSamples/OutlineFrames/models/build_frames.py",
+      "new": "projects/dog-bow/Source/build_frames--8440440e30.py",
+      "sha256": "8440440e304bcb505fac21115152eb7cebf48916dfd728d1b306f821d6be093c"
+    },
+    {
+      "old": "projects/dog-bow/Shared/FitSamples/OutlineFrames/models/validation.json",
+      "new": "projects/dog-bow/Notes/validation--7b64ff236a.json",
+      "sha256": "7b64ff236a4d7188edaebdbb56e79bc15742cef912df6bbfa4f7b08884105755"
+    },
+    {
+      "old": "projects/dog-bow/Shared/FitSamples/OutlineFrames/models/先打印这个_边框小样.txt",
+      "new": "projects/dog-bow/Notes/先打印这个_边框小样--c44dcfe0bf.txt",
+      "sha256": "c44dcfe0bfbcae266bdc588397ed4a3c4fb2e001c3ab2dea9ce2b2b855662e09"
+    },
+    {
+      "old": "projects/dog-bow/manifest_sha256.json",
+      "new": "projects/dog-bow/Notes/manifest_sha256--6545d45798.json",
+      "sha256": "6545d457989253ba9f41fbad1268f956e7179f416eb133bfdea4b61d0bbec3cc"
+    }
+  ],
+  "removed_old_models": [
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v2/dog_bowl_v2.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v2/dog_bowl_v2.blend1",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v3/dog_bowl_v3.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/slice_chanel/plate_1.gcode",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/chanel_bowl_assembly.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_bottom_layers.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_bottom_layers.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC_print_flat.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC_print_flat.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_top_layers.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_top_layers.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/clip_fit_coupon.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/clip_fit_coupon.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/cream_body_inverted_clip.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/cream_body_inverted_clip.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/whole_bowl_AMS.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/whole_bowl_AMS.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/source/base_CC.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/chanel_bowl_assembly.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/black_glue_CC.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/black_glue_CC.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/black_glue_CC_print_flat.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/black_glue_CC_print_flat.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/black_top_layers.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/black_top_layers.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/clip_fit_coupon.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/clip_fit_coupon.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/cream_body_inverted_clip.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/cream_body_inverted_clip.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/whole_bowl_AMS.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/whole_bowl_AMS.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/source/base_CC.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Documentation/UnfinishedExperimentalDelivery/CHANEL_未完成实验.zip",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_bottom_layers.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_bottom_layers.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_glue_CC.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_glue_CC.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_glue_CC_print_flat.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_top_layers.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_top_layers.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/cream_body_inverted_clip.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/cream_body_inverted_clip.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/whole_bowl_AMS.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/whole_bowl_AMS.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-chanel/Models/LowBowl_30mm/source/base_CC.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/bowl_30mm_assembly.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/blue_middle_z2_28.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/blue_middle_z2_28.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/clip_fit_coupon.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/clip_fit_coupon.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_bottom_z0_2.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_bottom_z0_2.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_glue_logo.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_glue_logo.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_logo_print_flat.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_logo_print_flat.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_top_z28_30.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_top_z28_30.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/whole_bowl_AMS.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/whole_bowl_AMS.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/packages/LV_Bowl_30mm_Dense4_InvertedT_2026-11-15.zip",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v2/dog_bowl_v2.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v2/dog_bowl_v2.blend1",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v3/dog_bowl_v3.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v6/slice_chanel",
+      "reason": "旧目录别名，内容已有独立保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v7/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/Experimental_v8/slice_chanel",
+      "reason": "旧目录别名，内容已有独立保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/bowl_30mm_assembly.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/blue_middle_z2_28.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/blue_middle_z2_28.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/clip_fit_coupon.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/clip_fit_coupon.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_bottom_z0_2.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_bottom_z0_2.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_glue_logo.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_glue_logo.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_logo_print_flat.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_logo_print_flat.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_top_z28_30.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_top_z28_30.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/whole_bowl_AMS.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/whole_bowl_AMS.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/high_bowl_assembly.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/blue_body_with_inverted_T_clip.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/blue_body_with_inverted_T_clip.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/clip_fit_coupon.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/clip_fit_coupon.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/footprint_2mm_gauge.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/footprint_2mm_gauge.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/ivory_glue_logo.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/ivory_glue_logo.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/ivory_logo_print_flat.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/ivory_logo_print_flat.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/ivory_top_layers.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/ivory_top_layers.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/whole_bowl_AMS.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/whole_bowl_AMS.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/bowl_30mm_assembly.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/blue_middle_z2_28.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/blue_middle_z2_28.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/clip_fit_coupon.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/clip_fit_coupon.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_bottom_z0_2.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_bottom_z0_2.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_glue_logo.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_glue_logo.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_logo_print_flat.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_logo_print_flat.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_top_z28_30.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_top_z28_30.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/whole_bowl_AMS.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/whole_bowl_AMS.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/packages/LV_Bowl_30mm_Vector_TwoRows_2026-11-16.zip",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Documentation/FullSides_ReleaseRecords/packages/LV_Bowl_FullSides_ClipOptions_2026-11-16.zip",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Documentation/RecoveredPackages/LV_Bowl_InvertedT_2026-11-14.zip",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Documentation/UnfinishedExperimentalDelivery/LV_未完成实验.zip",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_logo_tenon_assembly_position.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/bowl_30mm_assembly.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/blue_middle_z2_28.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/blue_middle_z2_28.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/clip_fit_coupon.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/clip_fit_coupon.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_bottom_z0_2.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_bottom_z0_2.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_glue_logo.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_glue_logo.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_logo_print_flat.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_logo_print_flat.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_top_z28_30.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_top_z28_30.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/whole_bowl_AMS.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/whole_bowl_AMS.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/bowl_30mm_assembly.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/blue_middle_z2_28.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/blue_middle_z2_28.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/clip_fit_coupon.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/clip_fit_coupon.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_glue_logo.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_glue_logo.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_logo_print_flat.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_logo_print_flat.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/whole_bowl_AMS.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/whole_bowl_AMS.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v2/dog_bowl_v2.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v2/dog_bowl_v2.blend1",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v3/dog_bowl_v3.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v4/lv_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v5/lv_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/lv_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v6/slice_chanel",
+      "reason": "旧目录别名，内容已有独立保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v7/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/chanel_concept.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Experimental_v8/slice_chanel",
+      "reason": "旧目录别名，内容已有独立保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/InitialConcept/dog_bowl_concepts.blend",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Outline_OriginalRelease/models/Chanel_outline_2mm.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Outline_OriginalRelease/models/Chanel_outline_2mm.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Outline_OriginalRelease/models/LV_outline_2mm.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Outline_OriginalRelease/models/LV_outline_2mm.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/DesignProcess/Outline_OriginalRelease/packages/Bowl_Outline_Frames_2mm_2026-11-15.zip",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/LowBowl_OriginalRelease/packages/LV_Chanel_Bowls_30mm_InvertedT_2026-11-15.zip",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/Chanel_outline_2mm.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/Chanel_outline_2mm.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/LV_outline_2mm.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/LV_outline_2mm.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames_2mm_2026-11-15.zip",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/RecoveredPackages/high_bowl_v2_package.zip",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/TallBowl_ReleaseRecords/packages/Chanel_Bowl_InvertedT_Complete_2026-11-15.zip",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/Documentation/TallBowl_ReleaseRecords/packages/LV_Bowl_InvertedT_2026-11-14.zip",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/FitSamples/OutlineFrames/models/Chanel_outline_2mm.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/FitSamples/OutlineFrames/models/Chanel_outline_2mm.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/FitSamples/OutlineFrames/models/LV_outline_2mm.step",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/FitSamples/OutlineFrames/models/LV_outline_2mm.stl",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    },
+    {
+      "old": "projects/dog-bow/Shared/FitSamples/OutlineFrames/packages/Bowl_Outline_Frames_2mm_2026-11-15.zip",
+      "reason": "已替代模型/重复导出或历史压缩包；Git历史保留"
+    }
+  ]
+}

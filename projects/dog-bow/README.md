@@ -1,19 +1,3 @@
-# 狗碗项目维护入口
+# 狗碗共享设计记录
 
-模型、设计图、文档、源码与试错记录现以本仓库为工作位置。
-
-- [LV](../../models/dog-bowl-lv/)（从仓库根目录访问：`models/dog-bowl-lv/`）
-- [Chanel](../../models/dog-bowl-chanel/)（`models/dog-bowl-chanel/`）
-- `Shared/`：公共脚本、初稿、边框试样、历史交付证据及诊断。
-
-按品牌组织，不再建立每日交付目录。相同模型使用仓库内相对引用；功能不同的接口候选与试配小样独立保留。历史失败实验留在 DesignProcess，不作为已验收模型。
-
-## 当前验证边界
-
-30 mm 模型几何已检查；真实喷嘴细节、卡扣试配、承重仍未验证。Bambu CLI 虽生成路径，配置继承问题使重量为零，不构成有效切片验收。不可把历史 G-code 直接发送打印机。
-
-## 本次迁入
-
-`MIGRATION_MANIFEST.json` 记录迁入文件的来源相对路径、大小、SHA-256与引用。原 Documents 项目保留为迁移前备份，尚未删除。此记录不意味着远端已上传。
-
-历史脚本/日志中的绝对路径保留用于追溯，运行前需换为当前仓库路径；未逐个重跑历史建模脚本。
+共享图片、文档及试错脚本在 Design、Notes、Source；旧模型和历史压缩包已从工作树移除，可由Git历史恢复。当前模型仅在 models/dog-bowl-lv/Models 和 models/dog-bowl-chanel/Models。
