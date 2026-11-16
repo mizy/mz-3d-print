@@ -1,0 +1,46 @@
+{
+  "blue_middle_z2_28": {
+    "components": 1,
+    "all_component_volumes_positive": true,
+    "degenerate_faces": 0
+  },
+  "clip_fit_coupon": {
+    "components": 1,
+    "all_component_volumes_positive": true,
+    "degenerate_faces": 0
+  },
+  "whole_bowl_AMS": {
+    "components": 1,
+    "all_component_volumes_positive": true,
+    "degenerate_faces": 0
+  },
+  "ivory_top_z28_30": {
+    "components": 1,
+    "all_component_volumes_positive": true,
+    "degenerate_faces": 0
+  },
+  "ivory_logo_print_flat": {
+    "components": 1,
+    "all_component_volumes_positive": true,
+    "degenerate_faces": 0
+  },
+  "ivory_bottom_z0_2": {
+    "components": 1,
+    "all_component_volumes_positive": true,
+    "degenerate_faces": 0
+  },
+  "ivory_glue_logo": {
+    "components": 1,
+    "all_component_volumes_positive": true,
+    "degenerate_faces": 0
+  },
+  "bands": {
+    "sum_cad_volume": 137843.21924143084,
+    "whole_cad_volume": 137843.21924125444,
+    "pairwise_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

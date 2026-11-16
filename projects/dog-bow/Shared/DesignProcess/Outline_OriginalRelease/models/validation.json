@@ -1,0 +1,46 @@
+[
+  {
+    "name": "LV",
+    "cad_valid": true,
+    "solids": 1,
+    "height_mm": 2.0,
+    "bounds_mm": [
+      -80.0,
+      -90.0,
+      0.0,
+      80.0,
+      66.5,
+      2.0
+    ],
+    "volume_mm3": 2840.7432785353085,
+    "original_volume_mm3": 42149.25491280536,
+    "material_reduction_percent": 93.26027640485701,
+    "approx_solid_PLA_grams": 3.5225216653837825,
+    "outer_bounds_unchanged": true,
+    "stl_watertight": true,
+    "stl_positive_volume": true,
+    "stl_connected_components": 1
+  },
+  {
+    "name": "Chanel",
+    "cad_valid": true,
+    "solids": 1,
+    "height_mm": 2.000000200000029,
+    "bounds_mm": [
+      -80.78872904543161,
+      -90.57951877957035,
+      -1e-07,
+      80.7887291375024,
+      66.5000001,
+      2.000000100000029
+    ],
+    "volume_mm3": 2944.293847001633,
+    "original_volume_mm3": 42252.97842042382,
+    "material_reduction_percent": 93.03174839485764,
+    "approx_solid_PLA_grams": 3.650924370282025,
+    "outer_bounds_unchanged": true,
+    "stl_watertight": true,
+    "stl_positive_volume": true,
+    "stl_connected_components": 1
+  }
+]

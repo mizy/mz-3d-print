@@ -1,0 +1,284 @@
+[
+  {
+    "reference": "LV/Models/FullSides_OriginalClip/lv/parts/clip_fit_coupon.stl",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.stl",
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa",
+    "bytes": 1484
+  },
+  {
+    "reference": "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_glue_logo.stl",
+    "canonical": "LV/Models/FullSides_OriginalClip/lv/parts/ivory_glue_logo.stl",
+    "sha256": "d2e686ffaee1690514c255b6dd9e82de5db58cfcd9d52d33752a76c4413d8ed6",
+    "bytes": 352384
+  },
+  {
+    "reference": "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_top_z28_30.stl",
+    "canonical": "LV/Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.stl",
+    "sha256": "12882f8d2b6aca7c593980bcff15a5fe8a8753d01e3189e12a5cfcd66a2d4fb7",
+    "bytes": 65684
+  },
+  {
+    "reference": "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_bottom_z0_2.stl",
+    "canonical": "LV/Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.stl",
+    "sha256": "ec940b06e8ae9e27785d9d8750cefbf87c23ca8593db3326adb24bd022b3ca60",
+    "bytes": 33884
+  },
+  {
+    "reference": "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_logo_print_flat.stl",
+    "canonical": "LV/Models/FullSides_OriginalClip/lv/parts/ivory_logo_print_flat.stl",
+    "sha256": "eb544084a2bad95eafa734eb908de69018ae301fabc4de833d3fcb43033ea109",
+    "bytes": 352684
+  },
+  {
+    "reference": "Chanel/DesignProcess/TallBowl_85mm/source/base_CC.step",
+    "canonical": "Chanel/Models/LowBowl_30mm/source/base_CC.step",
+    "sha256": "e606d6ac747cd195d4039a50d962851b350428b74534172549417e674702f928",
+    "bytes": 4760826
+  },
+  {
+    "reference": "Chanel/DesignProcess/TallBowl_85mm/parts/clip_fit_coupon.stl",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.stl",
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa",
+    "bytes": 1484
+  },
+  {
+    "reference": "LV/DesignProcess/Experimental_v6/lv_body_only_unfinished.stl",
+    "canonical": "LV/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl",
+    "sha256": "b8968228eb3fba8b773c99b1c8049277a2c20e27e189a1b330782a2482bcbef2",
+    "bytes": 30105484
+  },
+  {
+    "reference": "LV/DesignProcess/LowBowl_FirstDesign/parts/clip_fit_coupon.stl",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.stl",
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa",
+    "bytes": 1484
+  },
+  {
+    "reference": "LV/DesignProcess/LowBowl_FirstDesign/parts/ivory_top_z28_30.stl",
+    "canonical": "LV/Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.stl",
+    "sha256": "12882f8d2b6aca7c593980bcff15a5fe8a8753d01e3189e12a5cfcd66a2d4fb7",
+    "bytes": 65684
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/source/base_CC.step",
+    "canonical": "Chanel/Models/LowBowl_30mm/source/base_CC.step",
+    "sha256": "e606d6ac747cd195d4039a50d962851b350428b74534172549417e674702f928",
+    "bytes": 4760826
+  },
+  {
+    "reference": "LV/DesignProcess/LowBowl_FirstDesign/parts/ivory_bottom_z0_2.stl",
+    "canonical": "LV/Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.stl",
+    "sha256": "ec940b06e8ae9e27785d9d8750cefbf87c23ca8593db3326adb24bd022b3ca60",
+    "bytes": 33884
+  },
+  {
+    "reference": "Chanel/DesignProcess/Experimental_v7/chanel_body_only_unfinished.stl",
+    "canonical": "Chanel/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl",
+    "sha256": "28ddb500ed0af587ad35b779e4355ed86d62b0a0ae6bd2d4b9747e2792f67be4",
+    "bytes": 30105484
+  },
+  {
+    "reference": "Chanel/DesignProcess/Experimental_v8/chanel_body_only_unfinished.stl",
+    "canonical": "Chanel/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl",
+    "sha256": "28ddb500ed0af587ad35b779e4355ed86d62b0a0ae6bd2d4b9747e2792f67be4",
+    "bytes": 30105484
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC.stl",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/black_glue_CC.stl",
+    "sha256": "f1df2cb14d8648e018bd65f98db93edb9de3fe84cd1918e64d8b70f58450caa8",
+    "bytes": 3850884
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC.step",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/black_glue_CC.step",
+    "sha256": "cb1f19d4704c75de3b7ad36de7f8d798b1293d431b28d050df68bc83cce23e58",
+    "bytes": 6288960
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/whole_bowl_AMS.stl",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/whole_bowl_AMS.stl",
+    "sha256": "9b4af30fd7cefddaee099c0f2e503cb9c451043e94920a43ffce3082fc0f1f0c",
+    "bytes": 2462184
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/chanel_bowl_assembly.step",
+    "canonical": "Chanel/Models/LowBowl_30mm/chanel_bowl_assembly.step",
+    "sha256": "a8d572c2c07f243711cf13055e289e9cb285d2a5b2bdf13edba9a58922d3e4d5",
+    "bytes": 11539181
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/clip_fit_coupon.stl",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.stl",
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa",
+    "bytes": 1484
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/whole_bowl_AMS.step",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/whole_bowl_AMS.step",
+    "sha256": "057b43c7a3226a1cdd7b766c8fa1040930e3f7b32b3b0890dd245d41d11a257c",
+    "bytes": 2089280
+  },
+  {
+    "reference": "Shared/DesignProcess/Outline_OriginalRelease/models/LV_outline_2mm.stl",
+    "canonical": "Shared/FitSamples/OutlineFrames/models/LV_outline_2mm.stl",
+    "sha256": "0a5ae38d1d7f35d6feff0d555e46d151c76da7266008914816f08fe73916800f",
+    "bytes": 67484
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_top_layers.stl",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/black_top_layers.stl",
+    "sha256": "499997b4ceda8cb16c6e32373b6552bf232aad3b567cc37df5143343cc9de11b",
+    "bytes": 22884
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/clip_fit_coupon.step",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.step",
+    "sha256": "d7c65e0d5f8bac1093358e1600741f6e8d5f558a09f03a3ea16b91ef8b0b5820",
+    "bytes": 29038
+  },
+  {
+    "reference": "LV/DesignProcess/DensePattern_Intermediate/lv/parts/clip_fit_coupon.stl",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.stl",
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa",
+    "bytes": 1484
+  },
+  {
+    "reference": "LV/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_glue_logo.stl",
+    "canonical": "LV/DesignProcess/LowBowl_FirstDesign/parts/ivory_glue_logo.stl",
+    "sha256": "9300e14382376d8037f05a11e8d93e36a513f44b1475022c1b693450098ba3bd",
+    "bytes": 72284
+  },
+  {
+    "reference": "Shared/DesignProcess/Outline_OriginalRelease/models/LV_outline_2mm.step",
+    "canonical": "Shared/FitSamples/OutlineFrames/models/LV_outline_2mm.step",
+    "sha256": "7073aacbeb9f5e67bea515dcfa89ee7a57e4129cf0a959e7fbad3dfccbf76f40",
+    "bytes": 92030
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_top_layers.step",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/black_top_layers.step",
+    "sha256": "a6cd32000112242661cd9a84fdf02db42feb9d5fb89c058a836356051109e23c",
+    "bytes": 81790
+  },
+  {
+    "reference": "LV/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_top_z28_30.stl",
+    "canonical": "LV/Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.stl",
+    "sha256": "12882f8d2b6aca7c593980bcff15a5fe8a8753d01e3189e12a5cfcd66a2d4fb7",
+    "bytes": 65684
+  },
+  {
+    "reference": "LV/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_bottom_z0_2.stl",
+    "canonical": "LV/Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.stl",
+    "sha256": "ec940b06e8ae9e27785d9d8750cefbf87c23ca8593db3326adb24bd022b3ca60",
+    "bytes": 33884
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_bottom_layers.stl",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/black_bottom_layers.stl",
+    "sha256": "22be48185100ddf1908b71faa425df3f0adc9133baa9e170eefe04536f94ace0",
+    "bytes": 54784
+  },
+  {
+    "reference": "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/clip_fit_coupon.stl",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.stl",
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa",
+    "bytes": 1484
+  },
+  {
+    "reference": "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_glue_logo.stl",
+    "canonical": "LV/Models/FullSides_OriginalClip/lv/parts/ivory_glue_logo.stl",
+    "sha256": "d2e686ffaee1690514c255b6dd9e82de5db58cfcd9d52d33752a76c4413d8ed6",
+    "bytes": 352384
+  },
+  {
+    "reference": "Shared/DesignProcess/Outline_OriginalRelease/models/Chanel_outline_2mm.stl",
+    "canonical": "Shared/FitSamples/OutlineFrames/models/Chanel_outline_2mm.stl",
+    "sha256": "77d0368be2fef0ae943a9093e4ee98c886e9e1caad80376a22e1c6238e41204b",
+    "bytes": 230584
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_bottom_layers.step",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/black_bottom_layers.step",
+    "sha256": "93fbf61a00f0312f7c75152c666e59ba0ccc803db5087fddbd4b5d709a320894",
+    "bytes": 2510948
+  },
+  {
+    "reference": "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_top_z28_30.stl",
+    "canonical": "LV/Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.stl",
+    "sha256": "12882f8d2b6aca7c593980bcff15a5fe8a8753d01e3189e12a5cfcd66a2d4fb7",
+    "bytes": 65684
+  },
+  {
+    "reference": "Shared/DesignProcess/Outline_OriginalRelease/models/Chanel_outline_2mm.step",
+    "canonical": "Shared/FitSamples/OutlineFrames/models/Chanel_outline_2mm.step",
+    "sha256": "aea8f5a41df68f706b68d294df28ff1e6da05567e28a0d74f9f4dd6e4b4a8d16",
+    "bytes": 6220234
+  },
+  {
+    "reference": "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_bottom_z0_2.stl",
+    "canonical": "LV/Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.stl",
+    "sha256": "ec940b06e8ae9e27785d9d8750cefbf87c23ca8593db3326adb24bd022b3ca60",
+    "bytes": 33884
+  },
+  {
+    "reference": "LV/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_logo_print_flat.stl",
+    "canonical": "LV/DesignProcess/LowBowl_FirstDesign/parts/ivory_logo_print_flat.stl",
+    "sha256": "59baf3dc70d743af4d16f622501e65ee79dfa5511fd7cced502332822d3a8fa8",
+    "bytes": 72284
+  },
+  {
+    "reference": "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/LV_outline_2mm.stl",
+    "canonical": "Shared/FitSamples/OutlineFrames/models/LV_outline_2mm.stl",
+    "sha256": "0a5ae38d1d7f35d6feff0d555e46d151c76da7266008914816f08fe73916800f",
+    "bytes": 67484
+  },
+  {
+    "reference": "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/LV_outline_2mm.step",
+    "canonical": "Shared/FitSamples/OutlineFrames/models/LV_outline_2mm.step",
+    "sha256": "7073aacbeb9f5e67bea515dcfa89ee7a57e4129cf0a959e7fbad3dfccbf76f40",
+    "bytes": 92030
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC_print_flat.stl",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/black_glue_CC_print_flat.stl",
+    "sha256": "b0857b66be8e51c19983432bddbf5c63a103e65e98ba382301b08f816122ba1f",
+    "bytes": 3849884
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/cream_body_inverted_clip.stl",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/cream_body_inverted_clip.stl",
+    "sha256": "a8fbebc90cc4f23814959457de15dc2bea2b9876402f906a7ecee53a14ecff0d",
+    "bytes": 2311084
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC_print_flat.step",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/black_glue_CC_print_flat.step",
+    "sha256": "ebe4fb909b537b80987558886880dd51438759c459109745807e6b8042e3c763",
+    "bytes": 6801521
+  },
+  {
+    "reference": "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/cream_body_inverted_clip.step",
+    "canonical": "Chanel/Models/LowBowl_30mm/parts/cream_body_inverted_clip.step",
+    "sha256": "167b927d8172324017c2c495a5f2c4613ae387ded7393b2df9830ff086c21959",
+    "bytes": 2512882
+  },
+  {
+    "reference": "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_logo_print_flat.stl",
+    "canonical": "LV/Models/FullSides_OriginalClip/lv/parts/ivory_logo_print_flat.stl",
+    "sha256": "eb544084a2bad95eafa734eb908de69018ae301fabc4de833d3fcb43033ea109",
+    "bytes": 352684
+  },
+  {
+    "reference": "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/Chanel_outline_2mm.stl",
+    "canonical": "Shared/FitSamples/OutlineFrames/models/Chanel_outline_2mm.stl",
+    "sha256": "77d0368be2fef0ae943a9093e4ee98c886e9e1caad80376a22e1c6238e41204b",
+    "bytes": 230584
+  },
+  {
+    "reference": "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/Chanel_outline_2mm.step",
+    "canonical": "Shared/FitSamples/OutlineFrames/models/Chanel_outline_2mm.step",
+    "sha256": "aea8f5a41df68f706b68d294df28ff1e6da05567e28a0d74f9f4dd6e4b4a8d16",
+    "bytes": 6220234
+  }
+]

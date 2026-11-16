@@ -1,0 +1,33 @@
+{
+  "density_g_cm3": 1.24,
+  "total_PLA_solid_equivalent_g": 170.80936638479085,
+  "parts": [
+    {
+      "name": "blue_middle_z2_28",
+      "volume_mm3": 91578.8598201844,
+      "PLA_solid_equivalent_g": 113.55778617702866
+    },
+    {
+      "name": "ivory_top_z28_30",
+      "volume_mm3": 3804.9494462221724,
+      "PLA_solid_equivalent_g": 4.718137313315494
+    },
+    {
+      "name": "ivory_bottom_z0_2",
+      "volume_mm3": 42143.90406116704,
+      "PLA_solid_equivalent_g": 52.258441035847135
+    },
+    {
+      "name": "ivory_glue_logo",
+      "volume_mm3": 221.7756924189903,
+      "PLA_solid_equivalent_g": 0.27500185859954795
+    }
+  ],
+  "sliced": false,
+  "excludes": [
+    "support",
+    "purge",
+    "wipe_tower",
+    "test_coupon"
+  ]
+}

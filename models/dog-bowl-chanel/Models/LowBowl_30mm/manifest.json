@@ -1,0 +1,26 @@
+[
+  {
+    "name": "cream_body_inverted_clip",
+    "file": "parts/cream_body_inverted_clip.stl",
+    "color": "#f2e4cd",
+    "volume_mm3": 105933.11359919808
+  },
+  {
+    "name": "black_top_layers",
+    "file": "parts/black_top_layers.stl",
+    "color": "#242424",
+    "volume_mm3": 3805.4608963893443
+  },
+  {
+    "name": "black_bottom_layers",
+    "file": "parts/black_bottom_layers.stl",
+    "color": "#242424",
+    "volume_mm3": 42287.153193518425
+  },
+  {
+    "name": "black_glue_CC",
+    "file": "parts/black_glue_CC.stl",
+    "color": "#242424",
+    "volume_mm3": 229.03852886601777
+  }
+]

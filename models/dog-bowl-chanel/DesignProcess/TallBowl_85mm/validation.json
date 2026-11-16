@@ -1,0 +1,122 @@
+[
+  {
+    "name": "black_top_layers",
+    "cad_valid": true,
+    "solids": 1,
+    "volume": 6782.731059730562,
+    "stl_watertight": true,
+    "stl_positive": true,
+    "bounds": [
+      [
+        -80.0,
+        -90.0,
+        81.0
+      ],
+      [
+        80.0,
+        55.0,
+        85.0
+      ]
+    ]
+  },
+  {
+    "name": "whole_bowl_AMS",
+    "cad_valid": true,
+    "solids": 1,
+    "volume": 280628.54260792595,
+    "stl_watertight": true,
+    "stl_positive": true,
+    "bounds": [
+      [
+        -83.0946692450942,
+        -92.99360795054822,
+        -1e-07
+      ],
+      [
+        83.08636913355065,
+        66.5000001,
+        85.0000001
+      ]
+    ]
+  },
+  {
+    "name": "clip_fit_coupon",
+    "cad_valid": true,
+    "solids": 1,
+    "volume": 8347.0,
+    "stl_watertight": true,
+    "stl_positive": true,
+    "bounds": [
+      [
+        -35.0,
+        0.0,
+        0.0
+      ],
+      [
+        35.0,
+        8.5,
+        30.0
+      ]
+    ]
+  },
+  {
+    "name": "cream_body_inverted_clip",
+    "cad_valid": true,
+    "solids": 1,
+    "volume": 273869.556198724,
+    "stl_watertight": true,
+    "stl_positive": true,
+    "bounds": [
+      [
+        -83.0946692450942,
+        -92.99360795054822,
+        -1e-07
+      ],
+      [
+        83.08636913355065,
+        66.5000001,
+        81.0000001
+      ]
+    ]
+  },
+  {
+    "name": "black_glue_CC_print_flat",
+    "cad_valid": true,
+    "solids": 1,
+    "volume": 897.6850573198094,
+    "stl_watertight": true,
+    "stl_positive": true,
+    "bounds": [
+      [
+        -12.951321507364108,
+        -10.400000099997403,
+        3.662719169825908e-14
+      ],
+      [
+        12.951321507371743,
+        10.400000100000284,
+        4.200000201131262
+      ]
+    ]
+  },
+  {
+    "name": "black_glue_CC",
+    "cad_valid": true,
+    "solids": 1,
+    "volume": 897.6850495237397,
+    "stl_watertight": true,
+    "stl_positive": true,
+    "bounds": [
+      [
+        -12.951321467044108,
+        -96.70000010000004,
+        31.599999899999712
+      ],
+      [
+        12.951321547698742,
+        -92.49999989886875,
+        52.400000100000284
+      ]
+    ]
+  }
+]

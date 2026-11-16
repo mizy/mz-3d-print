@@ -1,0 +1,20 @@
+[
+  {
+    "name": "blue_body_with_inverted_T_clip",
+    "file": "parts/blue_body_with_inverted_T_clip.stl",
+    "color": "#afcddd",
+    "volume_mm3": 219826.88229171123
+  },
+  {
+    "name": "ivory_top_layers",
+    "file": "parts/ivory_top_layers.stl",
+    "color": "#f2e0c4",
+    "volume_mm3": 10174.096589595649
+  },
+  {
+    "name": "ivory_glue_logo",
+    "file": "parts/ivory_glue_logo.stl",
+    "color": "#f2e0c4",
+    "volume_mm3": 525.6905300549172
+  }
+]

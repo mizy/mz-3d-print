@@ -1,0 +1,47 @@
+{
+  "point_occupancy": {
+    "rear_wall_retained": true,
+    "window_void": false,
+    "side_rib_retained": true,
+    "raised_shoulder": true,
+    "top_web_retained": true
+  },
+  "points_mm": {
+    "rear_wall_retained": [
+      0,
+      54,
+      18
+    ],
+    "window_void": [
+      0,
+      60,
+      18
+    ],
+    "side_rib_retained": [
+      6,
+      60,
+      18
+    ],
+    "raised_shoulder": [
+      20,
+      60,
+      9.5
+    ],
+    "top_web_retained": [
+      0,
+      60,
+      28
+    ]
+  },
+  "shoulder_z_original": 8.5,
+  "shoulder_z_candidate": 10.5,
+  "window_width_mm": 8,
+  "side_ribs_mm": 5,
+  "window_z_mm": [
+    12,
+    26
+  ],
+  "roof_degrees": 45,
+  "physical_fit_verified": false,
+  "root_and_load_strength_verified": false
+}

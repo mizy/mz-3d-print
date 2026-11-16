@@ -1,0 +1,592 @@
+[
+  {
+    "source": "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides",
+    "destination": "LV/Models/FullSides_OriginalClip",
+    "files_verified": 36
+  },
+  {
+    "source": "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip",
+    "destination": "LV/Models/FullSides_HollowRaisedClip_Candidate",
+    "files_verified": 34
+  },
+  {
+    "source": "releases/2026-11-16-lv-full-sides-clip-options",
+    "destination": "LV/Documentation/FullSides_ReleaseRecords",
+    "files_verified": 5
+  },
+  {
+    "source": "releases/2026-11-15-lv-30mm-dense4/chanel",
+    "destination": "Chanel/Models/LowBowl_30mm",
+    "files_verified": 27
+  },
+  {
+    "source": "releases/2026-11-15-lv-30mm-dense4/chanel_shared_context",
+    "destination": "Shared/Documentation/LowBowl_SharedContext",
+    "files_verified": 3
+  },
+  {
+    "source": "releases/2026-11-15-lv-30mm-dense4",
+    "destination": "LV/DesignProcess/DensePattern_Intermediate",
+    "files_verified": 30
+  },
+  {
+    "source": "releases/2026-11-14-inverted-t/LV",
+    "destination": "LV/DesignProcess/TallBowl_85mm",
+    "files_verified": 34
+  },
+  {
+    "source": "releases/2026-11-14-inverted-t/Chanel",
+    "destination": "Chanel/DesignProcess/TallBowl_85mm",
+    "files_verified": 28
+  },
+  {
+    "source": "releases/2026-11-14-inverted-t",
+    "destination": "Shared/Documentation/TallBowl_ReleaseRecords",
+    "files_verified": 3
+  },
+  {
+    "source": "_recovered_for_organization/2026-11-15-30mm-inverted-t/lv",
+    "destination": "LV/DesignProcess/LowBowl_FirstDesign",
+    "files_verified": 23
+  },
+  {
+    "source": "_recovered_for_organization/2026-11-15-30mm-inverted-t/chanel",
+    "destination": "Chanel/DesignProcess/LowBowl_OriginalArchive",
+    "files_verified": 27
+  },
+  {
+    "source": "_recovered_for_organization/2026-11-15-30mm-inverted-t",
+    "destination": "Shared/Documentation/LowBowl_OriginalRelease",
+    "files_verified": 5
+  },
+  {
+    "source": "_recovered_for_organization/2026-11-16-lv-30mm-vector-two-rows",
+    "destination": "LV/DesignProcess/TwoRows_BeforeSideCompletion",
+    "files_verified": 37
+  },
+  {
+    "source": "_recovered_for_organization/2026-11-15-outline-2mm",
+    "destination": "Shared/DesignProcess/Outline_OriginalRelease",
+    "files_verified": 9
+  },
+  {
+    "source": "assets/outline-fit-samples-2mm",
+    "destination": "Shared/FitSamples/OutlineFrames",
+    "files_verified": 9
+  },
+  {
+    "source": "assets/approved-vector-two-row-design",
+    "destination": "LV/Design/ApprovedTwoRows",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/build.py",
+    "destination": "Shared/DesignProcess/InitialConcept/build.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/result.json",
+    "destination": "Shared/DesignProcess/InitialConcept/result.json",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/dog_bowl_preview.png",
+    "destination": "Shared/DesignProcess/InitialConcept/dog_bowl_preview.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/dog_bowl_concepts.blend",
+    "destination": "Shared/DesignProcess/InitialConcept/dog_bowl_concepts.blend",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v2/dog_bowl_v2.blend",
+    "destination": "Shared/DesignProcess/Experimental_v2/dog_bowl_v2.blend",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v2/build.py",
+    "destination": "Shared/DesignProcess/Experimental_v2/build.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v2/dog_bowl_v2.blend1",
+    "destination": "Shared/DesignProcess/Experimental_v2/dog_bowl_v2.blend1",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v2/dog_bowls_v2.png",
+    "destination": "Shared/DesignProcess/Experimental_v2/dog_bowls_v2.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v3/build.py",
+    "destination": "Shared/DesignProcess/Experimental_v3/build.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v3/dog_bowl_v3.blend",
+    "destination": "Shared/DesignProcess/Experimental_v3/dog_bowl_v3.blend",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v3/dog_bowls_v3.png",
+    "destination": "Shared/DesignProcess/Experimental_v3/dog_bowls_v3.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v3/prepare.py",
+    "destination": "Shared/DesignProcess/Experimental_v3/prepare.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/lv_rear.png",
+    "destination": "LV/DesignProcess/Experimental_v4/lv_rear.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/build.py",
+    "destination": "Shared/DesignProcess/Experimental_v4/build.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/lv_front.png",
+    "destination": "LV/DesignProcess/Experimental_v4/lv_front.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/lv_top.png",
+    "destination": "LV/DesignProcess/Experimental_v4/lv_top.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/chanel_concept.blend",
+    "destination": "Chanel/DesignProcess/Experimental_v4/chanel_concept.blend",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/lv-build.log",
+    "destination": "LV/DesignProcess/Experimental_v4/lv-build.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/chanel_top.png",
+    "destination": "Chanel/DesignProcess/Experimental_v4/chanel_top.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/chanel_body_only_unfinished.stl",
+    "destination": "Chanel/DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/lv_concept.blend",
+    "destination": "LV/DesignProcess/Experimental_v4/lv_concept.blend",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/lv_body_only_unfinished.stl",
+    "destination": "LV/DesignProcess/Experimental_v4/lv_body_only_unfinished.stl",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/chanel_front.png",
+    "destination": "Chanel/DesignProcess/Experimental_v4/chanel_front.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/chanel_rear.png",
+    "destination": "Chanel/DesignProcess/Experimental_v4/chanel_rear.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/fuse.py",
+    "destination": "Shared/DesignProcess/Experimental_v4/fuse.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v4/chanel-build.log",
+    "destination": "Chanel/DesignProcess/Experimental_v4/chanel-build.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/lv_rear.png",
+    "destination": "LV/DesignProcess/Experimental_v5/lv_rear.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/build.py",
+    "destination": "Shared/DesignProcess/Experimental_v5/build.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/lv_front.png",
+    "destination": "LV/DesignProcess/Experimental_v5/lv_front.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/lv_top.png",
+    "destination": "LV/DesignProcess/Experimental_v5/lv_top.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/chanel_concept.blend",
+    "destination": "Chanel/DesignProcess/Experimental_v5/chanel_concept.blend",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/lv-build.log",
+    "destination": "LV/DesignProcess/Experimental_v5/lv-build.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/chanel_top.png",
+    "destination": "Chanel/DesignProcess/Experimental_v5/chanel_top.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/chanel_body_only_unfinished.stl",
+    "destination": "Chanel/DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/lv_concept.blend",
+    "destination": "LV/DesignProcess/Experimental_v5/lv_concept.blend",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/lv_body_only_unfinished.stl",
+    "destination": "LV/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/chanel_front.png",
+    "destination": "Chanel/DesignProcess/Experimental_v5/chanel_front.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/chanel_rear.png",
+    "destination": "Chanel/DesignProcess/Experimental_v5/chanel_rear.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/fuse.py",
+    "destination": "Shared/DesignProcess/Experimental_v5/fuse.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v5/chanel-build.log",
+    "destination": "Chanel/DesignProcess/Experimental_v5/chanel-build.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/slice_chanel",
+    "destination": "Chanel/DesignProcess/Experimental_v6/slice_chanel",
+    "files_verified": 2
+  },
+  {
+    "source": "_recovered_for_organization/v6/lv_rear.png",
+    "destination": "LV/DesignProcess/Experimental_v6/lv_rear.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/build.py",
+    "destination": "Shared/DesignProcess/Experimental_v6/build.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/lv_front.png",
+    "destination": "LV/DesignProcess/Experimental_v6/lv_front.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/lv_top.png",
+    "destination": "LV/DesignProcess/Experimental_v6/lv_top.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/audit_weld.py",
+    "destination": "Shared/DesignProcess/Experimental_v6/audit_weld.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/chanel_concept.blend",
+    "destination": "Chanel/DesignProcess/Experimental_v6/chanel_concept.blend",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/lv-build.log",
+    "destination": "LV/DesignProcess/Experimental_v6/lv-build.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/lv_voxel_experiment_unverified.stl",
+    "destination": "LV/DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/chanel_candidate_unverified.stl",
+    "destination": "Chanel/DesignProcess/Experimental_v6/chanel_candidate_unverified.stl",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/chanel-fuse.log",
+    "destination": "Chanel/DesignProcess/Experimental_v6/chanel-fuse.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/lv-voxel-render.log",
+    "destination": "LV/DesignProcess/Experimental_v6/lv-voxel-render.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/chanel_body_only_unfinished.stl",
+    "destination": "Chanel/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/inspect_voxel.py",
+    "destination": "Shared/DesignProcess/Experimental_v6/inspect_voxel.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/audit_caps.py",
+    "destination": "Shared/DesignProcess/Experimental_v6/audit_caps.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/lv_voxel_rear.png",
+    "destination": "LV/DesignProcess/Experimental_v6/lv_voxel_rear.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/lv_concept.blend",
+    "destination": "LV/DesignProcess/Experimental_v6/lv_concept.blend",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/lv-voxel.log",
+    "destination": "LV/DesignProcess/Experimental_v6/lv-voxel.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/lv_voxel_front.png",
+    "destination": "LV/DesignProcess/Experimental_v6/lv_voxel_front.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/audit_scene.py",
+    "destination": "Shared/DesignProcess/Experimental_v6/audit_scene.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/weld-audit.log",
+    "destination": "Shared/DesignProcess/Experimental_v6/weld-audit.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/scene-audit.log",
+    "destination": "Shared/DesignProcess/Experimental_v6/scene-audit.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/lv-fuse.log",
+    "destination": "LV/DesignProcess/Experimental_v6/lv-fuse.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/voxel_fuse.py",
+    "destination": "Shared/DesignProcess/Experimental_v6/voxel_fuse.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/lv_body_only_unfinished.stl",
+    "destination": "LV/DesignProcess/Experimental_v6/lv_body_only_unfinished.stl",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/chanel_front.png",
+    "destination": "Chanel/DesignProcess/Experimental_v6/chanel_front.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/fuse.py",
+    "destination": "Shared/DesignProcess/Experimental_v6/fuse.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/cap-audit.log",
+    "destination": "Shared/DesignProcess/Experimental_v6/cap-audit.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/chanel-build.log",
+    "destination": "Chanel/DesignProcess/Experimental_v6/chanel-build.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v6/lv_candidate_unverified.stl",
+    "destination": "LV/DesignProcess/Experimental_v6/lv_candidate_unverified.stl",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v7/build.py",
+    "destination": "Shared/DesignProcess/Experimental_v7/build.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v7/chanel_concept.blend",
+    "destination": "Chanel/DesignProcess/Experimental_v7/chanel_concept.blend",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v7/chanel_top.png",
+    "destination": "Chanel/DesignProcess/Experimental_v7/chanel_top.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v7/chanel_body_only_unfinished.stl",
+    "destination": "Chanel/DesignProcess/Experimental_v7/chanel_body_only_unfinished.stl",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v7/chanel_front.png",
+    "destination": "Chanel/DesignProcess/Experimental_v7/chanel_front.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v7/chanel_rear.png",
+    "destination": "Chanel/DesignProcess/Experimental_v7/chanel_rear.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v7/fuse.py",
+    "destination": "Shared/DesignProcess/Experimental_v7/fuse.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v7/chanel-build.log",
+    "destination": "Chanel/DesignProcess/Experimental_v7/chanel-build.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/slice_chanel",
+    "destination": "Chanel/DesignProcess/Experimental_v8/slice_chanel",
+    "files_verified": 14
+  },
+  {
+    "source": "_recovered_for_organization/v8/build.py",
+    "destination": "Shared/DesignProcess/Experimental_v8/build.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/chanel_concept.blend",
+    "destination": "Chanel/DesignProcess/Experimental_v8/chanel_concept.blend",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/chanel_voxel_front.png",
+    "destination": "Chanel/DesignProcess/Experimental_v8/chanel_voxel_front.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/chanel-voxel.log",
+    "destination": "Chanel/DesignProcess/Experimental_v8/chanel-voxel.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/chanel_top.png",
+    "destination": "Chanel/DesignProcess/Experimental_v8/chanel_top.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/chanel_voxel_rear.png",
+    "destination": "Chanel/DesignProcess/Experimental_v8/chanel_voxel_rear.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/chanel_body_only_unfinished.stl",
+    "destination": "Chanel/DesignProcess/Experimental_v8/chanel_body_only_unfinished.stl",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/inspect_voxel.py",
+    "destination": "Shared/DesignProcess/Experimental_v8/inspect_voxel.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/chanel-voxel-render.log",
+    "destination": "Chanel/DesignProcess/Experimental_v8/chanel-voxel-render.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/voxel_fuse.py",
+    "destination": "Shared/DesignProcess/Experimental_v8/voxel_fuse.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/chanel_front.png",
+    "destination": "Chanel/DesignProcess/Experimental_v8/chanel_front.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/chanel_voxel_experiment_unverified.stl",
+    "destination": "Chanel/DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/chanel_rear.png",
+    "destination": "Chanel/DesignProcess/Experimental_v8/chanel_rear.png",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/fuse.py",
+    "destination": "Shared/DesignProcess/Experimental_v8/fuse.py",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/v8/chanel-build.log",
+    "destination": "Chanel/DesignProcess/Experimental_v8/chanel-build.log",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/delivery/CHANEL_未完成实验.zip",
+    "destination": "Chanel/Documentation/UnfinishedExperimentalDelivery/CHANEL_未完成实验.zip",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/delivery/READ_ME_FIRST.txt",
+    "destination": "Shared/Documentation/UnfinishedExperimentalDelivery/READ_ME_FIRST.txt",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/delivery/LV_未完成实验.zip",
+    "destination": "LV/Documentation/UnfinishedExperimentalDelivery/LV_未完成实验.zip",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/Bowl_Outline_Frames",
+    "destination": "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames",
+    "files_verified": 7
+  },
+  {
+    "source": "_recovered_for_organization/.DS_Store",
+    "destination": "Shared/Documentation/RecoveredPackages/.DS_Store",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/Bowl_Outline_Frames_2mm_2026-11-15.zip",
+    "destination": "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames_2mm_2026-11-15.zip",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/LV_Bowl_InvertedT_2026-11-14.zip",
+    "destination": "LV/Documentation/RecoveredPackages/LV_Bowl_InvertedT_2026-11-14.zip",
+    "files_verified": 1
+  },
+  {
+    "source": "_recovered_for_organization/high_bowl_v2_package.zip",
+    "destination": "Shared/Documentation/RecoveredPackages/high_bowl_v2_package.zip",
+    "files_verified": 1
+  }
+]

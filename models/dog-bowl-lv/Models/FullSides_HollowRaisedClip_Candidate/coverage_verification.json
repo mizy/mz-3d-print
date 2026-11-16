@@ -1,0 +1,19 @@
+{
+  "version": "2026-11-16-v5-unverified-clip-candidate",
+  "front_count": 12,
+  "side_count": 16,
+  "transition_count": 4,
+  "rows_z_mm": [
+    9,
+    21
+  ],
+  "flat_side_pattern_extent_y_mm": [
+    -8.5,
+    46.5
+  ],
+  "rear_corner_begins_y_mm": 47,
+  "changed": "Added side and front-to-side transition motifs; approved front twelve retained unchanged.",
+  "slice_status": "not sliced for v4; any v3 CLI diagnostics do not apply",
+  "fit_status": "not physically tested",
+  "clip_change": "shoulder 8.5 to10.5mm; 8mm wide window; original 70x30x8.5 envelope retained but fit unverified"
+}

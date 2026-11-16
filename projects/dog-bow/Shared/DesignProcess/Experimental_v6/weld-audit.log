@@ -1,0 +1,20 @@
+Add-on not loaded: "autoinsight", cause: No module named 'autoinsight'
+boundary before 0
+boundary after 0
+chanel verts 301056 edges_nonmanifold 0 faces 300290 volume 158787.93106446505
+boundary before 0
+boundary after 0
+Double C verts 1452 edges_nonmanifold 0 faces 1460 volume 135.89328145677482
+boundary before 0
+boundary after 0
+Double C.001 verts 1452 edges_nonmanifold 0 faces 1460 volume 137.43004020952384
+boundary before 0
+boundary after 0
+UNVERIFIED rear connector bridge verts 152 edges_nonmanifold 0 faces 150 volume 4086.2951701422917
+boundary before 0
+boundary after 0
+UNVERIFIED rear connector stem verts 152 edges_nonmanifold 0 faces 150 volume 2105.5290653345296
+Blender 4.5.3 LTS (hash 67807e1800cc built 2025-09-09 01:33:39)
+Read blend: "/Users/miaozhuang/Documents/dog-bowl-concepts/v6/chanel_concept.blend"
+
+Blender quit

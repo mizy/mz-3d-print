@@ -1,0 +1,149 @@
+[
+  {
+    "name": "blue_middle_z2_28",
+    "cad_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "mesh_positive": true,
+    "volume_mm3": 92152.5098052218,
+    "PLA_solid_equivalent_g": 114.26911215847502,
+    "bounds_mm": [
+      [
+        -80.0000001,
+        -90.0000001,
+        1.9999999
+      ],
+      [
+        80.0000001,
+        66.5,
+        28.0000001
+      ]
+    ]
+  },
+  {
+    "name": "clip_fit_coupon",
+    "cad_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "mesh_positive": true,
+    "volume_mm3": 8347.0,
+    "PLA_solid_equivalent_g": 10.35028,
+    "bounds_mm": [
+      [
+        -35.0,
+        0.0,
+        0.0
+      ],
+      [
+        35.0,
+        8.5,
+        30.0
+      ]
+    ]
+  },
+  {
+    "name": "whole_bowl_AMS",
+    "cad_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "mesh_positive": true,
+    "volume_mm3": 138102.08013148812,
+    "PLA_solid_equivalent_g": 171.24657936304527,
+    "bounds_mm": [
+      [
+        -80.0000001,
+        -90.0000001,
+        -1e-07
+      ],
+      [
+        80.0000001,
+        66.5,
+        30.0000001
+      ]
+    ]
+  },
+  {
+    "name": "ivory_top_z28_30",
+    "cad_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "mesh_positive": true,
+    "volume_mm3": 3804.9494462221724,
+    "PLA_solid_equivalent_g": 4.718137313315494,
+    "bounds_mm": [
+      [
+        -80.0,
+        -90.0,
+        28.0
+      ],
+      [
+        80.0,
+        66.5,
+        30.0
+      ]
+    ]
+  },
+  {
+    "name": "ivory_logo_print_flat",
+    "cad_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "mesh_positive": true,
+    "volume_mm3": 221.7756894407357,
+    "PLA_solid_equivalent_g": 0.2750018549065123,
+    "bounds_mm": [
+      [
+        -8.8190887433,
+        -8.679104567308,
+        -2.34279743041237e-16
+      ],
+      [
+        8.8190887433,
+        8.679104567308,
+        1.8750000000000002
+      ]
+    ]
+  },
+  {
+    "name": "ivory_bottom_z0_2",
+    "cad_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "mesh_positive": true,
+    "volume_mm3": 42143.90406116704,
+    "PLA_solid_equivalent_g": 52.258441035847135,
+    "bounds_mm": [
+      [
+        -80.0,
+        -90.0,
+        0.0
+      ],
+      [
+        80.0,
+        66.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "name": "ivory_glue_logo",
+    "cad_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "mesh_positive": true,
+    "volume_mm3": 221.7756924189903,
+    "PLA_solid_equivalent_g": 0.27500185859954795,
+    "bounds_mm": [
+      [
+        -8.800273972603,
+        -91.975,
+        6.348966346154
+      ],
+      [
+        8.837903513996002,
+        -90.1,
+        23.707175480769
+      ]
+    ]
+  }
+]

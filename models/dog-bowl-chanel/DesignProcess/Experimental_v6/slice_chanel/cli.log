@@ -1,0 +1,4 @@
+[2026-11-14 16:04:04.891320] [0x00000001f187bf80] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70
+[2026-11-14 16:04:05.996197] [0x00000001f187bf80] [warning] [BambuStudio.cpp:2413 run] not support to slice plate 1, reset to 0
+[2026-11-14 16:04:05.996296] [0x00000001f187bf80] [warning] [BambuStudio.cpp:2685 run] filament_diameter_map not passed, machine preset  has no nozzle diameter
+[2026-11-14 16:04:05.996520] [0x00000001f187bf80] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects

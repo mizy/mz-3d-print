@@ -1,0 +1,2635 @@
+{
+  "LV/Design/ApprovedTwoRows/approved_design.png": {
+    "size_bytes": 153862,
+    "sha256": "d8bc176bebf965021553f7e281cfa699079943130e6b01d54939b8c575e7d1f6"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/LV_Dense4_30mm_Front.png": {
+    "size_bytes": 983380,
+    "sha256": "76ca4c37e6146d4c39f6208954eff3e5679f6ca69244a3202da3050af6bce449"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/LV_Dense4_30mm_Perspective.png": {
+    "size_bytes": 1873922,
+    "sha256": "7c5d5385bff1c4c244cb9a6414ebf280ef757d61ba9d5e00d6890f6a0f68b935"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/README_四类老花密排.txt": {
+    "size_bytes": 2104,
+    "sha256": "0f7cfc72e872570485b37ab5489835fb05a1eb5aa621b2ebb9d2d0bd1824f7dc"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/LV_Monogram.svg": {
+    "size_bytes": 3200,
+    "sha256": "fcdbedf42e66b75c7ec33d4544d253f6d0f8c2a8204f18be7086b54bcceca93a"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/bowl_30mm_assembly.step": {
+    "size_bytes": 13900055,
+    "sha256": "1c7aa23f5ff076356f91e3345aaeae13e0177c60f8c13822368a5bd1049bb5ed"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/build.py": {
+    "size_bytes": 6966,
+    "sha256": "3c9597ae789f38e90b9d31d97687552470f13e8bfc9a930a50fe20cc8a8b24aa"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/front.png": {
+    "size_bytes": 983380,
+    "sha256": "76ca4c37e6146d4c39f6208954eff3e5679f6ca69244a3202da3050af6bce449"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/manifest.json": {
+    "size_bytes": 577,
+    "sha256": "5b7e666b655b0817de38de3a31ff570327a5280c0deaeb2cc5eee8ca817d8c06"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parameters.json": {
+    "size_bytes": 407,
+    "sha256": "298da15f5ecc7cb79ba317ba94dbf987e70113516355ccf82b8866a3777e15b8"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/blue_middle_z2_28.step": {
+    "size_bytes": 12232294,
+    "sha256": "a1b5e9a0e74cc4943b3baa26efac993682d4eefee8903ad7a2e1777712f08bcb"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/blue_middle_z2_28.stl": {
+    "size_bytes": 10222184,
+    "sha256": "c9d5b8148d78b0f49173e11ae9f536cec5f0dd3d97a5b20042b01734322baf8d"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/clip_fit_coupon.step": {
+    "size_bytes": 29038,
+    "sha256": "2463c6a9f5dcc6f8e1c11c4cbb81676c3f4f17adb70f18df65f276e7642e887f"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/clip_fit_coupon.stl": {
+    "size_bytes": 1484,
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa",
+    "reference_to": "../../../../../Chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.stl"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_bottom_z0_2.step": {
+    "size_bytes": 53734,
+    "sha256": "aa1e80d7fd290e2ed45cab41efb114eb00f19cd46d8ff8f09a901d5896ee17d7"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_bottom_z0_2.stl": {
+    "size_bytes": 33884,
+    "sha256": "ec940b06e8ae9e27785d9d8750cefbf87c23ca8593db3326adb24bd022b3ca60",
+    "reference_to": "../../../../Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.stl"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_glue_logo.step": {
+    "size_bytes": 1441498,
+    "sha256": "f327dfff75f4cd8c7dfe1db51aa6596c8943ae889c38e7404fc42c8b10117656"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_glue_logo.stl": {
+    "size_bytes": 72284,
+    "sha256": "9300e14382376d8037f05a11e8d93e36a513f44b1475022c1b693450098ba3bd",
+    "reference_to": "../../../LowBowl_FirstDesign/parts/ivory_glue_logo.stl"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_logo_print_flat.step": {
+    "size_bytes": 1485392,
+    "sha256": "95910e38a9af5520569ee9bcfb2d076fae97de9f3c6eda9d1f5d2b7a35f0a28d"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_logo_print_flat.stl": {
+    "size_bytes": 72284,
+    "sha256": "59baf3dc70d743af4d16f622501e65ee79dfa5511fd7cced502332822d3a8fa8",
+    "reference_to": "../../../LowBowl_FirstDesign/parts/ivory_logo_print_flat.stl"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_top_z28_30.step": {
+    "size_bytes": 63533,
+    "sha256": "b7e6fbd2e3db27ebe9a9fa04c3cc8d8bbccd413274b91004cd00450ce76f36f3"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_top_z28_30.stl": {
+    "size_bytes": 65684,
+    "sha256": "12882f8d2b6aca7c593980bcff15a5fe8a8753d01e3189e12a5cfcd66a2d4fb7",
+    "reference_to": "../../../../Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.stl"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/whole_bowl_AMS.step": {
+    "size_bytes": 12224874,
+    "sha256": "53b2e35cb3d6e8c036f7b07f9481580e432d240b86267ed44493c9aa52313bc6"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 10222184,
+    "sha256": "e13e2b27f77bbbd3f1ba0755a0dc1ff97e0d5573cefed96d1a31c076ebcd4d7e"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/pattern_layout.json": {
+    "size_bytes": 6642,
+    "sha256": "edbbac2267d4bd162996d3fc3a86b20ec8f2c6efc13b9c7f1d66fe4d919b2e71"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/perspective.png": {
+    "size_bytes": 1873922,
+    "sha256": "7c5d5385bff1c4c244cb9a6414ebf280ef757d61ba9d5e00d6890f6a0f68b935"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/render.py": {
+    "size_bytes": 2115,
+    "sha256": "33efb2fe0f0ed2b7921b1fb9ff50bed657772acc97bb8a1ac20914ded0151745"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/lv/validation.json": {
+    "size_bytes": 2674,
+    "sha256": "059ea902399b31d7109d29191ad060498e90ffe606ac70fb5413180708151161"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/material_estimate.json": {
+    "size_bytes": 751,
+    "sha256": "426058f1f8233c69ba6b397cf687cdaeb10bb56729afd66647dc73444d78248e"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/packages/LV_Bowl_30mm_Dense4_InvertedT_2026-11-15.zip": {
+    "size_bytes": 20802281,
+    "sha256": "82dfc8aafaae157185533eddcb7ee1f159ec4fa653aeb1239fcb1b00cbe42b0f"
+  },
+  "LV/DesignProcess/DensePattern_Intermediate/validate.py": {
+    "size_bytes": 689,
+    "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+  },
+  "LV/DesignProcess/Experimental_v2/build.py": {
+    "size_bytes": 6768,
+    "sha256": "2bd779ae39e8e73de55b7e189f1e06ff917e7b5a39dd5f51a85fafb5b112ee4e",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v2/build.py"
+  },
+  "LV/DesignProcess/Experimental_v2/dog_bowl_v2.blend": {
+    "size_bytes": 27434153,
+    "sha256": "0000a4ae1cf616a1871f7983a22e2d7749e8ad3436bb9a0aca822800779a435d",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v2/dog_bowl_v2.blend"
+  },
+  "LV/DesignProcess/Experimental_v2/dog_bowl_v2.blend1": {
+    "size_bytes": 27434153,
+    "sha256": "d72048b9e23a9a3c968b0e61d493ba84a9c52835ce5f06e3abfa0c35ec10bc14",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v2/dog_bowl_v2.blend1"
+  },
+  "LV/DesignProcess/Experimental_v2/dog_bowls_v2.png": {
+    "size_bytes": 1902771,
+    "sha256": "e7a178e4df94f069a5405927b3f3cb265b74982974c626cfee44378a8f756e11",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v2/dog_bowls_v2.png"
+  },
+  "LV/DesignProcess/Experimental_v3/build.py": {
+    "size_bytes": 9219,
+    "sha256": "9aa0dc537e5f56f8b5246ce0fa7209a188e7bc5ccb960d5aef14527c8481ad3e",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v3/build.py"
+  },
+  "LV/DesignProcess/Experimental_v3/dog_bowl_v3.blend": {
+    "size_bytes": 18489403,
+    "sha256": "99004a215ddda1fd0d155fba4e5516ab72af8aee28eb6f710ca83b301fe4b85f",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v3/dog_bowl_v3.blend"
+  },
+  "LV/DesignProcess/Experimental_v3/dog_bowls_v3.png": {
+    "size_bytes": 1891268,
+    "sha256": "508b8958295316ce349b02517e4b26d5a5d21c7da521b9a09d4f52c4faae55e3",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v3/dog_bowls_v3.png"
+  },
+  "LV/DesignProcess/Experimental_v3/prepare.py": {
+    "size_bytes": 4266,
+    "sha256": "a16593c89f3798ecdb3491c0c2c6317725fbf2e123302b4f340cd7e4ffc681dc",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v3/prepare.py"
+  },
+  "LV/DesignProcess/Experimental_v4/build.py": {
+    "size_bytes": 8062,
+    "sha256": "0d6c559dd5a65ddeb1876b598c6279b7a550f66e6a4c6864c643eac423dd42f5",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v4/build.py"
+  },
+  "LV/DesignProcess/Experimental_v4/chanel-build.log": {
+    "size_bytes": 17199,
+    "sha256": "3dc44d289f32d66a24dc9fde5b526468befa0f0990282d654efefc906fb68435",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v4/chanel-build.log"
+  },
+  "LV/DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl": {
+    "size_bytes": 15974284,
+    "sha256": "a7e1e21a7b2c50b11f8eb3d1a558fd0d3c801e24f6210dea6ed2ff7a8046002d",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl"
+  },
+  "LV/DesignProcess/Experimental_v4/chanel_concept.blend": {
+    "size_bytes": 12492647,
+    "sha256": "7d853bd4f78fd1efb1ca12784e3be473615da42b7c004ddfe69edfcaf4f70ba2",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v4/chanel_concept.blend"
+  },
+  "LV/DesignProcess/Experimental_v4/chanel_front.png": {
+    "size_bytes": 1470517,
+    "sha256": "e7a00c408700bba9adc7d2da42f1e873068292e008e12104736fb54c5af602e0",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v4/chanel_front.png"
+  },
+  "LV/DesignProcess/Experimental_v4/chanel_rear.png": {
+    "size_bytes": 1476529,
+    "sha256": "7546afcb8bc0d7a170e8824494eaef04e7acf695d2bc2534f06a2b4401c7ee42",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v4/chanel_rear.png"
+  },
+  "LV/DesignProcess/Experimental_v4/chanel_top.png": {
+    "size_bytes": 1441019,
+    "sha256": "33d8248e51d0e2b067485364b24bbffbfad26d1bc92d3e054ec835e94b6d444c",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v4/chanel_top.png"
+  },
+  "LV/DesignProcess/Experimental_v4/fuse.py": {
+    "size_bytes": 1480,
+    "sha256": "c040b01c6532c04143175928b2288ad78ee7946d73b383d86b80109c573f4de9",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v4/fuse.py"
+  },
+  "LV/DesignProcess/Experimental_v4/lv-build.log": {
+    "size_bytes": 19671,
+    "sha256": "09e729af201acca0df43454083f26e9d8bcd0de426683e809f3ef8cc862a816c"
+  },
+  "LV/DesignProcess/Experimental_v4/lv_body_only_unfinished.stl": {
+    "size_bytes": 15974284,
+    "sha256": "3c6ec1cadec8e762764efa2bc96367fb0f588c3cd354e42f0300d979c3f147b6"
+  },
+  "LV/DesignProcess/Experimental_v4/lv_concept.blend": {
+    "size_bytes": 12348463,
+    "sha256": "88612b389c78d5fe3446cecaeb1244121007b43a55c362fc9fb709e98e36f35b"
+  },
+  "LV/DesignProcess/Experimental_v4/lv_front.png": {
+    "size_bytes": 1538754,
+    "sha256": "2f89287605f63fde6eb959e3cddf93f5ff48f9b7bfc29dbc3c295f1e586719f2"
+  },
+  "LV/DesignProcess/Experimental_v4/lv_rear.png": {
+    "size_bytes": 1541166,
+    "sha256": "ce182b6f12a3dcdd8e1a3683a138b68ac18c6e899edbd6dc85c4ee6ce46ebfb1"
+  },
+  "LV/DesignProcess/Experimental_v4/lv_top.png": {
+    "size_bytes": 1445414,
+    "sha256": "d6b952cd72ef74cb19b500623e246103f39940007b1e94f867dd07a6c2e15506"
+  },
+  "LV/DesignProcess/Experimental_v5/build.py": {
+    "size_bytes": 9438,
+    "sha256": "3ac35b6e438d02c02cff598842a0904022f52ed058e9624ad6e6a0dca90b6955",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v5/build.py"
+  },
+  "LV/DesignProcess/Experimental_v5/chanel-build.log": {
+    "size_bytes": 19076,
+    "sha256": "f5f548c1b389956232092d0cc2fca722fdd372f380c2ea35e3090d14aea8ff45",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v5/chanel-build.log"
+  },
+  "LV/DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl": {
+    "size_bytes": 30105484,
+    "sha256": "4d4d3891455267d6baa332f1cdcb4413abe2c0809749ce5fc65d8f61c0c95db5",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl"
+  },
+  "LV/DesignProcess/Experimental_v5/chanel_concept.blend": {
+    "size_bytes": 22802991,
+    "sha256": "ca3ca7cc75b9c7352257fb9d1a5da060bef66757f2cb7654133114297dac2cc2",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v5/chanel_concept.blend"
+  },
+  "LV/DesignProcess/Experimental_v5/chanel_front.png": {
+    "size_bytes": 1512923,
+    "sha256": "741fde7bf7f67c1a379b18de5617806b404976fab53382454d4038b56e71eb31",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v5/chanel_front.png"
+  },
+  "LV/DesignProcess/Experimental_v5/chanel_rear.png": {
+    "size_bytes": 1534559,
+    "sha256": "5e433db648b448613edbd096b0787eca1741749b94bb92a8d52104676916c225",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v5/chanel_rear.png"
+  },
+  "LV/DesignProcess/Experimental_v5/chanel_top.png": {
+    "size_bytes": 1513526,
+    "sha256": "c12143be08fa0782d6094b4371ed4e48a994c19fc9ed2f28e3682af81e077b94",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v5/chanel_top.png"
+  },
+  "LV/DesignProcess/Experimental_v5/fuse.py": {
+    "size_bytes": 1509,
+    "sha256": "471015fcca2abe0146155572c16c21927b799c1eaf5a32216b0917ed0b662f77",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v5/fuse.py"
+  },
+  "LV/DesignProcess/Experimental_v5/lv-build.log": {
+    "size_bytes": 24049,
+    "sha256": "f9bca2822311fa21d9217694568e9ab48e0e7ca4210cbe7886a6bd9df7a303ff"
+  },
+  "LV/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl": {
+    "size_bytes": 30105484,
+    "sha256": "b8968228eb3fba8b773c99b1c8049277a2c20e27e189a1b330782a2482bcbef2"
+  },
+  "LV/DesignProcess/Experimental_v5/lv_concept.blend": {
+    "size_bytes": 23099891,
+    "sha256": "77f377b0538d4750424614dbf3fcd0f1e86dda8945c0f0adad77a85376089a29"
+  },
+  "LV/DesignProcess/Experimental_v5/lv_front.png": {
+    "size_bytes": 1571157,
+    "sha256": "4e191765933231584363edacdeb4c125c82e65bc1e501d8cb046753223ada2d9"
+  },
+  "LV/DesignProcess/Experimental_v5/lv_rear.png": {
+    "size_bytes": 1590064,
+    "sha256": "d0218ca07e859d01ec5b5329a5f4bb240199aa09174bffe1bc05f06daeb0fe5c"
+  },
+  "LV/DesignProcess/Experimental_v5/lv_top.png": {
+    "size_bytes": 1479859,
+    "sha256": "6cd51c85301856d5f110d924a4813c330834e4b7c7ef1a2831fcc253f5f84ad0"
+  },
+  "LV/DesignProcess/Experimental_v6/audit_caps.py": {
+    "size_bytes": 659,
+    "sha256": "9863a58a8a6664282202a38b869aee1a203cf16fc4315706e6fd190fb2c5938e",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/audit_caps.py"
+  },
+  "LV/DesignProcess/Experimental_v6/audit_scene.py": {
+    "size_bytes": 455,
+    "sha256": "49177e837996268b748510e909eeacb77cde89e82baacdf10c3aa0707b9ed731",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/audit_scene.py"
+  },
+  "LV/DesignProcess/Experimental_v6/audit_weld.py": {
+    "size_bytes": 720,
+    "sha256": "724984caba3cd2791181e2aba6815a7b04bd0309c424b681d9b1a1eb993c820b",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/audit_weld.py"
+  },
+  "LV/DesignProcess/Experimental_v6/build.py": {
+    "size_bytes": 9518,
+    "sha256": "085d8d9a98333af73039a2056c3dd3b98800bc19398c2833f459c685062479d7",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/build.py"
+  },
+  "LV/DesignProcess/Experimental_v6/cap-audit.log": {
+    "size_bytes": 847,
+    "sha256": "8911e3d895237065f15f022c42368a231276b3257b7ea9f10757633387f1bbd4",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/cap-audit.log"
+  },
+  "LV/DesignProcess/Experimental_v6/chanel-build.log": {
+    "size_bytes": 6529,
+    "sha256": "db3613b80d062014ed7fd23a3de304c0c2cfda5263d02605c85251dc4e9e9e7f",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v6/chanel-build.log"
+  },
+  "LV/DesignProcess/Experimental_v6/chanel-fuse.log": {
+    "size_bytes": 409,
+    "sha256": "be7e987a2149fc62f75339cbab81c2ec946bd647c9383d3201e696faf5360e75",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v6/chanel-fuse.log"
+  },
+  "LV/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl": {
+    "size_bytes": 30105484,
+    "sha256": "28ddb500ed0af587ad35b779e4355ed86d62b0a0ae6bd2d4b9747e2792f67be4",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl"
+  },
+  "LV/DesignProcess/Experimental_v6/chanel_candidate_unverified.stl": {
+    "size_bytes": 30058584,
+    "sha256": "ab525e23afe51c3a86197caa1805d9c3c398484ea41bef5f2f3f9254c08bda81",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v6/chanel_candidate_unverified.stl"
+  },
+  "LV/DesignProcess/Experimental_v6/chanel_concept.blend": {
+    "size_bytes": 22802991,
+    "sha256": "bba4e6fb8467be12a0b5bcb10756cf02e3c8936946a4787fead71520bbe9d66d",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v6/chanel_concept.blend"
+  },
+  "LV/DesignProcess/Experimental_v6/chanel_front.png": {
+    "size_bytes": 1534659,
+    "sha256": "df1e91aa792c2d3c691ebd25dcc4d244bb8b51b6b8346ff2de5439bfb3e64d08",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v6/chanel_front.png"
+  },
+  "LV/DesignProcess/Experimental_v6/fuse.py": {
+    "size_bytes": 1758,
+    "sha256": "b6323ea86052e4bbea23fa42a6e17640ab6a9c1c5f4d1c3de2357183ca9e18cf",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/fuse.py"
+  },
+  "LV/DesignProcess/Experimental_v6/inspect_voxel.py": {
+    "size_bytes": 1097,
+    "sha256": "658e7809b5cdcb7678a504547983e98ca7676e5be9c579c8305f44e712f94e9b",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/inspect_voxel.py"
+  },
+  "LV/DesignProcess/Experimental_v6/lv-build.log": {
+    "size_bytes": 22871,
+    "sha256": "2f06aa3bc0b9615b86bdb8c683746edb0c9a9b6290f2ed5ae1edbf34ee71d001"
+  },
+  "LV/DesignProcess/Experimental_v6/lv-fuse.log": {
+    "size_bytes": 662,
+    "sha256": "6f33a32d3732ac860a7851454a7ad466936f24bda5a4a85f28c44c7360cfb594"
+  },
+  "LV/DesignProcess/Experimental_v6/lv-voxel-render.log": {
+    "size_bytes": 11088,
+    "sha256": "5837644fb565b7378be230343976fa31b9db8695f3b60897b6ac5677ad72e0fb"
+  },
+  "LV/DesignProcess/Experimental_v6/lv-voxel.log": {
+    "size_bytes": 330,
+    "sha256": "9ed2f09462590f1d1fdcaa320e987f9a01182a65831411f6fb365a80f24aa396"
+  },
+  "LV/DesignProcess/Experimental_v6/lv_body_only_unfinished.stl": {
+    "size_bytes": 30105484,
+    "sha256": "b8968228eb3fba8b773c99b1c8049277a2c20e27e189a1b330782a2482bcbef2",
+    "reference_to": "../Experimental_v5/lv_body_only_unfinished.stl"
+  },
+  "LV/DesignProcess/Experimental_v6/lv_candidate_unverified.stl": {
+    "size_bytes": 29925284,
+    "sha256": "1806e223668804eaad49e4e660a8e7686c7b7186cd5a286ec5b9ff04a5f6c4a4"
+  },
+  "LV/DesignProcess/Experimental_v6/lv_concept.blend": {
+    "size_bytes": 23099891,
+    "sha256": "2d92af9a4a7763f225a6943ddf4ae959d5969f473aa4f05ff8f86765d88d1778"
+  },
+  "LV/DesignProcess/Experimental_v6/lv_front.png": {
+    "size_bytes": 1573248,
+    "sha256": "a3a191f988eec3c8dca2871f16be889f53773242f767fb676ea0bb265ee65330"
+  },
+  "LV/DesignProcess/Experimental_v6/lv_rear.png": {
+    "size_bytes": 1580389,
+    "sha256": "a1c8745593f014765e340539c619aa6eead8cd67fc35a101fb9a65cf03c2532e"
+  },
+  "LV/DesignProcess/Experimental_v6/lv_top.png": {
+    "size_bytes": 1464243,
+    "sha256": "c67597469977f141e2eb5b86366d3e4bddcb205c651464667f5d6d31bab632b7"
+  },
+  "LV/DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl": {
+    "size_bytes": 87192684,
+    "sha256": "7838930ef0cdbe7637164abce6ff082f55fbe86e4dab370d052f626ae9a7b542"
+  },
+  "LV/DesignProcess/Experimental_v6/lv_voxel_front.png": {
+    "size_bytes": 1505204,
+    "sha256": "d9458f8ae175e004d50c05a07541152556df53eb1bc0ce4b5f63398852ee09bf"
+  },
+  "LV/DesignProcess/Experimental_v6/lv_voxel_rear.png": {
+    "size_bytes": 1515283,
+    "sha256": "829206949cfa04822991954f3daf72e4a74840f35017e6032fc51edc9c3df03a"
+  },
+  "LV/DesignProcess/Experimental_v6/scene-audit.log": {
+    "size_bytes": 668,
+    "sha256": "36ebf724c790400674dc684c9e181000eade21747c7fbec82187610a7dbdfd5d",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/scene-audit.log"
+  },
+  "LV/DesignProcess/Experimental_v6/voxel_fuse.py": {
+    "size_bytes": 1135,
+    "sha256": "4f229288e3b877552a886c804a29c2a842d80a20196b4b916c02203c2510426a",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/voxel_fuse.py"
+  },
+  "LV/DesignProcess/Experimental_v6/weld-audit.log": {
+    "size_bytes": 841,
+    "sha256": "811abedc7b07889d53929984e5d6b340033be6babd1cbd3a6c2aaf1a0f816469",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/weld-audit.log"
+  },
+  "LV/DesignProcess/Experimental_v7/build.py": {
+    "size_bytes": 9808,
+    "sha256": "e4874419cd623fb5fd6cd3896e36412e2a426fa2e451d96b6c2e99efb0887dd4",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v7/build.py"
+  },
+  "LV/DesignProcess/Experimental_v7/chanel-build.log": {
+    "size_bytes": 18018,
+    "sha256": "7ab605406f3f7db1d5e6ff14fe2ee872f55c7cc59b60b2ef7c89e6858284f928",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v7/chanel-build.log"
+  },
+  "LV/DesignProcess/Experimental_v7/chanel_concept.blend": {
+    "size_bytes": 22802991,
+    "sha256": "e5a1421c2f3eece97c8f0046bc037f8299eeae7ab2bde9a3b19dc9663a69a428",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v7/chanel_concept.blend"
+  },
+  "LV/DesignProcess/Experimental_v7/chanel_front.png": {
+    "size_bytes": 1539703,
+    "sha256": "e775b4edd853c9b419fb1a93457816e57ff77609adfe25587d4a0188e757ddc0",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v7/chanel_front.png"
+  },
+  "LV/DesignProcess/Experimental_v7/chanel_rear.png": {
+    "size_bytes": 1548461,
+    "sha256": "27e0d5d4f5d36ea96d682478491619dc56f7ddb275744f4f8193d1ff111eaa99",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v7/chanel_rear.png"
+  },
+  "LV/DesignProcess/Experimental_v7/chanel_top.png": {
+    "size_bytes": 1515250,
+    "sha256": "aac6beae85c13ff51685adeddec899bf9daaa7799299b2e1ac2cd2ff8e1e1ef6",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v7/chanel_top.png"
+  },
+  "LV/DesignProcess/Experimental_v7/fuse.py": {
+    "size_bytes": 1741,
+    "sha256": "488a790983f146c98d4c758a57b846328f8bc957ac04dfee2601d54f61cbfc6d",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v7/fuse.py"
+  },
+  "LV/DesignProcess/Experimental_v8/build.py": {
+    "size_bytes": 10009,
+    "sha256": "a0640a5939aa0c2b0ecd46b0ba764ca4fdb051376493184d68316b088618b4be",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v8/build.py"
+  },
+  "LV/DesignProcess/Experimental_v8/chanel-build.log": {
+    "size_bytes": 18056,
+    "sha256": "8c6ae1773db3835dcbd04ebf77112f264b446d830766d58d08ccb84f568cdfa4",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel-build.log"
+  },
+  "LV/DesignProcess/Experimental_v8/chanel-voxel-render.log": {
+    "size_bytes": 11151,
+    "sha256": "2522dfff230dbbfba0906209c4bd4c155018f85f5067792e24c0eb2fe9ce8147",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel-voxel-render.log"
+  },
+  "LV/DesignProcess/Experimental_v8/chanel-voxel.log": {
+    "size_bytes": 334,
+    "sha256": "944ced1f081ee2c03a1100aa6a932daafb2280d3c654d9b60524e34f1199cdfb",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel-voxel.log"
+  },
+  "LV/DesignProcess/Experimental_v8/chanel_concept.blend": {
+    "size_bytes": 22802991,
+    "sha256": "aa9cad7036fb85fdba7a83faf2905eb3ccbe105b45a6cd8262fae0ebff696bb4",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_concept.blend"
+  },
+  "LV/DesignProcess/Experimental_v8/chanel_front.png": {
+    "size_bytes": 1537377,
+    "sha256": "837be9bbbf559660bad3a0a6304f3334ac7bc53ff530709820c9f471e6a2e9d9",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_front.png"
+  },
+  "LV/DesignProcess/Experimental_v8/chanel_rear.png": {
+    "size_bytes": 1549310,
+    "sha256": "1af10c931d94128979ea252f6c5a2f973d6f5e7fe226e0b64e1a449a390b87a1",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_rear.png"
+  },
+  "LV/DesignProcess/Experimental_v8/chanel_top.png": {
+    "size_bytes": 1515946,
+    "sha256": "5ca72eedaa4a078e92493c7853fb06c82c5533a05cc6a75e8bd1af481b475e32",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_top.png"
+  },
+  "LV/DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl": {
+    "size_bytes": 89553884,
+    "sha256": "a40e69618ca44d5de074f0d27291cea68eec19aad0a62beab05526a0e9254aab",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl"
+  },
+  "LV/DesignProcess/Experimental_v8/chanel_voxel_front.png": {
+    "size_bytes": 1499497,
+    "sha256": "dbaa36a7a6abf3fe60ea96a526151d72d77a85351df3580446cb436f767b160c",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_voxel_front.png"
+  },
+  "LV/DesignProcess/Experimental_v8/chanel_voxel_rear.png": {
+    "size_bytes": 1510641,
+    "sha256": "04000d8223d394bc70d7bec643fd04f63ac7410559ee9a785c2b33c270b26c3d",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_voxel_rear.png"
+  },
+  "LV/DesignProcess/Experimental_v8/fuse.py": {
+    "size_bytes": 1741,
+    "sha256": "488a790983f146c98d4c758a57b846328f8bc957ac04dfee2601d54f61cbfc6d",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v8/fuse.py"
+  },
+  "LV/DesignProcess/Experimental_v8/inspect_voxel.py": {
+    "size_bytes": 1097,
+    "sha256": "658e7809b5cdcb7678a504547983e98ca7676e5be9c579c8305f44e712f94e9b",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v8/inspect_voxel.py"
+  },
+  "LV/DesignProcess/Experimental_v8/voxel_fuse.py": {
+    "size_bytes": 1135,
+    "sha256": "4f229288e3b877552a886c804a29c2a842d80a20196b4b916c02203c2510426a",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v8/voxel_fuse.py"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/LV_Monogram.svg": {
+    "size_bytes": 3200,
+    "sha256": "fcdbedf42e66b75c7ec33d4544d253f6d0f8c2a8204f18be7086b54bcceca93a"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/bowl_30mm_assembly.step": {
+    "size_bytes": 12224066,
+    "sha256": "f938f01a5ce315c71764e2b2edcd94dbef2432a4f886e3db2f9ee5451d7b9867"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/build.py": {
+    "size_bytes": 5272,
+    "sha256": "8cc93054d4dc542a6134d1a60628868bb6fb8473cc08443fe94370ad8913c15e"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/manifest.json": {
+    "size_bytes": 577,
+    "sha256": "e4e030de1e57b8e5de6375800dbd56a4aee22ce8a3e582167446090439240920"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parameters.json": {
+    "size_bytes": 260,
+    "sha256": "697793b641b6d7ca5f191341cc86e3022c6017bff2851ff0f196e1695ec487cc"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/blue_middle_z2_28.step": {
+    "size_bytes": 10558183,
+    "sha256": "b9c91e9ad441255d5c8fd93f6e35657f9fdbc82623f114b8c342a62fc2d656e9"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/blue_middle_z2_28.stl": {
+    "size_bytes": 4126784,
+    "sha256": "205f705f81cc3b651fca3529ca3640db466d92c7a453e07fbcd9421b135e4db3"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/clip_fit_coupon.step": {
+    "size_bytes": 29038,
+    "sha256": "d3b279a137ec99ca35cbe318f9548691a12cdac9497a16b9ab82d10ca21d0fe7"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/clip_fit_coupon.stl": {
+    "size_bytes": 1484,
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa",
+    "reference_to": "../../../../Chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.stl"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/ivory_bottom_z0_2.step": {
+    "size_bytes": 53734,
+    "sha256": "3a9760657a41dd5c14f6b6d01c4abb6d3d59b56004d7a6b2c0af2b16ea24ee12"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/ivory_bottom_z0_2.stl": {
+    "size_bytes": 33884,
+    "sha256": "ec940b06e8ae9e27785d9d8750cefbf87c23ca8593db3326adb24bd022b3ca60",
+    "reference_to": "../../../Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.stl"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/ivory_glue_logo.step": {
+    "size_bytes": 1441498,
+    "sha256": "e2c032f3f657eea3ee4fb03c6c429b0f917f040d517c3fb815fde333f8a87071"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/ivory_glue_logo.stl": {
+    "size_bytes": 72284,
+    "sha256": "9300e14382376d8037f05a11e8d93e36a513f44b1475022c1b693450098ba3bd"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/ivory_logo_print_flat.step": {
+    "size_bytes": 1485392,
+    "sha256": "08d4878d422ef1daf39ceb64c23ba2dfec81dbfefef01e909807c82ada1161f4"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/ivory_logo_print_flat.stl": {
+    "size_bytes": 72284,
+    "sha256": "59baf3dc70d743af4d16f622501e65ee79dfa5511fd7cced502332822d3a8fa8"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/ivory_top_z28_30.step": {
+    "size_bytes": 63533,
+    "sha256": "12f3547c8b9205272fcba9dc23dfeaaca22c65c05e713f59b11d5242e7449b5f"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/ivory_top_z28_30.stl": {
+    "size_bytes": 65684,
+    "sha256": "12882f8d2b6aca7c593980bcff15a5fe8a8753d01e3189e12a5cfcd66a2d4fb7",
+    "reference_to": "../../../Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.stl"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/whole_bowl_AMS.step": {
+    "size_bytes": 10550724,
+    "sha256": "b6a94385e0c2b47cddaa80961529e4154f45a327deaf461f3b5008c4c6bc8e3d"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 4126784,
+    "sha256": "2e9b21265e287bddbec8e55e0cf86629d9171d65a173695163d570b775fb310b"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/perspective.png": {
+    "size_bytes": 1238081,
+    "sha256": "bca0b9e486e154ea4b2efb987bf231ebe427350bce03a1d7d00f68437b143648"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/rear.png": {
+    "size_bytes": 1245150,
+    "sha256": "04488c43bfd8d98f3331da516cfc26f87ad9689814b31f88196e8d465a6e255f"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/render.py": {
+    "size_bytes": 2115,
+    "sha256": "8b7ceee8779d2d83a7537f732f716b62aa3524e132e83a5e8d2f875a9915f40a"
+  },
+  "LV/DesignProcess/LowBowl_FirstDesign/validation.json": {
+    "size_bytes": 2675,
+    "sha256": "ce70d4f0f6bb403aecc0aa0c12946f04f74ba1d2fef754028d9f5dc8ad99f834"
+  },
+  "LV/DesignProcess/TallBowl_85mm/BUILD.txt": {
+    "size_bytes": 529,
+    "sha256": "8635a966e03b554b87ecd06b80317e0f711959dd3a534d9ad9463a62a5be7263"
+  },
+  "LV/DesignProcess/TallBowl_85mm/README_打印说明.txt": {
+    "size_bytes": 2843,
+    "sha256": "39df3df46ada13a1c451cfea5125d9d6a63238f679b2f63cf487e322527585e2"
+  },
+  "LV/DesignProcess/TallBowl_85mm/check_interfaces.py": {
+    "size_bytes": 632,
+    "sha256": "13baa97d673442d5639778d118e2443071eb562593884151512c059b36d0c7b3"
+  },
+  "LV/DesignProcess/TallBowl_85mm/interface_validation.json": {
+    "size_bytes": 324,
+    "sha256": "80ceeb3a8787b39144a83fa1a8e1c1346a62b81e16c3f3a0ef24afc2d8cc9706"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/LV_Monogram.svg": {
+    "size_bytes": 3200,
+    "sha256": "fcdbedf42e66b75c7ec33d4544d253f6d0f8c2a8204f18be7086b54bcceca93a"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/back.png": {
+    "size_bytes": 762318,
+    "sha256": "9d02c631283f0c5de0d9e28d474a8d7a23d6917d4d69183fce09adc4fbee84aa"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/build.py": {
+    "size_bytes": 4954,
+    "sha256": "ae1ef28c3deed361dbdadc4d1835046437b0e66220b26caecb43a2f6004f4bf4"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/check_clip.py": {
+    "size_bytes": 534,
+    "sha256": "6035d423cf79a2cead8cf4421e4c958aad80ac9742b18eb7b46776bc12edae5f"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/clip_validation.json": {
+    "size_bytes": 183,
+    "sha256": "7431e94cc2795cc33ba27e1cd1d891208b91676cdd7f3810db556e58b619a7d7"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/high_bowl_assembly.step": {
+    "size_bytes": 25092371,
+    "sha256": "19faf48bbbded848350320486425124a13fde4fc780c69fe61df12f462af2f5c"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/manifest.json": {
+    "size_bytes": 459,
+    "sha256": "52687fc50714943c49116905d8fc09e9f150e6566bb693697edd2f1db319f21d"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parameters.json": {
+    "size_bytes": 460,
+    "sha256": "7ba6af1c4fa987f816143261a8f2ce38f9752bf45885d123d8fa6057ca567684"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/blue_body_with_inverted_T_clip.step": {
+    "size_bytes": 23349830,
+    "sha256": "2476b4effd1174f9826055591b939c50a6562f1301ac589632b686b1a9070d2d"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/blue_body_with_inverted_T_clip.stl": {
+    "size_bytes": 5710284,
+    "sha256": "25ef47e610f69c4961084301eb9565d77c3f3b9ed041f18e1ee1f99229b1f156"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/clip_fit_coupon.step": {
+    "size_bytes": 29038,
+    "sha256": "7ce2787cc04cf3af6d333bb435d0ee78bea8e649e98145d27ad89fc5c7e22dbb"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/clip_fit_coupon.stl": {
+    "size_bytes": 1484,
+    "sha256": "79d18bb2eb112fde4a3060a4f13ca08f6e51f5824414ba5b443d98994fa8b041"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/footprint_2mm_gauge.step": {
+    "size_bytes": 53419,
+    "sha256": "b619196ff9416de54b7e25a90f1bcf825da6ca1083afbcdbfbd9acd47896daef"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/footprint_2mm_gauge.stl": {
+    "size_bytes": 33884,
+    "sha256": "4cc4ccba6933ddd9a2f40f4a3e300ddff705f1c40a3bc6e861096908e41d18b3"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/ivory_glue_logo.step": {
+    "size_bytes": 1440296,
+    "sha256": "6d857a7a023731ff49197148196e60a4402900509bba174ab08051ad97692f6f"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/ivory_glue_logo.stl": {
+    "size_bytes": 72284,
+    "sha256": "363d72c709f6aa091e412867abbffee55caa9c839ae39e5937d07f058b6ee4bc"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/ivory_logo_print_flat.step": {
+    "size_bytes": 1481577,
+    "sha256": "ab71ebd4ab69fb260c9f2eb788c69ad54cfbc265f1c6a14b1cad68350cf28dfd"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/ivory_logo_print_flat.stl": {
+    "size_bytes": 72284,
+    "sha256": "1dcef7ca2732ae16382cab4b23fd38d6037b270725ce597121e7ce8c52031db9"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/ivory_top_layers.step": {
+    "size_bytes": 48944,
+    "sha256": "62f4dfa0cd6133741497d2e79deba8e0b9292f9b193d9466acce192025abf8eb"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/ivory_top_layers.stl": {
+    "size_bytes": 52084,
+    "sha256": "5ca4b7c5392ef47c0e11ee2e61c57d4931a2db6e4023a1e8257ef9d719473fd8"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/whole_bowl_AMS.step": {
+    "size_bytes": 23346467,
+    "sha256": "a0aeab9af3fd99f95594ef3c197d23450ea4d599b7658b1e6324a35f4aaf539e"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 5710284,
+    "sha256": "5cd8807ba158e5a4eb949b3034ed537208a2ca8468dc9459905f711a323a3ce0"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/perspective.png": {
+    "size_bytes": 1375194,
+    "sha256": "3e208046596e7c17a21034bb6899278dd04d1665963e5c8e0cf09ed80c0da02a"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/print_helpers.py": {
+    "size_bytes": 841,
+    "sha256": "b912683ef9dd8cf551a4ec1b1e36f58f52fcb452094f63f6369fe2ccfcb6b0b1"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/remesh.py": {
+    "size_bytes": 312,
+    "sha256": "4eb8ccb5a2a793831e7f5cfba52a8ada6048222b31eb62fad5707923a3b88892"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/render.py": {
+    "size_bytes": 2121,
+    "sha256": "d48d6efbd3d3b02ade07233b01e74f314ef2621885d138b66db34fb232b6c973"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/side.png": {
+    "size_bytes": 750576,
+    "sha256": "4fb73105d853a59910039b87497e7489c9bb25a21a6648ce0ab9aafdcca14461"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/validate.py": {
+    "size_bytes": 500,
+    "sha256": "4d1cacad59679da66f026859dc9d3ec9615a9e976dc50c21062fcb63535cf3d3"
+  },
+  "LV/DesignProcess/TallBowl_85mm/lv/validation.json": {
+    "size_bytes": 1849,
+    "sha256": "d4b4c714534fbd5fdabecdfa64ef571d9209d7a32f283c762acafaf3c0b09b40"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/PRINT_README.txt": {
+    "size_bytes": 3109,
+    "sha256": "0e49c2ea43c830377c55f0678accaa5f48418f1d79de8c4662951d52f44a9e11"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/SHA256SUMS.txt": {
+    "size_bytes": 2865,
+    "sha256": "c13e043abc9bcd97d77cc9cb0691a158b4973d72bfc89e103658a419c054b04a"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/SOURCE_LICENSE.md": {
+    "size_bytes": 1087,
+    "sha256": "42440773f5aa6d87ae512fad5f98aad716242dec294fa76af1c9ee0815b94519"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/approved_design.png": {
+    "size_bytes": 153862,
+    "sha256": "d8bc176bebf965021553f7e281cfa699079943130e6b01d54939b8c575e7d1f6"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/approved_layout.json": {
+    "size_bytes": 1489,
+    "sha256": "4b90caabb7ae790ac3f2240c9d3c930f16f55541453f0e1ad63f2a0fbf7c088e"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/bowl_30mm_assembly.step": {
+    "size_bytes": 5547992,
+    "sha256": "bbec990d1c4b33566db90861ce6b75fc701a16ba2465972f22300a5349061643"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/build.py": {
+    "size_bytes": 4753,
+    "sha256": "ccb937939aac2cd64630666b5fe8dce4a1d39db7e9a68bf690bd7c32374f47e8"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/front.png": {
+    "size_bytes": 897656,
+    "sha256": "c13a322325824561a53953bddd60c495297feb1017c3669ae72eef7aa040f00d"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/manifest.json": {
+    "size_bytes": 576,
+    "sha256": "42209996a1c47a62b4a09f9d33e19d947f774571541d1cf119116fbbfe53cfae"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/blue_middle_z2_28.step": {
+    "size_bytes": 5240976,
+    "sha256": "5284e8bfe00e9be100a418734729c711f1a22d9e5882ca7d5bb561ee3fa74efd"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/blue_middle_z2_28.stl": {
+    "size_bytes": 5524784,
+    "sha256": "649807cf506f9011332721a7b41881123163096fb9acb544aae5b3a3f94f4b34"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/clip_fit_coupon.step": {
+    "size_bytes": 29038,
+    "sha256": "a99c3946c3863ca7536527ab80641305f5ddbbdb1b33f50d767d84e9935f1f5a"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/clip_fit_coupon.stl": {
+    "size_bytes": 1484,
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa",
+    "reference_to": "../../../../../Chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.stl"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_bottom_z0_2.step": {
+    "size_bytes": 53734,
+    "sha256": "2b8d34e122794fa878b3e890b0b6558b7a1d72d3b63a12980135cae526375d8c"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_bottom_z0_2.stl": {
+    "size_bytes": 33884,
+    "sha256": "ec940b06e8ae9e27785d9d8750cefbf87c23ca8593db3326adb24bd022b3ca60",
+    "reference_to": "../../../../Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.stl"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_glue_logo.step": {
+    "size_bytes": 166740,
+    "sha256": "987c180cb57a05168187d74ccec3a3ff9cc5aea3d6598c093e1f58f0a809883d"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_glue_logo.stl": {
+    "size_bytes": 352384,
+    "sha256": "d2e686ffaee1690514c255b6dd9e82de5db58cfcd9d52d33752a76c4413d8ed6",
+    "reference_to": "../../../../Models/FullSides_OriginalClip/lv/parts/ivory_glue_logo.stl"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_logo_print_flat.step": {
+    "size_bytes": 173204,
+    "sha256": "f955bdec33e59805407266bc6695fc2450241a0ba7ee9d904ea99f96d35a0241"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_logo_print_flat.stl": {
+    "size_bytes": 352684,
+    "sha256": "eb544084a2bad95eafa734eb908de69018ae301fabc4de833d3fcb43033ea109",
+    "reference_to": "../../../../Models/FullSides_OriginalClip/lv/parts/ivory_logo_print_flat.stl"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_top_z28_30.step": {
+    "size_bytes": 63533,
+    "sha256": "3a0fcfed1efa8bc1aeeb7e076c2e4afdc398133d518ecc06049ecfa06bd04aca"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_top_z28_30.stl": {
+    "size_bytes": 65684,
+    "sha256": "12882f8d2b6aca7c593980bcff15a5fe8a8753d01e3189e12a5cfcd66a2d4fb7",
+    "reference_to": "../../../../Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.stl"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/whole_bowl_AMS.step": {
+    "size_bytes": 5233620,
+    "sha256": "7eb279bdb6a79dec89d95a83248d2d8ec2972c29a07b8287d6b37b3fcb39ce84"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 5524784,
+    "sha256": "97e21d580b13199fa2ccedf5a5e797a79884bc081fd80d9015b23086d43422c5"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/pattern_layout.json": {
+    "size_bytes": 2608,
+    "sha256": "93ba576962f70667220ef5f6d668581a7ae02fe4b9cb87483e4addb40dfed62a"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/perspective.png": {
+    "size_bytes": 1528119,
+    "sha256": "fd8b90e6e11259c409a92789e8e4b1181932e4d45a9e4d4752c5733b78aeb29d"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/rear.png": {
+    "size_bytes": 1880223,
+    "sha256": "11a40ef16093dba24aeda45d52ae41b515a5a7f7082f3ecc294459c61636ad3b"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/render.py": {
+    "size_bytes": 2116,
+    "sha256": "c3efefdb9a0b1cb4e7323e85c9dcaf2e8c99ab05afe43ab622f901fa9ceb77fc"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/source.ai": {
+    "size_bytes": 1070672,
+    "sha256": "eda50631aeb5c9f3817a9da713523815a6069bd724d2448c37abbe619f09c4aa"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/topology_checks.json": {
+    "size_bytes": 1017,
+    "sha256": "cd2556c1035013cb8bb8da454c901e959e2df77b7dbfa4432ca52e68950672ac"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/validation.json": {
+    "size_bytes": 2674,
+    "sha256": "268dc2b1708ed3cf1ba872e9c682c5d7c70c24bb34e7e2c1d31f9846f7429cce"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/lv/vector_shapes.py": {
+    "size_bytes": 2432,
+    "sha256": "051510d7da2713b90ccce732fd41ee1d997e6c6d39fa05219020c15e684e4743"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/packages/LV_Bowl_30mm_Vector_TwoRows_2026-11-16.zip": {
+    "size_bytes": 13754563,
+    "sha256": "3b90105435b2cab1443f2e30df23958052069864e60eb7459798deda2d6ec829"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/slicing_diagnostic/README.txt": {
+    "size_bytes": 564,
+    "sha256": "e8ef9674a8cbfa05594c9673b417b22f14ffc03b5b3f1592c0104ed696bdd7d5"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/slicing_diagnostic/bowl_result.json": {
+    "size_bytes": 3242,
+    "sha256": "384b2b6d5bd50240f1771f5c35c3a79410412f23f1330dfcb2cb59f93b5fd369"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/slicing_diagnostic/logo_result.json": {
+    "size_bytes": 3155,
+    "sha256": "56d3ecef59b464f652d3350a44a844b8c90a8605b6ce00b67b775e80cbf0d997"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/validate.py": {
+    "size_bytes": 689,
+    "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+  },
+  "LV/DesignProcess/TwoRows_BeforeSideCompletion/打印说明.txt": {
+    "size_bytes": 1929,
+    "sha256": "c145e4f4cb71a769630ce6af53976dbf4c92407d11ed2e3e8dbe6cdce63d0f96"
+  },
+  "LV/Documentation/FullSides_ReleaseRecords/packages/LV_Bowl_FullSides_ClipOptions_2026-11-16.zip": {
+    "size_bytes": 37395790,
+    "sha256": "fcd74cf9efb98786c99caea6a4fb7267b572d0bafe97aa6108079252d6c32527"
+  },
+  "LV/Documentation/FullSides_ReleaseRecords/slicing_diagnostic/README.txt": {
+    "size_bytes": 576,
+    "sha256": "c0d881e636c2a604f3caef1e8b7ca3a32652d77f5c48c7fd6a6ddbb8d4c68231"
+  },
+  "LV/Documentation/FullSides_ReleaseRecords/slicing_diagnostic/clip_fit_coupon_result.json": {
+    "size_bytes": 3175,
+    "sha256": "c7a5a385c3b6c8df54b196d0e5348edaa52a4e78d6d20265c7cdd60a6e8f839a"
+  },
+  "LV/Documentation/FullSides_ReleaseRecords/slicing_diagnostic/whole_bowl_AMS_result.json": {
+    "size_bytes": 3242,
+    "sha256": "804a26cae9f090731d236bba36bb06bf5ef0ba42af7eac1c7fc403504d27fb6c"
+  },
+  "LV/Documentation/FullSides_ReleaseRecords/请先读_版本选择.txt": {
+    "size_bytes": 1154,
+    "sha256": "204878e0050a6f764478af60ae4d785c6e14e03d8e4fef7035cdf0ce1dea36b8"
+  },
+  "LV/Documentation/RecoveredPackages/LV_Bowl_InvertedT_2026-11-14.zip": {
+    "size_bytes": 21276827,
+    "sha256": "4bcad32b38122538f21591233ba0b06af9ac2cf896d1eedea210e18570461d9a"
+  },
+  "LV/Documentation/UnfinishedExperimentalDelivery/LV_未完成实验.zip": {
+    "size_bytes": 36941521,
+    "sha256": "828ebbb63924729306e115b40e20440d4bdd2e9de9d4ee599938aaae1572037c"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/PRINT_README.txt": {
+    "size_bytes": 3535,
+    "sha256": "01ceb1e1b533db0098d1a856c321e340458a8fb0d84094735ec13288432e61fb"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/SHA256SUMS.txt": {
+    "size_bytes": 2958,
+    "sha256": "dc39f614a7469bf117fb3723e864beca427e4ae6f7b1f4aab5de89af54a5f994"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/SOURCE_LICENSE.md": {
+    "size_bytes": 1087,
+    "sha256": "42440773f5aa6d87ae512fad5f98aad716242dec294fa76af1c9ee0815b94519"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/approved_design.png": {
+    "size_bytes": 153862,
+    "sha256": "d8bc176bebf965021553f7e281cfa699079943130e6b01d54939b8c575e7d1f6"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/coverage_verification.json": {
+    "size_bytes": 593,
+    "sha256": "0a446234aa67b0858c8b27852888419ddd56aac99b299579797139401adbbe2e"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/approved_layout.json": {
+    "size_bytes": 1489,
+    "sha256": "4b90caabb7ae790ac3f2240c9d3c930f16f55541453f0e1ad63f2a0fbf7c088e"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/bowl_30mm_assembly.step": {
+    "size_bytes": 8545623,
+    "sha256": "7ced5043963e57963240332d8735d5de70dff5c25f3739524f5f4a4cdfacac71"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/build.py": {
+    "size_bytes": 5418,
+    "sha256": "ad22f58eb19d2b59c43e7d3a6eaa93ca51b1a8eb6198c54d4b8f7277ab145ad6"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/clip.png": {
+    "size_bytes": 2027459,
+    "sha256": "dc0e4e464d102fdac2b2757c1fd7b3ebf8cb3c59b9984c948dae66c982f6c24d"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/clip_checks.json": {
+    "size_bytes": 748,
+    "sha256": "97d0db2402e5a1ecc5707694346dd38d86ddae88e753d05b8f7583e27595dc2d"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/manifest.json": {
+    "size_bytes": 576,
+    "sha256": "d346b12f9f0351844d8a7d2513ebe3d6bcc412b11104d5553b0f3cb0ac4fe2f8"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/blue_middle_z2_28.step": {
+    "size_bytes": 8226039,
+    "sha256": "87be7721ffeddba76c4735a7700317eaca6edbf1bdc5d774017b7b0ada8b4c70"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/blue_middle_z2_28.stl": {
+    "size_bytes": 8458984,
+    "sha256": "6d29fc3cbb36c0f0e644a469a17e77770dc5b17dee714e81bbdde58593e9aed4"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/clip_fit_coupon.step": {
+    "size_bytes": 47293,
+    "sha256": "f105227c32973bcec1816b1cfc7897fc01017355cb34a9625bfcc0f58fe2ff02"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/clip_fit_coupon.stl": {
+    "size_bytes": 2684,
+    "sha256": "5df54458788482d144f161f0b87ce57b3902d371bbdd517b9902bf2a4978c091"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_bottom_z0_2.step": {
+    "size_bytes": 53734,
+    "sha256": "b88717ab7214fe1316486fc1e606240755c6f55b8e1a74f06008adac2b752cef"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_bottom_z0_2.stl": {
+    "size_bytes": 33884,
+    "sha256": "ec940b06e8ae9e27785d9d8750cefbf87c23ca8593db3326adb24bd022b3ca60",
+    "reference_to": "../../../FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.stl"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_glue_logo.step": {
+    "size_bytes": 166740,
+    "sha256": "4d8c153bf313f049c3cbf8d6aec6dec3005de1cf2c96459f3103255f2a752194"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_glue_logo.stl": {
+    "size_bytes": 352384,
+    "sha256": "d2e686ffaee1690514c255b6dd9e82de5db58cfcd9d52d33752a76c4413d8ed6",
+    "reference_to": "../../../FullSides_OriginalClip/lv/parts/ivory_glue_logo.stl"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_logo_print_flat.step": {
+    "size_bytes": 173204,
+    "sha256": "cdd644d909359656d75b3b7c4d7b71cda1ce0e83eec3d590e4ccb473d5e3ef96"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_logo_print_flat.stl": {
+    "size_bytes": 352684,
+    "sha256": "eb544084a2bad95eafa734eb908de69018ae301fabc4de833d3fcb43033ea109",
+    "reference_to": "../../../FullSides_OriginalClip/lv/parts/ivory_logo_print_flat.stl"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_top_z28_30.step": {
+    "size_bytes": 63533,
+    "sha256": "f4f2917f3658d93cbc495bc429fd89013dc8fb83f5aaed72eae4cd549c248bf3"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_top_z28_30.stl": {
+    "size_bytes": 65684,
+    "sha256": "12882f8d2b6aca7c593980bcff15a5fe8a8753d01e3189e12a5cfcd66a2d4fb7",
+    "reference_to": "../../../FullSides_OriginalClip/lv/parts/ivory_top_z28_30.stl"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/whole_bowl_AMS.step": {
+    "size_bytes": 8218673,
+    "sha256": "8a02f1c705d38872f5885db4ff844f09f1a6376d17624889990eac479d2c512d"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 8458984,
+    "sha256": "ea6dd526ac3ab4638e192bb63dd4e6707e6dd4fc446478f720d98a96e38cc685"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/pattern_layout.json": {
+    "size_bytes": 3870,
+    "sha256": "38cd814f007ca81330bf279dd3cf1122fcf477467f421c6ba6d11e42d33f6877"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/rear.png": {
+    "size_bytes": 1810960,
+    "sha256": "ead8a4b19dcf7d85658f56e71460fab649324af976377e66b574e1c8738e0711"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/render.py": {
+    "size_bytes": 2134,
+    "sha256": "ddc2c06a8420f34a088dcd81382f1141f73adf104243e371f995e0c6671aaf21"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/source.ai": {
+    "size_bytes": 1070672,
+    "sha256": "eda50631aeb5c9f3817a9da713523815a6069bd724d2448c37abbe619f09c4aa"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/topology_checks.json": {
+    "size_bytes": 1017,
+    "sha256": "63749466c96d1a9e5458cdc7d813f8943a84acfcd71d022e82c078c1eff63f87"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/validation.json": {
+    "size_bytes": 2688,
+    "sha256": "7ed9a77a0892b2b059d2a266c029529ac60daa3bc4c5701ca7f8992e4d380866"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/lv/vector_shapes.py": {
+    "size_bytes": 2432,
+    "sha256": "051510d7da2713b90ccce732fd41ee1d997e6c6d39fa05219020c15e684e4743"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/validate.py": {
+    "size_bytes": 689,
+    "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+  },
+  "LV/Models/FullSides_HollowRaisedClip_Candidate/打印说明.txt": {
+    "size_bytes": 2532,
+    "sha256": "c685bff68d0c43e49b3f1b56f4cb57f3802f29a48cbe19957e7662125e43881a"
+  },
+  "LV/Models/FullSides_OriginalClip/PRINT_README.txt": {
+    "size_bytes": 3161,
+    "sha256": "e5e3ea53b7924d85822beaef99e5862b6acc52e8e58c05489e0c34bd847d87c7"
+  },
+  "LV/Models/FullSides_OriginalClip/SHA256SUMS.txt": {
+    "size_bytes": 3114,
+    "sha256": "f5859043d8321345159c2e2536787b4c02800fd011da2acd28fdd9294499b61b"
+  },
+  "LV/Models/FullSides_OriginalClip/SOURCE_LICENSE.md": {
+    "size_bytes": 1087,
+    "sha256": "42440773f5aa6d87ae512fad5f98aad716242dec294fa76af1c9ee0815b94519"
+  },
+  "LV/Models/FullSides_OriginalClip/approved_design.png": {
+    "size_bytes": 153862,
+    "sha256": "d8bc176bebf965021553f7e281cfa699079943130e6b01d54939b8c575e7d1f6"
+  },
+  "LV/Models/FullSides_OriginalClip/coverage_verification.json": {
+    "size_bytes": 462,
+    "sha256": "ff82ff414151a7d2733954563983b03f3dae3e568a4893c49f45bb85f466e02b"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/approved_layout.json": {
+    "size_bytes": 1489,
+    "sha256": "4b90caabb7ae790ac3f2240c9d3c930f16f55541453f0e1ad63f2a0fbf7c088e"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/bowl_30mm_assembly.step": {
+    "size_bytes": 8525400,
+    "sha256": "90354c1264be3cf2af53221911971fd9522ca650400f88679b1561ef3680a58b"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/build.py": {
+    "size_bytes": 5090,
+    "sha256": "f3186550a4b519c44f017983bfdb09e94642221555982a95658d7df7d99c06c7"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/front.png": {
+    "size_bytes": 921282,
+    "sha256": "7f54bb60d6096d767b10f807a23863b207e9185d02aea23e41871a0e34db0897"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/left.png": {
+    "size_bytes": 927180,
+    "sha256": "83e808a326e70cb2525acf95e75f7f8a740d0368070d2ead04b6dd5e280cb94e"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/manifest.json": {
+    "size_bytes": 576,
+    "sha256": "9976ef5d3071120e85d532ee35a341081d18e46670e36104b9d1968dfdab5e21"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/blue_middle_z2_28.step": {
+    "size_bytes": 8205820,
+    "sha256": "57e6f1bbf6ecab4ca5190dc4ac47fb33ffb04ff12f474ec99662d4d8f6e46b0e"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/blue_middle_z2_28.stl": {
+    "size_bytes": 8457984,
+    "sha256": "dedf46164a4283b9eb71328e47e42e0ffb5ee3e217d854238c8676b53a538ac6"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/clip_fit_coupon.step": {
+    "size_bytes": 29038,
+    "sha256": "d2b6cee43cfa5caa86493f6c19de3c5c8687262f8ce6aaec04a70ea5741664ca"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/clip_fit_coupon.stl": {
+    "size_bytes": 1484,
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa",
+    "reference_to": "../../../../../Chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.stl"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.step": {
+    "size_bytes": 53734,
+    "sha256": "453c7fecd05a5ae18a13b6f327c55b8259b303ac888007757168aae3b9a4322c"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.stl": {
+    "size_bytes": 33884,
+    "sha256": "ec940b06e8ae9e27785d9d8750cefbf87c23ca8593db3326adb24bd022b3ca60"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/ivory_glue_logo.step": {
+    "size_bytes": 166740,
+    "sha256": "b223863d5e1f34f0492c058ce7a4019ccb7c6c4509fd306104ee52c7da6e57b6"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/ivory_glue_logo.stl": {
+    "size_bytes": 352384,
+    "sha256": "d2e686ffaee1690514c255b6dd9e82de5db58cfcd9d52d33752a76c4413d8ed6"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/ivory_logo_print_flat.step": {
+    "size_bytes": 173204,
+    "sha256": "ab5d75d78996a420b17c735cb0bfc3658e6fc18a9973faa23a9c534f1d13d32d"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/ivory_logo_print_flat.stl": {
+    "size_bytes": 352684,
+    "sha256": "eb544084a2bad95eafa734eb908de69018ae301fabc4de833d3fcb43033ea109"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.step": {
+    "size_bytes": 63533,
+    "sha256": "a314d13cbcc112b3f7d0f8e858c191832016a6021e508592fe04643dcee7d6e5"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.stl": {
+    "size_bytes": 65684,
+    "sha256": "12882f8d2b6aca7c593980bcff15a5fe8a8753d01e3189e12a5cfcd66a2d4fb7"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/whole_bowl_AMS.step": {
+    "size_bytes": 8198418,
+    "sha256": "0079599b17f9eb3e15627ac942cf71c9aac3a5829f26981d0b400b183244110a"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 8457984,
+    "sha256": "e8712faff650e70d637e0c99ec8915f7c35fa5e4167b61529ea8130e121c35c8"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/pattern_layout.json": {
+    "size_bytes": 3870,
+    "sha256": "38cd814f007ca81330bf279dd3cf1122fcf477467f421c6ba6d11e42d33f6877"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/perspective.png": {
+    "size_bytes": 1635908,
+    "sha256": "14c59c67e57bac1b0c72d42953f5525d2a5235c1c2fddf93fa2b9d35b1a6926c"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/rear.png": {
+    "size_bytes": 1672064,
+    "sha256": "548be69d81c468f1e9da0ce150793d8cc4dc598014a8a8483c307439d44a0451"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/render.py": {
+    "size_bytes": 2135,
+    "sha256": "142e15ff53d7cc36bfbc2bf04a8c2e70d8a8520cf2df7b8944ae618cf526731a"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/side.png": {
+    "size_bytes": 931287,
+    "sha256": "d79d3ce1f10f8a0444fa9722f67a99d35639fcee30370855924c02fb70e6602c"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/source.ai": {
+    "size_bytes": 1070672,
+    "sha256": "eda50631aeb5c9f3817a9da713523815a6069bd724d2448c37abbe619f09c4aa"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/topology_checks.json": {
+    "size_bytes": 1017,
+    "sha256": "fcdbd1ffc2023d5427f2260b74488a6afd6be4dd6ad912b151308c247568502e"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/validation.json": {
+    "size_bytes": 2674,
+    "sha256": "1249f588447606c279c10fe95a3e603e4ec79032b4cf7fa1923759d37bbdc8ac"
+  },
+  "LV/Models/FullSides_OriginalClip/lv/vector_shapes.py": {
+    "size_bytes": 2432,
+    "sha256": "051510d7da2713b90ccce732fd41ee1d997e6c6d39fa05219020c15e684e4743"
+  },
+  "LV/Models/FullSides_OriginalClip/validate.py": {
+    "size_bytes": 689,
+    "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+  },
+  "LV/Models/FullSides_OriginalClip/打印说明.txt": {
+    "size_bytes": 2131,
+    "sha256": "1d1e440fcd65510e9aad0038fd5b22a80b494cfd15f3d70ed7441c3777a17714"
+  },
+  "Chanel/DesignProcess/Experimental_v2/build.py": {
+    "size_bytes": 6768,
+    "sha256": "2bd779ae39e8e73de55b7e189f1e06ff917e7b5a39dd5f51a85fafb5b112ee4e",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v2/build.py"
+  },
+  "Chanel/DesignProcess/Experimental_v2/dog_bowl_v2.blend": {
+    "size_bytes": 27434153,
+    "sha256": "0000a4ae1cf616a1871f7983a22e2d7749e8ad3436bb9a0aca822800779a435d",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v2/dog_bowl_v2.blend"
+  },
+  "Chanel/DesignProcess/Experimental_v2/dog_bowl_v2.blend1": {
+    "size_bytes": 27434153,
+    "sha256": "d72048b9e23a9a3c968b0e61d493ba84a9c52835ce5f06e3abfa0c35ec10bc14",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v2/dog_bowl_v2.blend1"
+  },
+  "Chanel/DesignProcess/Experimental_v2/dog_bowls_v2.png": {
+    "size_bytes": 1902771,
+    "sha256": "e7a178e4df94f069a5405927b3f3cb265b74982974c626cfee44378a8f756e11",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v2/dog_bowls_v2.png"
+  },
+  "Chanel/DesignProcess/Experimental_v3/build.py": {
+    "size_bytes": 9219,
+    "sha256": "9aa0dc537e5f56f8b5246ce0fa7209a188e7bc5ccb960d5aef14527c8481ad3e",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v3/build.py"
+  },
+  "Chanel/DesignProcess/Experimental_v3/dog_bowl_v3.blend": {
+    "size_bytes": 18489403,
+    "sha256": "99004a215ddda1fd0d155fba4e5516ab72af8aee28eb6f710ca83b301fe4b85f",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v3/dog_bowl_v3.blend"
+  },
+  "Chanel/DesignProcess/Experimental_v3/dog_bowls_v3.png": {
+    "size_bytes": 1891268,
+    "sha256": "508b8958295316ce349b02517e4b26d5a5d21c7da521b9a09d4f52c4faae55e3",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v3/dog_bowls_v3.png"
+  },
+  "Chanel/DesignProcess/Experimental_v3/prepare.py": {
+    "size_bytes": 4266,
+    "sha256": "a16593c89f3798ecdb3491c0c2c6317725fbf2e123302b4f340cd7e4ffc681dc",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v3/prepare.py"
+  },
+  "Chanel/DesignProcess/Experimental_v4/build.py": {
+    "size_bytes": 8062,
+    "sha256": "0d6c559dd5a65ddeb1876b598c6279b7a550f66e6a4c6864c643eac423dd42f5",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v4/build.py"
+  },
+  "Chanel/DesignProcess/Experimental_v4/chanel-build.log": {
+    "size_bytes": 17199,
+    "sha256": "3dc44d289f32d66a24dc9fde5b526468befa0f0990282d654efefc906fb68435"
+  },
+  "Chanel/DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl": {
+    "size_bytes": 15974284,
+    "sha256": "a7e1e21a7b2c50b11f8eb3d1a558fd0d3c801e24f6210dea6ed2ff7a8046002d"
+  },
+  "Chanel/DesignProcess/Experimental_v4/chanel_concept.blend": {
+    "size_bytes": 12492647,
+    "sha256": "7d853bd4f78fd1efb1ca12784e3be473615da42b7c004ddfe69edfcaf4f70ba2"
+  },
+  "Chanel/DesignProcess/Experimental_v4/chanel_front.png": {
+    "size_bytes": 1470517,
+    "sha256": "e7a00c408700bba9adc7d2da42f1e873068292e008e12104736fb54c5af602e0"
+  },
+  "Chanel/DesignProcess/Experimental_v4/chanel_rear.png": {
+    "size_bytes": 1476529,
+    "sha256": "7546afcb8bc0d7a170e8824494eaef04e7acf695d2bc2534f06a2b4401c7ee42"
+  },
+  "Chanel/DesignProcess/Experimental_v4/chanel_top.png": {
+    "size_bytes": 1441019,
+    "sha256": "33d8248e51d0e2b067485364b24bbffbfad26d1bc92d3e054ec835e94b6d444c"
+  },
+  "Chanel/DesignProcess/Experimental_v4/fuse.py": {
+    "size_bytes": 1480,
+    "sha256": "c040b01c6532c04143175928b2288ad78ee7946d73b383d86b80109c573f4de9",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v4/fuse.py"
+  },
+  "Chanel/DesignProcess/Experimental_v4/lv-build.log": {
+    "size_bytes": 19671,
+    "sha256": "09e729af201acca0df43454083f26e9d8bcd0de426683e809f3ef8cc862a816c",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v4/lv-build.log"
+  },
+  "Chanel/DesignProcess/Experimental_v4/lv_body_only_unfinished.stl": {
+    "size_bytes": 15974284,
+    "sha256": "3c6ec1cadec8e762764efa2bc96367fb0f588c3cd354e42f0300d979c3f147b6",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v4/lv_body_only_unfinished.stl"
+  },
+  "Chanel/DesignProcess/Experimental_v4/lv_concept.blend": {
+    "size_bytes": 12348463,
+    "sha256": "88612b389c78d5fe3446cecaeb1244121007b43a55c362fc9fb709e98e36f35b",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v4/lv_concept.blend"
+  },
+  "Chanel/DesignProcess/Experimental_v4/lv_front.png": {
+    "size_bytes": 1538754,
+    "sha256": "2f89287605f63fde6eb959e3cddf93f5ff48f9b7bfc29dbc3c295f1e586719f2",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v4/lv_front.png"
+  },
+  "Chanel/DesignProcess/Experimental_v4/lv_rear.png": {
+    "size_bytes": 1541166,
+    "sha256": "ce182b6f12a3dcdd8e1a3683a138b68ac18c6e899edbd6dc85c4ee6ce46ebfb1",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v4/lv_rear.png"
+  },
+  "Chanel/DesignProcess/Experimental_v4/lv_top.png": {
+    "size_bytes": 1445414,
+    "sha256": "d6b952cd72ef74cb19b500623e246103f39940007b1e94f867dd07a6c2e15506",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v4/lv_top.png"
+  },
+  "Chanel/DesignProcess/Experimental_v5/build.py": {
+    "size_bytes": 9438,
+    "sha256": "3ac35b6e438d02c02cff598842a0904022f52ed058e9624ad6e6a0dca90b6955",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v5/build.py"
+  },
+  "Chanel/DesignProcess/Experimental_v5/chanel-build.log": {
+    "size_bytes": 19076,
+    "sha256": "f5f548c1b389956232092d0cc2fca722fdd372f380c2ea35e3090d14aea8ff45"
+  },
+  "Chanel/DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl": {
+    "size_bytes": 30105484,
+    "sha256": "4d4d3891455267d6baa332f1cdcb4413abe2c0809749ce5fc65d8f61c0c95db5"
+  },
+  "Chanel/DesignProcess/Experimental_v5/chanel_concept.blend": {
+    "size_bytes": 22802991,
+    "sha256": "ca3ca7cc75b9c7352257fb9d1a5da060bef66757f2cb7654133114297dac2cc2"
+  },
+  "Chanel/DesignProcess/Experimental_v5/chanel_front.png": {
+    "size_bytes": 1512923,
+    "sha256": "741fde7bf7f67c1a379b18de5617806b404976fab53382454d4038b56e71eb31"
+  },
+  "Chanel/DesignProcess/Experimental_v5/chanel_rear.png": {
+    "size_bytes": 1534559,
+    "sha256": "5e433db648b448613edbd096b0787eca1741749b94bb92a8d52104676916c225"
+  },
+  "Chanel/DesignProcess/Experimental_v5/chanel_top.png": {
+    "size_bytes": 1513526,
+    "sha256": "c12143be08fa0782d6094b4371ed4e48a994c19fc9ed2f28e3682af81e077b94"
+  },
+  "Chanel/DesignProcess/Experimental_v5/fuse.py": {
+    "size_bytes": 1509,
+    "sha256": "471015fcca2abe0146155572c16c21927b799c1eaf5a32216b0917ed0b662f77",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v5/fuse.py"
+  },
+  "Chanel/DesignProcess/Experimental_v5/lv-build.log": {
+    "size_bytes": 24049,
+    "sha256": "f9bca2822311fa21d9217694568e9ab48e0e7ca4210cbe7886a6bd9df7a303ff",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v5/lv-build.log"
+  },
+  "Chanel/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl": {
+    "size_bytes": 30105484,
+    "sha256": "b8968228eb3fba8b773c99b1c8049277a2c20e27e189a1b330782a2482bcbef2",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl"
+  },
+  "Chanel/DesignProcess/Experimental_v5/lv_concept.blend": {
+    "size_bytes": 23099891,
+    "sha256": "77f377b0538d4750424614dbf3fcd0f1e86dda8945c0f0adad77a85376089a29",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v5/lv_concept.blend"
+  },
+  "Chanel/DesignProcess/Experimental_v5/lv_front.png": {
+    "size_bytes": 1571157,
+    "sha256": "4e191765933231584363edacdeb4c125c82e65bc1e501d8cb046753223ada2d9",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v5/lv_front.png"
+  },
+  "Chanel/DesignProcess/Experimental_v5/lv_rear.png": {
+    "size_bytes": 1590064,
+    "sha256": "d0218ca07e859d01ec5b5329a5f4bb240199aa09174bffe1bc05f06daeb0fe5c",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v5/lv_rear.png"
+  },
+  "Chanel/DesignProcess/Experimental_v5/lv_top.png": {
+    "size_bytes": 1479859,
+    "sha256": "6cd51c85301856d5f110d924a4813c330834e4b7c7ef1a2831fcc253f5f84ad0",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v5/lv_top.png"
+  },
+  "Chanel/DesignProcess/Experimental_v6/audit_caps.py": {
+    "size_bytes": 659,
+    "sha256": "9863a58a8a6664282202a38b869aee1a203cf16fc4315706e6fd190fb2c5938e",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/audit_caps.py"
+  },
+  "Chanel/DesignProcess/Experimental_v6/audit_scene.py": {
+    "size_bytes": 455,
+    "sha256": "49177e837996268b748510e909eeacb77cde89e82baacdf10c3aa0707b9ed731",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/audit_scene.py"
+  },
+  "Chanel/DesignProcess/Experimental_v6/audit_weld.py": {
+    "size_bytes": 720,
+    "sha256": "724984caba3cd2791181e2aba6815a7b04bd0309c424b681d9b1a1eb993c820b",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/audit_weld.py"
+  },
+  "Chanel/DesignProcess/Experimental_v6/build.py": {
+    "size_bytes": 9518,
+    "sha256": "085d8d9a98333af73039a2056c3dd3b98800bc19398c2833f459c685062479d7",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/build.py"
+  },
+  "Chanel/DesignProcess/Experimental_v6/cap-audit.log": {
+    "size_bytes": 847,
+    "sha256": "8911e3d895237065f15f022c42368a231276b3257b7ea9f10757633387f1bbd4",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/cap-audit.log"
+  },
+  "Chanel/DesignProcess/Experimental_v6/chanel-build.log": {
+    "size_bytes": 6529,
+    "sha256": "db3613b80d062014ed7fd23a3de304c0c2cfda5263d02605c85251dc4e9e9e7f"
+  },
+  "Chanel/DesignProcess/Experimental_v6/chanel-fuse.log": {
+    "size_bytes": 409,
+    "sha256": "be7e987a2149fc62f75339cbab81c2ec946bd647c9383d3201e696faf5360e75"
+  },
+  "Chanel/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl": {
+    "size_bytes": 30105484,
+    "sha256": "28ddb500ed0af587ad35b779e4355ed86d62b0a0ae6bd2d4b9747e2792f67be4"
+  },
+  "Chanel/DesignProcess/Experimental_v6/chanel_candidate_unverified.stl": {
+    "size_bytes": 30058584,
+    "sha256": "ab525e23afe51c3a86197caa1805d9c3c398484ea41bef5f2f3f9254c08bda81"
+  },
+  "Chanel/DesignProcess/Experimental_v6/chanel_concept.blend": {
+    "size_bytes": 22802991,
+    "sha256": "bba4e6fb8467be12a0b5bcb10756cf02e3c8936946a4787fead71520bbe9d66d"
+  },
+  "Chanel/DesignProcess/Experimental_v6/chanel_front.png": {
+    "size_bytes": 1534659,
+    "sha256": "df1e91aa792c2d3c691ebd25dcc4d244bb8b51b6b8346ff2de5439bfb3e64d08"
+  },
+  "Chanel/DesignProcess/Experimental_v6/fuse.py": {
+    "size_bytes": 1758,
+    "sha256": "b6323ea86052e4bbea23fa42a6e17640ab6a9c1c5f4d1c3de2357183ca9e18cf",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/fuse.py"
+  },
+  "Chanel/DesignProcess/Experimental_v6/inspect_voxel.py": {
+    "size_bytes": 1097,
+    "sha256": "658e7809b5cdcb7678a504547983e98ca7676e5be9c579c8305f44e712f94e9b",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/inspect_voxel.py"
+  },
+  "Chanel/DesignProcess/Experimental_v6/lv-build.log": {
+    "size_bytes": 22871,
+    "sha256": "2f06aa3bc0b9615b86bdb8c683746edb0c9a9b6290f2ed5ae1edbf34ee71d001",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv-build.log"
+  },
+  "Chanel/DesignProcess/Experimental_v6/lv-fuse.log": {
+    "size_bytes": 662,
+    "sha256": "6f33a32d3732ac860a7851454a7ad466936f24bda5a4a85f28c44c7360cfb594",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv-fuse.log"
+  },
+  "Chanel/DesignProcess/Experimental_v6/lv-voxel-render.log": {
+    "size_bytes": 11088,
+    "sha256": "5837644fb565b7378be230343976fa31b9db8695f3b60897b6ac5677ad72e0fb",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv-voxel-render.log"
+  },
+  "Chanel/DesignProcess/Experimental_v6/lv-voxel.log": {
+    "size_bytes": 330,
+    "sha256": "9ed2f09462590f1d1fdcaa320e987f9a01182a65831411f6fb365a80f24aa396",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv-voxel.log"
+  },
+  "Chanel/DesignProcess/Experimental_v6/lv_candidate_unverified.stl": {
+    "size_bytes": 29925284,
+    "sha256": "1806e223668804eaad49e4e660a8e7686c7b7186cd5a286ec5b9ff04a5f6c4a4",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_candidate_unverified.stl"
+  },
+  "Chanel/DesignProcess/Experimental_v6/lv_concept.blend": {
+    "size_bytes": 23099891,
+    "sha256": "2d92af9a4a7763f225a6943ddf4ae959d5969f473aa4f05ff8f86765d88d1778",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_concept.blend"
+  },
+  "Chanel/DesignProcess/Experimental_v6/lv_front.png": {
+    "size_bytes": 1573248,
+    "sha256": "a3a191f988eec3c8dca2871f16be889f53773242f767fb676ea0bb265ee65330",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_front.png"
+  },
+  "Chanel/DesignProcess/Experimental_v6/lv_rear.png": {
+    "size_bytes": 1580389,
+    "sha256": "a1c8745593f014765e340539c619aa6eead8cd67fc35a101fb9a65cf03c2532e",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_rear.png"
+  },
+  "Chanel/DesignProcess/Experimental_v6/lv_top.png": {
+    "size_bytes": 1464243,
+    "sha256": "c67597469977f141e2eb5b86366d3e4bddcb205c651464667f5d6d31bab632b7",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_top.png"
+  },
+  "Chanel/DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl": {
+    "size_bytes": 87192684,
+    "sha256": "7838930ef0cdbe7637164abce6ff082f55fbe86e4dab370d052f626ae9a7b542",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl"
+  },
+  "Chanel/DesignProcess/Experimental_v6/lv_voxel_front.png": {
+    "size_bytes": 1505204,
+    "sha256": "d9458f8ae175e004d50c05a07541152556df53eb1bc0ce4b5f63398852ee09bf",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_voxel_front.png"
+  },
+  "Chanel/DesignProcess/Experimental_v6/lv_voxel_rear.png": {
+    "size_bytes": 1515283,
+    "sha256": "829206949cfa04822991954f3daf72e4a74840f35017e6032fc51edc9c3df03a",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_voxel_rear.png"
+  },
+  "Chanel/DesignProcess/Experimental_v6/scene-audit.log": {
+    "size_bytes": 668,
+    "sha256": "36ebf724c790400674dc684c9e181000eade21747c7fbec82187610a7dbdfd5d",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/scene-audit.log"
+  },
+  "Chanel/DesignProcess/Experimental_v6/slice_chanel/cli.log": {
+    "size_bytes": 549,
+    "sha256": "c6bc00ddf5efca7bf16ce5203b20198f30c6fc9cf30d8a5e1854fffe50cef1d9"
+  },
+  "Chanel/DesignProcess/Experimental_v6/slice_chanel/plate_1.gcode": {
+    "size_bytes": 20382517,
+    "sha256": "7abef8cff0a0b8e98623991a312de4559cbb08dc327df656ce10676c883686d1"
+  },
+  "Chanel/DesignProcess/Experimental_v6/voxel_fuse.py": {
+    "size_bytes": 1135,
+    "sha256": "4f229288e3b877552a886c804a29c2a842d80a20196b4b916c02203c2510426a",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/voxel_fuse.py"
+  },
+  "Chanel/DesignProcess/Experimental_v6/weld-audit.log": {
+    "size_bytes": 841,
+    "sha256": "811abedc7b07889d53929984e5d6b340033be6babd1cbd3a6c2aaf1a0f816469",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v6/weld-audit.log"
+  },
+  "Chanel/DesignProcess/Experimental_v7/build.py": {
+    "size_bytes": 9808,
+    "sha256": "e4874419cd623fb5fd6cd3896e36412e2a426fa2e451d96b6c2e99efb0887dd4",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v7/build.py"
+  },
+  "Chanel/DesignProcess/Experimental_v7/chanel-build.log": {
+    "size_bytes": 18018,
+    "sha256": "7ab605406f3f7db1d5e6ff14fe2ee872f55c7cc59b60b2ef7c89e6858284f928"
+  },
+  "Chanel/DesignProcess/Experimental_v7/chanel_body_only_unfinished.stl": {
+    "size_bytes": 30105484,
+    "sha256": "28ddb500ed0af587ad35b779e4355ed86d62b0a0ae6bd2d4b9747e2792f67be4",
+    "reference_to": "../Experimental_v6/chanel_body_only_unfinished.stl"
+  },
+  "Chanel/DesignProcess/Experimental_v7/chanel_concept.blend": {
+    "size_bytes": 22802991,
+    "sha256": "e5a1421c2f3eece97c8f0046bc037f8299eeae7ab2bde9a3b19dc9663a69a428"
+  },
+  "Chanel/DesignProcess/Experimental_v7/chanel_front.png": {
+    "size_bytes": 1539703,
+    "sha256": "e775b4edd853c9b419fb1a93457816e57ff77609adfe25587d4a0188e757ddc0"
+  },
+  "Chanel/DesignProcess/Experimental_v7/chanel_rear.png": {
+    "size_bytes": 1548461,
+    "sha256": "27e0d5d4f5d36ea96d682478491619dc56f7ddb275744f4f8193d1ff111eaa99"
+  },
+  "Chanel/DesignProcess/Experimental_v7/chanel_top.png": {
+    "size_bytes": 1515250,
+    "sha256": "aac6beae85c13ff51685adeddec899bf9daaa7799299b2e1ac2cd2ff8e1e1ef6"
+  },
+  "Chanel/DesignProcess/Experimental_v7/fuse.py": {
+    "size_bytes": 1741,
+    "sha256": "488a790983f146c98d4c758a57b846328f8bc957ac04dfee2601d54f61cbfc6d",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v7/fuse.py"
+  },
+  "Chanel/DesignProcess/Experimental_v8/build.py": {
+    "size_bytes": 10009,
+    "sha256": "a0640a5939aa0c2b0ecd46b0ba764ca4fdb051376493184d68316b088618b4be",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v8/build.py"
+  },
+  "Chanel/DesignProcess/Experimental_v8/chanel-build.log": {
+    "size_bytes": 18056,
+    "sha256": "8c6ae1773db3835dcbd04ebf77112f264b446d830766d58d08ccb84f568cdfa4"
+  },
+  "Chanel/DesignProcess/Experimental_v8/chanel-voxel-render.log": {
+    "size_bytes": 11151,
+    "sha256": "2522dfff230dbbfba0906209c4bd4c155018f85f5067792e24c0eb2fe9ce8147"
+  },
+  "Chanel/DesignProcess/Experimental_v8/chanel-voxel.log": {
+    "size_bytes": 334,
+    "sha256": "944ced1f081ee2c03a1100aa6a932daafb2280d3c654d9b60524e34f1199cdfb"
+  },
+  "Chanel/DesignProcess/Experimental_v8/chanel_body_only_unfinished.stl": {
+    "size_bytes": 30105484,
+    "sha256": "28ddb500ed0af587ad35b779e4355ed86d62b0a0ae6bd2d4b9747e2792f67be4",
+    "reference_to": "../Experimental_v6/chanel_body_only_unfinished.stl"
+  },
+  "Chanel/DesignProcess/Experimental_v8/chanel_concept.blend": {
+    "size_bytes": 22802991,
+    "sha256": "aa9cad7036fb85fdba7a83faf2905eb3ccbe105b45a6cd8262fae0ebff696bb4"
+  },
+  "Chanel/DesignProcess/Experimental_v8/chanel_front.png": {
+    "size_bytes": 1537377,
+    "sha256": "837be9bbbf559660bad3a0a6304f3334ac7bc53ff530709820c9f471e6a2e9d9"
+  },
+  "Chanel/DesignProcess/Experimental_v8/chanel_rear.png": {
+    "size_bytes": 1549310,
+    "sha256": "1af10c931d94128979ea252f6c5a2f973d6f5e7fe226e0b64e1a449a390b87a1"
+  },
+  "Chanel/DesignProcess/Experimental_v8/chanel_top.png": {
+    "size_bytes": 1515946,
+    "sha256": "5ca72eedaa4a078e92493c7853fb06c82c5533a05cc6a75e8bd1af481b475e32"
+  },
+  "Chanel/DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl": {
+    "size_bytes": 89553884,
+    "sha256": "a40e69618ca44d5de074f0d27291cea68eec19aad0a62beab05526a0e9254aab"
+  },
+  "Chanel/DesignProcess/Experimental_v8/chanel_voxel_front.png": {
+    "size_bytes": 1499497,
+    "sha256": "dbaa36a7a6abf3fe60ea96a526151d72d77a85351df3580446cb436f767b160c"
+  },
+  "Chanel/DesignProcess/Experimental_v8/chanel_voxel_rear.png": {
+    "size_bytes": 1510641,
+    "sha256": "04000d8223d394bc70d7bec643fd04f63ac7410559ee9a785c2b33c270b26c3d"
+  },
+  "Chanel/DesignProcess/Experimental_v8/fuse.py": {
+    "size_bytes": 1741,
+    "sha256": "488a790983f146c98d4c758a57b846328f8bc957ac04dfee2601d54f61cbfc6d",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v8/fuse.py"
+  },
+  "Chanel/DesignProcess/Experimental_v8/inspect_voxel.py": {
+    "size_bytes": 1097,
+    "sha256": "658e7809b5cdcb7678a504547983e98ca7676e5be9c579c8305f44e712f94e9b",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v8/inspect_voxel.py"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/cli.log": {
+    "size_bytes": 275,
+    "sha256": "26aa22c0180487e7f24acff6499c0a21a151250ccd920d5b544c3c43eee51864"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/cli2.log": {
+    "size_bytes": 283,
+    "sha256": "e330e2d1171bdca332758dfb066945d901be4d37c51df77b65dfaf6ffb1a8b7c"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/cli3.log": {
+    "size_bytes": 283,
+    "sha256": "f63421115cd87eac51ef33bd2c565f3e8d29b43e88cc551c00690b9edc171239"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/cli4.log": {
+    "size_bytes": 283,
+    "sha256": "f6a5f74936584eb7eb2317efbc19c1965022cc2df7dc365f475e0f315ffdc4ae"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/filament.json": {
+    "size_bytes": 36627,
+    "sha256": "7c686cb8051268051a8029518ab79523ecd6edad91eef701ab455accd492d623"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/filament2.json": {
+    "size_bytes": 36718,
+    "sha256": "7184fcec72dff7bf7fb617c609bd7ad0f1a2888b51f4bfd065d9fdd40216e769"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/filament3.json": {
+    "size_bytes": 36729,
+    "sha256": "2e95d406ebb7ed4e26451c6a3957d1e64972456dbb8cedf778b9a88f235889f8"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/machine.json": {
+    "size_bytes": 36625,
+    "sha256": "64dec1e25107b304fce7656fd3369c891881081b9e7e3a73f95a0ee6c610362d"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/machine2.json": {
+    "size_bytes": 36636,
+    "sha256": "b2f9774a309af503b4b368cd883a50fb6f7f2b77d039e5494bafc7748b0c5604"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/preset.json": {
+    "size_bytes": 40674,
+    "sha256": "ab517da88d23f2f701cbba2adc5b14650c278eb352f9e256abdec6c502bf94cd"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/process.json": {
+    "size_bytes": 36626,
+    "sha256": "1be117faea3f29a45688fdd69d1da07639d5b7e44767510812db0c4ddb0eb481"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/process2.json": {
+    "size_bytes": 36717,
+    "sha256": "1ca6a99374d98892b9faa2c302e61517ba048e8aa0578f541a6be526471b8dd2"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/process3.json": {
+    "size_bytes": 36728,
+    "sha256": "0fafc8ef50695d29f82268140880a50b3cd988d95f42d274397c8d2c7e6396e4"
+  },
+  "Chanel/DesignProcess/Experimental_v8/slice_chanel/result.json": {
+    "size_bytes": 476,
+    "sha256": "4898a01a9632ae320645159a5fc9182343873cb09d277720b4f1881958d28111"
+  },
+  "Chanel/DesignProcess/Experimental_v8/voxel_fuse.py": {
+    "size_bytes": 1135,
+    "sha256": "4f229288e3b877552a886c804a29c2a842d80a20196b4b916c02203c2510426a",
+    "reference_to": "../../../Shared/DesignProcess/Experimental_v8/voxel_fuse.py"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/README.txt": {
+    "size_bytes": 1532,
+    "sha256": "9444dfbe8b4dfc1da8cd296ac34a1ae89be3965e6a62c386b8d6c2d637163494"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/build.py": {
+    "size_bytes": 4994,
+    "sha256": "9bd614419292f6d5a704821867d5bc439b5174008cffe3934f7b22ae03758189"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/chanel_bowl_assembly.step": {
+    "size_bytes": 11539181,
+    "sha256": "a8d572c2c07f243711cf13055e289e9cb285d2a5b2bdf13edba9a58922d3e4d5",
+    "reference_to": "../../Models/LowBowl_30mm/chanel_bowl_assembly.step"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/finalize_meshes.py": {
+    "size_bytes": 591,
+    "sha256": "9b296bc7425f09e71223819360978b5ed630b3c2a837aa56c70662145c27e85a"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/manifest.json": {
+    "size_bytes": 594,
+    "sha256": "df868276762e007681e51f42695211c143327fb17c856652f51364e5c026ebf2"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parameters.json": {
+    "size_bytes": 246,
+    "sha256": "2c554d66bc87dba59c07339572ba76098b6234fefec5bb355a63675c7224e5d1"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_bottom_layers.step": {
+    "size_bytes": 2510948,
+    "sha256": "93fbf61a00f0312f7c75152c666e59ba0ccc803db5087fddbd4b5d709a320894",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/black_bottom_layers.step"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_bottom_layers.stl": {
+    "size_bytes": 54784,
+    "sha256": "22be48185100ddf1908b71faa425df3f0adc9133baa9e170eefe04536f94ace0",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/black_bottom_layers.stl"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC.step": {
+    "size_bytes": 6288960,
+    "sha256": "cb1f19d4704c75de3b7ad36de7f8d798b1293d431b28d050df68bc83cce23e58",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/black_glue_CC.step"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC.stl": {
+    "size_bytes": 3850884,
+    "sha256": "f1df2cb14d8648e018bd65f98db93edb9de3fe84cd1918e64d8b70f58450caa8",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/black_glue_CC.stl"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC_print_flat.step": {
+    "size_bytes": 6801521,
+    "sha256": "ebe4fb909b537b80987558886880dd51438759c459109745807e6b8042e3c763",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/black_glue_CC_print_flat.step"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC_print_flat.stl": {
+    "size_bytes": 3849884,
+    "sha256": "b0857b66be8e51c19983432bddbf5c63a103e65e98ba382301b08f816122ba1f",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/black_glue_CC_print_flat.stl"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_top_layers.step": {
+    "size_bytes": 81790,
+    "sha256": "a6cd32000112242661cd9a84fdf02db42feb9d5fb89c058a836356051109e23c",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/black_top_layers.step"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_top_layers.stl": {
+    "size_bytes": 22884,
+    "sha256": "499997b4ceda8cb16c6e32373b6552bf232aad3b567cc37df5143343cc9de11b",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/black_top_layers.stl"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/clip_fit_coupon.step": {
+    "size_bytes": 29038,
+    "sha256": "d7c65e0d5f8bac1093358e1600741f6e8d5f558a09f03a3ea16b91ef8b0b5820",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/clip_fit_coupon.step"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/clip_fit_coupon.stl": {
+    "size_bytes": 1484,
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/clip_fit_coupon.stl"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/cream_body_inverted_clip.step": {
+    "size_bytes": 2512882,
+    "sha256": "167b927d8172324017c2c495a5f2c4613ae387ded7393b2df9830ff086c21959",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/cream_body_inverted_clip.step"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/cream_body_inverted_clip.stl": {
+    "size_bytes": 2311084,
+    "sha256": "a8fbebc90cc4f23814959457de15dc2bea2b9876402f906a7ecee53a14ecff0d",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/cream_body_inverted_clip.stl"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/whole_bowl_AMS.step": {
+    "size_bytes": 2089280,
+    "sha256": "057b43c7a3226a1cdd7b766c8fa1040930e3f7b32b3b0890dd245d41d11a257c",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/whole_bowl_AMS.step"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 2462184,
+    "sha256": "9b4af30fd7cefddaee099c0f2e503cb9c451043e94920a43ffce3082fc0f1f0c",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/whole_bowl_AMS.stl"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/perspective.png": {
+    "size_bytes": 2320474,
+    "sha256": "06e19244f3b18cf49822588070776eb9d72dfbafe8bff0606c394a173c059935"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/rear.png": {
+    "size_bytes": 2295299,
+    "sha256": "2ff4619fecbe819a7d7ef6373dfb912211bb84d4faf6df308e74507bfb5ca760"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/render.py": {
+    "size_bytes": 2122,
+    "sha256": "f9d950b8f27ea2a6524bb97a750ee4d837c0491ed65967670b8dac2c327e03fa"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/source/base_CC.step": {
+    "size_bytes": 4760826,
+    "sha256": "e606d6ac747cd195d4039a50d962851b350428b74534172549417e674702f928",
+    "reference_to": "../../../Models/LowBowl_30mm/source/base_CC.step"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/surface_helpers.py": {
+    "size_bytes": 727,
+    "sha256": "a588657e1977fa8efc7f2bd761f2e2c1a189bb6632f751e71256671190f0f4fc"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/validate.py": {
+    "size_bytes": 545,
+    "sha256": "4c948f33887cde30370918c351dbdc4c3d9e1834586b7f6ca87e39e5122493e3"
+  },
+  "Chanel/DesignProcess/LowBowl_OriginalArchive/validation.json": {
+    "size_bytes": 2902,
+    "sha256": "cf36beae2be7e7e95a782ffd1568cc3f7d83a1e89ef390180259c2891ee5eec8"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/README.txt": {
+    "size_bytes": 1471,
+    "sha256": "22bd111e91a669b5f4dd5bf77fcc30ba2db60ce77cb0976d0108d344cc0cdf4c"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/build.py": {
+    "size_bytes": 4634,
+    "sha256": "f569013dce3cd9a3f974d419e82216d8c7091c42156e60db7d5f6f756f7e88db"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/chanel_bowl_assembly.step": {
+    "size_bytes": 12152623,
+    "sha256": "035b63df05581aec0ed81c23ee19acd9d3a6dcb5c238a5c880cbf2c9180fc49a"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/finalize_meshes.py": {
+    "size_bytes": 591,
+    "sha256": "9b296bc7425f09e71223819360978b5ed630b3c2a837aa56c70662145c27e85a"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/manifest.json": {
+    "size_bytes": 442,
+    "sha256": "5d421d42fc1a40abc6f2c321257f84f004e15f6be8046db2542062b5aa45746f"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/package_BUILD.txt": {
+    "size_bytes": 529,
+    "sha256": "8635a966e03b554b87ecd06b80317e0f711959dd3a534d9ad9463a62a5be7263"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/package_README_打印说明.txt": {
+    "size_bytes": 2843,
+    "sha256": "39df3df46ada13a1c451cfea5125d9d6a63238f679b2f63cf487e322527585e2"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/package_interface_validation.json": {
+    "size_bytes": 324,
+    "sha256": "80ceeb3a8787b39144a83fa1a8e1c1346a62b81e16c3f3a0ef24afc2d8cc9706"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/parameters.json": {
+    "size_bytes": 219,
+    "sha256": "dd962b98b51193aca6af337aca79b68367b95bde8221af22bf0c0e760813bd34"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/parts/black_glue_CC.step": {
+    "size_bytes": 7143073,
+    "sha256": "5866703e370f1bce3fe8637d2fb055d7842114d5d9e5afacfbbae86e02206bd2"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/parts/black_glue_CC.stl": {
+    "size_bytes": 4288084,
+    "sha256": "f70cdc8db485d6b54e6c8f48a7594af7e6786bc5565eb501c4bc7b9e0c950432"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/parts/black_glue_CC_print_flat.step": {
+    "size_bytes": 7050314,
+    "sha256": "48adefd04be2d0f0c94b4bd5ee5dc43d82bb42e1bcbc2717a3c3f34bc22da0c0"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/parts/black_glue_CC_print_flat.stl": {
+    "size_bytes": 4287984,
+    "sha256": "07e338ada6c94b810071e1309e27b878df55bb854f5f9c76f0811d81ee79779d"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/parts/black_top_layers.step": {
+    "size_bytes": 44917,
+    "sha256": "b73ea9388b263eeb2b83bb716be20d246b8570b2d58b4545b92f1c7bab36a1be"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/parts/black_top_layers.stl": {
+    "size_bytes": 22084,
+    "sha256": "ecc14af306e99eb7232bbf233b5b5a27d84c092928622a3c0ad5eb2b523857e6"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/parts/clip_fit_coupon.step": {
+    "size_bytes": 29038,
+    "sha256": "67f342c338c7728c8e8caea47bd5b1e7fe2c368d674923e8b4ebfddc302a05a0"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/parts/clip_fit_coupon.stl": {
+    "size_bytes": 1484,
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa",
+    "reference_to": "../../../Models/LowBowl_30mm/parts/clip_fit_coupon.stl"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/parts/cream_body_inverted_clip.step": {
+    "size_bytes": 4828024,
+    "sha256": "64083924505ade532dfe8b5a86b559225a692c998f8a4b637f7edfc77616bcd4"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/parts/cream_body_inverted_clip.stl": {
+    "size_bytes": 5810884,
+    "sha256": "724037a1a8757536c171a9517b2a24d3d8d7363148dee7ef665c4e454b6b9593"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/parts/whole_bowl_AMS.step": {
+    "size_bytes": 3895569,
+    "sha256": "6191a2aca36c11d96bd8cde82cdf8e80911369c460a6a147271f767aeea029f8"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 5790684,
+    "sha256": "711294283944a720d64f2647390b168a9d08d704d5898971bfaf4191cf7b2a3b"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/perspective.png": {
+    "size_bytes": 2613127,
+    "sha256": "f5f22602bbb5181b58e26b4241a992526a0ce032a294ac6ceae4922bf6a0d422"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/rear.png": {
+    "size_bytes": 2599679,
+    "sha256": "4b6af4f10c7eaa2378173cde8484acc49b110f02cc02d80e190756cae0287833"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/render.py": {
+    "size_bytes": 2122,
+    "sha256": "15d654bd823eab7235adc92761dc63e02ceb16fab0a9412dc5969819ee589c52"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/source/base_CC.step": {
+    "size_bytes": 4760826,
+    "sha256": "e606d6ac747cd195d4039a50d962851b350428b74534172549417e674702f928",
+    "reference_to": "../../../Models/LowBowl_30mm/source/base_CC.step"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/surface_helpers.py": {
+    "size_bytes": 727,
+    "sha256": "a588657e1977fa8efc7f2bd761f2e2c1a189bb6632f751e71256671190f0f4fc"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/validate.py": {
+    "size_bytes": 545,
+    "sha256": "4c948f33887cde30370918c351dbdc4c3d9e1834586b7f6ca87e39e5122493e3"
+  },
+  "Chanel/DesignProcess/TallBowl_85mm/validation.json": {
+    "size_bytes": 2112,
+    "sha256": "8b3cc53f97940a03a3debba695012625fb96a28ea17dd43caa8719f4cf9a8eae"
+  },
+  "Chanel/Documentation/UnfinishedExperimentalDelivery/CHANEL_未完成实验.zip": {
+    "size_bytes": 38778668,
+    "sha256": "cb672cd12019192a9198953499a4da28f4523cc823152f36f17569448081f437"
+  },
+  "Chanel/Models/LowBowl_30mm/README.txt": {
+    "size_bytes": 1532,
+    "sha256": "9444dfbe8b4dfc1da8cd296ac34a1ae89be3965e6a62c386b8d6c2d637163494"
+  },
+  "Chanel/Models/LowBowl_30mm/build.py": {
+    "size_bytes": 4994,
+    "sha256": "9bd614419292f6d5a704821867d5bc439b5174008cffe3934f7b22ae03758189"
+  },
+  "Chanel/Models/LowBowl_30mm/chanel_bowl_assembly.step": {
+    "size_bytes": 11539181,
+    "sha256": "a8d572c2c07f243711cf13055e289e9cb285d2a5b2bdf13edba9a58922d3e4d5"
+  },
+  "Chanel/Models/LowBowl_30mm/finalize_meshes.py": {
+    "size_bytes": 591,
+    "sha256": "9b296bc7425f09e71223819360978b5ed630b3c2a837aa56c70662145c27e85a"
+  },
+  "Chanel/Models/LowBowl_30mm/manifest.json": {
+    "size_bytes": 594,
+    "sha256": "df868276762e007681e51f42695211c143327fb17c856652f51364e5c026ebf2"
+  },
+  "Chanel/Models/LowBowl_30mm/parameters.json": {
+    "size_bytes": 246,
+    "sha256": "2c554d66bc87dba59c07339572ba76098b6234fefec5bb355a63675c7224e5d1"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/black_bottom_layers.step": {
+    "size_bytes": 2510948,
+    "sha256": "93fbf61a00f0312f7c75152c666e59ba0ccc803db5087fddbd4b5d709a320894"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/black_bottom_layers.stl": {
+    "size_bytes": 54784,
+    "sha256": "22be48185100ddf1908b71faa425df3f0adc9133baa9e170eefe04536f94ace0"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/black_glue_CC.step": {
+    "size_bytes": 6288960,
+    "sha256": "cb1f19d4704c75de3b7ad36de7f8d798b1293d431b28d050df68bc83cce23e58"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/black_glue_CC.stl": {
+    "size_bytes": 3850884,
+    "sha256": "f1df2cb14d8648e018bd65f98db93edb9de3fe84cd1918e64d8b70f58450caa8"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/black_glue_CC_print_flat.step": {
+    "size_bytes": 6801521,
+    "sha256": "ebe4fb909b537b80987558886880dd51438759c459109745807e6b8042e3c763"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/black_glue_CC_print_flat.stl": {
+    "size_bytes": 3849884,
+    "sha256": "b0857b66be8e51c19983432bddbf5c63a103e65e98ba382301b08f816122ba1f"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/black_top_layers.step": {
+    "size_bytes": 81790,
+    "sha256": "a6cd32000112242661cd9a84fdf02db42feb9d5fb89c058a836356051109e23c"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/black_top_layers.stl": {
+    "size_bytes": 22884,
+    "sha256": "499997b4ceda8cb16c6e32373b6552bf232aad3b567cc37df5143343cc9de11b"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.step": {
+    "size_bytes": 29038,
+    "sha256": "d7c65e0d5f8bac1093358e1600741f6e8d5f558a09f03a3ea16b91ef8b0b5820"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.stl": {
+    "size_bytes": 1484,
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/cream_body_inverted_clip.step": {
+    "size_bytes": 2512882,
+    "sha256": "167b927d8172324017c2c495a5f2c4613ae387ded7393b2df9830ff086c21959"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/cream_body_inverted_clip.stl": {
+    "size_bytes": 2311084,
+    "sha256": "a8fbebc90cc4f23814959457de15dc2bea2b9876402f906a7ecee53a14ecff0d"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/whole_bowl_AMS.step": {
+    "size_bytes": 2089280,
+    "sha256": "057b43c7a3226a1cdd7b766c8fa1040930e3f7b32b3b0890dd245d41d11a257c"
+  },
+  "Chanel/Models/LowBowl_30mm/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 2462184,
+    "sha256": "9b4af30fd7cefddaee099c0f2e503cb9c451043e94920a43ffce3082fc0f1f0c"
+  },
+  "Chanel/Models/LowBowl_30mm/perspective.png": {
+    "size_bytes": 2320474,
+    "sha256": "06e19244f3b18cf49822588070776eb9d72dfbafe8bff0606c394a173c059935"
+  },
+  "Chanel/Models/LowBowl_30mm/rear.png": {
+    "size_bytes": 2295299,
+    "sha256": "2ff4619fecbe819a7d7ef6373dfb912211bb84d4faf6df308e74507bfb5ca760"
+  },
+  "Chanel/Models/LowBowl_30mm/render.py": {
+    "size_bytes": 2122,
+    "sha256": "f9d950b8f27ea2a6524bb97a750ee4d837c0491ed65967670b8dac2c327e03fa"
+  },
+  "Chanel/Models/LowBowl_30mm/source/base_CC.step": {
+    "size_bytes": 4760826,
+    "sha256": "e606d6ac747cd195d4039a50d962851b350428b74534172549417e674702f928"
+  },
+  "Chanel/Models/LowBowl_30mm/surface_helpers.py": {
+    "size_bytes": 727,
+    "sha256": "a588657e1977fa8efc7f2bd761f2e2c1a189bb6632f751e71256671190f0f4fc"
+  },
+  "Chanel/Models/LowBowl_30mm/validate.py": {
+    "size_bytes": 545,
+    "sha256": "4c948f33887cde30370918c351dbdc4c3d9e1834586b7f6ca87e39e5122493e3"
+  },
+  "Chanel/Models/LowBowl_30mm/validation.json": {
+    "size_bytes": 2902,
+    "sha256": "cf36beae2be7e7e95a782ffd1568cc3f7d83a1e89ef390180259c2891ee5eec8"
+  },
+  "Shared/DesignProcess/Experimental_v2/build.py": {
+    "size_bytes": 6768,
+    "sha256": "2bd779ae39e8e73de55b7e189f1e06ff917e7b5a39dd5f51a85fafb5b112ee4e"
+  },
+  "Shared/DesignProcess/Experimental_v2/dog_bowl_v2.blend": {
+    "size_bytes": 27434153,
+    "sha256": "0000a4ae1cf616a1871f7983a22e2d7749e8ad3436bb9a0aca822800779a435d"
+  },
+  "Shared/DesignProcess/Experimental_v2/dog_bowl_v2.blend1": {
+    "size_bytes": 27434153,
+    "sha256": "d72048b9e23a9a3c968b0e61d493ba84a9c52835ce5f06e3abfa0c35ec10bc14"
+  },
+  "Shared/DesignProcess/Experimental_v2/dog_bowls_v2.png": {
+    "size_bytes": 1902771,
+    "sha256": "e7a178e4df94f069a5405927b3f3cb265b74982974c626cfee44378a8f756e11"
+  },
+  "Shared/DesignProcess/Experimental_v3/build.py": {
+    "size_bytes": 9219,
+    "sha256": "9aa0dc537e5f56f8b5246ce0fa7209a188e7bc5ccb960d5aef14527c8481ad3e"
+  },
+  "Shared/DesignProcess/Experimental_v3/dog_bowl_v3.blend": {
+    "size_bytes": 18489403,
+    "sha256": "99004a215ddda1fd0d155fba4e5516ab72af8aee28eb6f710ca83b301fe4b85f"
+  },
+  "Shared/DesignProcess/Experimental_v3/dog_bowls_v3.png": {
+    "size_bytes": 1891268,
+    "sha256": "508b8958295316ce349b02517e4b26d5a5d21c7da521b9a09d4f52c4faae55e3"
+  },
+  "Shared/DesignProcess/Experimental_v3/prepare.py": {
+    "size_bytes": 4266,
+    "sha256": "a16593c89f3798ecdb3491c0c2c6317725fbf2e123302b4f340cd7e4ffc681dc"
+  },
+  "Shared/DesignProcess/Experimental_v4/build.py": {
+    "size_bytes": 8062,
+    "sha256": "0d6c559dd5a65ddeb1876b598c6279b7a550f66e6a4c6864c643eac423dd42f5"
+  },
+  "Shared/DesignProcess/Experimental_v4/chanel-build.log": {
+    "size_bytes": 17199,
+    "sha256": "3dc44d289f32d66a24dc9fde5b526468befa0f0990282d654efefc906fb68435",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v4/chanel-build.log"
+  },
+  "Shared/DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl": {
+    "size_bytes": 15974284,
+    "sha256": "a7e1e21a7b2c50b11f8eb3d1a558fd0d3c801e24f6210dea6ed2ff7a8046002d",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl"
+  },
+  "Shared/DesignProcess/Experimental_v4/chanel_concept.blend": {
+    "size_bytes": 12492647,
+    "sha256": "7d853bd4f78fd1efb1ca12784e3be473615da42b7c004ddfe69edfcaf4f70ba2",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v4/chanel_concept.blend"
+  },
+  "Shared/DesignProcess/Experimental_v4/chanel_front.png": {
+    "size_bytes": 1470517,
+    "sha256": "e7a00c408700bba9adc7d2da42f1e873068292e008e12104736fb54c5af602e0",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v4/chanel_front.png"
+  },
+  "Shared/DesignProcess/Experimental_v4/chanel_rear.png": {
+    "size_bytes": 1476529,
+    "sha256": "7546afcb8bc0d7a170e8824494eaef04e7acf695d2bc2534f06a2b4401c7ee42",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v4/chanel_rear.png"
+  },
+  "Shared/DesignProcess/Experimental_v4/chanel_top.png": {
+    "size_bytes": 1441019,
+    "sha256": "33d8248e51d0e2b067485364b24bbffbfad26d1bc92d3e054ec835e94b6d444c",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v4/chanel_top.png"
+  },
+  "Shared/DesignProcess/Experimental_v4/fuse.py": {
+    "size_bytes": 1480,
+    "sha256": "c040b01c6532c04143175928b2288ad78ee7946d73b383d86b80109c573f4de9"
+  },
+  "Shared/DesignProcess/Experimental_v4/lv-build.log": {
+    "size_bytes": 19671,
+    "sha256": "09e729af201acca0df43454083f26e9d8bcd0de426683e809f3ef8cc862a816c",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v4/lv-build.log"
+  },
+  "Shared/DesignProcess/Experimental_v4/lv_body_only_unfinished.stl": {
+    "size_bytes": 15974284,
+    "sha256": "3c6ec1cadec8e762764efa2bc96367fb0f588c3cd354e42f0300d979c3f147b6",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v4/lv_body_only_unfinished.stl"
+  },
+  "Shared/DesignProcess/Experimental_v4/lv_concept.blend": {
+    "size_bytes": 12348463,
+    "sha256": "88612b389c78d5fe3446cecaeb1244121007b43a55c362fc9fb709e98e36f35b",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v4/lv_concept.blend"
+  },
+  "Shared/DesignProcess/Experimental_v4/lv_front.png": {
+    "size_bytes": 1538754,
+    "sha256": "2f89287605f63fde6eb959e3cddf93f5ff48f9b7bfc29dbc3c295f1e586719f2",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v4/lv_front.png"
+  },
+  "Shared/DesignProcess/Experimental_v4/lv_rear.png": {
+    "size_bytes": 1541166,
+    "sha256": "ce182b6f12a3dcdd8e1a3683a138b68ac18c6e899edbd6dc85c4ee6ce46ebfb1",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v4/lv_rear.png"
+  },
+  "Shared/DesignProcess/Experimental_v4/lv_top.png": {
+    "size_bytes": 1445414,
+    "sha256": "d6b952cd72ef74cb19b500623e246103f39940007b1e94f867dd07a6c2e15506",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v4/lv_top.png"
+  },
+  "Shared/DesignProcess/Experimental_v5/build.py": {
+    "size_bytes": 9438,
+    "sha256": "3ac35b6e438d02c02cff598842a0904022f52ed058e9624ad6e6a0dca90b6955"
+  },
+  "Shared/DesignProcess/Experimental_v5/chanel-build.log": {
+    "size_bytes": 19076,
+    "sha256": "f5f548c1b389956232092d0cc2fca722fdd372f380c2ea35e3090d14aea8ff45",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v5/chanel-build.log"
+  },
+  "Shared/DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl": {
+    "size_bytes": 30105484,
+    "sha256": "4d4d3891455267d6baa332f1cdcb4413abe2c0809749ce5fc65d8f61c0c95db5",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl"
+  },
+  "Shared/DesignProcess/Experimental_v5/chanel_concept.blend": {
+    "size_bytes": 22802991,
+    "sha256": "ca3ca7cc75b9c7352257fb9d1a5da060bef66757f2cb7654133114297dac2cc2",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v5/chanel_concept.blend"
+  },
+  "Shared/DesignProcess/Experimental_v5/chanel_front.png": {
+    "size_bytes": 1512923,
+    "sha256": "741fde7bf7f67c1a379b18de5617806b404976fab53382454d4038b56e71eb31",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v5/chanel_front.png"
+  },
+  "Shared/DesignProcess/Experimental_v5/chanel_rear.png": {
+    "size_bytes": 1534559,
+    "sha256": "5e433db648b448613edbd096b0787eca1741749b94bb92a8d52104676916c225",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v5/chanel_rear.png"
+  },
+  "Shared/DesignProcess/Experimental_v5/chanel_top.png": {
+    "size_bytes": 1513526,
+    "sha256": "c12143be08fa0782d6094b4371ed4e48a994c19fc9ed2f28e3682af81e077b94",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v5/chanel_top.png"
+  },
+  "Shared/DesignProcess/Experimental_v5/fuse.py": {
+    "size_bytes": 1509,
+    "sha256": "471015fcca2abe0146155572c16c21927b799c1eaf5a32216b0917ed0b662f77"
+  },
+  "Shared/DesignProcess/Experimental_v5/lv-build.log": {
+    "size_bytes": 24049,
+    "sha256": "f9bca2822311fa21d9217694568e9ab48e0e7ca4210cbe7886a6bd9df7a303ff",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v5/lv-build.log"
+  },
+  "Shared/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl": {
+    "size_bytes": 30105484,
+    "sha256": "b8968228eb3fba8b773c99b1c8049277a2c20e27e189a1b330782a2482bcbef2",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl"
+  },
+  "Shared/DesignProcess/Experimental_v5/lv_concept.blend": {
+    "size_bytes": 23099891,
+    "sha256": "77f377b0538d4750424614dbf3fcd0f1e86dda8945c0f0adad77a85376089a29",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v5/lv_concept.blend"
+  },
+  "Shared/DesignProcess/Experimental_v5/lv_front.png": {
+    "size_bytes": 1571157,
+    "sha256": "4e191765933231584363edacdeb4c125c82e65bc1e501d8cb046753223ada2d9",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v5/lv_front.png"
+  },
+  "Shared/DesignProcess/Experimental_v5/lv_rear.png": {
+    "size_bytes": 1590064,
+    "sha256": "d0218ca07e859d01ec5b5329a5f4bb240199aa09174bffe1bc05f06daeb0fe5c",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v5/lv_rear.png"
+  },
+  "Shared/DesignProcess/Experimental_v5/lv_top.png": {
+    "size_bytes": 1479859,
+    "sha256": "6cd51c85301856d5f110d924a4813c330834e4b7c7ef1a2831fcc253f5f84ad0",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v5/lv_top.png"
+  },
+  "Shared/DesignProcess/Experimental_v6/audit_caps.py": {
+    "size_bytes": 659,
+    "sha256": "9863a58a8a6664282202a38b869aee1a203cf16fc4315706e6fd190fb2c5938e"
+  },
+  "Shared/DesignProcess/Experimental_v6/audit_scene.py": {
+    "size_bytes": 455,
+    "sha256": "49177e837996268b748510e909eeacb77cde89e82baacdf10c3aa0707b9ed731"
+  },
+  "Shared/DesignProcess/Experimental_v6/audit_weld.py": {
+    "size_bytes": 720,
+    "sha256": "724984caba3cd2791181e2aba6815a7b04bd0309c424b681d9b1a1eb993c820b"
+  },
+  "Shared/DesignProcess/Experimental_v6/build.py": {
+    "size_bytes": 9518,
+    "sha256": "085d8d9a98333af73039a2056c3dd3b98800bc19398c2833f459c685062479d7"
+  },
+  "Shared/DesignProcess/Experimental_v6/cap-audit.log": {
+    "size_bytes": 847,
+    "sha256": "8911e3d895237065f15f022c42368a231276b3257b7ea9f10757633387f1bbd4"
+  },
+  "Shared/DesignProcess/Experimental_v6/chanel-build.log": {
+    "size_bytes": 6529,
+    "sha256": "db3613b80d062014ed7fd23a3de304c0c2cfda5263d02605c85251dc4e9e9e7f",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v6/chanel-build.log"
+  },
+  "Shared/DesignProcess/Experimental_v6/chanel-fuse.log": {
+    "size_bytes": 409,
+    "sha256": "be7e987a2149fc62f75339cbab81c2ec946bd647c9383d3201e696faf5360e75",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v6/chanel-fuse.log"
+  },
+  "Shared/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl": {
+    "size_bytes": 30105484,
+    "sha256": "28ddb500ed0af587ad35b779e4355ed86d62b0a0ae6bd2d4b9747e2792f67be4",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl"
+  },
+  "Shared/DesignProcess/Experimental_v6/chanel_candidate_unverified.stl": {
+    "size_bytes": 30058584,
+    "sha256": "ab525e23afe51c3a86197caa1805d9c3c398484ea41bef5f2f3f9254c08bda81",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v6/chanel_candidate_unverified.stl"
+  },
+  "Shared/DesignProcess/Experimental_v6/chanel_concept.blend": {
+    "size_bytes": 22802991,
+    "sha256": "bba4e6fb8467be12a0b5bcb10756cf02e3c8936946a4787fead71520bbe9d66d",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v6/chanel_concept.blend"
+  },
+  "Shared/DesignProcess/Experimental_v6/chanel_front.png": {
+    "size_bytes": 1534659,
+    "sha256": "df1e91aa792c2d3c691ebd25dcc4d244bb8b51b6b8346ff2de5439bfb3e64d08",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v6/chanel_front.png"
+  },
+  "Shared/DesignProcess/Experimental_v6/fuse.py": {
+    "size_bytes": 1758,
+    "sha256": "b6323ea86052e4bbea23fa42a6e17640ab6a9c1c5f4d1c3de2357183ca9e18cf"
+  },
+  "Shared/DesignProcess/Experimental_v6/inspect_voxel.py": {
+    "size_bytes": 1097,
+    "sha256": "658e7809b5cdcb7678a504547983e98ca7676e5be9c579c8305f44e712f94e9b"
+  },
+  "Shared/DesignProcess/Experimental_v6/lv-build.log": {
+    "size_bytes": 22871,
+    "sha256": "2f06aa3bc0b9615b86bdb8c683746edb0c9a9b6290f2ed5ae1edbf34ee71d001",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv-build.log"
+  },
+  "Shared/DesignProcess/Experimental_v6/lv-fuse.log": {
+    "size_bytes": 662,
+    "sha256": "6f33a32d3732ac860a7851454a7ad466936f24bda5a4a85f28c44c7360cfb594",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv-fuse.log"
+  },
+  "Shared/DesignProcess/Experimental_v6/lv-voxel-render.log": {
+    "size_bytes": 11088,
+    "sha256": "5837644fb565b7378be230343976fa31b9db8695f3b60897b6ac5677ad72e0fb",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv-voxel-render.log"
+  },
+  "Shared/DesignProcess/Experimental_v6/lv-voxel.log": {
+    "size_bytes": 330,
+    "sha256": "9ed2f09462590f1d1fdcaa320e987f9a01182a65831411f6fb365a80f24aa396",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv-voxel.log"
+  },
+  "Shared/DesignProcess/Experimental_v6/lv_candidate_unverified.stl": {
+    "size_bytes": 29925284,
+    "sha256": "1806e223668804eaad49e4e660a8e7686c7b7186cd5a286ec5b9ff04a5f6c4a4",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_candidate_unverified.stl"
+  },
+  "Shared/DesignProcess/Experimental_v6/lv_concept.blend": {
+    "size_bytes": 23099891,
+    "sha256": "2d92af9a4a7763f225a6943ddf4ae959d5969f473aa4f05ff8f86765d88d1778",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_concept.blend"
+  },
+  "Shared/DesignProcess/Experimental_v6/lv_front.png": {
+    "size_bytes": 1573248,
+    "sha256": "a3a191f988eec3c8dca2871f16be889f53773242f767fb676ea0bb265ee65330",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_front.png"
+  },
+  "Shared/DesignProcess/Experimental_v6/lv_rear.png": {
+    "size_bytes": 1580389,
+    "sha256": "a1c8745593f014765e340539c619aa6eead8cd67fc35a101fb9a65cf03c2532e",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_rear.png"
+  },
+  "Shared/DesignProcess/Experimental_v6/lv_top.png": {
+    "size_bytes": 1464243,
+    "sha256": "c67597469977f141e2eb5b86366d3e4bddcb205c651464667f5d6d31bab632b7",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_top.png"
+  },
+  "Shared/DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl": {
+    "size_bytes": 87192684,
+    "sha256": "7838930ef0cdbe7637164abce6ff082f55fbe86e4dab370d052f626ae9a7b542",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl"
+  },
+  "Shared/DesignProcess/Experimental_v6/lv_voxel_front.png": {
+    "size_bytes": 1505204,
+    "sha256": "d9458f8ae175e004d50c05a07541152556df53eb1bc0ce4b5f63398852ee09bf",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_voxel_front.png"
+  },
+  "Shared/DesignProcess/Experimental_v6/lv_voxel_rear.png": {
+    "size_bytes": 1515283,
+    "sha256": "829206949cfa04822991954f3daf72e4a74840f35017e6032fc51edc9c3df03a",
+    "reference_to": "../../../LV/DesignProcess/Experimental_v6/lv_voxel_rear.png"
+  },
+  "Shared/DesignProcess/Experimental_v6/scene-audit.log": {
+    "size_bytes": 668,
+    "sha256": "36ebf724c790400674dc684c9e181000eade21747c7fbec82187610a7dbdfd5d"
+  },
+  "Shared/DesignProcess/Experimental_v6/voxel_fuse.py": {
+    "size_bytes": 1135,
+    "sha256": "4f229288e3b877552a886c804a29c2a842d80a20196b4b916c02203c2510426a"
+  },
+  "Shared/DesignProcess/Experimental_v6/weld-audit.log": {
+    "size_bytes": 841,
+    "sha256": "811abedc7b07889d53929984e5d6b340033be6babd1cbd3a6c2aaf1a0f816469"
+  },
+  "Shared/DesignProcess/Experimental_v7/build.py": {
+    "size_bytes": 9808,
+    "sha256": "e4874419cd623fb5fd6cd3896e36412e2a426fa2e451d96b6c2e99efb0887dd4"
+  },
+  "Shared/DesignProcess/Experimental_v7/chanel-build.log": {
+    "size_bytes": 18018,
+    "sha256": "7ab605406f3f7db1d5e6ff14fe2ee872f55c7cc59b60b2ef7c89e6858284f928",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v7/chanel-build.log"
+  },
+  "Shared/DesignProcess/Experimental_v7/chanel_concept.blend": {
+    "size_bytes": 22802991,
+    "sha256": "e5a1421c2f3eece97c8f0046bc037f8299eeae7ab2bde9a3b19dc9663a69a428",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v7/chanel_concept.blend"
+  },
+  "Shared/DesignProcess/Experimental_v7/chanel_front.png": {
+    "size_bytes": 1539703,
+    "sha256": "e775b4edd853c9b419fb1a93457816e57ff77609adfe25587d4a0188e757ddc0",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v7/chanel_front.png"
+  },
+  "Shared/DesignProcess/Experimental_v7/chanel_rear.png": {
+    "size_bytes": 1548461,
+    "sha256": "27e0d5d4f5d36ea96d682478491619dc56f7ddb275744f4f8193d1ff111eaa99",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v7/chanel_rear.png"
+  },
+  "Shared/DesignProcess/Experimental_v7/chanel_top.png": {
+    "size_bytes": 1515250,
+    "sha256": "aac6beae85c13ff51685adeddec899bf9daaa7799299b2e1ac2cd2ff8e1e1ef6",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v7/chanel_top.png"
+  },
+  "Shared/DesignProcess/Experimental_v7/fuse.py": {
+    "size_bytes": 1741,
+    "sha256": "488a790983f146c98d4c758a57b846328f8bc957ac04dfee2601d54f61cbfc6d"
+  },
+  "Shared/DesignProcess/Experimental_v8/build.py": {
+    "size_bytes": 10009,
+    "sha256": "a0640a5939aa0c2b0ecd46b0ba764ca4fdb051376493184d68316b088618b4be"
+  },
+  "Shared/DesignProcess/Experimental_v8/chanel-build.log": {
+    "size_bytes": 18056,
+    "sha256": "8c6ae1773db3835dcbd04ebf77112f264b446d830766d58d08ccb84f568cdfa4",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel-build.log"
+  },
+  "Shared/DesignProcess/Experimental_v8/chanel-voxel-render.log": {
+    "size_bytes": 11151,
+    "sha256": "2522dfff230dbbfba0906209c4bd4c155018f85f5067792e24c0eb2fe9ce8147",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel-voxel-render.log"
+  },
+  "Shared/DesignProcess/Experimental_v8/chanel-voxel.log": {
+    "size_bytes": 334,
+    "sha256": "944ced1f081ee2c03a1100aa6a932daafb2280d3c654d9b60524e34f1199cdfb",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel-voxel.log"
+  },
+  "Shared/DesignProcess/Experimental_v8/chanel_concept.blend": {
+    "size_bytes": 22802991,
+    "sha256": "aa9cad7036fb85fdba7a83faf2905eb3ccbe105b45a6cd8262fae0ebff696bb4",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_concept.blend"
+  },
+  "Shared/DesignProcess/Experimental_v8/chanel_front.png": {
+    "size_bytes": 1537377,
+    "sha256": "837be9bbbf559660bad3a0a6304f3334ac7bc53ff530709820c9f471e6a2e9d9",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_front.png"
+  },
+  "Shared/DesignProcess/Experimental_v8/chanel_rear.png": {
+    "size_bytes": 1549310,
+    "sha256": "1af10c931d94128979ea252f6c5a2f973d6f5e7fe226e0b64e1a449a390b87a1",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_rear.png"
+  },
+  "Shared/DesignProcess/Experimental_v8/chanel_top.png": {
+    "size_bytes": 1515946,
+    "sha256": "5ca72eedaa4a078e92493c7853fb06c82c5533a05cc6a75e8bd1af481b475e32",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_top.png"
+  },
+  "Shared/DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl": {
+    "size_bytes": 89553884,
+    "sha256": "a40e69618ca44d5de074f0d27291cea68eec19aad0a62beab05526a0e9254aab",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl"
+  },
+  "Shared/DesignProcess/Experimental_v8/chanel_voxel_front.png": {
+    "size_bytes": 1499497,
+    "sha256": "dbaa36a7a6abf3fe60ea96a526151d72d77a85351df3580446cb436f767b160c",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_voxel_front.png"
+  },
+  "Shared/DesignProcess/Experimental_v8/chanel_voxel_rear.png": {
+    "size_bytes": 1510641,
+    "sha256": "04000d8223d394bc70d7bec643fd04f63ac7410559ee9a785c2b33c270b26c3d",
+    "reference_to": "../../../Chanel/DesignProcess/Experimental_v8/chanel_voxel_rear.png"
+  },
+  "Shared/DesignProcess/Experimental_v8/fuse.py": {
+    "size_bytes": 1741,
+    "sha256": "488a790983f146c98d4c758a57b846328f8bc957ac04dfee2601d54f61cbfc6d"
+  },
+  "Shared/DesignProcess/Experimental_v8/inspect_voxel.py": {
+    "size_bytes": 1097,
+    "sha256": "658e7809b5cdcb7678a504547983e98ca7676e5be9c579c8305f44e712f94e9b"
+  },
+  "Shared/DesignProcess/Experimental_v8/voxel_fuse.py": {
+    "size_bytes": 1135,
+    "sha256": "4f229288e3b877552a886c804a29c2a842d80a20196b4b916c02203c2510426a"
+  },
+  "Shared/DesignProcess/InitialConcept/build.py": {
+    "size_bytes": 4165,
+    "sha256": "d3045a86bfd4ebf4af3a960a7fe47b03a6d949a2422a8ee7b23c1addcebcc2e3"
+  },
+  "Shared/DesignProcess/InitialConcept/dog_bowl_concepts.blend": {
+    "size_bytes": 1431749,
+    "sha256": "92b0bd40cb3d630db7bdb2dd5e0d03f045feea5c7d7a66b04acba298280e1d40"
+  },
+  "Shared/DesignProcess/InitialConcept/dog_bowl_preview.png": {
+    "size_bytes": 1518035,
+    "sha256": "ed9b052a6dd4b51b2474843b19b8880dc8c37eba580c54f610de0288bef3ea90"
+  },
+  "Shared/DesignProcess/InitialConcept/result.json": {
+    "size_bytes": 389,
+    "sha256": "42e22306a237958098f3c9096eaf2a6cdd630cca627b302e89055d097ef18cfb"
+  },
+  "Shared/DesignProcess/Outline_OriginalRelease/models/Chanel_outline_2mm.step": {
+    "size_bytes": 6220234,
+    "sha256": "aea8f5a41df68f706b68d294df28ff1e6da05567e28a0d74f9f4dd6e4b4a8d16",
+    "reference_to": "../../../FitSamples/OutlineFrames/models/Chanel_outline_2mm.step"
+  },
+  "Shared/DesignProcess/Outline_OriginalRelease/models/Chanel_outline_2mm.stl": {
+    "size_bytes": 230584,
+    "sha256": "77d0368be2fef0ae943a9093e4ee98c886e9e1caad80376a22e1c6238e41204b",
+    "reference_to": "../../../FitSamples/OutlineFrames/models/Chanel_outline_2mm.stl"
+  },
+  "Shared/DesignProcess/Outline_OriginalRelease/models/LV_outline_2mm.step": {
+    "size_bytes": 92030,
+    "sha256": "7073aacbeb9f5e67bea515dcfa89ee7a57e4129cf0a959e7fbad3dfccbf76f40",
+    "reference_to": "../../../FitSamples/OutlineFrames/models/LV_outline_2mm.step"
+  },
+  "Shared/DesignProcess/Outline_OriginalRelease/models/LV_outline_2mm.stl": {
+    "size_bytes": 67484,
+    "sha256": "0a5ae38d1d7f35d6feff0d555e46d151c76da7266008914816f08fe73916800f",
+    "reference_to": "../../../FitSamples/OutlineFrames/models/LV_outline_2mm.stl"
+  },
+  "Shared/DesignProcess/Outline_OriginalRelease/models/build_frames.py": {
+    "size_bytes": 1320,
+    "sha256": "8440440e304bcb505fac21115152eb7cebf48916dfd728d1b306f821d6be093c"
+  },
+  "Shared/DesignProcess/Outline_OriginalRelease/models/validation.json": {
+    "size_bytes": 1087,
+    "sha256": "7b64ff236a4d7188edaebdbb56e79bc15742cef912df6bbfa4f7b08884105755"
+  },
+  "Shared/DesignProcess/Outline_OriginalRelease/models/先打印这个_边框小样.txt": {
+    "size_bytes": 904,
+    "sha256": "c44dcfe0bfbcae266bdc588397ed4a3c4fb2e001c3ab2dea9ce2b2b855662e09"
+  },
+  "Shared/DesignProcess/Outline_OriginalRelease/packages/Bowl_Outline_Frames_2mm_2026-11-15.zip": {
+    "size_bytes": 1401680,
+    "sha256": "3d8930f4a3ee2f2216ab29588fc5829655f9365eb87394f8961785ec0a3c2285"
+  },
+  "Shared/Documentation/LowBowl_OriginalRelease/README_30mm新版.txt": {
+    "size_bytes": 2526,
+    "sha256": "6a138806029a95e2fe2936eb4df22185c66f747bf126212280ca48cfc445ea84"
+  },
+  "Shared/Documentation/LowBowl_OriginalRelease/material_estimate.json": {
+    "size_bytes": 1854,
+    "sha256": "c2d6d9f6896b821b77c20be787be3464b1d7f166a77dc0be8b3eed0e51ffc356"
+  },
+  "Shared/Documentation/LowBowl_OriginalRelease/packages/LV_Chanel_Bowls_30mm_InvertedT_2026-11-15.zip": {
+    "size_bytes": 31441297,
+    "sha256": "7c39a3864a15e06ea049569e131b044be82ad1e01a3e13ae9e5340b1a74bb031"
+  },
+  "Shared/Documentation/LowBowl_OriginalRelease/validate.py": {
+    "size_bytes": 689,
+    "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+  },
+  "Shared/Documentation/LowBowl_SharedContext/README_30mm新版.txt": {
+    "size_bytes": 2526,
+    "sha256": "6a138806029a95e2fe2936eb4df22185c66f747bf126212280ca48cfc445ea84"
+  },
+  "Shared/Documentation/LowBowl_SharedContext/material_estimate.json": {
+    "size_bytes": 1854,
+    "sha256": "c2d6d9f6896b821b77c20be787be3464b1d7f166a77dc0be8b3eed0e51ffc356"
+  },
+  "Shared/Documentation/LowBowl_SharedContext/validate.py": {
+    "size_bytes": 689,
+    "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+  },
+  "Shared/Documentation/OrganizationHistory/README_版本索引.txt": {
+    "size_bytes": 1765,
+    "sha256": "e855d39c554e59c12a67c5a8d0e03bd4e8adb6f64afd094a2d17d1f1a9b8bb10"
+  },
+  "Shared/Documentation/OrganizationHistory/brand_organization_moves.json": {
+    "size_bytes": 20389,
+    "sha256": "c87b7d7e874e24619a7ea89e545d3660e1b343bf3c49836ff47daf46bea277b9"
+  },
+  "Shared/Documentation/OrganizationHistory/cleanup_2026-11-15.json": {
+    "size_bytes": 4783,
+    "sha256": "0e0e317b7f7411c6fb6e1c4e593e5028e709f4a3df12a32633c019fd90eb6b47"
+  },
+  "Shared/Documentation/OrganizationHistory/daily_retention_2026-11-16.json": {
+    "size_bytes": 613,
+    "sha256": "609a9b84a8b57570785e629f3a8706a018224c1ee71b18f1bc6656b2071ec026"
+  },
+  "Shared/Documentation/OrganizationHistory/identical_model_references.json": {
+    "size_bytes": 13303,
+    "sha256": "c82bd957100a75c694f1e14e06a4432ee2f03d59b6ec7b42d37bb5755972f11f"
+  },
+  "Shared/Documentation/OrganizationHistory/manifest_sha256.json": {
+    "size_bytes": 39832,
+    "sha256": "27bf36351fffa3ac7b3afac55c3b60904a0d414a0886671e8c3fe7d30d67a903"
+  },
+  "Shared/Documentation/OrganizationHistory/recovery_log.json": {
+    "size_bytes": 1364,
+    "sha256": "e04f292cac194740b27b4c696ad9a4fb403654563f85c0c17a5b8ffbeeb6cade"
+  },
+  "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/Chanel_outline_2mm.step": {
+    "size_bytes": 6220234,
+    "sha256": "aea8f5a41df68f706b68d294df28ff1e6da05567e28a0d74f9f4dd6e4b4a8d16",
+    "reference_to": "../../../FitSamples/OutlineFrames/models/Chanel_outline_2mm.step"
+  },
+  "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/Chanel_outline_2mm.stl": {
+    "size_bytes": 230584,
+    "sha256": "77d0368be2fef0ae943a9093e4ee98c886e9e1caad80376a22e1c6238e41204b",
+    "reference_to": "../../../FitSamples/OutlineFrames/models/Chanel_outline_2mm.stl"
+  },
+  "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/LV_outline_2mm.step": {
+    "size_bytes": 92030,
+    "sha256": "7073aacbeb9f5e67bea515dcfa89ee7a57e4129cf0a959e7fbad3dfccbf76f40",
+    "reference_to": "../../../FitSamples/OutlineFrames/models/LV_outline_2mm.step"
+  },
+  "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/LV_outline_2mm.stl": {
+    "size_bytes": 67484,
+    "sha256": "0a5ae38d1d7f35d6feff0d555e46d151c76da7266008914816f08fe73916800f",
+    "reference_to": "../../../FitSamples/OutlineFrames/models/LV_outline_2mm.stl"
+  },
+  "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/build_frames.py": {
+    "size_bytes": 1320,
+    "sha256": "8440440e304bcb505fac21115152eb7cebf48916dfd728d1b306f821d6be093c"
+  },
+  "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/validation.json": {
+    "size_bytes": 1087,
+    "sha256": "7b64ff236a4d7188edaebdbb56e79bc15742cef912df6bbfa4f7b08884105755"
+  },
+  "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames/先打印这个_边框小样.txt": {
+    "size_bytes": 904,
+    "sha256": "c44dcfe0bfbcae266bdc588397ed4a3c4fb2e001c3ab2dea9ce2b2b855662e09"
+  },
+  "Shared/Documentation/RecoveredPackages/Bowl_Outline_Frames_2mm_2026-11-15.zip": {
+    "size_bytes": 1401680,
+    "sha256": "3d8930f4a3ee2f2216ab29588fc5829655f9365eb87394f8961785ec0a3c2285"
+  },
+  "Shared/Documentation/RecoveredPackages/high_bowl_v2_package.zip": {
+    "size_bytes": 17990890,
+    "sha256": "70b1bef04aaf5636bc7f313d98a24168853aba27a743ec4f9485ceb727fc841b"
+  },
+  "Shared/Documentation/TallBowl_ReleaseRecords/packages/Chanel_Bowl_InvertedT_Complete_2026-11-15.zip": {
+    "size_bytes": 23941131,
+    "sha256": "d13e9ee1c12e02c55fc3833b2645ac5a4d4462e92c75d2349e15cde2a021e81e"
+  },
+  "Shared/Documentation/TallBowl_ReleaseRecords/packages/LV_Bowl_InvertedT_2026-11-14.zip": {
+    "size_bytes": 21276827,
+    "sha256": "4bcad32b38122538f21591233ba0b06af9ac2cf896d1eedea210e18570461d9a"
+  },
+  "Shared/Documentation/UnfinishedExperimentalDelivery/READ_ME_FIRST.txt": {
+    "size_bytes": 1304,
+    "sha256": "232f3422fc664396c2c94e3e886b4a9298b523fb6636695963591e564da92d8c"
+  },
+  "Shared/FitSamples/OutlineFrames/models/Chanel_outline_2mm.step": {
+    "size_bytes": 6220234,
+    "sha256": "aea8f5a41df68f706b68d294df28ff1e6da05567e28a0d74f9f4dd6e4b4a8d16"
+  },
+  "Shared/FitSamples/OutlineFrames/models/Chanel_outline_2mm.stl": {
+    "size_bytes": 230584,
+    "sha256": "77d0368be2fef0ae943a9093e4ee98c886e9e1caad80376a22e1c6238e41204b"
+  },
+  "Shared/FitSamples/OutlineFrames/models/LV_outline_2mm.step": {
+    "size_bytes": 92030,
+    "sha256": "7073aacbeb9f5e67bea515dcfa89ee7a57e4129cf0a959e7fbad3dfccbf76f40"
+  },
+  "Shared/FitSamples/OutlineFrames/models/LV_outline_2mm.stl": {
+    "size_bytes": 67484,
+    "sha256": "0a5ae38d1d7f35d6feff0d555e46d151c76da7266008914816f08fe73916800f"
+  },
+  "Shared/FitSamples/OutlineFrames/models/build_frames.py": {
+    "size_bytes": 1320,
+    "sha256": "8440440e304bcb505fac21115152eb7cebf48916dfd728d1b306f821d6be093c"
+  },
+  "Shared/FitSamples/OutlineFrames/models/validation.json": {
+    "size_bytes": 1087,
+    "sha256": "7b64ff236a4d7188edaebdbb56e79bc15742cef912df6bbfa4f7b08884105755"
+  },
+  "Shared/FitSamples/OutlineFrames/models/先打印这个_边框小样.txt": {
+    "size_bytes": 904,
+    "sha256": "c44dcfe0bfbcae266bdc588397ed4a3c4fb2e001c3ab2dea9ce2b2b855662e09"
+  },
+  "Shared/FitSamples/OutlineFrames/packages/Bowl_Outline_Frames_2mm_2026-11-15.zip": {
+    "size_bytes": 1401680,
+    "sha256": "3d8930f4a3ee2f2216ab29588fc5829655f9365eb87394f8961785ec0a3c2285"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "body_mm": [
+    160,
+    30
+  ],
+  "border_mm": 2,
+  "logo_height_mm": 18,
+  "original_curves": true,
+  "original_repeat_layout": false,
+  "model_changed": true,
+  "motifs": [
+    {
+      "type": "LV",
+      "x_mm": 10,
+      "from_top_mm": 9,
+      "height_mm": 7
+    },
+    {
+      "type": "diamond",
+      "x_mm": 29,
+      "from_top_mm": 9,
+      "height_mm": 7
+    },
+    {
+      "type": "pointed",
+      "x_mm": 48,
+      "from_top_mm": 9,
+      "height_mm": 7
+    },
+    {
+      "type": "circle",
+      "x_mm": 112,
+      "from_top_mm": 9,
+      "height_mm": 7
+    },
+    {
+      "type": "LV",
+      "x_mm": 131,
+      "from_top_mm": 9,
+      "height_mm": 7
+    },
+    {
+      "type": "diamond",
+      "x_mm": 150,
+      "from_top_mm": 9,
+      "height_mm": 7
+    },
+    {
+      "type": "circle",
+      "x_mm": 19,
+      "from_top_mm": 21,
+      "height_mm": 7
+    },
+    {
+      "type": "pointed",
+      "x_mm": 38,
+      "from_top_mm": 21,
+      "height_mm": 7
+    },
+    {
+      "type": "circle",
+      "x_mm": 57,
+      "from_top_mm": 21,
+      "height_mm": 7
+    },
+    {
+      "type": "diamond",
+      "x_mm": 103,
+      "from_top_mm": 21,
+      "height_mm": 7
+    },
+    {
+      "type": "pointed",
+      "x_mm": 122,
+      "from_top_mm": 21,
+      "height_mm": 7
+    },
+    {
+      "type": "LV",
+      "x_mm": 141,
+      "from_top_mm": 21,
+      "height_mm": 7
+    }
+  ],
+  "note": "Originally approved as flat design; now implemented in this independent CAD release."
+}

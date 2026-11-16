@@ -1,5 +1,2416 @@
 [
   {
+    "id": "dog-bowl-chanel",
+    "title": "Chanel 绗缝狗碗",
+    "category": "宠物用品 / 狗碗",
+    "status": "design",
+    "cls": "derived",
+    "summary": "30 mm 高，绗缝表面与独立 CC Logo，双色分层主体与倒 T 接口。切片、实配与承重尚未验证。",
+    "cover": "dog-bowl-chanel/Models/LowBowl_30mm/perspective.png",
+    "dir": "dog-bowl-chanel",
+    "files": [
+      {
+        "rel": "DesignProcess/Experimental_v2/build.py",
+        "size": 6768,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v2/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v2/dog_bowl_v2.blend",
+        "size": 27434153,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v2/dog_bowl_v2.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v2/dog_bowl_v2.blend1",
+        "size": 27434153,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v2/dog_bowl_v2.blend1"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v2/dog_bowls_v2.png",
+        "size": 1902771,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v2/dog_bowls_v2.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v3/build.py",
+        "size": 9219,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v3/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v3/dog_bowl_v3.blend",
+        "size": 18489403,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v3/dog_bowl_v3.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v3/dog_bowls_v3.png",
+        "size": 1891268,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v3/dog_bowls_v3.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v3/prepare.py",
+        "size": 4266,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v3/prepare.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/build.py",
+        "size": 8062,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/chanel-build.log",
+        "size": 17199,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl",
+        "size": 15974284,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/chanel_concept.blend",
+        "size": 12492647,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/chanel_front.png",
+        "size": 1470517,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/chanel_rear.png",
+        "size": 1476529,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/chanel_top.png",
+        "size": 1441019,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/chanel_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/fuse.py",
+        "size": 1480,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/fuse.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/lv-build.log",
+        "size": 19671,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/lv_body_only_unfinished.stl",
+        "size": 15974284,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv_body_only_unfinished.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/lv_concept.blend",
+        "size": 12348463,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/lv_front.png",
+        "size": 1538754,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/lv_rear.png",
+        "size": 1541166,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/lv_top.png",
+        "size": 1445414,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v4/lv_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/build.py",
+        "size": 9438,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/chanel-build.log",
+        "size": 19076,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl",
+        "size": 30105484,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/chanel_concept.blend",
+        "size": 22802991,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/chanel_front.png",
+        "size": 1512923,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/chanel_rear.png",
+        "size": 1534559,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/chanel_top.png",
+        "size": 1513526,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/chanel_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/fuse.py",
+        "size": 1509,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/fuse.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/lv-build.log",
+        "size": 24049,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/lv_body_only_unfinished.stl",
+        "size": 30105484,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/lv_concept.blend",
+        "size": 23099891,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/lv_front.png",
+        "size": 1571157,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/lv_rear.png",
+        "size": 1590064,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/lv_top.png",
+        "size": 1479859,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v5/lv_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/audit_caps.py",
+        "size": 659,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/audit_caps.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/audit_scene.py",
+        "size": 455,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/audit_scene.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/audit_weld.py",
+        "size": 720,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/audit_weld.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/build.py",
+        "size": 9518,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/cap-audit.log",
+        "size": 847,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/cap-audit.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/chanel-build.log",
+        "size": 6529,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/chanel-fuse.log",
+        "size": 409,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel-fuse.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl",
+        "size": 30105484,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/chanel_candidate_unverified.stl",
+        "size": 30058584,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel_candidate_unverified.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/chanel_concept.blend",
+        "size": 22802991,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/chanel_front.png",
+        "size": 1534659,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/chanel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/fuse.py",
+        "size": 1758,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/fuse.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/inspect_voxel.py",
+        "size": 1097,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/inspect_voxel.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv-build.log",
+        "size": 22871,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv-fuse.log",
+        "size": 662,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv-fuse.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv-voxel-render.log",
+        "size": 11088,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv-voxel-render.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv-voxel.log",
+        "size": 330,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv-voxel.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_candidate_unverified.stl",
+        "size": 29925284,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_candidate_unverified.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_concept.blend",
+        "size": 23099891,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_front.png",
+        "size": 1573248,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_rear.png",
+        "size": 1580389,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_top.png",
+        "size": 1464243,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl",
+        "size": 87192684,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_voxel_front.png",
+        "size": 1505204,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_voxel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_voxel_rear.png",
+        "size": 1515283,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/lv_voxel_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/scene-audit.log",
+        "size": 668,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/scene-audit.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/slice_chanel/cli.log",
+        "size": 549,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/slice_chanel/cli.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/slice_chanel/plate_1.gcode",
+        "size": 20382517,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/slice_chanel/plate_1.gcode"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/voxel_fuse.py",
+        "size": 1135,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/voxel_fuse.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/weld-audit.log",
+        "size": 841,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v6/weld-audit.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/build.py",
+        "size": 9808,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/chanel-build.log",
+        "size": 18018,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/chanel_body_only_unfinished.stl",
+        "size": 30105484,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel_body_only_unfinished.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/chanel_concept.blend",
+        "size": 22802991,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/chanel_front.png",
+        "size": 1539703,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/chanel_rear.png",
+        "size": 1548461,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/chanel_top.png",
+        "size": 1515250,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/chanel_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/fuse.py",
+        "size": 1741,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v7/fuse.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/build.py",
+        "size": 10009,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel-build.log",
+        "size": 18056,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel-voxel-render.log",
+        "size": 11151,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel-voxel-render.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel-voxel.log",
+        "size": 334,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel-voxel.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_body_only_unfinished.stl",
+        "size": 30105484,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_body_only_unfinished.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_concept.blend",
+        "size": 22802991,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_front.png",
+        "size": 1537377,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_rear.png",
+        "size": 1549310,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_top.png",
+        "size": 1515946,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl",
+        "size": 89553884,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_voxel_front.png",
+        "size": 1499497,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_voxel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_voxel_rear.png",
+        "size": 1510641,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/chanel_voxel_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/fuse.py",
+        "size": 1741,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/fuse.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/inspect_voxel.py",
+        "size": 1097,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/inspect_voxel.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/cli.log",
+        "size": 275,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/cli.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/cli2.log",
+        "size": 283,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/cli2.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/cli3.log",
+        "size": 283,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/cli3.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/cli4.log",
+        "size": 283,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/cli4.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/filament.json",
+        "size": 36627,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/filament.json"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/filament2.json",
+        "size": 36718,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/filament2.json"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/filament3.json",
+        "size": 36729,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/filament3.json"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/machine.json",
+        "size": 36625,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/machine.json"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/machine2.json",
+        "size": 36636,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/machine2.json"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/preset.json",
+        "size": 40674,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/preset.json"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/process.json",
+        "size": 36626,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/process.json"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/process2.json",
+        "size": 36717,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/process2.json"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/process3.json",
+        "size": 36728,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/process3.json"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel/result.json",
+        "size": 476,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/slice_chanel/result.json"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/voxel_fuse.py",
+        "size": 1135,
+        "url": "models/dog-bowl-chanel/DesignProcess/Experimental_v8/voxel_fuse.py"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/README.txt",
+        "size": 1532,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/README.txt"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/build.py",
+        "size": 4994,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/build.py"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/chanel_bowl_assembly.step",
+        "size": 11539181,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/chanel_bowl_assembly.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/finalize_meshes.py",
+        "size": 591,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/finalize_meshes.py"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/manifest.json",
+        "size": 594,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/manifest.json"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parameters.json",
+        "size": 246,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parameters.json"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/black_bottom_layers.step",
+        "size": 2510948,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_bottom_layers.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/black_bottom_layers.stl",
+        "size": 54784,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_bottom_layers.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC.step",
+        "size": 6288960,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC.stl",
+        "size": 3850884,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC_print_flat.step",
+        "size": 6801521,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC_print_flat.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC_print_flat.stl",
+        "size": 3849884,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_glue_CC_print_flat.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/black_top_layers.step",
+        "size": 81790,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_top_layers.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/black_top_layers.stl",
+        "size": 22884,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/black_top_layers.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/clip_fit_coupon.step",
+        "size": 29038,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/clip_fit_coupon.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/clip_fit_coupon.stl",
+        "size": 1484,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/clip_fit_coupon.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/cream_body_inverted_clip.step",
+        "size": 2512882,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/cream_body_inverted_clip.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/cream_body_inverted_clip.stl",
+        "size": 2311084,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/cream_body_inverted_clip.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/whole_bowl_AMS.step",
+        "size": 2089280,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/whole_bowl_AMS.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/parts/whole_bowl_AMS.stl",
+        "size": 2462184,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/parts/whole_bowl_AMS.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/perspective.png",
+        "size": 2320474,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/perspective.png"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/rear.png",
+        "size": 2295299,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/rear.png"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/render.py",
+        "size": 2122,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/render.py"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/source/base_CC.step",
+        "size": 4760826,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/source/base_CC.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/surface_helpers.py",
+        "size": 727,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/surface_helpers.py"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/validate.py",
+        "size": 545,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/validate.py"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_OriginalArchive/validation.json",
+        "size": 2902,
+        "url": "models/dog-bowl-chanel/DesignProcess/LowBowl_OriginalArchive/validation.json"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/README.txt",
+        "size": 1471,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/README.txt"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/build.py",
+        "size": 4634,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/build.py"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/chanel_bowl_assembly.step",
+        "size": 12152623,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/chanel_bowl_assembly.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/finalize_meshes.py",
+        "size": 591,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/finalize_meshes.py"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/manifest.json",
+        "size": 442,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/manifest.json"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/package_BUILD.txt",
+        "size": 529,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/package_BUILD.txt"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/package_README_打印说明.txt",
+        "size": 2843,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/package_README_打印说明.txt"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/package_interface_validation.json",
+        "size": 324,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/package_interface_validation.json"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/parameters.json",
+        "size": 219,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parameters.json"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/parts/black_glue_CC.step",
+        "size": 7143073,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/black_glue_CC.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/parts/black_glue_CC.stl",
+        "size": 4288084,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/black_glue_CC.stl"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/parts/black_glue_CC_print_flat.step",
+        "size": 7050314,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/black_glue_CC_print_flat.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/parts/black_glue_CC_print_flat.stl",
+        "size": 4287984,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/black_glue_CC_print_flat.stl"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/parts/black_top_layers.step",
+        "size": 44917,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/black_top_layers.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/parts/black_top_layers.stl",
+        "size": 22084,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/black_top_layers.stl"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/parts/clip_fit_coupon.step",
+        "size": 29038,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/clip_fit_coupon.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/parts/clip_fit_coupon.stl",
+        "size": 1484,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/clip_fit_coupon.stl"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/parts/cream_body_inverted_clip.step",
+        "size": 4828024,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/cream_body_inverted_clip.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/parts/cream_body_inverted_clip.stl",
+        "size": 5810884,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/cream_body_inverted_clip.stl"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/parts/whole_bowl_AMS.step",
+        "size": 3895569,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/whole_bowl_AMS.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/parts/whole_bowl_AMS.stl",
+        "size": 5790684,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/parts/whole_bowl_AMS.stl"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/perspective.png",
+        "size": 2613127,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/perspective.png"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/rear.png",
+        "size": 2599679,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/rear.png"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/render.py",
+        "size": 2122,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/render.py"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/source/base_CC.step",
+        "size": 4760826,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/source/base_CC.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/surface_helpers.py",
+        "size": 727,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/surface_helpers.py"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/validate.py",
+        "size": 545,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/validate.py"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/validation.json",
+        "size": 2112,
+        "url": "models/dog-bowl-chanel/DesignProcess/TallBowl_85mm/validation.json"
+      },
+      {
+        "rel": "Documentation/UnfinishedExperimentalDelivery/CHANEL_未完成实验.zip",
+        "size": 38778668,
+        "url": "models/dog-bowl-chanel/Documentation/UnfinishedExperimentalDelivery/CHANEL_未完成实验.zip"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/README.txt",
+        "size": 1532,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/README.txt"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/build.py",
+        "size": 4994,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/build.py"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/chanel_bowl_assembly.step",
+        "size": 11539181,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/chanel_bowl_assembly.step"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/finalize_meshes.py",
+        "size": 591,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/finalize_meshes.py"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/manifest.json",
+        "size": 594,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/manifest.json"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parameters.json",
+        "size": 246,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parameters.json"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/black_bottom_layers.step",
+        "size": 2510948,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_bottom_layers.step"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/black_bottom_layers.stl",
+        "size": 54784,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_bottom_layers.stl"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/black_glue_CC.step",
+        "size": 6288960,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_glue_CC.step"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/black_glue_CC.stl",
+        "size": 3850884,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_glue_CC.stl"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/black_glue_CC_print_flat.step",
+        "size": 6801521,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_glue_CC_print_flat.step"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/black_glue_CC_print_flat.stl",
+        "size": 3849884,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_glue_CC_print_flat.stl"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/black_top_layers.step",
+        "size": 81790,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_top_layers.step"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/black_top_layers.stl",
+        "size": 22884,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/black_top_layers.stl"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/clip_fit_coupon.step",
+        "size": 29038,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.step"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/clip_fit_coupon.stl",
+        "size": 1484,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/clip_fit_coupon.stl"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/cream_body_inverted_clip.step",
+        "size": 2512882,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/cream_body_inverted_clip.step"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/cream_body_inverted_clip.stl",
+        "size": 2311084,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/cream_body_inverted_clip.stl"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/whole_bowl_AMS.step",
+        "size": 2089280,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/whole_bowl_AMS.step"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/parts/whole_bowl_AMS.stl",
+        "size": 2462184,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/parts/whole_bowl_AMS.stl"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/perspective.png",
+        "size": 2320474,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/perspective.png"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/rear.png",
+        "size": 2295299,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/rear.png"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/render.py",
+        "size": 2122,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/render.py"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/source/base_CC.step",
+        "size": 4760826,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/source/base_CC.step"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/surface_helpers.py",
+        "size": 727,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/surface_helpers.py"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/validate.py",
+        "size": 545,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/validate.py"
+      },
+      {
+        "rel": "Models/LowBowl_30mm/validation.json",
+        "size": 2902,
+        "url": "models/dog-bowl-chanel/Models/LowBowl_30mm/validation.json"
+      },
+      {
+        "rel": "README.md",
+        "size": 604,
+        "url": "models/dog-bowl-chanel/README.md"
+      }
+    ],
+    "bytes": 930797391
+  },
+  {
+    "id": "dog-bowl-lv",
+    "title": "LV 两排矢量花纹狗碗",
+    "category": "宠物用品 / 狗碗",
+    "status": "design",
+    "cls": "derived",
+    "summary": "30 mm 高，四种第三方矢量花纹铺满正面与两侧；原卡扣及加高镂空候选，Logo 独立粘贴。几何已检查，切片、实配与承重未验收。",
+    "cover": "dog-bowl-lv/Models/FullSides_OriginalClip/lv/perspective.png",
+    "dir": "dog-bowl-lv",
+    "files": [
+      {
+        "rel": "Design/ApprovedTwoRows/approved_design.png",
+        "size": 153862,
+        "url": "models/dog-bowl-lv/Design/ApprovedTwoRows/approved_design.png"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/LV_Dense4_30mm_Front.png",
+        "size": 983380,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/LV_Dense4_30mm_Front.png"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/LV_Dense4_30mm_Perspective.png",
+        "size": 1873922,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/LV_Dense4_30mm_Perspective.png"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/README_四类老花密排.txt",
+        "size": 2104,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/README_四类老花密排.txt"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/LV_Monogram.svg",
+        "size": 3200,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/LV_Monogram.svg"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/bowl_30mm_assembly.step",
+        "size": 13900055,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/bowl_30mm_assembly.step"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/build.py",
+        "size": 6966,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/build.py"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/front.png",
+        "size": 983380,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/front.png"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/manifest.json",
+        "size": 577,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/manifest.json"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parameters.json",
+        "size": 407,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parameters.json"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/blue_middle_z2_28.step",
+        "size": 12232294,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/blue_middle_z2_28.step"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/blue_middle_z2_28.stl",
+        "size": 10222184,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/blue_middle_z2_28.stl"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/clip_fit_coupon.step",
+        "size": 29038,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/clip_fit_coupon.step"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/clip_fit_coupon.stl",
+        "size": 1484,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/clip_fit_coupon.stl"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/ivory_bottom_z0_2.step",
+        "size": 53734,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_bottom_z0_2.step"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/ivory_bottom_z0_2.stl",
+        "size": 33884,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_bottom_z0_2.stl"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/ivory_glue_logo.step",
+        "size": 1441498,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_glue_logo.step"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/ivory_glue_logo.stl",
+        "size": 72284,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_glue_logo.stl"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/ivory_logo_print_flat.step",
+        "size": 1485392,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_logo_print_flat.step"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/ivory_logo_print_flat.stl",
+        "size": 72284,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_logo_print_flat.stl"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/ivory_top_z28_30.step",
+        "size": 63533,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_top_z28_30.step"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/ivory_top_z28_30.stl",
+        "size": 65684,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/ivory_top_z28_30.stl"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/whole_bowl_AMS.step",
+        "size": 12224874,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/whole_bowl_AMS.step"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/parts/whole_bowl_AMS.stl",
+        "size": 10222184,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/parts/whole_bowl_AMS.stl"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/pattern_layout.json",
+        "size": 6642,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/pattern_layout.json"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/perspective.png",
+        "size": 1873922,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/perspective.png"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/render.py",
+        "size": 2115,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/render.py"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/lv/validation.json",
+        "size": 2674,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/lv/validation.json"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/material_estimate.json",
+        "size": 751,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/material_estimate.json"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/packages/LV_Bowl_30mm_Dense4_InvertedT_2026-11-15.zip",
+        "size": 20802281,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/packages/LV_Bowl_30mm_Dense4_InvertedT_2026-11-15.zip"
+      },
+      {
+        "rel": "DesignProcess/DensePattern_Intermediate/validate.py",
+        "size": 689,
+        "url": "models/dog-bowl-lv/DesignProcess/DensePattern_Intermediate/validate.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v2/build.py",
+        "size": 6768,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v2/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v2/dog_bowl_v2.blend",
+        "size": 27434153,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v2/dog_bowl_v2.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v2/dog_bowl_v2.blend1",
+        "size": 27434153,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v2/dog_bowl_v2.blend1"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v2/dog_bowls_v2.png",
+        "size": 1902771,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v2/dog_bowls_v2.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v3/build.py",
+        "size": 9219,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v3/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v3/dog_bowl_v3.blend",
+        "size": 18489403,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v3/dog_bowl_v3.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v3/dog_bowls_v3.png",
+        "size": 1891268,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v3/dog_bowls_v3.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v3/prepare.py",
+        "size": 4266,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v3/prepare.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/build.py",
+        "size": 8062,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/chanel-build.log",
+        "size": 17199,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl",
+        "size": 15974284,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel_body_only_unfinished.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/chanel_concept.blend",
+        "size": 12492647,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/chanel_front.png",
+        "size": 1470517,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/chanel_rear.png",
+        "size": 1476529,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/chanel_top.png",
+        "size": 1441019,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/chanel_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/fuse.py",
+        "size": 1480,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/fuse.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/lv-build.log",
+        "size": 19671,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/lv_body_only_unfinished.stl",
+        "size": 15974284,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv_body_only_unfinished.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/lv_concept.blend",
+        "size": 12348463,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/lv_front.png",
+        "size": 1538754,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/lv_rear.png",
+        "size": 1541166,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v4/lv_top.png",
+        "size": 1445414,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v4/lv_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/build.py",
+        "size": 9438,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/chanel-build.log",
+        "size": 19076,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl",
+        "size": 30105484,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel_body_only_unfinished.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/chanel_concept.blend",
+        "size": 22802991,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/chanel_front.png",
+        "size": 1512923,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/chanel_rear.png",
+        "size": 1534559,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/chanel_top.png",
+        "size": 1513526,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/chanel_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/fuse.py",
+        "size": 1509,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/fuse.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/lv-build.log",
+        "size": 24049,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/lv_body_only_unfinished.stl",
+        "size": 30105484,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv_body_only_unfinished.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/lv_concept.blend",
+        "size": 23099891,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/lv_front.png",
+        "size": 1571157,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/lv_rear.png",
+        "size": 1590064,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v5/lv_top.png",
+        "size": 1479859,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v5/lv_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/audit_caps.py",
+        "size": 659,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/audit_caps.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/audit_scene.py",
+        "size": 455,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/audit_scene.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/audit_weld.py",
+        "size": 720,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/audit_weld.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/build.py",
+        "size": 9518,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/cap-audit.log",
+        "size": 847,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/cap-audit.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/chanel-build.log",
+        "size": 6529,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/chanel-fuse.log",
+        "size": 409,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel-fuse.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl",
+        "size": 30105484,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel_body_only_unfinished.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/chanel_candidate_unverified.stl",
+        "size": 30058584,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel_candidate_unverified.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/chanel_concept.blend",
+        "size": 22802991,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/chanel_front.png",
+        "size": 1534659,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/chanel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/fuse.py",
+        "size": 1758,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/fuse.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/inspect_voxel.py",
+        "size": 1097,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/inspect_voxel.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv-build.log",
+        "size": 22871,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv-fuse.log",
+        "size": 662,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv-fuse.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv-voxel-render.log",
+        "size": 11088,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv-voxel-render.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv-voxel.log",
+        "size": 330,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv-voxel.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_body_only_unfinished.stl",
+        "size": 30105484,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_body_only_unfinished.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_candidate_unverified.stl",
+        "size": 29925284,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_candidate_unverified.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_concept.blend",
+        "size": 23099891,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_front.png",
+        "size": 1573248,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_rear.png",
+        "size": 1580389,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_top.png",
+        "size": 1464243,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl",
+        "size": 87192684,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_voxel_experiment_unverified.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_voxel_front.png",
+        "size": 1505204,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_voxel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/lv_voxel_rear.png",
+        "size": 1515283,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/lv_voxel_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/scene-audit.log",
+        "size": 668,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/scene-audit.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/slice_chanel",
+        "size": 128,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/slice_chanel"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/voxel_fuse.py",
+        "size": 1135,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/voxel_fuse.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v6/weld-audit.log",
+        "size": 841,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v6/weld-audit.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/build.py",
+        "size": 9808,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v7/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/chanel-build.log",
+        "size": 18018,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v7/chanel-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/chanel_concept.blend",
+        "size": 22802991,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v7/chanel_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/chanel_front.png",
+        "size": 1539703,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v7/chanel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/chanel_rear.png",
+        "size": 1548461,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v7/chanel_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/chanel_top.png",
+        "size": 1515250,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v7/chanel_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v7/fuse.py",
+        "size": 1741,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v7/fuse.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/build.py",
+        "size": 10009,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/build.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel-build.log",
+        "size": 18056,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel-build.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel-voxel-render.log",
+        "size": 11151,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel-voxel-render.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel-voxel.log",
+        "size": 334,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel-voxel.log"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_concept.blend",
+        "size": 22802991,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_concept.blend"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_front.png",
+        "size": 1537377,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_rear.png",
+        "size": 1549310,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_top.png",
+        "size": 1515946,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_top.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl",
+        "size": 89553884,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_voxel_experiment_unverified.stl"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_voxel_front.png",
+        "size": 1499497,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_voxel_front.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/chanel_voxel_rear.png",
+        "size": 1510641,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/chanel_voxel_rear.png"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/fuse.py",
+        "size": 1741,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/fuse.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/inspect_voxel.py",
+        "size": 1097,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/inspect_voxel.py"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/slice_chanel",
+        "size": 512,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/slice_chanel"
+      },
+      {
+        "rel": "DesignProcess/Experimental_v8/voxel_fuse.py",
+        "size": 1135,
+        "url": "models/dog-bowl-lv/DesignProcess/Experimental_v8/voxel_fuse.py"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/LV_Monogram.svg",
+        "size": 3200,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/LV_Monogram.svg"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/bowl_30mm_assembly.step",
+        "size": 12224066,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/bowl_30mm_assembly.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/build.py",
+        "size": 5272,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/build.py"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/manifest.json",
+        "size": 577,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/manifest.json"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parameters.json",
+        "size": 260,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parameters.json"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/blue_middle_z2_28.step",
+        "size": 10558183,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/blue_middle_z2_28.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/blue_middle_z2_28.stl",
+        "size": 4126784,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/blue_middle_z2_28.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/clip_fit_coupon.step",
+        "size": 29038,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/clip_fit_coupon.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/clip_fit_coupon.stl",
+        "size": 1484,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/clip_fit_coupon.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/ivory_bottom_z0_2.step",
+        "size": 53734,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_bottom_z0_2.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/ivory_bottom_z0_2.stl",
+        "size": 33884,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_bottom_z0_2.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/ivory_glue_logo.step",
+        "size": 1441498,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_glue_logo.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/ivory_glue_logo.stl",
+        "size": 72284,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_glue_logo.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/ivory_logo_print_flat.step",
+        "size": 1485392,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_logo_print_flat.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/ivory_logo_print_flat.stl",
+        "size": 72284,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_logo_print_flat.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/ivory_top_z28_30.step",
+        "size": 63533,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_top_z28_30.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/ivory_top_z28_30.stl",
+        "size": 65684,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/ivory_top_z28_30.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/whole_bowl_AMS.step",
+        "size": 10550724,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/whole_bowl_AMS.step"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/parts/whole_bowl_AMS.stl",
+        "size": 4126784,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/parts/whole_bowl_AMS.stl"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/perspective.png",
+        "size": 1238081,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/perspective.png"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/rear.png",
+        "size": 1245150,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/rear.png"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/render.py",
+        "size": 2115,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/render.py"
+      },
+      {
+        "rel": "DesignProcess/LowBowl_FirstDesign/validation.json",
+        "size": 2675,
+        "url": "models/dog-bowl-lv/DesignProcess/LowBowl_FirstDesign/validation.json"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/BUILD.txt",
+        "size": 529,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/BUILD.txt"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/README_打印说明.txt",
+        "size": 2843,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/README_打印说明.txt"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/check_interfaces.py",
+        "size": 632,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/check_interfaces.py"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/interface_validation.json",
+        "size": 324,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/interface_validation.json"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/LV_Monogram.svg",
+        "size": 3200,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/LV_Monogram.svg"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/back.png",
+        "size": 762318,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/back.png"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/build.py",
+        "size": 4954,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/build.py"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/check_clip.py",
+        "size": 534,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/check_clip.py"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/clip_validation.json",
+        "size": 183,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/clip_validation.json"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/high_bowl_assembly.step",
+        "size": 25092371,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/high_bowl_assembly.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/manifest.json",
+        "size": 459,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/manifest.json"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parameters.json",
+        "size": 460,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parameters.json"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/blue_body_with_inverted_T_clip.step",
+        "size": 23349830,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/blue_body_with_inverted_T_clip.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/blue_body_with_inverted_T_clip.stl",
+        "size": 5710284,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/blue_body_with_inverted_T_clip.stl"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/clip_fit_coupon.step",
+        "size": 29038,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/clip_fit_coupon.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/clip_fit_coupon.stl",
+        "size": 1484,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/clip_fit_coupon.stl"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/footprint_2mm_gauge.step",
+        "size": 53419,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/footprint_2mm_gauge.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/footprint_2mm_gauge.stl",
+        "size": 33884,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/footprint_2mm_gauge.stl"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/ivory_glue_logo.step",
+        "size": 1440296,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/ivory_glue_logo.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/ivory_glue_logo.stl",
+        "size": 72284,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/ivory_glue_logo.stl"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/ivory_logo_print_flat.step",
+        "size": 1481577,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/ivory_logo_print_flat.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/ivory_logo_print_flat.stl",
+        "size": 72284,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/ivory_logo_print_flat.stl"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/ivory_top_layers.step",
+        "size": 48944,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/ivory_top_layers.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/ivory_top_layers.stl",
+        "size": 52084,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/ivory_top_layers.stl"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/whole_bowl_AMS.step",
+        "size": 23346467,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/whole_bowl_AMS.step"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/parts/whole_bowl_AMS.stl",
+        "size": 5710284,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/parts/whole_bowl_AMS.stl"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/perspective.png",
+        "size": 1375194,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/perspective.png"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/print_helpers.py",
+        "size": 841,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/print_helpers.py"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/remesh.py",
+        "size": 312,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/remesh.py"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/render.py",
+        "size": 2121,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/render.py"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/side.png",
+        "size": 750576,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/side.png"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/validate.py",
+        "size": 500,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/validate.py"
+      },
+      {
+        "rel": "DesignProcess/TallBowl_85mm/lv/validation.json",
+        "size": 1849,
+        "url": "models/dog-bowl-lv/DesignProcess/TallBowl_85mm/lv/validation.json"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/PRINT_README.txt",
+        "size": 3109,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/PRINT_README.txt"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/SHA256SUMS.txt",
+        "size": 2865,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/SHA256SUMS.txt"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/SOURCE_LICENSE.md",
+        "size": 1087,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/SOURCE_LICENSE.md"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/approved_design.png",
+        "size": 153862,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/approved_design.png"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/approved_layout.json",
+        "size": 1489,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/approved_layout.json"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/bowl_30mm_assembly.step",
+        "size": 5547992,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/bowl_30mm_assembly.step"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/build.py",
+        "size": 4753,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/build.py"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/front.png",
+        "size": 897656,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/front.png"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/manifest.json",
+        "size": 576,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/manifest.json"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/blue_middle_z2_28.step",
+        "size": 5240976,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/blue_middle_z2_28.step"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/blue_middle_z2_28.stl",
+        "size": 5524784,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/blue_middle_z2_28.stl"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/clip_fit_coupon.step",
+        "size": 29038,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/clip_fit_coupon.step"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/clip_fit_coupon.stl",
+        "size": 1484,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/clip_fit_coupon.stl"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_bottom_z0_2.step",
+        "size": 53734,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_bottom_z0_2.step"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_bottom_z0_2.stl",
+        "size": 33884,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_bottom_z0_2.stl"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_glue_logo.step",
+        "size": 166740,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_glue_logo.step"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_glue_logo.stl",
+        "size": 352384,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_glue_logo.stl"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_logo_print_flat.step",
+        "size": 173204,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_logo_print_flat.step"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_logo_print_flat.stl",
+        "size": 352684,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_logo_print_flat.stl"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_top_z28_30.step",
+        "size": 63533,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_top_z28_30.step"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_top_z28_30.stl",
+        "size": 65684,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/ivory_top_z28_30.stl"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/whole_bowl_AMS.step",
+        "size": 5233620,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/whole_bowl_AMS.step"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/whole_bowl_AMS.stl",
+        "size": 5524784,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/parts/whole_bowl_AMS.stl"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/pattern_layout.json",
+        "size": 2608,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/pattern_layout.json"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/perspective.png",
+        "size": 1528119,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/perspective.png"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/rear.png",
+        "size": 1880223,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/rear.png"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/render.py",
+        "size": 2116,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/render.py"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/source.ai",
+        "size": 1070672,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/source.ai"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/topology_checks.json",
+        "size": 1017,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/topology_checks.json"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/validation.json",
+        "size": 2674,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/validation.json"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/lv/vector_shapes.py",
+        "size": 2432,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/lv/vector_shapes.py"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/packages/LV_Bowl_30mm_Vector_TwoRows_2026-11-16.zip",
+        "size": 13754563,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/packages/LV_Bowl_30mm_Vector_TwoRows_2026-11-16.zip"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/slicing_diagnostic/README.txt",
+        "size": 564,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/slicing_diagnostic/README.txt"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/slicing_diagnostic/bowl_result.json",
+        "size": 3242,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/slicing_diagnostic/bowl_result.json"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/slicing_diagnostic/logo_result.json",
+        "size": 3155,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/slicing_diagnostic/logo_result.json"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/validate.py",
+        "size": 689,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/validate.py"
+      },
+      {
+        "rel": "DesignProcess/TwoRows_BeforeSideCompletion/打印说明.txt",
+        "size": 1929,
+        "url": "models/dog-bowl-lv/DesignProcess/TwoRows_BeforeSideCompletion/打印说明.txt"
+      },
+      {
+        "rel": "Documentation/FullSides_ReleaseRecords/packages/LV_Bowl_FullSides_ClipOptions_2026-11-16.zip",
+        "size": 37395790,
+        "url": "models/dog-bowl-lv/Documentation/FullSides_ReleaseRecords/packages/LV_Bowl_FullSides_ClipOptions_2026-11-16.zip"
+      },
+      {
+        "rel": "Documentation/FullSides_ReleaseRecords/slicing_diagnostic/README.txt",
+        "size": 576,
+        "url": "models/dog-bowl-lv/Documentation/FullSides_ReleaseRecords/slicing_diagnostic/README.txt"
+      },
+      {
+        "rel": "Documentation/FullSides_ReleaseRecords/slicing_diagnostic/clip_fit_coupon_result.json",
+        "size": 3175,
+        "url": "models/dog-bowl-lv/Documentation/FullSides_ReleaseRecords/slicing_diagnostic/clip_fit_coupon_result.json"
+      },
+      {
+        "rel": "Documentation/FullSides_ReleaseRecords/slicing_diagnostic/whole_bowl_AMS_result.json",
+        "size": 3242,
+        "url": "models/dog-bowl-lv/Documentation/FullSides_ReleaseRecords/slicing_diagnostic/whole_bowl_AMS_result.json"
+      },
+      {
+        "rel": "Documentation/FullSides_ReleaseRecords/请先读_版本选择.txt",
+        "size": 1154,
+        "url": "models/dog-bowl-lv/Documentation/FullSides_ReleaseRecords/请先读_版本选择.txt"
+      },
+      {
+        "rel": "Documentation/RecoveredPackages/LV_Bowl_InvertedT_2026-11-14.zip",
+        "size": 21276827,
+        "url": "models/dog-bowl-lv/Documentation/RecoveredPackages/LV_Bowl_InvertedT_2026-11-14.zip"
+      },
+      {
+        "rel": "Documentation/UnfinishedExperimentalDelivery/LV_未完成实验.zip",
+        "size": 36941521,
+        "url": "models/dog-bowl-lv/Documentation/UnfinishedExperimentalDelivery/LV_未完成实验.zip"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/PRINT_README.txt",
+        "size": 3535,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/PRINT_README.txt"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/SHA256SUMS.txt",
+        "size": 2958,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/SHA256SUMS.txt"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/SOURCE_LICENSE.md",
+        "size": 1087,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/SOURCE_LICENSE.md"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/approved_design.png",
+        "size": 153862,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/approved_design.png"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/coverage_verification.json",
+        "size": 593,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/coverage_verification.json"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/approved_layout.json",
+        "size": 1489,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/approved_layout.json"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/bowl_30mm_assembly.step",
+        "size": 8545623,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/bowl_30mm_assembly.step"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/build.py",
+        "size": 5418,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/build.py"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/clip.png",
+        "size": 2027459,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/clip.png"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/clip_checks.json",
+        "size": 748,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/clip_checks.json"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/manifest.json",
+        "size": 576,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/manifest.json"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/blue_middle_z2_28.step",
+        "size": 8226039,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/blue_middle_z2_28.step"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/blue_middle_z2_28.stl",
+        "size": 8458984,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/blue_middle_z2_28.stl"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/clip_fit_coupon.step",
+        "size": 47293,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/clip_fit_coupon.step"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/clip_fit_coupon.stl",
+        "size": 2684,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/clip_fit_coupon.stl"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_bottom_z0_2.step",
+        "size": 53734,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_bottom_z0_2.step"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_bottom_z0_2.stl",
+        "size": 33884,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_bottom_z0_2.stl"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_glue_logo.step",
+        "size": 166740,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_glue_logo.step"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_glue_logo.stl",
+        "size": 352384,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_glue_logo.stl"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_logo_print_flat.step",
+        "size": 173204,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_logo_print_flat.step"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_logo_print_flat.stl",
+        "size": 352684,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_logo_print_flat.stl"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_top_z28_30.step",
+        "size": 63533,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_top_z28_30.step"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_top_z28_30.stl",
+        "size": 65684,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/ivory_top_z28_30.stl"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/whole_bowl_AMS.step",
+        "size": 8218673,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/whole_bowl_AMS.step"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/parts/whole_bowl_AMS.stl",
+        "size": 8458984,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/parts/whole_bowl_AMS.stl"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/pattern_layout.json",
+        "size": 3870,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/pattern_layout.json"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/rear.png",
+        "size": 1810960,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/rear.png"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/render.py",
+        "size": 2134,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/render.py"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/source.ai",
+        "size": 1070672,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/source.ai"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/topology_checks.json",
+        "size": 1017,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/topology_checks.json"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/validation.json",
+        "size": 2688,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/validation.json"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/lv/vector_shapes.py",
+        "size": 2432,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/lv/vector_shapes.py"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/validate.py",
+        "size": 689,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/validate.py"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/打印说明.txt",
+        "size": 2532,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/打印说明.txt"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/PRINT_README.txt",
+        "size": 3161,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/PRINT_README.txt"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/SHA256SUMS.txt",
+        "size": 3114,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/SHA256SUMS.txt"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/SOURCE_LICENSE.md",
+        "size": 1087,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/SOURCE_LICENSE.md"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/approved_design.png",
+        "size": 153862,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/approved_design.png"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/coverage_verification.json",
+        "size": 462,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/coverage_verification.json"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/approved_layout.json",
+        "size": 1489,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/approved_layout.json"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/bowl_30mm_assembly.step",
+        "size": 8525400,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/bowl_30mm_assembly.step"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/build.py",
+        "size": 5090,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/build.py"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/front.png",
+        "size": 921282,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/front.png"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/left.png",
+        "size": 927180,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/left.png"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/manifest.json",
+        "size": 576,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/manifest.json"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/blue_middle_z2_28.step",
+        "size": 8205820,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/blue_middle_z2_28.step"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/blue_middle_z2_28.stl",
+        "size": 8457984,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/blue_middle_z2_28.stl"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/clip_fit_coupon.step",
+        "size": 29038,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/clip_fit_coupon.step"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/clip_fit_coupon.stl",
+        "size": 1484,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/clip_fit_coupon.stl"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.step",
+        "size": 53734,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.step"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.stl",
+        "size": 33884,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_bottom_z0_2.stl"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/ivory_glue_logo.step",
+        "size": 166740,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_glue_logo.step"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/ivory_glue_logo.stl",
+        "size": 352384,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_glue_logo.stl"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/ivory_logo_print_flat.step",
+        "size": 173204,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_logo_print_flat.step"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/ivory_logo_print_flat.stl",
+        "size": 352684,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_logo_print_flat.stl"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.step",
+        "size": 63533,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.step"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.stl",
+        "size": 65684,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/ivory_top_z28_30.stl"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/whole_bowl_AMS.step",
+        "size": 8198418,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/whole_bowl_AMS.step"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/parts/whole_bowl_AMS.stl",
+        "size": 8457984,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/parts/whole_bowl_AMS.stl"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/pattern_layout.json",
+        "size": 3870,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/pattern_layout.json"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/perspective.png",
+        "size": 1635908,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/perspective.png"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/rear.png",
+        "size": 1672064,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/rear.png"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/render.py",
+        "size": 2135,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/render.py"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/side.png",
+        "size": 931287,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/side.png"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/source.ai",
+        "size": 1070672,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/source.ai"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/topology_checks.json",
+        "size": 1017,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/topology_checks.json"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/validation.json",
+        "size": 2674,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/validation.json"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/lv/vector_shapes.py",
+        "size": 2432,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/lv/vector_shapes.py"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/validate.py",
+        "size": 689,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/validate.py"
+      },
+      {
+        "rel": "Models/FullSides_OriginalClip/打印说明.txt",
+        "size": 2131,
+        "url": "models/dog-bowl-lv/Models/FullSides_OriginalClip/打印说明.txt"
+      },
+      {
+        "rel": "README.md",
+        "size": 663,
+        "url": "models/dog-bowl-lv/README.md"
+      }
+    ],
+    "bytes": 1135988495
+  },
+  {
     "id": "idea-003",
     "title": "内存条 + CPU 展示架",
     "category": "展示收纳",

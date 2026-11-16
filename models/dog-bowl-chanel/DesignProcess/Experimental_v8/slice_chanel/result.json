@@ -1,0 +1,17 @@
+{
+    "error_string": "The selected printer is not compatible with the process preset in the 3mf.",
+    "layer_height": 0.0,
+    "peak_rss_mb": 261.9375,
+    "plate_index": 0,
+    "return_code": -17,
+    "sparse_infill_density": 0.0,
+    "times": {
+        "export_3mf_time": 0,
+        "export_slicedata_time": 0,
+        "export_time": 6124036784,
+        "import_time": 481,
+        "load_slicedata_time": 0,
+        "prepare_time": 8344195536
+    },
+    "wall_loops": 0
+}

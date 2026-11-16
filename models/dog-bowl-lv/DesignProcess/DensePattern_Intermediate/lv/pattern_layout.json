@@ -1,0 +1,451 @@
+{
+  "candidate": "dense four-family",
+  "nominal_recess": 0.8,
+  "central_logo_clear_angle": 12,
+  "placements": [
+    {
+      "surface": "front",
+      "angle": -85,
+      "z": 7,
+      "type": 0
+    },
+    {
+      "surface": "front",
+      "angle": -75,
+      "z": 7,
+      "type": 1
+    },
+    {
+      "surface": "front",
+      "angle": -65,
+      "z": 7,
+      "type": 2
+    },
+    {
+      "surface": "front",
+      "angle": -55,
+      "z": 7,
+      "type": 3
+    },
+    {
+      "surface": "front",
+      "angle": -45,
+      "z": 7,
+      "type": 0
+    },
+    {
+      "surface": "front",
+      "angle": -35,
+      "z": 7,
+      "type": 1
+    },
+    {
+      "surface": "front",
+      "angle": -25,
+      "z": 7,
+      "type": 2
+    },
+    {
+      "surface": "front",
+      "angle": -15,
+      "z": 7,
+      "type": 3
+    },
+    {
+      "surface": "front",
+      "angle": 15,
+      "z": 7,
+      "type": 2
+    },
+    {
+      "surface": "front",
+      "angle": 25,
+      "z": 7,
+      "type": 3
+    },
+    {
+      "surface": "front",
+      "angle": 35,
+      "z": 7,
+      "type": 0
+    },
+    {
+      "surface": "front",
+      "angle": 45,
+      "z": 7,
+      "type": 1
+    },
+    {
+      "surface": "front",
+      "angle": 55,
+      "z": 7,
+      "type": 2
+    },
+    {
+      "surface": "front",
+      "angle": 65,
+      "z": 7,
+      "type": 3
+    },
+    {
+      "surface": "front",
+      "angle": 75,
+      "z": 7,
+      "type": 0
+    },
+    {
+      "surface": "front",
+      "angle": 85,
+      "z": 7,
+      "type": 1
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 0,
+      "z": 7,
+      "type": 0
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 14,
+      "z": 7,
+      "type": 1
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 28,
+      "z": 7,
+      "type": 2
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 42,
+      "z": 7,
+      "type": 3
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 0,
+      "z": 7,
+      "type": 2
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 14,
+      "z": 7,
+      "type": 3
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 28,
+      "z": 7,
+      "type": 0
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 42,
+      "z": 7,
+      "type": 1
+    },
+    {
+      "surface": "front",
+      "angle": -80,
+      "z": 15,
+      "type": 2
+    },
+    {
+      "surface": "front",
+      "angle": -70,
+      "z": 15,
+      "type": 3
+    },
+    {
+      "surface": "front",
+      "angle": -60,
+      "z": 15,
+      "type": 0
+    },
+    {
+      "surface": "front",
+      "angle": -50,
+      "z": 15,
+      "type": 1
+    },
+    {
+      "surface": "front",
+      "angle": -40,
+      "z": 15,
+      "type": 2
+    },
+    {
+      "surface": "front",
+      "angle": -30,
+      "z": 15,
+      "type": 3
+    },
+    {
+      "surface": "front",
+      "angle": -20,
+      "z": 15,
+      "type": 0
+    },
+    {
+      "surface": "front",
+      "angle": 20,
+      "z": 15,
+      "type": 0
+    },
+    {
+      "surface": "front",
+      "angle": 30,
+      "z": 15,
+      "type": 1
+    },
+    {
+      "surface": "front",
+      "angle": 40,
+      "z": 15,
+      "type": 2
+    },
+    {
+      "surface": "front",
+      "angle": 50,
+      "z": 15,
+      "type": 3
+    },
+    {
+      "surface": "front",
+      "angle": 60,
+      "z": 15,
+      "type": 0
+    },
+    {
+      "surface": "front",
+      "angle": 70,
+      "z": 15,
+      "type": 1
+    },
+    {
+      "surface": "front",
+      "angle": 80,
+      "z": 15,
+      "type": 2
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 0,
+      "z": 15,
+      "type": 1
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 14,
+      "z": 15,
+      "type": 2
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 28,
+      "z": 15,
+      "type": 3
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 42,
+      "z": 15,
+      "type": 0
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 0,
+      "z": 15,
+      "type": 3
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 14,
+      "z": 15,
+      "type": 0
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 28,
+      "z": 15,
+      "type": 1
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 42,
+      "z": 15,
+      "type": 2
+    },
+    {
+      "surface": "front",
+      "angle": -85,
+      "z": 23,
+      "type": 0
+    },
+    {
+      "surface": "front",
+      "angle": -75,
+      "z": 23,
+      "type": 1
+    },
+    {
+      "surface": "front",
+      "angle": -65,
+      "z": 23,
+      "type": 2
+    },
+    {
+      "surface": "front",
+      "angle": -55,
+      "z": 23,
+      "type": 3
+    },
+    {
+      "surface": "front",
+      "angle": -45,
+      "z": 23,
+      "type": 0
+    },
+    {
+      "surface": "front",
+      "angle": -35,
+      "z": 23,
+      "type": 1
+    },
+    {
+      "surface": "front",
+      "angle": -25,
+      "z": 23,
+      "type": 2
+    },
+    {
+      "surface": "front",
+      "angle": -15,
+      "z": 23,
+      "type": 3
+    },
+    {
+      "surface": "front",
+      "angle": 15,
+      "z": 23,
+      "type": 2
+    },
+    {
+      "surface": "front",
+      "angle": 25,
+      "z": 23,
+      "type": 3
+    },
+    {
+      "surface": "front",
+      "angle": 35,
+      "z": 23,
+      "type": 0
+    },
+    {
+      "surface": "front",
+      "angle": 45,
+      "z": 23,
+      "type": 1
+    },
+    {
+      "surface": "front",
+      "angle": 55,
+      "z": 23,
+      "type": 2
+    },
+    {
+      "surface": "front",
+      "angle": 65,
+      "z": 23,
+      "type": 3
+    },
+    {
+      "surface": "front",
+      "angle": 75,
+      "z": 23,
+      "type": 0
+    },
+    {
+      "surface": "front",
+      "angle": 85,
+      "z": 23,
+      "type": 1
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 0,
+      "z": 23,
+      "type": 2
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 14,
+      "z": 23,
+      "type": 3
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 28,
+      "z": 23,
+      "type": 0
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 42,
+      "z": 23,
+      "type": 1
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 0,
+      "z": 23,
+      "type": 0
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 14,
+      "z": 23,
+      "type": 1
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 28,
+      "z": 23,
+      "type": 2
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 42,
+      "z": 23,
+      "type": 3
+    }
+  ]
+}

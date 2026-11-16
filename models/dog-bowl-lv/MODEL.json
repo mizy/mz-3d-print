@@ -1,0 +1,9 @@
+{
+  "id": "dog-bowl-lv",
+  "title": "LV 两排矢量花纹狗碗",
+  "category": "宠物用品 / 狗碗",
+  "status": "design",
+  "cls": "derived",
+  "summary": "30 mm 高，四种第三方矢量花纹铺满正面与两侧；原卡扣及加高镂空候选，Logo 独立粘贴。几何已检查，切片、实配与承重未验收。",
+  "cover": "Models/FullSides_OriginalClip/lv/perspective.png"
+}

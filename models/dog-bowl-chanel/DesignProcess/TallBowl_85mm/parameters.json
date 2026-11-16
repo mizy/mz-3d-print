@@ -1,0 +1,13 @@
+{
+  "width": 160,
+  "depth": 145,
+  "height": 85,
+  "clip_length": 70,
+  "clip_height": 30,
+  "clip_width": 8.5,
+  "clip_gap_provisional": 3,
+  "clip_bar_at_z": 0,
+  "wall": 3.2,
+  "base": 4,
+  "top_black_start_z": 81
+}

@@ -1,0 +1,80 @@
+{
+  "lv": {
+    "density_g_cm3": 1.24,
+    "parts": [
+      {
+        "name": "ivory_bottom_z0_2",
+        "volume_cm3": 42.14390406116704,
+        "PLA_solid_equivalent_g": 52.258441035847135
+      },
+      {
+        "name": "blue_middle_z2_28",
+        "volume_cm3": 92.1525098052218,
+        "PLA_solid_equivalent_g": 114.26911215847502
+      },
+      {
+        "name": "ivory_top_z28_30",
+        "volume_cm3": 3.8049494462221722,
+        "PLA_solid_equivalent_g": 4.718137313315494
+      },
+      {
+        "name": "ivory_glue_logo",
+        "volume_cm3": 0.2217756924189903,
+        "PLA_solid_equivalent_g": 0.27500185859954795
+      }
+    ],
+    "total_PLA_solid_equivalent_g": 171.5206923662372,
+    "sliced": false,
+    "includes": [
+      "bowl",
+      "integrated_clip",
+      "one_logo"
+    ],
+    "excludes": [
+      "support",
+      "purge",
+      "wipe_tower",
+      "brim",
+      "test_coupon"
+    ]
+  },
+  "chanel": {
+    "density_g_cm3": 1.24,
+    "parts": [
+      {
+        "name": "cream_body_inverted_clip",
+        "volume_cm3": 106.40595909919338,
+        "PLA_solid_equivalent_g": 131.9433892829998
+      },
+      {
+        "name": "black_top_layers",
+        "volume_cm3": 3.801531660039385,
+        "PLA_solid_equivalent_g": 4.713899258448838
+      },
+      {
+        "name": "black_bottom_layers",
+        "volume_cm3": 42.27791674355901,
+        "PLA_solid_equivalent_g": 52.42461676201318
+      },
+      {
+        "name": "black_glue_CC",
+        "volume_cm3": 0.22942699838613803,
+        "PLA_solid_equivalent_g": 0.28448947799881114
+      }
+    ],
+    "total_PLA_solid_equivalent_g": 189.36639478146063,
+    "sliced": false,
+    "includes": [
+      "bowl",
+      "integrated_clip",
+      "one_logo"
+    ],
+    "excludes": [
+      "support",
+      "purge",
+      "wipe_tower",
+      "brim",
+      "test_coupon"
+    ]
+  }
+}

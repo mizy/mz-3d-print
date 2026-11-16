@@ -1,0 +1,147 @@
+{
+  "source": "third-party AI, original Bezier curves",
+  "nominal_recess_mm": 0.8,
+  "height_mm": 7,
+  "placements": [
+    {
+      "surface": "front",
+      "angle": -61.04497562814016,
+      "z": 21.0,
+      "type": "LV",
+      "design_x": -70
+    },
+    {
+      "surface": "front",
+      "angle": -39.60565239386794,
+      "z": 21.0,
+      "type": "diamond",
+      "design_x": -51
+    },
+    {
+      "surface": "front",
+      "angle": -23.578178478201835,
+      "z": 21.0,
+      "type": "pointed",
+      "design_x": -32
+    },
+    {
+      "surface": "front",
+      "angle": 23.578178478201835,
+      "z": 21.0,
+      "type": "circle",
+      "design_x": 32
+    },
+    {
+      "surface": "front",
+      "angle": 39.60565239386794,
+      "z": 21.0,
+      "type": "LV",
+      "design_x": 51
+    },
+    {
+      "surface": "front",
+      "angle": 61.04497562814016,
+      "z": 21.0,
+      "type": "diamond",
+      "design_x": 70
+    },
+    {
+      "surface": "front",
+      "angle": -49.68509082529124,
+      "z": 9.0,
+      "type": "circle",
+      "design_x": -61
+    },
+    {
+      "surface": "front",
+      "angle": -31.66824325354165,
+      "z": 9.0,
+      "type": "pointed",
+      "design_x": -42
+    },
+    {
+      "surface": "front",
+      "angle": -16.708343715655246,
+      "z": 9.0,
+      "type": "circle",
+      "design_x": -23
+    },
+    {
+      "surface": "front",
+      "angle": 16.708343715655246,
+      "z": 9.0,
+      "type": "diamond",
+      "design_x": 23
+    },
+    {
+      "surface": "front",
+      "angle": 31.66824325354165,
+      "z": 9.0,
+      "type": "pointed",
+      "design_x": 42
+    },
+    {
+      "surface": "front",
+      "angle": 49.68509082529124,
+      "z": 9.0,
+      "type": "LV",
+      "design_x": 61
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 10,
+      "z": 9,
+      "type": "LV"
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 34,
+      "z": 9,
+      "type": "diamond"
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 10,
+      "z": 21,
+      "type": "pointed"
+    },
+    {
+      "surface": "side",
+      "side": -1,
+      "y": 34,
+      "z": 21,
+      "type": "circle"
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 10,
+      "z": 9,
+      "type": "diamond"
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 34,
+      "z": 9,
+      "type": "pointed"
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 10,
+      "z": 21,
+      "type": "circle"
+    },
+    {
+      "surface": "side",
+      "side": 1,
+      "y": 34,
+      "z": 21,
+      "type": "LV"
+    }
+  ]
+}

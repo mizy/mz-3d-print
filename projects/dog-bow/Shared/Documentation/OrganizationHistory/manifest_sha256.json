@@ -1,0 +1,830 @@
+{
+  "releases/2026-11-14-inverted-t/Chanel/README.txt": {
+    "size_bytes": 1471,
+    "sha256": "22bd111e91a669b5f4dd5bf77fcc30ba2db60ce77cb0976d0108d344cc0cdf4c"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/build.py": {
+    "size_bytes": 4634,
+    "sha256": "f569013dce3cd9a3f974d419e82216d8c7091c42156e60db7d5f6f756f7e88db"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/chanel_bowl_assembly.step": {
+    "size_bytes": 12152623,
+    "sha256": "035b63df05581aec0ed81c23ee19acd9d3a6dcb5c238a5c880cbf2c9180fc49a"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/finalize_meshes.py": {
+    "size_bytes": 591,
+    "sha256": "9b296bc7425f09e71223819360978b5ed630b3c2a837aa56c70662145c27e85a"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/manifest.json": {
+    "size_bytes": 442,
+    "sha256": "5d421d42fc1a40abc6f2c321257f84f004e15f6be8046db2542062b5aa45746f"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/package_BUILD.txt": {
+    "size_bytes": 529,
+    "sha256": "8635a966e03b554b87ecd06b80317e0f711959dd3a534d9ad9463a62a5be7263"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/package_README_打印说明.txt": {
+    "size_bytes": 2843,
+    "sha256": "39df3df46ada13a1c451cfea5125d9d6a63238f679b2f63cf487e322527585e2"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/package_interface_validation.json": {
+    "size_bytes": 324,
+    "sha256": "80ceeb3a8787b39144a83fa1a8e1c1346a62b81e16c3f3a0ef24afc2d8cc9706"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/parameters.json": {
+    "size_bytes": 219,
+    "sha256": "dd962b98b51193aca6af337aca79b68367b95bde8221af22bf0c0e760813bd34"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/parts/black_glue_CC.step": {
+    "size_bytes": 7143073,
+    "sha256": "5866703e370f1bce3fe8637d2fb055d7842114d5d9e5afacfbbae86e02206bd2"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/parts/black_glue_CC.stl": {
+    "size_bytes": 4288084,
+    "sha256": "f70cdc8db485d6b54e6c8f48a7594af7e6786bc5565eb501c4bc7b9e0c950432"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/parts/black_glue_CC_print_flat.step": {
+    "size_bytes": 7050314,
+    "sha256": "48adefd04be2d0f0c94b4bd5ee5dc43d82bb42e1bcbc2717a3c3f34bc22da0c0"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/parts/black_glue_CC_print_flat.stl": {
+    "size_bytes": 4287984,
+    "sha256": "07e338ada6c94b810071e1309e27b878df55bb854f5f9c76f0811d81ee79779d"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/parts/black_top_layers.step": {
+    "size_bytes": 44917,
+    "sha256": "b73ea9388b263eeb2b83bb716be20d246b8570b2d58b4545b92f1c7bab36a1be"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/parts/black_top_layers.stl": {
+    "size_bytes": 22084,
+    "sha256": "ecc14af306e99eb7232bbf233b5b5a27d84c092928622a3c0ad5eb2b523857e6"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/parts/clip_fit_coupon.step": {
+    "size_bytes": 29038,
+    "sha256": "67f342c338c7728c8e8caea47bd5b1e7fe2c368d674923e8b4ebfddc302a05a0"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/parts/clip_fit_coupon.stl": {
+    "size_bytes": 1484,
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/parts/cream_body_inverted_clip.step": {
+    "size_bytes": 4828024,
+    "sha256": "64083924505ade532dfe8b5a86b559225a692c998f8a4b637f7edfc77616bcd4"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/parts/cream_body_inverted_clip.stl": {
+    "size_bytes": 5810884,
+    "sha256": "724037a1a8757536c171a9517b2a24d3d8d7363148dee7ef665c4e454b6b9593"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/parts/whole_bowl_AMS.step": {
+    "size_bytes": 3895569,
+    "sha256": "6191a2aca36c11d96bd8cde82cdf8e80911369c460a6a147271f767aeea029f8"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 5790684,
+    "sha256": "711294283944a720d64f2647390b168a9d08d704d5898971bfaf4191cf7b2a3b"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/perspective.png": {
+    "size_bytes": 2613127,
+    "sha256": "f5f22602bbb5181b58e26b4241a992526a0ce032a294ac6ceae4922bf6a0d422"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/rear.png": {
+    "size_bytes": 2599679,
+    "sha256": "4b6af4f10c7eaa2378173cde8484acc49b110f02cc02d80e190756cae0287833"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/render.py": {
+    "size_bytes": 2122,
+    "sha256": "15d654bd823eab7235adc92761dc63e02ceb16fab0a9412dc5969819ee589c52"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/source/base_CC.step": {
+    "size_bytes": 4760826,
+    "sha256": "e606d6ac747cd195d4039a50d962851b350428b74534172549417e674702f928"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/surface_helpers.py": {
+    "size_bytes": 727,
+    "sha256": "a588657e1977fa8efc7f2bd761f2e2c1a189bb6632f751e71256671190f0f4fc"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/validate.py": {
+    "size_bytes": 545,
+    "sha256": "4c948f33887cde30370918c351dbdc4c3d9e1834586b7f6ca87e39e5122493e3"
+  },
+  "releases/2026-11-14-inverted-t/Chanel/validation.json": {
+    "size_bytes": 2112,
+    "sha256": "8b3cc53f97940a03a3debba695012625fb96a28ea17dd43caa8719f4cf9a8eae"
+  },
+  "releases/2026-11-14-inverted-t/LV/BUILD.txt": {
+    "size_bytes": 529,
+    "sha256": "8635a966e03b554b87ecd06b80317e0f711959dd3a534d9ad9463a62a5be7263"
+  },
+  "releases/2026-11-14-inverted-t/LV/README_打印说明.txt": {
+    "size_bytes": 2843,
+    "sha256": "39df3df46ada13a1c451cfea5125d9d6a63238f679b2f63cf487e322527585e2"
+  },
+  "releases/2026-11-14-inverted-t/LV/check_interfaces.py": {
+    "size_bytes": 632,
+    "sha256": "13baa97d673442d5639778d118e2443071eb562593884151512c059b36d0c7b3"
+  },
+  "releases/2026-11-14-inverted-t/LV/interface_validation.json": {
+    "size_bytes": 324,
+    "sha256": "80ceeb3a8787b39144a83fa1a8e1c1346a62b81e16c3f3a0ef24afc2d8cc9706"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/LV_Monogram.svg": {
+    "size_bytes": 3200,
+    "sha256": "fcdbedf42e66b75c7ec33d4544d253f6d0f8c2a8204f18be7086b54bcceca93a"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/back.png": {
+    "size_bytes": 762318,
+    "sha256": "9d02c631283f0c5de0d9e28d474a8d7a23d6917d4d69183fce09adc4fbee84aa"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/build.py": {
+    "size_bytes": 4954,
+    "sha256": "ae1ef28c3deed361dbdadc4d1835046437b0e66220b26caecb43a2f6004f4bf4"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/check_clip.py": {
+    "size_bytes": 534,
+    "sha256": "6035d423cf79a2cead8cf4421e4c958aad80ac9742b18eb7b46776bc12edae5f"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/clip_validation.json": {
+    "size_bytes": 183,
+    "sha256": "7431e94cc2795cc33ba27e1cd1d891208b91676cdd7f3810db556e58b619a7d7"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/high_bowl_assembly.step": {
+    "size_bytes": 25092371,
+    "sha256": "19faf48bbbded848350320486425124a13fde4fc780c69fe61df12f462af2f5c"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/manifest.json": {
+    "size_bytes": 459,
+    "sha256": "52687fc50714943c49116905d8fc09e9f150e6566bb693697edd2f1db319f21d"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parameters.json": {
+    "size_bytes": 460,
+    "sha256": "7ba6af1c4fa987f816143261a8f2ce38f9752bf45885d123d8fa6057ca567684"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/blue_body_with_inverted_T_clip.step": {
+    "size_bytes": 23349830,
+    "sha256": "2476b4effd1174f9826055591b939c50a6562f1301ac589632b686b1a9070d2d"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/blue_body_with_inverted_T_clip.stl": {
+    "size_bytes": 5710284,
+    "sha256": "25ef47e610f69c4961084301eb9565d77c3f3b9ed041f18e1ee1f99229b1f156"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/clip_fit_coupon.step": {
+    "size_bytes": 29038,
+    "sha256": "7ce2787cc04cf3af6d333bb435d0ee78bea8e649e98145d27ad89fc5c7e22dbb"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/clip_fit_coupon.stl": {
+    "size_bytes": 1484,
+    "sha256": "79d18bb2eb112fde4a3060a4f13ca08f6e51f5824414ba5b443d98994fa8b041"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/footprint_2mm_gauge.step": {
+    "size_bytes": 53419,
+    "sha256": "b619196ff9416de54b7e25a90f1bcf825da6ca1083afbcdbfbd9acd47896daef"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/footprint_2mm_gauge.stl": {
+    "size_bytes": 33884,
+    "sha256": "4cc4ccba6933ddd9a2f40f4a3e300ddff705f1c40a3bc6e861096908e41d18b3"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/ivory_glue_logo.step": {
+    "size_bytes": 1440296,
+    "sha256": "6d857a7a023731ff49197148196e60a4402900509bba174ab08051ad97692f6f"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/ivory_glue_logo.stl": {
+    "size_bytes": 72284,
+    "sha256": "363d72c709f6aa091e412867abbffee55caa9c839ae39e5937d07f058b6ee4bc"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/ivory_logo_print_flat.step": {
+    "size_bytes": 1481577,
+    "sha256": "ab71ebd4ab69fb260c9f2eb788c69ad54cfbc265f1c6a14b1cad68350cf28dfd"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/ivory_logo_print_flat.stl": {
+    "size_bytes": 72284,
+    "sha256": "1dcef7ca2732ae16382cab4b23fd38d6037b270725ce597121e7ce8c52031db9"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/ivory_top_layers.step": {
+    "size_bytes": 48944,
+    "sha256": "62f4dfa0cd6133741497d2e79deba8e0b9292f9b193d9466acce192025abf8eb"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/ivory_top_layers.stl": {
+    "size_bytes": 52084,
+    "sha256": "5ca4b7c5392ef47c0e11ee2e61c57d4931a2db6e4023a1e8257ef9d719473fd8"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/whole_bowl_AMS.step": {
+    "size_bytes": 23346467,
+    "sha256": "a0aeab9af3fd99f95594ef3c197d23450ea4d599b7658b1e6324a35f4aaf539e"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 5710284,
+    "sha256": "5cd8807ba158e5a4eb949b3034ed537208a2ca8468dc9459905f711a323a3ce0"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/perspective.png": {
+    "size_bytes": 1375194,
+    "sha256": "3e208046596e7c17a21034bb6899278dd04d1665963e5c8e0cf09ed80c0da02a"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/print_helpers.py": {
+    "size_bytes": 841,
+    "sha256": "b912683ef9dd8cf551a4ec1b1e36f58f52fcb452094f63f6369fe2ccfcb6b0b1"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/remesh.py": {
+    "size_bytes": 312,
+    "sha256": "4eb8ccb5a2a793831e7f5cfba52a8ada6048222b31eb62fad5707923a3b88892"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/render.py": {
+    "size_bytes": 2121,
+    "sha256": "d48d6efbd3d3b02ade07233b01e74f314ef2621885d138b66db34fb232b6c973"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/side.png": {
+    "size_bytes": 750576,
+    "sha256": "4fb73105d853a59910039b87497e7489c9bb25a21a6648ce0ab9aafdcca14461"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/validate.py": {
+    "size_bytes": 500,
+    "sha256": "4d1cacad59679da66f026859dc9d3ec9615a9e976dc50c21062fcb63535cf3d3"
+  },
+  "releases/2026-11-14-inverted-t/LV/lv/validation.json": {
+    "size_bytes": 1849,
+    "sha256": "d4b4c714534fbd5fdabecdfa64ef571d9209d7a32f283c762acafaf3c0b09b40"
+  },
+  "releases/2026-11-14-inverted-t/packages/Chanel_Bowl_InvertedT_Complete_2026-11-15.zip": {
+    "size_bytes": 23941131,
+    "sha256": "d13e9ee1c12e02c55fc3833b2645ac5a4d4462e92c75d2349e15cde2a021e81e"
+  },
+  "releases/2026-11-14-inverted-t/packages/LV_Bowl_InvertedT_2026-11-14.zip": {
+    "size_bytes": 21276827,
+    "sha256": "4bcad32b38122538f21591233ba0b06af9ac2cf896d1eedea210e18570461d9a"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/LV_Dense4_30mm_Front.png": {
+    "size_bytes": 983380,
+    "sha256": "76ca4c37e6146d4c39f6208954eff3e5679f6ca69244a3202da3050af6bce449"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/LV_Dense4_30mm_Perspective.png": {
+    "size_bytes": 1873922,
+    "sha256": "7c5d5385bff1c4c244cb9a6414ebf280ef757d61ba9d5e00d6890f6a0f68b935"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/README_四类老花密排.txt": {
+    "size_bytes": 2104,
+    "sha256": "0f7cfc72e872570485b37ab5489835fb05a1eb5aa621b2ebb9d2d0bd1824f7dc"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/README.txt": {
+    "size_bytes": 1532,
+    "sha256": "9444dfbe8b4dfc1da8cd296ac34a1ae89be3965e6a62c386b8d6c2d637163494"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/build.py": {
+    "size_bytes": 4994,
+    "sha256": "9bd614419292f6d5a704821867d5bc439b5174008cffe3934f7b22ae03758189"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/chanel_bowl_assembly.step": {
+    "size_bytes": 11539181,
+    "sha256": "a8d572c2c07f243711cf13055e289e9cb285d2a5b2bdf13edba9a58922d3e4d5"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/finalize_meshes.py": {
+    "size_bytes": 591,
+    "sha256": "9b296bc7425f09e71223819360978b5ed630b3c2a837aa56c70662145c27e85a"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/manifest.json": {
+    "size_bytes": 594,
+    "sha256": "df868276762e007681e51f42695211c143327fb17c856652f51364e5c026ebf2"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parameters.json": {
+    "size_bytes": 246,
+    "sha256": "2c554d66bc87dba59c07339572ba76098b6234fefec5bb355a63675c7224e5d1"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/black_bottom_layers.step": {
+    "size_bytes": 2510948,
+    "sha256": "93fbf61a00f0312f7c75152c666e59ba0ccc803db5087fddbd4b5d709a320894"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/black_bottom_layers.stl": {
+    "size_bytes": 54784,
+    "sha256": "22be48185100ddf1908b71faa425df3f0adc9133baa9e170eefe04536f94ace0"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/black_glue_CC.step": {
+    "size_bytes": 6288960,
+    "sha256": "cb1f19d4704c75de3b7ad36de7f8d798b1293d431b28d050df68bc83cce23e58"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/black_glue_CC.stl": {
+    "size_bytes": 3850884,
+    "sha256": "f1df2cb14d8648e018bd65f98db93edb9de3fe84cd1918e64d8b70f58450caa8"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/black_glue_CC_print_flat.step": {
+    "size_bytes": 6801521,
+    "sha256": "ebe4fb909b537b80987558886880dd51438759c459109745807e6b8042e3c763"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/black_glue_CC_print_flat.stl": {
+    "size_bytes": 3849884,
+    "sha256": "b0857b66be8e51c19983432bddbf5c63a103e65e98ba382301b08f816122ba1f"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/black_top_layers.step": {
+    "size_bytes": 81790,
+    "sha256": "a6cd32000112242661cd9a84fdf02db42feb9d5fb89c058a836356051109e23c"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/black_top_layers.stl": {
+    "size_bytes": 22884,
+    "sha256": "499997b4ceda8cb16c6e32373b6552bf232aad3b567cc37df5143343cc9de11b"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/clip_fit_coupon.step": {
+    "size_bytes": 29038,
+    "sha256": "d7c65e0d5f8bac1093358e1600741f6e8d5f558a09f03a3ea16b91ef8b0b5820"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/clip_fit_coupon.stl": {
+    "size_bytes": 1484,
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/cream_body_inverted_clip.step": {
+    "size_bytes": 2512882,
+    "sha256": "167b927d8172324017c2c495a5f2c4613ae387ded7393b2df9830ff086c21959"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/cream_body_inverted_clip.stl": {
+    "size_bytes": 2311084,
+    "sha256": "a8fbebc90cc4f23814959457de15dc2bea2b9876402f906a7ecee53a14ecff0d"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/whole_bowl_AMS.step": {
+    "size_bytes": 2089280,
+    "sha256": "057b43c7a3226a1cdd7b766c8fa1040930e3f7b32b3b0890dd245d41d11a257c"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 2462184,
+    "sha256": "9b4af30fd7cefddaee099c0f2e503cb9c451043e94920a43ffce3082fc0f1f0c"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/perspective.png": {
+    "size_bytes": 2320474,
+    "sha256": "06e19244f3b18cf49822588070776eb9d72dfbafe8bff0606c394a173c059935"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/rear.png": {
+    "size_bytes": 2295299,
+    "sha256": "2ff4619fecbe819a7d7ef6373dfb912211bb84d4faf6df308e74507bfb5ca760"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/render.py": {
+    "size_bytes": 2122,
+    "sha256": "f9d950b8f27ea2a6524bb97a750ee4d837c0491ed65967670b8dac2c327e03fa"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/source/base_CC.step": {
+    "size_bytes": 4760826,
+    "sha256": "e606d6ac747cd195d4039a50d962851b350428b74534172549417e674702f928"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/surface_helpers.py": {
+    "size_bytes": 727,
+    "sha256": "a588657e1977fa8efc7f2bd761f2e2c1a189bb6632f751e71256671190f0f4fc"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/validate.py": {
+    "size_bytes": 545,
+    "sha256": "4c948f33887cde30370918c351dbdc4c3d9e1834586b7f6ca87e39e5122493e3"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel/validation.json": {
+    "size_bytes": 2902,
+    "sha256": "cf36beae2be7e7e95a782ffd1568cc3f7d83a1e89ef390180259c2891ee5eec8"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel_shared_context/README_30mm新版.txt": {
+    "size_bytes": 2526,
+    "sha256": "6a138806029a95e2fe2936eb4df22185c66f747bf126212280ca48cfc445ea84"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel_shared_context/material_estimate.json": {
+    "size_bytes": 1854,
+    "sha256": "c2d6d9f6896b821b77c20be787be3464b1d7f166a77dc0be8b3eed0e51ffc356"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/chanel_shared_context/validate.py": {
+    "size_bytes": 689,
+    "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/LV_Monogram.svg": {
+    "size_bytes": 3200,
+    "sha256": "fcdbedf42e66b75c7ec33d4544d253f6d0f8c2a8204f18be7086b54bcceca93a"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/bowl_30mm_assembly.step": {
+    "size_bytes": 13900055,
+    "sha256": "1c7aa23f5ff076356f91e3345aaeae13e0177c60f8c13822368a5bd1049bb5ed"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/build.py": {
+    "size_bytes": 6966,
+    "sha256": "3c9597ae789f38e90b9d31d97687552470f13e8bfc9a930a50fe20cc8a8b24aa"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/front.png": {
+    "size_bytes": 983380,
+    "sha256": "76ca4c37e6146d4c39f6208954eff3e5679f6ca69244a3202da3050af6bce449"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/manifest.json": {
+    "size_bytes": 577,
+    "sha256": "5b7e666b655b0817de38de3a31ff570327a5280c0deaeb2cc5eee8ca817d8c06"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parameters.json": {
+    "size_bytes": 407,
+    "sha256": "298da15f5ecc7cb79ba317ba94dbf987e70113516355ccf82b8866a3777e15b8"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/blue_middle_z2_28.step": {
+    "size_bytes": 12232294,
+    "sha256": "a1b5e9a0e74cc4943b3baa26efac993682d4eefee8903ad7a2e1777712f08bcb"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/blue_middle_z2_28.stl": {
+    "size_bytes": 10222184,
+    "sha256": "c9d5b8148d78b0f49173e11ae9f536cec5f0dd3d97a5b20042b01734322baf8d"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/clip_fit_coupon.step": {
+    "size_bytes": 29038,
+    "sha256": "2463c6a9f5dcc6f8e1c11c4cbb81676c3f4f17adb70f18df65f276e7642e887f"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/clip_fit_coupon.stl": {
+    "size_bytes": 1484,
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/ivory_bottom_z0_2.step": {
+    "size_bytes": 53734,
+    "sha256": "aa1e80d7fd290e2ed45cab41efb114eb00f19cd46d8ff8f09a901d5896ee17d7"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/ivory_bottom_z0_2.stl": {
+    "size_bytes": 33884,
+    "sha256": "ec940b06e8ae9e27785d9d8750cefbf87c23ca8593db3326adb24bd022b3ca60"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/ivory_glue_logo.step": {
+    "size_bytes": 1441498,
+    "sha256": "f327dfff75f4cd8c7dfe1db51aa6596c8943ae889c38e7404fc42c8b10117656"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/ivory_glue_logo.stl": {
+    "size_bytes": 72284,
+    "sha256": "9300e14382376d8037f05a11e8d93e36a513f44b1475022c1b693450098ba3bd"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/ivory_logo_print_flat.step": {
+    "size_bytes": 1485392,
+    "sha256": "95910e38a9af5520569ee9bcfb2d076fae97de9f3c6eda9d1f5d2b7a35f0a28d"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/ivory_logo_print_flat.stl": {
+    "size_bytes": 72284,
+    "sha256": "59baf3dc70d743af4d16f622501e65ee79dfa5511fd7cced502332822d3a8fa8"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/ivory_top_z28_30.step": {
+    "size_bytes": 63533,
+    "sha256": "b7e6fbd2e3db27ebe9a9fa04c3cc8d8bbccd413274b91004cd00450ce76f36f3"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/ivory_top_z28_30.stl": {
+    "size_bytes": 65684,
+    "sha256": "12882f8d2b6aca7c593980bcff15a5fe8a8753d01e3189e12a5cfcd66a2d4fb7"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/whole_bowl_AMS.step": {
+    "size_bytes": 12224874,
+    "sha256": "53b2e35cb3d6e8c036f7b07f9481580e432d240b86267ed44493c9aa52313bc6"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 10222184,
+    "sha256": "e13e2b27f77bbbd3f1ba0755a0dc1ff97e0d5573cefed96d1a31c076ebcd4d7e"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/pattern_layout.json": {
+    "size_bytes": 6642,
+    "sha256": "edbbac2267d4bd162996d3fc3a86b20ec8f2c6efc13b9c7f1d66fe4d919b2e71"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/perspective.png": {
+    "size_bytes": 1873922,
+    "sha256": "7c5d5385bff1c4c244cb9a6414ebf280ef757d61ba9d5e00d6890f6a0f68b935"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/render.py": {
+    "size_bytes": 2115,
+    "sha256": "33efb2fe0f0ed2b7921b1fb9ff50bed657772acc97bb8a1ac20914ded0151745"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/lv/validation.json": {
+    "size_bytes": 2674,
+    "sha256": "059ea902399b31d7109d29191ad060498e90ffe606ac70fb5413180708151161"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/material_estimate.json": {
+    "size_bytes": 751,
+    "sha256": "426058f1f8233c69ba6b397cf687cdaeb10bb56729afd66647dc73444d78248e"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/packages/LV_Bowl_30mm_Dense4_InvertedT_2026-11-15.zip": {
+    "size_bytes": 20802281,
+    "sha256": "82dfc8aafaae157185533eddcb7ee1f159ec4fa653aeb1239fcb1b00cbe42b0f"
+  },
+  "releases/2026-11-15-lv-30mm-dense4/validate.py": {
+    "size_bytes": 689,
+    "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/PRINT_README.txt": {
+    "size_bytes": 3535,
+    "sha256": "01ceb1e1b533db0098d1a856c321e340458a8fb0d84094735ec13288432e61fb"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/SHA256SUMS.txt": {
+    "size_bytes": 2958,
+    "sha256": "dc39f614a7469bf117fb3723e864beca427e4ae6f7b1f4aab5de89af54a5f994"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/SOURCE_LICENSE.md": {
+    "size_bytes": 1087,
+    "sha256": "42440773f5aa6d87ae512fad5f98aad716242dec294fa76af1c9ee0815b94519"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/approved_design.png": {
+    "size_bytes": 153862,
+    "sha256": "d8bc176bebf965021553f7e281cfa699079943130e6b01d54939b8c575e7d1f6"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/coverage_verification.json": {
+    "size_bytes": 593,
+    "sha256": "0a446234aa67b0858c8b27852888419ddd56aac99b299579797139401adbbe2e"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/approved_layout.json": {
+    "size_bytes": 1489,
+    "sha256": "4b90caabb7ae790ac3f2240c9d3c930f16f55541453f0e1ad63f2a0fbf7c088e"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/bowl_30mm_assembly.step": {
+    "size_bytes": 8545623,
+    "sha256": "7ced5043963e57963240332d8735d5de70dff5c25f3739524f5f4a4cdfacac71"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/build.py": {
+    "size_bytes": 5418,
+    "sha256": "ad22f58eb19d2b59c43e7d3a6eaa93ca51b1a8eb6198c54d4b8f7277ab145ad6"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/clip.png": {
+    "size_bytes": 2027459,
+    "sha256": "dc0e4e464d102fdac2b2757c1fd7b3ebf8cb3c59b9984c948dae66c982f6c24d"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/clip_checks.json": {
+    "size_bytes": 748,
+    "sha256": "97d0db2402e5a1ecc5707694346dd38d86ddae88e753d05b8f7583e27595dc2d"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/manifest.json": {
+    "size_bytes": 576,
+    "sha256": "d346b12f9f0351844d8a7d2513ebe3d6bcc412b11104d5553b0f3cb0ac4fe2f8"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/blue_middle_z2_28.step": {
+    "size_bytes": 8226039,
+    "sha256": "87be7721ffeddba76c4735a7700317eaca6edbf1bdc5d774017b7b0ada8b4c70"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/blue_middle_z2_28.stl": {
+    "size_bytes": 8458984,
+    "sha256": "6d29fc3cbb36c0f0e644a469a17e77770dc5b17dee714e81bbdde58593e9aed4"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/clip_fit_coupon.step": {
+    "size_bytes": 47293,
+    "sha256": "f105227c32973bcec1816b1cfc7897fc01017355cb34a9625bfcc0f58fe2ff02"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/clip_fit_coupon.stl": {
+    "size_bytes": 2684,
+    "sha256": "5df54458788482d144f161f0b87ce57b3902d371bbdd517b9902bf2a4978c091"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/ivory_bottom_z0_2.step": {
+    "size_bytes": 53734,
+    "sha256": "b88717ab7214fe1316486fc1e606240755c6f55b8e1a74f06008adac2b752cef"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/ivory_bottom_z0_2.stl": {
+    "size_bytes": 33884,
+    "sha256": "ec940b06e8ae9e27785d9d8750cefbf87c23ca8593db3326adb24bd022b3ca60"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/ivory_glue_logo.step": {
+    "size_bytes": 166740,
+    "sha256": "4d8c153bf313f049c3cbf8d6aec6dec3005de1cf2c96459f3103255f2a752194"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/ivory_glue_logo.stl": {
+    "size_bytes": 352384,
+    "sha256": "d2e686ffaee1690514c255b6dd9e82de5db58cfcd9d52d33752a76c4413d8ed6"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/ivory_logo_print_flat.step": {
+    "size_bytes": 173204,
+    "sha256": "cdd644d909359656d75b3b7c4d7b71cda1ce0e83eec3d590e4ccb473d5e3ef96"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/ivory_logo_print_flat.stl": {
+    "size_bytes": 352684,
+    "sha256": "eb544084a2bad95eafa734eb908de69018ae301fabc4de833d3fcb43033ea109"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/ivory_top_z28_30.step": {
+    "size_bytes": 63533,
+    "sha256": "f4f2917f3658d93cbc495bc429fd89013dc8fb83f5aaed72eae4cd549c248bf3"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/ivory_top_z28_30.stl": {
+    "size_bytes": 65684,
+    "sha256": "12882f8d2b6aca7c593980bcff15a5fe8a8753d01e3189e12a5cfcd66a2d4fb7"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/whole_bowl_AMS.step": {
+    "size_bytes": 8218673,
+    "sha256": "8a02f1c705d38872f5885db4ff844f09f1a6376d17624889990eac479d2c512d"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 8458984,
+    "sha256": "ea6dd526ac3ab4638e192bb63dd4e6707e6dd4fc446478f720d98a96e38cc685"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/pattern_layout.json": {
+    "size_bytes": 3870,
+    "sha256": "38cd814f007ca81330bf279dd3cf1122fcf477467f421c6ba6d11e42d33f6877"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/rear.png": {
+    "size_bytes": 1810960,
+    "sha256": "ead8a4b19dcf7d85658f56e71460fab649324af976377e66b574e1c8738e0711"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/render.py": {
+    "size_bytes": 2134,
+    "sha256": "ddc2c06a8420f34a088dcd81382f1141f73adf104243e371f995e0c6671aaf21"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/source.ai": {
+    "size_bytes": 1070672,
+    "sha256": "eda50631aeb5c9f3817a9da713523815a6069bd724d2448c37abbe619f09c4aa"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/topology_checks.json": {
+    "size_bytes": 1017,
+    "sha256": "63749466c96d1a9e5458cdc7d813f8943a84acfcd71d022e82c078c1eff63f87"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/validation.json": {
+    "size_bytes": 2688,
+    "sha256": "7ed9a77a0892b2b059d2a266c029529ac60daa3bc4c5701ca7f8992e4d380866"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/lv/vector_shapes.py": {
+    "size_bytes": 2432,
+    "sha256": "051510d7da2713b90ccce732fd41ee1d997e6c6d39fa05219020c15e684e4743"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/validate.py": {
+    "size_bytes": 689,
+    "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Candidate_Raised_Hollow_Clip/打印说明.txt": {
+    "size_bytes": 2532,
+    "sha256": "c685bff68d0c43e49b3f1b56f4cb57f3802f29a48cbe19957e7662125e43881a"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/PRINT_README.txt": {
+    "size_bytes": 3161,
+    "sha256": "e5e3ea53b7924d85822beaef99e5862b6acc52e8e58c05489e0c34bd847d87c7"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/SHA256SUMS.txt": {
+    "size_bytes": 3114,
+    "sha256": "f5859043d8321345159c2e2536787b4c02800fd011da2acd28fdd9294499b61b"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/SOURCE_LICENSE.md": {
+    "size_bytes": 1087,
+    "sha256": "42440773f5aa6d87ae512fad5f98aad716242dec294fa76af1c9ee0815b94519"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/approved_design.png": {
+    "size_bytes": 153862,
+    "sha256": "d8bc176bebf965021553f7e281cfa699079943130e6b01d54939b8c575e7d1f6"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/coverage_verification.json": {
+    "size_bytes": 462,
+    "sha256": "ff82ff414151a7d2733954563983b03f3dae3e568a4893c49f45bb85f466e02b"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/approved_layout.json": {
+    "size_bytes": 1489,
+    "sha256": "4b90caabb7ae790ac3f2240c9d3c930f16f55541453f0e1ad63f2a0fbf7c088e"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/bowl_30mm_assembly.step": {
+    "size_bytes": 8525400,
+    "sha256": "90354c1264be3cf2af53221911971fd9522ca650400f88679b1561ef3680a58b"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/build.py": {
+    "size_bytes": 5090,
+    "sha256": "f3186550a4b519c44f017983bfdb09e94642221555982a95658d7df7d99c06c7"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/front.png": {
+    "size_bytes": 921282,
+    "sha256": "7f54bb60d6096d767b10f807a23863b207e9185d02aea23e41871a0e34db0897"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/left.png": {
+    "size_bytes": 927180,
+    "sha256": "83e808a326e70cb2525acf95e75f7f8a740d0368070d2ead04b6dd5e280cb94e"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/manifest.json": {
+    "size_bytes": 576,
+    "sha256": "9976ef5d3071120e85d532ee35a341081d18e46670e36104b9d1968dfdab5e21"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/blue_middle_z2_28.step": {
+    "size_bytes": 8205820,
+    "sha256": "57e6f1bbf6ecab4ca5190dc4ac47fb33ffb04ff12f474ec99662d4d8f6e46b0e"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/blue_middle_z2_28.stl": {
+    "size_bytes": 8457984,
+    "sha256": "dedf46164a4283b9eb71328e47e42e0ffb5ee3e217d854238c8676b53a538ac6"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/clip_fit_coupon.step": {
+    "size_bytes": 29038,
+    "sha256": "d2b6cee43cfa5caa86493f6c19de3c5c8687262f8ce6aaec04a70ea5741664ca"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/clip_fit_coupon.stl": {
+    "size_bytes": 1484,
+    "sha256": "5e154d6a051e439141ae1003057696b1c00cbf619f9836bde7239fc28e3fd7fa"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/ivory_bottom_z0_2.step": {
+    "size_bytes": 53734,
+    "sha256": "453c7fecd05a5ae18a13b6f327c55b8259b303ac888007757168aae3b9a4322c"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/ivory_bottom_z0_2.stl": {
+    "size_bytes": 33884,
+    "sha256": "ec940b06e8ae9e27785d9d8750cefbf87c23ca8593db3326adb24bd022b3ca60"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/ivory_glue_logo.step": {
+    "size_bytes": 166740,
+    "sha256": "b223863d5e1f34f0492c058ce7a4019ccb7c6c4509fd306104ee52c7da6e57b6"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/ivory_glue_logo.stl": {
+    "size_bytes": 352384,
+    "sha256": "d2e686ffaee1690514c255b6dd9e82de5db58cfcd9d52d33752a76c4413d8ed6"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/ivory_logo_print_flat.step": {
+    "size_bytes": 173204,
+    "sha256": "ab5d75d78996a420b17c735cb0bfc3658e6fc18a9973faa23a9c534f1d13d32d"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/ivory_logo_print_flat.stl": {
+    "size_bytes": 352684,
+    "sha256": "eb544084a2bad95eafa734eb908de69018ae301fabc4de833d3fcb43033ea109"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/ivory_top_z28_30.step": {
+    "size_bytes": 63533,
+    "sha256": "a314d13cbcc112b3f7d0f8e858c191832016a6021e508592fe04643dcee7d6e5"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/ivory_top_z28_30.stl": {
+    "size_bytes": 65684,
+    "sha256": "12882f8d2b6aca7c593980bcff15a5fe8a8753d01e3189e12a5cfcd66a2d4fb7"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/whole_bowl_AMS.step": {
+    "size_bytes": 8198418,
+    "sha256": "0079599b17f9eb3e15627ac942cf71c9aac3a5829f26981d0b400b183244110a"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/parts/whole_bowl_AMS.stl": {
+    "size_bytes": 8457984,
+    "sha256": "e8712faff650e70d637e0c99ec8915f7c35fa5e4167b61529ea8130e121c35c8"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/pattern_layout.json": {
+    "size_bytes": 3870,
+    "sha256": "38cd814f007ca81330bf279dd3cf1122fcf477467f421c6ba6d11e42d33f6877"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/perspective.png": {
+    "size_bytes": 1635908,
+    "sha256": "14c59c67e57bac1b0c72d42953f5525d2a5235c1c2fddf93fa2b9d35b1a6926c"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/rear.png": {
+    "size_bytes": 1672064,
+    "sha256": "548be69d81c468f1e9da0ce150793d8cc4dc598014a8a8483c307439d44a0451"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/render.py": {
+    "size_bytes": 2135,
+    "sha256": "142e15ff53d7cc36bfbc2bf04a8c2e70d8a8520cf2df7b8944ae618cf526731a"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/side.png": {
+    "size_bytes": 931287,
+    "sha256": "d79d3ce1f10f8a0444fa9722f67a99d35639fcee30370855924c02fb70e6602c"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/source.ai": {
+    "size_bytes": 1070672,
+    "sha256": "eda50631aeb5c9f3817a9da713523815a6069bd724d2448c37abbe619f09c4aa"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/topology_checks.json": {
+    "size_bytes": 1017,
+    "sha256": "fcdbd1ffc2023d5427f2260b74488a6afd6be4dd6ad912b151308c247568502e"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/validation.json": {
+    "size_bytes": 2674,
+    "sha256": "1249f588447606c279c10fe95a3e603e4ec79032b4cf7fa1923759d37bbdc8ac"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/lv/vector_shapes.py": {
+    "size_bytes": 2432,
+    "sha256": "051510d7da2713b90ccce732fd41ee1d997e6c6d39fa05219020c15e684e4743"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/validate.py": {
+    "size_bytes": 689,
+    "sha256": "7c6ed9dda09e8438ff1e15240131b27b50a0d9e17cfd0df104f7bbb915e4a26b"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/Original_Clip_Full_Sides/打印说明.txt": {
+    "size_bytes": 2131,
+    "sha256": "1d1e440fcd65510e9aad0038fd5b22a80b494cfd15f3d70ed7441c3777a17714"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/packages/LV_Bowl_FullSides_ClipOptions_2026-11-16.zip": {
+    "size_bytes": 37395790,
+    "sha256": "fcd74cf9efb98786c99caea6a4fb7267b572d0bafe97aa6108079252d6c32527"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/slicing_diagnostic/README.txt": {
+    "size_bytes": 576,
+    "sha256": "c0d881e636c2a604f3caef1e8b7ca3a32652d77f5c48c7fd6a6ddbb8d4c68231"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/slicing_diagnostic/clip_fit_coupon_result.json": {
+    "size_bytes": 3175,
+    "sha256": "c7a5a385c3b6c8df54b196d0e5348edaa52a4e78d6d20265c7cdd60a6e8f839a"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/slicing_diagnostic/whole_bowl_AMS_result.json": {
+    "size_bytes": 3242,
+    "sha256": "804a26cae9f090731d236bba36bb06bf5ef0ba42af7eac1c7fc403504d27fb6c"
+  },
+  "releases/2026-11-16-lv-full-sides-clip-options/请先读_版本选择.txt": {
+    "size_bytes": 1154,
+    "sha256": "204878e0050a6f764478af60ae4d785c6e14e03d8e4fef7035cdf0ce1dea36b8"
+  },
+  "assets/approved-vector-two-row-design/approved_design.png": {
+    "size_bytes": 153862,
+    "sha256": "d8bc176bebf965021553f7e281cfa699079943130e6b01d54939b8c575e7d1f6"
+  },
+  "assets/outline-fit-samples-2mm/models/Chanel_outline_2mm.step": {
+    "size_bytes": 6220234,
+    "sha256": "aea8f5a41df68f706b68d294df28ff1e6da05567e28a0d74f9f4dd6e4b4a8d16"
+  },
+  "assets/outline-fit-samples-2mm/models/Chanel_outline_2mm.stl": {
+    "size_bytes": 230584,
+    "sha256": "77d0368be2fef0ae943a9093e4ee98c886e9e1caad80376a22e1c6238e41204b"
+  },
+  "assets/outline-fit-samples-2mm/models/LV_outline_2mm.step": {
+    "size_bytes": 92030,
+    "sha256": "7073aacbeb9f5e67bea515dcfa89ee7a57e4129cf0a959e7fbad3dfccbf76f40"
+  },
+  "assets/outline-fit-samples-2mm/models/LV_outline_2mm.stl": {
+    "size_bytes": 67484,
+    "sha256": "0a5ae38d1d7f35d6feff0d555e46d151c76da7266008914816f08fe73916800f"
+  },
+  "assets/outline-fit-samples-2mm/models/build_frames.py": {
+    "size_bytes": 1320,
+    "sha256": "8440440e304bcb505fac21115152eb7cebf48916dfd728d1b306f821d6be093c"
+  },
+  "assets/outline-fit-samples-2mm/models/validation.json": {
+    "size_bytes": 1087,
+    "sha256": "7b64ff236a4d7188edaebdbb56e79bc15742cef912df6bbfa4f7b08884105755"
+  },
+  "assets/outline-fit-samples-2mm/models/先打印这个_边框小样.txt": {
+    "size_bytes": 904,
+    "sha256": "c44dcfe0bfbcae266bdc588397ed4a3c4fb2e001c3ab2dea9ce2b2b855662e09"
+  },
+  "assets/outline-fit-samples-2mm/packages/Bowl_Outline_Frames_2mm_2026-11-15.zip": {
+    "size_bytes": 1401680,
+    "sha256": "3d8930f4a3ee2f2216ab29588fc5829655f9365eb87394f8961785ec0a3c2285"
+  }
+}

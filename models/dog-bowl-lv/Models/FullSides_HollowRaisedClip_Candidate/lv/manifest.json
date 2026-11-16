@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ivory_bottom_z0_2",
+    "file": "parts/ivory_bottom_z0_2.stl",
+    "color": "#f2e0c4",
+    "volume_mm3": 42149.25491280442
+  },
+  {
+    "name": "blue_middle_z2_28",
+    "file": "parts/blue_middle_z2_28.stl",
+    "color": "#afcddd",
+    "volume_mm3": 91888.66058136204
+  },
+  {
+    "name": "ivory_top_z28_30",
+    "file": "parts/ivory_top_z28_30.stl",
+    "color": "#f2e0c4",
+    "volume_mm3": 3805.365529865223
+  },
+  {
+    "name": "ivory_glue_logo",
+    "file": "parts/ivory_glue_logo.stl",
+    "color": "#f2e0c4",
+    "volume_mm3": 322.7777838191038
+  }
+]

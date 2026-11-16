@@ -1,0 +1,9 @@
+{
+ "units":"mm", "nominal_bowl_width":160, "nominal_bowl_depth":145, "height":85,
+ "wall":3.2,"base":4,"ivory_top_height":6,
+ "clip_width":70,"clip_height":30,"clip_depth":8.5,
+ "clip_bar_height":8.5,"clip_neck_width":18,"clip_gap_from_back":3,
+ "clip_z_min":0,
+ "source":"70 x 30 x 8.5 tongue envelope from owner; other dimensions and gap provisional",
+ "rebuild":"build.py, then remesh.py, then print_helpers.py; parameters are defined at top of build.py"
+}
