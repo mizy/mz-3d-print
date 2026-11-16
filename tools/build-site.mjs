@@ -77,6 +77,7 @@ const card = (m) => {
   </a>
   <div class="body">
     <h2>${m.title}</h2>
+    ${m.release ? `<p class="rel"><a href="${m.release}">⬇ 完整工程 / 大文件（Release 资产）</a></p>` : ""}
     <p class="meta"><span class="badge ${m.cls}">${CLS_LABEL[m.cls] ?? m.cls}</span> ${m.category} · ${m.id} · ${human(m.bytes)}</p>
     ${m.summary ? `<p class="sum">${m.summary}</p>` : ""}
     <ul class="files">
@@ -137,6 +138,9 @@ const html = `<!doctype html>
   .badge.derived{background:rgba(224,176,98,.14);color:var(--warn);border:1px solid rgba(224,176,98,.35)}
   .badge.tool{background:rgba(139,147,167,.14);color:var(--dim);border:1px solid var(--line)}
   .sum{margin:0;color:#b9c0d0;font-size:13.5px}
+  .rel{margin:0}
+  .rel a{display:inline-block;background:rgba(122,208,161,.12);border:1px solid rgba(122,208,161,.4);color:var(--acc);text-decoration:none;border-radius:8px;padding:6px 10px;font-size:13px}
+  .rel a:hover{background:rgba(122,208,161,.2)}
   .files{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
   .files li{display:flex;justify-content:space-between;gap:10px;font-size:13px;border-bottom:1px dashed rgba(255,255,255,.05);padding:3px 0}
   .files a{color:var(--acc);text-decoration:none;word-break:break-all}
