@@ -2119,47 +2119,6 @@
     "bytes": 3878052
   },
   {
-    "id": "mark",
-    "title": "「苗壯」maker's mark 凹刻印章刀具",
-    "category": "其他",
-    "status": "design",
-    "cls": "original",
-    "summary": null,
-    "cover": "mark-miao-zhuang/seal-mark.png",
-    "gallery": [
-      "seal-mark.png"
-    ],
-    "dir": "mark-miao-zhuang",
-    "files": [
-      {
-        "rel": "README.md",
-        "size": 3279,
-        "url": "models/mark-miao-zhuang/README.md"
-      },
-      {
-        "rel": "seal-mark.png",
-        "size": 11291,
-        "url": "models/mark-miao-zhuang/seal-mark.png"
-      },
-      {
-        "rel": "seal-raw.png",
-        "size": 199400,
-        "url": "models/mark-miao-zhuang/seal-raw.png"
-      },
-      {
-        "rel": "seal-tool-16mm.pre-20261112.stl",
-        "size": 102484,
-        "url": "models/mark-miao-zhuang/seal-tool-16mm.pre-20261112.stl"
-      },
-      {
-        "rel": "seal-tool-16mm.stl",
-        "size": 103884,
-        "url": "models/mark-miao-zhuang/seal-tool-16mm.stl"
-      }
-    ],
-    "bytes": 420338
-  },
-  {
     "id": "mark-variants",
     "title": "「苗壮」mark 三变体（含源上传件）",
     "category": "其他",
