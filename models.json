@@ -550,7 +550,7 @@
     "category": "宠物用品 / 狗碗",
     "status": "design",
     "cls": "derived",
-    "summary": "当前唯一STEP：完整碗3实体与独立榫卯Logo，共4可选实体、2种显示颜色。用户自行摆盘切片；Logo可上滑拆卸，未实体试配和承重验证。",
+    "summary": "当前唯一STEP：完整碗3实体与独立榫卯Logo，共4可选实体、2色；外碗底凹刻个人芽＋立方体标志和「苗壮」。自行摆盘切片，未实体试配和承重验证。",
     "cover": "dog-bowl-lv/Design/current-exterior.png",
     "downloadGroups": [
       {
@@ -583,6 +583,11 @@
         "rel": "Design/back--9d02c63128.png",
         "size": 762318,
         "url": "models/dog-bowl-lv/Design/back--9d02c63128.png"
+      },
+      {
+        "rel": "Design/bottom-personal-mark.png",
+        "size": 24447,
+        "url": "models/dog-bowl-lv/Design/bottom-personal-mark.png"
       },
       {
         "rel": "Design/chanel_front--741fde7bf7.png",
@@ -796,7 +801,7 @@
       },
       {
         "rel": "Models/LV_bowl_and_logo.step",
-        "size": 9072430,
+        "size": 11053985,
         "url": "models/dog-bowl-lv/Models/LV_bowl_and_logo.step"
       },
       {
@@ -880,6 +885,16 @@
         "url": "models/dog-bowl-lv/Notes/approved_layout--4b90caabb7.json"
       },
       {
+        "rel": "Notes/bottom-personal-mark-validation.json",
+        "size": 777,
+        "url": "models/dog-bowl-lv/Notes/bottom-personal-mark-validation.json"
+      },
+      {
+        "rel": "Notes/bottom-personal-mark.md",
+        "size": 1926,
+        "url": "models/dog-bowl-lv/Notes/bottom-personal-mark.md"
+      },
+      {
         "rel": "Notes/bowl_result--384b2b6d5b.json",
         "size": 3242,
         "url": "models/dog-bowl-lv/Notes/bowl_result--384b2b6d5b.json"
@@ -961,7 +976,7 @@
       },
       {
         "rel": "Notes/current-model.txt",
-        "size": 918,
+        "size": 1143,
         "url": "models/dog-bowl-lv/Notes/current-model.txt"
       },
       {
@@ -1170,6 +1185,11 @@
         "url": "models/dog-bowl-lv/Source/LV_Monogram--fcdbedf42e.svg"
       },
       {
+        "rel": "Source/add-bottom-personal-mark.py",
+        "size": 3379,
+        "url": "models/dog-bowl-lv/Source/add-bottom-personal-mark.py"
+      },
+      {
         "rel": "Source/audit_caps--9863a58a8a.py",
         "size": 659,
         "url": "models/dog-bowl-lv/Source/audit_caps--9863a58a8a.py"
@@ -1370,7 +1390,7 @@
         "url": "models/dog-bowl-lv/Source/voxel_fuse--4f229288e3.py"
       }
     ],
-    "bytes": 76459049
+    "bytes": 78471358
   },
   {
     "id": "idea-003",

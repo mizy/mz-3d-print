@@ -1,0 +1,20 @@
+{
+  "source_step": "/Users/miaozhuang/projects/mz-3d-print/models/dog-bowl-lv/Models/LV_bowl_and_logo.step",
+  "source_sha256": "d6eb6118b3cb6f52cc3a9edb3cace0872a755d7aa248616027ec124f788f0554",
+  "personal_vector": "/Users/miaozhuang/projects/mz-3d-print/models/mark-miaozhuang-three-variants/miaozhuang-logo.svg",
+  "name": "苗壮",
+  "engraving_depth_mm": 0.4,
+  "logo_width_mm": 24,
+  "logo_height_mm": 32.08355091383812,
+  "font_size_mm": 9,
+  "minimum_remaining_bottom_thickness_mm": 1.6,
+  "solids": 4,
+  "all_valid": true,
+  "removed_volume_mm3": 162.7450699280962,
+  "unchanged_other_solid_volumes_mm3": [
+    91858.5115548504,
+    3805.365529865293,
+    338.30740153766277
+  ],
+  "output_sha256": "c195a34dd31a33cd06ea40e52270bef6cde7d6d5a498df8fe5fc3532e5206f61"
+}
