@@ -2879,9 +2879,9 @@
     "status": "done",
     "cls": "original",
     "summary": "挂在 SKADIS 5×15mm 长圆孔上，孔距 40mm，不打孔；底盘有前后挡边，放手办/盲盒不滑出",
-    "cover": "idea-028-cloud-shelf-skadis/preview/cover-colored.png",
+    "cover": "idea-028-cloud-shelf-skadis/preview/cover-photo.png",
     "gallery": [
-      "preview/cover-colored.png"
+      "preview/cover-photo.png"
     ],
     "dir": "idea-028-cloud-shelf-skadis",
     "files": [
@@ -3006,12 +3006,17 @@
         "url": "models/idea-028-cloud-shelf-skadis/preview/cover-colored.png"
       },
       {
+        "rel": "preview/cover-photo.png",
+        "size": 620603,
+        "url": "models/idea-028-cloud-shelf-skadis/preview/cover-photo.png"
+      },
+      {
         "rel": "preview/cover-views.png",
         "size": 131797,
         "url": "models/idea-028-cloud-shelf-skadis/preview/cover-views.png"
       }
     ],
-    "bytes": 3258000
+    "bytes": 3878603
   },
   {
     "id": "mark",
