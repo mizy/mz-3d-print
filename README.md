@@ -39,6 +39,13 @@
     └── build-site.mjs     # 扫描 models/*/MODEL.json → 生成 index.html + models.json
 ```
 
+## 什么进库、什么不进（2026-11-16 清理后的规则）
+
+- **进库**：可直接下载去打的成品（**3mf 优先**，内含打印设置）、一份预览图、建模脚本 / `MODEL.json` / 设计说明。
+- **不进库**：中间迭代版本（`-v2`…`-vN`、`superseded/`）、`.sliced.3mf` / `.gcode.3mf` 切片副本、与 3mf 同名的重复 STL、打包 zip、原始上传压缩包、大体积中间产物。
+- 目前按这条规则清掉了 **178 MB / 55 项**冗余（重复 STL、旧版本、切片副本、重复浮雕副本、上传 zip）。
+- 需要大 STL 或历史版本时，看 git 历史（`git log --follow <file>`）或 Release。
+
 ## 下载方式
 
 1. **手机**：打开 <https://mizy.github.io/mz-3d-print/>，点模型卡片里的文件名即可下载。
