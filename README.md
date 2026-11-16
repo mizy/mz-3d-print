@@ -1,7 +1,7 @@
 # 苗壮的 3D 打印模型库
 
 打印机：**Bambu Lab P1S**（AMS 四槽）。这里放我实际打过、改过、或为打印而设计的东西，全部可以直接下载 STL / 3MF。
-3MF 里带着完整的打印设置（层高、支撑、摆盘），下载后丢进 Bambu Studio 就能切片。
+部分 3MF 包含打印设置（层高、支撑、摆盘），是否可直接切片须以各项目说明和验证状态为准，不能仅凭扩展名判断。LV / Chanel 狗碗目前属于设计阶段，尚未完成切片、卡扣实配与承重验收；历史实验和旧 G-code 不应直接打印。
 
 **索引页（手机直接开）：https://mizy.github.io/mz-3d-print/**
 
@@ -46,11 +46,15 @@
 - 目前按这条规则清掉了 **178 MB / 55 项**冗余（重复 STL、旧版本、切片副本、重复浮雕副本、上传 zip）。
 - 需要大 STL 或历史版本时，看 git 历史（`git log --follow <file>`）或 Release。
 
+### 狗碗设计档案例外
+
+按项目要求，`models/dog-bowl-lv/`、`models/dog-bowl-chanel/` 及 `projects/dog-bow/Shared/` 保留设计图、文档、试错记录及历史工程，不受上面的通用清理规则影响。`Models/` 是当前模型入口，`DesignProcess/` / `Documentation/` 是设计档案。大二进制通过 Git LFS 保存，历史不等于打印成品。
+
 ## 下载方式
 
 1. **手机**：打开 <https://mizy.github.io/mz-3d-print/>，点模型卡片里的文件名即可下载。
-2. **桌面**：`git clone` 后直接用 `models/` 里的文件；或同样点索引页链接。
-3. **超大工程**（单文件 > 40 MB，GitHub 不收进仓库）：放在 [Releases](../../releases) 里，索引页/README 会指过去。
+2. **桌面**：安装 Git LFS 后运行 `git clone` 和 `git lfs pull`，再使用 `models/` 里的文件；或点索引页链接。未拉取 LFS 时看到的小文本是指针，不是模型。
+3. **大工程**：既有项目可使用 [Releases](../../releases)；狗碗大文件使用 Git LFS，索引页链接直接下载真实内容。40 MB 是既有项目的维护策略，不是 GitHub 的文件硬限制。
 
 ## 加一个新模型（维护流程）
 
