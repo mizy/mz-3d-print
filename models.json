@@ -904,7 +904,7 @@
       {
         "prefix": "Models/FullSides_HollowRaisedClip_Candidate/",
         "label": "加高镂空卡扣 · 候选方案",
-        "note": "两侧加高、中间减重；先打印本组卡扣小样。不得与原卡扣部件混用，实配与承重未验收。"
+        "note": "两侧加高、中间减重；含两盘3MF（CLI读取通过，未GUI目视/切片/实配验收）。先打印本组小样，不得与原卡扣部件混用。"
       },
       {
         "prefix": "Models/FullSides_OriginalClip/",
@@ -1965,6 +1965,16 @@
         "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/PRINT_README.txt"
       },
       {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/PrintProject/LV_P1S_2plates.3mf",
+        "size": 2358741,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/PrintProject/LV_P1S_2plates.3mf"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/PrintProject/README.md",
+        "size": 761,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/PrintProject/README.md"
+      },
+      {
         "rel": "Models/FullSides_HollowRaisedClip_Candidate/SHA256SUMS.txt",
         "size": 2958,
         "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/SHA256SUMS.txt"
@@ -2315,7 +2325,7 @@
         "url": "models/dog-bowl-lv/README.md"
       }
     ],
-    "bytes": 746887555
+    "bytes": 749247057
   },
   {
     "id": "idea-003",

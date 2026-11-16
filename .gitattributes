@@ -22,3 +22,5 @@ projects/dog-bow/**/*.blend1 filter=lfs diff=lfs merge=lfs -text
 projects/dog-bow/**/*.zip filter=lfs diff=lfs merge=lfs -text
 projects/dog-bow/**/*.gcode filter=lfs diff=lfs merge=lfs -text
 projects/dog-bow/**/*.ai filter=lfs diff=lfs merge=lfs -text
+
+models/dog-bowl-lv/**/*.3mf filter=lfs diff=lfs merge=lfs -text
