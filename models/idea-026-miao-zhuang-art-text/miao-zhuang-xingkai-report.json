@@ -1,0 +1,27 @@
+{
+  "text_w": 122.99,
+  "text_h": 61.32,
+  "plate_w": 134.99,
+  "plate_h": 73.32,
+  "font": "xingkai",
+  "kind": "牌面",
+  "stroke_mm": {
+    "p10": 3.25,
+    "min": 0.25,
+    "median": 9.75
+  },
+  "stl": "miao-zhuang-xingkai.stl",
+  "3mf": "miao-zhuang-xingkai.3mf",
+  "size": [
+    134.99,
+    73.32,
+    9.0
+  ],
+  "min_corner": [
+    -67.5,
+    -36.66,
+    -0.0
+  ],
+  "volume_mm3": 45348.2,
+  "solids": 1
+}

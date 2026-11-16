@@ -1,0 +1,79 @@
+{
+  "font": "baoli",
+  "label": "报隶",
+  "kind": "分体立体字",
+  "text": "苗壮",
+  "gap_mm": 8.0,
+  "chars": [
+    {
+      "name": "苗",
+      "size": [
+        75.7,
+        47.07,
+        10.0
+      ],
+      "volume_mm3": 14980.5,
+      "solids": 1,
+      "chamfer": "跳过（字形尖角多，倒角会崩）",
+      "bridges_internal": 1,
+      "stroke_mm": {
+        "p10": 7.75,
+        "min": 0.25,
+        "median": 9.25
+      },
+      "stl": "miao-zhuang-sep-baoli-1miao.stl",
+      "3mf": "miao-zhuang-sep-baoli-1miao.3mf",
+      "mesh_failures": [],
+      "print_notes": [
+        "朝下面占比 0.00%",
+        "75.7×47.1×10.0 mm"
+      ]
+    },
+    {
+      "name": "壮",
+      "size": [
+        73.25,
+        46.73,
+        10.0
+      ],
+      "volume_mm3": 12165.7,
+      "solids": 1,
+      "chamfer": 0.28,
+      "bridges_internal": 1,
+      "stroke_mm": {
+        "p10": 6.75,
+        "min": 0.25,
+        "median": 10.5
+      },
+      "stl": "miao-zhuang-sep-baoli-2zhuang.stl",
+      "3mf": "miao-zhuang-sep-baoli-2zhuang.3mf",
+      "mesh_failures": [],
+      "print_notes": [
+        "朝下面占比 0.00%",
+        "73.2×46.7×10.0 mm"
+      ]
+    }
+  ],
+  "plate": {
+    "3mf": "miao-zhuang-sep-baoli-plate.3mf",
+    "size": [
+      156.95,
+      47.64,
+      10.0
+    ],
+    "min_corner": [
+      -78.47,
+      -23.82,
+      0.0
+    ]
+  },
+  "plate_3mf_failures": [],
+  "slice": {
+    "ok": true,
+    "print_time_s": 2832,
+    "filament_g": 17.36,
+    "warnings": [],
+    "printer": "P1S",
+    "quality": null
+  }
+}

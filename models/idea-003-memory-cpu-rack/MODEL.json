@@ -1,0 +1,10 @@
+{
+  "id": "idea-003",
+  "title": "内存条 + CPU 展示架",
+  "category": "展示收纳",
+  "status": "design",
+  "cls": "original",
+  "summary": "展示用过的内存条与 CPU，像收藏陈列一样摆出来；内存条靠基板边缘承托，绝不夹压金手指；CPU 四边托住基板，中心悬空不碰针脚",
+  "dir": "idea-003-memory-cpu-rack",
+  "bytes": 87875903
+}

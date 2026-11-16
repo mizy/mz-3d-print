@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>苗壮的 3D 打印模型库</title>
+<meta name="description" content="3D 打印模型与改造件索引：原创设计、改造件与参数记录，直接下载 STL / 3MF。">
+<style>
+  :root{--bg:#0f1115;--fg:#e6e8ee;--dim:#8b93a7;--card:#171a21;--line:#252a35;--acc:#7ad0a1;--warn:#e0b062}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif}
+  header{padding:34px 20px 18px;border-bottom:1px solid var(--line)}
+  h1{margin:0 0 6px;font-size:22px}
+  .lead{margin:0;color:var(--dim);max-width:760px}
+  .lead b{color:var(--acc)}
+  .bar{position:sticky;top:0;z-index:5;background:rgba(15,17,21,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:10px 20px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  input{flex:1 1 240px;min-width:180px;background:#101318;border:1px solid var(--line);color:var(--fg);border-radius:8px;padding:9px 12px;font-size:14px}
+  .filters button{background:#101318;border:1px solid var(--line);color:var(--dim);border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer}
+  .filters button[aria-pressed="true"]{border-color:var(--acc);color:var(--acc)}
+  main{padding:20px;display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));max-width:1400px;margin:0 auto}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+  .thumb{display:block;aspect-ratio:16/10;background:#0b0d11;overflow:hidden}
+  .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+  .noimg{display:flex;align-items:center;justify-content:center;height:100%;color:var(--dim);font-size:13px}
+  .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px}
+  h2{margin:0;font-size:16px;line-height:1.35}
+  .meta{margin:0;color:var(--dim);font-size:12.5px}
+  .badge{display:inline-block;border-radius:6px;padding:1px 6px;font-size:12px;margin-right:4px}
+  .badge.original{background:rgba(122,208,161,.16);color:var(--acc);border:1px solid rgba(122,208,161,.35)}
+  .badge.derived{background:rgba(224,176,98,.14);color:var(--warn);border:1px solid rgba(224,176,98,.35)}
+  .badge.tool{background:rgba(139,147,167,.14);color:var(--dim);border:1px solid var(--line)}
+  .sum{margin:0;color:#b9c0d0;font-size:13.5px}
+  .files{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+  .files li{display:flex;justify-content:space-between;gap:10px;font-size:13px;border-bottom:1px dashed rgba(255,255,255,.05);padding:3px 0}
+  .files a{color:var(--acc);text-decoration:none;word-break:break-all}
+  .files a:hover{text-decoration:underline}
+  .files span{color:var(--dim);white-space:nowrap;font-size:12px}
+  .files.dim a{color:#9aa3b6}
+  details summary{cursor:pointer;color:var(--dim);font-size:12.5px}
+  footer{padding:26px 20px 60px;color:var(--dim);font-size:12.5px;border-top:1px solid var(--line);margin-top:20px}
+  footer a{color:#9aa3b6}
+  .empty{grid-column:1/-1;color:var(--dim);text-align:center;padding:40px}
+</style>
+</head>
+<body>
+<header>
+  <h1>苗壮的 3D 打印模型库</h1>
+  <p class="lead">这里放我打过的 3D 打印件：<b>原创设计</b>、<b>改造件</b>（第三方或 AI 网格 + 我们自己的分件/支撑/朝向处理）、以及参数记录。
+  <b>不是全部原创</b>——每个模型都标了来源类别，明细见 <a href="README.md" style="color:#9aa3b6">README</a>。点文件名直接下载，3MF 里已带打印设置。</p>
+</header>
+<div class="bar">
+  <input id="q" type="search" placeholder="搜名称 / 编号 / 文件名…" autocomplete="off">
+  <div class="filters">
+    <button data-f="all" aria-pressed="true">全部</button>
+    <button data-f="original" aria-pressed="false">原创</button>
+    <button data-f="derived" aria-pressed="false">改造</button>
+  </div>
+</div>
+<main id="grid">
+<article class="card" data-cls="original" data-id="idea-003" data-text="%E5%86%85%E5%AD%98%E6%9D%A1%20%2B%20CPU%20%E5%B1%95%E7%A4%BA%E6%9E%B6%20%E5%B1%95%E7%A4%BA%E6%94%B6%E7%BA%B3%20idea-003%20README.md%20anime-relief%2Fmiao-anime-depth-120x48-emboss.3mf%20anime-relief%2Fmiao-anime-depth-120x48-emboss.stl%20anime-relief%2Fmiao-anime-depth-120x48-hero.png%20anime-relief%2Fmiao-anime-depth-120x48-preview.png%20anime-relief%2Fmiao-anime-depth-120x48-report.json%20anime-relief%2Fmiao-anime-depth-120x48.3mf%20anime-relief%2Fmiao-anime-depth-120x48.stl%20anime-relief%2Fmiao-anime-relief-120x61-preview.png%20anime-relief%2Fmiao-anime-relief-120x61.3mf%20anime-relief%2Fmiao-anime-relief-120x61.stl%20anime-relief%2Fmiao-anime-relief-150x76-preview.png%20anime-relief%2Fmiao-anime-relief-150x76.3mf%20anime-relief%2Fmiao-anime-relief-150x76.stl%20anime-relief%2Fsource-doubao-150x76.png%20check.py%20design-v3.md%20makerworld-export%2Fskadis-tray-makerworld%2Fskadis-tray-preview.png%20makerworld-export%2Fskadis-tray-makerworld%2Fskadis-tray.3mf%20makerworld-export%2Fskadis-tray-makerworld%2Fskadis-tray.stl%20makerworld-export%2Fskadis-tray-makerworld%2F%E4%B8%8A%E4%BC%A0%E6%96%87%E6%A1%88.txt%20memory-cpu-display-rack-v2.stl%20memory-cpu-display-rack-v3.stl%20memory-cpu-display-rack-v4-wide-cpu.stl%20memory-cpu-display-rack-v5.3mf%20memory-cpu-display-rack-v5.stl%20memory-cpu-display-rack-v6.3mf%20memory-cpu-display-rack-v6.stl%20memory-cpu-display-rack-v7.3mf%20memory-cpu-display-rack-v7.stl%20memory-cpu-display-rack-v8.3mf%20memory-cpu-display-rack-v8.stl%20model.py%20preview.png%20preview.py%20rack-v5-hero.png%20rack-v5-with-anime-relief-preview.png%20rack-v6-hero.png%20rack-v6-viewing-angle.png%20rack-v6-with-anime-relief-preview.png%20rack-v7-hero.png%20rack-v7-viewing-angle.png%20rack-v7-with-depth-relief-preview.png%20rack-v8-hero.png%20rack-v8-relief-top.png%20rack-v8-viewing-angle.png%20rack-v8-views.png%20rack.scad%20superseded%2Fcheck.py%20superseded%2Fpreview.png%20superseded%2Fpreview.py%20superseded%2Frack.scad%20superseded%2Fv2-design%2Fcheck.py%20superseded%2Fv2-design%2Fmodel.py%20superseded%2Fv2-design%2Fpreview.png%20superseded%2Fv2-design%2Fpreview.py%20superseded%2Fv2-design%2Frack.scad%20superseded%2Fv2-design%2Frack.stl%20superseded%2Fv2-design%2Frender-front.png%20superseded%2Fv2-design%2Frender-iso.png%20superseded%2Fv2-design%2Frender-side.png%20superseded%2Fv2-design%2Frender-top.png%20v17-skadis%2FREADME.txt%20v17-skadis%2Farrange_plates.py%20v17-skadis%2Fassembly.stl%20v17-skadis%2Fassets%2Frelief.stl%20v17-skadis%2Fboard-232.stl%20v17-skadis%2Fboard.stl%20v17-skadis%2Fdesign.json%20v17-skadis%2Fdesign.png%20v17-skadis%2Fdesign.py%20v17-skadis%2Fdesk_foot.stl%20v17-skadis%2Ffix_hook.py%20v17-skadis%2Fprint-plates%2F00_fit_test-hookfix.3mf%20v17-skadis%2Fprint-plates%2F00_fit_test-hookfix.sliced.3mf%20v17-skadis%2Fprint-plates%2F00_fit_test.sliced.3mf%20v17-skadis%2Fprint-plates%2F00_optional_fit_test.3mf%20v17-skadis%2Fprint-plates%2F01_board-232.sliced.3mf%20v17-skadis%2Fprint-plates%2F01_board.3mf%20v17-skadis%2Fprint-plates%2F02_relief_feet_trays-hookfix.3mf%20v17-skadis%2Fprint-plates%2F02_relief_feet_trays-hookfix.sliced.3mf%20v17-skadis%2Fprint-plates%2F02_relief_feet_trays.3mf%20v17-skadis%2Fprint-plates%2F02_relief_feet_trays.sliced.3mf%20v17-skadis%2Fprint-plates%2Ffit_coupon.stl%20v17-skadis%2Fprint-plates%2Flayout.json%20v17-skadis%2Fprint-plates%2Fplate-layout.png%20v17-skadis%2Fprint-plates%2F%E6%89%93%E5%8D%B0%E8%AF%B4%E6%98%8E.txt%20v17-skadis%2Frecess-detail.png%20v17-skadis%2Frelief-detail.png%20v17-skadis%2Frelief_badge.stl%20v17-skadis%2Funiversal_tray-hookfix.stl%20v17-skadis%2Funiversal_tray.stl">
+  <a class="thumb" href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48-preview.png">
+    <img loading="lazy" src="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48-preview.png" alt="内存条 + CPU 展示架">
+  </a>
+  <div class="body">
+    <h2>内存条 + CPU 展示架</h2>
+    <p class="meta"><span class="badge original">原创</span> 展示收纳 · idea-003 · 83.8 MB</p>
+    <p class="sum">展示用过的内存条与 CPU，像收藏陈列一样摆出来；内存条靠基板边缘承托，绝不夹压金手指；CPU 四边托住基板，中心悬空不碰针脚</p>
+    <ul class="files">
+      <li><a href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48-emboss.3mf" download>miao-anime-depth-120x48-emboss.3mf</a><span>3MF 851 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48-emboss.stl" download>miao-anime-depth-120x48-emboss.stl</a><span>STL 4.5 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48.3mf" download>miao-anime-depth-120x48.3mf</a><span>3MF 1.7 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48.stl" download>miao-anime-depth-120x48.stl</a><span>STL 9.1 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-relief-120x61.3mf" download>miao-anime-relief-120x61.3mf</a><span>3MF 1.5 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-relief-120x61.stl" download>miao-anime-relief-120x61.stl</a><span>STL 8.8 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-relief-150x76.3mf" download>miao-anime-relief-150x76.3mf</a><span>3MF 2.4 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-relief-150x76.stl" download>miao-anime-relief-150x76.stl</a><span>STL 13.7 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/makerworld-export/skadis-tray-makerworld/skadis-tray.3mf" download>skadis-tray.3mf</a><span>3MF 2 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/makerworld-export/skadis-tray-makerworld/skadis-tray.stl" download>skadis-tray.stl</a><span>STL 7 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v2.stl" download>memory-cpu-display-rack-v2.stl</a><span>STL 147 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v3.stl" download>memory-cpu-display-rack-v3.stl</a><span>STL 729 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v4-wide-cpu.stl" download>memory-cpu-display-rack-v4-wide-cpu.stl</a><span>STL 997 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v5.3mf" download>memory-cpu-display-rack-v5.3mf</a><span>3MF 43 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v5.stl" download>memory-cpu-display-rack-v5.stl</a><span>STL 215 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v6.3mf" download>memory-cpu-display-rack-v6.3mf</a><span>3MF 27 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v6.stl" download>memory-cpu-display-rack-v6.stl</a><span>STL 130 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v7.3mf" download>memory-cpu-display-rack-v7.3mf</a><span>3MF 27 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v7.stl" download>memory-cpu-display-rack-v7.stl</a><span>STL 131 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v8.3mf" download>memory-cpu-display-rack-v8.3mf</a><span>3MF 471 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v8.stl" download>memory-cpu-display-rack-v8.stl</a><span>STL 2.0 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/rack.scad" download>rack.scad</a><span>SCAD 18 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/superseded/rack.scad" download>rack.scad</a><span>SCAD 6 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/superseded/v2-design/rack.scad" download>rack.scad</a><span>SCAD 10 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/superseded/v2-design/rack.stl" download>rack.stl</a><span>STL 147 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/assembly.stl" download>assembly.stl</a><span>STL 5.2 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/assets/relief.stl" download>relief.stl</a><span>STL 9.1 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/board-232.stl" download>board-232.stl</a><span>STL 1.4 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/board.stl" download>board.stl</a><span>STL 1.4 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/desk_foot.stl" download>desk_foot.stl</a><span>STL 16 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/00_fit_test-hookfix.3mf" download>00_fit_test-hookfix.3mf</a><span>3MF 13 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/00_fit_test-hookfix.sliced.3mf" download>00_fit_test-hookfix.sliced.3mf</a><span>3MF 133 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/00_fit_test.sliced.3mf" download>00_fit_test.sliced.3mf</a><span>3MF 140 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/00_optional_fit_test.3mf" download>00_optional_fit_test.3mf</a><span>3MF 13 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/01_board-232.sliced.3mf" download>01_board-232.sliced.3mf</a><span>3MF 2.0 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/01_board.3mf" download>01_board.3mf</a><span>3MF 297 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/02_relief_feet_trays-hookfix.3mf" download>02_relief_feet_trays-hookfix.3mf</a><span>3MF 1.0 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/02_relief_feet_trays-hookfix.sliced.3mf" download>02_relief_feet_trays-hookfix.sliced.3mf</a><span>3MF 3.6 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/02_relief_feet_trays.3mf" download>02_relief_feet_trays.3mf</a><span>3MF 1.0 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/02_relief_feet_trays.sliced.3mf" download>02_relief_feet_trays.sliced.3mf</a><span>3MF 3.6 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/fit_coupon.stl" download>fit_coupon.stl</a><span>STL 46 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/relief_badge.stl" download>relief_badge.stl</a><span>STL 3.7 MB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/universal_tray-hookfix.stl" download>universal_tray-hookfix.stl</a><span>STL 7 KB</span></li>
+      <li><a href="models/idea-003-memory-cpu-rack/v17-skadis/universal_tray.stl" download>universal_tray.stl</a><span>STL 7 KB</span></li>
+    </ul>
+    <details><summary>其他文件（19）</summary><ul class="files dim"><li><a href="models/idea-003-memory-cpu-rack/README.md">README.md</a><span>3 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48-report.json">anime-relief/miao-anime-depth-120x48-report.json</a><span>2 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/check.py">check.py</a><span>15 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/design-v3.md">design-v3.md</a><span>9 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/makerworld-export/skadis-tray-makerworld/%E4%B8%8A%E4%BC%A0%E6%96%87%E6%A1%88.txt">makerworld-export/skadis-tray-makerworld/上传文案.txt</a><span>2 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/model.py">model.py</a><span>7 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/preview.py">preview.py</a><span>16 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/superseded/check.py">superseded/check.py</a><span>5 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/superseded/preview.py">superseded/preview.py</a><span>6 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/superseded/v2-design/check.py">superseded/v2-design/check.py</a><span>7 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/superseded/v2-design/model.py">superseded/v2-design/model.py</a><span>6 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/superseded/v2-design/preview.py">superseded/v2-design/preview.py</a><span>10 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/v17-skadis/README.txt">v17-skadis/README.txt</a><span>2 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/v17-skadis/arrange_plates.py">v17-skadis/arrange_plates.py</a><span>5 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/v17-skadis/design.json">v17-skadis/design.json</a><span>20 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/v17-skadis/design.py">v17-skadis/design.py</a><span>10 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/v17-skadis/fix_hook.py">v17-skadis/fix_hook.py</a><span>3 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/layout.json">v17-skadis/print-plates/layout.json</a><span>4 KB</span></li><li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/%E6%89%93%E5%8D%B0%E8%AF%B4%E6%98%8E.txt">v17-skadis/print-plates/打印说明.txt</a><span>2 KB</span></li></ul></details>
+    <details><summary>预览图（29）</summary><ul class="files dim"><li><a href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48-hero.png">miao-anime-depth-120x48-hero.png</a></li><li><a href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48-preview.png">miao-anime-depth-120x48-preview.png</a></li><li><a href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-relief-120x61-preview.png">miao-anime-relief-120x61-preview.png</a></li><li><a href="models/idea-003-memory-cpu-rack/anime-relief/miao-anime-relief-150x76-preview.png">miao-anime-relief-150x76-preview.png</a></li><li><a href="models/idea-003-memory-cpu-rack/anime-relief/source-doubao-150x76.png">source-doubao-150x76.png</a></li><li><a href="models/idea-003-memory-cpu-rack/makerworld-export/skadis-tray-makerworld/skadis-tray-preview.png">skadis-tray-preview.png</a></li><li><a href="models/idea-003-memory-cpu-rack/preview.png">preview.png</a></li><li><a href="models/idea-003-memory-cpu-rack/rack-v5-hero.png">rack-v5-hero.png</a></li><li><a href="models/idea-003-memory-cpu-rack/rack-v5-with-anime-relief-preview.png">rack-v5-with-anime-relief-preview.png</a></li><li><a href="models/idea-003-memory-cpu-rack/rack-v6-hero.png">rack-v6-hero.png</a></li><li><a href="models/idea-003-memory-cpu-rack/rack-v6-viewing-angle.png">rack-v6-viewing-angle.png</a></li><li><a href="models/idea-003-memory-cpu-rack/rack-v6-with-anime-relief-preview.png">rack-v6-with-anime-relief-preview.png</a></li><li><a href="models/idea-003-memory-cpu-rack/rack-v7-hero.png">rack-v7-hero.png</a></li><li><a href="models/idea-003-memory-cpu-rack/rack-v7-viewing-angle.png">rack-v7-viewing-angle.png</a></li><li><a href="models/idea-003-memory-cpu-rack/rack-v7-with-depth-relief-preview.png">rack-v7-with-depth-relief-preview.png</a></li><li><a href="models/idea-003-memory-cpu-rack/rack-v8-hero.png">rack-v8-hero.png</a></li><li><a href="models/idea-003-memory-cpu-rack/rack-v8-relief-top.png">rack-v8-relief-top.png</a></li><li><a href="models/idea-003-memory-cpu-rack/rack-v8-viewing-angle.png">rack-v8-viewing-angle.png</a></li><li><a href="models/idea-003-memory-cpu-rack/rack-v8-views.png">rack-v8-views.png</a></li><li><a href="models/idea-003-memory-cpu-rack/superseded/preview.png">preview.png</a></li><li><a href="models/idea-003-memory-cpu-rack/superseded/v2-design/preview.png">preview.png</a></li><li><a href="models/idea-003-memory-cpu-rack/superseded/v2-design/render-front.png">render-front.png</a></li><li><a href="models/idea-003-memory-cpu-rack/superseded/v2-design/render-iso.png">render-iso.png</a></li><li><a href="models/idea-003-memory-cpu-rack/superseded/v2-design/render-side.png">render-side.png</a></li><li><a href="models/idea-003-memory-cpu-rack/superseded/v2-design/render-top.png">render-top.png</a></li><li><a href="models/idea-003-memory-cpu-rack/v17-skadis/design.png">design.png</a></li><li><a href="models/idea-003-memory-cpu-rack/v17-skadis/print-plates/plate-layout.png">plate-layout.png</a></li><li><a href="models/idea-003-memory-cpu-rack/v17-skadis/recess-detail.png">recess-detail.png</a></li><li><a href="models/idea-003-memory-cpu-rack/v17-skadis/relief-detail.png">relief-detail.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-004" data-text="%E5%AF%8C%E6%98%A5%E6%B1%9F%E8%8A%A6%E8%8C%A8%E6%B9%BE%C2%B7%E9%80%8F%E5%85%89%E6%B5%AE%E9%9B%95%E8%AF%95%E7%89%87%20%E6%91%86%E4%BB%B6%2F%E7%A4%BC%E7%89%A9%20idea-004%20README.md%20lithophane-fuchun-river-preview.png%20lithophane-fuchun-river.3mf%20lithophane-fuchun-river.stl%20report.json%20source.jpg">
+  <a class="thumb" href="models/idea-004-lithophane-fuchun/lithophane-fuchun-river-preview.png">
+    <img loading="lazy" src="models/idea-004-lithophane-fuchun/lithophane-fuchun-river-preview.png" alt="富春江芦茨湾·透光浮雕试片">
+  </a>
+  <div class="body">
+    <h2>富春江芦茨湾·透光浮雕试片</h2>
+    <p class="meta"><span class="badge original">原创</span> 摆件/礼物 · idea-004 · 13.0 MB</p>
+    <p class="sum">主人原话：拿桐庐江色那张水彩做一版透光浮雕试试，出 3MF 发他；亮处薄、暗处厚：最薄 0.8mm 最厚 3.0mm（背光时画面透出来）</p>
+    <ul class="files">
+      <li><a href="models/idea-004-lithophane-fuchun/lithophane-fuchun-river.3mf" download>lithophane-fuchun-river.3mf</a><span>3MF 1.7 MB</span></li>
+      <li><a href="models/idea-004-lithophane-fuchun/lithophane-fuchun-river.stl" download>lithophane-fuchun-river.stl</a><span>STL 11.1 MB</span></li>
+    </ul>
+    <details><summary>其他文件（2）</summary><ul class="files dim"><li><a href="models/idea-004-lithophane-fuchun/README.md">README.md</a><span>1 KB</span></li><li><a href="models/idea-004-lithophane-fuchun/report.json">report.json</a><span>1 KB</span></li></ul></details>
+    <details><summary>预览图（2）</summary><ul class="files dim"><li><a href="models/idea-004-lithophane-fuchun/lithophane-fuchun-river-preview.png">lithophane-fuchun-river-preview.png</a></li><li><a href="models/idea-004-lithophane-fuchun/source.jpg">source.jpg</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-005" data-text="%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%91%E5%A5%B3%C2%B7%E5%AE%9E%E4%BD%93%E6%B5%AE%E9%9B%95%E8%AF%95%E7%89%87%20%E6%91%86%E4%BB%B6%2F%E7%A4%BC%E7%89%A9%20idea-005%20README.md%20relief-anime-girl-s105-preview.png%20relief-anime-girl-s105.3mf%20relief-anime-girl-s105.stl%20relief-anime-girl-s200-preview.png%20relief-anime-girl-s200.3mf%20relief-anime-girl-s200.stl%20report-s105.json%20report-s200.json%20source.png">
+  <a class="thumb" href="models/idea-005-anime-relief/relief-anime-girl-s105-preview.png">
+    <img loading="lazy" src="models/idea-005-anime-relief/relief-anime-girl-s105-preview.png" alt="二次元少女·实体浮雕试片">
+  </a>
+  <div class="body">
+    <h2>二次元少女·实体浮雕试片</h2>
+    <p class="meta"><span class="badge original">原创</span> 摆件/礼物 · idea-005 · 70.2 MB</p>
+    <p class="sum">主人原话：做一个 2 次元卡通人物的实体浮雕模型看看（他担心线条做不细）；实体凸起浮雕，不靠背光：底盘平板 + 人物剪影抬高 + 勾线/暗部再抬高一层</p>
+    <ul class="files">
+      <li><a href="models/idea-005-anime-relief/relief-anime-girl-s105.3mf" download>relief-anime-girl-s105.3mf</a><span>3MF 3.0 MB</span></li>
+      <li><a href="models/idea-005-anime-relief/relief-anime-girl-s105.stl" download>relief-anime-girl-s105.stl</a><span>STL 17.6 MB</span></li>
+      <li><a href="models/idea-005-anime-relief/relief-anime-girl-s200.3mf" download>relief-anime-girl-s200.3mf</a><span>3MF 6.6 MB</span></li>
+      <li><a href="models/idea-005-anime-relief/relief-anime-girl-s200.stl" download>relief-anime-girl-s200.stl</a><span>STL 39.6 MB</span></li>
+    </ul>
+    <details><summary>其他文件（3）</summary><ul class="files dim"><li><a href="models/idea-005-anime-relief/README.md">README.md</a><span>1 KB</span></li><li><a href="models/idea-005-anime-relief/report-s105.json">report-s105.json</a><span>2 KB</span></li><li><a href="models/idea-005-anime-relief/report-s200.json">report-s200.json</a><span>2 KB</span></li></ul></details>
+    <details><summary>预览图（3）</summary><ul class="files dim"><li><a href="models/idea-005-anime-relief/relief-anime-girl-s105-preview.png">relief-anime-girl-s105-preview.png</a></li><li><a href="models/idea-005-anime-relief/relief-anime-girl-s200-preview.png">relief-anime-girl-s200-preview.png</a></li><li><a href="models/idea-005-anime-relief/source.png">source.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-006" data-text="%E6%A1%8C%E9%9D%A2%E5%B7%A5%E5%85%B7%E6%94%B6%E7%BA%B3%E7%9B%98%EF%BC%88%E5%AE%B6%E9%87%8C%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%EF%BC%89%20%E6%A1%8C%E9%9D%A2%E6%94%B6%E7%BA%B3%20idea-006%20README.md%20check.py%20model.py%20model.scad%20tool-tray-preview.png%20tool-tray.3mf%20tool-tray.stl">
+  <a class="thumb" href="models/idea-006-tool-tray/tool-tray-preview.png">
+    <img loading="lazy" src="models/idea-006-tool-tray/tool-tray-preview.png" alt="桌面工具收纳盘（家里常用工具）">
+  </a>
+  <div class="body">
+    <h2>桌面工具收纳盘（家里常用工具）</h2>
+    <p class="meta"><span class="badge original">原创</span> 桌面收纳 · idea-006 · 159 KB</p>
+    <p class="sum">主人原话：参数化建模加进 skill，然后做一个例子，用家里常用的一些工具；一件成型：剪刀 / 卷尺 5m / 美工刀 / 记号笔×2 / 胶带卷 各自一个位，放进去不晃</p>
+    <ul class="files">
+      <li><a href="models/idea-006-tool-tray/model.scad" download>model.scad</a><span>SCAD 4 KB</span></li>
+      <li><a href="models/idea-006-tool-tray/tool-tray.3mf" download>tool-tray.3mf</a><span>3MF 17 KB</span></li>
+      <li><a href="models/idea-006-tool-tray/tool-tray.stl" download>tool-tray.stl</a><span>STL 90 KB</span></li>
+    </ul>
+    <details><summary>其他文件（3）</summary><ul class="files dim"><li><a href="models/idea-006-tool-tray/README.md">README.md</a><span>1 KB</span></li><li><a href="models/idea-006-tool-tray/check.py">check.py</a><span>7 KB</span></li><li><a href="models/idea-006-tool-tray/model.py">model.py</a><span>4 KB</span></li></ul></details>
+    <details><summary>预览图（1）</summary><ul class="files dim"><li><a href="models/idea-006-tool-tray/tool-tray-preview.png">tool-tray-preview.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-007" data-text="%E4%B8%BB%E4%BA%BA%E7%9A%84%E5%90%8D%E5%AD%97%20%C2%B7%203D%20%E7%AB%8B%E4%BD%93%E5%AD%97%2F%E5%90%8D%E7%89%8C%20%E6%91%86%E4%BB%B6%2F%E7%A4%BC%E7%89%A9%20idea-007%20README.md%20keychain-preview.png%20keychain-report.json%20keychain.3mf%20keychain.scad%20keychain.stl%20name-stand-preview.png%20name-stand-report.json%20name-stand.3mf%20name-stand.scad%20name-stand.stl%20name-tag-preview.png%20name-tag-report.json%20name-tag.3mf%20name-tag.scad%20name-tag.stl">
+  <a class="thumb" href="models/sample-nameplate/keychain-preview.png">
+    <img loading="lazy" src="models/sample-nameplate/keychain-preview.png" alt="主人的名字 · 3D 立体字/名牌">
+  </a>
+  <div class="body">
+    <h2>主人的名字 · 3D 立体字/名牌</h2>
+    <p class="meta"><span class="badge original">原创</span> 摆件/礼物 · idea-007 · 357 KB</p>
+    <p class="sum">主人原话：我的名字呢能打印 3D 立体的吗；把主人的名字做成 3D 立体字（中英混排都行，OpenSCAD text() 直接放样）</p>
+    <ul class="files">
+      <li><a href="models/sample-nameplate/keychain.3mf" download>keychain.3mf</a><span>3MF 8 KB</span></li>
+      <li><a href="models/sample-nameplate/keychain.scad" download>keychain.scad</a><span>SCAD 1 KB</span></li>
+      <li><a href="models/sample-nameplate/keychain.stl" download>keychain.stl</a><span>STL 39 KB</span></li>
+      <li><a href="models/sample-nameplate/name-stand.3mf" download>name-stand.3mf</a><span>3MF 14 KB</span></li>
+      <li><a href="models/sample-nameplate/name-stand.scad" download>name-stand.scad</a><span>SCAD 1 KB</span></li>
+      <li><a href="models/sample-nameplate/name-stand.stl" download>name-stand.stl</a><span>STL 72 KB</span></li>
+      <li><a href="models/sample-nameplate/name-tag.3mf" download>name-tag.3mf</a><span>3MF 18 KB</span></li>
+      <li><a href="models/sample-nameplate/name-tag.scad" download>name-tag.scad</a><span>SCAD 1 KB</span></li>
+      <li><a href="models/sample-nameplate/name-tag.stl" download>name-tag.stl</a><span>STL 91 KB</span></li>
+    </ul>
+    <details><summary>其他文件（4）</summary><ul class="files dim"><li><a href="models/sample-nameplate/README.md">README.md</a><span>1 KB</span></li><li><a href="models/sample-nameplate/keychain-report.json">keychain-report.json</a><span>1 KB</span></li><li><a href="models/sample-nameplate/name-stand-report.json">name-stand-report.json</a><span>1 KB</span></li><li><a href="models/sample-nameplate/name-tag-report.json">name-tag-report.json</a><span>1 KB</span></li></ul></details>
+    <details><summary>预览图（3）</summary><ul class="files dim"><li><a href="models/sample-nameplate/keychain-preview.png">keychain-preview.png</a></li><li><a href="models/sample-nameplate/name-stand-preview.png">name-stand-preview.png</a></li><li><a href="models/sample-nameplate/name-tag-preview.png">name-tag-preview.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-008" data-text="%E8%8B%97%E7%99%BD%E8%8F%9C%E7%9A%84%E6%B0%B4%E5%8D%B0%EF%BC%88%E5%8D%B0%E7%AB%A0%20%2B%20%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0%EF%BC%89%20%E6%91%86%E4%BB%B6%2F%E7%A4%BC%E7%89%A9%20idea-008%20README.md%20miao-stamp-preview.png%20miao-stamp.3mf%20miao-stamp.stl%20miao-watermark-dark.png%20miao-watermark-white.png%20source-logotype.png%20stamp-handle-preview.png%20stamp-handle.3mf%20stamp-handle.scad%20stamp-handle.stl%20stamp-report.json">
+  <a class="thumb" href="models/idea-008-miao-watermark/miao-stamp-preview.png">
+    <img loading="lazy" src="models/idea-008-miao-watermark/miao-stamp-preview.png" alt="苗白菜的水印（印章 + 数字水印）">
+  </a>
+  <div class="body">
+    <h2>苗白菜的水印（印章 + 数字水印）</h2>
+    <p class="meta"><span class="badge original">原创</span> 摆件/礼物 · idea-008 · 11.3 MB</p>
+    <p class="sum">主人原话：可以，你做成你的水印吧；把机甲风「苗白菜」logotype 做成我的水印：实物印章 + 数字水印两种</p>
+    <ul class="files">
+      <li><a href="models/idea-008-miao-watermark/miao-stamp.3mf" download>miao-stamp.3mf</a><span>3MF 1.2 MB</span></li>
+      <li><a href="models/idea-008-miao-watermark/miao-stamp.stl" download>miao-stamp.stl</a><span>STL 7.0 MB</span></li>
+      <li><a href="models/idea-008-miao-watermark/stamp-handle.3mf" download>stamp-handle.3mf</a><span>3MF 55 KB</span></li>
+      <li><a href="models/idea-008-miao-watermark/stamp-handle.scad" download>stamp-handle.scad</a><span>SCAD 1 KB</span></li>
+      <li><a href="models/idea-008-miao-watermark/stamp-handle.stl" download>stamp-handle.stl</a><span>STL 272 KB</span></li>
+    </ul>
+    <details><summary>其他文件（2）</summary><ul class="files dim"><li><a href="models/idea-008-miao-watermark/README.md">README.md</a><span>1 KB</span></li><li><a href="models/idea-008-miao-watermark/stamp-report.json">stamp-report.json</a><span>2 KB</span></li></ul></details>
+    <details><summary>预览图（5）</summary><ul class="files dim"><li><a href="models/idea-008-miao-watermark/miao-stamp-preview.png">miao-stamp-preview.png</a></li><li><a href="models/idea-008-miao-watermark/miao-watermark-dark.png">miao-watermark-dark.png</a></li><li><a href="models/idea-008-miao-watermark/miao-watermark-white.png">miao-watermark-white.png</a></li><li><a href="models/idea-008-miao-watermark/source-logotype.png">source-logotype.png</a></li><li><a href="models/idea-008-miao-watermark/stamp-handle-preview.png">stamp-handle-preview.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-009" data-text="3D%20%E6%89%93%E5%8D%B0%E4%BA%8C%E6%AC%A1%E5%85%83%E6%89%8B%E5%8A%9E%20%E6%91%86%E4%BB%B6%2F%E6%89%8B%E5%8A%9E%20idea-009%20README.md%20check.py%20miao-chibi.3mf%20miao-chibi.stl%20model.py%20model.scad%20preview.png">
+  <a class="thumb" href="models/idea-009-miao-chibi/preview.png">
+    <img loading="lazy" src="models/idea-009-miao-chibi/preview.png" alt="3D 打印二次元手办">
+  </a>
+  <div class="body">
+    <h2>3D 打印二次元手办</h2>
+    <p class="meta"><span class="badge original">原创</span> 摆件/手办 · idea-009 · 1.9 MB</p>
+    <p class="sum">主人原话(10/2)：我想 3d 打印手办怎么搞；回答定位：讲清手办的完整链路（模型来源→分件切片→打印→后处理上色），不是只有『打印』一环</p>
+    <ul class="files">
+      <li><a href="models/idea-009-miao-chibi/miao-chibi.3mf" download>miao-chibi.3mf</a><span>3MF 375 KB</span></li>
+      <li><a href="models/idea-009-miao-chibi/miao-chibi.stl" download>miao-chibi.stl</a><span>STL 1.3 MB</span></li>
+      <li><a href="models/idea-009-miao-chibi/model.scad" download>model.scad</a><span>SCAD 7 KB</span></li>
+    </ul>
+    <details><summary>其他文件（3）</summary><ul class="files dim"><li><a href="models/idea-009-miao-chibi/README.md">README.md</a><span>1 KB</span></li><li><a href="models/idea-009-miao-chibi/check.py">check.py</a><span>7 KB</span></li><li><a href="models/idea-009-miao-chibi/model.py">model.py</a><span>3 KB</span></li></ul></details>
+    <details><summary>预览图（1）</summary><ul class="files dim"><li><a href="models/idea-009-miao-chibi/preview.png">preview.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="derived" data-id="idea-010" data-text="%E6%8B%89%E5%B1%8E%E6%90%AD%E5%AD%90%E7%8E%A9%E5%81%B6%20%E6%91%86%E4%BB%B6%2F%E6%89%8B%E5%8A%9E%20idea-010%2001_%E5%BD%93%E5%89%8D_v2_2026-11-15%2FREADME.md%2002_%E5%8E%86%E5%8F%B2_v1_2026-11-14%2FREADME.md%2004_%E9%A2%84%E8%A7%88%2Fdeepfish_%E5%89%A9%E4%BD%996%E4%BB%B6v2_%E9%A2%84%E8%A7%88.png%2004_%E9%A2%84%E8%A7%88%2Fdeepfish_%E5%AE%89%E5%85%A8%E7%9B%98_%E9%A2%84%E8%A7%88.png%2004_%E9%A2%84%E8%A7%88%2Fdeepfish_%E5%AE%89%E5%85%A8%E7%9B%98v2_%E9%A2%84%E8%A7%88.png%2004_%E9%A2%84%E8%A7%88%2Fdeepfish_%E7%99%BD%E7%9B%98v2_%E9%A2%84%E8%A7%88.png%2004_%E9%A2%84%E8%A7%88%2Fdeepfish_%E7%AC%AC4%E7%9B%98v2_%E9%A2%84%E8%A7%88.png%2004_%E9%A2%84%E8%A7%88%2Fdeepfish_%E8%93%9D%E7%9B%98_%E5%A4%A7%E4%BB%B66%E4%BB%B6_%E9%A2%84%E8%A7%88.png%2004_%E9%A2%84%E8%A7%88%2Fdeepfish_%E8%93%9D%E7%9B%98_%E5%B0%8F%E4%BB%B610%E4%BB%B6_%E9%A2%84%E8%A7%88.png%2004_%E9%A2%84%E8%A7%88%2Fdeepfish_%E9%AB%98%E4%BB%B6%E7%9B%98_%E9%A2%84%E8%A7%88.png%20README.md">
+  <a class="thumb" href="models/deepfish-figure/04_%E9%A2%84%E8%A7%88/deepfish_%E5%89%A9%E4%BD%996%E4%BB%B6v2_%E9%A2%84%E8%A7%88.png">
+    <img loading="lazy" src="models/deepfish-figure/04_%E9%A2%84%E8%A7%88/deepfish_%E5%89%A9%E4%BD%996%E4%BB%B6v2_%E9%A2%84%E8%A7%88.png" alt="拉屎搭子玩偶">
+  </a>
+  <div class="body">
+    <h2>拉屎搭子玩偶</h2>
+    <p class="meta"><span class="badge derived">改造</span> 摆件/手办 · idea-010 · 234 KB</p>
+    <p class="sum">AI 生成网格 → 我们做分盘、支撑、朝向、层高与首层工艺；源工程与当前工程见目录</p>
+    <ul class="files">
+      
+    </ul>
+    <details><summary>其他文件（3）</summary><ul class="files dim"><li><a href="models/deepfish-figure/01_%E5%BD%93%E5%89%8D_v2_2026-11-15/README.md">01_当前_v2_2026-11-15/README.md</a><span>3 KB</span></li><li><a href="models/deepfish-figure/02_%E5%8E%86%E5%8F%B2_v1_2026-11-14/README.md">02_历史_v1_2026-11-14/README.md</a><span>1 KB</span></li><li><a href="models/deepfish-figure/README.md">README.md</a><span>8 KB</span></li></ul></details>
+    <details><summary>预览图（8）</summary><ul class="files dim"><li><a href="models/deepfish-figure/04_%E9%A2%84%E8%A7%88/deepfish_%E5%89%A9%E4%BD%996%E4%BB%B6v2_%E9%A2%84%E8%A7%88.png">deepfish_剩余6件v2_预览.png</a></li><li><a href="models/deepfish-figure/04_%E9%A2%84%E8%A7%88/deepfish_%E5%AE%89%E5%85%A8%E7%9B%98_%E9%A2%84%E8%A7%88.png">deepfish_安全盘_预览.png</a></li><li><a href="models/deepfish-figure/04_%E9%A2%84%E8%A7%88/deepfish_%E5%AE%89%E5%85%A8%E7%9B%98v2_%E9%A2%84%E8%A7%88.png">deepfish_安全盘v2_预览.png</a></li><li><a href="models/deepfish-figure/04_%E9%A2%84%E8%A7%88/deepfish_%E7%99%BD%E7%9B%98v2_%E9%A2%84%E8%A7%88.png">deepfish_白盘v2_预览.png</a></li><li><a href="models/deepfish-figure/04_%E9%A2%84%E8%A7%88/deepfish_%E7%AC%AC4%E7%9B%98v2_%E9%A2%84%E8%A7%88.png">deepfish_第4盘v2_预览.png</a></li><li><a href="models/deepfish-figure/04_%E9%A2%84%E8%A7%88/deepfish_%E8%93%9D%E7%9B%98_%E5%A4%A7%E4%BB%B66%E4%BB%B6_%E9%A2%84%E8%A7%88.png">deepfish_蓝盘_大件6件_预览.png</a></li><li><a href="models/deepfish-figure/04_%E9%A2%84%E8%A7%88/deepfish_%E8%93%9D%E7%9B%98_%E5%B0%8F%E4%BB%B610%E4%BB%B6_%E9%A2%84%E8%A7%88.png">deepfish_蓝盘_小件10件_预览.png</a></li><li><a href="models/deepfish-figure/04_%E9%A2%84%E8%A7%88/deepfish_%E9%AB%98%E4%BB%B6%E7%9B%98_%E9%A2%84%E8%A7%88.png">deepfish_高件盘_预览.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-013" data-text="%E8%8B%97%E7%99%BD%E8%8F%9C%C2%B7%E7%99%BD%E8%8F%9C%E5%8F%B6%E9%92%A5%E5%8C%99%E6%89%A3%20%E6%91%86%E4%BB%B6%2F%E7%A4%BC%E7%89%A9%20idea-013%20README.md%20build_mesh.py%20check.py%20leaf-keychain-preview.png%20leaf-keychain-report.json%20leaf-keychain.3mf%20leaf-keychain.stl%20model.py%20model.scad">
+  <a class="thumb" href="models/idea-013-miao-leaf-keychain/leaf-keychain-preview.png">
+    <img loading="lazy" src="models/idea-013-miao-leaf-keychain/leaf-keychain-preview.png" alt="苗白菜·白菜叶钥匙扣">
+  </a>
+  <div class="body">
+    <h2>苗白菜·白菜叶钥匙扣</h2>
+    <p class="meta"><span class="badge original">原创</span> 摆件/礼物 · idea-013 · 358 KB</p>
+    <p class="sum">主人原话（2026-10-24）：给「苗白菜」系列先预建 4 件「零输入」可打印件，这是第 1 件 —— 白菜叶钥匙扣；叶形造型：叶身波边（峰谷 2.10mm）+ 浅叶脉 7 条（露出叶面 1.0mm）+ 叶柄收窄；外廓 55 x 35 x 4mm</p>
+    <ul class="files">
+      <li><a href="models/idea-013-miao-leaf-keychain/leaf-keychain.3mf" download>leaf-keychain.3mf</a><span>3MF 43 KB</span></li>
+      <li><a href="models/idea-013-miao-leaf-keychain/leaf-keychain.stl" download>leaf-keychain.stl</a><span>STL 252 KB</span></li>
+      <li><a href="models/idea-013-miao-leaf-keychain/model.scad" download>model.scad</a><span>SCAD 4 KB</span></li>
+    </ul>
+    <details><summary>其他文件（5）</summary><ul class="files dim"><li><a href="models/idea-013-miao-leaf-keychain/README.md">README.md</a><span>2 KB</span></li><li><a href="models/idea-013-miao-leaf-keychain/build_mesh.py">build_mesh.py</a><span>3 KB</span></li><li><a href="models/idea-013-miao-leaf-keychain/check.py">check.py</a><span>7 KB</span></li><li><a href="models/idea-013-miao-leaf-keychain/leaf-keychain-report.json">leaf-keychain-report.json</a><span>1 KB</span></li><li><a href="models/idea-013-miao-leaf-keychain/model.py">model.py</a><span>9 KB</span></li></ul></details>
+    <details><summary>预览图（1）</summary><ul class="files dim"><li><a href="models/idea-013-miao-leaf-keychain/leaf-keychain-preview.png">leaf-keychain-preview.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-014" data-text="%E8%8B%97%E7%99%BD%E8%8F%9C%C2%B7%E7%99%BD%E8%8F%9C%E5%8F%B6%E5%86%B0%E7%AE%B1%E8%B4%B4%20%E6%91%86%E4%BB%B6%2F%E7%A4%BC%E7%89%A9%20idea-014%20README.md%20build_mesh.py%20check.py%20leaf-fridge-magnet-preview.png%20leaf-fridge-magnet-report.json%20leaf-fridge-magnet.3mf%20leaf-fridge-magnet.stl%20model.py%20model.scad">
+  <a class="thumb" href="models/idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet-preview.png">
+    <img loading="lazy" src="models/idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet-preview.png" alt="苗白菜·白菜叶冰箱贴">
+  </a>
+  <div class="body">
+    <h2>苗白菜·白菜叶冰箱贴</h2>
+    <p class="meta"><span class="badge original">原创</span> 摆件/礼物 · idea-014 · 417 KB</p>
+    <p class="sum">主人原话（2026-10-24）：4 件预建里的第 2 件 —— 白菜叶冰箱贴，与钥匙扣同款叶形、放大到 60 x 40mm；外廓 60 x 40 x 5mm：同一套轮廓公式（波边峰谷 2.45mm、叶脉 7 条露出叶面 1.0mm），板厚加到 4mm 好给背面留磁铁槽</p>
+    <ul class="files">
+      <li><a href="models/idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet.3mf" download>leaf-fridge-magnet.3mf</a><span>3MF 51 KB</span></li>
+      <li><a href="models/idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet.stl" download>leaf-fridge-magnet.stl</a><span>STL 303 KB</span></li>
+      <li><a href="models/idea-014-miao-leaf-fridge-magnet/model.scad" download>model.scad</a><span>SCAD 4 KB</span></li>
+    </ul>
+    <details><summary>其他文件（5）</summary><ul class="files dim"><li><a href="models/idea-014-miao-leaf-fridge-magnet/README.md">README.md</a><span>2 KB</span></li><li><a href="models/idea-014-miao-leaf-fridge-magnet/build_mesh.py">build_mesh.py</a><span>3 KB</span></li><li><a href="models/idea-014-miao-leaf-fridge-magnet/check.py">check.py</a><span>8 KB</span></li><li><a href="models/idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet-report.json">leaf-fridge-magnet-report.json</a><span>1 KB</span></li><li><a href="models/idea-014-miao-leaf-fridge-magnet/model.py">model.py</a><span>9 KB</span></li></ul></details>
+    <details><summary>预览图（1）</summary><ul class="files dim"><li><a href="models/idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet-preview.png">leaf-fridge-magnet-preview.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-015" data-text="%E6%A1%8C%E9%9D%A2%E7%90%86%E7%BA%BF%E5%A4%B9%E4%B8%89%E8%A7%84%E6%A0%BC%EF%BC%884%2F6%2F8mm%20%E7%BA%BF%E5%BE%84%EF%BC%89%20%E6%A1%8C%E9%9D%A2%E6%94%B6%E7%BA%B3%20idea-015%20README.md%20build_mesh.py%20cable-clip-3pcs-preview.png%20cable-clip-3pcs-report.json%20cable-clip-3pcs.3mf%20cable-clip-3pcs.stl%20check.py%20model.py%20model.scad">
+  <a class="thumb" href="models/idea-015-desk-cable-clip/cable-clip-3pcs-preview.png">
+    <img loading="lazy" src="models/idea-015-desk-cable-clip/cable-clip-3pcs-preview.png" alt="桌面理线夹三规格（4/6/8mm 线径）">
+  </a>
+  <div class="body">
+    <h2>桌面理线夹三规格（4/6/8mm 线径）</h2>
+    <p class="meta"><span class="badge original">原创</span> 桌面收纳 · idea-015 · 100 KB</p>
+    <p class="sum">主人原话（2026-10-24）：4 件预建里的第 3 件 —— 桌面理线夹，夹持线径 4/6/8mm 三款，参数化 d_line，一次打多颗；尺寸链（参数在 model.scad）：孔中心高 = 贴胶底 2.5 + r；总高 = 2.5 + d + 顶壁 2.0；总宽 = d + 2 x 侧壁 2.4；卡入口宽 = 0.9 x 线径（比线细才有卡持），入口做 30 度喇叭好塞线</p>
+    <ul class="files">
+      <li><a href="models/idea-015-desk-cable-clip/cable-clip-3pcs.3mf" download>cable-clip-3pcs.3mf</a><span>3MF 7 KB</span></li>
+      <li><a href="models/idea-015-desk-cable-clip/cable-clip-3pcs.stl" download>cable-clip-3pcs.stl</a><span>STL 33 KB</span></li>
+      <li><a href="models/idea-015-desk-cable-clip/model.scad" download>model.scad</a><span>SCAD 3 KB</span></li>
+    </ul>
+    <details><summary>其他文件（5）</summary><ul class="files dim"><li><a href="models/idea-015-desk-cable-clip/README.md">README.md</a><span>2 KB</span></li><li><a href="models/idea-015-desk-cable-clip/build_mesh.py">build_mesh.py</a><span>3 KB</span></li><li><a href="models/idea-015-desk-cable-clip/cable-clip-3pcs-report.json">cable-clip-3pcs-report.json</a><span>1 KB</span></li><li><a href="models/idea-015-desk-cable-clip/check.py">check.py</a><span>8 KB</span></li><li><a href="models/idea-015-desk-cable-clip/model.py">model.py</a><span>6 KB</span></li></ul></details>
+    <details><summary>预览图（1）</summary><ul class="files dim"><li><a href="models/idea-015-desk-cable-clip/cable-clip-3pcs-preview.png">cable-clip-3pcs-preview.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-016" data-text="%E5%90%89%E4%BB%96%E6%8B%A8%E7%89%87%E7%9B%92%EF%BC%88%E6%97%A0%E9%93%B0%E9%93%BE%E6%8F%92%E6%8B%94%E7%9B%96%EF%BC%89%20%E4%B9%90%E5%99%A8%E9%85%8D%E4%BB%B6%2F%E6%94%B6%E7%BA%B3%20idea-016%20README.md%20build_mesh.py%20check.py%20model.py%20model.scad%20pick-case-preview.png%20pick-case-report.json%20pick-case.3mf%20pick-case.stl">
+  <a class="thumb" href="models/idea-016-guitar-pick-case/pick-case-preview.png">
+    <img loading="lazy" src="models/idea-016-guitar-pick-case/pick-case-preview.png" alt="吉他拨片盒（无铰链插拔盖）">
+  </a>
+  <div class="body">
+    <h2>吉他拨片盒（无铰链插拔盖）</h2>
+    <p class="meta"><span class="badge original">原创</span> 乐器配件/收纳 · idea-016 · 122 KB</p>
+    <p class="sum">主人原话（2026-10-24）：4 件预建里的第 4 件 —— 吉他拨片盒，装 8-10 片标准 351 形拨片（约 31x26mm、厚 <=1.5mm）；无铰链插拔式上盖（避开悬垂与薄壁铰链）：盒身 + 上盖两件套，盖用 4mm 高裙边套在盒口外侧，插拔单边间隙 0.25mm（FDM 装配 0.2-0.3 区间）</p>
+    <ul class="files">
+      <li><a href="models/idea-016-guitar-pick-case/model.scad" download>model.scad</a><span>SCAD 4 KB</span></li>
+      <li><a href="models/idea-016-guitar-pick-case/pick-case.3mf" download>pick-case.3mf</a><span>3MF 10 KB</span></li>
+      <li><a href="models/idea-016-guitar-pick-case/pick-case.stl" download>pick-case.stl</a><span>STL 53 KB</span></li>
+    </ul>
+    <details><summary>其他文件（5）</summary><ul class="files dim"><li><a href="models/idea-016-guitar-pick-case/README.md">README.md</a><span>2 KB</span></li><li><a href="models/idea-016-guitar-pick-case/build_mesh.py">build_mesh.py</a><span>3 KB</span></li><li><a href="models/idea-016-guitar-pick-case/check.py">check.py</a><span>13 KB</span></li><li><a href="models/idea-016-guitar-pick-case/model.py">model.py</a><span>5 KB</span></li><li><a href="models/idea-016-guitar-pick-case/pick-case-report.json">pick-case-report.json</a><span>1 KB</span></li></ul></details>
+    <details><summary>预览图（1）</summary><ul class="files dim"><li><a href="models/idea-016-guitar-pick-case/pick-case-preview.png">pick-case-preview.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-017" data-text="%E9%95%82%E7%A9%BA%E5%88%86%E9%9A%94%E6%94%B6%E7%BA%B3%E7%AF%AE%EF%BC%88%E8%8B%97%E5%A3%AE%E5%88%B6%E9%80%A0%EF%BC%89%20%E6%9F%9C%E5%86%85%E6%94%B6%E7%BA%B3%20idea-017%20README.md%20build_mesh.py%20check.py%20lattice-divider-preview.png%20lattice-divider-report.json%20lattice-divider.3mf%20lattice-divider.stl%20model.py%20model.scad">
+  <a class="thumb" href="models/idea-017-lattice-drawer-divider/lattice-divider-preview.png">
+    <img loading="lazy" src="models/idea-017-lattice-drawer-divider/lattice-divider-preview.png" alt="镂空分隔收纳篮（苗壮制造）">
+  </a>
+  <div class="body">
+    <h2>镂空分隔收纳篮（苗壮制造）</h2>
+    <p class="meta"><span class="badge original">原创</span> 柜内收纳 · idea-017 · 790 KB</p>
+    <p class="sum">主人原话（2026-10-25）：你帮我建模 3d 打印 镂空的抽屉吧 用来分隔柜子 收纳，柜子要有标记苗壮制造；镂空：外壁/隔板/底板都开孔减料，孔间韧带 >= 3.2mm（0.4 喷嘴的 8 倍），底板上沿/下沿留实心带保刚度</p>
+    <ul class="files">
+      <li><a href="models/idea-017-lattice-drawer-divider/lattice-divider.3mf" download>lattice-divider.3mf</a><span>3MF 109 KB</span></li>
+      <li><a href="models/idea-017-lattice-drawer-divider/lattice-divider.stl" download>lattice-divider.stl</a><span>STL 596 KB</span></li>
+      <li><a href="models/idea-017-lattice-drawer-divider/model.scad" download>model.scad</a><span>SCAD 3 KB</span></li>
+    </ul>
+    <details><summary>其他文件（5）</summary><ul class="files dim"><li><a href="models/idea-017-lattice-drawer-divider/README.md">README.md</a><span>3 KB</span></li><li><a href="models/idea-017-lattice-drawer-divider/build_mesh.py">build_mesh.py</a><span>8 KB</span></li><li><a href="models/idea-017-lattice-drawer-divider/check.py">check.py</a><span>14 KB</span></li><li><a href="models/idea-017-lattice-drawer-divider/lattice-divider-report.json">lattice-divider-report.json</a><span>1 KB</span></li><li><a href="models/idea-017-lattice-drawer-divider/model.py">model.py</a><span>11 KB</span></li></ul></details>
+    <details><summary>预览图（1）</summary><ul class="files dim"><li><a href="models/idea-017-lattice-drawer-divider/lattice-divider-preview.png">lattice-divider-preview.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-018" data-text="%E6%A1%8C%E9%9D%A2%E5%8F%91%E5%B8%A6%E6%99%BE%E6%99%92%E6%9E%B6%EF%BC%88%E9%BE%99%E9%97%A8%E6%99%BE%E6%9E%B6%C2%B7%E8%B7%A8%E5%9C%A8%E7%8E%A9%E5%81%B6%E4%B8%8A%E6%96%B9%EF%BC%89%20%E6%A1%8C%E9%9D%A2%E6%94%B6%E7%BA%B3%2F%E6%91%86%E4%BB%B6%E6%94%AF%E6%9E%B6%20idea-018%20DESIGN.md%20README.md%20build_mesh.py%20check.py%20headband-hook-preview.png%20headband-hook.3mf%20headband-hook.stl%20headband-rack-preview.png%20headband-rack-report.json%20headband-rack.3mf%20headband-rack.stl%20model.py%20model.scad">
+  <a class="thumb" href="models/idea-018-headband-rack/headband-hook-preview.png">
+    <img loading="lazy" src="models/idea-018-headband-rack/headband-hook-preview.png" alt="桌面发带晾晒架（龙门晾架·跨在玩偶上方）">
+  </a>
+  <div class="body">
+    <h2>桌面发带晾晒架（龙门晾架·跨在玩偶上方）</h2>
+    <p class="meta"><span class="badge original">原创</span> 桌面收纳/摆件支架 · idea-018 · 143 KB</p>
+    <p class="sum">主人原话（2026-10-25）：我需要一个桌面晾发带的小晾衣架，期望能放到或者戴到或者架在这个玩偶的上面，比如晾 2 到 3 个发带；要能同时晾 2–3 条发带：有横杆/挂钩位，杆距与杆径要够分开晾、不互相压叠</p>
+    <ul class="files">
+      <li><a href="models/idea-018-headband-rack/headband-hook.3mf" download>headband-hook.3mf</a><span>3MF 1 KB</span></li>
+      <li><a href="models/idea-018-headband-rack/headband-hook.stl" download>headband-hook.stl</a><span>STL 2 KB</span></li>
+      <li><a href="models/idea-018-headband-rack/headband-rack.3mf" download>headband-rack.3mf</a><span>3MF 2 KB</span></li>
+      <li><a href="models/idea-018-headband-rack/headband-rack.stl" download>headband-rack.stl</a><span>STL 9 KB</span></li>
+      <li><a href="models/idea-018-headband-rack/model.scad" download>model.scad</a><span>SCAD 3 KB</span></li>
+    </ul>
+    <details><summary>其他文件（6）</summary><ul class="files dim"><li><a href="models/idea-018-headband-rack/DESIGN.md">DESIGN.md</a><span>19 KB</span></li><li><a href="models/idea-018-headband-rack/README.md">README.md</a><span>1 KB</span></li><li><a href="models/idea-018-headband-rack/build_mesh.py">build_mesh.py</a><span>9 KB</span></li><li><a href="models/idea-018-headband-rack/check.py">check.py</a><span>15 KB</span></li><li><a href="models/idea-018-headband-rack/headband-rack-report.json">headband-rack-report.json</a><span>7 KB</span></li><li><a href="models/idea-018-headband-rack/model.py">model.py</a><span>16 KB</span></li></ul></details>
+    <details><summary>预览图（2）</summary><ul class="files dim"><li><a href="models/idea-018-headband-rack/headband-hook-preview.png">headband-hook-preview.png</a></li><li><a href="models/idea-018-headband-rack/headband-rack-preview.png">headband-rack-preview.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-020" data-text="%E5%B0%8F%E4%BA%BA%E6%99%BE%E6%9E%B6%EF%BC%88%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E4%BA%BA%E5%8F%8C%E6%89%8B%E5%90%84%E6%8C%81%E4%B8%80%E6%9D%86%C2%B7%E5%8F%91%E5%B8%A6%E6%9E%B6%EF%BC%89%20%E6%A1%8C%E9%9D%A2%E6%94%B6%E7%BA%B3%2F%E6%91%86%E4%BB%B6%E6%94%AF%E6%9E%B6%20idea-020%20DESIGN.md%20README.md%20build_mesh.py%20check.py%20figure-rack-preview.png%20figure-rack-report.json%20figure-rack.3mf%20figure-rack.stl%20model.py%20model.scad">
+  <a class="thumb" href="models/idea-020-figure-rack/figure-rack-preview.png">
+    <img loading="lazy" src="models/idea-020-figure-rack/figure-rack-preview.png" alt="小人晾架（二次元小人双手各持一杆·发带架）">
+  </a>
+  <div class="body">
+    <h2>小人晾架（二次元小人双手各持一杆·发带架）</h2>
+    <p class="meta"><span class="badge original">原创</span> 桌面收纳/摆件支架 · idea-020 · 1.3 MB</p>
+    <p class="sum">主人原话（2026-10-25）：一个二次元人物，左右手，一只手托一个杆子，这种是不是可以当做衣架呢？—— 即不用框架，改由小人偶本体当支架、两只手各持一根晾杆；用途与 idea-018 龙门架相同：同时晾 2–3 条发带，杆距与杆径要够分开、不互相压叠</p>
+    <ul class="files">
+      <li><a href="models/idea-020-figure-rack/figure-rack.3mf" download>figure-rack.3mf</a><span>3MF 213 KB</span></li>
+      <li><a href="models/idea-020-figure-rack/figure-rack.stl" download>figure-rack.stl</a><span>STL 890 KB</span></li>
+      <li><a href="models/idea-020-figure-rack/model.scad" download>model.scad</a><span>SCAD 5 KB</span></li>
+    </ul>
+    <details><summary>其他文件（6）</summary><ul class="files dim"><li><a href="models/idea-020-figure-rack/DESIGN.md">DESIGN.md</a><span>20 KB</span></li><li><a href="models/idea-020-figure-rack/README.md">README.md</a><span>1 KB</span></li><li><a href="models/idea-020-figure-rack/build_mesh.py">build_mesh.py</a><span>9 KB</span></li><li><a href="models/idea-020-figure-rack/check.py">check.py</a><span>23 KB</span></li><li><a href="models/idea-020-figure-rack/figure-rack-report.json">figure-rack-report.json</a><span>16 KB</span></li><li><a href="models/idea-020-figure-rack/model.py">model.py</a><span>28 KB</span></li></ul></details>
+    <details><summary>预览图（1）</summary><ul class="files dim"><li><a href="models/idea-020-figure-rack/figure-rack-preview.png">figure-rack-preview.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-026" data-text="%E3%80%8C%E8%8B%97%E5%A3%AE%E3%80%8D%E8%89%BA%E6%9C%AF%E5%AD%97%203D%20%E7%AB%8B%E7%89%8C%EF%BC%88%E8%A1%8C%E6%A5%B7%20%2F%20%E9%AD%8F%E7%A2%91%E4%B8%A4%E4%B8%AA%E5%AD%97%E9%9D%A2%20%2B%20%E6%8F%92%E6%A7%BD%E5%BA%95%E5%BA%A7%EF%BC%89%20%E6%A1%8C%E9%9D%A2%E6%91%86%E4%BB%B6%2F%E5%90%8D%E7%89%8C%20idea-026%20README.md%20build_mesh.py%20build_separate.py%20build_solid.py%20check.py%20check_solid.py%20miao-zhuang-base-report.json%20miao-zhuang-base.3mf%20miao-zhuang-base.stl%20miao-zhuang-sep-baoli-1miao.3mf%20miao-zhuang-sep-baoli-1miao.stl%20miao-zhuang-sep-baoli-2zhuang.3mf%20miao-zhuang-sep-baoli-2zhuang.stl%20miao-zhuang-sep-baoli-plate-report.json%20miao-zhuang-sep-baoli-plate-sliced.3mf%20miao-zhuang-sep-baoli-plate.3mf%20miao-zhuang-sep-weibei-1miao.3mf%20miao-zhuang-sep-weibei-1miao.stl%20miao-zhuang-sep-weibei-2zhuang.3mf%20miao-zhuang-sep-weibei-2zhuang.stl%20miao-zhuang-sep-weibei-plate-report.json%20miao-zhuang-sep-weibei-plate-sliced.3mf%20miao-zhuang-sep-weibei-plate.3mf%20miao-zhuang-sep-xingkai-1miao.3mf%20miao-zhuang-sep-xingkai-1miao.stl%20miao-zhuang-sep-xingkai-2zhuang.3mf%20miao-zhuang-sep-xingkai-2zhuang.stl%20miao-zhuang-sep-xingkai-plate-report.json%20miao-zhuang-sep-xingkai-plate-sliced.3mf%20miao-zhuang-sep-xingkai-plate.3mf%20miao-zhuang-solid-baoli-report.json%20miao-zhuang-solid-baoli.3mf%20miao-zhuang-solid-baoli.stl%20miao-zhuang-solid-weibei-report.json%20miao-zhuang-solid-weibei.3mf%20miao-zhuang-solid-weibei.stl%20miao-zhuang-solid-xingkai-report.json%20miao-zhuang-solid-xingkai.3mf%20miao-zhuang-solid-xingkai.stl%20miao-zhuang-weibei-report.json%20miao-zhuang-weibei.3mf%20miao-zhuang-weibei.stl%20miao-zhuang-xingkai-report.json%20miao-zhuang-xingkai.3mf%20miao-zhuang-xingkai.stl%20model.py%20model.scad%20preview.py%20preview%2Fassembled-weibei-preview.stl%20preview%2Fassembled-weibei.png%20preview%2Fassembled-xingkai-preview.stl%20preview%2Fassembled-xingkai.png%20preview%2Fface-weibei.png%20preview%2Fface-xingkai.png%20preview%2Ffour-base.png%20preview%2Ffour-xingkai.png%20preview%2Fsep-all.png%20preview%2Fsep-baoli-iso.png%20preview%2Fsep-baoli.png%20preview%2Fsep-weibei-iso.png%20preview%2Fsep-weibei.png%20preview%2Fsep-xingkai-iso.png%20preview%2Fsep-xingkai.png%20preview%2Fsolid-baoli-iso.png%20preview%2Fsolid-baoli.png%20preview%2Fsolid-weibei-iso.png%20preview%2Fsolid-weibei.png%20preview%2Fsolid-xingkai-iso.png%20preview%2Fsolid-xingkai.png%20preview_separate.py%20%E8%8B%97%E5%A3%AE%E8%89%BA%E6%9C%AF%E5%AD%97-3D%E7%AB%8B%E7%89%8C.zip%20%E8%8B%97%E5%A3%AE%E8%89%BA%E6%9C%AF%E5%AD%97-%E5%88%86%E4%BD%93%E7%89%88.zip">
+  <a class="thumb" href="models/idea-026-miao-zhuang-art-text/preview/assembled-weibei.png">
+    <img loading="lazy" src="models/idea-026-miao-zhuang-art-text/preview/assembled-weibei.png" alt="「苗壮」艺术字 3D 立牌（行楷 / 魏碑两个字面 + 插槽底座）">
+  </a>
+  <div class="body">
+    <h2>「苗壮」艺术字 3D 立牌（行楷 / 魏碑两个字面 + 插槽底座）</h2>
+    <p class="meta"><span class="badge original">原创</span> 桌面摆件/名牌 · idea-026 · 20.8 MB</p>
+    <p class="sum">主人原话（2026-10-31）：你帮我生成用的苗壮的艺术字然后变成 3d 建模 我好打印；交付件 3 个：miao-zhuang-xingkai（135.0x73.3x9.0）、miao-zhuang-weibei（132.5x71.0x9.0）、miao-zhuang-base（141.0x45.0x10.0），各配 STL + 3MF + 真几何效果图</p>
+    <ul class="files">
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-base.3mf" download>miao-zhuang-base.3mf</a><span>3MF 5 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-base.stl" download>miao-zhuang-base.stl</a><span>STL 24 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-1miao.3mf" download>miao-zhuang-sep-baoli-1miao.3mf</a><span>3MF 75 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-1miao.stl" download>miao-zhuang-sep-baoli-1miao.stl</a><span>STL 338 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-2zhuang.3mf" download>miao-zhuang-sep-baoli-2zhuang.3mf</a><span>3MF 71 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-2zhuang.stl" download>miao-zhuang-sep-baoli-2zhuang.stl</a><span>STL 258 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-plate-sliced.3mf" download>miao-zhuang-sep-baoli-plate-sliced.3mf</a><span>3MF 1.5 MB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-plate.3mf" download>miao-zhuang-sep-baoli-plate.3mf</a><span>3MF 145 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-1miao.3mf" download>miao-zhuang-sep-weibei-1miao.3mf</a><span>3MF 82 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-1miao.stl" download>miao-zhuang-sep-weibei-1miao.stl</a><span>STL 376 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-2zhuang.3mf" download>miao-zhuang-sep-weibei-2zhuang.3mf</a><span>3MF 69 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-2zhuang.stl" download>miao-zhuang-sep-weibei-2zhuang.stl</a><span>STL 322 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-plate-sliced.3mf" download>miao-zhuang-sep-weibei-plate-sliced.3mf</a><span>3MF 1.3 MB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-plate.3mf" download>miao-zhuang-sep-weibei-plate.3mf</a><span>3MF 151 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-1miao.3mf" download>miao-zhuang-sep-xingkai-1miao.3mf</a><span>3MF 79 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-1miao.stl" download>miao-zhuang-sep-xingkai-1miao.stl</a><span>STL 349 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-2zhuang.3mf" download>miao-zhuang-sep-xingkai-2zhuang.3mf</a><span>3MF 48 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-2zhuang.stl" download>miao-zhuang-sep-xingkai-2zhuang.stl</a><span>STL 216 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-plate-sliced.3mf" download>miao-zhuang-sep-xingkai-plate-sliced.3mf</a><span>3MF 1.6 MB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-plate.3mf" download>miao-zhuang-sep-xingkai-plate.3mf</a><span>3MF 126 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-baoli.3mf" download>miao-zhuang-solid-baoli.3mf</a><span>3MF 119 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-baoli.stl" download>miao-zhuang-solid-baoli.stl</a><span>STL 541 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-weibei.3mf" download>miao-zhuang-solid-weibei.3mf</a><span>3MF 146 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-weibei.stl" download>miao-zhuang-solid-weibei.stl</a><span>STL 684 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-xingkai.3mf" download>miao-zhuang-solid-xingkai.3mf</a><span>3MF 124 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-xingkai.stl" download>miao-zhuang-solid-xingkai.stl</a><span>STL 557 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-weibei.3mf" download>miao-zhuang-weibei.3mf</a><span>3MF 132 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-weibei.stl" download>miao-zhuang-weibei.stl</a><span>STL 634 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-xingkai.3mf" download>miao-zhuang-xingkai.3mf</a><span>3MF 124 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-xingkai.stl" download>miao-zhuang-xingkai.stl</a><span>STL 564 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/model.scad" download>model.scad</a><span>SCAD 2 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/preview/assembled-weibei-preview.stl" download>assembled-weibei-preview.stl</a><span>STL 658 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/preview/assembled-xingkai-preview.stl" download>assembled-xingkai-preview.stl</a><span>STL 587 KB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/%E8%8B%97%E5%A3%AE%E8%89%BA%E6%9C%AF%E5%AD%97-3D%E7%AB%8B%E7%89%8C.zip" download>苗壮艺术字-3D立牌.zip</a><span>ZIP 1.8 MB</span></li>
+      <li><a href="models/idea-026-miao-zhuang-art-text/%E8%8B%97%E5%A3%AE%E8%89%BA%E6%9C%AF%E5%AD%97-%E5%88%86%E4%BD%93%E7%89%88.zip" download>苗壮艺术字-分体版.zip</a><span>ZIP 6.3 MB</span></li>
+    </ul>
+    <details><summary>其他文件（18）</summary><ul class="files dim"><li><a href="models/idea-026-miao-zhuang-art-text/README.md">README.md</a><span>7 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/build_mesh.py">build_mesh.py</a><span>7 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/build_separate.py">build_separate.py</a><span>10 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/build_solid.py">build_solid.py</a><span>8 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/check.py">check.py</a><span>8 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/check_solid.py">check_solid.py</a><span>4 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-base-report.json">miao-zhuang-base-report.json</a><span>1 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-plate-report.json">miao-zhuang-sep-baoli-plate-report.json</a><span>2 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-plate-report.json">miao-zhuang-sep-weibei-plate-report.json</a><span>2 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-plate-report.json">miao-zhuang-sep-xingkai-plate-report.json</a><span>2 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-baoli-report.json">miao-zhuang-solid-baoli-report.json</a><span>1 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-weibei-report.json">miao-zhuang-solid-weibei-report.json</a><span>1 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-xingkai-report.json">miao-zhuang-solid-xingkai-report.json</a><span>1 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-weibei-report.json">miao-zhuang-weibei-report.json</a><span>1 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/miao-zhuang-xingkai-report.json">miao-zhuang-xingkai-report.json</a><span>1 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/model.py">model.py</a><span>3 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/preview.py">preview.py</a><span>5 KB</span></li><li><a href="models/idea-026-miao-zhuang-art-text/preview_separate.py">preview_separate.py</a><span>2 KB</span></li></ul></details>
+    <details><summary>预览图（19）</summary><ul class="files dim"><li><a href="models/idea-026-miao-zhuang-art-text/preview/assembled-weibei.png">assembled-weibei.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/assembled-xingkai.png">assembled-xingkai.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/face-weibei.png">face-weibei.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/face-xingkai.png">face-xingkai.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/four-base.png">four-base.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/four-xingkai.png">four-xingkai.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/sep-all.png">sep-all.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/sep-baoli-iso.png">sep-baoli-iso.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/sep-baoli.png">sep-baoli.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/sep-weibei-iso.png">sep-weibei-iso.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/sep-weibei.png">sep-weibei.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/sep-xingkai-iso.png">sep-xingkai-iso.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/sep-xingkai.png">sep-xingkai.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/solid-baoli-iso.png">solid-baoli-iso.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/solid-baoli.png">solid-baoli.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/solid-weibei-iso.png">solid-weibei-iso.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/solid-weibei.png">solid-weibei.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/solid-xingkai-iso.png">solid-xingkai-iso.png</a></li><li><a href="models/idea-026-miao-zhuang-art-text/preview/solid-xingkai.png">solid-xingkai.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="derived" data-id="idea-027" data-text="%E5%8D%A1%E5%8D%A1%E5%90%8A%E7%89%8C%C2%B7%E5%9C%86%E5%BD%A2%E7%89%88%EF%BC%88%E6%AD%A3%E9%9D%A2%E6%97%A0%E5%AD%97%20%2F%20%E8%83%8C%E9%9D%A2%E5%87%B9%E6%A7%BD%E5%90%8D%E5%AD%97%EF%BC%89%20%E5%AE%A0%E7%89%A9%E5%90%8A%E7%89%8C%20idea-027%20README.md%20build_kaka_tag_circle.py%20render_preview.py">
+  <a class="thumb" href="models/kaka-tag-circle/">
+    <div class="noimg">无预览</div>
+  </a>
+  <div class="body">
+    <h2>卡卡吊牌·圆形版（正面无字 / 背面凹槽名字）</h2>
+    <p class="meta"><span class="badge derived">改造</span> 宠物吊牌 · idea-027 · 15 KB</p>
+    <p class="sum">纯圆盘 Ø45.7 + 顶部挂孔，整件 45.7×60×3.2（和原始 60mm 同尺寸）；正面去掉「卡卡」，保留狗头 + 0.7mm 黑包边 + 双灰线</p>
+    <ul class="files">
+      
+    </ul>
+    <details><summary>其他文件（3）</summary><ul class="files dim"><li><a href="models/kaka-tag-circle/README.md">README.md</a><span>1 KB</span></li><li><a href="models/kaka-tag-circle/build_kaka_tag_circle.py">build_kaka_tag_circle.py</a><span>8 KB</span></li><li><a href="models/kaka-tag-circle/render_preview.py">render_preview.py</a><span>6 KB</span></li></ul></details>
+    
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="idea-028" data-text="%E4%BA%91%E6%9C%B5%E6%89%98%E6%9E%B6%C2%B7SKADIS%20%E6%B4%9E%E6%B4%9E%E6%9D%BF%E6%89%8B%E5%8A%9E%E5%B0%8F%E6%90%81%E6%9D%BF%20%E6%A1%8C%E9%9D%A2%E6%94%B6%E7%BA%B3%2F%E6%B4%9E%E6%B4%9E%E6%9D%BF%20idea-028%203mf%2Fcloud-shelf-all-10pcs.3mf%203mf%2Fcloud-shelf-skadis-4plates.3mf%20README.md%20build%2Fbuild_plates_3mf.py%20build%2Fmake_manifest.py%20build%2Ftemplate-project_settings.json%20docs%2FDESIGN.md%20docs%2F%E4%B8%8A%E4%BC%A0%E6%96%87%E6%A1%88.txt%20model%2Fplate-stl%2F01-%E4%B8%BB%E4%BD%93.stl%20model%2Fplate-stl%2F02-%E8%83%8C%E6%9D%BF%2B%E5%89%8D%E6%8C%A1%E6%9D%BF.stl%20model%2Fplate-stl%2F03-%E4%BA%91%E6%9C%B5x2.stl%20model%2Fplate-stl%2F04-%E6%8B%B1%E6%9D%A1%2B%E6%98%9F%E6%9C%88.stl%20model%2Fstl%2Fback-panel.stl%20model%2Fstl%2Fcloud-a.stl%20model%2Fstl%2Fcloud-b.stl%20model%2Fstl%2Fcloud-shelf-main.stl%20model%2Fstl%2Ffront-panel.stl%20model%2Fstl%2Fmoon.stl%20model%2Fstl%2Foptional-%E4%B8%BB%E4%BD%93-%E6%8B%B1%E6%9D%A1%E8%A1%A5%E5%AE%9E.stl%20model%2Fstl%2Frainbow-arc.stl%20model%2Fstl%2Fstar-large.stl%20model%2Fstl%2Fstar-medium.stl%20model%2Fstl%2Fstar-small.stl%20preview%2Fcover-colored.png%20preview%2Fcover-views.png">
+  <a class="thumb" href="models/idea-028-cloud-shelf-skadis/preview/cover-colored.png">
+    <img loading="lazy" src="models/idea-028-cloud-shelf-skadis/preview/cover-colored.png" alt="云朵托架·SKADIS 洞洞板手办小搁板">
+  </a>
+  <div class="body">
+    <h2>云朵托架·SKADIS 洞洞板手办小搁板</h2>
+    <p class="meta"><span class="badge original">原创</span> 桌面收纳/洞洞板 · idea-028 · 3.1 MB</p>
+    <p class="sum">挂在 SKADIS 5×15mm 长圆孔上，孔距 40mm，不打孔；底盘有前后挡边，放手办/盲盒不滑出</p>
+    <ul class="files">
+      <li><a href="models/idea-028-cloud-shelf-skadis/3mf/cloud-shelf-all-10pcs.3mf" download>cloud-shelf-all-10pcs.3mf</a><span>3MF 283 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/3mf/cloud-shelf-skadis-4plates.3mf" download>cloud-shelf-skadis-4plates.3mf</a><span>3MF 253 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/plate-stl/01-%E4%B8%BB%E4%BD%93.stl" download>01-主体.stl</a><span>STL 131 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/plate-stl/02-%E8%83%8C%E6%9D%BF%2B%E5%89%8D%E6%8C%A1%E6%9D%BF.stl" download>02-背板+前挡板.stl</a><span>STL 273 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/plate-stl/03-%E4%BA%91%E6%9C%B5x2.stl" download>03-云朵x2.stl</a><span>STL 579 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/plate-stl/04-%E6%8B%B1%E6%9D%A1%2B%E6%98%9F%E6%9C%88.stl" download>04-拱条+星月.stl</a><span>STL 133 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/stl/back-panel.stl" download>back-panel.stl</a><span>STL 179 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/stl/cloud-a.stl" download>cloud-a.stl</a><span>STL 289 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/stl/cloud-b.stl" download>cloud-b.stl</a><span>STL 289 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/stl/cloud-shelf-main.stl" download>cloud-shelf-main.stl</a><span>STL 131 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/stl/front-panel.stl" download>front-panel.stl</a><span>STL 94 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/stl/moon.stl" download>moon.stl</a><span>STL 21 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/stl/optional-%E4%B8%BB%E4%BD%93-%E6%8B%B1%E6%9D%A1%E8%A1%A5%E5%AE%9E.stl" download>optional-主体-拱条补实.stl</a><span>STL 173 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/stl/rainbow-arc.stl" download>rainbow-arc.stl</a><span>STL 106 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/stl/star-large.stl" download>star-large.stl</a><span>STL 2 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/stl/star-medium.stl" download>star-medium.stl</a><span>STL 2 KB</span></li>
+      <li><a href="models/idea-028-cloud-shelf-skadis/model/stl/star-small.stl" download>star-small.stl</a><span>STL 2 KB</span></li>
+    </ul>
+    <details><summary>其他文件（6）</summary><ul class="files dim"><li><a href="models/idea-028-cloud-shelf-skadis/README.md">README.md</a><span>2 KB</span></li><li><a href="models/idea-028-cloud-shelf-skadis/build/build_plates_3mf.py">build/build_plates_3mf.py</a><span>12 KB</span></li><li><a href="models/idea-028-cloud-shelf-skadis/build/make_manifest.py">build/make_manifest.py</a><span>1 KB</span></li><li><a href="models/idea-028-cloud-shelf-skadis/build/template-project_settings.json">build/template-project_settings.json</a><span>68 KB</span></li><li><a href="models/idea-028-cloud-shelf-skadis/docs/DESIGN.md">docs/DESIGN.md</a><span>4 KB</span></li><li><a href="models/idea-028-cloud-shelf-skadis/docs/%E4%B8%8A%E4%BC%A0%E6%96%87%E6%A1%88.txt">docs/上传文案.txt</a><span>3 KB</span></li></ul></details>
+    <details><summary>预览图（2）</summary><ul class="files dim"><li><a href="models/idea-028-cloud-shelf-skadis/preview/cover-colored.png">cover-colored.png</a></li><li><a href="models/idea-028-cloud-shelf-skadis/preview/cover-views.png">cover-views.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="mark" data-text="%E3%80%8C%E8%8B%97%E5%A3%AF%E3%80%8Dmaker's%20mark%20%E5%87%B9%E5%88%BB%E5%8D%B0%E7%AB%A0%E5%88%80%E5%85%B7%20%E5%85%B6%E4%BB%96%20mark%20README.md%20seal-mark.png%20seal-raw.png%20seal-tool-16mm.pre-20261112.stl%20seal-tool-16mm.stl">
+  <a class="thumb" href="models/mark-miao-zhuang/seal-mark.png">
+    <img loading="lazy" src="models/mark-miao-zhuang/seal-mark.png" alt="「苗壯」maker's mark 凹刻印章刀具">
+  </a>
+  <div class="body">
+    <h2>「苗壯」maker's mark 凹刻印章刀具</h2>
+    <p class="meta"><span class="badge original">原创</span> 其他 · mark · 410 KB</p>
+    
+    <ul class="files">
+      <li><a href="models/mark-miao-zhuang/seal-tool-16mm.pre-20261112.stl" download>seal-tool-16mm.pre-20261112.stl</a><span>STL 100 KB</span></li>
+      <li><a href="models/mark-miao-zhuang/seal-tool-16mm.stl" download>seal-tool-16mm.stl</a><span>STL 101 KB</span></li>
+    </ul>
+    <details><summary>其他文件（1）</summary><ul class="files dim"><li><a href="models/mark-miao-zhuang/README.md">README.md</a><span>3 KB</span></li></ul></details>
+    <details><summary>预览图（2）</summary><ul class="files dim"><li><a href="models/mark-miao-zhuang/seal-mark.png">seal-mark.png</a></li><li><a href="models/mark-miao-zhuang/seal-raw.png">seal-raw.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="derived" data-id="mark-variants" data-text="%E3%80%8C%E8%8B%97%E5%A3%AE%E3%80%8Dmark%20%E4%B8%89%E5%8F%98%E4%BD%93%EF%BC%88%E5%90%AB%E6%BA%90%E4%B8%8A%E4%BC%A0%E4%BB%B6%EF%BC%89%20%E5%85%B6%E4%BB%96%20mark-variants%2001_Intaglio_Stamp.step%2001_Intaglio_Stamp.stl%2001_Intaglio_Stamp_Back.png%2001_Intaglio_Stamp_Preview.png%2001_Intaglio_Stamp_mesh.json%2002_Raised_Logo_Plaque.step%2002_Raised_Logo_Plaque.stl%2002_Raised_Logo_Plaque_Preview.png%2002_Raised_Logo_Plaque_mesh.json%2003_Figurine_Display_Base.step%2003_Figurine_Display_Base.stl%2003_Figurine_Display_Base_Preview.png%2003_Figurine_Display_Base_mesh.json%20Miaozhuang_Three_Variants.png%20README.md%20README_%E4%B8%89%E7%A7%8D%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.txt%20Render_Stamp_Back.py%20Render_Variants.py%20Style_Variants.py%20Validate_STL.py%20Validate_Variants.py%20geometry_report.json%20miaozhuang-logo.svg%20source-upload-2026-11-12.zip%20stl_validation.json%20validation_report.json">
+  <a class="thumb" href="models/mark-miaozhuang-three-variants/01_Intaglio_Stamp_Preview.png">
+    <img loading="lazy" src="models/mark-miaozhuang-three-variants/01_Intaglio_Stamp_Preview.png" alt="「苗壮」mark 三变体（含源上传件）">
+  </a>
+  <div class="body">
+    <h2>「苗壮」mark 三变体（含源上传件）</h2>
+    <p class="meta"><span class="badge derived">改造</span> 其他 · mark-variants · 36.4 MB</p>
+    
+    <ul class="files">
+      <li><a href="models/mark-miaozhuang-three-variants/01_Intaglio_Stamp.step" download>01_Intaglio_Stamp.step</a><span>STEP 698 KB</span></li>
+      <li><a href="models/mark-miaozhuang-three-variants/01_Intaglio_Stamp.stl" download>01_Intaglio_Stamp.stl</a><span>STL 1.5 MB</span></li>
+      <li><a href="models/mark-miaozhuang-three-variants/02_Raised_Logo_Plaque.step" download>02_Raised_Logo_Plaque.step</a><span>STEP 692 KB</span></li>
+      <li><a href="models/mark-miaozhuang-three-variants/02_Raised_Logo_Plaque.stl" download>02_Raised_Logo_Plaque.stl</a><span>STL 514 KB</span></li>
+      <li><a href="models/mark-miaozhuang-three-variants/03_Figurine_Display_Base.step" download>03_Figurine_Display_Base.step</a><span>STEP 688 KB</span></li>
+      <li><a href="models/mark-miaozhuang-three-variants/03_Figurine_Display_Base.stl" download>03_Figurine_Display_Base.stl</a><span>STL 1.4 MB</span></li>
+      <li><a href="models/mark-miaozhuang-three-variants/source-upload-2026-11-12.zip" download>source-upload-2026-11-12.zip</a><span>ZIP 16.4 MB</span></li>
+    </ul>
+    <details><summary>其他文件（14）</summary><ul class="files dim"><li><a href="models/mark-miaozhuang-three-variants/01_Intaglio_Stamp_mesh.json">01_Intaglio_Stamp_mesh.json</a><span>257 KB</span></li><li><a href="models/mark-miaozhuang-three-variants/02_Raised_Logo_Plaque_mesh.json">02_Raised_Logo_Plaque_mesh.json</a><span>79 KB</span></li><li><a href="models/mark-miaozhuang-three-variants/03_Figurine_Display_Base_mesh.json">03_Figurine_Display_Base_mesh.json</a><span>172 KB</span></li><li><a href="models/mark-miaozhuang-three-variants/README.md">README.md</a><span>2 KB</span></li><li><a href="models/mark-miaozhuang-three-variants/README_%E4%B8%89%E7%A7%8D%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.txt">README_三种版本使用说明.txt</a><span>4 KB</span></li><li><a href="models/mark-miaozhuang-three-variants/Render_Stamp_Back.py">Render_Stamp_Back.py</a><span>1 KB</span></li><li><a href="models/mark-miaozhuang-three-variants/Render_Variants.py">Render_Variants.py</a><span>4 KB</span></li><li><a href="models/mark-miaozhuang-three-variants/Style_Variants.py">Style_Variants.py</a><span>2 KB</span></li><li><a href="models/mark-miaozhuang-three-variants/Validate_STL.py">Validate_STL.py</a><span>1 KB</span></li><li><a href="models/mark-miaozhuang-three-variants/Validate_Variants.py">Validate_Variants.py</a><span>3 KB</span></li><li><a href="models/mark-miaozhuang-three-variants/geometry_report.json">geometry_report.json</a><span>2 KB</span></li><li><a href="models/mark-miaozhuang-three-variants/miaozhuang-logo.svg">miaozhuang-logo.svg</a><span>3 KB</span></li><li><a href="models/mark-miaozhuang-three-variants/stl_validation.json">stl_validation.json</a><span>1 KB</span></li><li><a href="models/mark-miaozhuang-three-variants/validation_report.json">validation_report.json</a><span>2 KB</span></li></ul></details>
+    <details><summary>预览图（5）</summary><ul class="files dim"><li><a href="models/mark-miaozhuang-three-variants/01_Intaglio_Stamp_Back.png">01_Intaglio_Stamp_Back.png</a></li><li><a href="models/mark-miaozhuang-three-variants/01_Intaglio_Stamp_Preview.png">01_Intaglio_Stamp_Preview.png</a></li><li><a href="models/mark-miaozhuang-three-variants/02_Raised_Logo_Plaque_Preview.png">02_Raised_Logo_Plaque_Preview.png</a></li><li><a href="models/mark-miaozhuang-three-variants/03_Figurine_Display_Base_Preview.png">03_Figurine_Display_Base_Preview.png</a></li><li><a href="models/mark-miaozhuang-three-variants/Miaozhuang_Three_Variants.png">Miaozhuang_Three_Variants.png</a></li></ul></details>
+  </div>
+</article>
+<article class="card" data-cls="original" data-id="p1s-exhaust-tee" data-text="P1S%20%E6%8E%92%E9%A3%8E%E4%B8%89%E9%80%9A%20V3%EF%BC%88%E5%AF%B9%E5%BC%80%E4%B8%A4%E7%93%A3%EF%BC%89%20%E5%85%B6%E4%BB%96%20p1s-exhaust-tee%20README.md%20build_tee.py%20build_tee_split.py%20build_test_fit.py%20coupon%2Fbuild_coupon.py%20coupon%2Fchecks_and_mass.json%20coupon%2Fprint-params.md%20coupon%2Fwall-coupling-pair_sliced.3mf%20coupon%2Fwall_coupling_A.stl%20coupon%2Fwall_coupling_B.stl%20coupon%2F%E6%89%93%E5%8D%B0%E8%AF%B4%E6%98%8E.txt%20exhaust-tee-split-assembled.stl%20exhaust-tee-split-assembled_preview.png%20exhaust-tee-split.3mf%20exhaust-tee-split_preview.png%20exhaust-tee-split_print.3mf%20exhaust-tee-split_print_support.3mf%20exhaust-tee.stl%20preview.png%20print-params.md%20report.json%20tee-test-fit-assembled.stl%20tee-test-fit-assembled_preview.png%20tee-test-fit.3mf%20tee-test-fit_preview.png%20tee_split_A.stl%20tee_split_A_repaired.stl%20tee_split_B.stl%20test-fit-half-A.stl%20test-fit-half-B.stl%20test-fit-report.json%20three_views.png">
+  <a class="thumb" href="models/exhaust-tee-p1s/exhaust-tee-split-assembled_preview.png">
+    <img loading="lazy" src="models/exhaust-tee-p1s/exhaust-tee-split-assembled_preview.png" alt="P1S 排风三通 V3（对开两瓣）">
+  </a>
+  <div class="body">
+    <h2>P1S 排风三通 V3（对开两瓣）</h2>
+    <p class="meta"><span class="badge original">原创</span> 其他 · p1s-exhaust-tee · 6.8 MB</p>
+    
+    <ul class="files">
+      <li><a href="models/exhaust-tee-p1s/coupon/wall-coupling-pair_sliced.3mf" download>wall-coupling-pair_sliced.3mf</a><span>3MF 190 KB</span></li>
+      <li><a href="models/exhaust-tee-p1s/coupon/wall_coupling_A.stl" download>wall_coupling_A.stl</a><span>STL 103 KB</span></li>
+      <li><a href="models/exhaust-tee-p1s/coupon/wall_coupling_B.stl" download>wall_coupling_B.stl</a><span>STL 103 KB</span></li>
+      <li><a href="models/exhaust-tee-p1s/exhaust-tee-split-assembled.stl" download>exhaust-tee-split-assembled.stl</a><span>STL 481 KB</span></li>
+      <li><a href="models/exhaust-tee-p1s/exhaust-tee-split.3mf" download>exhaust-tee-split.3mf</a><span>3MF 126 KB</span></li>
+      <li><a href="models/exhaust-tee-p1s/exhaust-tee-split_print.3mf" download>exhaust-tee-split_print.3mf</a><span>3MF 1.4 MB</span></li>
+      <li><a href="models/exhaust-tee-p1s/exhaust-tee-split_print_support.3mf" download>exhaust-tee-split_print_support.3mf</a><span>3MF 2.4 MB</span></li>
+      <li><a href="models/exhaust-tee-p1s/exhaust-tee.stl" download>exhaust-tee.stl</a><span>STL 445 KB</span></li>
+      <li><a href="models/exhaust-tee-p1s/tee-test-fit-assembled.stl" download>tee-test-fit-assembled.stl</a><span>STL 132 KB</span></li>
+      <li><a href="models/exhaust-tee-p1s/tee-test-fit.3mf" download>tee-test-fit.3mf</a><span>3MF 29 KB</span></li>
+      <li><a href="models/exhaust-tee-p1s/tee_split_A.stl" download>tee_split_A.stl</a><span>STL 282 KB</span></li>
+      <li><a href="models/exhaust-tee-p1s/tee_split_A_repaired.stl" download>tee_split_A_repaired.stl</a><span>STL 280 KB</span></li>
+      <li><a href="models/exhaust-tee-p1s/tee_split_B.stl" download>tee_split_B.stl</a><span>STL 199 KB</span></li>
+      <li><a href="models/exhaust-tee-p1s/test-fit-half-A.stl" download>test-fit-half-A.stl</a><span>STL 66 KB</span></li>
+      <li><a href="models/exhaust-tee-p1s/test-fit-half-B.stl" download>test-fit-half-B.stl</a><span>STL 66 KB</span></li>
+    </ul>
+    <details><summary>其他文件（11）</summary><ul class="files dim"><li><a href="models/exhaust-tee-p1s/README.md">README.md</a><span>2 KB</span></li><li><a href="models/exhaust-tee-p1s/build_tee.py">build_tee.py</a><span>3 KB</span></li><li><a href="models/exhaust-tee-p1s/build_tee_split.py">build_tee_split.py</a><span>16 KB</span></li><li><a href="models/exhaust-tee-p1s/build_test_fit.py">build_test_fit.py</a><span>5 KB</span></li><li><a href="models/exhaust-tee-p1s/coupon/build_coupon.py">coupon/build_coupon.py</a><span>2 KB</span></li><li><a href="models/exhaust-tee-p1s/coupon/checks_and_mass.json">coupon/checks_and_mass.json</a><span>1 KB</span></li><li><a href="models/exhaust-tee-p1s/coupon/print-params.md">coupon/print-params.md</a><span>1 KB</span></li><li><a href="models/exhaust-tee-p1s/coupon/%E6%89%93%E5%8D%B0%E8%AF%B4%E6%98%8E.txt">coupon/打印说明.txt</a><span>1 KB</span></li><li><a href="models/exhaust-tee-p1s/print-params.md">print-params.md</a><span>3 KB</span></li><li><a href="models/exhaust-tee-p1s/report.json">report.json</a><span>1 KB</span></li><li><a href="models/exhaust-tee-p1s/test-fit-report.json">test-fit-report.json</a><span>1 KB</span></li></ul></details>
+    <details><summary>预览图（6）</summary><ul class="files dim"><li><a href="models/exhaust-tee-p1s/exhaust-tee-split-assembled_preview.png">exhaust-tee-split-assembled_preview.png</a></li><li><a href="models/exhaust-tee-p1s/exhaust-tee-split_preview.png">exhaust-tee-split_preview.png</a></li><li><a href="models/exhaust-tee-p1s/preview.png">preview.png</a></li><li><a href="models/exhaust-tee-p1s/tee-test-fit-assembled_preview.png">tee-test-fit-assembled_preview.png</a></li><li><a href="models/exhaust-tee-p1s/tee-test-fit_preview.png">tee-test-fit_preview.png</a></li><li><a href="models/exhaust-tee-p1s/three_views.png">three_views.png</a></li></ul></details>
+  </div>
+</article>
+<div class="empty" id="empty" hidden>没有匹配的模型</div>
+</main>
+<footer>
+  生成时间 2026-11-16 · 共 21 个模型 / 251.6 MB
+  · 索引由 <code>tools/build-site.mjs</code> 从 <code>models/*/MODEL.json</code> 生成 · 打印机：Bambu Lab P1S
+</footer>
+<script>
+  const q = document.getElementById('q'), grid = document.getElementById('grid'), empty = document.getElementById('empty');
+  let cls = 'all';
+  const cards = [...grid.querySelectorAll('.card')];
+  function apply() {
+    const s = q.value.trim().toLowerCase();
+    let shown = 0;
+    for (const c of cards) {
+      const text = decodeURIComponent(c.dataset.text).toLowerCase();
+      const ok = (cls === 'all' || c.dataset.cls === cls) && (!s || text.includes(s));
+      c.hidden = !ok;
+      if (ok) shown++;
+    }
+    empty.hidden = shown > 0;
+  }
+  q.addEventListener('input', apply);
+  for (const b of document.querySelectorAll('.filters button')) {
+    b.addEventListener('click', () => {
+      cls = b.dataset.f;
+      for (const x of document.querySelectorAll('.filters button')) x.setAttribute('aria-pressed', String(x === b));
+      apply();
+    });
+  }
+</script>
+</body>
+</html>

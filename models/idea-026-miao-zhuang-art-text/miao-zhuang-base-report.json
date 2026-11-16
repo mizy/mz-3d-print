@@ -1,0 +1,24 @@
+{
+  "base_w": 140.99,
+  "base_d": 45,
+  "base_h": 10,
+  "slot_w": 3.6,
+  "slot_depth": 6,
+  "slot_clear_per_side": 0.3,
+  "chamfer": true,
+  "kind": "底座",
+  "stl": "miao-zhuang-base.stl",
+  "3mf": "miao-zhuang-base.3mf",
+  "size": [
+    140.99,
+    45.0,
+    10.0
+  ],
+  "min_corner": [
+    -70.5,
+    -22.5,
+    0.0
+  ],
+  "volume_mm3": 60243.0,
+  "solids": 1
+}

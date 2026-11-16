@@ -1,0 +1,15 @@
+{
+  "wall_coupling_A": {
+    "valid": true,
+    "watertight": true,
+    "volume_mm3": 1553.1111770517118,
+    "estimated_PETG_g": 1.9413889713146397
+  },
+  "wall_coupling_B": {
+    "valid": true,
+    "watertight": true,
+    "volume_mm3": 1553.1111770517077,
+    "estimated_PETG_g": 1.9413889713146346
+  },
+  "total_estimated_PETG_g": 3.882777942629274
+}

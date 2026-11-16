@@ -1,0 +1,57 @@
+[
+  {
+    "design": "01_Intaglio_Stamp",
+    "valid": true,
+    "solids": 1,
+    "closed": true,
+    "size_mm": [
+      76.0,
+      96.2088772845953,
+      40.0
+    ],
+    "volume_mm3": 56062.50682625599,
+    "notes": "Horizontally mirrored logo; 1.2 mm intaglio recess. Prints a solid background with the logo left uninked. This is not a raised-line positive stamp. Rigid prototype; material and ink trials required.",
+    "checks": {
+      "mirrored": true,
+      "recess_depth_mm": 1.2,
+      "logo_width_mm": 60
+    }
+  },
+  {
+    "design": "02_Raised_Logo_Plaque",
+    "valid": true,
+    "solids": 1,
+    "closed": true,
+    "size_mm": [
+      114.0,
+      144.31331592689295,
+      10.0
+    ],
+    "volume_mm3": 106952.03594699634,
+    "notes": "Connected single solid with 5 mm raised logo on 5 mm backing. Colors are finish suggestions; geometry is monolithic and contains no separate inlay fit.",
+    "checks": {
+      "mirrored": false,
+      "relief_height_mm": 5,
+      "logo_width_mm": 90
+    }
+  },
+  {
+    "design": "03_Figurine_Display_Base",
+    "valid": true,
+    "solids": 1,
+    "closed": true,
+    "size_mm": [
+      160,
+      160,
+      18
+    ],
+    "volume_mm3": 313999.08263153106,
+    "notes": "Display-only concept: 160 mm outside diameter, 100 mm clear raised platform, 18 mm maximum height. No assumed figurine foot holes, pegs, magnets or attachment tolerances. Confirm figure footprint and center of gravity before production.",
+    "checks": {
+      "platform_diameter_mm": 100,
+      "logo_width_mm": 26,
+      "relief_height_mm": 1.2,
+      "mounting_holes": false
+    }
+  }
+]

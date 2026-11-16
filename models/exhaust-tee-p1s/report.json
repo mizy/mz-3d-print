@@ -1,0 +1,20 @@
+{
+  "solid_volume_cm3": 61.8,
+  "a_volume_cm3": 33.89,
+  "b_volume_cm3": 31.17,
+  "watertight": true,
+  "probe_main_block_mm3": 0.0,
+  "probe_branch_block_mm3": 0.0,
+  "probe_insert_block_mm3": 0.0,
+  "a_intersect_b_cm3": 0.001,
+  "union_extra_cm3": 3.2583,
+  "union_missing_cm3": 0.1518,
+  "latch_arc_mm": 26.0,
+  "latch_strain_pct": 1.073,
+  "support_area_mm2": 2072.9,
+  "bbox_mm": [
+    102.8,
+    68.0,
+    115.2
+  ]
+}

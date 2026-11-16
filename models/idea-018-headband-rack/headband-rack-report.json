@@ -1,0 +1,296 @@
+{
+  "bbox_mm": [
+    150.0,
+    128.0,
+    195
+  ],
+  "bridge": {
+    "bar_span": 134,
+    "beam_span": 112.0,
+    "count": 5,
+    "note": "朝下平面只有这几条 1.6mm 细棱；更该防的是断面陡悬垂——楔形侧面 24.6°（< 45 免支撑）",
+    "strip_w": 1.6
+  },
+  "clear_mm": {
+    "x": 134,
+    "y_between_rails": 112.0,
+    "z_under_bar": 188
+  },
+  "com_mm": [
+    0.0,
+    0.0,
+    89.047
+  ],
+  "design": "桌面龙门晾架：底座环 + 6 立柱 + 3 晾杆 + 2 侧梁，一件打印、免支撑、无装配",
+  "files": {
+    "hook": {
+      "bbox_cad_mm": [
+        24.0,
+        12.8,
+        25.0
+      ],
+      "check_model": {
+        "3mf": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-018-headband-rack/headband-hook.3mf",
+        "3mf_triangles": 44,
+        "3mf_vertex_max_offset_mm": 0.0,
+        "3mf_vertices": 24,
+        "area_mm2": 1773.2,
+        "bytes": 2284,
+        "failures": [],
+        "file": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-018-headband-rack/headband-hook.stl",
+        "material": "PLA",
+        "size_mm": [
+          24.0,
+          12.8,
+          25.0
+        ],
+        "solid_mass_g": 2.16,
+        "stl_format": "binary",
+        "stl_triangles": 44,
+        "triangles": 44,
+        "vertices": 24,
+        "volume_mm3": 1743.6
+      },
+      "stl": "headband-hook.stl",
+      "stl_bytes": 2284,
+      "three_mf": "headband-hook.3mf",
+      "volume_cad_mm3": 1743.6
+    },
+    "rack": {
+      "bbox_cad_mm": [
+        150.0,
+        128.0,
+        195.0
+      ],
+      "check_model": {
+        "3mf": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-018-headband-rack/headband-rack.3mf",
+        "3mf_triangles": 188,
+        "3mf_vertex_max_offset_mm": 0.0,
+        "3mf_vertices": 80,
+        "area_mm2": 67447.638,
+        "bytes": 9484,
+        "failures": [],
+        "file": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-018-headband-rack/headband-rack.stl",
+        "material": "PLA",
+        "size_mm": [
+          150.0,
+          128.0,
+          195.0
+        ],
+        "solid_mass_g": 156.04,
+        "stl_format": "binary",
+        "stl_triangles": 188,
+        "triangles": 188,
+        "vertices": 80,
+        "volume_mm3": 125840.003
+      },
+      "stl": "headband-rack.stl",
+      "stl_bytes": 9484,
+      "three_mf": "headband-rack.3mf",
+      "volume_cad_mm3": 125840.0
+    }
+  },
+  "foot_area_mm2": 4192.0,
+  "hook": {
+    "bbox_mm": [
+      24.0,
+      12.8,
+      25.0
+    ],
+    "inner_gap_mm": 8.8,
+    "per_plate": 4,
+    "prong_len_mm": 22,
+    "volume_analytic_mm3": 1743.6
+  },
+  "idea": "idea-018",
+  "joint_overlap_mm3": 7808.0,
+  "load": {
+    "cases": {
+      "3条同挂一根杆": {
+        "M_Nmm": 39.422733,
+        "P_N": 1.176798,
+        "deflect_PETG_mm": 0.25236370831743565,
+        "deflect_PLA_mm": 0.1442078333242489,
+        "grams": 120,
+        "sf_PETG": 32.57249997601561,
+        "sf_PLA": 34.65159571916554,
+        "sigma_MPa": 1.4429349922360248
+      },
+      "单条湿发带": {
+        "M_Nmm": 13.140911,
+        "P_N": 0.39226599999999995,
+        "deflect_PETG_mm": 0.08412123610581188,
+        "deflect_PLA_mm": 0.04806927777474964,
+        "grams": 40,
+        "sf_PETG": 97.71749992804683,
+        "sf_PLA": 103.95478715749663,
+        "sigma_MPa": 0.4809783307453416
+      },
+      "湿毛巾 300g（误用）": {
+        "M_Nmm": 98.5568325,
+        "P_N": 2.941995,
+        "deflect_PETG_mm": 0.6309092707935892,
+        "deflect_PLA_mm": 0.36051958331062234,
+        "grams": 300.0,
+        "sf_PETG": 13.028999990406243,
+        "sf_PLA": 13.860638287666216,
+        "sigma_MPa": 3.607337480590062
+      }
+    },
+    "section": {
+      "area": 33.6,
+      "bot_w": 1.6,
+      "c_max": 4.2778,
+      "h": 7,
+      "i": 116.8741,
+      "side_deg": 24.5672,
+      "top_w": 8,
+      "vc": 4.2778,
+      "w": 27.3212
+    },
+    "span_mm": 134
+  },
+  "mass_g": {
+    "PETG": 159.82,
+    "PLA": 156.04
+  },
+  "material_ratio": 0.0336,
+  "members": [
+    {
+      "area_mm2": 64,
+      "len": 128.0,
+      "name": "底环纵杆-",
+      "vol_mm3": 8192.0
+    },
+    {
+      "area_mm2": 64,
+      "len": 128.0,
+      "name": "底环纵杆+",
+      "vol_mm3": 8192.0
+    },
+    {
+      "area_mm2": 64,
+      "len": 150.0,
+      "name": "底环横杆-",
+      "vol_mm3": 9600.0
+    },
+    {
+      "area_mm2": 64,
+      "len": 150.0,
+      "name": "底环横杆+",
+      "vol_mm3": 9600.0
+    },
+    {
+      "area_mm2": 64,
+      "len": 195,
+      "name": "立柱-1/-60",
+      "vol_mm3": 12480
+    },
+    {
+      "area_mm2": 64,
+      "len": 195,
+      "name": "立柱-1/+0",
+      "vol_mm3": 12480
+    },
+    {
+      "area_mm2": 64,
+      "len": 195,
+      "name": "立柱-1/+60",
+      "vol_mm3": 12480
+    },
+    {
+      "area_mm2": 64,
+      "len": 195,
+      "name": "立柱+1/-60",
+      "vol_mm3": 12480
+    },
+    {
+      "area_mm2": 64,
+      "len": 195,
+      "name": "立柱+1/+0",
+      "vol_mm3": 12480
+    },
+    {
+      "area_mm2": 64,
+      "len": 195,
+      "name": "立柱+1/+60",
+      "vol_mm3": 12480
+    },
+    {
+      "area_mm2": 33.6,
+      "len": 150.0,
+      "name": "晾杆y-60",
+      "vol_mm3": 5040.0
+    },
+    {
+      "area_mm2": 33.6,
+      "len": 150.0,
+      "name": "晾杆y+0",
+      "vol_mm3": 5040.0
+    },
+    {
+      "area_mm2": 33.6,
+      "len": 150.0,
+      "name": "晾杆y+60",
+      "vol_mm3": 5040.0
+    },
+    {
+      "area_mm2": 33.6,
+      "len": 120.0,
+      "name": "侧梁-",
+      "vol_mm3": 4032.0
+    },
+    {
+      "area_mm2": 33.6,
+      "len": 120.0,
+      "name": "侧梁+",
+      "vol_mm3": 4032.0
+    }
+  ],
+  "name": "headband-rack",
+  "print_orientation": {
+    "bridges": "5 条 1.6mm 宽细棱，跨 134mm(晾杆) / 112mm(侧梁)",
+    "min_feature_mm": 1.6,
+    "supports": "不需要",
+    "姿态": "模型坐标系即打印姿态：Z 向上、底座环贴床"
+  },
+  "section": {
+    "area": 33.6,
+    "bot_w": 1.6,
+    "c_max": 4.2778,
+    "h": 7,
+    "i": 116.8741,
+    "side_deg": 24.5672,
+    "top_w": 8,
+    "vc": 4.2778,
+    "w": 27.3212
+  },
+  "tipping": {
+    "cases": {
+      "PETG": {
+        "load_lever_mm": 24.0,
+        "mass_g": 159.8168,
+        "push_to_tip_front_g": 67.2219241025641,
+        "push_to_tip_side_g": 61.468,
+        "slide_force_g": 111.92672,
+        "weight_N": 1.56726742172
+      },
+      "PLA": {
+        "load_lever_mm": 24.0,
+        "mass_g": 156.04160000000002,
+        "push_to_tip_front_g": 65.98288410256411,
+        "push_to_tip_side_g": 60.01600000000001,
+        "slide_force_g": 110.41664,
+        "weight_N": 1.5302453566400003
+      }
+    },
+    "edge_x_mm": 75.0,
+    "edge_y_mm": 64.0
+  },
+  "volume_analytic_mm3": 125840.0,
+  "volume_samples_mm3": {
+    "step_0.05mm": 125840.0,
+    "step_0.5mm": 125840.0
+  },
+  "volume_solids_mm3": 133648.0
+}

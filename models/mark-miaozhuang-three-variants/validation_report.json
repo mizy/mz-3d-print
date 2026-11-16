@@ -1,0 +1,109 @@
+[
+  {
+    "file": "01_Intaglio_Stamp",
+    "source_valid": true,
+    "source_solid_count": 1,
+    "source_closed": true,
+    "step_valid": true,
+    "step_solid_count": 1,
+    "step_closed": true,
+    "step_volume_relative_error": 4.5424033086075745e-15,
+    "step_size_mm": [
+      76.0,
+      96.208877284588,
+      40.2
+    ],
+    "parameter_change_test": {
+      "changes_mm": {
+        "LogoWidth": 54,
+        "RecessDepth": 1.5
+      },
+      "expected_size_mm": [
+        70,
+        88.18798955613578,
+        40
+      ],
+      "actual_size_mm": [
+        70.0000002,
+        88.18798975613578,
+        40.0000001
+      ],
+      "valid": true,
+      "solids": 1
+    },
+    "restored_valid": true,
+    "actual_cavity_volume_mm3": 2699.893243528837,
+    "expected_cavity_volume_mm3": 2699.8932435288266,
+    "horizontal_mirror_checked": true
+  },
+  {
+    "file": "02_Raised_Logo_Plaque",
+    "source_valid": true,
+    "source_solid_count": 1,
+    "source_closed": true,
+    "step_valid": true,
+    "step_solid_count": 1,
+    "step_closed": true,
+    "step_volume_relative_error": 5.387983855949317e-14,
+    "step_size_mm": [
+      114.0,
+      144.313315926886,
+      10.0
+    ],
+    "parameter_change_test": {
+      "changes_mm": {
+        "LogoWidth": 99,
+        "ReliefHeight": 6.5
+      },
+      "expected_size_mm": [
+        123,
+        156.34464751958225,
+        11.5
+      ],
+      "actual_size_mm": [
+        123.0000002,
+        156.34464771958224,
+        11.5000001
+      ],
+      "valid": true,
+      "solids": 1
+    },
+    "restored_valid": true
+  },
+  {
+    "file": "03_Figurine_Display_Base",
+    "source_valid": true,
+    "source_solid_count": 1,
+    "source_closed": true,
+    "step_valid": true,
+    "step_solid_count": 1,
+    "step_closed": true,
+    "step_volume_relative_error": 5.338807426628842e-14,
+    "step_size_mm": [
+      160.0,
+      160.0,
+      18.0
+    ],
+    "parameter_change_test": {
+      "changes_mm": {
+        "BaseDiameter": 176,
+        "PlatformDiameter": 110,
+        "BodyHeight": 13.5
+      },
+      "expected_size_mm": [
+        176,
+        176,
+        20.5
+      ],
+      "actual_size_mm": [
+        176.0,
+        176.0,
+        20.5000001
+      ],
+      "valid": true,
+      "solids": 1
+    },
+    "restored_valid": true,
+    "logo_platform_intersection_mm3": 0.0
+  }
+]

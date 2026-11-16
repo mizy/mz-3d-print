@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01_Intaglio_Stamp.stl",
+    "triangles": 6210,
+    "edge_count": 9315,
+    "nonmanifold_or_open_edges": 0,
+    "inconsistently_oriented_edges": 0,
+    "signed_volume_mm3": 56059.443140167634
+  },
+  {
+    "file": "02_Raised_Logo_Plaque.stl",
+    "triangles": 2080,
+    "edge_count": 3120,
+    "nonmanifold_or_open_edges": 0,
+    "inconsistently_oriented_edges": 0,
+    "signed_volume_mm3": 106951.76058946006
+  },
+  {
+    "file": "03_Figurine_Display_Base.stl",
+    "triangles": 6006,
+    "edge_count": 9009,
+    "nonmanifold_or_open_edges": 0,
+    "inconsistently_oriented_edges": 0,
+    "signed_volume_mm3": 313961.04651419364
+  }
+]

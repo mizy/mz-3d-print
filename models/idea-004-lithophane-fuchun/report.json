@@ -1,0 +1,50 @@
+{
+  "vertices": 116202,
+  "triangles": 232400,
+  "size_mm": [
+    160.0,
+    89.9556,
+    3.0
+  ],
+  "sample_mm": [
+    0.5,
+    0.4998
+  ],
+  "thickness_mm": {
+    "min": 0.8,
+    "max": 3.0,
+    "mean": 1.7321
+  },
+  "volume_mm3": 24771.082,
+  "estimated_volume_mm3": 24929.81,
+  "failures": [],
+  "image": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-004-lithophane-fuchun/source.jpg",
+  "name": "lithophane-fuchun-river",
+  "grid": [
+    321,
+    181
+  ],
+  "source_pixels": [
+    181,
+    321
+  ],
+  "params": {
+    "width_mm": 160.0,
+    "height_mm": 89.9556,
+    "sample_mm": 0.5,
+    "min_thickness_mm": 0.8,
+    "max_thickness_mm": 3.0,
+    "frame_mm": 3.0,
+    "gamma": 1.0,
+    "invert": false
+  },
+  "files": {
+    "stl": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-004-lithophane-fuchun/lithophane-fuchun-river.stl",
+    "stl_bytes": 11620084,
+    "3mf": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-004-lithophane-fuchun/lithophane-fuchun-river.3mf",
+    "3mf_bytes": 1834676,
+    "preview": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-004-lithophane-fuchun/lithophane-fuchun-river-preview.png"
+  },
+  "orientation": "图像在 XY 平面、厚度沿 Z；正面(起伏面)朝 +Z，图片上方在 +Y",
+  "print_hint": "平放打印：平整背面贴热床、起伏面朝上，不用支撑；层高 0.08-0.1mm，墙 3-4 圈（厚度方向全是外墙），速度放慢；0.4 喷嘴配 sample-mm 0.4-0.6"
+}

@@ -1,0 +1,22 @@
+{
+  "file": "models/idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet.stl",
+  "stl_format": "binary",
+  "bytes": 310684,
+  "stl_triangles": 6212,
+  "vertices": 3108,
+  "triangles": 6212,
+  "size_mm": [
+    60.0,
+    40.0042,
+    5.0
+  ],
+  "volume_mm3": 6053.715,
+  "area_mm2": 4067.911,
+  "solid_mass_g": 7.51,
+  "material": "PLA",
+  "3mf": "models/idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet.3mf",
+  "3mf_vertices": 3108,
+  "3mf_triangles": 6212,
+  "3mf_vertex_max_offset_mm": 0.0,
+  "failures": []
+}

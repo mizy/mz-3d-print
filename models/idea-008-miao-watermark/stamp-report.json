@@ -1,0 +1,63 @@
+{
+  "vertices": 73476,
+  "triangles": 146948,
+  "size_mm": [
+    70.0,
+    46.6667,
+    4.1
+  ],
+  "sample_mm": [
+    0.3004,
+    0.2991
+  ],
+  "thickness_mm": {
+    "min": 2.5,
+    "max": 4.1,
+    "mean": 3.2303
+  },
+  "volume_mm3": 10577.824,
+  "estimated_volume_mm3": 10552.228,
+  "failures": [],
+  "image": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-008-miao-watermark/source-logotype.png",
+  "name": "miao-stamp",
+  "grid": [
+    234,
+    157
+  ],
+  "crop_box_px": [
+    255,
+    351,
+    2248,
+    1304
+  ],
+  "figure_share": 0.4564,
+  "background_share": 0.5441,
+  "heights_mm": {
+    "plate": 2.5,
+    "figure": 4.1,
+    "max": 4.1
+  },
+  "params": {
+    "sample_mm": 0.3,
+    "bg_threshold": 200.0,
+    "margin_mm": 4.0,
+    "blur": 0.8,
+    "line_gain": 0,
+    "mirror_x": true,
+    "dome_d_mm": 0.0,
+    "dome_h_mm": 8.0
+  },
+  "dark_line_width_mm": 4.039,
+  "samples_per_line": 13.44,
+  "line_printable": true,
+  "files": {
+    "stl": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-008-miao-watermark/miao-stamp.stl",
+    "stl_bytes": 7347484,
+    "3mf": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-008-miao-watermark/miao-stamp.3mf",
+    "3mf_bytes": 1227852,
+    "preview": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-008-miao-watermark/miao-stamp-preview.png"
+  },
+  "mirror_x": "已左右镜像（印章压出来是正的）",
+  "orientation": "图像在 XY 平面、高度沿 Z；浮雕面朝 +Z，图片上方在 +Y",
+  "print_hint": "平放打印：平整背面贴板、浮雕面朝上，不用支撑；层高 0.08-0.12mm，墙 3 圈；0.4 喷嘴配 sample-mm 0.4-0.5"
+}

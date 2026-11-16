@@ -1,0 +1,2235 @@
+[
+  {
+    "id": "idea-003",
+    "title": "内存条 + CPU 展示架",
+    "category": "展示收纳",
+    "status": "design",
+    "cls": "original",
+    "summary": "展示用过的内存条与 CPU，像收藏陈列一样摆出来；内存条靠基板边缘承托，绝不夹压金手指；CPU 四边托住基板，中心悬空不碰针脚",
+    "dir": "idea-003-memory-cpu-rack",
+    "bytes": 87875903,
+    "cover": "idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48-preview.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 2880,
+        "url": "models/idea-003-memory-cpu-rack/README.md"
+      },
+      {
+        "rel": "anime-relief/miao-anime-depth-120x48-emboss.3mf",
+        "size": 871840,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48-emboss.3mf"
+      },
+      {
+        "rel": "anime-relief/miao-anime-depth-120x48-emboss.stl",
+        "size": 4675284,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48-emboss.stl"
+      },
+      {
+        "rel": "anime-relief/miao-anime-depth-120x48-hero.png",
+        "size": 116384,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48-hero.png"
+      },
+      {
+        "rel": "anime-relief/miao-anime-depth-120x48-preview.png",
+        "size": 89077,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48-preview.png"
+      },
+      {
+        "rel": "anime-relief/miao-anime-depth-120x48-report.json",
+        "size": 1642,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48-report.json"
+      },
+      {
+        "rel": "anime-relief/miao-anime-depth-120x48.3mf",
+        "size": 1807424,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48.3mf"
+      },
+      {
+        "rel": "anime-relief/miao-anime-depth-120x48.stl",
+        "size": 9494284,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/miao-anime-depth-120x48.stl"
+      },
+      {
+        "rel": "anime-relief/miao-anime-relief-120x61-preview.png",
+        "size": 69563,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/miao-anime-relief-120x61-preview.png"
+      },
+      {
+        "rel": "anime-relief/miao-anime-relief-120x61.3mf",
+        "size": 1549310,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/miao-anime-relief-120x61.3mf"
+      },
+      {
+        "rel": "anime-relief/miao-anime-relief-120x61.stl",
+        "size": 9210484,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/miao-anime-relief-120x61.stl"
+      },
+      {
+        "rel": "anime-relief/miao-anime-relief-150x76-preview.png",
+        "size": 101581,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/miao-anime-relief-150x76-preview.png"
+      },
+      {
+        "rel": "anime-relief/miao-anime-relief-150x76.3mf",
+        "size": 2502438,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/miao-anime-relief-150x76.3mf"
+      },
+      {
+        "rel": "anime-relief/miao-anime-relief-150x76.stl",
+        "size": 14363084,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/miao-anime-relief-150x76.stl"
+      },
+      {
+        "rel": "anime-relief/source-doubao-150x76.png",
+        "size": 1566839,
+        "url": "models/idea-003-memory-cpu-rack/anime-relief/source-doubao-150x76.png"
+      },
+      {
+        "rel": "check.py",
+        "size": 15544,
+        "url": "models/idea-003-memory-cpu-rack/check.py"
+      },
+      {
+        "rel": "design-v3.md",
+        "size": 8858,
+        "url": "models/idea-003-memory-cpu-rack/design-v3.md"
+      },
+      {
+        "rel": "makerworld-export/skadis-tray-makerworld/skadis-tray-preview.png",
+        "size": 15443,
+        "url": "models/idea-003-memory-cpu-rack/makerworld-export/skadis-tray-makerworld/skadis-tray-preview.png"
+      },
+      {
+        "rel": "makerworld-export/skadis-tray-makerworld/skadis-tray.3mf",
+        "size": 2525,
+        "url": "models/idea-003-memory-cpu-rack/makerworld-export/skadis-tray-makerworld/skadis-tray.3mf"
+      },
+      {
+        "rel": "makerworld-export/skadis-tray-makerworld/skadis-tray.stl",
+        "size": 7484,
+        "url": "models/idea-003-memory-cpu-rack/makerworld-export/skadis-tray-makerworld/skadis-tray.stl"
+      },
+      {
+        "rel": "makerworld-export/skadis-tray-makerworld/上传文案.txt",
+        "size": 2384,
+        "url": "models/idea-003-memory-cpu-rack/makerworld-export/skadis-tray-makerworld/上传文案.txt"
+      },
+      {
+        "rel": "memory-cpu-display-rack-v2.stl",
+        "size": 150684,
+        "url": "models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v2.stl"
+      },
+      {
+        "rel": "memory-cpu-display-rack-v3.stl",
+        "size": 746389,
+        "url": "models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v3.stl"
+      },
+      {
+        "rel": "memory-cpu-display-rack-v4-wide-cpu.stl",
+        "size": 1021372,
+        "url": "models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v4-wide-cpu.stl"
+      },
+      {
+        "rel": "memory-cpu-display-rack-v5.3mf",
+        "size": 43741,
+        "url": "models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v5.3mf"
+      },
+      {
+        "rel": "memory-cpu-display-rack-v5.stl",
+        "size": 220484,
+        "url": "models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v5.stl"
+      },
+      {
+        "rel": "memory-cpu-display-rack-v6.3mf",
+        "size": 27197,
+        "url": "models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v6.3mf"
+      },
+      {
+        "rel": "memory-cpu-display-rack-v6.stl",
+        "size": 133584,
+        "url": "models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v6.stl"
+      },
+      {
+        "rel": "memory-cpu-display-rack-v7.3mf",
+        "size": 27363,
+        "url": "models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v7.3mf"
+      },
+      {
+        "rel": "memory-cpu-display-rack-v7.stl",
+        "size": 134384,
+        "url": "models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v7.stl"
+      },
+      {
+        "rel": "memory-cpu-display-rack-v8.3mf",
+        "size": 482107,
+        "url": "models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v8.3mf"
+      },
+      {
+        "rel": "memory-cpu-display-rack-v8.stl",
+        "size": 2103384,
+        "url": "models/idea-003-memory-cpu-rack/memory-cpu-display-rack-v8.stl"
+      },
+      {
+        "rel": "model.py",
+        "size": 7589,
+        "url": "models/idea-003-memory-cpu-rack/model.py"
+      },
+      {
+        "rel": "preview.png",
+        "size": 146491,
+        "url": "models/idea-003-memory-cpu-rack/preview.png"
+      },
+      {
+        "rel": "preview.py",
+        "size": 16696,
+        "url": "models/idea-003-memory-cpu-rack/preview.py"
+      },
+      {
+        "rel": "rack-v5-hero.png",
+        "size": 53111,
+        "url": "models/idea-003-memory-cpu-rack/rack-v5-hero.png"
+      },
+      {
+        "rel": "rack-v5-with-anime-relief-preview.png",
+        "size": 186948,
+        "url": "models/idea-003-memory-cpu-rack/rack-v5-with-anime-relief-preview.png"
+      },
+      {
+        "rel": "rack-v6-hero.png",
+        "size": 46454,
+        "url": "models/idea-003-memory-cpu-rack/rack-v6-hero.png"
+      },
+      {
+        "rel": "rack-v6-viewing-angle.png",
+        "size": 34963,
+        "url": "models/idea-003-memory-cpu-rack/rack-v6-viewing-angle.png"
+      },
+      {
+        "rel": "rack-v6-with-anime-relief-preview.png",
+        "size": 152207,
+        "url": "models/idea-003-memory-cpu-rack/rack-v6-with-anime-relief-preview.png"
+      },
+      {
+        "rel": "rack-v7-hero.png",
+        "size": 56797,
+        "url": "models/idea-003-memory-cpu-rack/rack-v7-hero.png"
+      },
+      {
+        "rel": "rack-v7-viewing-angle.png",
+        "size": 46993,
+        "url": "models/idea-003-memory-cpu-rack/rack-v7-viewing-angle.png"
+      },
+      {
+        "rel": "rack-v7-with-depth-relief-preview.png",
+        "size": 181182,
+        "url": "models/idea-003-memory-cpu-rack/rack-v7-with-depth-relief-preview.png"
+      },
+      {
+        "rel": "rack-v8-hero.png",
+        "size": 65903,
+        "url": "models/idea-003-memory-cpu-rack/rack-v8-hero.png"
+      },
+      {
+        "rel": "rack-v8-relief-top.png",
+        "size": 113080,
+        "url": "models/idea-003-memory-cpu-rack/rack-v8-relief-top.png"
+      },
+      {
+        "rel": "rack-v8-viewing-angle.png",
+        "size": 47705,
+        "url": "models/idea-003-memory-cpu-rack/rack-v8-viewing-angle.png"
+      },
+      {
+        "rel": "rack-v8-views.png",
+        "size": 184662,
+        "url": "models/idea-003-memory-cpu-rack/rack-v8-views.png"
+      },
+      {
+        "rel": "rack.scad",
+        "size": 17987,
+        "url": "models/idea-003-memory-cpu-rack/rack.scad"
+      },
+      {
+        "rel": "superseded/check.py",
+        "size": 4830,
+        "url": "models/idea-003-memory-cpu-rack/superseded/check.py"
+      },
+      {
+        "rel": "superseded/preview.png",
+        "size": 15505,
+        "url": "models/idea-003-memory-cpu-rack/superseded/preview.png"
+      },
+      {
+        "rel": "superseded/preview.py",
+        "size": 5946,
+        "url": "models/idea-003-memory-cpu-rack/superseded/preview.py"
+      },
+      {
+        "rel": "superseded/rack.scad",
+        "size": 6034,
+        "url": "models/idea-003-memory-cpu-rack/superseded/rack.scad"
+      },
+      {
+        "rel": "superseded/v2-design/check.py",
+        "size": 7148,
+        "url": "models/idea-003-memory-cpu-rack/superseded/v2-design/check.py"
+      },
+      {
+        "rel": "superseded/v2-design/model.py",
+        "size": 5945,
+        "url": "models/idea-003-memory-cpu-rack/superseded/v2-design/model.py"
+      },
+      {
+        "rel": "superseded/v2-design/preview.png",
+        "size": 24188,
+        "url": "models/idea-003-memory-cpu-rack/superseded/v2-design/preview.png"
+      },
+      {
+        "rel": "superseded/v2-design/preview.py",
+        "size": 10387,
+        "url": "models/idea-003-memory-cpu-rack/superseded/v2-design/preview.py"
+      },
+      {
+        "rel": "superseded/v2-design/rack.scad",
+        "size": 10740,
+        "url": "models/idea-003-memory-cpu-rack/superseded/v2-design/rack.scad"
+      },
+      {
+        "rel": "superseded/v2-design/rack.stl",
+        "size": 150684,
+        "url": "models/idea-003-memory-cpu-rack/superseded/v2-design/rack.stl"
+      },
+      {
+        "rel": "superseded/v2-design/render-front.png",
+        "size": 34524,
+        "url": "models/idea-003-memory-cpu-rack/superseded/v2-design/render-front.png"
+      },
+      {
+        "rel": "superseded/v2-design/render-iso.png",
+        "size": 66959,
+        "url": "models/idea-003-memory-cpu-rack/superseded/v2-design/render-iso.png"
+      },
+      {
+        "rel": "superseded/v2-design/render-side.png",
+        "size": 25719,
+        "url": "models/idea-003-memory-cpu-rack/superseded/v2-design/render-side.png"
+      },
+      {
+        "rel": "superseded/v2-design/render-top.png",
+        "size": 49114,
+        "url": "models/idea-003-memory-cpu-rack/superseded/v2-design/render-top.png"
+      },
+      {
+        "rel": "v17-skadis/README.txt",
+        "size": 2249,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/README.txt"
+      },
+      {
+        "rel": "v17-skadis/arrange_plates.py",
+        "size": 4880,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/arrange_plates.py"
+      },
+      {
+        "rel": "v17-skadis/assembly.stl",
+        "size": 5442184,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/assembly.stl"
+      },
+      {
+        "rel": "v17-skadis/assets/relief.stl",
+        "size": 9494284,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/assets/relief.stl"
+      },
+      {
+        "rel": "v17-skadis/board-232.stl",
+        "size": 1443984,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/board-232.stl"
+      },
+      {
+        "rel": "v17-skadis/board.stl",
+        "size": 1443984,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/board.stl"
+      },
+      {
+        "rel": "v17-skadis/design.json",
+        "size": 20928,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/design.json"
+      },
+      {
+        "rel": "v17-skadis/design.png",
+        "size": 107691,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/design.png"
+      },
+      {
+        "rel": "v17-skadis/design.py",
+        "size": 10070,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/design.py"
+      },
+      {
+        "rel": "v17-skadis/desk_foot.stl",
+        "size": 15884,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/desk_foot.stl"
+      },
+      {
+        "rel": "v17-skadis/fix_hook.py",
+        "size": 3506,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/fix_hook.py"
+      },
+      {
+        "rel": "v17-skadis/print-plates/00_fit_test-hookfix.3mf",
+        "size": 13226,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/00_fit_test-hookfix.3mf"
+      },
+      {
+        "rel": "v17-skadis/print-plates/00_fit_test-hookfix.sliced.3mf",
+        "size": 136329,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/00_fit_test-hookfix.sliced.3mf"
+      },
+      {
+        "rel": "v17-skadis/print-plates/00_fit_test.sliced.3mf",
+        "size": 143249,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/00_fit_test.sliced.3mf"
+      },
+      {
+        "rel": "v17-skadis/print-plates/00_optional_fit_test.3mf",
+        "size": 13180,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/00_optional_fit_test.3mf"
+      },
+      {
+        "rel": "v17-skadis/print-plates/01_board-232.sliced.3mf",
+        "size": 2057812,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/01_board-232.sliced.3mf"
+      },
+      {
+        "rel": "v17-skadis/print-plates/01_board.3mf",
+        "size": 304575,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/01_board.3mf"
+      },
+      {
+        "rel": "v17-skadis/print-plates/02_relief_feet_trays-hookfix.3mf",
+        "size": 1061904,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/02_relief_feet_trays-hookfix.3mf"
+      },
+      {
+        "rel": "v17-skadis/print-plates/02_relief_feet_trays-hookfix.sliced.3mf",
+        "size": 3751399,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/02_relief_feet_trays-hookfix.sliced.3mf"
+      },
+      {
+        "rel": "v17-skadis/print-plates/02_relief_feet_trays.3mf",
+        "size": 1061722,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/02_relief_feet_trays.3mf"
+      },
+      {
+        "rel": "v17-skadis/print-plates/02_relief_feet_trays.sliced.3mf",
+        "size": 3747216,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/02_relief_feet_trays.sliced.3mf"
+      },
+      {
+        "rel": "v17-skadis/print-plates/fit_coupon.stl",
+        "size": 47384,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/fit_coupon.stl"
+      },
+      {
+        "rel": "v17-skadis/print-plates/layout.json",
+        "size": 4198,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/layout.json"
+      },
+      {
+        "rel": "v17-skadis/print-plates/plate-layout.png",
+        "size": 115221,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/plate-layout.png"
+      },
+      {
+        "rel": "v17-skadis/print-plates/打印说明.txt",
+        "size": 2105,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/print-plates/打印说明.txt"
+      },
+      {
+        "rel": "v17-skadis/recess-detail.png",
+        "size": 92880,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/recess-detail.png"
+      },
+      {
+        "rel": "v17-skadis/relief-detail.png",
+        "size": 62475,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/relief-detail.png"
+      },
+      {
+        "rel": "v17-skadis/relief_badge.stl",
+        "size": 3914884,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/relief_badge.stl"
+      },
+      {
+        "rel": "v17-skadis/universal_tray-hookfix.stl",
+        "size": 7484,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/universal_tray-hookfix.stl"
+      },
+      {
+        "rel": "v17-skadis/universal_tray.stl",
+        "size": 7484,
+        "url": "models/idea-003-memory-cpu-rack/v17-skadis/universal_tray.stl"
+      }
+    ]
+  },
+  {
+    "id": "idea-004",
+    "title": "富春江芦茨湾·透光浮雕试片",
+    "category": "摆件/礼物",
+    "status": "design",
+    "cls": "original",
+    "summary": "主人原话：拿桐庐江色那张水彩做一版透光浮雕试试，出 3MF 发他；亮处薄、暗处厚：最薄 0.8mm 最厚 3.0mm（背光时画面透出来）",
+    "dir": "idea-004-lithophane-fuchun",
+    "bytes": 13640836,
+    "cover": "idea-004-lithophane-fuchun/lithophane-fuchun-river-preview.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 1086,
+        "url": "models/idea-004-lithophane-fuchun/README.md"
+      },
+      {
+        "rel": "lithophane-fuchun-river-preview.png",
+        "size": 68643,
+        "url": "models/idea-004-lithophane-fuchun/lithophane-fuchun-river-preview.png"
+      },
+      {
+        "rel": "lithophane-fuchun-river.3mf",
+        "size": 1834676,
+        "url": "models/idea-004-lithophane-fuchun/lithophane-fuchun-river.3mf"
+      },
+      {
+        "rel": "lithophane-fuchun-river.stl",
+        "size": 11620084,
+        "url": "models/idea-004-lithophane-fuchun/lithophane-fuchun-river.stl"
+      },
+      {
+        "rel": "report.json",
+        "size": 1496,
+        "url": "models/idea-004-lithophane-fuchun/report.json"
+      },
+      {
+        "rel": "source.jpg",
+        "size": 114851,
+        "url": "models/idea-004-lithophane-fuchun/source.jpg"
+      }
+    ]
+  },
+  {
+    "id": "idea-005",
+    "title": "二次元少女·实体浮雕试片",
+    "category": "摆件/礼物",
+    "status": "idea",
+    "cls": "original",
+    "summary": "主人原话：做一个 2 次元卡通人物的实体浮雕模型看看（他担心线条做不细）；实体凸起浮雕，不靠背光：底盘平板 + 人物剪影抬高 + 勾线/暗部再抬高一层",
+    "dir": "idea-005-anime-relief",
+    "bytes": 73569261,
+    "cover": "idea-005-anime-relief/relief-anime-girl-s105-preview.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 1272,
+        "url": "models/idea-005-anime-relief/README.md"
+      },
+      {
+        "rel": "relief-anime-girl-s105-preview.png",
+        "size": 110337,
+        "url": "models/idea-005-anime-relief/relief-anime-girl-s105-preview.png"
+      },
+      {
+        "rel": "relief-anime-girl-s105.3mf",
+        "size": 3141915,
+        "url": "models/idea-005-anime-relief/relief-anime-girl-s105.3mf"
+      },
+      {
+        "rel": "relief-anime-girl-s105.stl",
+        "size": 18462484,
+        "url": "models/idea-005-anime-relief/relief-anime-girl-s105.stl"
+      },
+      {
+        "rel": "relief-anime-girl-s200-preview.png",
+        "size": 221306,
+        "url": "models/idea-005-anime-relief/relief-anime-girl-s200-preview.png"
+      },
+      {
+        "rel": "relief-anime-girl-s200.3mf",
+        "size": 6896623,
+        "url": "models/idea-005-anime-relief/relief-anime-girl-s200.3mf"
+      },
+      {
+        "rel": "relief-anime-girl-s200.stl",
+        "size": 41553884,
+        "url": "models/idea-005-anime-relief/relief-anime-girl-s200.stl"
+      },
+      {
+        "rel": "report-s105.json",
+        "size": 1570,
+        "url": "models/idea-005-anime-relief/report-s105.json"
+      },
+      {
+        "rel": "report-s200.json",
+        "size": 1576,
+        "url": "models/idea-005-anime-relief/report-s200.json"
+      },
+      {
+        "rel": "source.png",
+        "size": 3178294,
+        "url": "models/idea-005-anime-relief/source.png"
+      }
+    ]
+  },
+  {
+    "id": "idea-006",
+    "title": "桌面工具收纳盘（家里常用工具）",
+    "category": "桌面收纳",
+    "status": "idea",
+    "cls": "original",
+    "summary": "主人原话：参数化建模加进 skill，然后做一个例子，用家里常用的一些工具；一件成型：剪刀 / 卷尺 5m / 美工刀 / 记号笔×2 / 胶带卷 各自一个位，放进去不晃",
+    "dir": "idea-006-tool-tray",
+    "bytes": 163133,
+    "cover": "idea-006-tool-tray/tool-tray-preview.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 801,
+        "url": "models/idea-006-tool-tray/README.md"
+      },
+      {
+        "rel": "check.py",
+        "size": 7559,
+        "url": "models/idea-006-tool-tray/check.py"
+      },
+      {
+        "rel": "model.py",
+        "size": 4134,
+        "url": "models/idea-006-tool-tray/model.py"
+      },
+      {
+        "rel": "model.scad",
+        "size": 4140,
+        "url": "models/idea-006-tool-tray/model.scad"
+      },
+      {
+        "rel": "tool-tray-preview.png",
+        "size": 36935,
+        "url": "models/idea-006-tool-tray/tool-tray-preview.png"
+      },
+      {
+        "rel": "tool-tray.3mf",
+        "size": 17680,
+        "url": "models/idea-006-tool-tray/tool-tray.3mf"
+      },
+      {
+        "rel": "tool-tray.stl",
+        "size": 91884,
+        "url": "models/idea-006-tool-tray/tool-tray.stl"
+      }
+    ]
+  },
+  {
+    "id": "idea-007",
+    "title": "主人的名字 · 3D 立体字/名牌",
+    "category": "摆件/礼物",
+    "status": "idea",
+    "cls": "original",
+    "summary": "主人原话：我的名字呢能打印 3D 立体的吗；把主人的名字做成 3D 立体字（中英混排都行，OpenSCAD text() 直接放样）",
+    "dir": "sample-nameplate",
+    "bytes": 365648,
+    "cover": "sample-nameplate/keychain-preview.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 1142,
+        "url": "models/sample-nameplate/README.md"
+      },
+      {
+        "rel": "keychain-preview.png",
+        "size": 34291,
+        "url": "models/sample-nameplate/keychain-preview.png"
+      },
+      {
+        "rel": "keychain-report.json",
+        "size": 925,
+        "url": "models/sample-nameplate/keychain-report.json"
+      },
+      {
+        "rel": "keychain.3mf",
+        "size": 7808,
+        "url": "models/sample-nameplate/keychain.3mf"
+      },
+      {
+        "rel": "keychain.scad",
+        "size": 713,
+        "url": "models/sample-nameplate/keychain.scad"
+      },
+      {
+        "rel": "keychain.stl",
+        "size": 39484,
+        "url": "models/sample-nameplate/keychain.stl"
+      },
+      {
+        "rel": "name-stand-preview.png",
+        "size": 41611,
+        "url": "models/sample-nameplate/name-stand-preview.png"
+      },
+      {
+        "rel": "name-stand-report.json",
+        "size": 949,
+        "url": "models/sample-nameplate/name-stand-report.json"
+      },
+      {
+        "rel": "name-stand.3mf",
+        "size": 14688,
+        "url": "models/sample-nameplate/name-stand.3mf"
+      },
+      {
+        "rel": "name-stand.scad",
+        "size": 753,
+        "url": "models/sample-nameplate/name-stand.scad"
+      },
+      {
+        "rel": "name-stand.stl",
+        "size": 73884,
+        "url": "models/sample-nameplate/name-stand.stl"
+      },
+      {
+        "rel": "name-tag-preview.png",
+        "size": 36592,
+        "url": "models/sample-nameplate/name-tag-preview.png"
+      },
+      {
+        "rel": "name-tag-report.json",
+        "size": 939,
+        "url": "models/sample-nameplate/name-tag-report.json"
+      },
+      {
+        "rel": "name-tag.3mf",
+        "size": 18063,
+        "url": "models/sample-nameplate/name-tag.3mf"
+      },
+      {
+        "rel": "name-tag.scad",
+        "size": 722,
+        "url": "models/sample-nameplate/name-tag.scad"
+      },
+      {
+        "rel": "name-tag.stl",
+        "size": 93084,
+        "url": "models/sample-nameplate/name-tag.stl"
+      }
+    ]
+  },
+  {
+    "id": "idea-008",
+    "title": "苗白菜的水印（印章 + 数字水印）",
+    "category": "摆件/礼物",
+    "status": "idea",
+    "cls": "original",
+    "summary": "主人原话：可以，你做成你的水印吧；把机甲风「苗白菜」logotype 做成我的水印：实物印章 + 数字水印两种",
+    "dir": "idea-008-miao-watermark",
+    "bytes": 11899599,
+    "cover": "idea-008-miao-watermark/miao-stamp-preview.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 1069,
+        "url": "models/idea-008-miao-watermark/README.md"
+      },
+      {
+        "rel": "miao-stamp-preview.png",
+        "size": 17774,
+        "url": "models/idea-008-miao-watermark/miao-stamp-preview.png"
+      },
+      {
+        "rel": "miao-stamp.3mf",
+        "size": 1227852,
+        "url": "models/idea-008-miao-watermark/miao-stamp.3mf"
+      },
+      {
+        "rel": "miao-stamp.stl",
+        "size": 7347484,
+        "url": "models/idea-008-miao-watermark/miao-stamp.stl"
+      },
+      {
+        "rel": "miao-watermark-dark.png",
+        "size": 1271040,
+        "url": "models/idea-008-miao-watermark/miao-watermark-dark.png"
+      },
+      {
+        "rel": "miao-watermark-white.png",
+        "size": 501046,
+        "url": "models/idea-008-miao-watermark/miao-watermark-white.png"
+      },
+      {
+        "rel": "source-logotype.png",
+        "size": 1105539,
+        "url": "models/idea-008-miao-watermark/source-logotype.png"
+      },
+      {
+        "rel": "stamp-handle-preview.png",
+        "size": 89722,
+        "url": "models/idea-008-miao-watermark/stamp-handle-preview.png"
+      },
+      {
+        "rel": "stamp-handle.3mf",
+        "size": 56720,
+        "url": "models/idea-008-miao-watermark/stamp-handle.3mf"
+      },
+      {
+        "rel": "stamp-handle.scad",
+        "size": 1401,
+        "url": "models/idea-008-miao-watermark/stamp-handle.scad"
+      },
+      {
+        "rel": "stamp-handle.stl",
+        "size": 278284,
+        "url": "models/idea-008-miao-watermark/stamp-handle.stl"
+      },
+      {
+        "rel": "stamp-report.json",
+        "size": 1668,
+        "url": "models/idea-008-miao-watermark/stamp-report.json"
+      }
+    ]
+  },
+  {
+    "id": "idea-009",
+    "title": "3D 打印二次元手办",
+    "category": "摆件/手办",
+    "status": "design",
+    "cls": "original",
+    "summary": "主人原话(10/2)：我想 3d 打印手办怎么搞；回答定位：讲清手办的完整链路（模型来源→分件切片→打印→后处理上色），不是只有『打印』一环",
+    "dir": "idea-009-miao-chibi",
+    "bytes": 1944225,
+    "cover": "idea-009-miao-chibi/preview.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 826,
+        "url": "models/idea-009-miao-chibi/README.md"
+      },
+      {
+        "rel": "check.py",
+        "size": 6861,
+        "url": "models/idea-009-miao-chibi/check.py"
+      },
+      {
+        "rel": "miao-chibi.3mf",
+        "size": 383531,
+        "url": "models/idea-009-miao-chibi/miao-chibi.3mf"
+      },
+      {
+        "rel": "miao-chibi.stl",
+        "size": 1366584,
+        "url": "models/idea-009-miao-chibi/miao-chibi.stl"
+      },
+      {
+        "rel": "model.py",
+        "size": 2692,
+        "url": "models/idea-009-miao-chibi/model.py"
+      },
+      {
+        "rel": "model.scad",
+        "size": 6712,
+        "url": "models/idea-009-miao-chibi/model.scad"
+      },
+      {
+        "rel": "preview.png",
+        "size": 177019,
+        "url": "models/idea-009-miao-chibi/preview.png"
+      }
+    ]
+  },
+  {
+    "id": "idea-010",
+    "title": "拉屎搭子玩偶",
+    "category": "摆件/手办",
+    "status": "design",
+    "cls": "derived",
+    "summary": "AI 生成网格 → 我们做分盘、支撑、朝向、层高与首层工艺；源工程与当前工程见目录",
+    "dir": "deepfish-figure",
+    "bytes": 239570,
+    "cover": "deepfish-figure/04_预览/deepfish_剩余6件v2_预览.png",
+    "files": [
+      {
+        "rel": "01_当前_v2_2026-11-15/README.md",
+        "size": 3445,
+        "url": "models/deepfish-figure/01_当前_v2_2026-11-15/README.md"
+      },
+      {
+        "rel": "02_历史_v1_2026-11-14/README.md",
+        "size": 476,
+        "url": "models/deepfish-figure/02_历史_v1_2026-11-14/README.md"
+      },
+      {
+        "rel": "04_预览/deepfish_剩余6件v2_预览.png",
+        "size": 27374,
+        "url": "models/deepfish-figure/04_预览/deepfish_剩余6件v2_预览.png"
+      },
+      {
+        "rel": "04_预览/deepfish_安全盘_预览.png",
+        "size": 26803,
+        "url": "models/deepfish-figure/04_预览/deepfish_安全盘_预览.png"
+      },
+      {
+        "rel": "04_预览/deepfish_安全盘v2_预览.png",
+        "size": 20441,
+        "url": "models/deepfish-figure/04_预览/deepfish_安全盘v2_预览.png"
+      },
+      {
+        "rel": "04_预览/deepfish_白盘v2_预览.png",
+        "size": 26509,
+        "url": "models/deepfish-figure/04_预览/deepfish_白盘v2_预览.png"
+      },
+      {
+        "rel": "04_预览/deepfish_第4盘v2_预览.png",
+        "size": 10544,
+        "url": "models/deepfish-figure/04_预览/deepfish_第4盘v2_预览.png"
+      },
+      {
+        "rel": "04_预览/deepfish_蓝盘_大件6件_预览.png",
+        "size": 47061,
+        "url": "models/deepfish-figure/04_预览/deepfish_蓝盘_大件6件_预览.png"
+      },
+      {
+        "rel": "04_预览/deepfish_蓝盘_小件10件_预览.png",
+        "size": 18015,
+        "url": "models/deepfish-figure/04_预览/deepfish_蓝盘_小件10件_预览.png"
+      },
+      {
+        "rel": "04_预览/deepfish_高件盘_预览.png",
+        "size": 50576,
+        "url": "models/deepfish-figure/04_预览/deepfish_高件盘_预览.png"
+      },
+      {
+        "rel": "README.md",
+        "size": 8326,
+        "url": "models/deepfish-figure/README.md"
+      }
+    ]
+  },
+  {
+    "id": "idea-013",
+    "title": "苗白菜·白菜叶钥匙扣",
+    "category": "摆件/礼物",
+    "status": "design",
+    "cls": "original",
+    "summary": "主人原话（2026-10-24）：给「苗白菜」系列先预建 4 件「零输入」可打印件，这是第 1 件 —— 白菜叶钥匙扣；叶形造型：叶身波边（峰谷 2.10mm）+ 浅叶脉 7 条（露出叶面 1.0mm）+ 叶柄收窄；外廓 55 x 35 x 4mm",
+    "dir": "idea-013-miao-leaf-keychain",
+    "bytes": 366249,
+    "cover": "idea-013-miao-leaf-keychain/leaf-keychain-preview.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 2266,
+        "url": "models/idea-013-miao-leaf-keychain/README.md"
+      },
+      {
+        "rel": "build_mesh.py",
+        "size": 2938,
+        "url": "models/idea-013-miao-leaf-keychain/build_mesh.py"
+      },
+      {
+        "rel": "check.py",
+        "size": 7628,
+        "url": "models/idea-013-miao-leaf-keychain/check.py"
+      },
+      {
+        "rel": "leaf-keychain-preview.png",
+        "size": 37568,
+        "url": "models/idea-013-miao-leaf-keychain/leaf-keychain-preview.png"
+      },
+      {
+        "rel": "leaf-keychain-report.json",
+        "size": 493,
+        "url": "models/idea-013-miao-leaf-keychain/leaf-keychain-report.json"
+      },
+      {
+        "rel": "leaf-keychain.3mf",
+        "size": 44021,
+        "url": "models/idea-013-miao-leaf-keychain/leaf-keychain.3mf"
+      },
+      {
+        "rel": "leaf-keychain.stl",
+        "size": 258284,
+        "url": "models/idea-013-miao-leaf-keychain/leaf-keychain.stl"
+      },
+      {
+        "rel": "model.py",
+        "size": 9105,
+        "url": "models/idea-013-miao-leaf-keychain/model.py"
+      },
+      {
+        "rel": "model.scad",
+        "size": 3946,
+        "url": "models/idea-013-miao-leaf-keychain/model.scad"
+      }
+    ]
+  },
+  {
+    "id": "idea-014",
+    "title": "苗白菜·白菜叶冰箱贴",
+    "category": "摆件/礼物",
+    "status": "design",
+    "cls": "original",
+    "summary": "主人原话（2026-10-24）：4 件预建里的第 2 件 —— 白菜叶冰箱贴，与钥匙扣同款叶形、放大到 60 x 40mm；外廓 60 x 40 x 5mm：同一套轮廓公式（波边峰谷 2.45mm、叶脉 7 条露出叶面 1.0mm），板厚加到 4mm 好给背面留磁铁槽",
+    "dir": "idea-014-miao-leaf-fridge-magnet",
+    "bytes": 427332,
+    "cover": "idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet-preview.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 2052,
+        "url": "models/idea-014-miao-leaf-fridge-magnet/README.md"
+      },
+      {
+        "rel": "build_mesh.py",
+        "size": 2663,
+        "url": "models/idea-014-miao-leaf-fridge-magnet/build_mesh.py"
+      },
+      {
+        "rel": "check.py",
+        "size": 8182,
+        "url": "models/idea-014-miao-leaf-fridge-magnet/check.py"
+      },
+      {
+        "rel": "leaf-fridge-magnet-preview.png",
+        "size": 37715,
+        "url": "models/idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet-preview.png"
+      },
+      {
+        "rel": "leaf-fridge-magnet-report.json",
+        "size": 513,
+        "url": "models/idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet-report.json"
+      },
+      {
+        "rel": "leaf-fridge-magnet.3mf",
+        "size": 52094,
+        "url": "models/idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet.3mf"
+      },
+      {
+        "rel": "leaf-fridge-magnet.stl",
+        "size": 310684,
+        "url": "models/idea-014-miao-leaf-fridge-magnet/leaf-fridge-magnet.stl"
+      },
+      {
+        "rel": "model.py",
+        "size": 9540,
+        "url": "models/idea-014-miao-leaf-fridge-magnet/model.py"
+      },
+      {
+        "rel": "model.scad",
+        "size": 3889,
+        "url": "models/idea-014-miao-leaf-fridge-magnet/model.scad"
+      }
+    ]
+  },
+  {
+    "id": "idea-015",
+    "title": "桌面理线夹三规格（4/6/8mm 线径）",
+    "category": "桌面收纳",
+    "status": "design",
+    "cls": "original",
+    "summary": "主人原话（2026-10-24）：4 件预建里的第 3 件 —— 桌面理线夹，夹持线径 4/6/8mm 三款，参数化 d_line，一次打多颗；尺寸链（参数在 model.scad）：孔中心高 = 贴胶底 2.5 + r；总高 = 2.5 + d + 顶壁 2.0；总宽 = d + 2 x 侧壁 2.4；卡入口宽 = 0.9 x 线径（比线细才有卡持），入口做 30 度喇叭好塞线",
+    "dir": "idea-015-desk-cable-clip",
+    "bytes": 102018,
+    "cover": "idea-015-desk-cable-clip/cable-clip-3pcs-preview.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 2017,
+        "url": "models/idea-015-desk-cable-clip/README.md"
+      },
+      {
+        "rel": "build_mesh.py",
+        "size": 2637,
+        "url": "models/idea-015-desk-cable-clip/build_mesh.py"
+      },
+      {
+        "rel": "cable-clip-3pcs-preview.png",
+        "size": 38481,
+        "url": "models/idea-015-desk-cable-clip/cable-clip-3pcs-preview.png"
+      },
+      {
+        "rel": "cable-clip-3pcs-report.json",
+        "size": 483,
+        "url": "models/idea-015-desk-cable-clip/cable-clip-3pcs-report.json"
+      },
+      {
+        "rel": "cable-clip-3pcs.3mf",
+        "size": 6804,
+        "url": "models/idea-015-desk-cable-clip/cable-clip-3pcs.3mf"
+      },
+      {
+        "rel": "cable-clip-3pcs.stl",
+        "size": 33684,
+        "url": "models/idea-015-desk-cable-clip/cable-clip-3pcs.stl"
+      },
+      {
+        "rel": "check.py",
+        "size": 8362,
+        "url": "models/idea-015-desk-cable-clip/check.py"
+      },
+      {
+        "rel": "model.py",
+        "size": 6353,
+        "url": "models/idea-015-desk-cable-clip/model.py"
+      },
+      {
+        "rel": "model.scad",
+        "size": 3197,
+        "url": "models/idea-015-desk-cable-clip/model.scad"
+      }
+    ]
+  },
+  {
+    "id": "idea-016",
+    "title": "吉他拨片盒（无铰链插拔盖）",
+    "category": "乐器配件/收纳",
+    "status": "design",
+    "cls": "original",
+    "summary": "主人原话（2026-10-24）：4 件预建里的第 4 件 —— 吉他拨片盒，装 8-10 片标准 351 形拨片（约 31x26mm、厚 <=1.5mm）；无铰链插拔式上盖（避开悬垂与薄壁铰链）：盒身 + 上盖两件套，盖用 4mm 高裙边套在盒口外侧，插拔单边间隙 0.25mm（FDM 装配 0.2-0.3 区间）",
+    "dir": "idea-016-guitar-pick-case",
+    "bytes": 124939,
+    "cover": "idea-016-guitar-pick-case/pick-case-preview.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 2031,
+        "url": "models/idea-016-guitar-pick-case/README.md"
+      },
+      {
+        "rel": "build_mesh.py",
+        "size": 3022,
+        "url": "models/idea-016-guitar-pick-case/build_mesh.py"
+      },
+      {
+        "rel": "check.py",
+        "size": 12865,
+        "url": "models/idea-016-guitar-pick-case/check.py"
+      },
+      {
+        "rel": "model.py",
+        "size": 4994,
+        "url": "models/idea-016-guitar-pick-case/model.py"
+      },
+      {
+        "rel": "model.scad",
+        "size": 3747,
+        "url": "models/idea-016-guitar-pick-case/model.scad"
+      },
+      {
+        "rel": "pick-case-preview.png",
+        "size": 33072,
+        "url": "models/idea-016-guitar-pick-case/pick-case-preview.png"
+      },
+      {
+        "rel": "pick-case-report.json",
+        "size": 479,
+        "url": "models/idea-016-guitar-pick-case/pick-case-report.json"
+      },
+      {
+        "rel": "pick-case.3mf",
+        "size": 10645,
+        "url": "models/idea-016-guitar-pick-case/pick-case.3mf"
+      },
+      {
+        "rel": "pick-case.stl",
+        "size": 54084,
+        "url": "models/idea-016-guitar-pick-case/pick-case.stl"
+      }
+    ]
+  },
+  {
+    "id": "idea-017",
+    "title": "镂空分隔收纳篮（苗壮制造）",
+    "category": "柜内收纳",
+    "status": "design",
+    "cls": "original",
+    "summary": "主人原话（2026-10-25）：你帮我建模 3d 打印 镂空的抽屉吧 用来分隔柜子 收纳，柜子要有标记苗壮制造；镂空：外壁/隔板/底板都开孔减料，孔间韧带 >= 3.2mm（0.4 喷嘴的 8 倍），底板上沿/下沿留实心带保刚度",
+    "dir": "idea-017-lattice-drawer-divider",
+    "bytes": 808560,
+    "cover": "idea-017-lattice-drawer-divider/lattice-divider-preview.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 3433,
+        "url": "models/idea-017-lattice-drawer-divider/README.md"
+      },
+      {
+        "rel": "build_mesh.py",
+        "size": 7837,
+        "url": "models/idea-017-lattice-drawer-divider/build_mesh.py"
+      },
+      {
+        "rel": "check.py",
+        "size": 14459,
+        "url": "models/idea-017-lattice-drawer-divider/check.py"
+      },
+      {
+        "rel": "lattice-divider-preview.png",
+        "size": 45888,
+        "url": "models/idea-017-lattice-drawer-divider/lattice-divider-preview.png"
+      },
+      {
+        "rel": "lattice-divider-report.json",
+        "size": 1481,
+        "url": "models/idea-017-lattice-drawer-divider/lattice-divider-report.json"
+      },
+      {
+        "rel": "lattice-divider.3mf",
+        "size": 111157,
+        "url": "models/idea-017-lattice-drawer-divider/lattice-divider.3mf"
+      },
+      {
+        "rel": "lattice-divider.stl",
+        "size": 609984,
+        "url": "models/idea-017-lattice-drawer-divider/lattice-divider.stl"
+      },
+      {
+        "rel": "model.py",
+        "size": 11023,
+        "url": "models/idea-017-lattice-drawer-divider/model.py"
+      },
+      {
+        "rel": "model.scad",
+        "size": 3298,
+        "url": "models/idea-017-lattice-drawer-divider/model.scad"
+      }
+    ]
+  },
+  {
+    "id": "idea-018",
+    "title": "桌面发带晾晒架（龙门晾架·跨在玩偶上方）",
+    "category": "桌面收纳/摆件支架",
+    "status": "design",
+    "cls": "original",
+    "summary": "主人原话（2026-10-25）：我需要一个桌面晾发带的小晾衣架，期望能放到或者戴到或者架在这个玩偶的上面，比如晾 2 到 3 个发带；要能同时晾 2–3 条发带：有横杆/挂钩位，杆距与杆径要够分开晾、不互相压叠",
+    "dir": "idea-018-headband-rack",
+    "bytes": 146854,
+    "cover": "idea-018-headband-rack/headband-hook-preview.png",
+    "files": [
+      {
+        "rel": "DESIGN.md",
+        "size": 19645,
+        "url": "models/idea-018-headband-rack/DESIGN.md"
+      },
+      {
+        "rel": "README.md",
+        "size": 987,
+        "url": "models/idea-018-headband-rack/README.md"
+      },
+      {
+        "rel": "build_mesh.py",
+        "size": 9007,
+        "url": "models/idea-018-headband-rack/build_mesh.py"
+      },
+      {
+        "rel": "check.py",
+        "size": 15186,
+        "url": "models/idea-018-headband-rack/check.py"
+      },
+      {
+        "rel": "headband-hook-preview.png",
+        "size": 29392,
+        "url": "models/idea-018-headband-rack/headband-hook-preview.png"
+      },
+      {
+        "rel": "headband-hook.3mf",
+        "size": 1368,
+        "url": "models/idea-018-headband-rack/headband-hook.3mf"
+      },
+      {
+        "rel": "headband-hook.stl",
+        "size": 2284,
+        "url": "models/idea-018-headband-rack/headband-hook.stl"
+      },
+      {
+        "rel": "headband-rack-preview.png",
+        "size": 30190,
+        "url": "models/idea-018-headband-rack/headband-rack-preview.png"
+      },
+      {
+        "rel": "headband-rack-report.json",
+        "size": 6880,
+        "url": "models/idea-018-headband-rack/headband-rack-report.json"
+      },
+      {
+        "rel": "headband-rack.3mf",
+        "size": 2326,
+        "url": "models/idea-018-headband-rack/headband-rack.3mf"
+      },
+      {
+        "rel": "headband-rack.stl",
+        "size": 9484,
+        "url": "models/idea-018-headband-rack/headband-rack.stl"
+      },
+      {
+        "rel": "model.py",
+        "size": 16768,
+        "url": "models/idea-018-headband-rack/model.py"
+      },
+      {
+        "rel": "model.scad",
+        "size": 3337,
+        "url": "models/idea-018-headband-rack/model.scad"
+      }
+    ]
+  },
+  {
+    "id": "idea-020",
+    "title": "小人晾架（二次元小人双手各持一杆·发带架）",
+    "category": "桌面收纳/摆件支架",
+    "status": "design",
+    "cls": "original",
+    "summary": "主人原话（2026-10-25）：一个二次元人物，左右手，一只手托一个杆子，这种是不是可以当做衣架呢？—— 即不用框架，改由小人偶本体当支架、两只手各持一根晾杆；用途与 idea-018 龙门架相同：同时晾 2–3 条发带，杆距与杆径要够分开、不互相压叠",
+    "dir": "idea-020-figure-rack",
+    "bytes": 1365251,
+    "cover": "idea-020-figure-rack/figure-rack-preview.png",
+    "files": [
+      {
+        "rel": "DESIGN.md",
+        "size": 20881,
+        "url": "models/idea-020-figure-rack/DESIGN.md"
+      },
+      {
+        "rel": "README.md",
+        "size": 866,
+        "url": "models/idea-020-figure-rack/README.md"
+      },
+      {
+        "rel": "build_mesh.py",
+        "size": 9548,
+        "url": "models/idea-020-figure-rack/build_mesh.py"
+      },
+      {
+        "rel": "check.py",
+        "size": 23846,
+        "url": "models/idea-020-figure-rack/check.py"
+      },
+      {
+        "rel": "figure-rack-preview.png",
+        "size": 130913,
+        "url": "models/idea-020-figure-rack/figure-rack-preview.png"
+      },
+      {
+        "rel": "figure-rack-report.json",
+        "size": 16569,
+        "url": "models/idea-020-figure-rack/figure-rack-report.json"
+      },
+      {
+        "rel": "figure-rack.3mf",
+        "size": 217733,
+        "url": "models/idea-020-figure-rack/figure-rack.3mf"
+      },
+      {
+        "rel": "figure-rack.stl",
+        "size": 911084,
+        "url": "models/idea-020-figure-rack/figure-rack.stl"
+      },
+      {
+        "rel": "model.py",
+        "size": 28476,
+        "url": "models/idea-020-figure-rack/model.py"
+      },
+      {
+        "rel": "model.scad",
+        "size": 5335,
+        "url": "models/idea-020-figure-rack/model.scad"
+      }
+    ]
+  },
+  {
+    "id": "idea-026",
+    "title": "「苗壮」艺术字 3D 立牌（行楷 / 魏碑两个字面 + 插槽底座）",
+    "category": "桌面摆件/名牌",
+    "status": "idea",
+    "cls": "original",
+    "summary": "主人原话（2026-10-31）：你帮我生成用的苗壮的艺术字然后变成 3d 建模 我好打印；交付件 3 个：miao-zhuang-xingkai（135.0x73.3x9.0）、miao-zhuang-weibei（132.5x71.0x9.0）、miao-zhuang-base（141.0x45.0x10.0），各配 STL + 3MF + 真几何效果图",
+    "dir": "idea-026-miao-zhuang-art-text",
+    "bytes": 21791509,
+    "cover": "idea-026-miao-zhuang-art-text/preview/assembled-weibei.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 6811,
+        "url": "models/idea-026-miao-zhuang-art-text/README.md"
+      },
+      {
+        "rel": "build_mesh.py",
+        "size": 6849,
+        "url": "models/idea-026-miao-zhuang-art-text/build_mesh.py"
+      },
+      {
+        "rel": "build_separate.py",
+        "size": 10458,
+        "url": "models/idea-026-miao-zhuang-art-text/build_separate.py"
+      },
+      {
+        "rel": "build_solid.py",
+        "size": 8190,
+        "url": "models/idea-026-miao-zhuang-art-text/build_solid.py"
+      },
+      {
+        "rel": "check.py",
+        "size": 8529,
+        "url": "models/idea-026-miao-zhuang-art-text/check.py"
+      },
+      {
+        "rel": "check_solid.py",
+        "size": 4232,
+        "url": "models/idea-026-miao-zhuang-art-text/check_solid.py"
+      },
+      {
+        "rel": "miao-zhuang-base-report.json",
+        "size": 366,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-base-report.json"
+      },
+      {
+        "rel": "miao-zhuang-base.3mf",
+        "size": 5039,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-base.3mf"
+      },
+      {
+        "rel": "miao-zhuang-base.stl",
+        "size": 24284,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-base.stl"
+      },
+      {
+        "rel": "miao-zhuang-sep-baoli-1miao.3mf",
+        "size": 76864,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-1miao.3mf"
+      },
+      {
+        "rel": "miao-zhuang-sep-baoli-1miao.stl",
+        "size": 346284,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-1miao.stl"
+      },
+      {
+        "rel": "miao-zhuang-sep-baoli-2zhuang.3mf",
+        "size": 72686,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-2zhuang.3mf"
+      },
+      {
+        "rel": "miao-zhuang-sep-baoli-2zhuang.stl",
+        "size": 263684,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-2zhuang.stl"
+      },
+      {
+        "rel": "miao-zhuang-sep-baoli-plate-report.json",
+        "size": 1558,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-plate-report.json"
+      },
+      {
+        "rel": "miao-zhuang-sep-baoli-plate-sliced.3mf",
+        "size": 1545323,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-plate-sliced.3mf"
+      },
+      {
+        "rel": "miao-zhuang-sep-baoli-plate.3mf",
+        "size": 148694,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-baoli-plate.3mf"
+      },
+      {
+        "rel": "miao-zhuang-sep-weibei-1miao.3mf",
+        "size": 83847,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-1miao.3mf"
+      },
+      {
+        "rel": "miao-zhuang-sep-weibei-1miao.stl",
+        "size": 384684,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-1miao.stl"
+      },
+      {
+        "rel": "miao-zhuang-sep-weibei-2zhuang.3mf",
+        "size": 70928,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-2zhuang.3mf"
+      },
+      {
+        "rel": "miao-zhuang-sep-weibei-2zhuang.stl",
+        "size": 330084,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-2zhuang.stl"
+      },
+      {
+        "rel": "miao-zhuang-sep-weibei-plate-report.json",
+        "size": 1601,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-plate-report.json"
+      },
+      {
+        "rel": "miao-zhuang-sep-weibei-plate-sliced.3mf",
+        "size": 1382349,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-plate-sliced.3mf"
+      },
+      {
+        "rel": "miao-zhuang-sep-weibei-plate.3mf",
+        "size": 154690,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-weibei-plate.3mf"
+      },
+      {
+        "rel": "miao-zhuang-sep-xingkai-1miao.3mf",
+        "size": 81061,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-1miao.3mf"
+      },
+      {
+        "rel": "miao-zhuang-sep-xingkai-1miao.stl",
+        "size": 356984,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-1miao.stl"
+      },
+      {
+        "rel": "miao-zhuang-sep-xingkai-2zhuang.3mf",
+        "size": 48831,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-2zhuang.3mf"
+      },
+      {
+        "rel": "miao-zhuang-sep-xingkai-2zhuang.stl",
+        "size": 221584,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-2zhuang.stl"
+      },
+      {
+        "rel": "miao-zhuang-sep-xingkai-plate-report.json",
+        "size": 1611,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-plate-report.json"
+      },
+      {
+        "rel": "miao-zhuang-sep-xingkai-plate-sliced.3mf",
+        "size": 1726576,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-plate-sliced.3mf"
+      },
+      {
+        "rel": "miao-zhuang-sep-xingkai-plate.3mf",
+        "size": 128992,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-sep-xingkai-plate.3mf"
+      },
+      {
+        "rel": "miao-zhuang-solid-baoli-report.json",
+        "size": 523,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-baoli-report.json"
+      },
+      {
+        "rel": "miao-zhuang-solid-baoli.3mf",
+        "size": 121591,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-baoli.3mf"
+      },
+      {
+        "rel": "miao-zhuang-solid-baoli.stl",
+        "size": 554184,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-baoli.stl"
+      },
+      {
+        "rel": "miao-zhuang-solid-weibei-report.json",
+        "size": 527,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-weibei-report.json"
+      },
+      {
+        "rel": "miao-zhuang-solid-weibei.3mf",
+        "size": 149977,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-weibei.3mf"
+      },
+      {
+        "rel": "miao-zhuang-solid-weibei.stl",
+        "size": 700284,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-weibei.stl"
+      },
+      {
+        "rel": "miao-zhuang-solid-xingkai-report.json",
+        "size": 531,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-xingkai-report.json"
+      },
+      {
+        "rel": "miao-zhuang-solid-xingkai.3mf",
+        "size": 127431,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-xingkai.3mf"
+      },
+      {
+        "rel": "miao-zhuang-solid-xingkai.stl",
+        "size": 570784,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-solid-xingkai.stl"
+      },
+      {
+        "rel": "miao-zhuang-weibei-report.json",
+        "size": 410,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-weibei-report.json"
+      },
+      {
+        "rel": "miao-zhuang-weibei.3mf",
+        "size": 135545,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-weibei.3mf"
+      },
+      {
+        "rel": "miao-zhuang-weibei.stl",
+        "size": 649184,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-weibei.stl"
+      },
+      {
+        "rel": "miao-zhuang-xingkai-report.json",
+        "size": 413,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-xingkai-report.json"
+      },
+      {
+        "rel": "miao-zhuang-xingkai.3mf",
+        "size": 126821,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-xingkai.3mf"
+      },
+      {
+        "rel": "miao-zhuang-xingkai.stl",
+        "size": 577184,
+        "url": "models/idea-026-miao-zhuang-art-text/miao-zhuang-xingkai.stl"
+      },
+      {
+        "rel": "model.py",
+        "size": 3039,
+        "url": "models/idea-026-miao-zhuang-art-text/model.py"
+      },
+      {
+        "rel": "model.scad",
+        "size": 2092,
+        "url": "models/idea-026-miao-zhuang-art-text/model.scad"
+      },
+      {
+        "rel": "preview.py",
+        "size": 5092,
+        "url": "models/idea-026-miao-zhuang-art-text/preview.py"
+      },
+      {
+        "rel": "preview/assembled-weibei-preview.stl",
+        "size": 673384,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/assembled-weibei-preview.stl"
+      },
+      {
+        "rel": "preview/assembled-weibei.png",
+        "size": 15760,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/assembled-weibei.png"
+      },
+      {
+        "rel": "preview/assembled-xingkai-preview.stl",
+        "size": 601384,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/assembled-xingkai-preview.stl"
+      },
+      {
+        "rel": "preview/assembled-xingkai.png",
+        "size": 15976,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/assembled-xingkai.png"
+      },
+      {
+        "rel": "preview/face-weibei.png",
+        "size": 11514,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/face-weibei.png"
+      },
+      {
+        "rel": "preview/face-xingkai.png",
+        "size": 10745,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/face-xingkai.png"
+      },
+      {
+        "rel": "preview/four-base.png",
+        "size": 27430,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/four-base.png"
+      },
+      {
+        "rel": "preview/four-xingkai.png",
+        "size": 48794,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/four-xingkai.png"
+      },
+      {
+        "rel": "preview/sep-all.png",
+        "size": 228941,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/sep-all.png"
+      },
+      {
+        "rel": "preview/sep-baoli-iso.png",
+        "size": 49890,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/sep-baoli-iso.png"
+      },
+      {
+        "rel": "preview/sep-baoli.png",
+        "size": 20653,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/sep-baoli.png"
+      },
+      {
+        "rel": "preview/sep-weibei-iso.png",
+        "size": 56912,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/sep-weibei-iso.png"
+      },
+      {
+        "rel": "preview/sep-weibei.png",
+        "size": 19185,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/sep-weibei.png"
+      },
+      {
+        "rel": "preview/sep-xingkai-iso.png",
+        "size": 49969,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/sep-xingkai-iso.png"
+      },
+      {
+        "rel": "preview/sep-xingkai.png",
+        "size": 21491,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/sep-xingkai.png"
+      },
+      {
+        "rel": "preview/solid-baoli-iso.png",
+        "size": 45053,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/solid-baoli-iso.png"
+      },
+      {
+        "rel": "preview/solid-baoli.png",
+        "size": 11565,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/solid-baoli.png"
+      },
+      {
+        "rel": "preview/solid-weibei-iso.png",
+        "size": 59221,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/solid-weibei-iso.png"
+      },
+      {
+        "rel": "preview/solid-weibei.png",
+        "size": 21415,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/solid-weibei.png"
+      },
+      {
+        "rel": "preview/solid-xingkai-iso.png",
+        "size": 53863,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/solid-xingkai-iso.png"
+      },
+      {
+        "rel": "preview/solid-xingkai.png",
+        "size": 23561,
+        "url": "models/idea-026-miao-zhuang-art-text/preview/solid-xingkai.png"
+      },
+      {
+        "rel": "preview_separate.py",
+        "size": 2028,
+        "url": "models/idea-026-miao-zhuang-art-text/preview_separate.py"
+      },
+      {
+        "rel": "苗壮艺术字-3D立牌.zip",
+        "size": 1909776,
+        "url": "models/idea-026-miao-zhuang-art-text/苗壮艺术字-3D立牌.zip"
+      },
+      {
+        "rel": "苗壮艺术字-分体版.zip",
+        "size": 6583714,
+        "url": "models/idea-026-miao-zhuang-art-text/苗壮艺术字-分体版.zip"
+      }
+    ]
+  },
+  {
+    "id": "idea-027",
+    "title": "卡卡吊牌·圆形版（正面无字 / 背面凹槽名字）",
+    "category": "宠物吊牌",
+    "status": "done",
+    "cls": "derived",
+    "summary": "纯圆盘 Ø45.7 + 顶部挂孔，整件 45.7×60×3.2（和原始 60mm 同尺寸）；正面去掉「卡卡」，保留狗头 + 0.7mm 黑包边 + 双灰线",
+    "dir": "kaka-tag-circle",
+    "bytes": 15409,
+    "cover": null,
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 1528,
+        "url": "models/kaka-tag-circle/README.md"
+      },
+      {
+        "rel": "build_kaka_tag_circle.py",
+        "size": 8199,
+        "url": "models/kaka-tag-circle/build_kaka_tag_circle.py"
+      },
+      {
+        "rel": "render_preview.py",
+        "size": 5682,
+        "url": "models/kaka-tag-circle/render_preview.py"
+      }
+    ]
+  },
+  {
+    "id": "idea-028",
+    "title": "云朵托架·SKADIS 洞洞板手办小搁板",
+    "category": "桌面收纳/洞洞板",
+    "status": "done",
+    "cls": "original",
+    "summary": "挂在 SKADIS 5×15mm 长圆孔上，孔距 40mm，不打孔；底盘有前后挡边，放手办/盲盒不滑出",
+    "dir": "idea-028-cloud-shelf-skadis",
+    "bytes": 3258000,
+    "cover": "idea-028-cloud-shelf-skadis/preview/cover-colored.png",
+    "files": [
+      {
+        "rel": "3mf/cloud-shelf-all-10pcs.3mf",
+        "size": 289627,
+        "url": "models/idea-028-cloud-shelf-skadis/3mf/cloud-shelf-all-10pcs.3mf"
+      },
+      {
+        "rel": "3mf/cloud-shelf-skadis-4plates.3mf",
+        "size": 259578,
+        "url": "models/idea-028-cloud-shelf-skadis/3mf/cloud-shelf-skadis-4plates.3mf"
+      },
+      {
+        "rel": "README.md",
+        "size": 2163,
+        "url": "models/idea-028-cloud-shelf-skadis/README.md"
+      },
+      {
+        "rel": "build/build_plates_3mf.py",
+        "size": 12795,
+        "url": "models/idea-028-cloud-shelf-skadis/build/build_plates_3mf.py"
+      },
+      {
+        "rel": "build/make_manifest.py",
+        "size": 1515,
+        "url": "models/idea-028-cloud-shelf-skadis/build/make_manifest.py"
+      },
+      {
+        "rel": "build/template-project_settings.json",
+        "size": 69496,
+        "url": "models/idea-028-cloud-shelf-skadis/build/template-project_settings.json"
+      },
+      {
+        "rel": "docs/DESIGN.md",
+        "size": 3628,
+        "url": "models/idea-028-cloud-shelf-skadis/docs/DESIGN.md"
+      },
+      {
+        "rel": "docs/上传文案.txt",
+        "size": 2979,
+        "url": "models/idea-028-cloud-shelf-skadis/docs/上传文案.txt"
+      },
+      {
+        "rel": "model/plate-stl/01-主体.stl",
+        "size": 134284,
+        "url": "models/idea-028-cloud-shelf-skadis/model/plate-stl/01-主体.stl"
+      },
+      {
+        "rel": "model/plate-stl/02-背板+前挡板.stl",
+        "size": 279284,
+        "url": "models/idea-028-cloud-shelf-skadis/model/plate-stl/02-背板+前挡板.stl"
+      },
+      {
+        "rel": "model/plate-stl/03-云朵x2.stl",
+        "size": 592484,
+        "url": "models/idea-028-cloud-shelf-skadis/model/plate-stl/03-云朵x2.stl"
+      },
+      {
+        "rel": "model/plate-stl/04-拱条+星月.stl",
+        "size": 135684,
+        "url": "models/idea-028-cloud-shelf-skadis/model/plate-stl/04-拱条+星月.stl"
+      },
+      {
+        "rel": "model/stl/back-panel.stl",
+        "size": 183484,
+        "url": "models/idea-028-cloud-shelf-skadis/model/stl/back-panel.stl"
+      },
+      {
+        "rel": "model/stl/cloud-a.stl",
+        "size": 296284,
+        "url": "models/idea-028-cloud-shelf-skadis/model/stl/cloud-a.stl"
+      },
+      {
+        "rel": "model/stl/cloud-b.stl",
+        "size": 296284,
+        "url": "models/idea-028-cloud-shelf-skadis/model/stl/cloud-b.stl"
+      },
+      {
+        "rel": "model/stl/cloud-shelf-main.stl",
+        "size": 134284,
+        "url": "models/idea-028-cloud-shelf-skadis/model/stl/cloud-shelf-main.stl"
+      },
+      {
+        "rel": "model/stl/front-panel.stl",
+        "size": 95884,
+        "url": "models/idea-028-cloud-shelf-skadis/model/stl/front-panel.stl"
+      },
+      {
+        "rel": "model/stl/moon.stl",
+        "size": 21884,
+        "url": "models/idea-028-cloud-shelf-skadis/model/stl/moon.stl"
+      },
+      {
+        "rel": "model/stl/optional-主体-拱条补实.stl",
+        "size": 177584,
+        "url": "models/idea-028-cloud-shelf-skadis/model/stl/optional-主体-拱条补实.stl"
+      },
+      {
+        "rel": "model/stl/rainbow-arc.stl",
+        "size": 108484,
+        "url": "models/idea-028-cloud-shelf-skadis/model/stl/rainbow-arc.stl"
+      },
+      {
+        "rel": "model/stl/star-large.stl",
+        "size": 1884,
+        "url": "models/idea-028-cloud-shelf-skadis/model/stl/star-large.stl"
+      },
+      {
+        "rel": "model/stl/star-medium.stl",
+        "size": 1884,
+        "url": "models/idea-028-cloud-shelf-skadis/model/stl/star-medium.stl"
+      },
+      {
+        "rel": "model/stl/star-small.stl",
+        "size": 1884,
+        "url": "models/idea-028-cloud-shelf-skadis/model/stl/star-small.stl"
+      },
+      {
+        "rel": "preview/cover-colored.png",
+        "size": 22862,
+        "url": "models/idea-028-cloud-shelf-skadis/preview/cover-colored.png"
+      },
+      {
+        "rel": "preview/cover-views.png",
+        "size": 131797,
+        "url": "models/idea-028-cloud-shelf-skadis/preview/cover-views.png"
+      }
+    ]
+  },
+  {
+    "id": "mark",
+    "title": "「苗壯」maker's mark 凹刻印章刀具",
+    "category": "其他",
+    "status": "design",
+    "cls": "original",
+    "summary": null,
+    "dir": "mark-miao-zhuang",
+    "bytes": 420338,
+    "cover": "mark-miao-zhuang/seal-mark.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 3279,
+        "url": "models/mark-miao-zhuang/README.md"
+      },
+      {
+        "rel": "seal-mark.png",
+        "size": 11291,
+        "url": "models/mark-miao-zhuang/seal-mark.png"
+      },
+      {
+        "rel": "seal-raw.png",
+        "size": 199400,
+        "url": "models/mark-miao-zhuang/seal-raw.png"
+      },
+      {
+        "rel": "seal-tool-16mm.pre-20261112.stl",
+        "size": 102484,
+        "url": "models/mark-miao-zhuang/seal-tool-16mm.pre-20261112.stl"
+      },
+      {
+        "rel": "seal-tool-16mm.stl",
+        "size": 103884,
+        "url": "models/mark-miao-zhuang/seal-tool-16mm.stl"
+      }
+    ]
+  },
+  {
+    "id": "mark-variants",
+    "title": "「苗壮」mark 三变体（含源上传件）",
+    "category": "其他",
+    "status": "design",
+    "cls": "derived",
+    "summary": null,
+    "dir": "mark-miaozhuang-three-variants",
+    "bytes": 38173722,
+    "cover": "mark-miaozhuang-three-variants/01_Intaglio_Stamp_Preview.png",
+    "files": [
+      {
+        "rel": "01_Intaglio_Stamp.step",
+        "size": 715126,
+        "url": "models/mark-miaozhuang-three-variants/01_Intaglio_Stamp.step"
+      },
+      {
+        "rel": "01_Intaglio_Stamp.stl",
+        "size": 1571146,
+        "url": "models/mark-miaozhuang-three-variants/01_Intaglio_Stamp.stl"
+      },
+      {
+        "rel": "01_Intaglio_Stamp_Back.png",
+        "size": 1521976,
+        "url": "models/mark-miaozhuang-three-variants/01_Intaglio_Stamp_Back.png"
+      },
+      {
+        "rel": "01_Intaglio_Stamp_Preview.png",
+        "size": 3016310,
+        "url": "models/mark-miaozhuang-three-variants/01_Intaglio_Stamp_Preview.png"
+      },
+      {
+        "rel": "01_Intaglio_Stamp_mesh.json",
+        "size": 263243,
+        "url": "models/mark-miaozhuang-three-variants/01_Intaglio_Stamp_mesh.json"
+      },
+      {
+        "rel": "02_Raised_Logo_Plaque.step",
+        "size": 708190,
+        "url": "models/mark-miaozhuang-three-variants/02_Raised_Logo_Plaque.step"
+      },
+      {
+        "rel": "02_Raised_Logo_Plaque.stl",
+        "size": 526256,
+        "url": "models/mark-miaozhuang-three-variants/02_Raised_Logo_Plaque.stl"
+      },
+      {
+        "rel": "02_Raised_Logo_Plaque_Preview.png",
+        "size": 3026993,
+        "url": "models/mark-miaozhuang-three-variants/02_Raised_Logo_Plaque_Preview.png"
+      },
+      {
+        "rel": "02_Raised_Logo_Plaque_mesh.json",
+        "size": 81369,
+        "url": "models/mark-miaozhuang-three-variants/02_Raised_Logo_Plaque_mesh.json"
+      },
+      {
+        "rel": "03_Figurine_Display_Base.step",
+        "size": 704874,
+        "url": "models/mark-miaozhuang-three-variants/03_Figurine_Display_Base.step"
+      },
+      {
+        "rel": "03_Figurine_Display_Base.stl",
+        "size": 1519534,
+        "url": "models/mark-miaozhuang-three-variants/03_Figurine_Display_Base.stl"
+      },
+      {
+        "rel": "03_Figurine_Display_Base_Preview.png",
+        "size": 2888257,
+        "url": "models/mark-miaozhuang-three-variants/03_Figurine_Display_Base_Preview.png"
+      },
+      {
+        "rel": "03_Figurine_Display_Base_mesh.json",
+        "size": 176553,
+        "url": "models/mark-miaozhuang-three-variants/03_Figurine_Display_Base_mesh.json"
+      },
+      {
+        "rel": "Miaozhuang_Three_Variants.png",
+        "size": 4280686,
+        "url": "models/mark-miaozhuang-three-variants/Miaozhuang_Three_Variants.png"
+      },
+      {
+        "rel": "README.md",
+        "size": 1650,
+        "url": "models/mark-miaozhuang-three-variants/README.md"
+      },
+      {
+        "rel": "README_三种版本使用说明.txt",
+        "size": 4469,
+        "url": "models/mark-miaozhuang-three-variants/README_三种版本使用说明.txt"
+      },
+      {
+        "rel": "Render_Stamp_Back.py",
+        "size": 638,
+        "url": "models/mark-miaozhuang-three-variants/Render_Stamp_Back.py"
+      },
+      {
+        "rel": "Render_Variants.py",
+        "size": 4295,
+        "url": "models/mark-miaozhuang-three-variants/Render_Variants.py"
+      },
+      {
+        "rel": "Style_Variants.py",
+        "size": 1897,
+        "url": "models/mark-miaozhuang-three-variants/Style_Variants.py"
+      },
+      {
+        "rel": "Validate_STL.py",
+        "size": 985,
+        "url": "models/mark-miaozhuang-three-variants/Validate_STL.py"
+      },
+      {
+        "rel": "Validate_Variants.py",
+        "size": 2802,
+        "url": "models/mark-miaozhuang-three-variants/Validate_Variants.py"
+      },
+      {
+        "rel": "geometry_report.json",
+        "size": 1611,
+        "url": "models/mark-miaozhuang-three-variants/geometry_report.json"
+      },
+      {
+        "rel": "miaozhuang-logo.svg",
+        "size": 3061,
+        "url": "models/mark-miaozhuang-three-variants/miaozhuang-logo.svg"
+      },
+      {
+        "rel": "source-upload-2026-11-12.zip",
+        "size": 17148818,
+        "url": "models/mark-miaozhuang-three-variants/source-upload-2026-11-12.zip"
+      },
+      {
+        "rel": "stl_validation.json",
+        "size": 652,
+        "url": "models/mark-miaozhuang-three-variants/stl_validation.json"
+      },
+      {
+        "rel": "validation_report.json",
+        "size": 2331,
+        "url": "models/mark-miaozhuang-three-variants/validation_report.json"
+      }
+    ]
+  },
+  {
+    "id": "p1s-exhaust-tee",
+    "title": "P1S 排风三通 V3（对开两瓣）",
+    "category": "其他",
+    "status": "design",
+    "cls": "original",
+    "summary": null,
+    "dir": "exhaust-tee-p1s",
+    "bytes": 7109976,
+    "cover": "exhaust-tee-p1s/exhaust-tee-split-assembled_preview.png",
+    "files": [
+      {
+        "rel": "README.md",
+        "size": 1879,
+        "url": "models/exhaust-tee-p1s/README.md"
+      },
+      {
+        "rel": "build_tee.py",
+        "size": 3413,
+        "url": "models/exhaust-tee-p1s/build_tee.py"
+      },
+      {
+        "rel": "build_tee_split.py",
+        "size": 16796,
+        "url": "models/exhaust-tee-p1s/build_tee_split.py"
+      },
+      {
+        "rel": "build_test_fit.py",
+        "size": 5498,
+        "url": "models/exhaust-tee-p1s/build_test_fit.py"
+      },
+      {
+        "rel": "coupon/build_coupon.py",
+        "size": 1659,
+        "url": "models/exhaust-tee-p1s/coupon/build_coupon.py"
+      },
+      {
+        "rel": "coupon/checks_and_mass.json",
+        "size": 353,
+        "url": "models/exhaust-tee-p1s/coupon/checks_and_mass.json"
+      },
+      {
+        "rel": "coupon/print-params.md",
+        "size": 1459,
+        "url": "models/exhaust-tee-p1s/coupon/print-params.md"
+      },
+      {
+        "rel": "coupon/wall-coupling-pair_sliced.3mf",
+        "size": 194649,
+        "url": "models/exhaust-tee-p1s/coupon/wall-coupling-pair_sliced.3mf"
+      },
+      {
+        "rel": "coupon/wall_coupling_A.stl",
+        "size": 105084,
+        "url": "models/exhaust-tee-p1s/coupon/wall_coupling_A.stl"
+      },
+      {
+        "rel": "coupon/wall_coupling_B.stl",
+        "size": 105084,
+        "url": "models/exhaust-tee-p1s/coupon/wall_coupling_B.stl"
+      },
+      {
+        "rel": "coupon/打印说明.txt",
+        "size": 1285,
+        "url": "models/exhaust-tee-p1s/coupon/打印说明.txt"
+      },
+      {
+        "rel": "exhaust-tee-split-assembled.stl",
+        "size": 492884,
+        "url": "models/exhaust-tee-p1s/exhaust-tee-split-assembled.stl"
+      },
+      {
+        "rel": "exhaust-tee-split-assembled_preview.png",
+        "size": 205371,
+        "url": "models/exhaust-tee-p1s/exhaust-tee-split-assembled_preview.png"
+      },
+      {
+        "rel": "exhaust-tee-split.3mf",
+        "size": 128530,
+        "url": "models/exhaust-tee-p1s/exhaust-tee-split.3mf"
+      },
+      {
+        "rel": "exhaust-tee-split_preview.png",
+        "size": 67175,
+        "url": "models/exhaust-tee-p1s/exhaust-tee-split_preview.png"
+      },
+      {
+        "rel": "exhaust-tee-split_print.3mf",
+        "size": 1428809,
+        "url": "models/exhaust-tee-p1s/exhaust-tee-split_print.3mf"
+      },
+      {
+        "rel": "exhaust-tee-split_print_support.3mf",
+        "size": 2486039,
+        "url": "models/exhaust-tee-p1s/exhaust-tee-split_print_support.3mf"
+      },
+      {
+        "rel": "exhaust-tee.stl",
+        "size": 455484,
+        "url": "models/exhaust-tee-p1s/exhaust-tee.stl"
+      },
+      {
+        "rel": "preview.png",
+        "size": 56760,
+        "url": "models/exhaust-tee-p1s/preview.png"
+      },
+      {
+        "rel": "print-params.md",
+        "size": 2600,
+        "url": "models/exhaust-tee-p1s/print-params.md"
+      },
+      {
+        "rel": "report.json",
+        "size": 423,
+        "url": "models/exhaust-tee-p1s/report.json"
+      },
+      {
+        "rel": "tee-test-fit-assembled.stl",
+        "size": 134884,
+        "url": "models/exhaust-tee-p1s/tee-test-fit-assembled.stl"
+      },
+      {
+        "rel": "tee-test-fit-assembled_preview.png",
+        "size": 121609,
+        "url": "models/exhaust-tee-p1s/tee-test-fit-assembled_preview.png"
+      },
+      {
+        "rel": "tee-test-fit.3mf",
+        "size": 29750,
+        "url": "models/exhaust-tee-p1s/tee-test-fit.3mf"
+      },
+      {
+        "rel": "tee-test-fit_preview.png",
+        "size": 37651,
+        "url": "models/exhaust-tee-p1s/tee-test-fit_preview.png"
+      },
+      {
+        "rel": "tee_split_A.stl",
+        "size": 288684,
+        "url": "models/exhaust-tee-p1s/tee_split_A.stl"
+      },
+      {
+        "rel": "tee_split_A_repaired.stl",
+        "size": 286584,
+        "url": "models/exhaust-tee-p1s/tee_split_A_repaired.stl"
+      },
+      {
+        "rel": "tee_split_B.stl",
+        "size": 204284,
+        "url": "models/exhaust-tee-p1s/tee_split_B.stl"
+      },
+      {
+        "rel": "test-fit-half-A.stl",
+        "size": 67484,
+        "url": "models/exhaust-tee-p1s/test-fit-half-A.stl"
+      },
+      {
+        "rel": "test-fit-half-B.stl",
+        "size": 67484,
+        "url": "models/exhaust-tee-p1s/test-fit-half-B.stl"
+      },
+      {
+        "rel": "test-fit-report.json",
+        "size": 275,
+        "url": "models/exhaust-tee-p1s/test-fit-report.json"
+      },
+      {
+        "rel": "three_views.png",
+        "size": 110053,
+        "url": "models/exhaust-tee-p1s/three_views.png"
+      }
+    ]
+  }
+]

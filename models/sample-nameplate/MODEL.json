@@ -1,0 +1,10 @@
+{
+  "id": "idea-007",
+  "title": "主人的名字 · 3D 立体字/名牌",
+  "category": "摆件/礼物",
+  "status": "idea",
+  "cls": "original",
+  "summary": "主人原话：我的名字呢能打印 3D 立体的吗；把主人的名字做成 3D 立体字（中英混排都行，OpenSCAD text() 直接放样）",
+  "dir": "sample-nameplate",
+  "bytes": 365648
+}

@@ -1,0 +1,59 @@
+{
+  "vertices": 415540,
+  "triangles": 831076,
+  "size_mm": [
+    157.5,
+    210.0,
+    5.2699
+  ],
+  "sample_mm": [
+    0.3997,
+    0.4
+  ],
+  "thickness_mm": {
+    "min": 2.5,
+    "max": 5.2699,
+    "mean": 3.6164
+  },
+  "volume_mm3": 119777.435,
+  "estimated_volume_mm3": 119613.202,
+  "failures": [],
+  "image": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-005-anime-relief/source.png",
+  "name": "relief-anime-girl-s200",
+  "grid": [
+    395,
+    526
+  ],
+  "crop_box_px": [
+    25,
+    21,
+    1707,
+    2304
+  ],
+  "figure_share": 0.5021,
+  "background_share": 0.4918,
+  "heights_mm": {
+    "plate": 2.5,
+    "figure": 4.1,
+    "max": 5.2699
+  },
+  "params": {
+    "sample_mm": 0.4,
+    "bg_threshold": 235.0,
+    "margin_mm": 4.0,
+    "blur": 0.8,
+    "line_gain": 0
+  },
+  "dark_line_width_mm": 0.749,
+  "samples_per_line": 1.87,
+  "line_printable": true,
+  "files": {
+    "stl": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-005-anime-relief/relief-anime-girl-s200.stl",
+    "stl_bytes": 41553884,
+    "3mf": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-005-anime-relief/relief-anime-girl-s200.3mf",
+    "3mf_bytes": 6896623,
+    "preview": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-005-anime-relief/relief-anime-girl-s200-preview.png"
+  },
+  "orientation": "图像在 XY 平面、高度沿 Z；浮雕面朝 +Z，图片上方在 +Y",
+  "print_hint": "平放打印：平整背面贴板、浮雕面朝上，不用支撑；层高 0.08-0.12mm，墙 3 圈；0.4 喷嘴配 sample-mm 0.4-0.5"
+}

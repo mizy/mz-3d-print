@@ -1,0 +1,72 @@
+{
+  "bbox_mm": [
+    193.2,
+    122.4,
+    60.0
+  ],
+  "brand": {
+    "baseline": {
+      "bogus_bbox": [
+        275.0,
+        62.5
+      ],
+      "ok": true,
+      "real_bbox": [
+        390.6,
+        90.4
+      ]
+    },
+    "cap_h": 9,
+    "font": "/System/Library/Fonts/Hiragino Sans GB.ttc",
+    "font_size": 9.9557,
+    "height": 9.0,
+    "raise": 0.8,
+    "text": "苗壮制造",
+    "width": 38.8871
+  },
+  "check_model": {
+    "3mf": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-017-lattice-drawer-divider/lattice-divider.3mf",
+    "3mf_triangles": 12198,
+    "3mf_vertex_max_offset_mm": 0.0,
+    "3mf_vertices": 5995,
+    "area_mm2": 152575.44,
+    "bytes": 609984,
+    "failures": [],
+    "file": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/idea-017-lattice-drawer-divider/lattice-divider.stl",
+    "material": "PLA",
+    "size_mm": [
+      193.2,
+      122.4,
+      60.0
+    ],
+    "solid_mass_g": 171.2,
+    "stl_format": "binary",
+    "stl_triangles": 12198,
+    "triangles": 12198,
+    "vertices": 5995,
+    "volume_mm3": 138065.142
+  },
+  "counts": {
+    "bottom_holes": 24,
+    "louvers": 25
+  },
+  "files": {
+    "stl": "lattice-divider.stl",
+    "stl_bytes": 609984,
+    "three_mf": "lattice-divider.3mf"
+  },
+  "idea": "idea-017",
+  "inner_mm": [
+    189.2,
+    117.6,
+    58.0
+  ],
+  "name": "lattice-divider",
+  "outer_mm": [
+    193.2,
+    121.6,
+    60
+  ],
+  "volume_mm3": 138043.74,
+  "volume_no_text_mm3": 138329.36
+}

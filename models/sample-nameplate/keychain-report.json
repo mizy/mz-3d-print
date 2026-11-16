@@ -1,0 +1,33 @@
+{
+  "file": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/sample-nameplate/keychain.stl",
+  "stl_format": "binary",
+  "bytes": 39484,
+  "stl_triangles": 788,
+  "vertices": 392,
+  "triangles": 788,
+  "size_mm": [
+    30.4724,
+    30.7222,
+    7.0
+  ],
+  "volume_mm3": 3561.542,
+  "area_mm2": 3232.531,
+  "solid_mass_g": 4.42,
+  "material": "PLA",
+  "3mf": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/sample-nameplate/keychain.3mf",
+  "3mf_vertices": 392,
+  "3mf_triangles": 788,
+  "3mf_vertex_max_offset_mm": 6.6e-05,
+  "failures": [],
+  "scad": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/sample-nameplate/keychain.scad",
+  "stl_bytes": 39484,
+  "3mf_bytes": 7808,
+  "text": "苗",
+  "font": "Hiragino Sans GB",
+  "text_size_mm": [
+    24.472,
+    24.722,
+    2.0
+  ],
+  "preview": "/Users/mizy/.cah-data/skills/shared/3d-print-ideas/models/sample-nameplate/keychain-preview.png"
+}

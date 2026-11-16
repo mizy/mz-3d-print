@@ -1,0 +1,17 @@
+{
+  "od_mm": 54.2,
+  "id_mm": 49.4,
+  "wall_mm": 2.4,
+  "insert_len_mm": 22.0,
+  "total_len_mm": 32.0,
+  "flange_od_mm": 68.0,
+  "bbox_mm": [
+    68.0,
+    68.0,
+    32.0
+  ],
+  "volume_cm3": 15.02,
+  "half_volume_cm3": 7.51,
+  "watertight": true,
+  "interference_cm3": 0.0
+}
