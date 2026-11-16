@@ -4,18 +4,19 @@
   "category": "宠物用品 / 狗碗",
   "status": "design",
   "cls": "derived",
-  "summary": "30 mm 高，四种第三方矢量花纹铺满正面与两侧；原卡扣及加高镂空候选，Logo 独立粘贴。几何已检查，切片、实配与承重未验收。",
+  "summary": "30 mm 两排矢量花纹狗碗；当前交付为三实体双色STEP、独立榫卯Logo及两种试配小样。Logo可上滑拆卸，非弹性止退锁；用户自行切片，实体试配和承重未验证。",
   "cover": "Models/FullSides_OriginalClip/lv/perspective.png",
   "downloadGroups": [
     {
-      "prefix": "Models/FullSides_HollowRaisedClip_Candidate/",
-      "label": "加高镂空卡扣 · 候选方案",
-      "note": "两盘3MF因Bambu Studio GUI报Invalid configuration file已撤回，暂无可用两盘工程。此处仅为几何部件；先验证对应小样，实配与承重未验收。"
-    },
-    {
-      "prefix": "Models/FullSides_OriginalClip/",
-      "label": "原卡扣 · 基线方案",
-      "note": "原有卡扣几何；本组小样仅对应原卡扣。与加高镂空候选分开选择。"
+      "prefix": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/",
+      "label": "当前：榫卯 Logo · STEP 候选",
+      "note": "完整碗含3个可分实体、2种显示颜色，AMS需自行分配。Logo上滑1.5mm后可拆；先试配Logo接口与后卡扣。未切片、未实体试配。"
     }
+  ],
+  "downloads": [
+    "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_bowl_multibody.step",
+    "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_logo_tenon.step",
+    "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_logo_socket_test.step",
+    "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/rear_clip_fit_test.step"
   ]
 }

@@ -898,19 +898,20 @@
     "category": "宠物用品 / 狗碗",
     "status": "design",
     "cls": "derived",
-    "summary": "30 mm 高，四种第三方矢量花纹铺满正面与两侧；原卡扣及加高镂空候选，Logo 独立粘贴。几何已检查，切片、实配与承重未验收。",
+    "summary": "30 mm 两排矢量花纹狗碗；当前交付为三实体双色STEP、独立榫卯Logo及两种试配小样。Logo可上滑拆卸，非弹性止退锁；用户自行切片，实体试配和承重未验证。",
     "cover": "dog-bowl-lv/Models/FullSides_OriginalClip/lv/perspective.png",
     "downloadGroups": [
       {
-        "prefix": "Models/FullSides_HollowRaisedClip_Candidate/",
-        "label": "加高镂空卡扣 · 候选方案",
-        "note": "两盘3MF因Bambu Studio GUI报Invalid configuration file已撤回，暂无可用两盘工程。此处仅为几何部件；先验证对应小样，实配与承重未验收。"
-      },
-      {
-        "prefix": "Models/FullSides_OriginalClip/",
-        "label": "原卡扣 · 基线方案",
-        "note": "原有卡扣几何；本组小样仅对应原卡扣。与加高镂空候选分开选择。"
+        "prefix": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/",
+        "label": "当前：榫卯 Logo · STEP 候选",
+        "note": "完整碗含3个可分实体、2种显示颜色，AMS需自行分配。Logo上滑1.5mm后可拆；先试配Logo接口与后卡扣。未切片、未实体试配。"
       }
+    ],
+    "downloads": [
+      "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_bowl_multibody.step",
+      "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_logo_tenon.step",
+      "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_logo_socket_test.step",
+      "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/rear_clip_fit_test.step"
     ],
     "dir": "dog-bowl-lv",
     "files": [
@@ -1980,6 +1981,66 @@
         "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/SOURCE_LICENSE.md"
       },
       {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_bowl_multibody.step",
+        "size": 8466287,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_bowl_multibody.step"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_logo_socket_test.step",
+        "size": 151236,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_logo_socket_test.step"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_logo_tenon.step",
+        "size": 405857,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_logo_tenon.step"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_logo_tenon_assembly_position.step",
+        "size": 398720,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/LV_logo_tenon_assembly_position.step"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/README.txt",
+        "size": 1428,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/README.txt"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/SHA256.json",
+        "size": 496,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/SHA256.json"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/build.log",
+        "size": 704,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/build.log"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/build.py",
+        "size": 3018,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/build.py"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/check.py",
+        "size": 580,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/check.py"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/motion_check.json",
+        "size": 262,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/motion_check.json"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/rear_clip_fit_test.step",
+        "size": 47293,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/rear_clip_fit_test.step"
+      },
+      {
+        "rel": "Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/validation.json",
+        "size": 493,
+        "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/TenonSTEP/validation.json"
+      },
+      {
         "rel": "Models/FullSides_HollowRaisedClip_Candidate/approved_design.png",
         "size": 153862,
         "url": "models/dog-bowl-lv/Models/FullSides_HollowRaisedClip_Candidate/approved_design.png"
@@ -2316,11 +2377,11 @@
       },
       {
         "rel": "README.md",
-        "size": 663,
+        "size": 1106,
         "url": "models/dog-bowl-lv/README.md"
       }
     ],
-    "bytes": 746888269
+    "bytes": 756365086
   },
   {
     "id": "idea-003",

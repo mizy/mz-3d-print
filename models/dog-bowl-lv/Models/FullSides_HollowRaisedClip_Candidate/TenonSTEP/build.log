@@ -1,0 +1,32 @@
+/private/tmp/lv-tenon-env/lib/python3.11/site-packages/cadquery/utils.py:82: FutureWarning: save will be removed in the next release.
+  warn(f"{f.__name__} will be removed in the next release.", FutureWarning)
+{
+  "ivory_bottom": {
+    "solids": 1,
+    "volume": 42149.25491280535
+  },
+  "light_blue_body": {
+    "solids": 1,
+    "volume": 91858.51157810682
+  },
+  "ivory_rim": {
+    "solids": 1,
+    "volume": 3805.365529865293
+  },
+  "logo_solids": 1,
+  "interference_mm3": 0.0,
+  "clearance_radial_mm": 0.2,
+  "travel_down_mm": 1.5,
+  "min_nominal_remaining_wall_mm": 1.35,
+  "peg_positions_x_z": [
+    [
+      -3.0,
+      10.0
+    ],
+    [
+      -5.0,
+      20.0
+    ]
+  ],
+  "roundtrip_solids": 3
+}
