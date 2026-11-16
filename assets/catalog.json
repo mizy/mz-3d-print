@@ -1,0 +1,140 @@
+{
+  "items": [
+    {
+      "id": "lv-logo",
+      "title": "LV 字母标志",
+      "summary": "原始贝塞尔曲线独立提取，可缩放与自由排布。",
+      "preview": "lv-logo.svg",
+      "files": [
+        {
+          "label": "SVG 矢量",
+          "path": "lv-logo.svg"
+        }
+      ],
+      "source": "TitanUI / sccnn 第三方矢量",
+      "rights": "非官方原稿；未核实权利人许可，不代表商用授权。",
+      "parameters": "等比尺寸、位置、旋转；保留原始曲线。"
+    },
+    {
+      "id": "lv-pointed",
+      "title": "LV 尖瓣花",
+      "summary": "原始贝塞尔曲线独立提取，可缩放与自由排布。",
+      "preview": "lv-pointed.svg",
+      "files": [
+        {
+          "label": "SVG 矢量",
+          "path": "lv-pointed.svg"
+        }
+      ],
+      "source": "TitanUI / sccnn 第三方矢量",
+      "rights": "非官方原稿；未核实权利人许可，不代表商用授权。",
+      "parameters": "等比尺寸、位置、旋转；保留原始曲线。"
+    },
+    {
+      "id": "lv-diamond",
+      "title": "LV 菱形花",
+      "summary": "原始贝塞尔曲线独立提取，可缩放与自由排布。",
+      "preview": "lv-diamond.svg",
+      "files": [
+        {
+          "label": "SVG 矢量",
+          "path": "lv-diamond.svg"
+        }
+      ],
+      "source": "TitanUI / sccnn 第三方矢量",
+      "rights": "非官方原稿；未核实权利人许可，不代表商用授权。",
+      "parameters": "等比尺寸、位置、旋转；保留原始曲线。"
+    },
+    {
+      "id": "lv-circle",
+      "title": "LV 圆形花",
+      "summary": "原始贝塞尔曲线独立提取，可缩放与自由排布。",
+      "preview": "lv-circle.svg",
+      "files": [
+        {
+          "label": "SVG 矢量",
+          "path": "lv-circle.svg"
+        }
+      ],
+      "source": "TitanUI / sccnn 第三方矢量",
+      "rights": "非官方原稿；未核实权利人许可，不代表商用授权。",
+      "parameters": "等比尺寸、位置、旋转；保留原始曲线。"
+    },
+    {
+      "id": "lv-repeat",
+      "title": "LV 完整重复纹路",
+      "summary": "原始贝塞尔曲线独立提取，可缩放与自由排布。",
+      "preview": "lv-repeat.svg",
+      "files": [
+        {
+          "label": "SVG 矢量",
+          "path": "lv-repeat.svg"
+        }
+      ],
+      "source": "TitanUI / sccnn 第三方矢量",
+      "rights": "非官方原稿；未核实权利人许可，不代表商用授权。",
+      "parameters": "等比尺寸、位置、旋转；保留原始曲线。"
+    },
+    {
+      "id": "chanel-cc",
+      "title": "Chanel 双 C",
+      "summary": "现有项目的独立平放几何，不含碗体。预览为实体线框投影。",
+      "preview": "chanel-cc.svg",
+      "files": [
+        {
+          "label": "STEP 模型",
+          "path": "chanel-cc.step"
+        }
+      ],
+      "source": "从现有 Chanel 碗项目分件导出；更早来源未核实。",
+      "rights": "非经核实的官方原稿；品牌权利归原权利人。",
+      "parameters": "可在 CAD 中缩放；当前实体非参数化原稿。"
+    },
+    {
+      "id": "star",
+      "title": "参数化星星",
+      "summary": "独立通用几何，默认直径 30 mm、厚度 3 mm。",
+      "preview": "star.svg",
+      "files": [
+        {
+          "label": "STEP 模型",
+          "path": "star.step"
+        },
+        {
+          "label": "参数化 Python",
+          "path": "parametric_shapes.py"
+        },
+        {
+          "label": "SVG 轮廓",
+          "path": "star.svg"
+        }
+      ],
+      "source": "本项目原创参数化几何；不是云朵置物架分件的复制。",
+      "rights": "无第三方品牌图形；请按实际喷嘴和用途检查尖端及壁厚。",
+      "parameters": "直径、厚度、尖角数、内外径比"
+    },
+    {
+      "id": "moon",
+      "title": "参数化月亮",
+      "summary": "独立通用几何，默认直径 30 mm、厚度 3 mm。",
+      "preview": "moon.svg",
+      "files": [
+        {
+          "label": "STEP 模型",
+          "path": "moon.step"
+        },
+        {
+          "label": "参数化 Python",
+          "path": "parametric_shapes.py"
+        },
+        {
+          "label": "SVG 轮廓",
+          "path": "moon.svg"
+        }
+      ],
+      "source": "本项目原创参数化几何；不是云朵置物架分件的复制。",
+      "rights": "无第三方品牌图形；请按实际喷嘴和用途检查尖端及壁厚。",
+      "parameters": "直径、厚度、内圆半径比、偏移比"
+    }
+  ]
+}
