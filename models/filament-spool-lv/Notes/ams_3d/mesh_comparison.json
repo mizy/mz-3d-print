@@ -1,0 +1,9 @@
+{
+  "percent_change_fine_vs_coarse": {
+    "max_displacement_mm": 2.960012162490666,
+    "max_axial_displacement_mm": 3.0826596721480026,
+    "peak_von_mises_MPa": 28.263550550679817,
+    "p99_von_mises_MPa": -0.4475755994271746
+  },
+  "assessment": "Peak stress not mesh-converged; two mesh displacement comparison is not proof of asymptotic convergence."
+}

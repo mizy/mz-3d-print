@@ -1,0 +1,23 @@
+{
+  "cad": "Models/A_wide_PROTOTYPE.step",
+  "cad_sha256": "6d03afaa821dadd943e17ed061b6c069d9a8581851af1a59dad0a12327ed7f61",
+  "mesh_generator": "Gmsh4.15.2",
+  "coarse_mesh": {
+    "nodes": 95291,
+    "tetrahedra": 284174,
+    "ill_shaped_tets_warning": 10
+  },
+  "fine_mesh": {
+    "nodes": 162666,
+    "tetrahedra": 510705,
+    "ill_shaped_tets_warning": 14
+  },
+  "warnings": [
+    "No lock contact model",
+    "Assumed roller angle and patch width",
+    "Ideal mirror-symmetric continuous hub",
+    "No orthotropic or nonlinear material model",
+    "Current retention holes pending official alignment"
+  ],
+  "source_adaptation": "Only file paths/output directory adapted for project layout; outputs retain original actual-run results."
+}

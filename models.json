@@ -1479,6 +1479,41 @@
         "url": "models/filament-spool-lv/Models/A_wide_PROTOTYPE.stl"
       },
       {
+        "rel": "Notes/ams_3d/REPORT.md",
+        "size": 6238,
+        "url": "models/filament-spool-lv/Notes/ams_3d/REPORT.md"
+      },
+      {
+        "rel": "Notes/ams_3d/contact_result_h1.4_a30_f4.905.json",
+        "size": 1068,
+        "url": "models/filament-spool-lv/Notes/ams_3d/contact_result_h1.4_a30_f4.905.json"
+      },
+      {
+        "rel": "Notes/ams_3d/contact_result_h1.4_a30_f4.905.png",
+        "size": 380953,
+        "url": "models/filament-spool-lv/Notes/ams_3d/contact_result_h1.4_a30_f4.905.png"
+      },
+      {
+        "rel": "Notes/ams_3d/contact_result_h2_a30_f4.905.json",
+        "size": 1068,
+        "url": "models/filament-spool-lv/Notes/ams_3d/contact_result_h2_a30_f4.905.json"
+      },
+      {
+        "rel": "Notes/ams_3d/contact_result_h2_a30_f4.905.png",
+        "size": 474313,
+        "url": "models/filament-spool-lv/Notes/ams_3d/contact_result_h2_a30_f4.905.png"
+      },
+      {
+        "rel": "Notes/ams_3d/mesh_comparison.json",
+        "size": 358,
+        "url": "models/filament-spool-lv/Notes/ams_3d/mesh_comparison.json"
+      },
+      {
+        "rel": "Notes/ams_3d/provenance.json",
+        "size": 746,
+        "url": "models/filament-spool-lv/Notes/ams_3d/provenance.json"
+      },
+      {
         "rel": "Notes/analysis_results.json",
         "size": 1761,
         "url": "models/filament-spool-lv/Notes/analysis_results.json"
@@ -1520,13 +1555,38 @@
       },
       {
         "rel": "README.md",
-        "size": 3185,
+        "size": 4111,
         "url": "models/filament-spool-lv/README.md"
       },
       {
         "rel": "Source/LV_Monogram.svg",
         "size": 3193,
         "url": "models/filament-spool-lv/Source/LV_Monogram.svg"
+      },
+      {
+        "rel": "Source/ams_3d/.gitignore",
+        "size": 26,
+        "url": "models/filament-spool-lv/Source/ams_3d/.gitignore"
+      },
+      {
+        "rel": "Source/ams_3d/mesh.py",
+        "size": 1065,
+        "url": "models/filament-spool-lv/Source/ams_3d/mesh.py"
+      },
+      {
+        "rel": "Source/ams_3d/plot.py",
+        "size": 1238,
+        "url": "models/filament-spool-lv/Source/ams_3d/plot.py"
+      },
+      {
+        "rel": "Source/ams_3d/requirements.txt",
+        "size": 91,
+        "url": "models/filament-spool-lv/Source/ams_3d/requirements.txt"
+      },
+      {
+        "rel": "Source/ams_3d/solve.py",
+        "size": 6000,
+        "url": "models/filament-spool-lv/Source/ams_3d/solve.py"
       },
       {
         "rel": "Source/analyze.py",
@@ -1554,7 +1614,7 @@
         "url": "models/filament-spool-lv/Source/requirements.txt"
       }
     ],
-    "bytes": 54837194
+    "bytes": 55711284
   },
   {
     "id": "idea-003",
