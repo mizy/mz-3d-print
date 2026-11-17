@@ -1,0 +1,51 @@
+{
+  "wide": {
+    "volume_mm3": 39796.22217559035,
+    "solid_mass_g_at_density1_37": 54.52082438055878,
+    "volume_delta_cleanup_mm3": 2.8857539291493595e-06,
+    "removed_zero_volume_components": 6,
+    "simplification_tolerance_mm": 1e-06,
+    "min_triangle_area_mm2": 2.1818340677889537e-11,
+    "faces": 212366,
+    "non_two_face_edges": 0,
+    "components": 1,
+    "bounds_mm": [
+      [
+        -100.01277160644531,
+        -100.01336669921875,
+        0.0
+      ],
+      [
+        100.01277160644531,
+        100.01336669921875,
+        40.715057373046875
+      ]
+    ],
+    "sha256": "c0a57c4e9b8856ff5037781532935ffc54387cfd60b1f1b6486904c7813be787"
+  },
+  "narrow": {
+    "volume_mm3": 32009.875676089472,
+    "solid_mass_g_at_density1_37": 43.85352967624257,
+    "volume_delta_cleanup_mm3": -3.995286533609033e-06,
+    "removed_zero_volume_components": 0,
+    "simplification_tolerance_mm": 1e-06,
+    "min_triangle_area_mm2": 1.1641532182693481e-10,
+    "faces": 210596,
+    "non_two_face_edges": 0,
+    "components": 1,
+    "bounds_mm": [
+      [
+        -100.01277160644531,
+        -100.01336669921875,
+        0.0
+      ],
+      [
+        100.01277160644531,
+        100.01336669921875,
+        34.11305236816406
+      ]
+    ],
+    "sha256": "503d30f37f20eb24e87a9db9604d4a2fb04c86809086c1fb93a4e1fcca7600da"
+  },
+  "total_solid_mass_g": 98.37435405680135
+}

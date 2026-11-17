@@ -1,0 +1,19 @@
+{
+  "source": "chanel_official/CHANEL_SOURCE21_wide_FROZEN.obj",
+  "output": "chanel_official/CHANEL_SOURCE21_wide.step",
+  "mesh_faces": 212366,
+  "mesh_vertices": 105967,
+  "mesh_volume_mm3": 39796.22217559035,
+  "vertex_relocation_mm": 0,
+  "representation": "FACETED_BREP, planar FACE_SURFACE, POLY_LOOP; not visualization-only tessellation",
+  "step_bytes": 85977625,
+  "export_elapsed_s": 6.03551173210144,
+  "source_sha256": "c0a57c4e9b8856ff5037781532935ffc54387cfd60b1f1b6486904c7813be787",
+  "valid": true,
+  "solids": 1,
+  "step_volume_mm3": 39796.22217559065,
+  "volume_difference_mm3": 2.9831426218152046e-10,
+  "elapsed_s": 225.92317867279053,
+  "validated": true,
+  "validation_method": "CadQuery 2.7 / Open CASCADE 7.8 STEP reimport, BRep validity, solid count, volume comparison"
+}

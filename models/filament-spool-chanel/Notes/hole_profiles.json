@@ -1,0 +1,646 @@
+{
+  "wide": [
+    {
+      "z": 0.1,
+      "hole": 1,
+      "source_area": 9.14310110377019,
+      "new_area": 9.14310110377019,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.1,
+      "hole": 2,
+      "source_area": 9.142213501036165,
+      "new_area": 9.142213501036165,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.1,
+      "hole": 3,
+      "source_area": 9.143170753028246,
+      "new_area": 9.143170753028247,
+      "symmetric_difference_mm2": 1.8557204384261894e-15,
+      "boundary_hausdorff_mm": 7.105427357601002e-15
+    },
+    {
+      "z": 0.1,
+      "hole": 4,
+      "source_area": 9.142268897732718,
+      "new_area": 9.142268897732718,
+      "symmetric_difference_mm2": 1.8557204384261894e-15,
+      "boundary_hausdorff_mm": 7.105427357601002e-15
+    },
+    {
+      "z": 0.1,
+      "hole": 5,
+      "source_area": 9.143161547137423,
+      "new_area": 9.143161547137423,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.1,
+      "hole": 6,
+      "source_area": 9.143126264214516,
+      "new_area": 9.143126264214516,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.1,
+      "hole": 7,
+      "source_area": 9.142244236962775,
+      "new_area": 9.142244236962775,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.1,
+      "hole": 8,
+      "source_area": 9.142275441903623,
+      "new_area": 9.142275441903623,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 1,
+      "source_area": 9.14310118902605,
+      "new_area": 9.14310118902605,
+      "symmetric_difference_mm2": 6.548581121812447e-17,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 2,
+      "source_area": 9.142213501036165,
+      "new_area": 9.142213501036165,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 3,
+      "source_area": 9.143170753028244,
+      "new_area": 9.143170753028247,
+      "symmetric_difference_mm2": 1.2069338584108635e-15,
+      "boundary_hausdorff_mm": 3.552713678800501e-15
+    },
+    {
+      "z": 0.3,
+      "hole": 4,
+      "source_area": 9.14226889773272,
+      "new_area": 9.14226889773272,
+      "symmetric_difference_mm2": 1.2069338584108635e-15,
+      "boundary_hausdorff_mm": 3.552713678800501e-15
+    },
+    {
+      "z": 0.3,
+      "hole": 5,
+      "source_area": 9.143161547137424,
+      "new_area": 9.143161547137424,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 6,
+      "source_area": 9.143126264214516,
+      "new_area": 9.143126264214516,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 7,
+      "source_area": 9.142244236484322,
+      "new_area": 9.142244236484322,
+      "symmetric_difference_mm2": 1.5267146866127613e-16,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 8,
+      "source_area": 9.142275441903621,
+      "new_area": 9.142275441903621,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 1,
+      "source_area": 9.143101476411427,
+      "new_area": 9.143101476411427,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 2,
+      "source_area": 9.142213501036158,
+      "new_area": 9.142213501036158,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 3,
+      "source_area": 9.143170753028238,
+      "new_area": 9.143170753028238,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 4,
+      "source_area": 9.142268897732718,
+      "new_area": 9.142268897732718,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 5,
+      "source_area": 9.143161547137423,
+      "new_area": 9.143161547137423,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 6,
+      "source_area": 9.143126264214517,
+      "new_area": 9.143126264214517,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 7,
+      "source_area": 9.14224423487153,
+      "new_area": 9.14224423487153,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 8,
+      "source_area": 9.14227544190362,
+      "new_area": 9.14227544190362,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 1,
+      "source_area": 9.143103636691892,
+      "new_area": 9.143103636691892,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 2,
+      "source_area": 9.142213501036169,
+      "new_area": 9.142213501036169,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 3,
+      "source_area": 9.143170753028246,
+      "new_area": 9.143170753028246,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 4,
+      "source_area": 9.14226889773272,
+      "new_area": 9.14226889773272,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 5,
+      "source_area": 9.143161547137424,
+      "new_area": 9.143161547137424,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 6,
+      "source_area": 9.143126264214517,
+      "new_area": 9.143126264214517,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 7,
+      "source_area": 9.14224422274818,
+      "new_area": 9.14224422274818,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 8,
+      "source_area": 9.142275441903625,
+      "new_area": 9.142275441903625,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 1,
+      "source_area": 9.143110687251953,
+      "new_area": 9.143110687251953,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 2,
+      "source_area": 9.142213501036167,
+      "new_area": 9.142213501036167,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 3,
+      "source_area": 9.143170753028249,
+      "new_area": 9.143170753028249,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 4,
+      "source_area": 9.142268897732718,
+      "new_area": 9.142268897732718,
+      "symmetric_difference_mm2": 2.390259214515855e-16,
+      "boundary_hausdorff_mm": 1.7763568394002505e-15
+    },
+    {
+      "z": 2.9,
+      "hole": 5,
+      "source_area": 9.143161547137424,
+      "new_area": 9.143161547137424,
+      "symmetric_difference_mm2": 2.390259214515855e-16,
+      "boundary_hausdorff_mm": 1.7763568394002505e-15
+    },
+    {
+      "z": 2.9,
+      "hole": 6,
+      "source_area": 9.143126264214512,
+      "new_area": 9.143126264214512,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 7,
+      "source_area": 9.142244183180892,
+      "new_area": 9.142244183180892,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 8,
+      "source_area": 9.142275441903623,
+      "new_area": 9.142275441903623,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    }
+  ],
+  "narrow": [
+    {
+      "z": 0.1,
+      "hole": 1,
+      "source_area": 9.143146985676138,
+      "new_area": 9.143146985676138,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.1,
+      "hole": 2,
+      "source_area": 9.14224445540458,
+      "new_area": 9.14224445540458,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.1,
+      "hole": 3,
+      "source_area": 9.143128164694643,
+      "new_area": 9.143128164694643,
+      "symmetric_difference_mm2": 2.5126385347351565e-16,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.1,
+      "hole": 4,
+      "source_area": 9.142236459767442,
+      "new_area": 9.142236459767442,
+      "symmetric_difference_mm2": 1.2563192673675783e-16,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.1,
+      "hole": 5,
+      "source_area": 9.14312910917215,
+      "new_area": 9.14312910917215,
+      "symmetric_difference_mm2": 1.2563192673675783e-16,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.1,
+      "hole": 6,
+      "source_area": 9.14314059680328,
+      "new_area": 9.14314059680328,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.1,
+      "hole": 7,
+      "source_area": 9.142258485779168,
+      "new_area": 9.142258485779168,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.1,
+      "hole": 8,
+      "source_area": 9.142232853570018,
+      "new_area": 9.142232853570018,
+      "symmetric_difference_mm2": 2.5126385347351565e-16,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 1,
+      "source_area": 9.143146985676138,
+      "new_area": 9.143146985676138,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 2,
+      "source_area": 9.14224445540458,
+      "new_area": 9.14224445540458,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 3,
+      "source_area": 9.143128164694646,
+      "new_area": 9.143128164694646,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 4,
+      "source_area": 9.142236459767446,
+      "new_area": 9.142236459767446,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 5,
+      "source_area": 9.143129109172152,
+      "new_area": 9.143129109172152,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 6,
+      "source_area": 9.143140596803278,
+      "new_area": 9.143140596803278,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 7,
+      "source_area": 9.142258485779166,
+      "new_area": 9.142258485779166,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.3,
+      "hole": 8,
+      "source_area": 9.142232853570029,
+      "new_area": 9.142232853570029,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 1,
+      "source_area": 9.143146985676134,
+      "new_area": 9.143146985676134,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 2,
+      "source_area": 9.14224445540458,
+      "new_area": 9.14224445540458,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 3,
+      "source_area": 9.143128164694646,
+      "new_area": 9.143128164694646,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 4,
+      "source_area": 9.14223645976745,
+      "new_area": 9.14223645976745,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 5,
+      "source_area": 9.143129109172154,
+      "new_area": 9.143129109172154,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 6,
+      "source_area": 9.143140596803278,
+      "new_area": 9.143140596803278,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 7,
+      "source_area": 9.142258485779166,
+      "new_area": 9.142258485779166,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 0.59,
+      "hole": 8,
+      "source_area": 9.142232853570025,
+      "new_area": 9.142232853570025,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 1,
+      "source_area": 9.14314698567614,
+      "new_area": 9.14314698567614,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 2,
+      "source_area": 9.14224445540458,
+      "new_area": 9.14224445540458,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 3,
+      "source_area": 9.143128164694646,
+      "new_area": 9.143128164694646,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 4,
+      "source_area": 9.142236459767444,
+      "new_area": 9.142236459767444,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 5,
+      "source_area": 9.14312910917215,
+      "new_area": 9.14312910917215,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 6,
+      "source_area": 9.143140596803283,
+      "new_area": 9.143140596803283,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 7,
+      "source_area": 9.14225848577917,
+      "new_area": 9.14225848577917,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 1.5,
+      "hole": 8,
+      "source_area": 9.142232853570022,
+      "new_area": 9.142232853570022,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 1,
+      "source_area": 9.143146985676141,
+      "new_area": 9.143146985676141,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 2,
+      "source_area": 9.14224445540458,
+      "new_area": 9.14224445540458,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 3,
+      "source_area": 9.143128164694641,
+      "new_area": 9.143128164694641,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 4,
+      "source_area": 9.142236459767442,
+      "new_area": 9.142236459767442,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 5,
+      "source_area": 9.143129109172147,
+      "new_area": 9.143129109172147,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 6,
+      "source_area": 9.14314059680328,
+      "new_area": 9.14314059680328,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 7,
+      "source_area": 9.142258485779164,
+      "new_area": 9.142258485779164,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    },
+    {
+      "z": 2.9,
+      "hole": 8,
+      "source_area": 9.142232853570018,
+      "new_area": 9.142232853570018,
+      "symmetric_difference_mm2": 0.0,
+      "boundary_hausdorff_mm": 0.0
+    }
+  ]
+}

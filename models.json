@@ -1430,6 +1430,176 @@
     "bytes": 80129708
   },
   {
+    "id": "filament-spool-chanel",
+    "title": "双 C 连续筒轻量料盘 · 试验件",
+    "category": "打印配件 / 料盘",
+    "status": "design",
+    "cls": "derived",
+    "summary": "基于用户提供的 spool 2.1 STL。两片实体估重 98.37 g（PETG Matte 1.37 g/cm³，不含辅料）。保留源卡扣、纸芯定位及双线孔。未完成可靠 FEA、实打锁合与 1 kg/AMS 动态验证。",
+    "cover": "filament-spool-chanel/Design/actual_preview.png",
+    "downloads": [
+      "Models/CHANEL_SOURCE21_wide.step",
+      "Models/CHANEL_SOURCE21_narrow.step"
+    ],
+    "downloadGroups": [
+      {
+        "prefix": "Models/",
+        "label": "两片 STEP · 自行切片与空盘试装",
+        "note": "每片一个实体，建议两盘；模型估重不是全过程耗料保证。未验证满料承载，不用于无人看管运行。"
+      }
+    ],
+    "gallery": [],
+    "dir": "filament-spool-chanel",
+    "files": [
+      {
+        "rel": "Design/actual_preview.png",
+        "size": 145053,
+        "url": "models/filament-spool-chanel/Design/actual_preview.png"
+      },
+      {
+        "rel": "Models/CHANEL_SOURCE21_narrow.step",
+        "size": 84976388,
+        "url": "models/filament-spool-chanel/Models/CHANEL_SOURCE21_narrow.step"
+      },
+      {
+        "rel": "Models/CHANEL_SOURCE21_wide.step",
+        "size": 85977625,
+        "url": "models/filament-spool-chanel/Models/CHANEL_SOURCE21_wide.step"
+      },
+      {
+        "rel": "Notes/CHANEL_SOURCE21_narrow.step.validation.json",
+        "size": 960,
+        "url": "models/filament-spool-chanel/Notes/CHANEL_SOURCE21_narrow.step.validation.json"
+      },
+      {
+        "rel": "Notes/CHANEL_SOURCE21_wide.step.validation.json",
+        "size": 798,
+        "url": "models/filament-spool-chanel/Notes/CHANEL_SOURCE21_wide.step.validation.json"
+      },
+      {
+        "rel": "Notes/FROZEN_GEOMETRY_CHECK.md",
+        "size": 1945,
+        "url": "models/filament-spool-chanel/Notes/FROZEN_GEOMETRY_CHECK.md"
+      },
+      {
+        "rel": "Notes/FROZEN_VALIDATION.json",
+        "size": 1375,
+        "url": "models/filament-spool-chanel/Notes/FROZEN_VALIDATION.json"
+      },
+      {
+        "rel": "Notes/NEW_SOURCE_GEOMETRY_REVIEW.md",
+        "size": 5824,
+        "url": "models/filament-spool-chanel/Notes/NEW_SOURCE_GEOMETRY_REVIEW.md"
+      },
+      {
+        "rel": "Notes/STEP_SERIALIZATION_VALIDATION.json",
+        "size": 986,
+        "url": "models/filament-spool-chanel/Notes/STEP_SERIALIZATION_VALIDATION.json"
+      },
+      {
+        "rel": "Notes/frozen_protected_audit_final.json",
+        "size": 19530,
+        "url": "models/filament-spool-chanel/Notes/frozen_protected_audit_final.json"
+      },
+      {
+        "rel": "Notes/hole_profiles.json",
+        "size": 16109,
+        "url": "models/filament-spool-chanel/Notes/hole_profiles.json"
+      },
+      {
+        "rel": "Notes/path_checks.json",
+        "size": 7878,
+        "url": "models/filament-spool-chanel/Notes/path_checks.json"
+      },
+      {
+        "rel": "Notes/repair_audit.json",
+        "size": 402,
+        "url": "models/filament-spool-chanel/Notes/repair_audit.json"
+      },
+      {
+        "rel": "Notes/source_audit.json",
+        "size": 1367,
+        "url": "models/filament-spool-chanel/Notes/source_audit.json"
+      },
+      {
+        "rel": "Notes/stitch_audit.json",
+        "size": 467,
+        "url": "models/filament-spool-chanel/Notes/stitch_audit.json"
+      },
+      {
+        "rel": "README.md",
+        "size": 3520,
+        "url": "models/filament-spool-chanel/README.md"
+      },
+      {
+        "rel": "Source/build_official.py",
+        "size": 4745,
+        "url": "models/filament-spool-chanel/Source/build_official.py"
+      },
+      {
+        "rel": "Source/chanel_motif.py",
+        "size": 1867,
+        "url": "models/filament-spool-chanel/Source/chanel_motif.py"
+      },
+      {
+        "rel": "Source/check_hole_profiles.py",
+        "size": 1487,
+        "url": "models/filament-spool-chanel/Source/check_hole_profiles.py"
+      },
+      {
+        "rel": "Source/features.json",
+        "size": 18703,
+        "url": "models/filament-spool-chanel/Source/features.json"
+      },
+      {
+        "rel": "Source/freeze_meshes.py",
+        "size": 1614,
+        "url": "models/filament-spool-chanel/Source/freeze_meshes.py"
+      },
+      {
+        "rel": "Source/input/README.txt",
+        "size": 254,
+        "url": "models/filament-spool-chanel/Source/input/README.txt"
+      },
+      {
+        "rel": "Source/mesh_to_faceted_step.py",
+        "size": 4488,
+        "url": "models/filament-spool-chanel/Source/mesh_to_faceted_step.py"
+      },
+      {
+        "rel": "Source/normalize_source.py",
+        "size": 1006,
+        "url": "models/filament-spool-chanel/Source/normalize_source.py"
+      },
+      {
+        "rel": "Source/repair_source.py",
+        "size": 796,
+        "url": "models/filament-spool-chanel/Source/repair_source.py"
+      },
+      {
+        "rel": "Source/stitch_source.py",
+        "size": 2226,
+        "url": "models/filament-spool-chanel/Source/stitch_source.py"
+      },
+      {
+        "rel": "Source/validate_faceted_step.py",
+        "size": 1081,
+        "url": "models/filament-spool-chanel/Source/validate_faceted_step.py"
+      },
+      {
+        "rel": "Source/verify_protected.py",
+        "size": 3414,
+        "url": "models/filament-spool-chanel/Source/verify_protected.py"
+      },
+      {
+        "rel": "Source/verify_step_serialization.py",
+        "size": 1347,
+        "url": "models/filament-spool-chanel/Source/verify_step_serialization.py"
+      }
+    ],
+    "bytes": 171203255
+  },
+  {
     "id": "filament-spool-lv",
     "title": "LV 镂空轻量料盘 A · 待修订原型",
     "category": "打印配件 / 料盘",

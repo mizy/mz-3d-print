@@ -1,0 +1,20 @@
+{
+  "wide": {
+    "split_count": 65,
+    "max_perpendicular_error_mm": 6.443048587136528e-09,
+    "volume_delta_mm3": 4.3655745685100555e-11,
+    "watertight": true,
+    "non_two_edges": 0,
+    "degenerate_faces": 0,
+    "faces": 289320
+  },
+  "narrow": {
+    "split_count": 50,
+    "max_perpendicular_error_mm": 0.0,
+    "volume_delta_mm3": -1.4551915228366852e-11,
+    "watertight": true,
+    "non_two_edges": 0,
+    "degenerate_faces": 0,
+    "faces": 276384
+  }
+}

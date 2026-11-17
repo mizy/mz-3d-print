@@ -1,0 +1,18 @@
+{
+  "wide": {
+    "before_faces": 289498,
+    "after_faces": 289255,
+    "volume_delta_mm3": -4.3655745685100555e-11,
+    "volume_mm3": 112600.74331422478,
+    "watertight": false,
+    "non_two_edges": 189
+  },
+  "narrow": {
+    "before_faces": 276482,
+    "after_faces": 276334,
+    "volume_delta_mm3": 0.0,
+    "volume_mm3": 109051.75745356044,
+    "watertight": false,
+    "non_two_edges": 148
+  }
+}

@@ -27,3 +27,5 @@ models/dog-bowl-lv/**/*.3mf filter=lfs diff=lfs merge=lfs -text
 
 models/filament-spool-lv/Models/*.stl filter=lfs diff=lfs merge=lfs -text
 models/filament-spool-lv/Models/*.step filter=lfs diff=lfs merge=lfs -text
+
+models/filament-spool-chanel/Models/*.step filter=lfs diff=lfs merge=lfs -text

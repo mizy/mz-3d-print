@@ -1,0 +1,342 @@
+{
+  "0.3": {
+    "0": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "15": {
+      "entire_radial_centerline_missing_mm": 14.080988129637158,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "30": {
+      "entire_radial_centerline_missing_mm": 10.791937602086499,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "45": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "60": {
+      "entire_radial_centerline_missing_mm": 6.598923870341647,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "75": {
+      "entire_radial_centerline_missing_mm": 6.523073596749716,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "90": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "105": {
+      "entire_radial_centerline_missing_mm": 6.523073596749739,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "120": {
+      "entire_radial_centerline_missing_mm": 6.5989238703416735,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "135": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "150": {
+      "entire_radial_centerline_missing_mm": 10.790405552090656,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "165": {
+      "entire_radial_centerline_missing_mm": 14.080091388369338,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "180": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "195": {
+      "entire_radial_centerline_missing_mm": 14.081190408631603,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "210": {
+      "entire_radial_centerline_missing_mm": 10.791820004050383,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "225": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "240": {
+      "entire_radial_centerline_missing_mm": 6.598923870341626,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "255": {
+      "entire_radial_centerline_missing_mm": 6.523073596749709,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "270": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "285": {
+      "entire_radial_centerline_missing_mm": 6.523073596749724,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "300": {
+      "entire_radial_centerline_missing_mm": 6.5989238703416575,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "315": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "330": {
+      "entire_radial_centerline_missing_mm": 10.790722440290006,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "345": {
+      "entire_radial_centerline_missing_mm": 14.082039545949415,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "1.0": {
+    "0": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "15": {
+      "entire_radial_centerline_missing_mm": 50.0,
+      "ring_bridge_centerline_missing_mm": [
+        2.7999999999999976,
+        2.800000000000006
+      ]
+    },
+    "30": {
+      "entire_radial_centerline_missing_mm": 50.0,
+      "ring_bridge_centerline_missing_mm": [
+        2.799999999999994,
+        2.800000000000016
+      ]
+    },
+    "45": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "60": {
+      "entire_radial_centerline_missing_mm": 50.0,
+      "ring_bridge_centerline_missing_mm": [
+        2.799999999999994,
+        2.800000000000016
+      ]
+    },
+    "75": {
+      "entire_radial_centerline_missing_mm": 50.0,
+      "ring_bridge_centerline_missing_mm": [
+        2.7999999999999976,
+        2.800000000000006
+      ]
+    },
+    "90": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "105": {
+      "entire_radial_centerline_missing_mm": 50.0,
+      "ring_bridge_centerline_missing_mm": [
+        2.7999999999999976,
+        2.800000000000005
+      ]
+    },
+    "120": {
+      "entire_radial_centerline_missing_mm": 50.0,
+      "ring_bridge_centerline_missing_mm": [
+        2.799999999999994,
+        2.800000000000016
+      ]
+    },
+    "135": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "150": {
+      "entire_radial_centerline_missing_mm": 50.0,
+      "ring_bridge_centerline_missing_mm": [
+        2.799999999999994,
+        2.800000000000016
+      ]
+    },
+    "165": {
+      "entire_radial_centerline_missing_mm": 50.0,
+      "ring_bridge_centerline_missing_mm": [
+        2.7999999999999976,
+        2.800000000000006
+      ]
+    },
+    "180": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "195": {
+      "entire_radial_centerline_missing_mm": 50.0,
+      "ring_bridge_centerline_missing_mm": [
+        2.7999999999999976,
+        2.800000000000005
+      ]
+    },
+    "210": {
+      "entire_radial_centerline_missing_mm": 50.0,
+      "ring_bridge_centerline_missing_mm": [
+        2.799999999999994,
+        2.800000000000016
+      ]
+    },
+    "225": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "240": {
+      "entire_radial_centerline_missing_mm": 49.99999999999999,
+      "ring_bridge_centerline_missing_mm": [
+        2.799999999999994,
+        2.800000000000016
+      ]
+    },
+    "255": {
+      "entire_radial_centerline_missing_mm": 49.99999999999999,
+      "ring_bridge_centerline_missing_mm": [
+        2.7999999999999976,
+        2.800000000000005
+      ]
+    },
+    "270": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "285": {
+      "entire_radial_centerline_missing_mm": 50.0,
+      "ring_bridge_centerline_missing_mm": [
+        2.7999999999999976,
+        2.800000000000019
+      ]
+    },
+    "300": {
+      "entire_radial_centerline_missing_mm": 50.0,
+      "ring_bridge_centerline_missing_mm": [
+        2.799999999999994,
+        2.800000000000016
+      ]
+    },
+    "315": {
+      "entire_radial_centerline_missing_mm": 0.0,
+      "ring_bridge_centerline_missing_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "330": {
+      "entire_radial_centerline_missing_mm": 49.99999999999999,
+      "ring_bridge_centerline_missing_mm": [
+        2.799999999999994,
+        2.800000000000016
+      ]
+    },
+    "345": {
+      "entire_radial_centerline_missing_mm": 49.99999999999999,
+      "ring_bridge_centerline_missing_mm": [
+        2.7999999999999976,
+        2.800000000000006
+      ]
+    }
+  }
+}

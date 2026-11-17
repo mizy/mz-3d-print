@@ -1,0 +1,31 @@
+{
+  "source": "chanel_official/CHANEL_SOURCE21_narrow_FROZEN.obj",
+  "output": "chanel_official/CHANEL_SOURCE21_narrow.step",
+  "mesh_faces": 210596,
+  "mesh_vertices": 105090,
+  "mesh_volume_mm3": 32009.875676089472,
+  "vertex_relocation_mm": 0,
+  "representation": "FACETED_BREP, planar FACE_SURFACE, POLY_LOOP; not visualization-only tessellation",
+  "step_bytes": 84976388,
+  "export_elapsed_s": 8.784849643707275,
+  "source_sha256": "503d30f37f20eb24e87a9db9604d4a2fb04c86809086c1fb93a4e1fcca7600da",
+  "valid": true,
+  "solids": 1,
+  "step_volume_mm3": 32009.87567609021,
+  "volume_difference_mm3": 7.385096978396177e-10,
+  "step_bounds_mm": [
+    [
+      -100.01277160644531,
+      -100.01336669921875,
+      -1.1102230246251565e-16
+    ],
+    [
+      100.01277160644531,
+      100.01336669921875,
+      34.11305236816406
+    ]
+  ],
+  "max_bounds_difference_mm": 1.1102230246251565e-16,
+  "validation_elapsed_s": 211.5408914089203,
+  "validated": true
+}
