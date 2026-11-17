@@ -1,0 +1,23 @@
+{
+  "id": "filament-spool-lv",
+  "title": "LV 镂空轻量料盘 A · 未验证原型",
+  "category": "打印配件 / 料盘",
+  "status": "design",
+  "cls": "derived",
+  "summary": "单色 PETG Matte；标称 Ø200×67 mm，约110.6g实体体积估算。两半旋接、成对卡线孔；缺防反转锁止，接口未核实。禁止装料、未批准打印使用。",
+  "cover": "Design/A_actual_CAD_preview.png",
+  "downloads": [
+    "Models/A_wide_PROTOTYPE.step",
+    "Models/A_narrow_PROTOTYPE.step",
+    "Models/A_wide_PROTOTYPE.stl",
+    "Models/A_narrow_PROTOTYPE.stl"
+  ],
+  "downloadGroups": [
+    {
+      "prefix": "Models/",
+      "label": "仅工程审查与空载试配的原型文件",
+      "note": "不是可用成品。未切片、未实打、未验证拓竹补充装接口；禁止装料，不得把1kg简化分析当承重认证。"
+    }
+  ],
+  "gallery": []
+}

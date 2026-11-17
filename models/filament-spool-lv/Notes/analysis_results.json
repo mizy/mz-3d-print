@@ -1,0 +1,47 @@
+{
+  "plane_stress_mesh_study": [
+    {
+      "max_triangle_area_mm2": 5,
+      "nodes": 22996,
+      "elements": 35672,
+      "area_mm2": 23849.341307753817,
+      "load_per_flange_N": 5.45,
+      "support_y_reaction_N": 5.450000000000126,
+      "free_residual_norm_N": 7.671920194803794e-13,
+      "max_inplane_displacement_mm": 0.004357148943563335,
+      "max_von_mises_MPa": 0.9502196964853096,
+      "p99_von_mises_MPa": 0.20088439972876987,
+      "max_stress_excluding_5mm_support_zone_MPa": 0.9502196964853096,
+      "material_E_MPa": 3349.0,
+      "poisson_assumption": 0.38,
+      "support_nodes": 8,
+      "core_load_nodes": 113
+    },
+    {
+      "max_triangle_area_mm2": 2,
+      "nodes": 26948,
+      "elements": 43352,
+      "area_mm2": 23849.341307753817,
+      "load_per_flange_N": 5.45,
+      "support_y_reaction_N": 5.450000000000927,
+      "free_residual_norm_N": 8.776915175355817e-13,
+      "max_inplane_displacement_mm": 0.004355392060929215,
+      "max_von_mises_MPa": 0.8708555262734882,
+      "p99_von_mises_MPa": 0.1925255512016968,
+      "max_stress_excluding_5mm_support_zone_MPa": 0.8708555262734882,
+      "material_E_MPa": 3349.0,
+      "poisson_assumption": 0.38,
+      "support_nodes": 15,
+      "core_load_nodes": 113
+    }
+  ],
+  "off_axis_beam_screening": {
+    "model": "four independent 58mm cantilevers, each 10x1mm skin +2.4x1mm top rib; NOT full plate FEA",
+    "load_total_N": 9.81,
+    "load_each_N": 2.4525,
+    "I_mm4": 2.968817204301075,
+    "nominal_bending_stress_MPa": 62.59604310032598,
+    "linear_tip_deflection_mm": 26.930559974728567,
+    "warning": "Large predicted displacement invalidates small-deflection assumptions; shows plate flexibility/load-sharing sensitivity, not actual spool deflection."
+  }
+}

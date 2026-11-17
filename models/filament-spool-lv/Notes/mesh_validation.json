@@ -1,0 +1,26 @@
+{
+  "A_narrow_PROTOTYPE.stl": {
+    "triangles": 81232,
+    "vertices": 40124,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "bbox_mm": [
+      199.955246,
+      199.977616,
+      39.5
+    ],
+    "self_intersection_test": "not run"
+  },
+  "A_wide_PROTOTYPE.stl": {
+    "triangles": 80644,
+    "vertices": 39830,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "bbox_mm": [
+      199.955246,
+      199.977616,
+      33.5
+    ],
+    "self_intersection_test": "not run"
+  }
+}

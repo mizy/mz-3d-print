@@ -1,0 +1,37 @@
+{
+  "model": "Kirchhoff-Love Morley thin plate; inner edge fully clamped, outer edge free; variable 1/2 mm thickness; isotropic Eflex1995MPa, nu0.38",
+  "nodes": 26948,
+  "triangles": 43352,
+  "dofs": 97494,
+  "loaded_area_mm2": 19088.79687069287,
+  "unit_axial_force_N": 1,
+  "max_abs_deflection_mm_per_N": 0.4534106889077087,
+  "peak_surface_von_mises_MPa_per_N": 1.8054035018381536,
+  "p99_surface_von_mises_MPa_per_N": 0.7393552783494559,
+  "force_sweep": [
+    {
+      "total_axial_force_N": 1,
+      "max_abs_deflection_mm_linear": 0.4534106889077087,
+      "peak_surface_von_mises_MPa_linear": 1.8054035018381536,
+      "large_deflection_warning": false
+    },
+    {
+      "total_axial_force_N": 5,
+      "max_abs_deflection_mm_linear": 2.2670534445385435,
+      "peak_surface_von_mises_MPa_linear": 9.027017509190769,
+      "large_deflection_warning": true
+    },
+    {
+      "total_axial_force_N": 10,
+      "max_abs_deflection_mm_linear": 4.534106889077087,
+      "peak_surface_von_mises_MPa_linear": 18.054035018381537,
+      "large_deflection_warning": true
+    }
+  ],
+  "limits": [
+    "No actual winding tension/coil side pressure known; forces below are independent sensitivity cases, not derived from1kg mass.",
+    "Fully clamped core may underestimate displacement compared with real flexible lock.",
+    "No geometric nonlinearity, anisotropy, creep, failure/contact, or detailed rounded rib-root stress.",
+    "One bending mesh only; not a convergence-certified peak."
+  ]
+}

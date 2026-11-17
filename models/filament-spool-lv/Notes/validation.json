@@ -1,0 +1,28 @@
+{
+  "A_wide_PROTOTYPE": {
+    "volume_mm3": 38752.880836860226,
+    "solid_count": 1,
+    "valid_brep": true,
+    "bbox_mm": [
+      200.0447569716497,
+      200.06713410535406,
+      33.56458291754745
+    ]
+  },
+  "A_narrow_PROTOTYPE": {
+    "volume_mm3": 42002.85214206611,
+    "solid_count": 1,
+    "valid_brep": true,
+    "bbox_mm": [
+      200.0447569716497,
+      200.06713410535406,
+      39.56180930164821
+    ]
+  },
+  "assembly": {
+    "overlap_mm3": 0.0,
+    "nominal_width_mm": 67,
+    "estimated_solid_mass_g_at_1_37": 110.63535418112906,
+    "warning": "Not slicer mass. Provisional core diameter and original lock, no official refill compatibility validation. No locking detent yet; do not load filament."
+  }
+}

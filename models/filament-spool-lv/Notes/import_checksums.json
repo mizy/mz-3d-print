@@ -1,0 +1,20 @@
+{
+  "Models/A_wide_PROTOTYPE.step": "6d03afaa821dadd943e17ed061b6c069d9a8581851af1a59dad0a12327ed7f61",
+  "Models/A_narrow_PROTOTYPE.step": "32778a1c54b76d3031e8bc64594242eb6d8950e1d40ae68bb59b3747f7e1e928",
+  "Models/A_wide_PROTOTYPE.stl": "a122f24d03cf7bcf618c5190fdc4893a5ba372d90e9fdb600e31e7a66636c7ec",
+  "Models/A_narrow_PROTOTYPE.stl": "c256d4955a8ae4be8d0501ae0d6734b89214956dab53294885386f1c25a220e4",
+  "Design/A_actual_CAD_preview.png": "5ffc7d1fc93a113f9bf202bf2c1bfe1d419da4d385a820751ab28ae01afcb6a0",
+  "Notes/engineering_report.md": "52885aaa2a3d2e4dd7924c1b66a411a2db354499adaaa4f1e7056b4e9cb064b2",
+  "Notes/validation.json": "77b0c85831a8c211a0424aabec2fa8e4dbf660d4d2089380dfd6d9d169acc5fb",
+  "Notes/mesh_validation.json": "f97a8a37c55d5ac8f9614e04c244a5baca7d9b84bdeae6c1d6d41d3151754c15",
+  "Notes/analysis_results.json": "a9a1e00625d757813986bcb174db94dc13106f825923e012199c36cdfe1bea94",
+  "Notes/axial_plate_results.json": "f1b1b0047a57d6075c588c39ca4bb27129fcaff21e28d55eb7cd8f94d262fc91",
+  "Notes/plane_stress_screening.png": "3d024a02b7f9d2cc506d01563d453fcd54dfb96c8414964272f96a633e4891a1",
+  "Notes/axial_plate_screening.png": "a51aaac82d19510a3caf6556f9e72e9bb4636580a7fa4513a0d24e14ef271ece",
+  "Source/build.py": "9c8bfa5abd6ea4fc18bf2d15edff57837042ce0c30540520d89952b36e520125",
+  "Source/analyze.py": "5410310c3814762499c2841f6e202204ff3406cc0870d2627d5ad958cfb872b2",
+  "Source/axial_plate.py": "1ca6df80938d23a5cf6da2c1bae5d42e3f6fdab63eb507fa8abdeef35a82a1e5",
+  "Source/check_mesh.py": "07d11dcfa3f3a84b55b313371cc93181d48b51121be05f8d50ae7e43529bae92",
+  "Source/LV_Monogram.svg": "7cfb091c8e60328d1ad1c1a47410186572e830bda6f93f6052c180479fb79533",
+  "Source/requirements.txt": "32a125a17b2435c3aa29578ece60e87b30bfd00ebce6d7deea9f4101b0caddb1"
+}

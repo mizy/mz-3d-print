@@ -808,7 +808,7 @@
       },
       {
         "rel": "Models/Bowl.3mf",
-        "size": 1729383,
+        "size": 1713408,
         "url": "models/dog-bowl-lv/Models/Bowl.3mf"
       },
       {
@@ -835,6 +835,11 @@
         "rel": "Notes/PRINT_README--e5e3ea53b7.txt",
         "size": 3161,
         "url": "models/dog-bowl-lv/Notes/PRINT_README--e5e3ea53b7.txt"
+      },
+      {
+        "rel": "Notes/PRINT_TUNING--2026-11-16.md",
+        "size": 2206,
+        "url": "models/dog-bowl-lv/Notes/PRINT_TUNING--2026-11-16.md"
       },
       {
         "rel": "Notes/README--32a656e569.md",
@@ -1422,7 +1427,134 @@
         "url": "models/dog-bowl-lv/Source/voxel_fuse--4f229288e3.py"
       }
     ],
-    "bytes": 80143477
+    "bytes": 80129708
+  },
+  {
+    "id": "filament-spool-lv",
+    "title": "LV 镂空轻量料盘 A · 未验证原型",
+    "category": "打印配件 / 料盘",
+    "status": "design",
+    "cls": "derived",
+    "summary": "单色 PETG Matte；标称 Ø200×67 mm，约110.6g实体体积估算。两半旋接、成对卡线孔；缺防反转锁止，接口未核实。禁止装料、未批准打印使用。",
+    "cover": "filament-spool-lv/Design/A_actual_CAD_preview.png",
+    "downloads": [
+      "Models/A_wide_PROTOTYPE.step",
+      "Models/A_narrow_PROTOTYPE.step",
+      "Models/A_wide_PROTOTYPE.stl",
+      "Models/A_narrow_PROTOTYPE.stl"
+    ],
+    "downloadGroups": [
+      {
+        "prefix": "Models/",
+        "label": "仅工程审查与空载试配的原型文件",
+        "note": "不是可用成品。未切片、未实打、未验证拓竹补充装接口；禁止装料，不得把1kg简化分析当承重认证。"
+      }
+    ],
+    "gallery": [],
+    "dir": "filament-spool-lv",
+    "files": [
+      {
+        "rel": "Design/A_actual_CAD_preview.png",
+        "size": 2265893,
+        "url": "models/filament-spool-lv/Design/A_actual_CAD_preview.png"
+      },
+      {
+        "rel": "Models/A_narrow_PROTOTYPE.step",
+        "size": 21761299,
+        "url": "models/filament-spool-lv/Models/A_narrow_PROTOTYPE.step"
+      },
+      {
+        "rel": "Models/A_narrow_PROTOTYPE.stl",
+        "size": 4061684,
+        "url": "models/filament-spool-lv/Models/A_narrow_PROTOTYPE.stl"
+      },
+      {
+        "rel": "Models/A_wide_PROTOTYPE.step",
+        "size": 21872231,
+        "url": "models/filament-spool-lv/Models/A_wide_PROTOTYPE.step"
+      },
+      {
+        "rel": "Models/A_wide_PROTOTYPE.stl",
+        "size": 4032284,
+        "url": "models/filament-spool-lv/Models/A_wide_PROTOTYPE.stl"
+      },
+      {
+        "rel": "Notes/analysis_results.json",
+        "size": 1761,
+        "url": "models/filament-spool-lv/Notes/analysis_results.json"
+      },
+      {
+        "rel": "Notes/axial_plate_results.json",
+        "size": 1494,
+        "url": "models/filament-spool-lv/Notes/axial_plate_results.json"
+      },
+      {
+        "rel": "Notes/axial_plate_screening.png",
+        "size": 458038,
+        "url": "models/filament-spool-lv/Notes/axial_plate_screening.png"
+      },
+      {
+        "rel": "Notes/engineering_report.md",
+        "size": 8943,
+        "url": "models/filament-spool-lv/Notes/engineering_report.md"
+      },
+      {
+        "rel": "Notes/import_checksums.json",
+        "size": 1792,
+        "url": "models/filament-spool-lv/Notes/import_checksums.json"
+      },
+      {
+        "rel": "Notes/mesh_validation.json",
+        "size": 492,
+        "url": "models/filament-spool-lv/Notes/mesh_validation.json"
+      },
+      {
+        "rel": "Notes/plane_stress_screening.png",
+        "size": 350937,
+        "url": "models/filament-spool-lv/Notes/plane_stress_screening.png"
+      },
+      {
+        "rel": "Notes/validation.json",
+        "size": 725,
+        "url": "models/filament-spool-lv/Notes/validation.json"
+      },
+      {
+        "rel": "README.md",
+        "size": 2808,
+        "url": "models/filament-spool-lv/README.md"
+      },
+      {
+        "rel": "Source/LV_Monogram.svg",
+        "size": 3193,
+        "url": "models/filament-spool-lv/Source/LV_Monogram.svg"
+      },
+      {
+        "rel": "Source/analyze.py",
+        "size": 5008,
+        "url": "models/filament-spool-lv/Source/analyze.py"
+      },
+      {
+        "rel": "Source/axial_plate.py",
+        "size": 3088,
+        "url": "models/filament-spool-lv/Source/axial_plate.py"
+      },
+      {
+        "rel": "Source/build.py",
+        "size": 4218,
+        "url": "models/filament-spool-lv/Source/build.py"
+      },
+      {
+        "rel": "Source/check_mesh.py",
+        "size": 794,
+        "url": "models/filament-spool-lv/Source/check_mesh.py"
+      },
+      {
+        "rel": "Source/requirements.txt",
+        "size": 135,
+        "url": "models/filament-spool-lv/Source/requirements.txt"
+      }
+    ],
+    "bytes": 54836817
   },
   {
     "id": "idea-003",
