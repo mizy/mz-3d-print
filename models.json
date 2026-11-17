@@ -1431,11 +1431,11 @@
   },
   {
     "id": "filament-spool-chanel",
-    "title": "双 C 连续筒轻量料盘 · 试验件",
+    "title": "双 C 料盘 · 外滚环/主筋/筒壁加厚试验版",
     "category": "打印配件 / 料盘",
     "status": "design",
     "cls": "derived",
-    "summary": "基于用户提供的 spool 2.1 STL。两片实体估重 98.37 g（PETG Matte 1.37 g/cm³，不含辅料）。保留源卡扣、纸芯定位及双线孔。未完成可靠 FEA、实打锁合与 1 kg/AMS 动态验证。",
+    "summary": "外滚环、8条主筋和筒壁加厚，无新增内部承力环。全实体估重168.06 g，非稀疏填充切片重量；STEP坐标核对通过但CAD内核回读未完成，兼容性未知，未验证1 kg/AMS运行。",
     "cover": "filament-spool-chanel/Design/actual_preview.png",
     "downloads": [
       "Models/CHANEL_SOURCE21_wide.step",
@@ -1444,8 +1444,8 @@
     "downloadGroups": [
       {
         "prefix": "Models/",
-        "label": "两片 STEP · 自行切片与空盘试装",
-        "note": "每片一个实体，建议两盘；模型估重不是全过程耗料保证。未验证满料承载，不用于无人看管运行。"
+        "label": "两片 STEP · 几何审查与自行切片",
+        "note": "STEP内核回读未完成，兼容性未知；不是已验证直接可打印件。168.06 g是全实体估重，100 g目标需重新切片核算。"
       }
     ],
     "gallery": [],
@@ -1453,63 +1453,68 @@
     "files": [
       {
         "rel": "Design/actual_preview.png",
-        "size": 145053,
+        "size": 131636,
         "url": "models/filament-spool-chanel/Design/actual_preview.png"
       },
       {
         "rel": "Models/CHANEL_SOURCE21_narrow.step",
-        "size": 84976388,
+        "size": 71233258,
         "url": "models/filament-spool-chanel/Models/CHANEL_SOURCE21_narrow.step"
       },
       {
         "rel": "Models/CHANEL_SOURCE21_wide.step",
-        "size": 85977625,
+        "size": 71701199,
         "url": "models/filament-spool-chanel/Models/CHANEL_SOURCE21_wide.step"
       },
       {
+        "rel": "Notes/CAD_IMPORT_STATUS.json",
+        "size": 679,
+        "url": "models/filament-spool-chanel/Notes/CAD_IMPORT_STATUS.json"
+      },
+      {
         "rel": "Notes/CHANEL_SOURCE21_narrow.step.validation.json",
-        "size": 960,
+        "size": 944,
         "url": "models/filament-spool-chanel/Notes/CHANEL_SOURCE21_narrow.step.validation.json"
       },
       {
         "rel": "Notes/CHANEL_SOURCE21_wide.step.validation.json",
-        "size": 798,
+        "size": 939,
         "url": "models/filament-spool-chanel/Notes/CHANEL_SOURCE21_wide.step.validation.json"
       },
       {
-        "rel": "Notes/FROZEN_GEOMETRY_CHECK.md",
-        "size": 1945,
-        "url": "models/filament-spool-chanel/Notes/FROZEN_GEOMETRY_CHECK.md"
+        "rel": "Notes/DELIVERY_SHA256.json",
+        "size": 1462,
+        "url": "models/filament-spool-chanel/Notes/DELIVERY_SHA256.json"
       },
       {
         "rel": "Notes/FROZEN_VALIDATION.json",
-        "size": 1375,
+        "size": 1374,
         "url": "models/filament-spool-chanel/Notes/FROZEN_VALIDATION.json"
       },
       {
-        "rel": "Notes/NEW_SOURCE_GEOMETRY_REVIEW.md",
-        "size": 5824,
-        "url": "models/filament-spool-chanel/Notes/NEW_SOURCE_GEOMETRY_REVIEW.md"
+        "rel": "Notes/PROTECTED_COMPARISON.json",
+        "size": 20160,
+        "url": "models/filament-spool-chanel/Notes/PROTECTED_COMPARISON.json"
+      },
+      {
+        "rel": "Notes/README.md",
+        "size": 797,
+        "url": "models/filament-spool-chanel/Notes/README.md"
       },
       {
         "rel": "Notes/STEP_SERIALIZATION_VALIDATION.json",
-        "size": 986,
+        "size": 828,
         "url": "models/filament-spool-chanel/Notes/STEP_SERIALIZATION_VALIDATION.json"
       },
       {
-        "rel": "Notes/frozen_protected_audit_final.json",
-        "size": 19530,
-        "url": "models/filament-spool-chanel/Notes/frozen_protected_audit_final.json"
+        "rel": "Notes/design_validation.json",
+        "size": 1470,
+        "url": "models/filament-spool-chanel/Notes/design_validation.json"
       },
       {
         "rel": "Notes/hole_profiles.json",
-        "size": 16109,
+        "size": 16253,
         "url": "models/filament-spool-chanel/Notes/hole_profiles.json"
-      },
-      {
-        "rel": "Notes/path_checks.json",
-        "size": 7878,
-        "url": "models/filament-spool-chanel/Notes/path_checks.json"
       },
       {
         "rel": "Notes/repair_audit.json",
@@ -1528,12 +1533,12 @@
       },
       {
         "rel": "README.md",
-        "size": 3520,
+        "size": 3847,
         "url": "models/filament-spool-chanel/README.md"
       },
       {
         "rel": "Source/build_official.py",
-        "size": 4745,
+        "size": 4936,
         "url": "models/filament-spool-chanel/Source/build_official.py"
       },
       {
@@ -1597,7 +1602,7 @@
         "url": "models/filament-spool-chanel/Source/verify_step_serialization.py"
       }
     ],
-    "bytes": 171203255
+    "bytes": 143160301
   },
   {
     "id": "filament-spool-lv",

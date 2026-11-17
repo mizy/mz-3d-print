@@ -26,26 +26,21 @@ for a in range(0,360,45):
 # Shared lightweight flange, same original double-C geometry, moderately enlarged 10%.
 plate=cq.Workplane('XY').circle(94.0).circle(43.7).extrude(.6).val()
 for a in range(0,360,45):
- rib=cq.Workplane('XY').box(51,1.6,.8,centered=(True,True,False)).translate((69,0,.6)).val().rotate((0,0,0),(0,0,1),a)
+ rib=cq.Workplane('XY').box(54,4.0,2.6,centered=(True,True,False)).translate((70.5,0,.6)).val().rotate((0,0,0),(0,0,1),a)
  plate=plate.fuse(rib)
 cut=[];motif=double_c().scale(1.1)
 for rad,n in [(53,16),(70,24),(87,32)]:
  for i in range(n):
   a=2*math.pi*(i+.5)/n;cut.append((motif.scale(1/1.1) if rad==87 else motif).translate((rad*math.cos(a),rad*math.sin(a),0)))
 plate=plate.cut(*cut).clean()
-# Two annular openings keep all eight radial load paths.
-for rad in [61.5,78.5]:
- gap=cq.Workplane('XY').circle(rad+1.25).circle(rad-1.25).extrude(4).translate((0,0,-1)).val()
- for a in range(0,360,15):
-  keep=cq.Workplane('XY').box(110,2.4,6,centered=(False,True,False)).translate((0,0,-2)).val().rotate((0,0,0),(0,0,1),a);gap=gap.cut(keep)
- plate=plate.cut(gap).clean()
+# No annular slots and no added interior rings; preserve continuous thin skin.
 print('plate',plate.isValid(),len(plate.Solids()),[(p.Volume(),p.Center().toTuple()) for p in plate.Solids()],flush=True)
 assert plate.isValid() and len(plate.Solids())==1
-pm=cadmesh(plate,'flange_native');out={'source':'user-provided Bambu spool2.1 STL; provenance URL unverified','flange_skin_mm':.6,'flange_ribs':8,'double_c_count_per_face':72,'parts':{}}
+pm=cadmesh(plate,'flange_native');out={'source':'user-provided Bambu spool2.1 STL; provenance URL unverified','flange_skin_mm':.6,'flange_ribs':8,'rib_width_mm':4.0,'rib_total_height_mm':3.2,'interior_load_rings':False,'rolling_rim_inner_radius_mm':95.0,'lower_core_inner_radius_mm':36.8,'double_c_count_per_face':72,'parts':{}}
 for k,r_top in [('wide',33.35),('narrow',29.75)]:
  source=trimesh.load(R/f'official_{k}_stitched.stl')
  parts=source.split(); assert all(p.is_volume for p in parts); source=union(*parts)
- hub=inter(source,cyl(44,-1,60));rim=diff(diff(source,cyl(93.8,-1,60)),relief)
+ hub=inter(source,cyl(44,-1,60));rim=union(diff(diff(source,cyl(93.8,-1,60)),relief),diff(source,cyl(95.0,-1,60)))
  print(k,'source fused',source.volume,'hub',hub.volume,'rim',rim.volume,flush=True)
  # Preserve all exterior geometry and original inner interfaces at/above z24.
  top_z=22.0 if k=='wide' else 24.0
@@ -57,8 +52,11 @@ for k,r_top in [('wide',33.35),('narrow',29.75)]:
  hub=diff(hub,ledge)
  # Continuous sloped diaphragm replacing the four internal ribs below z24.
  z0=top_z-(39.9-r_top)
- shoulder=cq.Workplane('XZ').polyline([(39.9,z0),(r_top,top_z),(r_top-1.7,top_z),(39.5,z0-1.3)]).close().revolve(360,(0,0),(0,1)).val()
- sm=cadmesh(shoulder,f'shoulder_native_{k}');m=union(hub,rim,pm,sm)
+ shoulder=cq.Workplane('XZ').polyline([(39.9,z0),(r_top,top_z),(r_top-1.7,top_z),(r_top-1.7,top_z-3),(36.8,z0-1.3)]).close().revolve(360,(0,0),(0,1)).val()
+ sm=cadmesh(shoulder,f'shoulder_native_{k}');core_add=diff(cyl(39.7,.6,z0+.1),cyl(36.8,.5,z0+.2));m=union(hub,rim,pm,sm,core_add)
+ if k=='wide':
+  protected_key=trimesh.creation.box([6,3,8.1]);protected_key.apply_translation([0,42.5,4]);protected_key=inter(protected_key,cyl(43.9,-.1,8.1))
+  m=union(diff(m,protected_key),inter(source,protected_key))
  m.export(R/f'CHANEL_SOURCE21_{k}.obj',digits=15);m.export(R/f'CHANEL_SOURCE21_{k}.stl');v=trimesh.load(R/f'CHANEL_SOURCE21_{k}.obj',process=False)
  _,counts=np.unique(v.edges_sorted,axis=0,return_counts=True)
  out['parts'][k]={'volume_mm3':float(v.volume),'solid_mass_g_density_1_37':float(v.volume*.00137),'watertight':bool(v.is_watertight),'non_two_edges':int((counts!=2).sum()),'degenerate_faces':int((~v.nondegenerate_faces(height=1e-8)).sum()),'components':len(v.split(only_watertight=False,repair=False)),'faces':len(v.faces),'bounds_mm':v.bounds.tolist(),'shoulder_start_z_mm':z0}

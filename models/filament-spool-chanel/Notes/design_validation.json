@@ -1,0 +1,59 @@
+{
+  "source": "user-provided Bambu spool2.1 STL; provenance URL unverified",
+  "flange_skin_mm": 0.6,
+  "flange_ribs": 8,
+  "rib_width_mm": 4.0,
+  "rib_total_height_mm": 3.2,
+  "interior_load_rings": false,
+  "rolling_rim_inner_radius_mm": 95.0,
+  "lower_core_inner_radius_mm": 36.8,
+  "double_c_count_per_face": 72,
+  "parts": {
+    "wide": {
+      "volume_mm3": 64939.955604297546,
+      "solid_mass_g_density_1_37": 88.96773917788764,
+      "watertight": true,
+      "non_two_edges": 0,
+      "degenerate_faces": 0,
+      "components": 1,
+      "faces": 211364,
+      "bounds_mm": [
+        [
+          -100.01277160644531,
+          -100.01336669921875,
+          0.0
+        ],
+        [
+          100.01277160644531,
+          100.01336669921875,
+          40.715057373046875
+        ]
+      ],
+      "shoulder_start_z_mm": 15.450000000000003
+    },
+    "narrow": {
+      "volume_mm3": 57734.256790011445,
+      "solid_mass_g_density_1_37": 79.09593180231568,
+      "watertight": true,
+      "non_two_edges": 0,
+      "degenerate_faces": 0,
+      "components": 1,
+      "faces": 210016,
+      "bounds_mm": [
+        [
+          -100.01277160644531,
+          -100.01336669921875,
+          0.0
+        ],
+        [
+          100.01277160644531,
+          100.01336669921875,
+          34.11305236816406
+        ]
+      ],
+      "shoulder_start_z_mm": 13.850000000000001
+    }
+  },
+  "total_solid_mass_g": 168.0636709802033,
+  "standard_key_region_restored": true
+}

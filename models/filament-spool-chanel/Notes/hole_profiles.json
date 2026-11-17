@@ -326,9 +326,9 @@
       "z": 0.1,
       "hole": 1,
       "source_area": 9.143146985676138,
-      "new_area": 9.143146985676138,
-      "symmetric_difference_mm2": 0.0,
-      "boundary_hausdorff_mm": 0.0
+      "new_area": 9.143146985676136,
+      "symmetric_difference_mm2": 1.1348886240492018e-15,
+      "boundary_hausdorff_mm": 3.552713678800501e-15
     },
     {
       "z": 0.1,
@@ -390,9 +390,9 @@
       "z": 0.3,
       "hole": 1,
       "source_area": 9.143146985676138,
-      "new_area": 9.143146985676138,
-      "symmetric_difference_mm2": 0.0,
-      "boundary_hausdorff_mm": 0.0
+      "new_area": 9.14314698567614,
+      "symmetric_difference_mm2": 1.2819606487468604e-15,
+      "boundary_hausdorff_mm": 3.552713678800501e-15
     },
     {
       "z": 0.3,
@@ -455,7 +455,7 @@
       "hole": 1,
       "source_area": 9.143146985676134,
       "new_area": 9.143146985676134,
-      "symmetric_difference_mm2": 0.0,
+      "symmetric_difference_mm2": 1.7780915628762273e-17,
       "boundary_hausdorff_mm": 0.0
     },
     {
@@ -519,8 +519,8 @@
       "hole": 1,
       "source_area": 9.14314698567614,
       "new_area": 9.14314698567614,
-      "symmetric_difference_mm2": 0.0,
-      "boundary_hausdorff_mm": 0.0
+      "symmetric_difference_mm2": 8.322335875998732e-16,
+      "boundary_hausdorff_mm": 3.552713678800501e-15
     },
     {
       "z": 1.5,
@@ -583,7 +583,7 @@
       "hole": 1,
       "source_area": 9.143146985676141,
       "new_area": 9.143146985676141,
-      "symmetric_difference_mm2": 0.0,
+      "symmetric_difference_mm2": 4.9439619065339e-16,
       "boundary_hausdorff_mm": 0.0
     },
     {

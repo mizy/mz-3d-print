@@ -1,0 +1,14 @@
+{
+  "status": "incomplete_bounded_wait_stopped",
+  "cad_kernel_validity": "unknown",
+  "target_application_import_compatibility": "unknown",
+  "physical_load_validation": "not_done",
+  "geometry_checks_passed": [
+    "single watertight consistently oriented mesh per half",
+    "two faces per mesh edge",
+    "standard hole cross-sections compared to source",
+    "protected interface region comparison",
+    "all STEP triangle coordinates bitwise equal to frozen mesh float64"
+  ],
+  "note": "Open CASCADE reimport was stopped after bounded waiting without a success or failure result. This is not a passed CAD import check. No failed or alternative candidate model included."
+}

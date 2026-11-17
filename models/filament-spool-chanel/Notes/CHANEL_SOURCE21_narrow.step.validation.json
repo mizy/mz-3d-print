@@ -1,31 +1,24 @@
 {
-  "source": "chanel_official/CHANEL_SOURCE21_narrow_FROZEN.obj",
-  "output": "chanel_official/CHANEL_SOURCE21_narrow.step",
-  "mesh_faces": 210596,
-  "mesh_vertices": 105090,
-  "mesh_volume_mm3": 32009.875676089472,
+  "source": "chanel_reinforced_v3/CHANEL_SOURCE21_narrow_FROZEN.obj",
+  "output": "chanel_reinforced_v3/CHANEL_SOURCE21_narrow.step",
+  "mesh_faces": 210016,
+  "mesh_vertices": 104832,
+  "mesh_volume_mm3": 57734.256790011445,
   "vertex_relocation_mm": 0,
   "representation": "FACETED_BREP, planar FACE_SURFACE, POLY_LOOP; not visualization-only tessellation",
-  "step_bytes": 84976388,
-  "export_elapsed_s": 8.784849643707275,
-  "source_sha256": "503d30f37f20eb24e87a9db9604d4a2fb04c86809086c1fb93a4e1fcca7600da",
-  "valid": true,
-  "solids": 1,
-  "step_volume_mm3": 32009.87567609021,
-  "volume_difference_mm3": 7.385096978396177e-10,
-  "step_bounds_mm": [
-    [
-      -100.01277160644531,
-      -100.01336669921875,
-      -1.1102230246251565e-16
-    ],
-    [
-      100.01277160644531,
-      100.01336669921875,
-      34.11305236816406
-    ]
-  ],
-  "max_bounds_difference_mm": 1.1102230246251565e-16,
-  "validation_elapsed_s": 211.5408914089203,
-  "validated": true
+  "step_bytes": 71233258,
+  "export_elapsed_s": 5.998075008392334,
+  "source_sha256": "7f2a1b0c0dee70331dd2126cc4036cf4c2c2cbc1b02ac7a2840c3d5e60bababe",
+  "compaction": {
+    "input_bytes": 84838988,
+    "output_bytes": 71233258,
+    "duplicate_immutable_entities_removed": 237042,
+    "vertex_coordinate_values_and_topology_unchanged": true,
+    "elapsed_s": 9.682511806488037
+  },
+  "validated": false,
+  "cad_import_status": "incomplete_bounded_wait_stopped",
+  "cad_kernel_validity": "unknown",
+  "geometry_serialization_error_mm": 0,
+  "physical_load_validation": "not_done"
 }

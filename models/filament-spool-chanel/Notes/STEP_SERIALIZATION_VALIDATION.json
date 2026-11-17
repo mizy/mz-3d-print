@@ -1,22 +1,18 @@
 {
   "wide": {
-    "vertices": 105967,
-    "triangles": 212366,
-    "step_coordinates_bitwise_equal_to_loaded_OBJ_float64": true,
-    "triangle_indices_identical": true,
-    "coordinate_serialization_error_mm": 0,
-    "step_sha256": "b050d687e66e22951f29071560b4b85da20e7f9f2868da01092a30209833b383",
-    "source_sha256": "c0a57c4e9b8856ff5037781532935ffc54387cfd60b1f1b6486904c7813be787",
-    "limitation": "This verifies geometry serialization, not CAD-kernel reimport or physical fit."
+    "triangles": 211364,
+    "all_triangle_coordinates_bitwise_equal_float64": true,
+    "geometry_serialization_error_mm": 0,
+    "step_sha256": "6e1d84f31c0ffccf34df94ac1361f4a2d46d7215f1af2e71ffdaf9e4cfd4843d",
+    "source_sha256": "ead346f288d7becc039e3452c6dd4ca99387b6edca1c8d5c51a83557a4e63c63",
+    "limitation": "Geometry serialization only; CAD-kernel reimport is checked separately."
   },
   "narrow": {
-    "vertices": 105090,
-    "triangles": 210596,
-    "step_coordinates_bitwise_equal_to_loaded_OBJ_float64": true,
-    "triangle_indices_identical": true,
-    "coordinate_serialization_error_mm": 0,
-    "step_sha256": "4b5ef638259127e8ab6fd05720c8b55324955a19d3b9ae05b4706a0e5bde6ad7",
-    "source_sha256": "503d30f37f20eb24e87a9db9604d4a2fb04c86809086c1fb93a4e1fcca7600da",
-    "limitation": "This verifies geometry serialization, not CAD-kernel reimport or physical fit."
+    "triangles": 210016,
+    "all_triangle_coordinates_bitwise_equal_float64": true,
+    "geometry_serialization_error_mm": 0,
+    "step_sha256": "6e2a2cb0b44f53f31ea1b5f4856238b7504325895e08d24b8fb1b2902a03917e",
+    "source_sha256": "7f2a1b0c0dee70331dd2126cc4036cf4c2c2cbc1b02ac7a2840c3d5e60bababe",
+    "limitation": "Geometry serialization only; CAD-kernel reimport is checked separately."
   }
 }

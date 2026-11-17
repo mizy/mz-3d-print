@@ -1,0 +1,16 @@
+{
+  "README.txt": "7a700a423cd08ba0dad5663a10a7810849d66a92a325291f07ad11645eb33270",
+  "Design/actual_preview.png": "bdb78e455d37f48500e236810c0b7116874799ece5dd3ddd618b4022aff44317",
+  "Source/freeze_meshes.py": "726296b5aa90d4b394a25e4bfc1560651d955032809f934bcef40dc932ccc3db",
+  "Source/build_official.py": "f789d2352f0253906af091132393f40ea7ddf8c1fcbbbdeb06af0564e3e94ec1",
+  "Models/CHANEL_SOURCE21_narrow.step": "6e2a2cb0b44f53f31ea1b5f4856238b7504325895e08d24b8fb1b2902a03917e",
+  "Models/CHANEL_SOURCE21_wide.step": "6e1d84f31c0ffccf34df94ac1361f4a2d46d7215f1af2e71ffdaf9e4cfd4843d",
+  "Notes/FROZEN_VALIDATION.json": "770acf1847a3d89eeeaf1daea56b6613c893f8e7703ca38cac738a9817c15055",
+  "Notes/hole_profiles.json": "18d29d83286d6dc4851989b1789933d496b6c7713cad90e1d1b58ffa948f3a1e",
+  "Notes/CAD_IMPORT_STATUS.json": "7742eebf2f225812e9aea13ab033dad30e44488467b8c88b2edf7e680c7c8140",
+  "Notes/PROTECTED_COMPARISON.json": "35dfc3dced49ef90122fd672e6ca16b17499945c358bcf602d3a22e5b87fb516",
+  "Notes/design_validation.json": "97f49f2616da551f8a2d4cc77bf5ac4a2e23402dcdc77c44eefdb25aa1d886e8",
+  "Notes/STEP_SERIALIZATION_VALIDATION.json": "2111e3ccfa986b756baf2f50b4444654575e1edc5325d42a3892501030d88430",
+  "Notes/CHANEL_SOURCE21_narrow.step.validation.json": "025be79591c9c5001a77e7c7beca7d1cba8c7070a133c73b73862121bc89f739",
+  "Notes/CHANEL_SOURCE21_wide.step.validation.json": "8df7ed050fde690d322136403dea81be8596e85871a0618955807197d312a455"
+}

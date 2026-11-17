@@ -1,1 +1,21 @@
-{"id":"filament-spool-chanel","title":"双 C 连续筒轻量料盘 · 试验件","category":"打印配件 / 料盘","status":"design","cls":"derived","summary":"基于用户提供的 spool 2.1 STL。两片实体估重 98.37 g（PETG Matte 1.37 g/cm³，不含辅料）。保留源卡扣、纸芯定位及双线孔。未完成可靠 FEA、实打锁合与 1 kg/AMS 动态验证。","cover":"Design/actual_preview.png","downloads":["Models/CHANEL_SOURCE21_wide.step","Models/CHANEL_SOURCE21_narrow.step"],"downloadGroups":[{"prefix":"Models/","label":"两片 STEP · 自行切片与空盘试装","note":"每片一个实体，建议两盘；模型估重不是全过程耗料保证。未验证满料承载，不用于无人看管运行。"}],"gallery":[]}
+{
+  "id": "filament-spool-chanel",
+  "title": "双 C 料盘 · 外滚环/主筋/筒壁加厚试验版",
+  "category": "打印配件 / 料盘",
+  "status": "design",
+  "cls": "derived",
+  "summary": "外滚环、8条主筋和筒壁加厚，无新增内部承力环。全实体估重168.06 g，非稀疏填充切片重量；STEP坐标核对通过但CAD内核回读未完成，兼容性未知，未验证1 kg/AMS运行。",
+  "cover": "Design/actual_preview.png",
+  "downloads": [
+    "Models/CHANEL_SOURCE21_wide.step",
+    "Models/CHANEL_SOURCE21_narrow.step"
+  ],
+  "downloadGroups": [
+    {
+      "prefix": "Models/",
+      "label": "两片 STEP · 几何审查与自行切片",
+      "note": "STEP内核回读未完成，兼容性未知；不是已验证直接可打印件。168.06 g是全实体估重，100 g目标需重新切片核算。"
+    }
+  ],
+  "gallery": []
+}
