@@ -1,0 +1,20 @@
+{
+  "wide": {
+    "different_settings": {
+      "enable_support": [
+        "1",
+        "0"
+      ]
+    },
+    "same_geometry_xml": true
+  },
+  "narrow": {
+    "different_settings": {
+      "enable_support": [
+        "1",
+        "0"
+      ]
+    },
+    "same_geometry_xml": true
+  }
+}

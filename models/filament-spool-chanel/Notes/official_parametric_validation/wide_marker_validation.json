@@ -1,0 +1,36 @@
+{
+  "step_valid": true,
+  "solids": 1,
+  "faces": 12,
+  "sections": [
+    {
+      "z": 17.75,
+      "hausdorff_mm": 0.028600783099797474
+    },
+    {
+      "z": 18.0,
+      "hausdorff_mm": 0.023494438953613275
+    },
+    {
+      "z": 18.5,
+      "hausdorff_mm": 0.020463518218110575
+    },
+    {
+      "z": 19.0,
+      "hausdorff_mm": 0.01385673176954676
+    },
+    {
+      "z": 20.0,
+      "hausdorff_mm": 0.007796303350790064
+    },
+    {
+      "z": 21.0,
+      "hausdorff_mm": 0.004873963848346617
+    },
+    {
+      "z": 21.7,
+      "hausdorff_mm": 0.004824455404373841
+    }
+  ],
+  "note": "sampled boundary comparison only; upper ceiling fitted to official boundary, not exact original CAD"
+}

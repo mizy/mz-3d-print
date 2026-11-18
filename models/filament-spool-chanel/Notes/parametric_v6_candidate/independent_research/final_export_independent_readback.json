@@ -1,0 +1,96 @@
+{
+  "source": "/Users/miaozhuang/Projects/mz-3d-print/models/filament-spool-chanel/Source/parametric_v6_candidate/build_output/CHANEL_SOURCE21_parametric_v6_candidate.step",
+  "bytes": 24484016,
+  "sha256": "4f8c7d6e734403c08c46582f778d88ea3db651e86a382185a62019d52054ff99",
+  "method": "Independent final STEP reimport; section CAD edges sampled at <=0.005 mm arc length and compared by symmetric planar Hausdorff to frozen source mesh plane-polygonize reference; 10 selected heights, not all-surface/physical assembly validation.",
+  "valid": true,
+  "solids": 2,
+  "faces": 10258,
+  "parts": {
+    "wide": {
+      "assembly_translation_x": -110.013,
+      "valid": true,
+      "faces": 5618,
+      "volume_mm3": 64634.582231524066,
+      "bbox": [
+        -210.026,
+        -10.0,
+        -100.013,
+        100.013,
+        0.0,
+        40.715057373
+      ],
+      "checks": [
+        {
+          "z": 31.275,
+          "hausdorff_mm": 0.027498811447684787,
+          "cad_selected_edges": 55
+        },
+        {
+          "z": 31.425,
+          "hausdorff_mm": 0.02660865150138461,
+          "cad_selected_edges": 57
+        },
+        {
+          "z": 35.425,
+          "hausdorff_mm": 0.019056484683808397,
+          "cad_selected_edges": 71
+        },
+        {
+          "z": 36.825,
+          "hausdorff_mm": 0.020261031533563005,
+          "cad_selected_edges": 63
+        },
+        {
+          "z": 37.225,
+          "hausdorff_mm": 0.017709627985855406,
+          "cad_selected_edges": 50
+        }
+      ],
+      "max_sampled_error_mm": 0.027498811447684787
+    },
+    "narrow": {
+      "assembly_translation_x": 110.013,
+      "valid": true,
+      "faces": 4640,
+      "volume_mm3": 57438.37549041594,
+      "bbox": [
+        10.0,
+        210.026,
+        -100.013,
+        100.013,
+        0.0,
+        34.1129524682
+      ],
+      "checks": [
+        {
+          "z": 31.475,
+          "hausdorff_mm": 0.02994361575371693,
+          "cad_selected_edges": 44
+        },
+        {
+          "z": 31.675,
+          "hausdorff_mm": 0.028940879316712652,
+          "cad_selected_edges": 44
+        },
+        {
+          "z": 32.65,
+          "hausdorff_mm": 0.026373250024321122,
+          "cad_selected_edges": 74
+        },
+        {
+          "z": 33.375,
+          "hausdorff_mm": 0.01889036808380505,
+          "cad_selected_edges": 116
+        },
+        {
+          "z": 34.085,
+          "hausdorff_mm": 0.019037254820529394,
+          "cad_selected_edges": 108
+        }
+      ],
+      "max_sampled_error_mm": 0.02994361575371693
+    }
+  },
+  "all_selected_sections_within_0_03_mm": true
+}

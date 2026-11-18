@@ -1,0 +1,23 @@
+# 独立可再生参数化源码
+
+这是依据官方 Wiki STL 逆向构建的原生 CAD 源码，不是厂商原始参数树或尺寸公差认证。运行时不读取 STL、BRep 或预制 STEP，全部由圆柱、旋转剖面、圆弧/直线草图、拉伸、圆锥、圆角及少量原生浅标记曲面生成。
+
+在本目录安装 requirements.txt 依赖后运行：
+```sh
+python build_official.py --config parameters.json --output generated_baseline
+```
+
+本文件夹包含独立的官方基准源快照及轻量派生入口，不依赖另一个文件夹：
+```sh
+python build_light.py --config light_parameters.json --output generated_light
+```
+light_parameters.json 明确引用同目录 parameters.json。修改 light_flange 中盘皮、筋宽/总高/数量、滚环宽、logo大小与环排布，才改变轻量版；基准中央结构仍来自同一原生hub。盘面不同于官方，非官方联名。
+
+## 编辑入口与联动
+parameters.json 的 flange/hub/key 是实际读取输入；底孔、支承高、内外筒接口由 hub 自动派生到法兰，避免两份互相矛盾的尺寸。完整锁口底层圆弧/直线及斜平面控制还在 wide_lock_sketches.json / wide_cap_planes.json，脚本实际读取，不是装饰参数。
+
+整体 hub_radial_scale / hub_axial_scale 暂只允许1：入口明确拒绝孤立整体缩放，不能静默忽略。可改显式孔径、内外筒、桥、锁齿、外径及孔位置；改动后须重新验证。key底高需与盘厚一致；键须与宽外筒有重叠。源中的合理性检查不等于整个参数范围都经验证。
+
+已做官方整件联合变参：外径200→201、外圈孔中心半径96→96.5、线孔半径1.75→1.85、轴孔半径27.5→27.6、桥宽1.2→1.3、宽基孔31.4→31.6，导出回读有效且网格闭合。仅证明此配置，不保证任意组合兼容官方打印件。
+
+STEP 仅保存独立实体的边界几何，不携带 Python/JSON 特征历史；以后应保存本源码。官方STL本身为三角近似，浅三角标记是约0.029mm级采样误差的原生曲面逆向，并非完全零误差。打印材料强度、实物配合、止退凸点弹性越障未验证。官方说明该打印盘供临时/应急使用，不能用于烘料。

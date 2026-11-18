@@ -1,0 +1,1118 @@
+{
+  "method": "Actual v6 native pipe tessellation .003 relative deflection/.03rad angular; sections .025mm; radial rays .1deg; axial pose step .05mm; rotation pose step .5deg. Positive sampled radial envelope does not prove continuous 3D path clearance.",
+  "pose_count": 185,
+  "minimum_sampled_radial_clearance_mm": 0.1302611660473012,
+  "all_sampled_envelopes_nonnegative": true,
+  "poses": [
+    {
+      "phase": "axial_insertion",
+      "H": 71.5,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": null
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 71.45,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": null
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 71.4,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": null
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 71.35000000000001,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.7768405723095135
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 71.30000000000001,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.7279400185771543
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 71.25000000000001,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.6776942482417283
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 71.20000000000002,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.6273745363104659
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 71.15000000000002,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.577284515894295
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 71.10000000000002,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.5271062175570691
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 71.05000000000003,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.4772540131035292
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 71.00000000000003,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.4273023842227843
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.95000000000003,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.37763284443608214
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.90000000000003,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.3278691518791206
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.85000000000004,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.27817566101681734
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.80000000000004,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.22832344224887535
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.75000000000004,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.2106231628077424
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.70000000000005,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19307201475162117
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.65000000000005,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19307421135856018
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.60000000000005,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19307640796550984
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.55000000000005,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19307860457245596
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.50000000000006,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19308080117940207
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.45000000000006,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1930829977863482
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.40000000000006,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19308519439329075
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.35000000000007,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19291899153975933
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.30000000000007,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19274753072250306
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.25000000000007,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19265971023577677
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.20000000000007,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19253385651556343
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.15000000000008,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1925329337657331
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.10000000000008,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19253201101590633
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.05000000000008,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19213181033024895
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 70.00000000000009,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19094823879500922
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.95000000000009,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19079878869658629
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.90000000000009,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1907974603364906
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.8500000000001,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19080091828115897
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.8000000000001,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19080437622583446
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.7500000000001,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19080783417050284
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.7000000000001,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19026513968979586
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.6500000000001,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19026612675410348
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.60000000000011,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1902681959726884
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.55000000000011,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19027026519127688
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.50000000000011,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1902723344098689
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.45000000000012,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19027440362846093
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.40000000000012,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1902764728470494
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.35000000000012,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19027854206563788
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.30000000000013,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19024447926230437
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.25000000000013,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19024355651247404
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.20000000000013,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19009476409493686
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.15000000000013,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19008605127250178
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.10000000000014,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900819941820373
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.05000000000014,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829596254
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 69.00000000000014,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829596964
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.95000000000014,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595898
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.90000000000015,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900787782959199
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.85000000000015,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900787782959732
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.80000000000015,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595898
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.75000000000016,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900787782959874
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.70000000000016,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900787782959661
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.65000000000016,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829599806
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.60000000000016,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829594477
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.55000000000017,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829594833
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.50000000000017,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900787782959661
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.45000000000017,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595188
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.40000000000018,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829593767
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.35000000000018,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829593056
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.30000000000018,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829596254
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.25000000000018,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595898
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.20000000000019,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829596254
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.15000000000019,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595543
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.1000000000002,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829596254
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.0500000000002,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829596254
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 68.0000000000002,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900787782959661
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.9500000000002,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829596964
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.9000000000002,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900787782959732
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.85000000000021,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829596964
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.80000000000021,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900787782959803
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.75000000000021,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829597675
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.70000000000022,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595898
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.65000000000022,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595543
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.60000000000022,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829594833
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.55000000000022,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829594477
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.50000000000023,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829593767
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.45000000000023,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829594477
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.40000000000023,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595188
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.35000000000024,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595188
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.30000000000024,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595188
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.25000000000024,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829594833
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.20000000000024,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595188
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.15000000000025,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595188
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.10000000000025,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595188
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.05000000000025,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595543
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 67.00000000000026,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829596254
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 66.95000000000026,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900787782959661
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 66.90000000000026,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829596254
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 66.85000000000026,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829596964
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 66.80000000000027,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829598385
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 66.75000000000027,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829599096
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 66.70000000000027,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900787782959803
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 66.65000000000028,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829596964
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 66.60000000000028,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900787782959732
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 66.55000000000028,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829596254
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 66.50000000000028,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829595898
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 66.45000000000029,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829594477
+    },
+    {
+      "phase": "axial_insertion",
+      "H": 66.430113973,
+      "theta_deg": 51.0,
+      "minimum_sampled_radial_clearance_mm": 0.19007877829594477
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 50.5,
+      "minimum_sampled_radial_clearance_mm": 0.18984883564555943
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 50.0,
+      "minimum_sampled_radial_clearance_mm": 0.18995820884409298
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 49.5,
+      "minimum_sampled_radial_clearance_mm": 0.19002894654879654
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 49.0,
+      "minimum_sampled_radial_clearance_mm": 0.1897612342231092
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 48.5,
+      "minimum_sampled_radial_clearance_mm": 0.1900291908796241
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 48.0,
+      "minimum_sampled_radial_clearance_mm": 0.18981590787294778
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 47.5,
+      "minimum_sampled_radial_clearance_mm": 0.18998110171655114
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 47.0,
+      "minimum_sampled_radial_clearance_mm": 0.18997691578107023
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 46.5,
+      "minimum_sampled_radial_clearance_mm": 0.18981099585316485
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 46.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900700938204274
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 45.5,
+      "minimum_sampled_radial_clearance_mm": 0.18975974649478644
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 45.0,
+      "minimum_sampled_radial_clearance_mm": 0.19005959046836196
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 44.5,
+      "minimum_sampled_radial_clearance_mm": 0.18994656489461903
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 44.0,
+      "minimum_sampled_radial_clearance_mm": 0.18983617752298088
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 43.5,
+      "minimum_sampled_radial_clearance_mm": 0.19002960695501514
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 43.0,
+      "minimum_sampled_radial_clearance_mm": 0.1897620691913069
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 42.5,
+      "minimum_sampled_radial_clearance_mm": 0.19003792429830213
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 42.0,
+      "minimum_sampled_radial_clearance_mm": 0.1898919563082373
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 41.5,
+      "minimum_sampled_radial_clearance_mm": 0.1898598571298571
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 41.0,
+      "minimum_sampled_radial_clearance_mm": 0.19005118403762822
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 40.5,
+      "minimum_sampled_radial_clearance_mm": 0.18978879611259458
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 40.0,
+      "minimum_sampled_radial_clearance_mm": 0.1900606896524657
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 39.5,
+      "minimum_sampled_radial_clearance_mm": 0.1898141489854872
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 39.0,
+      "minimum_sampled_radial_clearance_mm": 0.18988876640585062
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 38.5,
+      "minimum_sampled_radial_clearance_mm": 0.19012258501770418
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 38.0,
+      "minimum_sampled_radial_clearance_mm": 0.18977662616915936
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 37.5,
+      "minimum_sampled_radial_clearance_mm": 0.19002167662677394
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 37.0,
+      "minimum_sampled_radial_clearance_mm": 0.18984028173517942
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 36.5,
+      "minimum_sampled_radial_clearance_mm": 0.1899525875869159
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 36.0,
+      "minimum_sampled_radial_clearance_mm": 0.1622649301170931
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 35.5,
+      "minimum_sampled_radial_clearance_mm": 0.13633207194805408
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 35.0,
+      "minimum_sampled_radial_clearance_mm": 0.13413760449401124
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 34.5,
+      "minimum_sampled_radial_clearance_mm": 0.13386850811403406
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 34.0,
+      "minimum_sampled_radial_clearance_mm": 0.13400409019348913
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 33.5,
+      "minimum_sampled_radial_clearance_mm": 0.1334443737555766
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 33.0,
+      "minimum_sampled_radial_clearance_mm": 0.13360596113311374
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 32.5,
+      "minimum_sampled_radial_clearance_mm": 0.13365318715664998
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 32.0,
+      "minimum_sampled_radial_clearance_mm": 0.13336203836000848
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 31.5,
+      "minimum_sampled_radial_clearance_mm": 0.13352641475997373
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 31.0,
+      "minimum_sampled_radial_clearance_mm": 0.1333490274197935
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 30.5,
+      "minimum_sampled_radial_clearance_mm": 0.13313151719376748
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 30.0,
+      "minimum_sampled_radial_clearance_mm": 0.13325663623232842
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 29.5,
+      "minimum_sampled_radial_clearance_mm": 0.13324242206811832
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 29.0,
+      "minimum_sampled_radial_clearance_mm": 0.13310838131802427
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 28.5,
+      "minimum_sampled_radial_clearance_mm": 0.13327308156459594
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 28.0,
+      "minimum_sampled_radial_clearance_mm": 0.13306388367826827
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 27.5,
+      "minimum_sampled_radial_clearance_mm": 0.1329482935602222
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 27.0,
+      "minimum_sampled_radial_clearance_mm": 0.13295721143304107
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 26.5,
+      "minimum_sampled_radial_clearance_mm": 0.13277879702296502
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 26.0,
+      "minimum_sampled_radial_clearance_mm": 0.13291942361748355
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 25.5,
+      "minimum_sampled_radial_clearance_mm": 0.13280169800883712
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 25.0,
+      "minimum_sampled_radial_clearance_mm": 0.13272882759786597
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 24.5,
+      "minimum_sampled_radial_clearance_mm": 0.13212318453521377
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 24.0,
+      "minimum_sampled_radial_clearance_mm": 0.13129788662616448
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 23.5,
+      "minimum_sampled_radial_clearance_mm": 0.13172544620835325
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 23.0,
+      "minimum_sampled_radial_clearance_mm": 0.13155037400185066
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 22.5,
+      "minimum_sampled_radial_clearance_mm": 0.13197917144221805
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 22.0,
+      "minimum_sampled_radial_clearance_mm": 0.13134794523833193
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 21.5,
+      "minimum_sampled_radial_clearance_mm": 0.13127006996969826
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 21.0,
+      "minimum_sampled_radial_clearance_mm": 0.1314532048854815
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 20.5,
+      "minimum_sampled_radial_clearance_mm": 0.13096190132847596
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 20.0,
+      "minimum_sampled_radial_clearance_mm": 0.13087627722235595
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 19.5,
+      "minimum_sampled_radial_clearance_mm": 0.13095213754090906
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 19.0,
+      "minimum_sampled_radial_clearance_mm": 0.13058455964434756
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 18.5,
+      "minimum_sampled_radial_clearance_mm": 0.13092492797406052
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 18.0,
+      "minimum_sampled_radial_clearance_mm": 0.1303843054219449
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 17.5,
+      "minimum_sampled_radial_clearance_mm": 0.13036397587711335
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 17.0,
+      "minimum_sampled_radial_clearance_mm": 0.13059772957188187
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 16.5,
+      "minimum_sampled_radial_clearance_mm": 0.13031213701465205
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 16.0,
+      "minimum_sampled_radial_clearance_mm": 0.13088548959600388
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 15.5,
+      "minimum_sampled_radial_clearance_mm": 0.1302611660473012
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 15.0,
+      "minimum_sampled_radial_clearance_mm": 0.13061665653084376
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 14.5,
+      "minimum_sampled_radial_clearance_mm": 0.1307803655670945
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 14.0,
+      "minimum_sampled_radial_clearance_mm": 0.130680196613838
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 13.5,
+      "minimum_sampled_radial_clearance_mm": 0.13132447983453588
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 13.0,
+      "minimum_sampled_radial_clearance_mm": 0.13082743542905817
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 12.5,
+      "minimum_sampled_radial_clearance_mm": 0.13128667464177113
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 12.0,
+      "minimum_sampled_radial_clearance_mm": 0.13099982846779312
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 11.5,
+      "minimum_sampled_radial_clearance_mm": 0.13105184170515471
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 11.0,
+      "minimum_sampled_radial_clearance_mm": 0.13139724861032676
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 10.5,
+      "minimum_sampled_radial_clearance_mm": 0.13101083708412276
+    },
+    {
+      "phase": "seated_rotation",
+      "H": 66.430113973,
+      "theta_deg": 10.0,
+      "minimum_sampled_radial_clearance_mm": 0.13104095031900442
+    }
+  ]
+}

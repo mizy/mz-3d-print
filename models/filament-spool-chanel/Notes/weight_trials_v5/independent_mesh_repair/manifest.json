@@ -1,0 +1,62 @@
+{
+  "local_seam_repair_report.json": {
+    "bytes": 3746,
+    "sha256": "75924dcefdf7b99d94ba63ee47fbdeecafa63e0d40e9b17fc175f6250a578a81"
+  },
+  "step_audit.json": {
+    "bytes": 423,
+    "sha256": "c0d1df9aaa7ba7573565fb6b76a94db36ba6533f66e7c25f827369c62c71fa0d"
+  },
+  "lock_outerwall_geometry_comparison.json": {
+    "bytes": 2787,
+    "sha256": "df388b71944b16df677156b94a10e51be37d64babb8bf498816bca6c545abbc0"
+  },
+  "repair_independent_checks.json": {
+    "bytes": 1427,
+    "sha256": "96205df1bf9678e76ed4b4e3af05661c187c1c9e79fe539edafd2c513b9f9f6d"
+  },
+  "local_seam_repair.py": {
+    "bytes": 3206,
+    "sha256": "151f615ef2424c886260ba42cbf9b39e91480648c718d2a7ac52dbeaa9726901"
+  },
+  "check_outerwall_geometry.py": {
+    "bytes": 2326,
+    "sha256": "bdae3f41c2b25ae26c763b96522de19cf282a6cf8d702407bde8e4a19097c070"
+  },
+  "README.md": {
+    "bytes": 2179,
+    "sha256": "f18b355ee2f0d8d64f0de5b7454db9243d8cd40085ab01c47c71717ac5be8b45"
+  },
+  "component_check.json": {
+    "bytes": 191,
+    "sha256": "ed89e0664e6ee9f7518585d861b3d56029c20bdd7ea100bffbd7d80286fe5a59"
+  },
+  "gap_distance.py": {
+    "bytes": 1213,
+    "sha256": "151815c38247f07013b60267ad452e684755c64adf8bdac12b6a64599d417db9"
+  },
+  "slice_repair.py": {
+    "bytes": 2032,
+    "sha256": "e4187dbddd10734559d76b6a663556a45db46a71eba61690e1ce76b73e171671"
+  },
+  "slice_repair.log": {
+    "bytes": 250,
+    "sha256": "305c3f9e8ba9a6658cb8e71fd22a7ea819172dd51523031f265e6ff4cce0f751"
+  },
+  "verify_repair.py": {
+    "bytes": 1825,
+    "sha256": "c94c254c5fc3f730d670c66c0b9bff375d1b6505d88c53a548ca6fb93a69232f"
+  },
+  "studio_mesh_audit.json": {
+    "bytes": 3382,
+    "sha256": "9ed1df74c2b4f96bf7fc7c160ad41b94aee7ce9ff2ad98764add873541115df1"
+  },
+  "audit_backup.py": {
+    "bytes": 1884,
+    "sha256": "812070866a1558333dfba8f4e02559022097fa0ecf7eddbb3722b36db6030125"
+  },
+  "boundary_gap_proximity.json": {
+    "bytes": 1114,
+    "sha256": "96d9a6721d1499a7d22ff41109ea0e3d591a84cef5ea72f4518b222e257b9402"
+  }
+}

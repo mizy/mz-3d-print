@@ -1,0 +1,181 @@
+{
+  "source": "v5 defaults; wide exact user autosave mesh, narrow from v5 native BRep independently tessellated (.01,.1 CadQuery relative deflection)",
+  "slicer": "BambuStudio 02.09.01.70",
+  "material": "User current Jucoole PETG+; density1.27 g/cm3, diameter1.75mm",
+  "constant_settings": {
+    "layer_height": 0.2,
+    "walls": 2,
+    "bottom_shell_layers": 3,
+    "bottom_shell_thickness": 0,
+    "ensure_vertical_shell_thickness": "enabled",
+    "minimum_sparse_infill_area": 15
+  },
+  "variants": {
+    "baseline": {
+      "wide": {
+        "total_g": 61.83735656738281,
+        "slicer_return_code": 0,
+        "role_g": {
+          "Support interface": 0.1258268430417967,
+          "Inner wall": 16.949832602239248,
+          "Outer wall": 18.33489392709847,
+          "Gap infill": 3.5513154018205655,
+          "Bottom surface": 3.1292231231054157,
+          "Internal solid infill": 7.50147327224797,
+          "Top surface": 4.589463866103699,
+          "Overhang wall": 0.07606412266487098,
+          "Bridge": 1.1628759484692803,
+          "Sparse infill": 3.485284834086753,
+          "Floating vertical shell": 2.8351805373362584
+        },
+        "gcode_sha256": "5514f4e97f137027008bb15bfbf0050ee832809181ece9d743e125aaa26f67e5"
+      },
+      "narrow": {
+        "total_g": 57.94014358520508,
+        "slicer_return_code": 0,
+        "role_g": {
+          "Support interface": 0.21950874961485298,
+          "Support": 3.320221519449392,
+          "Outer wall": 14.539596891025722,
+          "Inner wall": 11.827951157691329,
+          "Gap infill": 2.7870093198177988,
+          "Bottom surface": 3.3132840943403616,
+          "Overhang wall": 0.11447408192173056,
+          "Internal solid infill": 8.522442791971866,
+          "Bridge": 1.3462866945632757,
+          "Top surface": 4.800870063891087,
+          "Sparse infill": 3.513360838429644,
+          "Floating vertical shell": 3.539218269459499
+        },
+        "gcode_sha256": "b1daa71217630f87cf661f2238f641e1e022b864bfcccf7b9dd8753f6fa18769"
+      },
+      "combined_total_g": 119.77750015258789
+    },
+    "top4": {
+      "wide": {
+        "total_g": 60.79866409301758,
+        "slicer_return_code": 0,
+        "role_g": {
+          "Support interface": 0.1258268430417967,
+          "Inner wall": 16.949832602239248,
+          "Outer wall": 18.33489392709847,
+          "Gap infill": 3.5516036746128044,
+          "Bottom surface": 3.1292231231054157,
+          "Internal solid infill": 6.691395873505609,
+          "Top surface": 4.580134513003676,
+          "Overhang wall": 0.07606412266487098,
+          "Bridge": 1.1388390012082195,
+          "Sparse infill": 3.6379076671858273,
+          "Floating vertical shell": 2.4870202562088677
+        },
+        "gcode_sha256": "9a1f99945ab3865335ba38714dc3f02f4219c5aba481100f0ce7b0c80d47f214"
+      },
+      "narrow": {
+        "total_g": 56.73250198364258,
+        "slicer_return_code": 0,
+        "role_g": {
+          "Support interface": 0.21950874961485298,
+          "Support": 3.320221519449392,
+          "Outer wall": 14.531572570269656,
+          "Inner wall": 11.825867449735728,
+          "Gap infill": 2.77598374846966,
+          "Bottom surface": 3.302998739830382,
+          "Overhang wall": 0.11451553430904308,
+          "Internal solid infill": 7.592753170293853,
+          "Bridge": 1.3610804009423236,
+          "Top surface": 4.78174227673338,
+          "Sparse infill": 3.7212795983025586,
+          "Floating vertical shell": 3.0890575620773078
+        },
+        "gcode_sha256": "f5cf50cc49c78ebcbade9d489b657002eb7757b30e0a59d832d82ea4b173f91d"
+      },
+      "combined_total_g": 117.53116607666016
+    },
+    "top3": {
+      "wide": {
+        "total_g": 59.65032958984375,
+        "slicer_return_code": 0,
+        "role_g": {
+          "Support interface": 0.1258268430417967,
+          "Inner wall": 16.949832602239248,
+          "Outer wall": 18.33489392709847,
+          "Gap infill": 3.55133635711732,
+          "Bottom surface": 3.1292231231054157,
+          "Internal solid infill": 5.687561035622947,
+          "Top surface": 4.568883259829843,
+          "Overhang wall": 0.07606412266487098,
+          "Bridge": 1.131163008803324,
+          "Sparse infill": 3.816252057903756,
+          "Floating vertical shell": 2.183373363074219
+        },
+        "gcode_sha256": "d48716d16f58cfbd7df21b799344f50173fe1266b063ccce4ca5da03500bff2a"
+      },
+      "narrow": {
+        "total_g": 55.355743408203125,
+        "slicer_return_code": 0,
+        "role_g": {
+          "Support interface": 0.21950884125609235,
+          "Support": 3.320221519449392,
+          "Outer wall": 14.591186571152313,
+          "Inner wall": 11.845756073010477,
+          "Gap infill": 2.817373728098128,
+          "Bottom surface": 3.3063401627033673,
+          "Overhang wall": 0.11408928035726774,
+          "Internal solid infill": 6.440803881728164,
+          "Top surface": 4.7637019961642295,
+          "Bridge": 1.262297773528396,
+          "Sparse infill": 3.9145019747927483,
+          "Floating vertical shell": 2.664042477671024
+        },
+        "gcode_sha256": "4b952fec727689e23ea9c48309fe91f4ce84d41f90dc7baf4936dd80ac5f25f5"
+      },
+      "combined_total_g": 115.00607299804688
+    },
+    "top3_sparse5": {
+      "wide": {
+        "total_g": 58.67409896850586,
+        "slicer_return_code": 0,
+        "role_g": {
+          "Support interface": 0.1258268430417967,
+          "Inner wall": 16.949832602239248,
+          "Outer wall": 18.33489392709847,
+          "Gap infill": 3.55133635711732,
+          "Bottom surface": 3.1292231231054157,
+          "Internal solid infill": 5.681135579571627,
+          "Top surface": 4.568883259829843,
+          "Overhang wall": 0.07606412266487098,
+          "Bridge": 1.1578359552230917,
+          "Sparse infill": 2.8197910407124387,
+          "Floating vertical shell": 2.1833537518489763
+        },
+        "gcode_sha256": "469bf7d9fc305482278fff8e6499efcb5dd46da71eb18a1f19e76ff0c4ae8b3e"
+      },
+      "narrow": {
+        "total_g": 54.27665328979492,
+        "slicer_return_code": 0,
+        "role_g": {
+          "Support interface": 0.21950884125609244,
+          "Support": 3.320221519449392,
+          "Outer wall": 14.570190707875422,
+          "Inner wall": 11.838241857940297,
+          "Gap infill": 2.8071776627024376,
+          "Bottom surface": 3.3139020006709874,
+          "Overhang wall": 0.11429134929026143,
+          "Internal solid infill": 6.443315004424636,
+          "Top surface": 4.767638476152,
+          "Bridge": 1.2915601042630627,
+          "Sparse infill": 2.8227790338718983,
+          "Floating vertical shell": 2.671908259082822
+        },
+        "gcode_sha256": "0921f970d9f5ad6a8d4b6675907852579009d702e3c4cfc08e9027fa8695bf5d"
+      },
+      "combined_total_g": 112.95075225830078
+    }
+  },
+  "limitations": [
+    "Slicer estimates, not weighed prints.",
+    "Not load-tested; lowering infill/layers does not establish safe load.",
+    "No UI or default project changes.",
+    "Temporary 3MF is internal test container only, not a user deliverable."
+  ]
+}

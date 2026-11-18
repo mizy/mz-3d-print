@@ -1,0 +1,161 @@
+{
+  "baseline": {
+    "faces": 261066,
+    "boundary": 52,
+    "nonmanifold": 0,
+    "volume": 61690.86693752035,
+    "winding_consistent": true,
+    "watertight": false,
+    "bounds": [
+      [
+        -100.013,
+        -100.011505,
+        -20.3575287
+      ],
+      [
+        100.013,
+        100.011505,
+        20.3575287
+      ]
+    ]
+  },
+  "trials": [
+    {
+      "tolerance_mm": 1e-07,
+      "merged_boundary_vertices": 1,
+      "max_vertex_displacement_mm": 0.0,
+      "deleted_collapsed_faces": 0,
+      "added_triangles": 14,
+      "after": {
+        "faces": 261080,
+        "boundary": 22,
+        "nonmanifold": 0,
+        "volume": 61690.8669375203,
+        "winding_consistent": true,
+        "watertight": false,
+        "bounds": [
+          [
+            -100.013,
+            -100.011505,
+            -20.3575287
+          ],
+          [
+            100.013,
+            100.011505,
+            20.3575287
+          ]
+        ]
+      }
+    },
+    {
+      "tolerance_mm": 5e-07,
+      "merged_boundary_vertices": 4,
+      "max_vertex_displacement_mm": 1.4300000001910007e-06,
+      "deleted_collapsed_faces": 4,
+      "added_triangles": 13,
+      "after": {
+        "faces": 261075,
+        "boundary": 21,
+        "nonmanifold": 0,
+        "volume": 61690.866937521525,
+        "winding_consistent": true,
+        "watertight": false,
+        "bounds": [
+          [
+            -100.013,
+            -100.011505,
+            -20.3575287
+          ],
+          [
+            100.013,
+            100.011505,
+            20.3575287
+          ]
+        ]
+      }
+    },
+    {
+      "tolerance_mm": 1e-06,
+      "merged_boundary_vertices": 11,
+      "max_vertex_displacement_mm": 1.8999999991109462e-06,
+      "deleted_collapsed_faces": 11,
+      "added_triangles": 8,
+      "after": {
+        "faces": 261063,
+        "boundary": 15,
+        "nonmanifold": 0,
+        "volume": 61690.86693396262,
+        "winding_consistent": true,
+        "watertight": false,
+        "bounds": [
+          [
+            -100.013,
+            -100.011505,
+            -20.3575287
+          ],
+          [
+            100.013,
+            100.011505,
+            20.3575287
+          ]
+        ]
+      }
+    },
+    {
+      "tolerance_mm": 2e-06,
+      "merged_boundary_vertices": 26,
+      "max_vertex_displacement_mm": 5.72999999981505e-06,
+      "deleted_collapsed_faces": 32,
+      "added_triangles": 3,
+      "after": {
+        "faces": 261037,
+        "boundary": 3,
+        "nonmanifold": 0,
+        "volume": 61690.86693380061,
+        "winding_consistent": true,
+        "watertight": false,
+        "bounds": [
+          [
+            -100.013,
+            -100.011505,
+            -20.3575287
+          ],
+          [
+            100.013,
+            100.011505,
+            20.3575287
+          ]
+        ]
+      }
+    },
+    {
+      "tolerance_mm": 3e-06,
+      "merged_boundary_vertices": 26,
+      "max_vertex_displacement_mm": 5.72999999981505e-06,
+      "deleted_collapsed_faces": 32,
+      "added_triangles": 4,
+      "after": {
+        "faces": 261038,
+        "boundary": 0,
+        "nonmanifold": 0,
+        "volume": 61690.86693384562,
+        "winding_consistent": true,
+        "watertight": true,
+        "bounds": [
+          [
+            -100.013,
+            -100.011505,
+            -20.3575287
+          ],
+          [
+            100.013,
+            100.011505,
+            20.3575287
+          ]
+        ]
+      },
+      "selected": true
+    }
+  ],
+  "method": "Only boundary vertex welding at stated tolerance, deletion of triangles collapsed by these welds, splitting boundary-adjacent faces at existing near-collinear boundary vertices; no global smoothing, no arbitrary hole fill. Source STEP unchanged."
+}

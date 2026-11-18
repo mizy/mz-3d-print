@@ -1,0 +1,132 @@
+[
+  {
+    "part": "wide",
+    "vertices": 126992,
+    "triangles": 254288,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "watertight": true,
+    "solid_valid": true,
+    "slice_returncode": 0,
+    "result": {
+      "error_string": "Success.",
+      "layer_height": 0.20000000298023224,
+      "peak_rss_mb": 442.28125,
+      "plate_index": 1,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 942.4345092773438,
+            "Bridge": 254.77586364746094,
+            "Custom": 362.1511535644531,
+            "Flush": 29.0,
+            "Gap infill": 524.2147216796875,
+            "Inner wall": 1354.5096435546875,
+            "Internal solid infill": 516.7710571289062,
+            "Outer wall": 1646.8917236328125,
+            "Overhang wall": 63.744049072265625,
+            "Sparse infill": 139.8363037109375,
+            "Support": 216.5281219482422,
+            "Support interface": 20.425121307373047,
+            "Top surface": 838.6978759765625,
+            "Travel": 1192.4669189453125,
+            "Undefined": 1177.340576171875
+          },
+          "filament_change_times": 0,
+          "filaments": [
+            {
+              "filament_id": "GFG99",
+              "id": 1,
+              "main_used_g": 53.04597473144531,
+              "total_used_g": 53.04597473144531
+            }
+          ],
+          "id": 1,
+          "layer_filament_change": 0,
+          "main_predication": 7684.23046875,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 200.0,
+                "height": 40.70000076293945,
+                "width": 200.0,
+                "x": 20.424375534057617,
+                "y": 26.75143051147461,
+                "z": 5.000000058430487e-08
+              },
+              "id": 5,
+              "name": "long_wide_v3_wide",
+              "triangle_count": 254288
+            }
+          ],
+          "times": {
+            "conflict_check_time": 0,
+            "detect_overhangs_time": 319,
+            "export_gcode_time": 1512,
+            "flush_plan_time": 0,
+            "generate_support_material_time": 9005,
+            "infill_generate_time": 3150,
+            "infill_time": 4987,
+            "ironing_time": 0,
+            "make_perimeters_time": 6171,
+            "multifilament_segment_2d_time": 0,
+            "other_slice_time": 9,
+            "prepare_infill_time": 1836,
+            "region_split_time": 1,
+            "skirt_brim_time": 519,
+            "slice_layers_time": 1308,
+            "sliced_time": 24581,
+            "sliced_time_with_cache": 2031,
+            "support_detect_time": 1762,
+            "support_interface_time": 11,
+            "support_normal_generate_time": 0,
+            "support_toolpath_time": 49,
+            "support_tree_generate_time": 7181,
+            "toolpath_time": 1887,
+            "wall_time": 4861,
+            "wipe_tower_time": 170
+          },
+          "total_predication": 8089.22509765625,
+          "triangle_count": 254288,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 5.0,
+      "times": {
+        "export_3mf_time": 1486,
+        "export_slicedata_time": 0,
+        "export_time": 2137,
+        "import_time": 1072,
+        "load_slicedata_time": 0,
+        "prepare_time": 1095
+      },
+      "upward_compatible_machine": [
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle",
+        "Bambu Lab H3C 0.4 nozzle"
+      ],
+      "wall_loops": 2
+    }
+  },
+  {
+    "part": "narrow",
+    "vertices": 120293,
+    "triangles": 240890,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "watertight": true,
+    "solid_valid": true
+  }
+]

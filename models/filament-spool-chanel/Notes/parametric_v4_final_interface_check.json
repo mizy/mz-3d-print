@@ -1,0 +1,88 @@
+{
+  "wide": {
+    "max_sampled_boundary_error_mm": 0.026608651501384046,
+    "checks": [
+      {
+        "z": 22.1,
+        "boundary_hausdorff_mm": 0.01047859105701029
+      },
+      {
+        "z": 22.5,
+        "boundary_hausdorff_mm": 0.004782492538862919
+      },
+      {
+        "z": 24.0,
+        "boundary_hausdorff_mm": 0.004770649465739971
+      },
+      {
+        "z": 30.1,
+        "boundary_hausdorff_mm": 0.004743572223281005
+      },
+      {
+        "z": 31.425,
+        "boundary_hausdorff_mm": 0.026608651501384046
+      },
+      {
+        "z": 32.225,
+        "boundary_hausdorff_mm": 0.00479100178906023
+      },
+      {
+        "z": 33.825,
+        "boundary_hausdorff_mm": 0.004873789341895401
+      },
+      {
+        "z": 34.225,
+        "boundary_hausdorff_mm": 0.00548678980968458
+      },
+      {
+        "z": 35.425,
+        "boundary_hausdorff_mm": 0.019056469684404765
+      },
+      {
+        "z": 36.825,
+        "boundary_hausdorff_mm": 0.020288664074500237
+      },
+      {
+        "z": 37.225,
+        "boundary_hausdorff_mm": 0.0177096242324144
+      }
+    ]
+  },
+  "narrow": {
+    "max_sampled_boundary_error_mm": 0.028940812222561438,
+    "checks": [
+      {
+        "z": 24.1,
+        "boundary_hausdorff_mm": 0.006295479887150445
+      },
+      {
+        "z": 28.0,
+        "boundary_hausdorff_mm": 0.006186409095335246
+      },
+      {
+        "z": 31.225,
+        "boundary_hausdorff_mm": 0.005852873404431809
+      },
+      {
+        "z": 31.675,
+        "boundary_hausdorff_mm": 0.028940812222561438
+      },
+      {
+        "z": 32.175,
+        "boundary_hausdorff_mm": 0.020801977267333217
+      },
+      {
+        "z": 32.65,
+        "boundary_hausdorff_mm": 0.026386262663311875
+      },
+      {
+        "z": 33.375,
+        "boundary_hausdorff_mm": 0.018890383938282906
+      },
+      {
+        "z": 34.085,
+        "boundary_hausdorff_mm": 0.01903724865460322
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "default_not_replaced": true,
+  "density_used_by_slicer_g_cm3": 1.27,
+  "candidates": {
+    "R38_5": {
+      "step": "Models/WeightTrials/CHANEL_V5_LOWER_R38_5_TRIAL.step",
+      "bytes": 32773447,
+      "sha256": "3c315b93b3ff155258bb62549f7266e63246c240d58242d175c3b73a791befd1",
+      "volume_mm3": 109308.96995030224,
+      "valid_two_solids_reimport": true
+    },
+    "R38_5_skin04": {
+      "step": "Models/WeightTrials/CHANEL_V5_LOWER_R38_5_SKIN0_4_TRIAL.step",
+      "bytes": 32773467,
+      "sha256": "0f390b50137e9927b7205c231ee680b8d534037c7be3d7867a24c1f5f3236342",
+      "volume_mm3": 103300.04627088312,
+      "valid_two_solids_reimport": true
+    },
+    "original_lower_skin04": {
+      "step": "Models/WeightTrials/CHANEL_V5_SKIN0_4_KEEP_CORE_TRIAL.step",
+      "bytes": 32773454,
+      "sha256": "a965725d928f43cfb7ce60ee6a4800d69270af3ae537c2f85512f007d3115b68",
+      "volume_mm3": 116193.98289725027,
+      "valid_two_solids_reimport": true
+    }
+  },
+  "scope": "Geometric and slicing trials, no strength/physical-fit certification"
+}

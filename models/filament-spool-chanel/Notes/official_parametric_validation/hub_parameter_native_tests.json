@@ -1,0 +1,24 @@
+[
+  {
+    "params": {
+      "wide_bore_radius": 31.6
+    },
+    "valid": true,
+    "solids": 1,
+    "faces": 125,
+    "volume": 32794.8648710951,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "lock_min_radius_z36": 30.0904456150985
+  },
+  {
+    "params": {},
+    "valid": true,
+    "solids": 1,
+    "faces": 126,
+    "volume": 33959.79544915889,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "lock_min_radius_z36": 29.89999975677509
+  }
+]

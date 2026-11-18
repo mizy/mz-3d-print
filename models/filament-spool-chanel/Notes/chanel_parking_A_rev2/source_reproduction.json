@@ -1,0 +1,10 @@
+{
+  "wide": {
+    "volume_delta_mm3": 0.0,
+    "faces": 1825
+  },
+  "narrow": {
+    "volume_delta_mm3": 0.0,
+    "faces": 1753
+  }
+}

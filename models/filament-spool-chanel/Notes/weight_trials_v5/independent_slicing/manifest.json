@@ -1,0 +1,62 @@
+{
+  "final_weight_comparison.json": {
+    "bytes": 15353,
+    "sha256": "bfa8c17953047850bc77ddaa7d86b2c6b7e8251bc23e079d95b4ee649de4ceea"
+  },
+  "paired_settings_results.json": {
+    "bytes": 7103,
+    "sha256": "07112c28645109ad3decc7d620c65feaf9f0c6ad9b9c3c6133921f5b60edd600"
+  },
+  "run_variants.py": {
+    "bytes": 1376,
+    "sha256": "0fb7b7397a146e470eeb6dc5d20ab8d5ec6a9832c82db7f7376cf253afe3d398"
+  },
+  "height_mass_breakdown.json": {
+    "bytes": 399,
+    "sha256": "dedfc478713edfe6402db00efc797eb231cbeda2bcc02847fb0e2d3e8fb12186"
+  },
+  "narrow_geometry.json": {
+    "bytes": 324,
+    "sha256": "87d45ce9aeb212ddff81fcee955196f15228e9d17e704d17e529838ea2e970e3"
+  },
+  "wide_retess_geometry.json": {
+    "bytes": 325,
+    "sha256": "9142df1783bb12506249cd66a7ec4602334557820c1e97d28eddee5073b94f42"
+  },
+  "final_nonmodel.py": {
+    "bytes": 1361,
+    "sha256": "35339b14d4ee1c4f3ec923eaa9c5a4c84c9f1372342492361f3ffa7d17f2958b"
+  },
+  "final_summary.py": {
+    "bytes": 3695,
+    "sha256": "1334120576145f19951d0178a305492a55490333025e710d1d14426d62173a39"
+  },
+  "summarize.py": {
+    "bytes": 1740,
+    "sha256": "01f605d791b9a676bf94d294dcf746a42bf2e1bc5c1f634a1655a9fc2f5e482b"
+  },
+  "README.md": {
+    "bytes": 2424,
+    "sha256": "e71fe330cd0fe83c71b4efb2b5f4a455992db46112276483cc54d204307d1b6d"
+  },
+  "final_geometry_slices.log": {
+    "bytes": 757,
+    "sha256": "de0024daceb61ced7864fc222b244c6e4ed3a373785f265a7e04353abd6e6ab1"
+  },
+  "slice_candidate.py": {
+    "bytes": 1253,
+    "sha256": "5d68fe28a248cf574aa66a6302c164522f985d948aab730794ceacae28bda76a"
+  },
+  "pack_brep.py": {
+    "bytes": 1516,
+    "sha256": "fe9a385705b73edff28a07e89aeb305547869fdf529b4a62908f62c34e6d0843"
+  },
+  "final_candidate_support_breakdown.json": {
+    "bytes": 1684,
+    "sha256": "60ab8af78a1d65e38f2f68093f613675886647fa0eba8808d610ecb26eb962cc"
+  },
+  "run_final_geometry.py": {
+    "bytes": 855,
+    "sha256": "b1bfd73682f58fd8a17a528d32d7813f07d0fc34382297eb3a1e419ce4a34aed"
+  }
+}

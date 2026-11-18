@@ -1,0 +1,93 @@
+[
+  {
+    "H": 72,
+    "angle": 45,
+    "valid": true,
+    "volume": 0,
+    "seconds": 0.04468989372253418
+  },
+  {
+    "H": 70,
+    "angle": 45,
+    "valid": true,
+    "volume": 2.49741063812342,
+    "seconds": 0.19481801986694336
+  },
+  {
+    "H": 68,
+    "angle": 45,
+    "valid": true,
+    "volume": 0.11436771749978729,
+    "seconds": 0.12330794334411621
+  },
+  {
+    "H": 66.4,
+    "angle": 45,
+    "valid": true,
+    "volume": 0,
+    "seconds": 0.0836629867553711
+  },
+  {
+    "H": 66.4,
+    "angle": 30,
+    "valid": true,
+    "volume": 0,
+    "seconds": 0.14112401008605957
+  },
+  {
+    "H": 66.4,
+    "angle": 15,
+    "valid": true,
+    "volume": 0,
+    "seconds": 0.14505290985107422
+  },
+  {
+    "H": 66.4,
+    "angle": 8,
+    "valid": true,
+    "volume": 0,
+    "seconds": 0.12990021705627441
+  },
+  {
+    "H": 66.4,
+    "angle": 5,
+    "valid": true,
+    "volume": 2.434165330549515,
+    "seconds": 0.20809197425842285
+  },
+  {
+    "H": 66.4,
+    "angle": 3,
+    "valid": true,
+    "volume": 4.20451923128631,
+    "seconds": 0.21477699279785156
+  },
+  {
+    "H": 66.4,
+    "angle": 1,
+    "valid": true,
+    "volume": 1.775205663615,
+    "seconds": 0.2378079891204834
+  },
+  {
+    "H": 66.4,
+    "angle": 0,
+    "valid": true,
+    "volume": 0.36855412386965153,
+    "seconds": 0.2521507740020752
+  },
+  {
+    "H": 66.5,
+    "angle": 0,
+    "valid": true,
+    "volume": 1.6893005310386118,
+    "seconds": 0.4150390625
+  },
+  {
+    "H": 66.3,
+    "angle": 0,
+    "valid": true,
+    "volume": 17.675849851111224,
+    "seconds": 0.2321169376373291
+  }
+]

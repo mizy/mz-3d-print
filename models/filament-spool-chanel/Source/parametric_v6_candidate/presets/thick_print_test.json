@@ -1,0 +1,35 @@
+{
+  "rolling_outer_radius": 102.013,
+  "rim_radial_width": 6.5,
+  "rim_height": 5.0,
+  "skin_thickness": 0.9,
+  "rib_width": 5.0,
+  "rib_height_above_skin": 4.0,
+  "rib_count": 8,
+  "logo_scale": 0.9,
+  "logo_rings": [
+    {
+      "fraction": 0.18489065606361824,
+      "count": 16,
+      "relative_scale": 0.99
+    },
+    {
+      "fraction": 0.5228628230616302,
+      "count": 24,
+      "relative_scale": 0.99
+    },
+    {
+      "fraction": 0.8608349900596421,
+      "count": 32,
+      "relative_scale": 0.9
+    }
+  ],
+  "hub_outer_radius": 41.5,
+  "hub_lower_inner_radius": 36.0,
+  "sleeve_wall_extra": 0.4,
+  "shaft_bore_radius": 27.5,
+  "lock_reference_bore_radius": 31.4,
+  "lock_axial_scale": 1.0,
+  "wide_lock_wall_thickness": 1.9,
+  "bridge_width": 1.5
+}

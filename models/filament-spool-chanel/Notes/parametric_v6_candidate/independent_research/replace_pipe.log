@@ -1,0 +1,7 @@
+wide {'valid': True, 'solids': 1, 'faces_before': 3984, 'faces_after': 3872, 'volume_before': 6303.559576124651, 'volume_after': 6300.295459965244, 'seconds': 6.912566184997559}
+narrow {'valid': True, 'solids': 0, 'faces_before': 3041, 'faces_after': 0, 'volume_before': 4243.048857586173, 'volume_after': 0.0, 'seconds': 5.664661169052124}
+Traceback (most recent call last):
+  File "/tmp/chanel_parameter_audit/compact_lock/replace_pipe_bands.py", line 10, in <module>
+    else:raise ValueError('invalid replacement')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid replacement

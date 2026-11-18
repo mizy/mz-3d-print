@@ -1,0 +1,130 @@
+[
+  {
+    "part": "wide",
+    "vertices": 119353,
+    "triangles": 239026,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "watertight": true,
+    "solid_valid": true,
+    "slice_returncode": 0,
+    "result": {
+      "error_string": "Success.",
+      "layer_height": 0.20000000298023224,
+      "peak_rss_mb": 376.875,
+      "plate_index": 1,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 964.1934204101562,
+            "Bridge": 257.4674987792969,
+            "Custom": 362.6925964355469,
+            "Flush": 29.0,
+            "Gap infill": 528.7562255859375,
+            "Inner wall": 1669.9188232421875,
+            "Internal solid infill": 505.3553771972656,
+            "Outer wall": 1915.9642333984375,
+            "Overhang wall": 0.4093185067176819,
+            "Sparse infill": 142.6415557861328,
+            "Top surface": 826.3755493164062,
+            "Travel": 917.0513305664062,
+            "Undefined": 901.5435180664062
+          },
+          "filament_change_times": 0,
+          "filaments": [
+            {
+              "filament_id": "GFG99",
+              "id": 1,
+              "main_used_g": 63.904945373535156,
+              "total_used_g": 63.904945373535156
+            }
+          ],
+          "id": 1,
+          "layer_filament_change": 0,
+          "main_predication": 7700.033203125,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 200.0,
+                "height": 40.70000076293945,
+                "width": 200.0,
+                "x": 20.424375534057617,
+                "y": 26.75143051147461,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "light_wide",
+              "triangle_count": 239026
+            }
+          ],
+          "times": {
+            "conflict_check_time": 0,
+            "detect_overhangs_time": 153,
+            "export_gcode_time": 1116,
+            "flush_plan_time": 0,
+            "generate_support_material_time": 1376,
+            "infill_generate_time": 2134,
+            "infill_time": 3589,
+            "ironing_time": 0,
+            "make_perimeters_time": 3576,
+            "multifilament_segment_2d_time": 0,
+            "other_slice_time": 8,
+            "prepare_infill_time": 1454,
+            "region_split_time": 1,
+            "skirt_brim_time": 479,
+            "slice_layers_time": 1065,
+            "sliced_time": 14070,
+            "sliced_time_with_cache": 1595,
+            "support_detect_time": 1101,
+            "support_interface_time": 0,
+            "support_normal_generate_time": 0,
+            "support_toolpath_time": 0,
+            "support_tree_generate_time": 275,
+            "toolpath_time": 3635,
+            "wall_time": 2510,
+            "wipe_tower_time": 137
+          },
+          "total_predication": 8105.1875,
+          "triangle_count": 239026,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 5.0,
+      "times": {
+        "export_3mf_time": 1155,
+        "export_slicedata_time": 0,
+        "export_time": 1618,
+        "import_time": 543,
+        "load_slicedata_time": 0,
+        "prepare_time": 563
+      },
+      "upward_compatible_machine": [
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle",
+        "Bambu Lab H3C 0.4 nozzle"
+      ],
+      "wall_loops": 2
+    }
+  },
+  {
+    "part": "narrow",
+    "vertices": 112680,
+    "triangles": 225680,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "watertight": true,
+    "solid_valid": true
+  }
+]

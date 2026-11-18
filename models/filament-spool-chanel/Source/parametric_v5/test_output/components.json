@@ -1,0 +1,223 @@
+{
+  "source_hashes": {
+    "run_component_tests.py": "68a468669a239123f84a2e88e76e5e3416f54074425a08490e3b153d911a228a",
+    "config.py": "902ba74293b15e10b19dea808623583a91af0892b0362c7c4bab74ce44c34db4",
+    "body.py": "5c4a9111b227bd89d1888a5e4642d35b802b07efa80be5e942970a083a1b9885",
+    "native_loft.py": "ae1b6ec71729a6369b48ce5bcf7bc7be7600700f56385ae05f237f854f80f18f",
+    "motif.py": "b88623bcf25f533df2641c6bd1d48bd730943784780426855c01131d867efc88",
+    "lock.py": "6740d3eeae2051c014ba82fcf2fd3e5029e7f18dca0576efa7e4f0fd0f23b770",
+    "rebuild.py": "e5dc9c50442b68563f907cbd377320cea22ad974c902c91e66e95da4f94e40e8"
+  },
+  "tests": [
+    {
+      "name": "logo_0.8",
+      "pass_test": true,
+      "details": {
+        "bbox": [
+          11.642042590173027,
+          8.8,
+          8.0
+        ],
+        "volume": 374.05671755816456,
+        "expected_xy_scale": 0.8,
+        "z_invariant": 8.0
+      }
+    },
+    {
+      "name": "logo_1.1",
+      "pass_test": true,
+      "details": {
+        "bbox": [
+          16.007808561487913,
+          12.100000000000001,
+          8.0
+        ],
+        "volume": 707.2009816334134,
+        "expected_xy_scale": 1.1,
+        "z_invariant": 8.0
+      }
+    },
+    {
+      "name": "rim_default",
+      "pass_test": true,
+      "details": {
+        "bbox": [
+          200.026,
+          200.026,
+          3.615
+        ],
+        "section_loops": 10,
+        "volume": 11131.482282303024,
+        "derived": {
+          "od": 0.0,
+          "k": 1.0,
+          "az": 1.0,
+          "rim_inner": 95.0,
+          "plate_outer": 94.0,
+          "plate_inner": 43.7,
+          "rib_start": 43.5,
+          "rib_end": 97.5
+        }
+      }
+    },
+    {
+      "name": "rim_diameter",
+      "pass_test": true,
+      "details": {
+        "bbox": [
+          204.026,
+          204.026,
+          3.615
+        ],
+        "section_loops": 10,
+        "volume": 11359.2656650294,
+        "derived": {
+          "od": 0.0,
+          "k": 1.0,
+          "az": 1.0,
+          "rim_inner": 97.0,
+          "plate_outer": 96.0,
+          "plate_inner": 43.7,
+          "rib_start": 43.5,
+          "rib_end": 99.5
+        }
+      }
+    },
+    {
+      "name": "rim_width",
+      "pass_test": true,
+      "details": {
+        "bbox": [
+          200.026,
+          200.026,
+          3.615
+        ],
+        "section_loops": 10,
+        "volume": 14314.98035438771,
+        "derived": {
+          "od": 0.0,
+          "k": 1.0,
+          "az": 1.0,
+          "rim_inner": 93.513,
+          "plate_outer": 92.513,
+          "plate_inner": 43.7,
+          "rib_start": 43.5,
+          "rib_end": 96.013
+        }
+      }
+    },
+    {
+      "name": "rim_height",
+      "pass_test": true,
+      "details": {
+        "bbox": [
+          200.026,
+          200.026,
+          5.0
+        ],
+        "section_loops": 10,
+        "volume": 15396.241054361,
+        "derived": {
+          "od": 0.0,
+          "k": 1.0,
+          "az": 1.0,
+          "rim_inner": 95.0,
+          "plate_outer": 94.0,
+          "plate_inner": 43.7,
+          "rib_start": 43.5,
+          "rib_end": 97.5
+        }
+      }
+    },
+    {
+      "name": "sleeve_fit_wide",
+      "pass_test": true,
+      "details": {
+        "radii_before_after": [
+          [
+            39.0,
+            40.848
+          ],
+          [
+            39.0,
+            41.248
+          ]
+        ],
+        "protected_radius": 39
+      }
+    },
+    {
+      "name": "sleeve_fit_narrow",
+      "pass_test": true,
+      "details": {
+        "radii_before_after": [
+          [
+            37.698,
+            38.898
+          ],
+          [
+            37.298,
+            38.898
+          ]
+        ],
+        "protected_radius": 38.898
+      }
+    },
+    {
+      "name": "negative_skin",
+      "pass_test": true,
+      "details": "skin_thickness must be within [0.6, 2.4]"
+    },
+    {
+      "name": "unknown_key",
+      "pass_test": true,
+      "details": "Missing/unknown parameters: {'unused_x'}"
+    },
+    {
+      "name": "too_thin_core",
+      "pass_test": true,
+      "details": "hub_lower_inner_radius must be within [34, 37.5]"
+    },
+    {
+      "name": "fractional_ribs",
+      "pass_test": true,
+      "details": "rib_count must be integer"
+    },
+    {
+      "name": "lower_bore",
+      "pass_test": true,
+      "details": {
+        "volume_change_mm3": 2900.3706976716494,
+        "bbox": [
+          88.0,
+          88.0,
+          24.0
+        ]
+      }
+    },
+    {
+      "name": "hub_outer",
+      "pass_test": true,
+      "details": {
+        "volume_change_mm3": 2666.392599914223,
+        "bbox": [
+          89.3,
+          89.3,
+          24.0
+        ]
+      }
+    },
+    {
+      "name": "shaft_bore",
+      "pass_test": true,
+      "details": {
+        "volume_change_mm3": -406.88023093701486,
+        "bbox": [
+          88.0,
+          88.0,
+          24.0
+        ]
+      }
+    }
+  ]
+}

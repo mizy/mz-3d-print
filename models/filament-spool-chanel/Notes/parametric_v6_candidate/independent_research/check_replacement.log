@@ -1,0 +1,16 @@
+wide 32.195 0.004772817724478605
+wide 32.205000000000005 0.0047910482057199905
+wide 32.215 0.004790891674755641
+wide 32.230000000000004 0.0047910568486977945
+wide 33.2 0.004801430247905929
+wide 34.17 0.004802796765941316
+wide 34.185 0.0048026837028254275
+wide 34.195 0.004802609901657123
+wide 34.205000000000005 0.005485126101250357
+Traceback (most recent call last):
+  File "/tmp/chanel_parameter_audit/compact_lock/check_replacement.py", line 8, in <module>
+    s=cq.importers.importStep(str(D/f'{part}_replaced.step')).val();m=load(part);rows=[]
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/chanel-parametric-env/lib/python3.11/site-packages/cadquery/occ_impl/importers/__init__.py", line 104, in importStep
+    raise ValueError("STEP File could not be loaded")
+ValueError: STEP File could not be loaded

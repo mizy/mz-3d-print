@@ -1,0 +1,47 @@
+[
+  {
+    "H": 66.430113973,
+    "theta_deg": 40,
+    "intersection_valid": true,
+    "intersection_solids": 0,
+    "intersection_volume_mm3": 0,
+    "minimum_surface_distance_mm": null,
+    "elapsed_seconds": 4.3933000564575195
+  },
+  {
+    "H": 66.430113973,
+    "theta_deg": 30,
+    "intersection_valid": true,
+    "intersection_solids": 0,
+    "intersection_volume_mm3": 0,
+    "minimum_surface_distance_mm": null,
+    "elapsed_seconds": 6.017532110214233
+  },
+  {
+    "H": 66.430113973,
+    "theta_deg": 20,
+    "intersection_valid": true,
+    "intersection_solids": 0,
+    "intersection_volume_mm3": 0,
+    "minimum_surface_distance_mm": null,
+    "elapsed_seconds": 6.270576238632202
+  },
+  {
+    "H": 68.430113973,
+    "theta_deg": 51,
+    "intersection_valid": true,
+    "intersection_solids": 0,
+    "intersection_volume_mm3": 0,
+    "minimum_surface_distance_mm": null,
+    "elapsed_seconds": 4.596494674682617
+  },
+  {
+    "H": 70.430113973,
+    "theta_deg": 51,
+    "intersection_valid": true,
+    "intersection_solids": 0,
+    "intersection_volume_mm3": 0,
+    "minimum_surface_distance_mm": null,
+    "elapsed_seconds": 2.503788948059082
+  }
+]

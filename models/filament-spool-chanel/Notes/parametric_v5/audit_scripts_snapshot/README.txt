@@ -1,0 +1,1 @@
+These are unchanged snapshots of the independent tests actually run. Their original temporary paths are intentionally preserved for provenance; they are not a portable rerun entry point. Use Source/parametric_v5/run_component_tests.py for portable component checks.

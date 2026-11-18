@@ -1,0 +1,8 @@
+wide {'valid': True, 'solids': 1, 'faces_before': 9046, 'faces_after': 7058, 'volume_before': 64612.772186819566, 'volume_after': 64612.69026078057, 'seconds': 19.867002725601196}
+Traceback (most recent call last):
+  File "/tmp/chanel_parameter_audit/compact_lock/replace_bands.py", line 5, in <module>
+    t=time.time();base=cq.importers.importBrep(str(R/f'{part}_complete.brep')).val();band=cq.importers.importStep(str(D/f'{part}_constant_band.step')).val();cutter=cq.Solid.makeCylinder(34,z1-z0-.02,cq.Vector(*c,z0+.01));cut=base.cut(cutter);s=cut.fuse(band).clean();out[part]={'valid':s.isValid(),'solids':len(s.Solids()),'faces_before':len(base.Faces()),'faces_after':len(s.Faces()),'volume_before':base.Volume(),'volume_after':s.Volume(),'seconds':time.time()-t};print(part,out[part],flush=True)
+                                                                                                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/chanel-parametric-env/lib/python3.11/site-packages/cadquery/occ_impl/shapes.py", line 446, in clean
+    upgrader.Build()
+OCP.OCP.Standard.Standard_Failure: Courbes non jointives

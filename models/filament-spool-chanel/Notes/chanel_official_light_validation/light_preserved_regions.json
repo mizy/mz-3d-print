@@ -1,0 +1,86 @@
+[
+  {
+    "part": "wide",
+    "region": "central_r44_4",
+    "symmetric_difference_mm3": 0.0,
+    "reference_volume": 44508.11411183445,
+    "light_volume": 44508.11411183332
+  },
+  {
+    "part": "wide",
+    "region": "rolling_outer_r99_6",
+    "symmetric_difference_mm3": 0.0,
+    "reference_volume": 802.5722032371068,
+    "light_volume": 802.5722032371068
+  },
+  {
+    "part": "wide",
+    "region": "hole_-1_-1",
+    "symmetric_difference_mm3": 0.0,
+    "reference_volume": 15.239865962564117,
+    "light_volume": 15.23986596256439
+  },
+  {
+    "part": "wide",
+    "region": "hole_-1_1",
+    "symmetric_difference_mm3": 0.0,
+    "reference_volume": 15.23986596256411,
+    "light_volume": 15.23986596256383
+  },
+  {
+    "part": "wide",
+    "region": "hole_1_-1",
+    "symmetric_difference_mm3": 0.0,
+    "reference_volume": 15.239865962564114,
+    "light_volume": 15.239865962564084
+  },
+  {
+    "part": "wide",
+    "region": "hole_1_1",
+    "symmetric_difference_mm3": 0.0,
+    "reference_volume": 15.239865962564117,
+    "light_volume": 15.239865962564087
+  },
+  {
+    "part": "narrow",
+    "region": "central_r44_4",
+    "symmetric_difference_mm3": 0.0,
+    "reference_volume": 40751.275980839,
+    "light_volume": 40751.275980839
+  },
+  {
+    "part": "narrow",
+    "region": "rolling_outer_r99_6",
+    "symmetric_difference_mm3": 0.0,
+    "reference_volume": 802.5722032371068,
+    "light_volume": 802.5722032371068
+  },
+  {
+    "part": "narrow",
+    "region": "hole_-1_-1",
+    "symmetric_difference_mm3": 0.0,
+    "reference_volume": 15.239865962564096,
+    "light_volume": 15.23986596256411
+  },
+  {
+    "part": "narrow",
+    "region": "hole_-1_1",
+    "symmetric_difference_mm3": 0.0,
+    "reference_volume": 15.239865962564096,
+    "light_volume": 15.239865962564167
+  },
+  {
+    "part": "narrow",
+    "region": "hole_1_-1",
+    "symmetric_difference_mm3": 0.0,
+    "reference_volume": 15.239865962564085,
+    "light_volume": 15.239865962564078
+  },
+  {
+    "part": "narrow",
+    "region": "hole_1_1",
+    "symmetric_difference_mm3": 0.0,
+    "reference_volume": 15.239865962564085,
+    "light_volume": 15.239865962564046
+  }
+]

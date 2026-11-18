@@ -1,0 +1,2 @@
+{'platform_first': {'valid': True, 'solids': 1, 'faces': 5432, 'volume': 6281.669066334635}}
+{'platform_first': {'valid': True, 'solids': 1, 'faces': 5432, 'volume': 6281.669066334635}, 'analytic_second': {'valid': True, 'solids': 1, 'faces': 3820, 'volume': 6303.559576280528}}

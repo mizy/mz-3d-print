@@ -1,0 +1,212 @@
+{
+  "spoke_rev2": {
+    "total_g": 101.8630142211914,
+    "parts": {
+      "wide": {
+        "total_g": 51.75776290893555,
+        "returncode": 0,
+        "warning": "",
+        "features": {
+          "Bridge": {
+            "g": 1.8232280879157785,
+            "segments": 2780,
+            "by_z": {
+              "1.8": 0.06162182989204888,
+              "2.0": 0.9400463036191321,
+              "2.2": 0.1319756036441298,
+              "2.8": 0.6867071824066036,
+              "32.8": 0.002877168353863829
+            },
+            "endpoint_radius_min": 26.468667713081548,
+            "endpoint_radius_max": 101.02503194845092
+          }
+        }
+      },
+      "narrow": {
+        "total_g": 50.10525131225586,
+        "returncode": 0,
+        "warning": "",
+        "features": {
+          "Bridge": {
+            "g": 2.0103623703041444,
+            "segments": 2956,
+            "by_z": {
+              "1.8": 1.0498011366327578,
+              "2.2": 0.2733720183452588,
+              "2.8": 0.6871892153261253
+            },
+            "endpoint_radius_min": 26.46257244478558,
+            "endpoint_radius_max": 101.20053746110011
+          }
+        }
+      }
+    },
+    "mesh": [
+      {
+        "part": "wide",
+        "vertices": 34194,
+        "triangles": 68540,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "watertight": true,
+        "solid_valid": true,
+        "slice_returncode": 0
+      },
+      {
+        "part": "narrow",
+        "vertices": 27149,
+        "triangles": 54450,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "watertight": true,
+        "solid_valid": true
+      }
+    ]
+  },
+  "relief_rev2": {
+    "total_g": 93.40342712402344,
+    "parts": {
+      "wide": {
+        "total_g": 47.70519256591797,
+        "returncode": 0,
+        "warning": "",
+        "features": {
+          "Bridge": {
+            "g": 1.0937717030171439,
+            "segments": 2575,
+            "by_z": {
+              "1.8": 0.04221282631751712,
+              "2.2": 0.36198466756965747,
+              "2.8": 0.6867073351420028,
+              "32.8": 0.002866873987965286
+            },
+            "endpoint_radius_min": 36.999269833680835,
+            "endpoint_radius_max": 101.02503194845092
+          }
+        }
+      },
+      "narrow": {
+        "total_g": 45.69823455810547,
+        "returncode": 0,
+        "warning": "",
+        "features": {
+          "Bridge": {
+            "g": 1.21056137577737,
+            "segments": 2597,
+            "by_z": {
+              "1.8": 0.24350772685570296,
+              "2.2": 0.2798644335955403,
+              "2.8": 0.6871892153261265
+            },
+            "endpoint_radius_min": 36.30841402809444,
+            "endpoint_radius_max": 101.20053746110011
+          }
+        }
+      }
+    },
+    "mesh": [
+      {
+        "part": "wide",
+        "vertices": 36696,
+        "triangles": 73544,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "watertight": true,
+        "solid_valid": true,
+        "slice_returncode": 0
+      },
+      {
+        "part": "narrow",
+        "vertices": 29925,
+        "triangles": 60002,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "watertight": true,
+        "solid_valid": true
+      }
+    ]
+  },
+  "relief_rev2_auto": {
+    "total_g": 93.41424560546875,
+    "parts": {
+      "wide": {
+        "total_g": 47.71072769165039,
+        "returncode": 0,
+        "warning": "",
+        "features": {
+          "Bridge": {
+            "g": 1.0937717030171439,
+            "segments": 2575,
+            "by_z": {
+              "1.8": 0.04221282631751712,
+              "2.2": 0.36198466756965747,
+              "2.8": 0.6867073351420028,
+              "32.8": 0.002866873987965286
+            },
+            "endpoint_radius_min": 36.999269833680835,
+            "endpoint_radius_max": 101.02503194845092
+          }
+        }
+      },
+      "narrow": {
+        "total_g": 45.70351791381836,
+        "returncode": 0,
+        "warning": "",
+        "features": {
+          "Bridge": {
+            "g": 1.21056137577737,
+            "segments": 2597,
+            "by_z": {
+              "1.8": 0.24350772685570296,
+              "2.2": 0.2798644335955403,
+              "2.8": 0.6871892153261265
+            },
+            "endpoint_radius_min": 36.30841402809444,
+            "endpoint_radius_max": 101.20053746110011
+          }
+        }
+      }
+    },
+    "mesh": [
+      {
+        "part": "wide",
+        "vertices": 36696,
+        "triangles": 73544,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "watertight": true,
+        "solid_valid": true,
+        "slice_returncode": 0
+      },
+      {
+        "part": "narrow",
+        "vertices": 29925,
+        "triangles": 60002,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "watertight": true,
+        "solid_valid": true
+      }
+    ]
+  },
+  "controlled_comparison": {
+    "wide": {
+      "settings_diff": {
+        "enable_support": [
+          "0",
+          "1"
+        ]
+      },
+      "same_geometry_xml": true
+    },
+    "narrow": {
+      "settings_diff": {
+        "enable_support": [
+          "0",
+          "1"
+        ]
+      },
+      "same_geometry_xml": true
+    }
+  }
+}

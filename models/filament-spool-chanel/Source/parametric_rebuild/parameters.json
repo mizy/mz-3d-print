@@ -1,0 +1,28 @@
+{
+  "flange_radius": 94.0,
+  "flange_inner_radius": 43.7,
+  "skin": 0.6,
+  "rib_length": 54.0,
+  "rib_width": 4.0,
+  "rib_height_above_skin": 2.6,
+  "rib_center_radius": 70.5,
+  "rib_count": 8,
+  "motif_rings": [
+    [
+      53,
+      16
+    ],
+    [
+      70,
+      24
+    ],
+    [
+      87,
+      32
+    ]
+  ],
+  "rim_inner_radius": 95.0,
+  "rim_outer_radius": 100.0,
+  "core_lower_inner_radius": 36.8,
+  "core_add_outer_radius": 39.7
+}

@@ -1,0 +1,111 @@
+{
+    "error_string": "Success.",
+    "layer_height": 0.20000000298023224,
+    "peak_rss_mb": 388.34375,
+    "plate_index": 1,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 941.8709716796875,
+                "Bridge": 296.3627014160156,
+                "Custom": 362.3823547363281,
+                "Flush": 29.0,
+                "Gap infill": 454.0934753417969,
+                "Inner wall": 1181.6622314453125,
+                "Internal solid infill": 508.1551208496094,
+                "Outer wall": 1461.5341796875,
+                "Overhang wall": 64.8642349243164,
+                "Sparse infill": 171.16468811035156,
+                "Support": 196.56292724609375,
+                "Support interface": 28.762378692626953,
+                "Top surface": 875.45751953125,
+                "Travel": 1041.6607666015625,
+                "Undefined": 1026.30322265625
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG99",
+                    "id": 1,
+                    "main_used_g": 49.98567199707031,
+                    "total_used_g": 49.98567199707031
+                }
+            ],
+            "id": 1,
+            "layer_filament_change": 0,
+            "main_predication": 7194.0673828125,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 200.0,
+                        "height": 34.099998474121094,
+                        "width": 200.0,
+                        "x": 20.424375534057617,
+                        "y": 26.75143051147461,
+                        "z": 5.000000058430487e-08
+                    },
+                    "id": 5,
+                    "name": "long_wide_v3_narrow",
+                    "triangle_count": 240890
+                }
+            ],
+            "times": {
+                "conflict_check_time": 0,
+                "detect_overhangs_time": 289,
+                "export_gcode_time": 3425,
+                "flush_plan_time": 0,
+                "generate_support_material_time": 15029,
+                "infill_generate_time": 5964,
+                "infill_time": 10863,
+                "ironing_time": 0,
+                "make_perimeters_time": 17454,
+                "multifilament_segment_2d_time": 0,
+                "other_slice_time": 27,
+                "prepare_infill_time": 4897,
+                "region_split_time": 0,
+                "skirt_brim_time": 581,
+                "slice_layers_time": 4540,
+                "sliced_time": 50274,
+                "sliced_time_with_cache": 4006,
+                "support_detect_time": 5749,
+                "support_interface_time": 10,
+                "support_normal_generate_time": 0,
+                "support_toolpath_time": 193,
+                "support_tree_generate_time": 9069,
+                "toolpath_time": 2408,
+                "wall_time": 12914,
+                "wipe_tower_time": 182
+            },
+            "total_predication": 7599.06201171875,
+            "triangle_count": 240890,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 5.0,
+    "times": {
+        "export_3mf_time": 1779,
+        "export_slicedata_time": 0,
+        "export_time": 2758,
+        "import_time": 2995,
+        "load_slicedata_time": 0,
+        "prepare_time": 3084
+    },
+    "upward_compatible_machine": [
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle",
+        "Bambu Lab H3C 0.4 nozzle"
+    ],
+    "wall_loops": 2
+}

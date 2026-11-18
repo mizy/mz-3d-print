@@ -1,0 +1,11 @@
+validated source ready
+packed narrow
+packed wide
+original_lower_skin04_wide_low 0
+original_lower_skin04_wide_low [{'filament_id': 'GFG99', 'id': 1, 'main_used_g': 55.02150344848633, 'total_used_g': 55.02150344848633}]
+original_lower_skin04_wide_baseline 0
+original_lower_skin04_wide_baseline [{'filament_id': 'GFG99', 'id': 1, 'main_used_g': 58.335906982421875, 'total_used_g': 58.335906982421875}]
+original_lower_skin04_narrow_low 0
+original_lower_skin04_narrow_low [{'filament_id': 'GFG99', 'id': 1, 'main_used_g': 50.248104095458984, 'total_used_g': 50.248104095458984}]
+original_lower_skin04_narrow_baseline 0
+original_lower_skin04_narrow_baseline [{'filament_id': 'GFG99', 'id': 1, 'main_used_g': 53.91816711425781, 'total_used_g': 53.91816711425781}]

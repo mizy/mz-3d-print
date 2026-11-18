@@ -1,0 +1,66 @@
+Refill Filament with Bambu Reusable Spool / Refill | Bambu Lab Wiki
+¶
+What is the Bambu Reusable Spool
+We've designed the entire filament feeding system with a reusable spool, resulting in at least 20% less plastic waste in filament consumption. Our choice of packaging material is carefully considered to minimize the use of non-recyclable materials. There are two types of reusable spools: the high-temperature spool and the low-temperature spool.
+Type
+Low Temp (≤70℃)
+High Temp (≤90℃)
+Materials
+ABS
+ABS+PC
+Filament Compatibility
+PLA, PETG
+PLA, PETG, ABS, ASA, PA6-GF, ABS-GF, PAHT-CF, PET-CF, PA6-CF, PC, TPU
+Follow the steps below to load new filament onto a Bambu Reusable Spool:
+¶
+Tutorial Videos
+Loading 1kg Filament:
+Loading 250g Filament:
+¶
+Operation Procedure
+¶
+Step 1: Remove the Packaging from the New Filament
+Prepare the new filament and the reusable spool. Then remove the packaging from the new filament.
+📌 Note:
+• If your filament has a clear protective strap,
+do not peel it off yet.
+• If you are using 250 g filament,
+do not remove the filament's cardboard core.
+¶
+Step 2: Open the Reusable Spool
+Turn the reusable spool counterclockwise to open it.
+The wide half is on the left. The narrow half is on the right.
+¶
+Step 3: Align the Slots and Load the New Filament
+📌 Note:
+Do not remove the protective strap yet.
+Find the clip on the wide half of the spool.
+Align the notch on the cardboard core, press the filament firmly into place, and then attach the narrow half.
+1 kg Filament:
+250 g Filament:
+Turn the narrow half clockwise until you hear a soft click.
+Note:
+Please refer to the figure below to snap the spool into place.
+Not properly locked
+Properly locked
+¶
+Step 4: Secure the Filament End
+If your filament has a protective strap
+, first peel off the section of the strap closest to the filament's leading end. Then insert the filament end into the round hole on the spool to keep the filament from loosening. Finally, remove the rest of the protective strap.
+If your filament does not have a protective strap
+, remove the tape on the filament end, then insert the filament end into the round hole on the spool.
+¶
+Step 5: Press the Filament Firmly
+After loading, check both sides of the filament. If there is a gap between the filament and the spool, press the edge of the filament coil by hand until the gap is filled. This prevents the filament from getting tangled.
+¶
+Step 6: Apply the Label
+Finally, remove the old label from the spool. Then apply the label that came with the new filament.
+¶
+End Notes
+We hope this guide has provided clear and practical support.
+If the issue remains unresolved, please submit a
+support ticket
+and include yourrecent printer logs and additional pictures or other details. Our technical team will review your requestand provide detailed assistance.
+You can also visit
+Bambu AI
+,which can instantly answer common questions and provide you with operational guidance.

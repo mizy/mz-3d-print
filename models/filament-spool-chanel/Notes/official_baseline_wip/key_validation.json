@@ -1,0 +1,52 @@
+[
+  {
+    "z": 2.6,
+    "hausdorff_mm": 0.004859800000005521,
+    "symmetric_difference_mm2": 0.012136738869028078
+  },
+  {
+    "z": 3.2,
+    "hausdorff_mm": 0.004841100000000154,
+    "symmetric_difference_mm2": 0.01094406414420597
+  },
+  {
+    "z": 4,
+    "hausdorff_mm": 0.0048160000000052605,
+    "symmetric_difference_mm2": 0.009275019597851205
+  },
+  {
+    "z": 5,
+    "hausdorff_mm": 0.0047847000000018625,
+    "symmetric_difference_mm2": 0.00711760093369417
+  },
+  {
+    "z": 6,
+    "hausdorff_mm": 0.004234292331969701,
+    "symmetric_difference_mm2": 0.004685428735786119
+  },
+  {
+    "z": 6.9,
+    "hausdorff_mm": 0.003067799999999954,
+    "symmetric_difference_mm2": 0.01559263226053881
+  },
+  {
+    "z": 7.1,
+    "hausdorff_mm": 0.004667499472155362,
+    "symmetric_difference_mm2": 0.022025521545978064
+  },
+  {
+    "z": 7.4,
+    "hausdorff_mm": 0.0011624859249531733,
+    "symmetric_difference_mm2": 0.0009373134533692495
+  },
+  {
+    "z": 7.6,
+    "hausdorff_mm": 0.0007694005187210114,
+    "symmetric_difference_mm2": 0.0005074939017669198
+  },
+  {
+    "z": 7.75,
+    "hausdorff_mm": 0.005440299305599089,
+    "symmetric_difference_mm2": 0.02408657433946006
+  }
+]

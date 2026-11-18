@@ -1,0 +1,158 @@
+{
+  "65538": {
+    "vertices": 130361,
+    "faces": 261066,
+    "bounds": [
+      [
+        -100.013,
+        -100.011505,
+        -20.3575287
+      ],
+      [
+        100.013,
+        100.011505,
+        20.3575287
+      ]
+    ],
+    "tests": [
+      {
+        "weld_decimals": null,
+        "boundary_edges": 52,
+        "nonmanifold_edges": 0,
+        "boundary_length_mm": 4.140494740678707,
+        "max_boundary_edge_mm": 0.6071713678077477,
+        "boundary_bbox": [
+          [
+            -30.2109528,
+            -30.1231365,
+            12.0424728
+          ],
+          [
+            30.1562729,
+            30.1241455,
+            15.8424721
+          ]
+        ]
+      },
+      {
+        "weld_decimals": 8,
+        "boundary_edges": 52,
+        "nonmanifold_edges": 0,
+        "boundary_length_mm": 4.140494740678708,
+        "max_boundary_edge_mm": 0.6071713678077477,
+        "boundary_bbox": [
+          [
+            -30.2109528,
+            -30.1231365,
+            12.0424728
+          ],
+          [
+            30.1562729,
+            30.1241455,
+            15.8424721
+          ]
+        ]
+      },
+      {
+        "weld_decimals": 6,
+        "boundary_edges": 48,
+        "nonmanifold_edges": 3,
+        "boundary_length_mm": 4.1404914100451595,
+        "max_boundary_edge_mm": 0.607170618087699,
+        "boundary_bbox": [
+          [
+            -30.210953,
+            -30.123136,
+            12.042473
+          ],
+          [
+            30.156273,
+            30.124146,
+            15.74247
+          ]
+        ]
+      },
+      {
+        "weld_decimals": 5,
+        "boundary_edges": 17,
+        "nonmanifold_edges": 397,
+        "boundary_length_mm": 2.4261338836267585,
+        "max_boundary_edge_mm": 0.6071726583106339,
+        "boundary_bbox": [
+          [
+            -27.82109,
+            -30.12314,
+            12.24247
+          ],
+          [
+            27.7664,
+            29.94727,
+            15.69247
+          ]
+        ]
+      },
+      {
+        "weld_decimals": 4,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 1726,
+        "boundary_length_mm": 0.0,
+        "max_boundary_edge_mm": 0
+      }
+    ],
+    "volume_mm3": 61690.87439367847
+  },
+  "131074": {
+    "vertices": 101199,
+    "faces": 202750,
+    "bounds": [
+      [
+        -100.013,
+        -100.011505,
+        -17.0564766
+      ],
+      [
+        100.013,
+        100.011505,
+        17.0564766
+      ]
+    ],
+    "tests": [
+      {
+        "weld_decimals": null,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "boundary_length_mm": 0.0,
+        "max_boundary_edge_mm": 0
+      },
+      {
+        "weld_decimals": 8,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "boundary_length_mm": 0.0,
+        "max_boundary_edge_mm": 0
+      },
+      {
+        "weld_decimals": 6,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 2,
+        "boundary_length_mm": 0.0,
+        "max_boundary_edge_mm": 0
+      },
+      {
+        "weld_decimals": 5,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 34,
+        "boundary_length_mm": 0.0,
+        "max_boundary_edge_mm": 0
+      },
+      {
+        "weld_decimals": 4,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 582,
+        "boundary_length_mm": 0.0,
+        "max_boundary_edge_mm": 0
+      }
+    ],
+    "volume_mm3": 54502.74385247814
+  }
+}

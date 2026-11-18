@@ -1,0 +1,14 @@
+{
+  "wide": {
+    "valid": true,
+    "solids": 1,
+    "volume": 79723.42374883266,
+    "faces": 24
+  },
+  "narrow": {
+    "valid": true,
+    "solids": 1,
+    "volume": 78608.30394036863,
+    "faces": 36
+  }
+}

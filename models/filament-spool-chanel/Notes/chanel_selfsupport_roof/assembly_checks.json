@@ -1,0 +1,37 @@
+[
+  {
+    "H": 72,
+    "theta": 51,
+    "intersection_mm3": 0
+  },
+  {
+    "H": 70,
+    "theta": 51,
+    "intersection_mm3": 0
+  },
+  {
+    "H": 68,
+    "theta": 51,
+    "intersection_mm3": 0
+  },
+  {
+    "H": 66.4,
+    "theta": 51,
+    "intersection_mm3": 0
+  },
+  {
+    "H": 66.4,
+    "theta": 8,
+    "intersection_mm3": 0
+  },
+  {
+    "H": 66.4,
+    "theta": 3,
+    "intersection_mm3": 4.204519231286314
+  },
+  {
+    "H": 66.4,
+    "theta": 0,
+    "intersection_mm3": 0.3685541238696538
+  }
+]

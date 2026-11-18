@@ -1,0 +1,90 @@
+{
+  "wide": {
+    "R38_5": [
+      {
+        "z": 22.5,
+        "boundary_difference_mm": 0.0
+      },
+      {
+        "z": 31.425,
+        "boundary_difference_mm": 0.0
+      },
+      {
+        "z": 35.425,
+        "boundary_difference_mm": 0.0
+      }
+    ],
+    "R38_5_skin04": [
+      {
+        "z": 22.5,
+        "boundary_difference_mm": 0.0
+      },
+      {
+        "z": 31.425,
+        "boundary_difference_mm": 0.0
+      },
+      {
+        "z": 35.425,
+        "boundary_difference_mm": 0.0
+      }
+    ],
+    "original_lower_skin04": [
+      {
+        "z": 22.5,
+        "boundary_difference_mm": 0.0
+      },
+      {
+        "z": 31.425,
+        "boundary_difference_mm": 0.0
+      },
+      {
+        "z": 35.425,
+        "boundary_difference_mm": 0.0
+      }
+    ]
+  },
+  "narrow": {
+    "R38_5": [
+      {
+        "z": 24.1,
+        "boundary_difference_mm": 0.0
+      },
+      {
+        "z": 31.675,
+        "boundary_difference_mm": 0.0
+      },
+      {
+        "z": 34.085,
+        "boundary_difference_mm": 0.0
+      }
+    ],
+    "R38_5_skin04": [
+      {
+        "z": 24.1,
+        "boundary_difference_mm": 0.0
+      },
+      {
+        "z": 31.675,
+        "boundary_difference_mm": 0.0
+      },
+      {
+        "z": 34.085,
+        "boundary_difference_mm": 0.0
+      }
+    ],
+    "original_lower_skin04": [
+      {
+        "z": 24.1,
+        "boundary_difference_mm": 0.0
+      },
+      {
+        "z": 31.675,
+        "boundary_difference_mm": 0.0
+      },
+      {
+        "z": 34.085,
+        "boundary_difference_mm": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "default_regression": {
+    "wide": {
+      "volume_difference_mm3": -2.9787770472466946e-08,
+      "v4_faces": 9046,
+      "v5_faces": 9046,
+      "faces_equal": true,
+      "valid": true
+    },
+    "narrow": {
+      "volume_difference_mm3": -4.089815774932504e-08,
+      "v4_faces": 7712,
+      "v5_faces": 7712,
+      "faces_equal": true,
+      "valid": true
+    }
+  },
+  "parameter_input": "Source/parametric_v5/parameters.json",
+  "native_brep_not_mesh": true,
+  "feature_tree_in_STEP": false,
+  "physical_strength_validated": false,
+  "physical_fit_validated": false,
+  "all_parameter_combinations_validated": false,
+  "tested_full_builds": [
+    "default_validation.json",
+    "lock_dimension_test_validation.json",
+    "thick_print_test_validation.json"
+  ],
+  "source_sha256": {
+    "README.md": "d5688c7007c29c8f209f379561b8736b066c68a65c9ba81175704acf60c7ea33",
+    "body.py": "5c4a9111b227bd89d1888a5e4642d35b802b07efa80be5e942970a083a1b9885",
+    "config.py": "902ba74293b15e10b19dea808623583a91af0892b0362c7c4bab74ce44c34db4",
+    "lock.py": "6740d3eeae2051c014ba82fcf2fd3e5029e7f18dca0576efa7e4f0fd0f23b770",
+    "motif.py": "b88623bcf25f533df2641c6bd1d48bd730943784780426855c01131d867efc88",
+    "native_lock_sections.json": "c56aad26c9c4a2e0143c510cf8fc79314c933020c2824de5777e33c10d8431bd",
+    "native_loft.py": "ae1b6ec71729a6369b48ce5bcf7bc7be7600700f56385ae05f237f854f80f18f",
+    "parameters.json": "22a54eb4e64d7fb3fd379f9a888aaeeaa04524dd564fef950f0575e021bb9bac",
+    "rebuild.py": "e5dc9c50442b68563f907cbd377320cea22ad974c902c91e66e95da4f94e40e8",
+    "requirements.txt": "9020ae2e7dad47c1d5bf033d1bd6813c506486093d1e487903118f2293100240",
+    "run_component_tests.py": "68a468669a239123f84a2e88e76e5e3416f54074425a08490e3b153d911a228a"
+  },
+  "independent_component_tests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "thick_variant_interface_samples": {
+    "count": 9,
+    "max_hausdorff_mm": 6.383756875263127e-08,
+    "reference": "v4 CAD geometry",
+    "not_a_global_error_bound": true
+  }
+}

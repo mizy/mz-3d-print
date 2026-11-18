@@ -1,0 +1,333 @@
+{
+  "path": [
+    {
+      "H": 72.0,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 71.8,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 71.6,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 71.39999999999999,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 71.19999999999999,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 70.99999999999999,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 70.79999999999998,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 70.59999999999998,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 70.39999999999998,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 70.19999999999997,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 69.99999999999997,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 69.79999999999997,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 69.59999999999997,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 69.39999999999996,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 69.19999999999996,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 68.99999999999996,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 68.79999999999995,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 68.59999999999995,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 68.39999999999995,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 68.19999999999995,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 67.99999999999994,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 67.79999999999994,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 67.59999999999994,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 67.39999999999993,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 67.19999999999993,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.99999999999993,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.79999999999993,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.59999999999992,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.39999999999992,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 51.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 49.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 47.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 45.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 43.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 41.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 39.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 37.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 35.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 33.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 31.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 29.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 27.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 25.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 23.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 21.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 19.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 17.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 15.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 13.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 11.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 9.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.4,
+      "angle": 8.0,
+      "valid": true,
+      "volume": 0
+    },
+    {
+      "H": 66.5,
+      "angle": 8.0,
+      "valid": true,
+      "volume": 1.133007830615166
+    },
+    {
+      "H": 66.4,
+      "angle": 0.0,
+      "valid": true,
+      "volume": 0.36855412386965153
+    }
+  ],
+  "limitations": [
+    "Discrete static poses only.",
+    "8deg is a no-interference pre-detent retained region, not proven final locked position.",
+    "0deg and passing detent involve official-source rigid overlap; no elastic simulation or physical fit validation."
+  ]
+}

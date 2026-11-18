@@ -1,0 +1,14 @@
+{
+  "kept_step": "/Users/miaozhuang/Projects/mz-3d-print/models/filament-spool-chanel/Models/CHANEL_105g_KEEP_CORE.step",
+  "sha256": "a965725d928f43cfb7ce60ee6a4800d69270af3ae537c2f85512f007d3115b68",
+  "bytes": 32773454,
+  "trash_directory": "/Users/miaozhuang/.Trash/CHANEL_previous_versions_20261118_141036",
+  "moved_file_count": 35,
+  "remaining_step_files": [
+    "Models/CHANEL_105g_KEEP_CORE.step"
+  ],
+  "source_and_slicing_preserved": true,
+  "downloaded_dryer_untouched": true,
+  "permanent_deletion": false,
+  "historical_nonconcept_notes_retained": true
+}

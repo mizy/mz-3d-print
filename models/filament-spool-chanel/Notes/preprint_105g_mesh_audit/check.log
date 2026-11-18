@@ -1,0 +1,5 @@
+STEP True 2
+BREP 0 {'valid': True, 'shells': 1, 'bbox': [200.026, 200.026, 40.715057373], 'center': [-110.013, 0.0, 20.3575286865], 'volume': 61691.22035680057, 'faces': 9046}
+MESH 0 {'valid': True, 'shells': 1, 'bbox': [200.026, 200.026, 40.715057373], 'center': [-110.013, 0.0, 20.3575286865], 'volume': 61691.22035680057, 'faces': 9046, 'mesh_faces': 1429439, 'watertight': False, 'boundary_edges': 93, 'nonmanifold_edges': 0, 'winding': True}
+BREP 1 {'valid': True, 'shells': 1, 'bbox': [200.026, 200.026, 34.1129524682], 'center': [110.013, 0.0, 17.0564762341], 'volume': 54502.7632098839, 'faces': 7712}
+MESH 1 {'valid': True, 'shells': 1, 'bbox': [200.026, 200.026, 34.1129524682], 'center': [110.013, 0.0, 17.0564762341], 'volume': 54502.7632098839, 'faces': 7712, 'mesh_faces': 497718, 'watertight': True, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'winding': True}

@@ -1,0 +1,162 @@
+{
+  "wide": {
+    "valid": true,
+    "solids": 1,
+    "faces": 9046,
+    "volume_mm3": 64612.77218686177,
+    "bounds_mm": [
+      -100.013,
+      100.013,
+      -100.013,
+      100.013,
+      0.0,
+      40.715057373
+    ]
+  },
+  "narrow": {
+    "valid": true,
+    "solids": 1,
+    "faces": 7712,
+    "volume_mm3": 57429.27227964322,
+    "bounds_mm": [
+      -100.013,
+      100.013,
+      -100.013,
+      100.013,
+      0.0,
+      34.1129524682
+    ]
+  },
+  "file": "/Users/miaozhuang/Projects/mz-3d-print/models/filament-spool-chanel/Models/CHANEL_SOURCE21_parametric_v4.step",
+  "bytes": 32781734,
+  "sha256": "c5ae369accc9a0c235a5ecca54c89df8762f7300a6c5a06f5b83315706c06c67",
+  "reimport_valid": true,
+  "reimport_solid_count": 2,
+  "reimport_volume_max_difference_mm3": 0.00043201989319641143,
+  "reimport_seconds": 22.64574694633484,
+  "has_faceted_brep": false,
+  "has_tessellated_entities": false,
+  "placements_mm": {
+    "wide": [
+      -110,
+      0,
+      0
+    ],
+    "narrow": [
+      110,
+      0,
+      0
+    ]
+  },
+  "physical_fit_and_load_validated": false,
+  "reimport_and_postcheck_seconds": 36.592185974121094,
+  "source_geometry_note": "Analytic load-bearing body plus native arc/line-section lofted lock surfaces; no faceted STEP representation.",
+  "interface_check": {
+    "wide": {
+      "max_sampled_boundary_error_mm": 0.026608651501384046,
+      "checks": [
+        {
+          "z": 22.1,
+          "boundary_hausdorff_mm": 0.01047859105701029
+        },
+        {
+          "z": 22.5,
+          "boundary_hausdorff_mm": 0.004782492538862919
+        },
+        {
+          "z": 24.0,
+          "boundary_hausdorff_mm": 0.004770649465739971
+        },
+        {
+          "z": 30.1,
+          "boundary_hausdorff_mm": 0.004743572223281005
+        },
+        {
+          "z": 31.425,
+          "boundary_hausdorff_mm": 0.026608651501384046
+        },
+        {
+          "z": 32.225,
+          "boundary_hausdorff_mm": 0.00479100178906023
+        },
+        {
+          "z": 33.825,
+          "boundary_hausdorff_mm": 0.004873789341895401
+        },
+        {
+          "z": 34.225,
+          "boundary_hausdorff_mm": 0.00548678980968458
+        },
+        {
+          "z": 35.425,
+          "boundary_hausdorff_mm": 0.019056469684404765
+        },
+        {
+          "z": 36.825,
+          "boundary_hausdorff_mm": 0.020288664074500237
+        },
+        {
+          "z": 37.225,
+          "boundary_hausdorff_mm": 0.0177096242324144
+        }
+      ]
+    },
+    "narrow": {
+      "max_sampled_boundary_error_mm": 0.028940812222561438,
+      "checks": [
+        {
+          "z": 24.1,
+          "boundary_hausdorff_mm": 0.006295479887150445
+        },
+        {
+          "z": 28.0,
+          "boundary_hausdorff_mm": 0.006186409095335246
+        },
+        {
+          "z": 31.225,
+          "boundary_hausdorff_mm": 0.005852873404431809
+        },
+        {
+          "z": 31.675,
+          "boundary_hausdorff_mm": 0.028940812222561438
+        },
+        {
+          "z": 32.175,
+          "boundary_hausdorff_mm": 0.020801977267333217
+        },
+        {
+          "z": 32.65,
+          "boundary_hausdorff_mm": 0.026386262663311875
+        },
+        {
+          "z": 33.375,
+          "boundary_hausdorff_mm": 0.018890383938282906
+        },
+        {
+          "z": 34.085,
+          "boundary_hausdorff_mm": 0.01903724865460322
+        }
+      ]
+    }
+  },
+  "solid_mass_g_density_1_37": 167.19760091911184,
+  "source_regeneration": {
+    "completed": true,
+    "method": "rebuild.py from native line/arc JSON and dimension parameters; no triangle mesh input",
+    "output": "Source/parametric_rebuild/build_output/CHANEL_SOURCE21_parametric_v4.step",
+    "bytes": 32782678,
+    "reimport_valid": true,
+    "solid_count": 2,
+    "wide_volume_mm3": 64612.772186874354,
+    "narrow_volume_mm3": 57429.272279640994
+  },
+  "source_files_sha256": {
+    "build.py": "3dfeb894036384748cec001840f278adaad5179a4cb566bd0cd505a6dcb6af96",
+    "structural_body.py": "29e5f7839a707e74a219569b99d15046bb73eaff6e6d071810e8824aa1566fde",
+    "build_lock_pipes.py": "a0bced455e90729cb6d24ce953eca1d305ca61d38be69d91138ef5b7a8e3a6a1",
+    "native_loft.py": "ae1b6ec71729a6369b48ce5bcf7bc7be7600700f56385ae05f237f854f80f18f",
+    "native_lock_sections.json": "c56aad26c9c4a2e0143c510cf8fc79314c933020c2824de5777e33c10d8431bd",
+    "rebuild.py": "d0fb81e5b465dc6acc09333850c9b6f18015666cf8d92642f375e5e46a10c2b1"
+  },
+  "interface_reconstruction_note": "Sampled tolerance, not exact coordinate preservation: lower wide bore R31.39 mm versus approximately R31.4 source; measured local error 0.01048 mm. Physical fitting required."
+}

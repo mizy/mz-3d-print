@@ -1,0 +1,40 @@
+{
+  "status": "INCOMPLETE_NOT_A_TWO_HALF_DELIVERY",
+  "native_narrow_review": {
+    "file": "Review/CHANEL_narrow_NATIVE_REVIEW_ONLY.step",
+    "bytes": 15147982,
+    "sha256": "0b35cbaab3b72f69d93e44fb78df8e4972bc30a9d5a904a7a74765439203b6a7",
+    "cad_reimport_valid": true,
+    "solid_count": 1,
+    "faces": 7712,
+    "volume_mm3": 57429.272711665995,
+    "cad_reimport_seconds": 9.3068978786
+  },
+  "wide": {
+    "stage": "All 103 loft segments passed individual CAD and midpoint section checks; whole sewn body invalid",
+    "blocking_status": "BRepCheck_UnorientableShape",
+    "invalid_face_count_tool_readback": 9,
+    "invalid_face_z_range": [
+      30,
+      30.2
+    ]
+  },
+  "sampled_interface_tolerance_mm": 0.03,
+  "limitations": [
+    "No complete two-solid STEP delivered",
+    "No physical fit/load/AMS verification",
+    "Per-section midpoint checks do not prove global geometric error bound",
+    "Reference model CC0 STEP was not substituted because its locks differ"
+  ],
+  "original_models_untouched": true,
+  "wide_segments": {
+    "count": 103,
+    "max_independent_midpoint_section_error_mm": 0.029147294917573816,
+    "sampling_offsets": []
+  },
+  "narrow_segments": {
+    "count": 45,
+    "max_independent_midpoint_section_error_mm": 0.029943457097948097,
+    "sampling_offsets": []
+  }
+}

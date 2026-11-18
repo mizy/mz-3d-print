@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "wide": {
+      "volume_delta_mm3": 1.1204974725842476e-09,
+      "faces": 170,
+      "valid": true
+    },
+    "narrow": {
+      "volume_delta_mm3": 0.0,
+      "faces": 107,
+      "valid": true
+    }
+  },
+  "light": {
+    "wide": {
+      "volume_delta_mm3": 0.0,
+      "faces": 1725,
+      "valid": true
+    },
+    "narrow": {
+      "volume_delta_mm3": 0.0,
+      "faces": 1653,
+      "valid": true
+    }
+  }
+}

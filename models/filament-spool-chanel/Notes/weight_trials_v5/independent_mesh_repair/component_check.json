@@ -1,0 +1,11 @@
+{
+  "before_vertices": 130361,
+  "after_vertices": 130335,
+  "removed_unused_vertices": 26,
+  "body_count": 1,
+  "watertight": true,
+  "winding": true,
+  "face_components": [
+    261038
+  ]
+}

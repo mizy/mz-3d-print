@@ -1,0 +1,22 @@
+{
+  "measure.py": {
+    "bytes": 2655,
+    "sha256": "c41c0caaabf3aff34afa8233d5870b833103b37dc897e154166e1994c44eb40b"
+  },
+  "measurements.json": {
+    "bytes": 23337,
+    "sha256": "216d8181f51434e1f0da5936a9c5511b65ee132f11dec53f733ec53b82792e50"
+  },
+  "original_radial_bands.json": {
+    "bytes": 19647,
+    "sha256": "c6952dc6b7fc0a5bdce28ebf3cf808b892aa14a52a6ea8ca650af6c8b090523b"
+  },
+  "README.md": {
+    "bytes": 2906,
+    "sha256": "da4531b43695706ffcbd108c47f8ee59ad156dc55b9cf5133c2adfb39338be1e"
+  },
+  "original_radial_bands.py": {
+    "bytes": 1100,
+    "sha256": "4a6028cc57586d4e70ac508010dc863e56a6fb8c453f94eb8e5593c53cb7f4b9"
+  }
+}

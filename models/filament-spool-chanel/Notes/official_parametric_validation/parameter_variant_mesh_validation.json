@@ -1,0 +1,20 @@
+[
+  {
+    "part": "wide",
+    "valid": true,
+    "faces": 169,
+    "width": 201.01636648193437,
+    "boundary_edges": 0,
+    "nonmanifold": 0,
+    "watertight": true
+  },
+  {
+    "part": "narrow",
+    "valid": true,
+    "faces": 107,
+    "width": 201.01636648193437,
+    "boundary_edges": 0,
+    "nonmanifold": 0,
+    "watertight": true
+  }
+]

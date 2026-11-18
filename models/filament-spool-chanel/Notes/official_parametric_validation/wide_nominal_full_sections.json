@@ -1,0 +1,261 @@
+{
+  "solid_valid": true,
+  "faces": 170,
+  "rows": [
+    {
+      "z": 0.2,
+      "symmetric_difference_mm2": 1.3499432291536475,
+      "hausdorff_mm": 0.004997682885326112,
+      "reference_area": 28770.302852804587,
+      "CAD_area": 28770.578169189088
+    },
+    {
+      "z": 1.0,
+      "symmetric_difference_mm2": 1.63938189850727,
+      "hausdorff_mm": 0.004942316700144747,
+      "reference_area": 28999.844925979087,
+      "CAD_area": 29000.858373176754
+    },
+    {
+      "z": 2.6,
+      "symmetric_difference_mm2": 2.7779169453507992,
+      "hausdorff_mm": 0.004942341648006573,
+      "reference_area": 8635.87713725896,
+      "CAD_area": 8637.474836715548
+    },
+    {
+      "z": 2.8,
+      "symmetric_difference_mm2": 3.992862030035655,
+      "hausdorff_mm": 0.004942316499694601,
+      "reference_area": 7200.228348364855,
+      "CAD_area": 7201.5006491472695
+    },
+    {
+      "z": 3.2,
+      "symmetric_difference_mm2": 4.1630263789042115,
+      "hausdorff_mm": 0.004942303118487624,
+      "reference_area": 6235.650094968868,
+      "CAD_area": 6236.398673518865
+    },
+    {
+      "z": 5,
+      "symmetric_difference_mm2": 2.0072022348760727,
+      "hausdorff_mm": 0.004912875382234192,
+      "reference_area": 1378.598218253765,
+      "CAD_area": 1379.1818705784854
+    },
+    {
+      "z": 7.75,
+      "symmetric_difference_mm2": 2.4543958269795842,
+      "hausdorff_mm": 0.0055608152983147386,
+      "reference_area": 896.2564237253232,
+      "CAD_area": 896.1591747627006
+    },
+    {
+      "z": 8,
+      "symmetric_difference_mm2": 2.467505986441606,
+      "hausdorff_mm": 0.0058240555422902985,
+      "reference_area": 881.0496432529626,
+      "CAD_area": 880.8671726507342
+    },
+    {
+      "z": 10,
+      "symmetric_difference_mm2": 2.1818910085390346,
+      "hausdorff_mm": 0.004903046303746022,
+      "reference_area": 877.5869131961085,
+      "CAD_area": 877.6231280022839
+    },
+    {
+      "z": 16,
+      "symmetric_difference_mm2": 1.917433349905983,
+      "hausdorff_mm": 0.004904129103112709,
+      "reference_area": 877.4553951523385,
+      "CAD_area": 877.6160262091238
+    },
+    {
+      "z": 17.75,
+      "symmetric_difference_mm2": 1.8747141528644136,
+      "hausdorff_mm": 0.02892091941378679,
+      "reference_area": 876.4293679611937,
+      "CAD_area": 876.6298358268511
+    },
+    {
+      "z": 18.3,
+      "symmetric_difference_mm2": 1.9021482899802538,
+      "hausdorff_mm": 0.02055554788349935,
+      "reference_area": 871.7424105775049,
+      "CAD_area": 871.9480061908382
+    },
+    {
+      "z": 19.5,
+      "symmetric_difference_mm2": 1.8531365184675326,
+      "hausdorff_mm": 0.011298043578387155,
+      "reference_area": 873.7492991267973,
+      "CAD_area": 873.9687169025262
+    },
+    {
+      "z": 20.5,
+      "symmetric_difference_mm2": 1.8309629322667555,
+      "hausdorff_mm": 0.004904957283151694,
+      "reference_area": 875.4236940482151,
+      "CAD_area": 875.6520736837288
+    },
+    {
+      "z": 21.5,
+      "symmetric_difference_mm2": 1.8195755484685279,
+      "hausdorff_mm": 0.00490515422108901,
+      "reference_area": 877.0889724779713,
+      "CAD_area": 877.3278590699178
+    },
+    {
+      "z": 21.9,
+      "symmetric_difference_mm2": 1.8144637075403593,
+      "hausdorff_mm": 0.004905363838746879,
+      "reference_area": 877.3679998907573,
+      "CAD_area": 877.6148509276884
+    },
+    {
+      "z": 22.5,
+      "symmetric_difference_mm2": 1.806723520484556,
+      "hausdorff_mm": 0.004906678089974793,
+      "reference_area": 877.3551841597023,
+      "CAD_area": 877.6141928655984
+    },
+    {
+      "z": 24.5,
+      "symmetric_difference_mm2": 1.7897947313843117,
+      "hausdorff_mm": 0.004940540484732156,
+      "reference_area": 877.3119970708563,
+      "CAD_area": 877.6123797010973
+    },
+    {
+      "z": 25.8,
+      "symmetric_difference_mm2": 1.79118528272121,
+      "hausdorff_mm": 0.004940482175507354,
+      "reference_area": 849.9215367603206,
+      "CAD_area": 850.2500287507919
+    },
+    {
+      "z": 27.5,
+      "symmetric_difference_mm2": 1.7964685287828541,
+      "hausdorff_mm": 0.004940471831304764,
+      "reference_area": 849.8819465682827,
+      "CAD_area": 850.2493216511452
+    },
+    {
+      "z": 29,
+      "symmetric_difference_mm2": 1.8089797932427967,
+      "hausdorff_mm": 0.004940537291596757,
+      "reference_area": 849.8462806340303,
+      "CAD_area": 850.2489836860159
+    },
+    {
+      "z": 31,
+      "symmetric_difference_mm2": 1.8349585506946968,
+      "hausdorff_mm": 0.004940456024496306,
+      "reference_area": 852.1236017428505,
+      "CAD_area": 852.5780254373599
+    },
+    {
+      "z": 31.5,
+      "symmetric_difference_mm2": 1.8404236727752776,
+      "hausdorff_mm": 0.004940538024560328,
+      "reference_area": 855.5972644069047,
+      "CAD_area": 856.0694760505221
+    },
+    {
+      "z": 32,
+      "symmetric_difference_mm2": 1.8481026702265364,
+      "hausdorff_mm": 0.004940471168157709,
+      "reference_area": 858.9626891825187,
+      "CAD_area": 859.4492050343288
+    },
+    {
+      "z": 32.5,
+      "symmetric_difference_mm2": 1.8636575490673697,
+      "hausdorff_mm": 0.004940505238534245,
+      "reference_area": 859.8709724810365,
+      "CAD_area": 860.3665087465897
+    },
+    {
+      "z": 33,
+      "symmetric_difference_mm2": 1.8931797897843703,
+      "hausdorff_mm": 0.0049405044492602124,
+      "reference_area": 859.8765095851218,
+      "CAD_area": 860.366598221166
+    },
+    {
+      "z": 33.5,
+      "symmetric_difference_mm2": 1.925961824462139,
+      "hausdorff_mm": 0.00494048846522132,
+      "reference_area": 859.8835165874075,
+      "CAD_area": 860.366712825482
+    },
+    {
+      "z": 34,
+      "symmetric_difference_mm2": 1.961312202178092,
+      "hausdorff_mm": 0.004940472819705895,
+      "reference_area": 859.8919934549626,
+      "CAD_area": 860.3668536180608
+    },
+    {
+      "z": 34.5,
+      "symmetric_difference_mm2": 1.8824822954529985,
+      "hausdorff_mm": 0.004940694126672251,
+      "reference_area": 893.8445636318452,
+      "CAD_area": 894.4572079789282
+    },
+    {
+      "z": 35,
+      "symmetric_difference_mm2": 1.9289054988315169,
+      "hausdorff_mm": 0.004943188689925828,
+      "reference_area": 964.5750504793036,
+      "CAD_area": 965.1521589942763
+    },
+    {
+      "z": 35.5,
+      "symmetric_difference_mm2": 1.9463565615275875,
+      "hausdorff_mm": 0.004945511282839485,
+      "reference_area": 988.593240104788,
+      "CAD_area": 989.1679753860521
+    },
+    {
+      "z": 36,
+      "symmetric_difference_mm2": 1.9443417118665172,
+      "hausdorff_mm": 0.004951113534469268,
+      "reference_area": 992.9063813964763,
+      "CAD_area": 993.5166844058085
+    },
+    {
+      "z": 36.5,
+      "symmetric_difference_mm2": 1.9519463418413414,
+      "hausdorff_mm": 0.004971668208180192,
+      "reference_area": 992.9372976337863,
+      "CAD_area": 993.5728816534397
+    },
+    {
+      "z": 37.1,
+      "symmetric_difference_mm2": 1.5772623544589472,
+      "hausdorff_mm": 0.0049405417774884336,
+      "reference_area": 878.454516725184,
+      "CAD_area": 878.6938403573854
+    },
+    {
+      "z": 38,
+      "symmetric_difference_mm2": 0.94203405371291,
+      "hausdorff_mm": 0.004940488028524845,
+      "reference_area": 463.5970154927736,
+      "CAD_area": 464.0672889958105
+    },
+    {
+      "z": 40.5,
+      "symmetric_difference_mm2": 0.3798620235252009,
+      "hausdorff_mm": 0.004813853103807347,
+      "reference_area": 235.6563181970423,
+      "CAD_area": 235.55326786187925
+    }
+  ],
+  "mesh_watertight": true,
+  "source_STL_volume": 112458.42713257241,
+  "CAD_volume": 112474.4699772541
+}

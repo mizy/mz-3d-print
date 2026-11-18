@@ -1,0 +1,12 @@
+{
+  "wide": {
+    "volume_difference_mm3": 1.928128767758608e-09,
+    "faces": 1893,
+    "valid": true
+  },
+  "narrow": {
+    "volume_difference_mm3": 0.0,
+    "faces": 1801,
+    "valid": true
+  }
+}

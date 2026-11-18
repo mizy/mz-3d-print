@@ -1,20 +1,34 @@
 {
   "id": "filament-spool-chanel",
-  "title": "双 C 料盘 · 外滚环/主筋/筒壁加厚试验版",
+  "title": "香奈儿 A · 模型内薄斜膜自支撑候选",
   "category": "打印配件 / 料盘",
   "status": "design",
   "cls": "derived",
-  "summary": "外滚环、8条主筋和筒壁加厚，无新增内部承力环。全实体估重168.06 g，非稀疏填充切片重量；STEP坐标核对通过但CAD内核回读未完成，兼容性未知，未验证1 kg/AMS运行。",
-  "cover": "Design/actual_preview.png",
+  "summary": "当前打印工程与最新自支撑 STEP、参数源码保留；旧交付已移入可恢复废纸篓。重量以当前工艺切片为准，实物强度未认证。",
+  "cover": "Design/selfsupport_roof_preview.png",
   "downloads": [
-    "Models/CHANEL_SOURCE21_wide.step",
-    "Models/CHANEL_SOURCE21_narrow.step"
+    "Models/ChanelLight/PARKING_A_WINDOW_TRIAL.3mf",
+    "Models/ChanelLight/CHANEL_PARKING_A_SELF_SUPPORT_ROOF_TRIAL.step",
+    "Source/CHANEL_SELF_SUPPORT_ROOF_PARAMETRIC_SOURCE.zip",
+    "Models/ChanelLight/CHANEL_PARKING_A_WINDOW_LIGHT_TRIAL.step",
+    "Source/CHANEL_PARKING_A_WINDOW_PARAMETRIC_SOURCE.zip",
+    "Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE.step"
   ],
   "downloadGroups": [
     {
-      "prefix": "Models/",
-      "label": "两片 STEP · 几何审查与自行切片",
-      "note": "STEP内核回读未完成，兼容性未知；不是已验证直接可打印件。168.06 g是全实体估重，100 g目标需重新切片核算。"
+      "prefix": "Models/OfficialBaseline/",
+      "label": "官方附件逆向基准",
+      "note": "单 STEP 双实体，原生参数化源码配套。"
+    },
+    {
+      "prefix": "Models/ChanelLight/",
+      "label": "轻量双 C 派生",
+      "note": "当前打印3MF、最新自支撑STEP；旧开窗基准仅供研究复现。"
+    },
+    {
+      "prefix": "Source/",
+      "label": "参数化源码",
+      "note": "独立再生验证通过，STEP 本身不含特征树。"
     }
   ],
   "gallery": []

@@ -1,0 +1,18 @@
+{
+  "path": "/Users/miaozhuang/Projects/mz-3d-print/models/filament-spool-chanel/Models/CHANEL_105g_KEEP_CORE.step",
+  "sha256": "a965725d928f43cfb7ce60ee6a4800d69270af3ae537c2f85512f007d3115b68",
+  "valid": true,
+  "solids": 2,
+  "parts": [
+    {
+      "valid": true,
+      "faces": 9046,
+      "volume": 61691.22035680057
+    },
+    {
+      "valid": true,
+      "faces": 7712,
+      "volume": 54502.7632098839
+    }
+  ]
+}

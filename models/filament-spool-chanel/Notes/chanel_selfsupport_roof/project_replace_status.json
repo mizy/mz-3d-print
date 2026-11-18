@@ -1,0 +1,46 @@
+{
+  "original_sha256": "8888081a005ffaff36170e41d549e2163d2100998025bbdabd4161ce85e960a7",
+  "final_sha256": "4493e7e0148b8823a93cf6496389fac815bc6e2ffe7ed4d0b1acd653c66cccd5",
+  "final_bytes": 7834154,
+  "configuration": "byte identical to latest saved user configuration",
+  "build_layout": "byte identical",
+  "sliced_plates": [
+    {
+      "id": 1,
+      "filaments": [
+        {
+          "filament_id": "GFG99",
+          "id": 1,
+          "main_used_g": 55.31379699707031,
+          "total_used_g": 55.31379699707031
+        }
+      ],
+      "warning_message": "",
+      "total_predication": 11178.12109375
+    },
+    {
+      "id": 2,
+      "filaments": [
+        {
+          "filament_id": "GFG99",
+          "id": 1,
+          "main_used_g": 53.23234176635742,
+          "total_used_g": 53.23234176635742
+        }
+      ],
+      "warning_message": "",
+      "total_predication": 10969.1728515625
+    }
+  ],
+  "status": "replaced_and_reopened_verified",
+  "verified_utc": "2026-11-18T10:52:08.024162+00:00",
+  "ui": "Bambu Studio reopened PARKING_A_WINDOW_TRIAL; two plates each one half; no dirty marker; no import warning; no print started",
+  "slicing": "Latest saved configuration sliced in CLI before atomic installation; installed geometry and configuration identical to sliced candidate",
+  "original_project_backup_created": false,
+  "total_estimated_g": 108.54613876342773,
+  "support_path_count": [
+    0,
+    0
+  ],
+  "no_cached_gcode_saved": true
+}

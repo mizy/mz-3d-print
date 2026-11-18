@@ -1,0 +1,73 @@
+{
+  "status": "partial_simplification_review_candidate_not_default",
+  "complete_semantic_lock_rebuild": false,
+  "default_model_unchanged": "Models/CHANEL_SOURCE21_parametric_v5.step",
+  "candidate": "Models/Review/CHANEL_SOURCE21_v6_FIT_CHANGED_CANDIDATE.step",
+  "faces_before": 16758,
+  "faces_after": 10258,
+  "face_reduction_percent": 38.7874448024824,
+  "bytes_before": 32773442,
+  "bytes_after": 24484016,
+  "file_reduction_percent": 25.293119959752776,
+  "default_and_lock_dimension_variant_reimport_valid_two_solids": true,
+  "reference_sections": {
+    "narrow": {
+      "count": 71,
+      "max_hausdorff_mm": 0.029942954766513926,
+      "max_sample": {
+        "z": 31.47500000000001,
+        "error_mm": 0.029942954766513926
+      }
+    },
+    "wide": {
+      "count": 139,
+      "max_hausdorff_mm": 0.027498811446479456,
+      "max_sample": {
+        "z": 31.27500000000001,
+        "error_mm": 0.027498811446479456
+      }
+    }
+  },
+  "nominal_radial_fit_change_mm": {
+    "wide_hole_shrink": 0.008,
+    "narrow_base_radius_increase": 0.005,
+    "possible_relative_clearance_reduction": 0.013,
+    "note": "Scaled by k=lock_reference_bore_radius/31.4. Different contact zones may not apply simultaneously; not a measured assembly clearance result."
+  },
+  "full_part_material_volume_increase_mm3": {
+    "wide": 21.809378040801676,
+    "narrow": 9.101071284967475
+  },
+  "not_validated": [
+    "Global maximum surface error",
+    "Assembled clearances / insertion and twist trajectory",
+    "Physical fit with another printed half",
+    "Print strength or load test",
+    "All parameter combinations"
+  ],
+  "source_sha256": {
+    "README.md": "2937f49d09c695f6880c6f9817f5b6b11e9f6050d0f09750c6e5daf4755db2fb",
+    "body.py": "5c4a9111b227bd89d1888a5e4642d35b802b07efa80be5e942970a083a1b9885",
+    "config.py": "902ba74293b15e10b19dea808623583a91af0892b0362c7c4bab74ce44c34db4",
+    "lock.py": "caa5b67065fb22b4ed69a067010d17fe1c33361f0981142866fe481b2f168b8e",
+    "motif.py": "b88623bcf25f533df2641c6bd1d48bd730943784780426855c01131d867efc88",
+    "native_lock_sections.json": "c56aad26c9c4a2e0143c510cf8fc79314c933020c2824de5777e33c10d8431bd",
+    "native_loft.py": "ae1b6ec71729a6369b48ce5bcf7bc7be7600700f56385ae05f237f854f80f18f",
+    "parameters.json": "22a54eb4e64d7fb3fd379f9a888aaeeaa04524dd564fef950f0575e021bb9bac",
+    "rebuild.py": "98ce32b533bd865c9d5955d140265c8b3aec3872e3811f463c2f927fdcbeda76",
+    "requirements.txt": "9020ae2e7dad47c1d5bf033d1bd6813c506486093d1e487903118f2293100240",
+    "run_component_tests.py": "68a468669a239123f84a2e88e76e5e3416f54074425a08490e3b153d911a228a"
+  },
+  "retained_model_sha256": {
+    "CHANEL_SOURCE21_parametric_v4.step": "c5ae369accc9a0c235a5ecca54c89df8762f7300a6c5a06f5b83315706c06c67",
+    "CHANEL_SOURCE21_parametric_v5.step": "ef91813b956bb33b812fe2095ad6e65939727e143a84b2037efd68725e41ec3a"
+  },
+  "independent_final_STEP_readback": {
+    "valid": true,
+    "solids": 2,
+    "sha256": "4f8c7d6e734403c08c46582f778d88ea3db651e86a382185a62019d52054ff99",
+    "selected_section_count": 10,
+    "max_sampled_error_mm": 0.02994361575371693,
+    "report": "independent_research/final_export_independent_readback.json"
+  }
+}

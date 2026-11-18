@@ -1,0 +1,47 @@
+{
+  "RESEARCH_STATUS.txt": {
+    "sha256": "ecdc52d0dcebd8590ed2d70fea2a16c0494c6faff5f618bca1b073929502a6b2",
+    "bytes": 2127,
+    "source": "/tmp/chanel_parameter_audit/compact_lock/RESEARCH_STATUS.txt"
+  },
+  "v6_parameter_audit.json": {
+    "sha256": "ef362e80f04c4754087c6ff1b318434c21ed612bbc00e8f26e1fa67f5a6f6194",
+    "bytes": 2243,
+    "source": "/tmp/chanel_parameter_audit/compact_lock/v6_parameter_audit.json"
+  },
+  "plateau_scan.json": {
+    "sha256": "695a71de358856db00af5030fc79eff0b99b340350ca7c83c7b6a48a2d38a736",
+    "bytes": 15778,
+    "source": "/tmp/chanel_parameter_audit/compact_lock/plateau_scan.json"
+  },
+  "constant_band_validation.json": {
+    "sha256": "1dc126dd2b832f330fd6d4e756851db385739bde6d251954c78e7f600d878d29",
+    "bytes": 9353,
+    "source": "/tmp/chanel_parameter_audit/compact_lock/constant_band_validation.json"
+  },
+  "wide_reordered_report.json": {
+    "sha256": "72d5a6660ce79a66e0379741ee573243cbd2f3fce78d69b14316fbe3eaa96cce",
+    "bytes": 264,
+    "source": "/tmp/chanel_parameter_audit/compact_lock/wide_reordered_report.json"
+  },
+  "replace.log": {
+    "sha256": "adbb5856148ab4dbb562c6776fe23a8e2b53ea27be4b7bca8f1d9bac3c449afa",
+    "bytes": 1260,
+    "source": "/tmp/chanel_parameter_audit/compact_lock/replace.log"
+  },
+  "replace_pipe.log": {
+    "sha256": "092e5bb32732463f1405a28a197694050000972e5fddeae2fa69261b58d6f296",
+    "bytes": 600,
+    "source": "/tmp/chanel_parameter_audit/compact_lock/replace_pipe.log"
+  },
+  "check_replacement.log": {
+    "sha256": "f743ebf762a9f36552346ffae38cc06f8a6215372a739f43e43bf558aa35d3e6",
+    "bytes": 837,
+    "source": "/tmp/chanel_parameter_audit/compact_lock/check_replacement.log"
+  },
+  "reordered.log": {
+    "sha256": "4726b494d428fd23997809be0f7fc961bf191dc86fd30053aa6bf9caa984fe54",
+    "bytes": 279,
+    "source": "/tmp/chanel_parameter_audit/compact_lock/reordered.log"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "part": "wide",
+    "nominal_outer_radius_mm": 40.85,
+    "tested_z_min_mm": 8,
+    "outside_cylinder_volume_mm3": 0,
+    "minimum_new_web_z_mm": 25.763909657394873,
+    "note": "Below z8 the new roof adds no material; retained original key/boss verified separately. Upper interface unchanged."
+  },
+  {
+    "part": "narrow",
+    "nominal_outer_radius_mm": 40.65,
+    "tested_z_min_mm": 8,
+    "outside_cylinder_volume_mm3": 0,
+    "minimum_new_web_z_mm": 8.71194744257456,
+    "note": "Below z8 the new roof adds no material; retained original key/boss verified separately. Upper interface unchanged."
+  }
+]

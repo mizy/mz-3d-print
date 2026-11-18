@@ -1,0 +1,14 @@
+{
+  "Models/ChanelLight/CHANEL_PARKING_A_SELF_SUPPORT_ROOF_TRIAL.step": {
+    "bytes": 6313420,
+    "sha256": "be8fbf5507f595c9ff257d2532e44dcd33dabd9673f9b35177b9fa879b196f52"
+  },
+  "Source/CHANEL_SELF_SUPPORT_ROOF_PARAMETRIC_SOURCE.zip": {
+    "bytes": 33785,
+    "sha256": "c26dafb4703cde6b192002e03270f0370bc949118782e7a54d632b4e24d5bdc2"
+  },
+  "Design/selfsupport_roof_preview.png": {
+    "bytes": 289246,
+    "sha256": "2441481e963a3fe977e6eb5cf2ad2f6e8eaf103eb8c3487bf352d3ae62d50d22"
+  }
+}

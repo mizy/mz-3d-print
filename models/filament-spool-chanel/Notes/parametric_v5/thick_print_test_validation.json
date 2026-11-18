@@ -1,0 +1,88 @@
+{
+  "parameters": {
+    "rolling_outer_radius": 102.013,
+    "rim_radial_width": 6.5,
+    "rim_height": 5.0,
+    "skin_thickness": 0.9,
+    "rib_width": 5.0,
+    "rib_height_above_skin": 4.0,
+    "rib_count": 8,
+    "logo_scale": 0.9,
+    "logo_rings": [
+      {
+        "fraction": 0.18489065606361824,
+        "count": 16,
+        "relative_scale": 0.99
+      },
+      {
+        "fraction": 0.5228628230616302,
+        "count": 24,
+        "relative_scale": 0.99
+      },
+      {
+        "fraction": 0.8608349900596421,
+        "count": 32,
+        "relative_scale": 0.9
+      }
+    ],
+    "hub_outer_radius": 41.5,
+    "hub_lower_inner_radius": 36.0,
+    "sleeve_wall_extra": 0.4,
+    "shaft_bore_radius": 27.5,
+    "lock_reference_bore_radius": 31.4,
+    "lock_axial_scale": 1.0,
+    "wide_lock_wall_thickness": 1.9,
+    "bridge_width": 1.5
+  },
+  "derived": {
+    "od": 0.6499999999999986,
+    "k": 1.0,
+    "az": 1.0,
+    "rim_inner": 95.513,
+    "plate_outer": 94.513,
+    "plate_inner": 44.35,
+    "rib_start": 44.15,
+    "rib_end": 98.013
+  },
+  "parts": {
+    "wide": {
+      "valid": true,
+      "solid_count": 1,
+      "face_count": 8997,
+      "volume_mm3": 92253.07082269799,
+      "bbox_mm": [
+        204.026,
+        204.026,
+        40.715057373
+      ]
+    },
+    "narrow": {
+      "valid": true,
+      "solid_count": 1,
+      "face_count": 7664,
+      "volume_mm3": 83593.54097741384,
+      "bbox_mm": [
+        204.026,
+        204.026,
+        34.11295246820001
+      ]
+    }
+  },
+  "limitations": [
+    "CAD validity is not a strength/load certification.",
+    "Changed lock dimensions do not retain source-spool compatibility.",
+    "Print-fit and physical load tests remain required.",
+    "STEP contains geometry, not a feature-history parameter tree."
+  ],
+  "step": {
+    "valid": true,
+    "solid_count": 2,
+    "bytes": 32573454,
+    "sha256": "538076f9ec4eff7e3bf3c5c11c90efa1f7ca9f93b3a1206edc241e9908d5b70a",
+    "reimport_volumes_mm3": [
+      92253.0710833845,
+      83593.54143294277
+    ]
+  },
+  "elapsed_seconds": 72.68496608734131
+}

@@ -1,0 +1,11 @@
+{
+  "target_g": 60,
+  "actual_latest_user_profile_g": 93.40342712402344,
+  "geometry": "rev2_complete_hole_pads",
+  "source_reproduced": true,
+  "parameter_variant_readback_closed": true,
+  "functional_masks_passed": 31,
+  "mechanical_certified": false,
+  "simulation_status": "pending native Codex thread independent rev2 run",
+  "current_print_project_modified": false
+}

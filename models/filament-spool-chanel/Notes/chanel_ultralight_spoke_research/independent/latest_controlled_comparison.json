@@ -1,0 +1,20 @@
+{
+  "wide": {
+    "different_settings": {
+      "enable_support": [
+        "0",
+        "1"
+      ]
+    },
+    "same_geometry": true
+  },
+  "narrow": {
+    "different_settings": {
+      "enable_support": [
+        "0",
+        "1"
+      ]
+    },
+    "same_geometry": true
+  }
+}

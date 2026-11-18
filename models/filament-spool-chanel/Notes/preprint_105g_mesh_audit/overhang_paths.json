@@ -1,0 +1,958 @@
+{
+  "0": [
+    {
+      "feature": "Overhang wall",
+      "z": 0.6,
+      "points": 43,
+      "radius_min": 38.485430550216336,
+      "radius_max": 97.58583521411047
+    },
+    {
+      "feature": "Bridge",
+      "z": 0.6,
+      "points": 968,
+      "radius_min": 35.74886923673985,
+      "radius_max": 98.21670764215997
+    },
+    {
+      "feature": "Bridge",
+      "z": 0.8,
+      "points": 1,
+      "radius_min": 38.08796068635763,
+      "radius_max": 38.08796068635763
+    },
+    {
+      "feature": "Bridge",
+      "z": 3.2,
+      "points": 1805,
+      "radius_min": 93.32680702887849,
+      "radius_max": 101.01950102750223
+    },
+    {
+      "feature": "Bridge",
+      "z": 15.8,
+      "points": 715,
+      "radius_min": 34.20013367467334,
+      "radius_max": 41.85429529696474
+    },
+    {
+      "feature": "Bridge",
+      "z": 16.0,
+      "points": 1,
+      "radius_min": 36.20405085478039,
+      "radius_max": 36.20405085478039
+    },
+    {
+      "feature": "Overhang wall",
+      "z": 22.2,
+      "points": 13,
+      "radius_min": 31.64864751700339,
+      "radius_max": 41.21154356264182
+    }
+  ],
+  "1": [
+    {
+      "feature": "Support",
+      "z": 0.2,
+      "points": 557,
+      "radius_min": 17.90413424088205,
+      "radius_max": 51.8514269095415
+    },
+    {
+      "feature": "Support",
+      "z": 0.4,
+      "points": 54,
+      "radius_min": 20.372598437497484,
+      "radius_max": 94.94891271054938
+    },
+    {
+      "feature": "Support",
+      "z": 0.6,
+      "points": 54,
+      "radius_min": 20.43864827393253,
+      "radius_max": 38.88986069280173
+    },
+    {
+      "feature": "Overhang wall",
+      "z": 0.6,
+      "points": 43,
+      "radius_min": 38.48476933652488,
+      "radius_max": 97.58583521411047
+    },
+    {
+      "feature": "Bridge",
+      "z": 0.6,
+      "points": 970,
+      "radius_min": 35.74949592169831,
+      "radius_max": 98.21670764215997
+    },
+    {
+      "feature": "Support",
+      "z": 0.8,
+      "points": 54,
+      "radius_min": 20.50079050001547,
+      "radius_max": 36.05155969033136
+    },
+    {
+      "feature": "Support",
+      "z": 1.0,
+      "points": 45,
+      "radius_min": 20.559088842541758,
+      "radius_max": 36.05183646411823
+    },
+    {
+      "feature": "Support",
+      "z": 1.2,
+      "points": 45,
+      "radius_min": 20.6139318031647,
+      "radius_max": 36.052113735057546
+    },
+    {
+      "feature": "Support",
+      "z": 1.4,
+      "points": 45,
+      "radius_min": 20.665781522253766,
+      "radius_max": 38.21730245079478
+    },
+    {
+      "feature": "Support",
+      "z": 1.6,
+      "points": 45,
+      "radius_min": 20.71280026977339,
+      "radius_max": 97.4656076582172
+    },
+    {
+      "feature": "Support",
+      "z": 1.8,
+      "points": 45,
+      "radius_min": 20.75680359052244,
+      "radius_max": 97.47945261831092
+    },
+    {
+      "feature": "Support",
+      "z": 2.0,
+      "points": 45,
+      "radius_min": 20.796842483067604,
+      "radius_max": 97.48374245491155
+    },
+    {
+      "feature": "Support",
+      "z": 2.2,
+      "points": 54,
+      "radius_min": 20.686131236544085,
+      "radius_max": 97.48374245491155
+    },
+    {
+      "feature": "Support",
+      "z": 2.4,
+      "points": 55,
+      "radius_min": 20.731308210904718,
+      "radius_max": 97.48374245491155
+    },
+    {
+      "feature": "Support",
+      "z": 2.6,
+      "points": 55,
+      "radius_min": 20.744126037158676,
+      "radius_max": 97.48361229850647
+    },
+    {
+      "feature": "Support",
+      "z": 2.8,
+      "points": 54,
+      "radius_min": 20.75604876790197,
+      "radius_max": 97.52801894894372
+    },
+    {
+      "feature": "Support",
+      "z": 3.0,
+      "points": 45,
+      "radius_min": 20.89979368428131,
+      "radius_max": 97.58333203936789
+    },
+    {
+      "feature": "Support",
+      "z": 3.2,
+      "points": 55,
+      "radius_min": 20.82871381832122,
+      "radius_max": 97.63480929727638
+    },
+    {
+      "feature": "Bridge",
+      "z": 3.2,
+      "points": 1779,
+      "radius_min": 93.79024337406062,
+      "radius_max": 101.21202013242066
+    },
+    {
+      "feature": "Support",
+      "z": 3.4,
+      "points": 55,
+      "radius_min": 20.839678530042743,
+      "radius_max": 97.68219043119132
+    },
+    {
+      "feature": "Support",
+      "z": 3.6,
+      "points": 54,
+      "radius_min": 20.851553162427134,
+      "radius_max": 92.03555914447158
+    },
+    {
+      "feature": "Support",
+      "z": 3.8,
+      "points": 55,
+      "radius_min": 20.864357474782814,
+      "radius_max": 36.05520002753451
+    },
+    {
+      "feature": "Support",
+      "z": 4.0,
+      "points": 54,
+      "radius_min": 20.87852380498978,
+      "radius_max": 36.055484511451596
+    },
+    {
+      "feature": "Support",
+      "z": 4.2,
+      "points": 56,
+      "radius_min": 20.893612593697757,
+      "radius_max": 36.063014791549605
+    },
+    {
+      "feature": "Support",
+      "z": 4.4,
+      "points": 57,
+      "radius_min": 21.04319698823174,
+      "radius_max": 36.063014791549605
+    },
+    {
+      "feature": "Support",
+      "z": 4.6,
+      "points": 58,
+      "radius_min": 20.970653863566707,
+      "radius_max": 36.05454874929827
+    },
+    {
+      "feature": "Support",
+      "z": 4.8,
+      "points": 60,
+      "radius_min": 20.925892643457896,
+      "radius_max": 36.05313774313583
+    },
+    {
+      "feature": "Support",
+      "z": 5.0,
+      "points": 56,
+      "radius_min": 20.833812478169357,
+      "radius_max": 36.056340945047715
+    },
+    {
+      "feature": "Support",
+      "z": 5.2,
+      "points": 64,
+      "radius_min": 20.8404501600979,
+      "radius_max": 36.05616103740835
+    },
+    {
+      "feature": "Support",
+      "z": 5.4,
+      "points": 64,
+      "radius_min": 20.876291912011702,
+      "radius_max": 36.056736311201604
+    },
+    {
+      "feature": "Support",
+      "z": 5.6,
+      "points": 65,
+      "radius_min": 20.910509800469352,
+      "radius_max": 36.0565599277791
+    },
+    {
+      "feature": "Support",
+      "z": 5.8,
+      "points": 65,
+      "radius_min": 20.94736886569589,
+      "radius_max": 36.05648191858886
+    },
+    {
+      "feature": "Support",
+      "z": 6.0,
+      "points": 65,
+      "radius_min": 20.990339631733562,
+      "radius_max": 36.05706317776762
+    },
+    {
+      "feature": "Support",
+      "z": 6.2,
+      "points": 65,
+      "radius_min": 21.037243741173064,
+      "radius_max": 36.058205857966996
+    },
+    {
+      "feature": "Support",
+      "z": 6.4,
+      "points": 64,
+      "radius_min": 21.101729176669966,
+      "radius_max": 36.057477394786304
+    },
+    {
+      "feature": "Support",
+      "z": 6.6,
+      "points": 66,
+      "radius_min": 21.15667592098355,
+      "radius_max": 36.050158008329525
+    },
+    {
+      "feature": "Support",
+      "z": 6.8,
+      "points": 66,
+      "radius_min": 21.21599082686277,
+      "radius_max": 36.05799729956624
+    },
+    {
+      "feature": "Support",
+      "z": 7.0,
+      "points": 62,
+      "radius_min": 21.15274582401832,
+      "radius_max": 36.05858851807051
+    },
+    {
+      "feature": "Support",
+      "z": 7.2,
+      "points": 75,
+      "radius_min": 21.039285811441527,
+      "radius_max": 36.05796916640654
+    },
+    {
+      "feature": "Support",
+      "z": 7.4,
+      "points": 71,
+      "radius_min": 21.222974250691756,
+      "radius_max": 36.05836619767354
+    },
+    {
+      "feature": "Support",
+      "z": 7.6,
+      "points": 72,
+      "radius_min": 21.161584934156647,
+      "radius_max": 36.05922066830514
+    },
+    {
+      "feature": "Support",
+      "z": 7.8,
+      "points": 73,
+      "radius_min": 21.2776539821834,
+      "radius_max": 36.0565982678001
+    },
+    {
+      "feature": "Support",
+      "z": 8.0,
+      "points": 72,
+      "radius_min": 21.35249005492159,
+      "radius_max": 36.059155021651925
+    },
+    {
+      "feature": "Support",
+      "z": 8.2,
+      "points": 73,
+      "radius_min": 21.38064748494593,
+      "radius_max": 36.05523056209077
+    },
+    {
+      "feature": "Support",
+      "z": 8.4,
+      "points": 79,
+      "radius_min": 21.23442758553959,
+      "radius_max": 36.059407783899125
+    },
+    {
+      "feature": "Support",
+      "z": 8.6,
+      "points": 75,
+      "radius_min": 21.552401483721606,
+      "radius_max": 36.05936089624338
+    },
+    {
+      "feature": "Support",
+      "z": 8.8,
+      "points": 76,
+      "radius_min": 21.553378634115006,
+      "radius_max": 36.05997072801816
+    },
+    {
+      "feature": "Support",
+      "z": 9.0,
+      "points": 71,
+      "radius_min": 21.451890335481508,
+      "radius_max": 36.06183222210881
+    },
+    {
+      "feature": "Support",
+      "z": 9.2,
+      "points": 83,
+      "radius_min": 21.30860309207352,
+      "radius_max": 36.06168692151721
+    },
+    {
+      "feature": "Support",
+      "z": 9.4,
+      "points": 84,
+      "radius_min": 21.3316887776267,
+      "radius_max": 36.06026268492127
+    },
+    {
+      "feature": "Support",
+      "z": 9.6,
+      "points": 87,
+      "radius_min": 21.355975483820092,
+      "radius_max": 36.060337461891905
+    },
+    {
+      "feature": "Support",
+      "z": 9.8,
+      "points": 85,
+      "radius_min": 21.379582730622328,
+      "radius_max": 36.06095276785577
+    },
+    {
+      "feature": "Support",
+      "z": 10.0,
+      "points": 83,
+      "radius_min": 21.40472986854834,
+      "radius_max": 36.05792647290641
+    },
+    {
+      "feature": "Support",
+      "z": 10.2,
+      "points": 88,
+      "radius_min": 21.430810493201708,
+      "radius_max": 36.06143243959569
+    },
+    {
+      "feature": "Support",
+      "z": 10.4,
+      "points": 87,
+      "radius_min": 21.479923827274735,
+      "radius_max": 36.058301741561884
+    },
+    {
+      "feature": "Support",
+      "z": 10.6,
+      "points": 88,
+      "radius_min": 21.51920168048818,
+      "radius_max": 36.05881840875439
+    },
+    {
+      "feature": "Support",
+      "z": 10.8,
+      "points": 85,
+      "radius_min": 21.511356151705662,
+      "radius_max": 36.062648730168526
+    },
+    {
+      "feature": "Support",
+      "z": 11.0,
+      "points": 88,
+      "radius_min": 21.541437713753584,
+      "radius_max": 36.059959931280076
+    },
+    {
+      "feature": "Support",
+      "z": 11.2,
+      "points": 91,
+      "radius_min": 21.57322046115335,
+      "radius_max": 36.06319653296868
+    },
+    {
+      "feature": "Support",
+      "z": 11.4,
+      "points": 92,
+      "radius_min": 21.60609517834087,
+      "radius_max": 36.06495833708288
+    },
+    {
+      "feature": "Support",
+      "z": 11.6,
+      "points": 90,
+      "radius_min": 21.64014775840324,
+      "radius_max": 36.06527535158335
+    },
+    {
+      "feature": "Support",
+      "z": 11.8,
+      "points": 89,
+      "radius_min": 21.725666354234694,
+      "radius_max": 36.066229372856874
+    },
+    {
+      "feature": "Support",
+      "z": 12.0,
+      "points": 89,
+      "radius_min": 21.762273272007334,
+      "radius_max": 36.061379879665246
+    },
+    {
+      "feature": "Support",
+      "z": 12.2,
+      "points": 92,
+      "radius_min": 21.799430090154306,
+      "radius_max": 36.066098182441706
+    },
+    {
+      "feature": "Support",
+      "z": 12.4,
+      "points": 93,
+      "radius_min": 21.848854990720337,
+      "radius_max": 36.0667406728904
+    },
+    {
+      "feature": "Support",
+      "z": 12.6,
+      "points": 96,
+      "radius_min": 21.912654959304334,
+      "radius_max": 37.74221928868949
+    },
+    {
+      "feature": "Support",
+      "z": 12.8,
+      "points": 102,
+      "radius_min": 21.951680992022563,
+      "radius_max": 35.91238241380715
+    },
+    {
+      "feature": "Support",
+      "z": 13.0,
+      "points": 102,
+      "radius_min": 21.991863211095268,
+      "radius_max": 35.705104751359094
+    },
+    {
+      "feature": "Support",
+      "z": 13.2,
+      "points": 104,
+      "radius_min": 22.030939714309163,
+      "radius_max": 35.49783424345104
+    },
+    {
+      "feature": "Support",
+      "z": 13.4,
+      "points": 104,
+      "radius_min": 21.99717888424615,
+      "radius_max": 35.283608442526486
+    },
+    {
+      "feature": "Support",
+      "z": 13.6,
+      "points": 108,
+      "radius_min": 22.050780058889636,
+      "radius_max": 35.08418617661702
+    },
+    {
+      "feature": "Support",
+      "z": 13.8,
+      "points": 112,
+      "radius_min": 22.11204724026079,
+      "radius_max": 34.872580160285324
+    },
+    {
+      "feature": "Support",
+      "z": 14.0,
+      "points": 117,
+      "radius_min": 22.167751859075032,
+      "radius_max": 34.66600498825219
+    },
+    {
+      "feature": "Support",
+      "z": 14.2,
+      "points": 114,
+      "radius_min": 22.083342499846463,
+      "radius_max": 34.458165403217926
+    },
+    {
+      "feature": "Bridge",
+      "z": 14.2,
+      "points": 721,
+      "radius_min": 34.21192280500359,
+      "radius_max": 41.67954007310451
+    },
+    {
+      "feature": "Bridge",
+      "z": 14.4,
+      "points": 1,
+      "radius_min": 26.332529018981923,
+      "radius_max": 26.332529018981923
+    },
+    {
+      "feature": "Support",
+      "z": 14.4,
+      "points": 118,
+      "radius_min": 22.224081284397897,
+      "radius_max": 34.25256285645681
+    },
+    {
+      "feature": "Support",
+      "z": 14.6,
+      "points": 121,
+      "radius_min": 22.230126937683565,
+      "radius_max": 38.725185936100104
+    },
+    {
+      "feature": "Support",
+      "z": 14.8,
+      "points": 122,
+      "radius_min": 22.261179483026602,
+      "radius_max": 38.7246404168654
+    },
+    {
+      "feature": "Support",
+      "z": 15.0,
+      "points": 130,
+      "radius_min": 22.3384495143581,
+      "radius_max": 38.725418802583995
+    },
+    {
+      "feature": "Support",
+      "z": 15.2,
+      "points": 132,
+      "radius_min": 22.216126922700212,
+      "radius_max": 38.73513542012632
+    },
+    {
+      "feature": "Support",
+      "z": 15.4,
+      "points": 130,
+      "radius_min": 22.241730829131193,
+      "radius_max": 38.73459523017538
+    },
+    {
+      "feature": "Support",
+      "z": 15.6,
+      "points": 131,
+      "radius_min": 22.353673005471048,
+      "radius_max": 38.734056917337284
+    },
+    {
+      "feature": "Support",
+      "z": 15.8,
+      "points": 134,
+      "radius_min": 22.584206697945472,
+      "radius_max": 38.73443296545757
+    },
+    {
+      "feature": "Support",
+      "z": 16.0,
+      "points": 135,
+      "radius_min": 22.629777271451992,
+      "radius_max": 38.73440218843612
+    },
+    {
+      "feature": "Support",
+      "z": 16.2,
+      "points": 138,
+      "radius_min": 22.66961629286046,
+      "radius_max": 38.72767182152219
+    },
+    {
+      "feature": "Support",
+      "z": 16.4,
+      "points": 297,
+      "radius_min": 22.384457006492806,
+      "radius_max": 40.80617372770356
+    },
+    {
+      "feature": "Support",
+      "z": 16.6,
+      "points": 289,
+      "radius_min": 22.412377989082827,
+      "radius_max": 40.80617372770356
+    },
+    {
+      "feature": "Support",
+      "z": 16.8,
+      "points": 388,
+      "radius_min": 22.440406570415018,
+      "radius_max": 40.80617372770356
+    },
+    {
+      "feature": "Support",
+      "z": 17.0,
+      "points": 394,
+      "radius_min": 22.47324457939987,
+      "radius_max": 40.80617372770356
+    },
+    {
+      "feature": "Support",
+      "z": 17.2,
+      "points": 396,
+      "radius_min": 22.497917002369906,
+      "radius_max": 40.80617372770356
+    },
+    {
+      "feature": "Support",
+      "z": 17.4,
+      "points": 406,
+      "radius_min": 22.52806649416512,
+      "radius_max": 40.805750983109284
+    },
+    {
+      "feature": "Support",
+      "z": 17.6,
+      "points": 408,
+      "radius_min": 22.558804184520188,
+      "radius_max": 40.80617372770356
+    },
+    {
+      "feature": "Support",
+      "z": 17.8,
+      "points": 408,
+      "radius_min": 22.59110799397685,
+      "radius_max": 40.80617372770356
+    },
+    {
+      "feature": "Support",
+      "z": 18.0,
+      "points": 383,
+      "radius_min": 22.622976907682265,
+      "radius_max": 40.80617372770356
+    },
+    {
+      "feature": "Support",
+      "z": 18.2,
+      "points": 369,
+      "radius_min": 22.655496406733736,
+      "radius_max": 40.80617372770356
+    },
+    {
+      "feature": "Support",
+      "z": 18.4,
+      "points": 377,
+      "radius_min": 22.69602980491357,
+      "radius_max": 40.82349003129847
+    },
+    {
+      "feature": "Support",
+      "z": 18.6,
+      "points": 377,
+      "radius_min": 22.73362880328448,
+      "radius_max": 40.822189778422285
+    },
+    {
+      "feature": "Support",
+      "z": 18.8,
+      "points": 427,
+      "radius_min": 22.75762374360568,
+      "radius_max": 40.80526160466962
+    },
+    {
+      "feature": "Support",
+      "z": 19.0,
+      "points": 428,
+      "radius_min": 22.786641870304745,
+      "radius_max": 40.78825044979896
+    },
+    {
+      "feature": "Support",
+      "z": 19.2,
+      "points": 432,
+      "radius_min": 22.82440321532032,
+      "radius_max": 40.772233796365946
+    },
+    {
+      "feature": "Support",
+      "z": 19.4,
+      "points": 445,
+      "radius_min": 22.86281494688537,
+      "radius_max": 40.75522266992937
+    },
+    {
+      "feature": "Support",
+      "z": 19.6,
+      "points": 453,
+      "radius_min": 22.902916999708236,
+      "radius_max": 40.7403054354717
+    },
+    {
+      "feature": "Support",
+      "z": 19.8,
+      "points": 468,
+      "radius_min": 22.952585793882253,
+      "radius_max": 40.726382738165256
+    },
+    {
+      "feature": "Support",
+      "z": 20.0,
+      "points": 459,
+      "radius_min": 23.00570293721809,
+      "radius_max": 40.70922988850962
+    },
+    {
+      "feature": "Support",
+      "z": 20.2,
+      "points": 492,
+      "radius_min": 23.04921493273741,
+      "radius_max": 40.69690290139441
+    },
+    {
+      "feature": "Support",
+      "z": 20.4,
+      "points": 506,
+      "radius_min": 23.100054319536234,
+      "radius_max": 40.68826090871327
+    },
+    {
+      "feature": "Support",
+      "z": 20.6,
+      "points": 520,
+      "radius_min": 23.123620479620516,
+      "radius_max": 40.68270664072788
+    },
+    {
+      "feature": "Support",
+      "z": 20.8,
+      "points": 528,
+      "radius_min": 23.207360178519327,
+      "radius_max": 40.67958915531873
+    },
+    {
+      "feature": "Support",
+      "z": 21.0,
+      "points": 551,
+      "radius_min": 23.266036909098315,
+      "radius_max": 40.68672618552056
+    },
+    {
+      "feature": "Support",
+      "z": 21.2,
+      "points": 568,
+      "radius_min": 23.328308642623984,
+      "radius_max": 40.6944526948763
+    },
+    {
+      "feature": "Support",
+      "z": 21.4,
+      "points": 599,
+      "radius_min": 23.40994830313654,
+      "radius_max": 40.70957287218234
+    },
+    {
+      "feature": "Support",
+      "z": 21.6,
+      "points": 619,
+      "radius_min": 23.447529246287857,
+      "radius_max": 40.738314824566864
+    },
+    {
+      "feature": "Support",
+      "z": 21.8,
+      "points": 670,
+      "radius_min": 23.51822181406419,
+      "radius_max": 40.76889050177262
+    },
+    {
+      "feature": "Support",
+      "z": 22.0,
+      "points": 715,
+      "radius_min": 23.569734604690083,
+      "radius_max": 40.82197427471538
+    },
+    {
+      "feature": "Support",
+      "z": 22.2,
+      "points": 773,
+      "radius_min": 23.654549866897167,
+      "radius_max": 40.87378368056381
+    },
+    {
+      "feature": "Support",
+      "z": 22.4,
+      "points": 748,
+      "radius_min": 23.733069025213016,
+      "radius_max": 40.92657821313095
+    },
+    {
+      "feature": "Support",
+      "z": 22.6,
+      "points": 769,
+      "radius_min": 23.82035392926657,
+      "radius_max": 40.88798752537871
+    },
+    {
+      "feature": "Support",
+      "z": 22.8,
+      "points": 842,
+      "radius_min": 23.894874428536447,
+      "radius_max": 40.8465704403139
+    },
+    {
+      "feature": "Support",
+      "z": 23.0,
+      "points": 918,
+      "radius_min": 23.96980571668291,
+      "radius_max": 40.81859616921587
+    },
+    {
+      "feature": "Support",
+      "z": 23.2,
+      "points": 1021,
+      "radius_min": 24.045979739356113,
+      "radius_max": 40.782879516600154
+    },
+    {
+      "feature": "Support",
+      "z": 23.4,
+      "points": 440,
+      "radius_min": 24.124353072891406,
+      "radius_max": 36.960491692015204
+    },
+    {
+      "feature": "Support interface",
+      "z": 23.4,
+      "points": 350,
+      "radius_min": 35.365123551113534,
+      "radius_max": 40.811093020348345
+    },
+    {
+      "feature": "Support",
+      "z": 23.6,
+      "points": 448,
+      "radius_min": 24.23017605746035,
+      "radius_max": 39.85721144480036
+    },
+    {
+      "feature": "Support interface",
+      "z": 23.6,
+      "points": 396,
+      "radius_min": 35.757687420127226,
+      "radius_max": 40.62191259154995
+    },
+    {
+      "feature": "Support",
+      "z": 23.8,
+      "points": 514,
+      "radius_min": 24.38316524665172,
+      "radius_max": 37.05013581183644
+    },
+    {
+      "feature": "Support interface",
+      "z": 23.8,
+      "points": 349,
+      "radius_min": 35.857567227790646,
+      "radius_max": 40.622102941077834
+    },
+    {
+      "feature": "Overhang wall",
+      "z": 24.2,
+      "points": 15,
+      "radius_min": 26.95729146048477,
+      "radius_max": 40.32779519816977
+    },
+    {
+      "feature": "Bridge",
+      "z": 24.2,
+      "points": 832,
+      "radius_min": 27.342971454388877,
+      "radius_max": 41.87688226737426
+    }
+  ]
+}

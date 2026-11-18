@@ -1,0 +1,16 @@
+[
+  {
+    "valid": true,
+    "solids": 1,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "watertight": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "watertight": true
+  }
+]

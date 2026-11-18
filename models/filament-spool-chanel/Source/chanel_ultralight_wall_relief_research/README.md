@@ -1,0 +1,3 @@
+Experimental wall-relief derivative, NOT a 60 g release. Run build_relief.py --output NEW_DIRECTORY using CadQuery 2.8. Current tested parameters are in relief.json; center_relief.py defines hard research bounds and true native rotational cutters. Nominal bore/lock/outer-paper shapes are intended to remain; wall stiffness, ovalization resistance and support floor are intentionally changed. Do not replace the current print project or infer strength from BRep validity. Matched user 15% profile gives 93.403427 g, versus 101.863014 g spoke and 115.104057 g self-support baseline. Simulation is pending.
+
+Revision 2 restores all four complete hole pads. Use the latest validation/hash, not the superseded partial ring candidate.

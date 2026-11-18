@@ -1,0 +1,22 @@
+{
+  "note": "Individual component volumes overlap; do not sum as whole spool mass",
+  "density_g_cm3": 1.27,
+  "components": {
+    "flange_each_mm3": 14681.734390137153,
+    "rolling_rim_each_mm3": 11131.482282303024,
+    "wide": {
+      "lower_core_mm3": 22020.93402945895,
+      "outer_tube_mm3": 10784.89467353348,
+      "shoulder_included_in_core_mm3": 6363.512689739226,
+      "lower_core_R38.0_mm3": 17551.19852404485,
+      "lower_core_R38.5_mm3": 15648.308364829774
+    },
+    "narrow": {
+      "lower_core_mm3": 22849.722939908206,
+      "outer_tube_mm3": 4922.330018792649,
+      "shoulder_included_in_core_mm3": 9460.457028536195,
+      "lower_core_R38.0_mm3": 18387.82884975749,
+      "lower_core_R38.5_mm3": 16489.27408840439
+    }
+  }
+}

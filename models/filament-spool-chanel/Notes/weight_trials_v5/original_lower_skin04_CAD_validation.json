@@ -1,0 +1,88 @@
+{
+  "parameters": {
+    "rolling_outer_radius": 100.013,
+    "rim_radial_width": 5.013,
+    "rim_height": 3.615,
+    "skin_thickness": 0.4,
+    "rib_width": 4.0,
+    "rib_height_above_skin": 2.8,
+    "rib_count": 8,
+    "logo_scale": 1.0,
+    "logo_rings": [
+      {
+        "fraction": 0.18489065606361824,
+        "count": 16,
+        "relative_scale": 0.99
+      },
+      {
+        "fraction": 0.5228628230616302,
+        "count": 24,
+        "relative_scale": 0.99
+      },
+      {
+        "fraction": 0.8608349900596421,
+        "count": 32,
+        "relative_scale": 0.9
+      }
+    ],
+    "hub_outer_radius": 40.85,
+    "hub_lower_inner_radius": 36.8,
+    "sleeve_wall_extra": 0.0,
+    "shaft_bore_radius": 27.5,
+    "lock_reference_bore_radius": 31.4,
+    "lock_axial_scale": 1.0,
+    "wide_lock_wall_thickness": 1.9,
+    "bridge_width": 1.2
+  },
+  "derived": {
+    "od": 0.0,
+    "k": 1.0,
+    "az": 1.0,
+    "rim_inner": 95.0,
+    "plate_outer": 94.0,
+    "plate_inner": 43.7,
+    "rib_start": 43.5,
+    "rib_end": 97.5
+  },
+  "parts": {
+    "wide": {
+      "valid": true,
+      "solid_count": 1,
+      "face_count": 9046,
+      "volume_mm3": 61691.22011856189,
+      "bbox_mm": [
+        200.026,
+        200.026,
+        40.715057373
+      ]
+    },
+    "narrow": {
+      "valid": true,
+      "solid_count": 1,
+      "face_count": 7712,
+      "volume_mm3": 54502.762778688375,
+      "bbox_mm": [
+        200.026,
+        200.026,
+        34.11295246820001
+      ]
+    }
+  },
+  "limitations": [
+    "CAD validity is not a strength/load certification.",
+    "Changed lock dimensions do not retain source-spool compatibility.",
+    "Print-fit and physical load tests remain required.",
+    "STEP contains geometry, not a feature-history parameter tree."
+  ],
+  "step": {
+    "valid": true,
+    "solid_count": 2,
+    "bytes": 32773454,
+    "sha256": "a965725d928f43cfb7ce60ee6a4800d69270af3ae537c2f85512f007d3115b68",
+    "reimport_volumes_mm3": [
+      61691.22035680057,
+      54502.7632098839
+    ]
+  },
+  "elapsed_seconds": 73.28763604164124
+}

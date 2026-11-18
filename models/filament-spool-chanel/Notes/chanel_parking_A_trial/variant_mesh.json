@@ -1,0 +1,16 @@
+[
+  {
+    "valid": true,
+    "faces": 1822,
+    "boundary_edges": 0,
+    "nonmanifold": 0,
+    "watertight": true
+  },
+  {
+    "valid": true,
+    "faces": 1749,
+    "boundary_edges": 0,
+    "nonmanifold": 0,
+    "watertight": true
+  }
+]

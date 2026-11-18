@@ -1,0 +1,28 @@
+{
+  "parts": [
+    {
+      "part": "wide",
+      "baseline_g": 63.904945373535156,
+      "candidate_g": 63.66315841674805,
+      "delta_g": -0.24178695678710938,
+      "baseline_seconds": 8105.1875,
+      "candidate_seconds": 8135.04345703125,
+      "warning": "",
+      "support_feature_present": false
+    },
+    {
+      "part": "narrow",
+      "baseline_g": 55.727176666259766,
+      "candidate_g": 55.477943420410156,
+      "delta_g": -0.24923324584960938,
+      "baseline_seconds": 7495.7314453125,
+      "candidate_seconds": 7438.39794921875,
+      "warning": "",
+      "support_feature_present": false
+    }
+  ],
+  "baseline_total_g": 119.63212203979492,
+  "candidate_total_g": 119.1411018371582,
+  "delta_g": -0.49102020263671875,
+  "step_sha256": "4c9663fe22cbe9446749cfd2c6af7f0b1d96c0cae93d811498bcc00d78633fe5"
+}

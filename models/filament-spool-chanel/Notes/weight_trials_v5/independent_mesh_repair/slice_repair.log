@@ -1,0 +1,4 @@
+original 0
+original [{'filament_id': 'GFG99', 'id': 1, 'main_used_g': 54.77931213378906, 'total_used_g': 54.77931213378906}]
+repaired 0
+repaired [{'filament_id': 'GFG99', 'id': 1, 'main_used_g': 54.77930450439453, 'total_used_g': 54.77930450439453}]

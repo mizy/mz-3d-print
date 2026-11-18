@@ -1,0 +1,72 @@
+{
+  "source_sha": "bb8931430bd179c0f3d25bbd2591f37b8e557c5e16692c24d446977e16e51a82",
+  "valid": true,
+  "solids": 1,
+  "faces": 126,
+  "volume_before": 33960.4843255585,
+  "volume_after": 33959.79565496405,
+  "mesh": [
+    {
+      "tol": 0.01,
+      "angular": 0.1,
+      "triangles": 9328,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "winding": true,
+      "section_checks": [
+        {
+          "z": 34.5,
+          "segment_count": 1418,
+          "non_degree2_nodes": 0,
+          "polygonized_regions": 4
+        },
+        {
+          "z": 35.0,
+          "segment_count": 1406,
+          "non_degree2_nodes": 0,
+          "polygonized_regions": 4
+        }
+      ]
+    },
+    {
+      "tol": 0.002,
+      "angular": 0.05,
+      "triangles": 26282,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "winding": true,
+      "section_checks": [
+        {
+          "z": 34.5,
+          "segment_count": 2566,
+          "non_degree2_nodes": 0,
+          "polygonized_regions": 4
+        },
+        {
+          "z": 35.0,
+          "segment_count": 2556,
+          "non_degree2_nodes": 0,
+          "polygonized_regions": 4
+        }
+      ]
+    }
+  ],
+  "cad_sections": [
+    {
+      "z": 31.9,
+      "sampled_boundary_hausdorff": 0.0027254099914610923
+    },
+    {
+      "z": 34.5,
+      "sampled_boundary_hausdorff": 0.0018699544754979167
+    },
+    {
+      "z": 35.0,
+      "sampled_boundary_hausdorff": 0.001733643988730547
+    },
+    {
+      "z": 37.1,
+      "sampled_boundary_hausdorff": 0.001658147169897004
+    }
+  ]
+}

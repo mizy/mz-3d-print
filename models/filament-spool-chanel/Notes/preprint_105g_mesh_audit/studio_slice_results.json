@@ -1,0 +1,232 @@
+[
+  {
+    "half": 0,
+    "returncode": 0,
+    "source": "Current Studio XML, translated Z only; original topology unchanged",
+    "result": {
+      "error_string": "Success.",
+      "layer_height": 0.20000000298023224,
+      "peak_rss_mb": 386.953125,
+      "plate_index": 1,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 919.478759765625,
+            "Bridge": 189.6372528076172,
+            "Custom": 362.3280029296875,
+            "Flush": 29.0,
+            "Gap infill": 389.9582214355469,
+            "Inner wall": 1489.0648193359375,
+            "Internal solid infill": 433.1588439941406,
+            "Outer wall": 1914.8455810546875,
+            "Overhang wall": 75.71605682373047,
+            "Sparse infill": 239.62159729003906,
+            "Top surface": 810.0794067382812,
+            "Travel": 813.5740966796875,
+            "Undefined": 798.4308471679688
+          },
+          "filament_change_times": 0,
+          "filaments": [
+            {
+              "filament_id": "GFG99",
+              "id": 1,
+              "main_used_g": 54.77931213378906,
+              "total_used_g": 54.77931213378906
+            }
+          ],
+          "id": 1,
+          "layer_filament_change": 0,
+          "main_predication": 7246.72607421875,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 200.02301025390625,
+                "height": 40.715057373046875,
+                "width": 200.0260009765625,
+                "x": 20.411375045776367,
+                "y": 26.739925384521484,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "original_lower_skin04_wide",
+              "triangle_count": 261066
+            }
+          ],
+          "times": {
+            "conflict_check_time": 0,
+            "detect_overhangs_time": 129,
+            "export_gcode_time": 972,
+            "flush_plan_time": 0,
+            "generate_support_material_time": 1404,
+            "infill_generate_time": 2113,
+            "infill_time": 3220,
+            "ironing_time": 0,
+            "make_perimeters_time": 3728,
+            "multifilament_segment_2d_time": 0,
+            "other_slice_time": 6,
+            "prepare_infill_time": 1107,
+            "region_split_time": 1,
+            "skirt_brim_time": 422,
+            "slice_layers_time": 719,
+            "sliced_time": 10679,
+            "sliced_time_with_cache": 1394,
+            "support_detect_time": 1010,
+            "support_interface_time": 0,
+            "support_normal_generate_time": 0,
+            "support_toolpath_time": 0,
+            "support_tree_generate_time": 393,
+            "toolpath_time": 692,
+            "wall_time": 3008,
+            "wipe_tower_time": 106
+          },
+          "total_predication": 7651.88037109375,
+          "triangle_count": 261066,
+          "warning_message": "Unsupported overhangs were detected.\nModel \"original_lower_skin04_wide\" has 1 overhang region(s) that could not get support. Try adjusting the support settings or re-orienting the object."
+        }
+      ],
+      "sparse_infill_density": 5.0,
+      "times": {
+        "export_3mf_time": 1252,
+        "export_slicedata_time": 0,
+        "export_time": 1865,
+        "import_time": 632,
+        "load_slicedata_time": 0,
+        "prepare_time": 649
+      },
+      "upward_compatible_machine": [
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle",
+        "Bambu Lab H3C 0.4 nozzle"
+      ],
+      "wall_loops": 2
+    }
+  },
+  {
+    "half": 1,
+    "returncode": 0,
+    "source": "Current Studio XML, translated Z only; original topology unchanged",
+    "result": {
+      "error_string": "Success.",
+      "layer_height": 0.20000000298023224,
+      "peak_rss_mb": 431.546875,
+      "plate_index": 1,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 920.5546875,
+            "Bridge": 207.91407775878906,
+            "Custom": 362.2560729980469,
+            "Flush": 29.0,
+            "Gap infill": 303.4602966308594,
+            "Inner wall": 1093.7808837890625,
+            "Internal solid infill": 524.2680053710938,
+            "Outer wall": 1639.1473388671875,
+            "Overhang wall": 113.12043762207031,
+            "Sparse infill": 243.16603088378906,
+            "Support": 733.21142578125,
+            "Support interface": 23.764921188354492,
+            "Top surface": 828.4552612304688,
+            "Travel": 1253.647216796875,
+            "Undefined": 1238.447021484375
+          },
+          "filament_change_times": 0,
+          "filaments": [
+            {
+              "filament_id": "GFG99",
+              "id": 1,
+              "main_used_g": 50.05247116088867,
+              "total_used_g": 50.05247497558594
+            }
+          ],
+          "id": 1,
+          "layer_filament_change": 0,
+          "main_predication": 7856.697265625,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 200.02301025390625,
+                "height": 34.112953186035156,
+                "width": 200.0260009765625,
+                "x": 20.411375045776367,
+                "y": 26.739925384521484,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "original_lower_skin04_wide",
+              "triangle_count": 202750
+            }
+          ],
+          "times": {
+            "conflict_check_time": 0,
+            "detect_overhangs_time": 125,
+            "export_gcode_time": 928,
+            "flush_plan_time": 0,
+            "generate_support_material_time": 3916,
+            "infill_generate_time": 2118,
+            "infill_time": 3165,
+            "ironing_time": 0,
+            "make_perimeters_time": 2646,
+            "multifilament_segment_2d_time": 0,
+            "other_slice_time": 5,
+            "prepare_infill_time": 1047,
+            "region_split_time": 0,
+            "skirt_brim_time": 436,
+            "slice_layers_time": 641,
+            "sliced_time": 11797,
+            "sliced_time_with_cache": 1364,
+            "support_detect_time": 995,
+            "support_interface_time": 3,
+            "support_normal_generate_time": 0,
+            "support_toolpath_time": 324,
+            "support_tree_generate_time": 2585,
+            "toolpath_time": 497,
+            "wall_time": 2005,
+            "wipe_tower_time": 79
+          },
+          "total_predication": 8261.72265625,
+          "triangle_count": 202750,
+          "warning_message": "Unsupported overhangs were detected.\nModel \"original_lower_skin04_wide\" has 1 overhang region(s) that could not get support. Try adjusting the support settings or re-orienting the object."
+        }
+      ],
+      "sparse_infill_density": 5.0,
+      "times": {
+        "export_3mf_time": 1154,
+        "export_slicedata_time": 0,
+        "export_time": 1668,
+        "import_time": 536,
+        "load_slicedata_time": 0,
+        "prepare_time": 551
+      },
+      "upward_compatible_machine": [
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle",
+        "Bambu Lab H3C 0.4 nozzle"
+      ],
+      "wall_loops": 2
+    }
+  }
+]

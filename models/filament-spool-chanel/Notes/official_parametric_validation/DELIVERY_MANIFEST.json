@@ -1,0 +1,14 @@
+{
+  "Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE.step": {
+    "bytes": 473216,
+    "sha256": "bdaede34a24c5cd80b7c7f63cc33f1d28684d43209536d1d925e037057b7d0fc"
+  },
+  "Models/ChanelLight/BAMBU_OFFICIAL_DERIVED_LIGHT_CHANEL.step": {
+    "bytes": 5612378,
+    "sha256": "b26dcb05109f909c602846a17ab03ffc789f25835667d195ae3bcf81d4c38ac7"
+  },
+  "Source/BAMBU_official_and_CHANEL_parametric_sources.zip": {
+    "bytes": 51653,
+    "sha256": "eeb623d451d21b85092e7f523c8ba269e01b1d80eed7268f64a5c8729f22f642"
+  }
+}

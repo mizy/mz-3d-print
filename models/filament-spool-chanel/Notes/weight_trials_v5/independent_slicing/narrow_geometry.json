@@ -1,0 +1,8 @@
+{
+  "source": "/Users/miaozhuang/Projects/mz-3d-print/models/filament-spool-chanel/Source/parametric_v5/build_output/narrow_complete.brep",
+  "volume_mm3": 57429.27227960421,
+  "valid": true,
+  "vertices": 338849,
+  "triangles": 489090,
+  "tessellation": "CadQuery .01/.1 relative deflection, not absolute error guarantee"
+}

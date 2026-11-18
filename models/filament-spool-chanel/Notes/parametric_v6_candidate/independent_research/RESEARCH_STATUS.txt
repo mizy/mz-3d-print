@@ -1,0 +1,21 @@
+Research only; originals/project files not modified by this auditor.
+
+Constant bands:
+wide32.2..34.2mm, 40 faces, STEP readback1 valid solid; 81 original-mesh sections at.025mm spacing maximum error.004806514mm.
+narrow32.7..33.3mm,75faces, STEP readback1 valid solid;25 sections maximum error.006283350mm.
+
+Full-v5-body platform replacement:
+wide9046->7058 faces, valid1 solid; STEP independently read,9 seam/interior checks maximum original mesh boundary error.005485126mm.
+narrow clean() failed Standard_Failure: Courbes non jointives. No successful narrow_replaced STEP generated. General validation script then failed opening nonexistent narrow file; this was not a wide readback failure.
+
+Platform applied after spool_single analytical base:
+wide3984->3872faces,valid1 solid. Narrow boolean result empty0solids and rejected despite isValid() returning True. No narrow candidate exported.
+
+One bounded reordered wide trial:
+original pipe7412->platform5432->analytical base3820faces;valid1solid. Volume6303.559576280528mm3 versus analytical-only6303.559576124721, delta1.56e-7mm3. Exported wide_reordered_pipe.brep/step. No independent reimport/full-height validation of this combined trial. Only164face gain over analytical-only, not selected for integration.
+
+Conclusion: Constant-region extrusion works locally but its gain mostly overlaps analytic-base simplification. Combining adds complexity and showed failures. Retain as research, do not publish or substitute for validated default.
+
+v6_candidate parameter source audit:
+config/body/motif/native_loft/parameters/native_lock_sections identical to v5 at audit time. New simplify_base propagates k and axial scale and respects independent bore/wall parameters. Affine point/height test documented in v6_parameter_audit.json. This is not exhaustive whole-parameter-domain geometry validation.
+Analytical base intentionally changes fit surfaces: wide bore offset inward.008*k, narrow shaft base outward approximately.005*k. Do not call it lossless or nonfunctional. Possible local clearance reduction requires physical fitting; numerical validity alone is insufficient.

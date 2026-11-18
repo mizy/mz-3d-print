@@ -1,0 +1,28 @@
+{
+  "sha256": "538076f9ec4eff7e3bf3c5c11c90efa1f7ca9f93b3a1206edc241e9908d5b70a",
+  "valid": true,
+  "solids": 2,
+  "parts": [
+    {
+      "valid": true,
+      "volume": 92253.0710833845,
+      "bounds_size": [
+        204.026,
+        204.026,
+        40.715057373
+      ],
+      "faces": 8997
+    },
+    {
+      "valid": true,
+      "volume": 83593.54143294277,
+      "bounds_size": [
+        204.026,
+        204.026,
+        34.1129524682
+      ],
+      "faces": 7664
+    }
+  ],
+  "seconds": 29.78689217567444
+}

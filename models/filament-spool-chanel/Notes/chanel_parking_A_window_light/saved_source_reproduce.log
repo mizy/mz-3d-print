@@ -1,0 +1,3 @@
+wide {'valid': True, 'solids': 1, 'faces': 1857, 'volume_mm3': 56491.63256298363, 'bbox_mm': [200.0, 200.0, 40.700000200000005]}
+narrow {'valid': True, 'solids': 1, 'faces': 1785, 'volume_mm3': 53603.04157567951, 'bbox_mm': [200.0, 200.0, 34.100000200000004]}
+{'valid': True, 'solids': 2, 'bytes': 6154571, 'sha256': 'e99c00a326e23a96a83b430f52fc1e93d1d104af2d7f7b2221e18c86d7f908e4'}

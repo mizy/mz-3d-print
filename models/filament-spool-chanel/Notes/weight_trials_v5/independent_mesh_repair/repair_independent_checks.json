@@ -1,0 +1,78 @@
+{
+  "section_comparisons": [
+    {
+      "z": 31.275,
+      "hausdorff_mm": 0.0
+    },
+    {
+      "z": 32.4,
+      "hausdorff_mm": 5.729914052565732e-06
+    },
+    {
+      "z": 32.45,
+      "hausdorff_mm": 4.150263466515337e-06
+    },
+    {
+      "z": 32.6,
+      "hausdorff_mm": 1.8175712033717967e-06
+    },
+    {
+      "z": 33.0,
+      "hausdorff_mm": 0.0
+    },
+    {
+      "z": 33.675,
+      "hausdorff_mm": 6.249940014413369e-07
+    },
+    {
+      "z": 34.1,
+      "hausdorff_mm": 1.1119094770292776e-06
+    },
+    {
+      "z": 34.5,
+      "hausdorff_mm": 0.0
+    },
+    {
+      "z": 35.0,
+      "hausdorff_mm": 0.0
+    },
+    {
+      "z": 35.425,
+      "hausdorff_mm": 0.0
+    },
+    {
+      "z": 35.9,
+      "hausdorff_mm": 0.0
+    },
+    {
+      "z": 36.1,
+      "hausdorff_mm": 1.678632511489639e-06
+    },
+    {
+      "z": 36.2,
+      "hausdorff_mm": 1.0669376492578919e-11
+    },
+    {
+      "z": 36.825,
+      "hausdorff_mm": 0.0
+    },
+    {
+      "z": 37.225,
+      "hausdorff_mm": 0.0
+    }
+  ],
+  "max_selected_section_difference_mm": 5.729914052565732e-06,
+  "repaired_mesh_volume": 61690.86693384562,
+  "original_mesh_volume": 61690.86693752035,
+  "repaired_body_count": 27,
+  "repaired_watertight": true,
+  "repaired_winding": true,
+  "binary_STL_roundtrip": {
+    "watertight": true,
+    "winding": true,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "faces": 261038,
+    "volume": 61690.867044955994
+  }
+}

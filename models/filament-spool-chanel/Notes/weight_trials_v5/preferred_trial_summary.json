@@ -1,0 +1,45 @@
+{
+  "preferred_trial": "Models/CHANEL_105g_KEEP_CORE.step",
+  "reason": "Preserves original lower hub wall geometry while estimated sliced mass is indistinguishable from the thinner-hub option.",
+  "low_material_slicer_total_g": 105.269608,
+  "wide_g": 55.021503,
+  "narrow_g": 50.248104,
+  "estimated_support_g": 3.420645,
+  "total_minus_support_g": 101.848962,
+  "mass_is_not_weighed": true,
+  "density_g_cm3": 1.27,
+  "nozzle_diameter_mm": 0.4,
+  "layer_height_mm": 0.2,
+  "wall_loops": 2,
+  "top_layers": 3,
+  "top_minimum_thickness_mm": 0.6,
+  "bottom_layers": 3,
+  "sparse_infill_percent": 5,
+  "geometry_changes": {
+    "skin_thickness_mm": [
+      0.6,
+      0.4
+    ],
+    "rib_height_above_skin_mm": [
+      2.6,
+      2.8
+    ],
+    "rib_total_height_mm": [
+      3.2,
+      3.2
+    ],
+    "lower_hub_inner_radius_mm": [
+      36.8,
+      36.8
+    ],
+    "minimum_foot_height_mm": 1.4
+  },
+  "preserved": [
+    "Outer rolling radius and rim height/width",
+    "Rib width/count/total height",
+    "Original lower hub wall and shoulder",
+    "Upper sleeves, shaft bore, lock controls and bridges"
+  ],
+  "strength_validated": false,
+  "desiccant_integration_included": false
+}

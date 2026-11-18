@@ -1,0 +1,34 @@
+Independent parameter regression plan (no production source edits)
+
+Baseline: independently import approved v4 Models STEP, record validity, two solids, separated/normalized BRep copies, volume, bbox, face types, source SHA. Freeze baseline before new source changes.
+
+Configuration/dataflow audit:
+- authoritative input file actually parsed; non-default override reaches geometry.
+- no dead knobs, ignored JSON, stale imported flange/shoulder cache.
+- units, radii versus diameters, rib total versus above-skin height explicit.
+- input and approved output must not be overwritten during experimental builds.
+- lock controls unchanged by ordinary structural parameters; whole-model scaling forbidden for plate-only change.
+
+Positive cases (use stable public config schema once provided):
+A Default: compare baseline volume/bounds and critical lock sections; 1 valid solid per half, 2 total after STEP readback.
+B Logo scale +/-10%: fixed positions/count unless documented; verify cut XY bbox/area change and continuous structural ties; cuts extend through maximum local plate thickness.
+C Rolling outer diameter +/-4mm: correct final bbox; ring and hole centres follow documented rule; central lock/core unchanged; ribs meet ring.
+D Skin and rib thickness: change independently; preserve intended above-skin or total-height semantics; no uncut caps in logo regions.
+E Rim radial width +1mm: outer diameter invariant, inner radius changes correctly; all 8 retention holes remain open, bosses/wall present.
+F Core lower inner diameter -1mm: outer envelope and lock unchanged; volume rises, shoulder remains continuous.
+G Core lower outer diameter +1mm: intended spool-contact surface changes; inner bore and protected lock unchanged; no disconnected shoulder.
+H Combined representative build: increases skin/rib/rim; verify complete assembly and STEP readback.
+
+Negative cases:
+- nonpositive skin/rib width; inner radius>=outer radius; plate radius intrudes protected hub.
+- oversize logos or hole/rim placement causing disconnected solids must reject or be detected, never auto-claim valid.
+- unknown configuration key rejected or explicitly reported, not silently accepted.
+
+Geometry tests:
+- isValid and number of solids for components and final assembly.
+- exact CAD section loops/areas for holes and interfaces; no mesh face counts used as geometric validity.
+- bbox dimensions within parameter tolerance, expected sign of volume changes.
+- STEP MANIFOLD_SOLID_BREP and curved surfaces; no FACETED_BREP/TESSELLATED entities.
+- full reimport for representative variants. Component-only tests explicitly labelled, no implied full build success.
+
+No physical strength, fit, slicer mass, or 1kg loading inference from these tests.

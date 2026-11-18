@@ -1,0 +1,449 @@
+{
+  "slicer": "BambuStudio 02.09.01.70",
+  "material": "Current Jucoole PETG+; density1.27 g/cm3",
+  "source_geometry": "v5 native defaults and weight_trials_v5 independent candidates; not v6",
+  "constant_settings": {
+    "nozzle_diameter": 0.4,
+    "outer_wall_line_width": 0.42,
+    "inner_wall_line_width": 0.45,
+    "layer_height": 0.2,
+    "wall_loops": 2,
+    "bottom_shell_layers": 3,
+    "bottom_shell_thickness": 0,
+    "ensure_vertical_shell_thickness": "enabled",
+    "wall_generator": "classic",
+    "top_surface_line_width": 0.42,
+    "internal_solid_infill_line_width": 0.42,
+    "sparse_infill_line_width": 0.45,
+    "initial_layer_line_width": 0.5,
+    "support_line_width": 0.42,
+    "enable_support": true,
+    "support_type": "tree(auto)",
+    "brim_type": "auto_brim",
+    "brim_width": 5,
+    "detect_thin_wall": false,
+    "minimum_sparse_infill_area": 15
+  },
+  "presets": {
+    "baseline": {
+      "top_shell_layers": 5,
+      "top_shell_thickness": 1,
+      "sparse_infill_density": "10%"
+    },
+    "low": {
+      "top_shell_layers": 3,
+      "top_shell_thickness": 0.6,
+      "sparse_infill_density": "5%"
+    }
+  },
+  "results": {
+    "default_retess": {
+      "baseline": {
+        "wide": {
+          "grams_total": 62.24199295043945,
+          "return_code": 0,
+          "gcode_sha256": "f8036dd71aeeab0719f262dde220635d5e458df8ff6f5453c6f383eeabc64b7f",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 40.715057373046875,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "5",
+            "top_shell_thickness": "1",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "10%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "narrow": {
+          "grams_total": 57.94014358520508,
+          "return_code": 0,
+          "gcode_sha256": "b1daa71217630f87cf661f2238f641e1e022b864bfcccf7b9dd8753f6fa18769",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 34.112953186035156,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "5",
+            "top_shell_thickness": "1",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "10%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "combined_grams": 120.18213653564453
+      },
+      "low": {
+        "wide": {
+          "grams_total": 59.021549224853516,
+          "return_code": 0,
+          "gcode_sha256": "eb3a76496332a338bdab137a9f4f9e3352a7dbe36defeaab82bdbae1905e4938",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 40.715057373046875,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "3",
+            "top_shell_thickness": "0.6",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "5%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "narrow": {
+          "grams_total": 54.27665328979492,
+          "return_code": 0,
+          "gcode_sha256": "0921f970d9f5ad6a8d4b6675907852579009d702e3c4cfc08e9027fa8695bf5d",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 34.112953186035156,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "3",
+            "top_shell_thickness": "0.6",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "5%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "combined_grams": 113.29820251464844
+      }
+    },
+    "R38_5": {
+      "baseline": {
+        "wide": {
+          "grams_total": 61.31575393676758,
+          "return_code": 0,
+          "gcode_sha256": "6bfa7a4c75143eca8fa6d73de08b221a03dae49f193ecd71d871a0c5ebefb610",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 40.715057373046875,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "5",
+            "top_shell_thickness": "1",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "10%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "narrow": {
+          "grams_total": 57.762939453125,
+          "return_code": 0,
+          "gcode_sha256": "d7dbaf4db63d348f42deb7fc5ac465256f1300f23fb9406dbc95134581c0da4a",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 34.112953186035156,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "5",
+            "top_shell_thickness": "1",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "10%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "combined_grams": 119.07869338989258
+      },
+      "low": {
+        "wide": {
+          "grams_total": 58.54166030883789,
+          "return_code": 0,
+          "gcode_sha256": "f30117d9ec7dcfabf60478e7ac8a7453db1bbd10267e91c57ba3780de51e3367",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 40.715057373046875,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "3",
+            "top_shell_thickness": "0.6",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "5%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "narrow": {
+          "grams_total": 54.81542205810547,
+          "return_code": 0,
+          "gcode_sha256": "043319893477f689e8a55c6ccdea66b9e30c2ab75bcad0cd56b744fde667073a",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 34.112953186035156,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "3",
+            "top_shell_thickness": "0.6",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "5%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "combined_grams": 113.35708236694336
+      }
+    },
+    "R38_5_skin04": {
+      "baseline": {
+        "wide": {
+          "grams_total": 57.426536560058594,
+          "return_code": 0,
+          "gcode_sha256": "a9009ba52ab7f304071d52a2f84dfe7d9cf6cfce4604125d00434215cccb57f8",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 40.715057373046875,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "5",
+            "top_shell_thickness": "1",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "10%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "narrow": {
+          "grams_total": 53.80839920043945,
+          "return_code": 0,
+          "gcode_sha256": "53ed18f85571d2424f7c569b562f13478fc139b6a5ad3e06772dd340c9ac13b0",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 34.112953186035156,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "5",
+            "top_shell_thickness": "1",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "10%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "combined_grams": 111.23493576049805
+      },
+      "low": {
+        "wide": {
+          "grams_total": 54.60755920410156,
+          "return_code": 0,
+          "gcode_sha256": "65259f2d49b13f2e7c70152ecff7417f7f5dc27f005f23b837b6fa4da06a67bc",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 40.715057373046875,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "3",
+            "top_shell_thickness": "0.6",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "5%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "narrow": {
+          "grams_total": 50.663150787353516,
+          "return_code": 0,
+          "gcode_sha256": "2c3e30ddcbb5f39bb137d6b55e0d1d94b08c517c19d229eae38c007e30525665",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 34.112953186035156,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "3",
+            "top_shell_thickness": "0.6",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "5%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "combined_grams": 105.27070999145508
+      }
+    },
+    "original_lower_skin04": {
+      "baseline": {
+        "wide": {
+          "grams_total": 58.335906982421875,
+          "return_code": 0,
+          "gcode_sha256": "132a4e031ab6352a872f85a9333aaf3b05bb91be8f005bdd1ae3ff41f3d6acd0",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 40.715057373046875,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "5",
+            "top_shell_thickness": "1",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "10%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "narrow": {
+          "grams_total": 53.91816711425781,
+          "return_code": 0,
+          "gcode_sha256": "52d9cb81639af54fcb4886e7928aacc8d00748a87d305af97078fd327e9a4237",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 34.112953186035156,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "5",
+            "top_shell_thickness": "1",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "10%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "combined_grams": 112.25407409667969
+      },
+      "low": {
+        "wide": {
+          "grams_total": 55.02150344848633,
+          "return_code": 0,
+          "gcode_sha256": "24d1bdcbc5f6048dbc0921c262bc25380cfe06d6bf9e83a54df416bee9119e36",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 40.715057373046875,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "3",
+            "top_shell_thickness": "0.6",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "5%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "narrow": {
+          "grams_total": 50.248104095458984,
+          "return_code": 0,
+          "gcode_sha256": "bb99bb8ba80d23e989bb415a1d08767e26ec464faf8cf2010a2df7c62a4b49c5",
+          "bbox": {
+            "depth": 199.9638214111328,
+            "height": 34.112953186035156,
+            "width": 200.0260009765625,
+            "x": 20.411375045776367,
+            "y": 26.769519805908203,
+            "z": 0.0
+          },
+          "observed_settings": {
+            "top_shell_layers": "3",
+            "top_shell_thickness": "0.6",
+            "bottom_shell_layers": "3",
+            "sparse_infill_density": "5%",
+            "wall_loops": "2",
+            "ensure_vertical_shell_thickness": "enabled"
+          }
+        },
+        "combined_grams": 105.26960754394531
+      }
+    }
+  },
+  "user_mesh_reference": {
+    "wide_original_grams": 61.83735656738281,
+    "wide_independent_retess_grams": 62.24199295043945,
+    "difference_grams": 0.4046363830566406,
+    "note": "Actual Bambu imported mesh differs from CadQuery tessellation; use same retessellation baseline for geometry comparisons, not claim all deltas are geometry-only against screenshot."
+  },
+  "candidate_dimensions": {
+    "R38_5": {
+      "hub_lower_inner_radius": 38.5,
+      "lower_wall_wide": 2.35,
+      "lower_wall_narrow": 2.15,
+      "skin": 0.6
+    },
+    "R38_5_skin04": {
+      "hub_lower_inner_radius": 38.5,
+      "lower_wall_wide": 2.35,
+      "lower_wall_narrow": 2.15,
+      "skin": 0.4,
+      "rib_height_above_skin": 2.8,
+      "rib_total_height": 3.2,
+      "foot_min_height": 1.4
+    },
+    "original_lower_skin04": {
+      "hub_lower_inner_radius": 36.8,
+      "lower_wall_wide": 4.05,
+      "lower_wall_narrow": 3.85,
+      "skin": 0.4,
+      "rib_height_above_skin": 2.8,
+      "rib_total_height": 3.2,
+      "foot_min_height": 1.4
+    }
+  },
+  "limitations": [
+    "Estimates from two separately sliced halves, not weighed prints.",
+    "No strength/load/physical-fit validation.",
+    "0.4mm flange skin is only two nominal0.2mm layers and is more vulnerable to tearing/warping/lateral bending.",
+    "5% infill and3top layers are low-material test settings, not a proven load-safe preset.",
+    "Thinner lower hub can replace sparse infill with dense gap-fill; lower BRep volume is not a guarantee of lower sliced mass.",
+    "Original default model/UI settings unchanged; temporary3MF files are test containers, not user deliverables."
+  ]
+}

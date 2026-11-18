@@ -1,0 +1,30 @@
+{
+  "baseline_parameters": "parameters.json",
+  "light_flange": {
+    "core_keep_radius": 44.5,
+    "skin_thickness": 0.6,
+    "rib_width": 4.5,
+    "rib_total_height": 3.2,
+    "rib_count": 8,
+    "rim_width": 5.0,
+    "hole_pad_radius": 3.1,
+    "logo_scale": 0.9,
+    "logo_rings": [
+      {
+        "radius_fraction": 0.171717171717,
+        "count": 16,
+        "relative_scale": 0.99
+      },
+      {
+        "radius_fraction": 0.515151515152,
+        "count": 24,
+        "relative_scale": 0.99
+      },
+      {
+        "radius_fraction": 0.858585858586,
+        "count": 32,
+        "relative_scale": 0.9
+      }
+    ]
+  }
+}

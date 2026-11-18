@@ -1,0 +1,72 @@
+{
+  "step_readback_valid": true,
+  "solids": 1,
+  "faces": 53,
+  "sections": [
+    {
+      "z": 31.27,
+      "hausdorff_mm": 0.004875517537808172
+    },
+    {
+      "z": 31.5,
+      "hausdorff_mm": 0.004890152736821898
+    },
+    {
+      "z": 31.9,
+      "hausdorff_mm": 0.004915605256850553
+    },
+    {
+      "z": 31.99,
+      "hausdorff_mm": 0.011124901126954155
+    },
+    {
+      "z": 32.05,
+      "hausdorff_mm": 0.007012074134538218
+    },
+    {
+      "z": 32.15,
+      "hausdorff_mm": 0.007539798287239656
+    },
+    {
+      "z": 32.26,
+      "hausdorff_mm": 0.004938514929523083
+    },
+    {
+      "z": 32.4,
+      "hausdorff_mm": 0.0049474233115340376
+    },
+    {
+      "z": 32.62,
+      "hausdorff_mm": 0.0049614221975493155
+    },
+    {
+      "z": 32.7,
+      "hausdorff_mm": 0.004964447117645361
+    },
+    {
+      "z": 32.9,
+      "hausdorff_mm": 0.004964447117645361
+    },
+    {
+      "z": 33.1,
+      "hausdorff_mm": 0.004964447117645361
+    },
+    {
+      "z": 33.35,
+      "hausdorff_mm": 0.004964447117645361
+    },
+    {
+      "z": 33.6,
+      "hausdorff_mm": 0.004964447117645361
+    },
+    {
+      "z": 33.9,
+      "hausdorff_mm": 0.004982004390043667
+    },
+    {
+      "z": 34.08,
+      "hausdorff_mm": 0.004995418716372751
+    }
+  ],
+  "method": "Official mesh-plane boundary vs actual STEP readback sampled CAD edges <=.01mm; only inner tube region r<32; no assembly validation."
+}

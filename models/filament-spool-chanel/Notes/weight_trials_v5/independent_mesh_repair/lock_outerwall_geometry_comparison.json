@@ -1,0 +1,88 @@
+{
+  "method": "Positive-extrusion Outer wall G1/G2/G3 traces, radius26..34mm around observed Gcode sleeve axis,13 selected lock layers; arcs sampled at nominal<=0.02mm. Commands and seams may differ; not a physical fit or load proof.",
+  "checks": [
+    {
+      "z": 32.4,
+      "trace_hausdorff_mm": 0.027458684217356293,
+      "original_trace_length_mm": 420.69291109148764,
+      "repaired_trace_length_mm": 420.6933022724802
+    },
+    {
+      "z": 32.6,
+      "trace_hausdorff_mm": 0.02479139987416634,
+      "original_trace_length_mm": 420.675230725183,
+      "repaired_trace_length_mm": 420.67423272268314
+    },
+    {
+      "z": 33.0,
+      "trace_hausdorff_mm": 0.027286878232704096,
+      "original_trace_length_mm": 420.70494610866746,
+      "repaired_trace_length_mm": 420.70392040902703
+    },
+    {
+      "z": 33.6,
+      "trace_hausdorff_mm": 0.023330921146960705,
+      "original_trace_length_mm": 420.69734551693904,
+      "repaired_trace_length_mm": 420.69785533646836
+    },
+    {
+      "z": 34.0,
+      "trace_hausdorff_mm": 0.029871762475541033,
+      "original_trace_length_mm": 420.6924948226527,
+      "repaired_trace_length_mm": 420.69427139084013
+    },
+    {
+      "z": 34.2,
+      "trace_hausdorff_mm": 0.02963057421190355,
+      "original_trace_length_mm": 420.69239538912467,
+      "repaired_trace_length_mm": 420.6944801685731
+    },
+    {
+      "z": 34.6,
+      "trace_hausdorff_mm": 0.02342391758868696,
+      "original_trace_length_mm": 418.351769370955,
+      "repaired_trace_length_mm": 418.3521270205825
+    },
+    {
+      "z": 35.0,
+      "trace_hausdorff_mm": 0.029621182025826732,
+      "original_trace_length_mm": 414.4073860872197,
+      "repaired_trace_length_mm": 414.41004698022465
+    },
+    {
+      "z": 35.4,
+      "trace_hausdorff_mm": 0.028666291051523362,
+      "original_trace_length_mm": 412.70536645109115,
+      "repaired_trace_length_mm": 412.70460368836444
+    },
+    {
+      "z": 36.0,
+      "trace_hausdorff_mm": 0.027955763894053465,
+      "original_trace_length_mm": 415.7265126572145,
+      "repaired_trace_length_mm": 415.7287585455128
+    },
+    {
+      "z": 36.2,
+      "trace_hausdorff_mm": 0.029440386298282235,
+      "original_trace_length_mm": 416.3276272173147,
+      "repaired_trace_length_mm": 416.3271826450296
+    },
+    {
+      "z": 36.6,
+      "trace_hausdorff_mm": 0.030030424916806298,
+      "original_trace_length_mm": 416.3216400683758,
+      "repaired_trace_length_mm": 416.32253179842695
+    },
+    {
+      "z": 37.2,
+      "trace_hausdorff_mm": 0.02681231673060682,
+      "original_trace_length_mm": 414.8456981759341,
+      "repaired_trace_length_mm": 414.84550048733763
+    }
+  ],
+  "max_selected_trace_distance_mm": 0.030030424916806298,
+  "gcode_filter_axis_xy": [
+    120.424375,
+    124.75143
+  ]
+}

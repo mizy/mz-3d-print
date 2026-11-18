@@ -1,0 +1,2 @@
+wide [{'part': 'wide', 'region': 'core', 'removed_mm3': 0.0, 'added_mm3': 9.809974124714662}, {'part': 'wide', 'region': 'hub', 'removed_mm3': 0.0, 'added_mm3': 0.0}, {'part': 'wide', 'region': 'rim', 'removed_mm3': 0.0, 'added_mm3': 0.0}]
+narrow [{'part': 'narrow', 'region': 'core', 'removed_mm3': 0.0, 'added_mm3': 11.221835667265891}, {'part': 'narrow', 'region': 'hub', 'removed_mm3': 0.0, 'added_mm3': 0.0}, {'part': 'narrow', 'region': 'rim', 'removed_mm3': 0.0, 'added_mm3': 0.0}]

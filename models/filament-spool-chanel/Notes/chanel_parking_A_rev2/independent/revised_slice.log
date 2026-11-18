@@ -1,0 +1,4 @@
+{'part': 'wide', 'vertices': 124064, 'triangles': 248416, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'watertight': True, 'solid_valid': True}
+wide SLICED 0
+{'part': 'narrow', 'vertices': 117365, 'triangles': 235018, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'watertight': True, 'solid_valid': True}
+narrow SLICED 0

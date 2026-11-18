@@ -1,0 +1,133 @@
+[
+  {
+    "tangent_distance_mm": 3.5,
+    "height_mm": 2.15,
+    "material_intervals_along_radial_coordinate_mm": [
+      [
+        94.93550442273954,
+        95.85000000000221
+      ],
+      [
+        97.94999999999867,
+        99.93873123068953
+      ]
+    ],
+    "interval_widths_mm": [
+      0.9144955772626702,
+      1.9887312306908598
+    ]
+  },
+  {
+    "tangent_distance_mm": 4,
+    "height_mm": 2.15,
+    "material_intervals_along_radial_coordinate_mm": [
+      [
+        94.91575211733824,
+        95.85000000000048
+      ],
+      [
+        97.95000000000041,
+        99.91996797437437
+      ]
+    ],
+    "interval_widths_mm": [
+      0.934247882662234,
+      1.969967974373958
+    ]
+  },
+  {
+    "tangent_distance_mm": 5,
+    "height_mm": 2.15,
+    "material_intervals_along_radial_coordinate_mm": [
+      [
+        94.86832980505137,
+        95.85000000000217
+      ],
+      [
+        97.9499999999987,
+        99.87492177719089
+      ]
+    ],
+    "interval_widths_mm": [
+      0.9816701949507944,
+      1.9249217771921963
+    ]
+  },
+  {
+    "tangent_distance_mm": 8,
+    "height_mm": 2.15,
+    "material_intervals_along_radial_coordinate_mm": [
+      [
+        94.66255859631093,
+        95.85000000000213
+      ],
+      [
+        97.94999999999881,
+        99.67948635501689
+      ]
+    ],
+    "interval_widths_mm": [
+      1.1874414036911958,
+      1.7294863550180821
+    ]
+  },
+  {
+    "tangent_distance_mm": 10,
+    "height_mm": 2.15,
+    "material_intervals_along_radial_coordinate_mm": [
+      [
+        94.47221813845591,
+        95.84999999999977
+      ],
+      [
+        95.84999999999977,
+        97.94999999999989
+      ],
+      [
+        97.94999999999989,
+        99.498743710662
+      ]
+    ],
+    "interval_widths_mm": [
+      1.377781861543852,
+      2.100000000000122,
+      1.5487437106621087
+    ]
+  },
+  {
+    "tangent_distance_mm": 4,
+    "height_mm": 3.55,
+    "material_intervals_along_radial_coordinate_mm": [
+      [
+        94.91575211733824,
+        95.91666666666775
+      ],
+      [
+        97.88333333333132,
+        99.56968665211346
+      ]
+    ],
+    "interval_widths_mm": [
+      1.000914549329508,
+      1.686353318782139
+    ]
+  },
+  {
+    "tangent_distance_mm": 10,
+    "height_mm": 3.55,
+    "material_intervals_along_radial_coordinate_mm": [
+      [
+        94.47221813845591,
+        95.91666666666644
+      ],
+      [
+        97.88333333333321,
+        99.14697423522344
+      ]
+    ],
+    "interval_widths_mm": [
+      1.444448528210529,
+      1.263640901890227
+    ]
+  }
+]

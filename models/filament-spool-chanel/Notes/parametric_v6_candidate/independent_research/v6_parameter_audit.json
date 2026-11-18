@@ -1,0 +1,67 @@
+{
+  "unchanged_v5_files": {
+    "config.py": true,
+    "body.py": true,
+    "motif.py": true,
+    "native_loft.py": true,
+    "parameters.json": true,
+    "native_lock_sections.json": true
+  },
+  "transform_test_config": {
+    "rolling_outer_radius": 100.013,
+    "rim_radial_width": 5.013,
+    "rim_height": 3.615,
+    "skin_thickness": 0.6,
+    "rib_width": 4.0,
+    "rib_height_above_skin": 2.6,
+    "rib_count": 8,
+    "logo_scale": 1.0,
+    "logo_rings": [
+      {
+        "fraction": 0.18489065606361824,
+        "count": 16,
+        "relative_scale": 0.99
+      },
+      {
+        "fraction": 0.5228628230616302,
+        "count": 24,
+        "relative_scale": 0.99
+      },
+      {
+        "fraction": 0.8608349900596421,
+        "count": 32,
+        "relative_scale": 0.9
+      }
+    ],
+    "hub_outer_radius": 40.85,
+    "hub_lower_inner_radius": 36.8,
+    "sleeve_wall_extra": 0.0,
+    "shaft_bore_radius": 27.8,
+    "lock_reference_bore_radius": 31.6,
+    "lock_axial_scale": 1.01,
+    "wide_lock_wall_thickness": 2.2,
+    "bridge_width": 1.2
+  },
+  "max_xy_transform_error_mm": 0,
+  "max_z_transform_error_mm": 0,
+  "source_control_data_unmodified": true,
+  "nominal_base_adjustment_mm": {
+    "wide_inward": 0.00805095541401274,
+    "narrow_outward": 0.005031847133757962,
+    "potential_radial_clearance_reduction": 0.0130828025477707
+  },
+  "code_hashes": {
+    "run_component_tests.py": "68a468669a239123f84a2e88e76e5e3416f54074425a08490e3b153d911a228a",
+    "config.py": "902ba74293b15e10b19dea808623583a91af0892b0362c7c4bab74ce44c34db4",
+    "body.py": "5c4a9111b227bd89d1888a5e4642d35b802b07efa80be5e942970a083a1b9885",
+    "native_loft.py": "ae1b6ec71729a6369b48ce5bcf7bc7be7600700f56385ae05f237f854f80f18f",
+    "motif.py": "b88623bcf25f533df2641c6bd1d48bd730943784780426855c01131d867efc88",
+    "lock.py": "caa5b67065fb22b4ed69a067010d17fe1c33361f0981142866fe481b2f168b8e",
+    "rebuild.py": "98ce32b533bd865c9d5955d140265c8b3aec3872e3811f463c2f927fdcbeda76"
+  },
+  "limitations": [
+    "Source/dataflow and affine control tests, not full variant geometry regression",
+    "Offset changes mating geometry; sampled shape agreement does not establish fit",
+    "All current validation remains numerical, not physical"
+  ]
+}

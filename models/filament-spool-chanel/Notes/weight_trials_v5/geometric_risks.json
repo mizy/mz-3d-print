@@ -1,0 +1,18 @@
+{
+  "wide": {
+    "outer_radius_mm": 40.85,
+    "old_lower_wall_mm": 4.050000000000004,
+    "new_lower_wall_mm": 2.3500000000000014,
+    "solid_annular_area_before_mm2": 987.975911682553,
+    "solid_annular_area_after_mm2": 585.820636096523,
+    "geometric_material_area_reduction_percent": 40.704967685006345
+  },
+  "narrow": {
+    "outer_radius_mm": 40.65,
+    "old_lower_wall_mm": 3.8500000000000014,
+    "new_lower_wall_mm": 2.1499999999999986,
+    "solid_annular_area_before_mm2": 936.7679514290388,
+    "solid_annular_area_after_mm2": 534.6126758430088,
+    "geometric_material_area_reduction_percent": 42.93008476352574
+  }
+}

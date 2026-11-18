@@ -1,0 +1,62 @@
+{
+  "source_sha256": "4f8c7d6e734403c08c46582f778d88ea3db651e86a382185a62019d52054ff99",
+  "wide_axis_xy": [
+    -0.0273430863,
+    0.0010603425
+  ],
+  "narrow_axis_xy": [
+    0.0015810415,
+    -0.0274228517
+  ],
+  "transform": "translate(-narrow_axis), Rx(180deg), Rz(theta), translate(wide_axis,H)",
+  "H_stop_mm": 66.430113973,
+  "chosen_theta_deg": 10,
+  "checks": [
+    {
+      "H": 66.430113973,
+      "theta_deg": 10,
+      "intersection_valid": true,
+      "intersection_solid_count": 0,
+      "intersection_volume_mm3": 0,
+      "elapsed_seconds": 16.519388914108276
+    },
+    {
+      "H": 66.430113973,
+      "theta_deg": 51,
+      "intersection_valid": true,
+      "intersection_solid_count": 0,
+      "intersection_volume_mm3": 0,
+      "elapsed_seconds": 13.972646236419678
+    },
+    {
+      "H": 68.430113973,
+      "theta_deg": 51,
+      "intersection_valid": true,
+      "intersection_solid_count": 0,
+      "intersection_volume_mm3": 0,
+      "elapsed_seconds": 13.13149118423462
+    },
+    {
+      "H": 66.530113973,
+      "theta_deg": 10,
+      "intersection_valid": true,
+      "intersection_solid_count": 4,
+      "intersection_volume_mm3": 1.0640218572549138,
+      "elapsed_seconds": 20.077097415924072
+    }
+  ],
+  "assembly_file": {
+    "path": "/Users/miaozhuang/Projects/mz-3d-print/models/filament-spool-chanel/Models/Assembly/CHANEL_v6_ASSEMBLY_LOCK_ZONE_10deg.step",
+    "bytes": 25604196,
+    "sha256": "e62b68681a4d1de5b186df5d1eee86fc9584aa1a3e25e4d59bc2cff8402968c5",
+    "reimport_valid": true,
+    "reimport_solids": 2
+  },
+  "digital_assembly_only": true,
+  "full_model_3d_minimum_clearance_computed": false,
+  "continuous_motion_sweep_validated": false,
+  "physical_fit_validated": false,
+  "sampled_path_pose_count": 185,
+  "minimum_sampled_radial_envelope_clearance_mm": 0.1302611660473012,
+  "source_candidate_fit_changes_remain_applicable": true
+}

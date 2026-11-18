@@ -1,0 +1,42 @@
+{
+  "wide": {
+    "total_g": 55.02150344848633,
+    "support_estimate_g": 0,
+    "total_minus_support_g": 55.02150344848633,
+    "extrusion_role_estimates_g": {
+      "Outer wall": 17.629703073258494,
+      "Inner wall": 16.426809839286896,
+      "Gap infill": 3.411365941196236,
+      "Bottom surface": 3.2959945082577495,
+      "Overhang wall": 0.0787085222705244,
+      "Internal solid infill": 3.2319698450672885,
+      "Top surface": 4.7102485470566435,
+      "Bridge": 1.343832297794087,
+      "Sparse infill": 2.817899076776852,
+      "Floating vertical shell": 1.979050727625739
+    }
+  },
+  "narrow": {
+    "total_g": 50.248104095458984,
+    "support_estimate_g": 3.4206451665382014,
+    "total_minus_support_g": 46.827458928920784,
+    "extrusion_role_estimates_g": {
+      "Support": 3.320221519449392,
+      "Outer wall": 14.131700573431722,
+      "Inner wall": 11.358118069812361,
+      "Gap infill": 2.8213693166853555,
+      "Bottom surface": 3.3127046467833576,
+      "Overhang wall": 0.11377989953287468,
+      "Top surface": 4.7574863374571,
+      "Internal solid infill": 3.828672470010508,
+      "Bridge": 1.2978618446411208,
+      "Sparse infill": 2.825798643258953,
+      "Floating vertical shell": 2.284047343482138,
+      "Support interface": 0.10042364708880917
+    }
+  },
+  "combined_total_g": 105.26960754394531,
+  "combined_support_g": 3.4206451665382014,
+  "combined_minus_support_g": 101.8489623774071,
+  "note": "Approximate support estimate from Gcode role extrusion. Total minus support still may include custom/purge paths and is not a measured finished-part weight. Machine purging/calibration waste may not be fully represented by slicer totals."
+}

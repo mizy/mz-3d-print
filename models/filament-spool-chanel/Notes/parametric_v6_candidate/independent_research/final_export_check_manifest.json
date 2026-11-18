@@ -1,0 +1,18 @@
+{
+  "final_export_independent_readback.json": {
+    "bytes": 2613,
+    "sha256": "9010d69cb5db895fc4a04caf879a938208e18fee93032deca7e9b74f11abfcc2"
+  },
+  "final_step_check.py": {
+    "bytes": 2399,
+    "sha256": "5047878ad19ce360b7d1d342c4cd58408644658106c3696a97f1f09784e9e7e1"
+  },
+  "final_step_check.log": {
+    "bytes": 3452,
+    "sha256": "d5a91b02f8dc304b012a4c270756984bfd3a73195eabd03f6080ea0e61a7e7f5"
+  },
+  "reference_npz": {
+    "wide": "ce327e74777db4be89e15674a92a441635d20b2c1837ae263daf420bd2f902f6",
+    "narrow": "ee1bc751b385075bae32860519c36ee647a46ddf6015023e27102f854301d7f9"
+  }
+}

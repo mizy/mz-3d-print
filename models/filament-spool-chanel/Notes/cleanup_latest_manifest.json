@@ -1,0 +1,574 @@
+{
+  "time_utc": "2026-11-18T11:09:54.884150+00:00",
+  "mode": "recoverable trash; no permanent deletion",
+  "trash_directory": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954",
+  "moved_roots": [
+    "Models/ChanelLight/CHANEL_OFFICIAL_LIGHT_PARKING_A_TRIAL.step",
+    "Models/ChanelLight/REJECTED_THIN_WALL_PARKING_A_RESEARCH.step",
+    "Models/ChanelLight/BAMBU_OFFICIAL_DERIVED_LIGHT_CHANEL.step",
+    "Source/chanel_parking_A_trial",
+    "Source/chanel_parking_A_rev2",
+    "Source/official_baseline_wip",
+    "Source/CHANEL_parametric_v5_source.zip",
+    "Source/CHANEL_parametric_v6_candidate_source.zip",
+    "Source/CHANEL_weight_trials_v5_source.zip",
+    "Source/CHANEL_PARKING_A_PARAMETRIC_SOURCE.zip",
+    "Source/REJECTED_THIN_WALL_PARKING_A_SOURCE.zip",
+    "Source/BAMBU_official_and_CHANEL_parametric_sources.zip"
+  ],
+  "moved_file_count": 76,
+  "moved_bytes": 18525010,
+  "protected_hashes": {
+    "Models/ChanelLight/PARKING_A_WINDOW_TRIAL.3mf": "0c2ed6c81a51750fe3e9d5beb36dfe809adec5e09428b4aba7db5b47cac8f4f3",
+    "Models/ChanelLight/CHANEL_PARKING_A_SELF_SUPPORT_ROOF_TRIAL.step": "be8fbf5507f595c9ff257d2532e44dcd33dabd9673f9b35177b9fa879b196f52"
+  },
+  "files": [
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Models/ChanelLight/CHANEL_OFFICIAL_LIGHT_PARKING_A_TRIAL.step",
+      "relative": "Models/ChanelLight/CHANEL_OFFICIAL_LIGHT_PARKING_A_TRIAL.step",
+      "bytes": 5967391,
+      "sha256": "4c9663fe22cbe9446749cfd2c6af7f0b1d96c0cae93d811498bcc00d78633fe5",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Models/ChanelLight/CHANEL_OFFICIAL_LIGHT_PARKING_A_TRIAL.step"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Models/ChanelLight/REJECTED_THIN_WALL_PARKING_A_RESEARCH.step",
+      "relative": "Models/ChanelLight/REJECTED_THIN_WALL_PARKING_A_RESEARCH.step",
+      "bytes": 6023599,
+      "sha256": "2a9a90e515ec0cf17acaff509222ef11212af3afefab1e0417f28ee97fda2742",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Models/ChanelLight/REJECTED_THIN_WALL_PARKING_A_RESEARCH.step"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Models/ChanelLight/BAMBU_OFFICIAL_DERIVED_LIGHT_CHANEL.step",
+      "relative": "Models/ChanelLight/BAMBU_OFFICIAL_DERIVED_LIGHT_CHANEL.step",
+      "bytes": 5612378,
+      "sha256": "b26dcb05109f909c602846a17ab03ffc789f25835667d195ae3bcf81d4c38ac7",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Models/ChanelLight/BAMBU_OFFICIAL_DERIVED_LIGHT_CHANEL.step"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/build_light.py",
+      "relative": "Source/chanel_parking_A_trial/build_light.py",
+      "bytes": 2008,
+      "sha256": "b82cc9f4e12b2fc16a109435748b3897501d82778f83c52d6f132ba3ced718ba",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/build_light.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/HUB_README.md",
+      "relative": "Source/chanel_parking_A_trial/HUB_README.md",
+      "bytes": 4471,
+      "sha256": "3c6a38c7863811def246cd1e6f755205721c4cf3d419ab5c5454fc8a11726d4c",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/HUB_README.md"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/parameters.json",
+      "relative": "Source/chanel_parking_A_trial/parameters.json",
+      "bytes": 2892,
+      "sha256": "b01e7e68a3698a665d92f9ca4d748775e04a85d6ffe1c63db2936a5b63d1ae49",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/parameters.json"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/requirements.txt",
+      "relative": "Source/chanel_parking_A_trial/requirements.txt",
+      "bytes": 38,
+      "sha256": "b2d29e6c5f5d7698d54f8d4ce1b6b63410fbce33483c70e15e47d62e025f9cc0",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/requirements.txt"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/narrow_lock.py",
+      "relative": "Source/chanel_parking_A_trial/narrow_lock.py",
+      "bytes": 3543,
+      "sha256": "1dcf8d8e8e2d63f2fe62237433a305ffb66df53227e739d7c2d9a35e9927a81f",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/narrow_lock.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/official_hub.py",
+      "relative": "Source/chanel_parking_A_trial/official_hub.py",
+      "bytes": 4822,
+      "sha256": "d15d08fac96d0a42daab6fb3b1471852a9992a3ab6066e6aa86e573a40f6b59c",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/official_hub.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/wide_cap_planes.json",
+      "relative": "Source/chanel_parking_A_trial/wide_cap_planes.json",
+      "bytes": 748,
+      "sha256": "ed03491dc0f5e77ce61d23e0f841492c7489ba9276f0b43b2dca1190df1733ed",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/wide_cap_planes.json"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/parking_slot.py",
+      "relative": "Source/chanel_parking_A_trial/parking_slot.py",
+      "bytes": 2000,
+      "sha256": "b1fe246ed73bf26cab948d528b86fc877bdca8964ffa7918e2c08d5b37a23b39",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/parking_slot.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/wide_lock.py",
+      "relative": "Source/chanel_parking_A_trial/wide_lock.py",
+      "bytes": 3224,
+      "sha256": "59e9d811289c00f61c21b97a8d42c80216517659ddf4d36d2fd5baa34aae31fb",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/wide_lock.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/official_key.py",
+      "relative": "Source/chanel_parking_A_trial/official_key.py",
+      "bytes": 1933,
+      "sha256": "889ce6d4adea50cfb3a8e8b14f790c0ccba1a0e2a45a617c22e54429e57963cb",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/official_key.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/README.md",
+      "relative": "Source/chanel_parking_A_trial/README.md",
+      "bytes": 2828,
+      "sha256": "f9071adb84f5aed8f08af69cbc4d55e177fb3154476a81a34dc56dba9d52ee65",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/README.md"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/build_official.py",
+      "relative": "Source/chanel_parking_A_trial/build_official.py",
+      "bytes": 3600,
+      "sha256": "f3e664651f0f671c86bbcba22feef380097e77fa70d09a65a0389569032ed324",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/build_official.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/light_parameters.json",
+      "relative": "Source/chanel_parking_A_trial/light_parameters.json",
+      "bytes": 841,
+      "sha256": "fc2a59f014ae60350e0827c1938fe8d2b4dbdb7ae3c8bed237d192e35ff65329",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/light_parameters.json"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/official_flange.py",
+      "relative": "Source/chanel_parking_A_trial/official_flange.py",
+      "bytes": 4717,
+      "sha256": "3f77169d940cec8e49f7a48d0e506321b453abb757d620650c436aa90aaa49eb",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/official_flange.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/wide_lock_sketches.json",
+      "relative": "Source/chanel_parking_A_trial/wide_lock_sketches.json",
+      "bytes": 33355,
+      "sha256": "d7d342c29e7da962bbe0ac200807d59c913a6e3bc107afe5d6999225fe49a247",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/wide_lock_sketches.json"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/light_motif.py",
+      "relative": "Source/chanel_parking_A_trial/light_motif.py",
+      "bytes": 1981,
+      "sha256": "b88623bcf25f533df2641c6bd1d48bd730943784780426855c01131d867efc88",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/light_motif.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/wide_marker.py",
+      "relative": "Source/chanel_parking_A_trial/wide_marker.py",
+      "bytes": 2092,
+      "sha256": "81ff6127bae8053b1ac22a7618a51bdaa50939ff42e8c658192413e44acbabde",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/wide_marker.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/WIDE_MARKER_README.md",
+      "relative": "Source/chanel_parking_A_trial/WIDE_MARKER_README.md",
+      "bytes": 1950,
+      "sha256": "938b7d14f532843ab0a3cc9ebd9402e98e1483b6c756909ac09df5b866ad2965",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/WIDE_MARKER_README.md"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/light_flange.py",
+      "relative": "Source/chanel_parking_A_trial/light_flange.py",
+      "bytes": 3353,
+      "sha256": "24908092f710459549031e561752c445c2f6dcc76689ab8e11cbead0c33952c4",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/light_flange.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/variant.json",
+      "relative": "Source/chanel_parking_A_trial/variant.json",
+      "bytes": 840,
+      "sha256": "f9f07079cb64979d9ac1abc3d9f7bd351b3351850a9d3fd69c27295063cf9166",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/variant.json"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/NARROW_LOCK_README.md",
+      "relative": "Source/chanel_parking_A_trial/NARROW_LOCK_README.md",
+      "bytes": 2601,
+      "sha256": "bd12e55aee4f99b02f0b16ba0e2de698a4c184ffb11732ae4aaab9442611b173",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/NARROW_LOCK_README.md"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/__pycache__/build_official.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_trial/__pycache__/build_official.cpython-311.pyc",
+      "bytes": 9505,
+      "sha256": "52fae8432669bc9b4eb351a0a92f4d8fa3e65ab01ad82dd939f3924aa68c9a72",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/__pycache__/build_official.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/__pycache__/light_motif.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_trial/__pycache__/light_motif.cpython-311.pyc",
+      "bytes": 5855,
+      "sha256": "ae5dbffb005397d28dcfd76e87992fd7e5ab8760606b6ae15fba4e44aa5d6d21",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/__pycache__/light_motif.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/__pycache__/wide_lock.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_trial/__pycache__/wide_lock.cpython-311.pyc",
+      "bytes": 11212,
+      "sha256": "c11cdee5768c7208186a52024ff5e86a9da2ab814eb2e87d7bafb5e9b818db8e",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/__pycache__/wide_lock.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/__pycache__/official_flange.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_trial/__pycache__/official_flange.cpython-311.pyc",
+      "bytes": 11313,
+      "sha256": "58d94b90947ab90dbd2092359242747bb85cd8ee4a1c2ef6d890640691e069e8",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/__pycache__/official_flange.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/__pycache__/light_flange.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_trial/__pycache__/light_flange.cpython-311.pyc",
+      "bytes": 8735,
+      "sha256": "1eaeee3985e71304b313a2d297742a630dd26d53bbd1f9222fdf4acc6af4570c",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/__pycache__/light_flange.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/__pycache__/narrow_lock.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_trial/__pycache__/narrow_lock.cpython-311.pyc",
+      "bytes": 8905,
+      "sha256": "4789cdede8f0bbc0456607052b1cbb85bdebe34cf71850072c7af6d6aa046efa",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/__pycache__/narrow_lock.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/__pycache__/parking_slot.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_trial/__pycache__/parking_slot.cpython-311.pyc",
+      "bytes": 4703,
+      "sha256": "e354424e8211ed4c643e6a6bfbf9bbca0bca8a8bd535e612b4ffaba141502d0f",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/__pycache__/parking_slot.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/__pycache__/wide_marker.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_trial/__pycache__/wide_marker.cpython-311.pyc",
+      "bytes": 4966,
+      "sha256": "361e977c54f1c91efe7325461b1cc9294c793006a9acac34d23a87a7c997a69a",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/__pycache__/wide_marker.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/__pycache__/official_hub.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_trial/__pycache__/official_hub.cpython-311.pyc",
+      "bytes": 10642,
+      "sha256": "09c75c196243d872cff4c5c8b15eba39a93f9cfe4d9bb460047e684a03d00898",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/__pycache__/official_hub.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_trial/__pycache__/official_key.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_trial/__pycache__/official_key.cpython-311.pyc",
+      "bytes": 6419,
+      "sha256": "bef23bab109b3b488f7fe46692b1ff0a316c70f9548a0470330c983d36d200e3",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_trial/__pycache__/official_key.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/build_light.py",
+      "relative": "Source/chanel_parking_A_rev2/build_light.py",
+      "bytes": 2008,
+      "sha256": "b82cc9f4e12b2fc16a109435748b3897501d82778f83c52d6f132ba3ced718ba",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/build_light.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/HUB_README.md",
+      "relative": "Source/chanel_parking_A_rev2/HUB_README.md",
+      "bytes": 4471,
+      "sha256": "3c6a38c7863811def246cd1e6f755205721c4cf3d419ab5c5454fc8a11726d4c",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/HUB_README.md"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/parameters.json",
+      "relative": "Source/chanel_parking_A_rev2/parameters.json",
+      "bytes": 2892,
+      "sha256": "b01e7e68a3698a665d92f9ca4d748775e04a85d6ffe1c63db2936a5b63d1ae49",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/parameters.json"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/requirements.txt",
+      "relative": "Source/chanel_parking_A_rev2/requirements.txt",
+      "bytes": 38,
+      "sha256": "b2d29e6c5f5d7698d54f8d4ce1b6b63410fbce33483c70e15e47d62e025f9cc0",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/requirements.txt"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/narrow_lock.py",
+      "relative": "Source/chanel_parking_A_rev2/narrow_lock.py",
+      "bytes": 3543,
+      "sha256": "1dcf8d8e8e2d63f2fe62237433a305ffb66df53227e739d7c2d9a35e9927a81f",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/narrow_lock.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/official_hub.py",
+      "relative": "Source/chanel_parking_A_rev2/official_hub.py",
+      "bytes": 4822,
+      "sha256": "d15d08fac96d0a42daab6fb3b1471852a9992a3ab6066e6aa86e573a40f6b59c",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/official_hub.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/wide_cap_planes.json",
+      "relative": "Source/chanel_parking_A_rev2/wide_cap_planes.json",
+      "bytes": 748,
+      "sha256": "ed03491dc0f5e77ce61d23e0f841492c7489ba9276f0b43b2dca1190df1733ed",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/wide_cap_planes.json"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/parking_slot.py",
+      "relative": "Source/chanel_parking_A_rev2/parking_slot.py",
+      "bytes": 2208,
+      "sha256": "9db1414a90208f916bd27e92a37c6309e2008c28b5465fb4040ff6245415f628",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/parking_slot.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/wide_lock.py",
+      "relative": "Source/chanel_parking_A_rev2/wide_lock.py",
+      "bytes": 3224,
+      "sha256": "59e9d811289c00f61c21b97a8d42c80216517659ddf4d36d2fd5baa34aae31fb",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/wide_lock.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/official_key.py",
+      "relative": "Source/chanel_parking_A_rev2/official_key.py",
+      "bytes": 1933,
+      "sha256": "889ce6d4adea50cfb3a8e8b14f790c0ccba1a0e2a45a617c22e54429e57963cb",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/official_key.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/README.md",
+      "relative": "Source/chanel_parking_A_rev2/README.md",
+      "bytes": 3169,
+      "sha256": "a656a66389eb0651017c82c7b529f17abf663e2a5d7706392f1a02509c72f7ce",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/README.md"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/build_official.py",
+      "relative": "Source/chanel_parking_A_rev2/build_official.py",
+      "bytes": 3600,
+      "sha256": "f3e664651f0f671c86bbcba22feef380097e77fa70d09a65a0389569032ed324",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/build_official.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/light_parameters.json",
+      "relative": "Source/chanel_parking_A_rev2/light_parameters.json",
+      "bytes": 867,
+      "sha256": "751eb01eaf4c2e0cf1ac4165ae89ec0c6bc7ee619f2ea42dd397a40a278586e6",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/light_parameters.json"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/official_flange.py",
+      "relative": "Source/chanel_parking_A_rev2/official_flange.py",
+      "bytes": 4717,
+      "sha256": "3f77169d940cec8e49f7a48d0e506321b453abb757d620650c436aa90aaa49eb",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/official_flange.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/wide_lock_sketches.json",
+      "relative": "Source/chanel_parking_A_rev2/wide_lock_sketches.json",
+      "bytes": 33355,
+      "sha256": "d7d342c29e7da962bbe0ac200807d59c913a6e3bc107afe5d6999225fe49a247",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/wide_lock_sketches.json"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/light_motif.py",
+      "relative": "Source/chanel_parking_A_rev2/light_motif.py",
+      "bytes": 1981,
+      "sha256": "b88623bcf25f533df2641c6bd1d48bd730943784780426855c01131d867efc88",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/light_motif.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/wide_marker.py",
+      "relative": "Source/chanel_parking_A_rev2/wide_marker.py",
+      "bytes": 2092,
+      "sha256": "81ff6127bae8053b1ac22a7618a51bdaa50939ff42e8c658192413e44acbabde",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/wide_marker.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/WIDE_MARKER_README.md",
+      "relative": "Source/chanel_parking_A_rev2/WIDE_MARKER_README.md",
+      "bytes": 1950,
+      "sha256": "938b7d14f532843ab0a3cc9ebd9402e98e1483b6c756909ac09df5b866ad2965",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/WIDE_MARKER_README.md"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/light_flange.py",
+      "relative": "Source/chanel_parking_A_rev2/light_flange.py",
+      "bytes": 3353,
+      "sha256": "24908092f710459549031e561752c445c2f6dcc76689ab8e11cbead0c33952c4",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/light_flange.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/variant.json",
+      "relative": "Source/chanel_parking_A_rev2/variant.json",
+      "bytes": 866,
+      "sha256": "17fb7f2f816e9b0ec00f9a3b2d29452321ed6bbe14af29ab7c9ad84304f6169c",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/variant.json"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/NARROW_LOCK_README.md",
+      "relative": "Source/chanel_parking_A_rev2/NARROW_LOCK_README.md",
+      "bytes": 2601,
+      "sha256": "bd12e55aee4f99b02f0b16ba0e2de698a4c184ffb11732ae4aaab9442611b173",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/NARROW_LOCK_README.md"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/__pycache__/build_official.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_rev2/__pycache__/build_official.cpython-311.pyc",
+      "bytes": 9504,
+      "sha256": "31c15a39d3fe986eb1caf53862514c45ad032c15701d7481d2c814c0e82d7857",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/__pycache__/build_official.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/__pycache__/light_motif.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_rev2/__pycache__/light_motif.cpython-311.pyc",
+      "bytes": 5854,
+      "sha256": "eaca770e1fbf68e8852e52ab49a2aa6b8664bf51b921d33593feff80580d0189",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/__pycache__/light_motif.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/__pycache__/wide_lock.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_rev2/__pycache__/wide_lock.cpython-311.pyc",
+      "bytes": 11211,
+      "sha256": "1d3c7543c6ee005a2cc3cdd6df1fe21bd90d23302c486f11a76418300d7dab84",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/__pycache__/wide_lock.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/__pycache__/official_flange.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_rev2/__pycache__/official_flange.cpython-311.pyc",
+      "bytes": 11312,
+      "sha256": "c45ea415f20b0fde6e8ba529a2594e9f6a546fcdce3a463c732171c5ee73439f",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/__pycache__/official_flange.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/__pycache__/light_flange.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_rev2/__pycache__/light_flange.cpython-311.pyc",
+      "bytes": 8734,
+      "sha256": "dabcc54e05a693ca3c7959c7f31f2a76ebf6c2ee929106a7b5b28cca5c2df0bb",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/__pycache__/light_flange.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/__pycache__/narrow_lock.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_rev2/__pycache__/narrow_lock.cpython-311.pyc",
+      "bytes": 8904,
+      "sha256": "57916fa79390d4495b8d2e6dd5e79416e4679ab95fe6db6f300849b96ee76d8e",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/__pycache__/narrow_lock.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/__pycache__/parking_slot.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_rev2/__pycache__/parking_slot.cpython-311.pyc",
+      "bytes": 5161,
+      "sha256": "09f34abcfba4e0fa30ebda461ad0d55023e796fce52d8592f512270035ab18b2",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/__pycache__/parking_slot.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/__pycache__/wide_marker.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_rev2/__pycache__/wide_marker.cpython-311.pyc",
+      "bytes": 4965,
+      "sha256": "0aefc388e24f366e231fee8f05c8573496027e7b2d81403ba9b2fa97a4afb796",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/__pycache__/wide_marker.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/__pycache__/official_hub.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_rev2/__pycache__/official_hub.cpython-311.pyc",
+      "bytes": 10641,
+      "sha256": "3bd7f148b41b705211273dd67aac81858d65e4bc6933986e13064fab37992f75",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/__pycache__/official_hub.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/chanel_parking_A_rev2/__pycache__/official_key.cpython-311.pyc",
+      "relative": "Source/chanel_parking_A_rev2/__pycache__/official_key.cpython-311.pyc",
+      "bytes": 6418,
+      "sha256": "d7fabaf1c4746523e6cd889a0568189ef267dba4506e20d31655de209e58f8b3",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/chanel_parking_A_rev2/__pycache__/official_key.cpython-311.pyc"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/official_baseline_wip/flange_parameters.json",
+      "relative": "Source/official_baseline_wip/flange_parameters.json",
+      "bytes": 867,
+      "sha256": "ef3b364f5d1d97194156f090646f13cadb7b5f6aff6a1b03fc3e6bbe02999021",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/official_baseline_wip/flange_parameters.json"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/official_baseline_wip/SUPERSEDED.txt",
+      "relative": "Source/official_baseline_wip/SUPERSEDED.txt",
+      "bytes": 153,
+      "sha256": "72407763848dcc82b9c16a8be6b8949dba1bd2d93f7dd9ff637b52ce5b2b1099",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/official_baseline_wip/SUPERSEDED.txt"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/official_baseline_wip/official_key.py",
+      "relative": "Source/official_baseline_wip/official_key.py",
+      "bytes": 1933,
+      "sha256": "889ce6d4adea50cfb3a8e8b14f790c0ccba1a0e2a45a617c22e54429e57963cb",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/official_baseline_wip/official_key.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/official_baseline_wip/build_official.py",
+      "relative": "Source/official_baseline_wip/build_official.py",
+      "bytes": 3600,
+      "sha256": "f3e664651f0f671c86bbcba22feef380097e77fa70d09a65a0389569032ed324",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/official_baseline_wip/build_official.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/official_baseline_wip/official_flange.py",
+      "relative": "Source/official_baseline_wip/official_flange.py",
+      "bytes": 4717,
+      "sha256": "3f77169d940cec8e49f7a48d0e506321b453abb757d620650c436aa90aaa49eb",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/official_baseline_wip/official_flange.py"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/CHANEL_parametric_v5_source.zip",
+      "relative": "Source/CHANEL_parametric_v5_source.zip",
+      "bytes": 155292,
+      "sha256": "860a0755b5031e7be17a383a7f245ac3a8cf34949dd0936f03e3de5e57700012",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/CHANEL_parametric_v5_source.zip"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/CHANEL_parametric_v6_candidate_source.zip",
+      "relative": "Source/CHANEL_parametric_v6_candidate_source.zip",
+      "bytes": 156826,
+      "sha256": "a388802a97d0c563db34476dec7c02a6621c496c0a9ab40f5ce2c64e23fed9e0",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/CHANEL_parametric_v6_candidate_source.zip"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/CHANEL_weight_trials_v5_source.zip",
+      "relative": "Source/CHANEL_weight_trials_v5_source.zip",
+      "bytes": 152335,
+      "sha256": "e6a80de27c27b53ca58d33f4e91779be94a5650134a6633438b8b6b9bfeb3c42",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/CHANEL_weight_trials_v5_source.zip"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/CHANEL_PARKING_A_PARAMETRIC_SOURCE.zip",
+      "relative": "Source/CHANEL_PARKING_A_PARAMETRIC_SOURCE.zip",
+      "bytes": 30663,
+      "sha256": "8be3bfdf45852506ce7856b646e936b5dbda9a994dfdd7fca9336a7e24d0fdf9",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/CHANEL_PARKING_A_PARAMETRIC_SOURCE.zip"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/REJECTED_THIN_WALL_PARKING_A_SOURCE.zip",
+      "relative": "Source/REJECTED_THIN_WALL_PARKING_A_SOURCE.zip",
+      "bytes": 30369,
+      "sha256": "3015fbd3d069a00a3cc38a7d36a5971964ba7fcf920c658da4b5e053315dbf62",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/REJECTED_THIN_WALL_PARKING_A_SOURCE.zip"
+    },
+    {
+      "original": "/Users/miaozhuang/projects/mz-3d-print/models/filament-spool-chanel/Source/BAMBU_official_and_CHANEL_parametric_sources.zip",
+      "relative": "Source/BAMBU_official_and_CHANEL_parametric_sources.zip",
+      "bytes": 51653,
+      "sha256": "eeb623d451d21b85092e7f523c8ba269e01b1d80eed7268f64a5c8729f22f642",
+      "trash": "/Users/miaozhuang/.Trash/filament-spool-chanel-old-20261118-190954/Source/BAMBU_official_and_CHANEL_parametric_sources.zip"
+    }
+  ],
+  "preserved_historical_dependencies": [
+    "Source/parametric_v5",
+    "Source/parametric_v6_candidate",
+    "Source/parametric_rebuild",
+    "Source/weight_trials_v5",
+    "Source/chanel_official_light",
+    "Source/official_baseline",
+    "Source/window_spool_assembly",
+    "Source/assembly_v6",
+    "Notes",
+    "Models/AssemblyReview",
+    "Models/OfficialBaseline",
+    "Models/ChanelLight/CHANEL_PARKING_A_WINDOW_LIGHT_TRIAL.step",
+    "Source/chanel_parking_A_window_light"
+  ]
+}

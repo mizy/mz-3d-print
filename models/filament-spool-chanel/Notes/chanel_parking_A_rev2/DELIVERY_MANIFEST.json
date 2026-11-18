@@ -1,0 +1,14 @@
+{
+  "Models/ChanelLight/CHANEL_OFFICIAL_LIGHT_PARKING_A_TRIAL.step": {
+    "bytes": 5967391,
+    "sha256": "4c9663fe22cbe9446749cfd2c6af7f0b1d96c0cae93d811498bcc00d78633fe5"
+  },
+  "Source/CHANEL_PARKING_A_PARAMETRIC_SOURCE.zip": {
+    "bytes": 30663,
+    "sha256": "8be3bfdf45852506ce7856b646e936b5dbda9a994dfdd7fca9336a7e24d0fdf9"
+  },
+  "Design/parking_A_preview.png": {
+    "bytes": 490342,
+    "sha256": "5cfbad07420cfcf398610363d14c8d9be7d24d03a7628b304c7400be4625fed6"
+  }
+}

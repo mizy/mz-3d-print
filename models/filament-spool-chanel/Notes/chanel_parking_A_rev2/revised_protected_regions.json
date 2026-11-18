@@ -1,0 +1,122 @@
+[
+  {
+    "part": "wide",
+    "region": "official_core",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "wide",
+    "region": "rolling_track",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "wide",
+    "region": "rib0",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "wide",
+    "region": "rib1",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "wide",
+    "region": "rib2",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "wide",
+    "region": "rib3",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "wide",
+    "region": "rib4",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "wide",
+    "region": "rib5",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "wide",
+    "region": "rib6",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "wide",
+    "region": "rib7",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "narrow",
+    "region": "official_core",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "narrow",
+    "region": "rolling_track",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "narrow",
+    "region": "rib0",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "narrow",
+    "region": "rib1",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "narrow",
+    "region": "rib2",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "narrow",
+    "region": "rib3",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "narrow",
+    "region": "rib4",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "narrow",
+    "region": "rib5",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "narrow",
+    "region": "rib6",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  },
+  {
+    "part": "narrow",
+    "region": "rib7",
+    "lost_mm3": 0.0,
+    "added_mm3": 0.0
+  }
+]

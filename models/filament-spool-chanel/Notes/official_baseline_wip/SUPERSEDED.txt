@@ -1,0 +1,1 @@
+此阶段目录已被 Source/official_baseline、Source/chanel_official_light 和 Notes/official_parametric_validation 替代；勿作为当前入口。
