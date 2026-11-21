@@ -1,0 +1,3 @@
+# Python regeneration cache is not a CAD source file.
+__pycache__/
+*.pyc

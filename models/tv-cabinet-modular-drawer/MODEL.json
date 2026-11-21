@@ -1,0 +1,17 @@
+{
+  "id": "tv-cabinet-modular-drawer",
+  "title": "电视柜模块抽屉｜V10 标准高与双倍高",
+  "category": "家居收纳",
+  "status": "design",
+  "cls": "original",
+  "summary": "两种同占地规格，48/96 mm 叠层节距。无导向垫，保留侧旋扣和前后托沿；各有独立未切片 PETG 3MF。",
+  "gallery": [
+    "V10_Prototype/V10_Assembly_Release_CN.png"
+  ],
+  "downloads": [
+    "V10_Prototype/Print/V10_Keepers_No_Guide_Pads_P1S_PETG_UNSLICED.3mf",
+    "V10_Prototype/STEP/00_V10_Locked_Tray_Open_85mm_REFERENCE.step",
+    "V10_2X_Height/Print/V10_2X_Height_P1S_PETG_UNSLICED.3mf",
+    "V10_2X_Height/STEP/00_V10_2X_Locked_Open85_REFERENCE.step"
+  ]
+}

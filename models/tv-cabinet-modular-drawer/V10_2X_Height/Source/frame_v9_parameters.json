@@ -1,0 +1,21 @@
+{
+  "width_mm": 180,
+  "depth_mm": 200,
+  "stack_pitch_mm": 48,
+  "panel_thickness_mm": 11,
+  "bilateral_ledge_extension_mm": 4.2,
+  "ledge_top_z_mm": 10,
+  "drawer_side_play_per_side_mm": 0.85,
+  "drawer_upper_play_mm": 0.65,
+  "drawer_wall_top_z_mm": 40,
+  "drawer_rear_top_z_mm": 30,
+  "drawer_floor_mm": 2,
+  "profile_low_tie_top_mm": 6.2,
+  "drawer_underside_rib_depth_mm": 2.6,
+  "drawer_underside_rib_from_front_mm": 52,
+  "stack_locator_offset_mm": 27,
+  "stack_locator_male_OD_mm": 5.8,
+  "stack_locator_height_mm": 5.8,
+  "stack_rear_slot_relief_each_end_mm": 1.35,
+  "stack_pin_nominal_height_mm": 3.40
+}

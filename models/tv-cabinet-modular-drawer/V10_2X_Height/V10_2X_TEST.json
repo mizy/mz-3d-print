@@ -1,0 +1,141 @@
+{
+  "working_frames": {
+    "samples": 2,
+    "max_overlap_mm3": 0.0
+  },
+  "lockrun_False": {
+    "samples": 36,
+    "max_overlap_mm3": 0.0
+  },
+  "release_False": {
+    "samples": 60,
+    "max_overlap_mm3": 0.0
+  },
+  "stop_contact_False": {
+    "position_mm": 92.75,
+    "min_overlap_mm3": 2.588255999999978
+  },
+  "lockrun_True": {
+    "samples": 36,
+    "max_overlap_mm3": 0.0
+  },
+  "release_True": {
+    "samples": 60,
+    "max_overlap_mm3": 0.0
+  },
+  "stop_contact_True": {
+    "position_mm": 92.75,
+    "min_overlap_mm3": 2.5882560000000026
+  },
+  "rotate_after_nudge": {
+    "samples": 21,
+    "max_overlap_mm3": 0.0
+  },
+  "lock_key_path": {
+    "samples": 7,
+    "max_overlap_mm3": 0.0
+  },
+  "park_key_path": {
+    "samples": 7,
+    "max_overlap_mm3": 0.0
+  },
+  "pitch_contact_0p65deg_mm3": [
+    0.858294955622267,
+    0.8582949556222706
+  ],
+  "stack_joint_left_with_bushings_and_locks": {
+    "samples": 1,
+    "max_overlap_mm3": 0.0
+  },
+  "dimensions_mm": {
+    "footprint": [
+      180,
+      200
+    ],
+    "stack_pitch": 96.0,
+    "original_stack_pitch": 48.0,
+    "frame_z_max": 101.8,
+    "original_drawer_total_height": 30.0,
+    "drawer_total_height": 78.0,
+    "drawer_floor_top_z": 12.6,
+    "drawer_high_side_z": 88.0,
+    "ordinary_side_lip_top_z": 83.5,
+    "ordinary_side_usable_height": 70.9,
+    "maximum_end_usable_height": 75.4,
+    "rocker_axis_z": 91.6,
+    "x_y_unchanged": [
+      true,
+      true
+    ]
+  },
+  "scope": "BRep assembly motion samples only; no slicer, FEA, print, hardware validation",
+  "exports": {
+    "01_V10_2X_Side_Left": {
+      "bodies": 1,
+      "sha256": "35245adee7e6f4a7d338c6ec49972f935e42b2abc4baa4cbf915c81b19ecf218"
+    },
+    "01b_V10_2X_Side_Right": {
+      "bodies": 1,
+      "sha256": "e4802f07e9705764a8e61a92662f6b858ec424d911a0f44762da8462630b0a30"
+    },
+    "08_V10_2X_Signed_Tray": {
+      "bodies": 1,
+      "sha256": "630c2178036629fdb3d60621835f93a8c7e2031348830100aec275ca8139496e"
+    },
+    "10_V10_2X_Rear_X_Lip": {
+      "bodies": 1,
+      "sha256": "7d5ca3aef4def686b8e5aa56a471a746354792d60e5621d52d4f2fc653ba0683"
+    },
+    "00_V10_2X_Locked_Open85_REFERENCE": {
+      "bodies": 17,
+      "sha256": "b4499922820c8ab6ca18e913d2fca3f561c617c8fd6d91160d13415f34cf56a9"
+    }
+  },
+  "shared_design_files": {
+    "05_Mode_Selector_Key_Print_Two": {
+      "relative_path": "../V10_Prototype/STEP/05_Mode_Selector_Key_Print_Two.step",
+      "sha256": "9341164d1d5b592eff08142d797a699e88caa9ad4f10b9004314c51d42500421"
+    },
+    "02_V10_Left_Transverse_Keeper": {
+      "relative_path": "../V10_Prototype/STEP/02_V10_Left_Transverse_Keeper.step",
+      "sha256": "3ddab058f3baf9c44b76592f50a46404ca4f10cdf5b837746c149c734d777d6d"
+    },
+    "02b_V10_Right_Transverse_Keeper": {
+      "relative_path": "../V10_Prototype/STEP/02b_V10_Right_Transverse_Keeper.step",
+      "sha256": "5df2b837761240b8f2e788daef4e918cfc0a9ddc694eb8baf8ea85db36042be3"
+    },
+    "03_Captive_Lever_Axle_Print_Two": {
+      "relative_path": "../V10_Prototype/STEP/03_Captive_Lever_Axle_Print_Two.step",
+      "sha256": "1ef5d59d410712a3e36958b1133b73bc278f187bca36354cb3451799774996be"
+    },
+    "09_V10_Front_Beam_Auxiliary_Floor_Lip": {
+      "relative_path": "../V10_Prototype/STEP/09_V10_Front_Beam_Auxiliary_Floor_Lip.step",
+      "sha256": "12d80f2a7c902830f6719e9aae1cf68aa42d7f7c218a8b5b29fa3037756414dd"
+    },
+    "05_transverse_turn_lock_print_trial": {
+      "relative_path": "../V10_Prototype/STEP/05b_V10_Structural_Frame_Turn_Lock_Print_Four.step",
+      "sha256": "b33d46358f2f6db49a3c1ecc4538d68a74356a96d9dd1c167e916364c011c967"
+    },
+    "04_Axle_C_Clip_Print_Two": {
+      "relative_path": "../V10_Prototype/STEP/04_Axle_C_Clip_Print_Two.step",
+      "sha256": "a26d7a934901a2ee35ad6e09b28beeeba1d586e5efe96ea881c9928d3bcc31ea"
+    },
+    "06_front_round_locator_insert": {
+      "relative_path": "../V10_Prototype/STEP/Optional_Stacking/06_front_round_locator_insert.step",
+      "sha256": "6d50d22e26ef6ec648060388ceb2dcb3c9d703cbe619da99dc3917a033897395",
+      "optional": true
+    },
+    "07_rear_float_locator_insert": {
+      "relative_path": "../V10_Prototype/STEP/Optional_Stacking/07_rear_float_locator_insert.step",
+      "sha256": "ff5dc25fd2fcee313726d0f0213ba4e5a746d140f835f32824405c00b1133a34",
+      "optional": true
+    }
+  },
+  "archive_rebuild": {
+    "software": "FreeCAD 1.0.0 macOS headless",
+    "matched_solid_count_bounds_and_volume": 5,
+    "cwd_inputs": "sibling V10_Prototype/STEP and Source",
+    "max_measured_volume_delta_mm3": 2.7e-06,
+    "full_check_passed": true
+  }
+}
