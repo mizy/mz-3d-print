@@ -1,0 +1,71 @@
+"""Open the editable V14 three-dimension dialog in FreeCAD; calculate exact BRep in a child process."""
+from pathlib import Path
+import os,sys,json,datetime
+import FreeCAD as App
+import FreeCADGui as Gui
+try:
+ from PySide import QtCore,QtWidgets
+except ImportError:
+ from PySide import QtCore,QtGui as QtWidgets
+
+def run_dialog():
+ parent=Gui.getMainWindow()
+ here=Path(globals().get('__file__', '.')).resolve().parent
+ if not (here/'build_v14_wdh.py').exists():
+  path=QtWidgets.QFileDialog.getExistingDirectory(parent,'选择已解压的 V14 模板目录')
+  if not path:return
+  here=Path(path)
+ if not (here/'build_v14_wdh.py').exists() or not (here/'Seed').is_dir():
+  QtWidgets.QMessageBox.warning(parent,'找不到模板','请选择同时包含本宏、build_v14_wdh.py 和 Seed 的完整目录。')
+  return
+ cfile=here/'dimensions.json'
+ d=json.loads(cfile.read_text())
+ keys=('outer_width_mm','outer_depth_mm','outer_height_mm')
+ a=QtWidgets.QDialog(parent);a.setWindowTitle('V14 抽屉 · 改尺寸并生成')
+ form=QtWidgets.QFormLayout(a);widgets=[]
+ for lab,key,limits in zip(('外宽 W','外深 D','外高 H'),keys,((180,240),(180,240),(48,80))):
+  sp=QtWidgets.QSpinBox(a);sp.setRange(*limits);sp.setSingleStep(2);sp.setSuffix(' mm');sp.setValue(d[key]);form.addRow(lab,sp);widgets.append(sp)
+ def import_config():
+  p,_=QtWidgets.QFileDialog.getOpenFileName(a,'载入浏览器导出的 W/D/H 参数','','JSON (*.json)')
+  if not p:return
+  try:
+   j=json.loads(Path(p).read_text()); ns=[j[k] for k in keys]
+   if any(type(n) is not int or n%2 or not s.minimum()<=n<=s.maximum() for n,s in zip(ns,widgets)):raise ValueError('超出范围或不是 2 mm 模数')
+   for n,s in zip(ns,widgets):s.setValue(n)
+  except Exception as e:QtWidgets.QMessageBox.warning(a,'参数无效',str(e))
+ form.addRow(QtWidgets.QLabel('顶部/轨道间隙随基础件保留。生成约需一到几分钟。'))
+ ai=QtWidgets.QPushButton('载入 HTML 导出的 JSON…',a);ai.clicked.connect(import_config);form.addRow(ai)
+ buttons=QtWidgets.QDialogButtonBox(QtWidgets.QDialogButtonBox.Ok|QtWidgets.QDialogButtonBox.Cancel,a)
+ buttons.button(QtWidgets.QDialogButtonBox.Ok).setText('重建并打开')
+ buttons.accepted.connect(a.accept);buttons.rejected.connect(a.reject);form.addRow(buttons)
+ if not (getattr(a,'exec',None) or a.exec_)():return
+ values=[s.value() for s in widgets]
+ if any(n%2 for n in values):
+  QtWidgets.QMessageBox.warning(parent,'尺寸不是偶数','输入尺寸必须是偶数毫米。');return
+ w,d,h=values
+ t=datetime.datetime.now().strftime('%Y%m%d_%H%M%S_%f')
+ session=here/'Results';session.mkdir(exist_ok=True);o=session/f'W{w}_D{d}_H{h}_{t}'
+ cfg=session/('Config_'+t+'.json');cfg.write_text(json.dumps(dict(zip(keys,values)),indent=2)+'\n')
+ candidates=[Path(os.environ.get('FREECAD_RESOURCES','/Applications/FreeCAD.app/Contents/Resources')),Path(App.getHomePath())]
+ install=next((f for f in candidates if (f/'bin'/'python').is_file()),None)
+ if install is None:
+  QtWidgets.QMessageBox.warning(parent,'找不到 FreeCAD Python','请把 FreeCAD 放在 /Applications，或使用模板内的终端启动器。');return
+ proc=QtCore.QProcess(parent); env=QtCore.QProcessEnvironment.systemEnvironment();env.insert('PYTHONPATH',str(install/'lib'));env.insert('PYTHONDONTWRITEBYTECODE','1');proc.setProcessEnvironment(env);proc.setProcessChannelMode(QtCore.QProcess.MergedChannels)
+ busy=QtWidgets.QProgressDialog('正在重建并验证实体…','停止',0,0,parent);busy.setWindowTitle('V14 重建');busy.setWindowModality(QtCore.Qt.ApplicationModal);busy.setMinimumDuration(0);busy.show()
+ proc.start(str(install/'bin'/'python'),[str(here/'build_v14_wdh.py'),'--config',str(cfg),'--out',str(o)])
+ while not proc.waitForFinished(100):
+  QtWidgets.QApplication.processEvents()
+  if busy.wasCanceled():proc.kill();proc.waitForFinished();return
+  if proc.state()==QtCore.QProcess.NotRunning:break
+ busy.close()
+ log=bytes(proc.readAllStandardOutput()).decode('utf8','replace')
+ (session/('Build_'+t+'.log')).write_text(log)
+ model=o/'Reference'/'V14_Modular_Closed.FCStd'
+ if proc.exitCode()!=0 or not (o/'Validation.json').exists() or not model.exists():
+  QtWidgets.QMessageBox.warning(parent,'重建未完成',log[-1500:]);return
+ cfile.write_text(cfg.read_text())
+ App.openDocument(str(model))
+ Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()
+ QtWidgets.QMessageBox.information(parent,'V14 已生成',str(o))
+
+run_dialog()
