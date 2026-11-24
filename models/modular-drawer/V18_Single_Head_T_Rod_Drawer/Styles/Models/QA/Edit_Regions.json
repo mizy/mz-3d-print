@@ -1,0 +1,73 @@
+[
+  {
+    "name": "A 双侧叶脉",
+    "file": "04_Drawer_A_Leaf_Vein.step",
+    "sha256": "5f7b585ce257d03b89df60c4568566da51a9a46afc3c44f1bac71d9fbe4d8d90",
+    "edit_boxes_x1x2y1y2z1z2": [
+      [
+        -0.05,
+        1.01,
+        21.95,
+        204.05,
+        17.95,
+        65.05
+      ],
+      [
+        143.09,
+        144.15,
+        21.95,
+        204.05,
+        17.95,
+        65.05
+      ]
+    ]
+  },
+  {
+    "name": "B 波浪前握口",
+    "file": "V18_B_Wave_Grip_Drawer.step",
+    "volume_balance_absolute_tol_mm3": 0.35,
+    "sha256": "10f7401840d3fcc01a91996f1f84ff53eb7190f395aaefdb344fd9d468492fff",
+    "edit_boxes_x1x2y1y2z1z2": [
+      [
+        -0.05,
+        144.15,
+        -0.05,
+        10.55,
+        71.999,
+        86.05
+      ],
+      [
+        -0.05,
+        6.3,
+        0,
+        204.05,
+        79.55,
+        86.05
+      ],
+      [
+        137.8,
+        144.15,
+        0,
+        204.05,
+        79.55,
+        86.05
+      ]
+    ],
+    "protected_rear_start_mm": 205.0
+  },
+  {
+    "name": "C 前面画框开窗",
+    "file": "C_Front_Picture_Window.step",
+    "sha256": "0fa502a9b41cfa3c68b85e86935abfcf75ec034ae83cad2f39c147c5dba74ecf",
+    "edit_boxes_x1x2y1y2z1z2": [
+      [
+        24,
+        120.1,
+        -0.05,
+        2.75,
+        21.95,
+        62.05
+      ]
+    ]
+  }
+]

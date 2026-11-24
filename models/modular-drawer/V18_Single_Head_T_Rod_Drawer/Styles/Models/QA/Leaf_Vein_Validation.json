@@ -1,0 +1,230 @@
+{
+  "seed_sha256": "4fab31b0c8a9abac78bae99e9d4ee4634a2a545abd49272ac800f2d9df6a380b",
+  "step_sha256": "5f7b585ce257d03b89df60c4568566da51a9a46afc3c44f1bac71d9fbe4d8d90",
+  "openings_per_side": 12,
+  "window_mm": [
+    [
+      22.0,
+      204.0
+    ],
+    [
+      18.0,
+      65.0
+    ]
+  ],
+  "profile_opening_area_per_side_mm2": 2911.872639834914,
+  "area_fraction_of_design_window": 0.34041064295474793,
+  "min_exact_ligament_between_cutouts_mm": 3.5793062398365745,
+  "existing_side_t_mm": 0.96,
+  "body_size_mm": [
+    144.10000019999998,
+    230.0000001,
+    86.0000002
+  ],
+  "solid_readback_count": 1,
+  "removed_mm3": 5590.792185287137,
+  "base_mm3": 163876.36615936595,
+  "new_mm3": 158285.5739740788,
+  "volume_fraction_removed": 0.0341159150420154,
+  "petg_solid_equiv_grams_saved": 7.1003060753146645,
+  "preserved_regions_volume_difference_mm3": [
+    [
+      "front_Y0_22",
+      0.0
+    ],
+    [
+      "rear_Y204_230",
+      0.0
+    ],
+    [
+      "bottom_Z0_18",
+      0.0
+    ],
+    [
+      "top_Z65_86",
+      0.0
+    ]
+  ],
+  "apertures": [
+    {
+      "band": "lower",
+      "coordinates_y0_y1_z0_z1_and_skew": [
+        24,
+        50,
+        22,
+        40,
+        0.52
+      ],
+      "area_mm2": 219.35539473328714,
+      "removed_each_side_mm3": [
+        210.58117854345892,
+        210.58117854346068
+      ]
+    },
+    {
+      "band": "lower",
+      "coordinates_y0_y1_z0_z1_and_skew": [
+        55,
+        81,
+        20,
+        42,
+        0.56
+      ],
+      "area_mm2": 269.8551360328985,
+      "removed_each_side_mm3": [
+        259.06092952234457,
+        259.0609295223467
+      ]
+    },
+    {
+      "band": "lower",
+      "coordinates_y0_y1_z0_z1_and_skew": [
+        86,
+        114,
+        19,
+        41,
+        0.45
+      ],
+      "area_mm2": 285.9023434662858,
+      "removed_each_side_mm3": [
+        274.46625009360537,
+        274.4662500936077
+      ]
+    },
+    {
+      "band": "lower",
+      "coordinates_y0_y1_z0_z1_and_skew": [
+        119,
+        146,
+        20,
+        42,
+        0.48
+      ],
+      "area_mm2": 276.9195808850043,
+      "removed_each_side_mm3": [
+        265.842798384005,
+        265.8427983840072
+      ]
+    },
+    {
+      "band": "lower",
+      "coordinates_y0_y1_z0_z1_and_skew": [
+        151,
+        177,
+        19,
+        40,
+        0.52
+      ],
+      "area_mm2": 256.02272645565284,
+      "removed_each_side_mm3": [
+        245.7818179278384,
+        245.78181792784045
+      ]
+    },
+    {
+      "band": "lower",
+      "coordinates_y0_y1_z0_z1_and_skew": [
+        182,
+        202,
+        23,
+        41,
+        0.37
+      ],
+      "area_mm2": 164.80865928816775,
+      "removed_each_side_mm3": [
+        158.21630998503596,
+        158.21630998503727
+      ]
+    },
+    {
+      "band": "upper",
+      "coordinates_y0_y1_z0_z1_and_skew": [
+        25,
+        50,
+        42.5,
+        62,
+        0.58
+      ],
+      "area_mm2": 230.5746875333741,
+      "removed_each_side_mm3": [
+        221.35169999831453,
+        221.3516999983163
+      ]
+    },
+    {
+      "band": "upper",
+      "coordinates_y0_y1_z0_z1_and_skew": [
+        54,
+        80,
+        44.5,
+        63,
+        0.55
+      ],
+      "area_mm2": 226.47843305678066,
+      "removed_each_side_mm3": [
+        217.41929521544864,
+        217.41929521545046
+      ]
+    },
+    {
+      "band": "upper",
+      "coordinates_y0_y1_z0_z1_and_skew": [
+        84,
+        113,
+        43.5,
+        65,
+        0.46
+      ],
+      "area_mm2": 289.8292954185039,
+      "removed_each_side_mm3": [
+        278.23612318035856,
+        278.2361231803609
+      ]
+    },
+    {
+      "band": "upper",
+      "coordinates_y0_y1_z0_z1_and_skew": [
+        118,
+        145,
+        44.5,
+        64,
+        0.51
+      ],
+      "area_mm2": 246.48608741383475,
+      "removed_each_side_mm3": [
+        236.6266428415994,
+        236.62664284160132
+      ]
+    },
+    {
+      "band": "upper",
+      "coordinates_y0_y1_z0_z1_and_skew": [
+        150,
+        177,
+        42.5,
+        62,
+        0.53
+      ],
+      "area_mm2": 247.22515021754646,
+      "removed_each_side_mm3": [
+        237.336142924117,
+        237.336142924119
+      ]
+    },
+    {
+      "band": "upper",
+      "coordinates_y0_y1_z0_z1_and_skew": [
+        181,
+        202,
+        43.5,
+        64,
+        0.41
+      ],
+      "area_mm2": 198.41514533357756,
+      "removed_each_side_mm3": [
+        190.47853680131834,
+        190.47853680131993
+      ]
+    }
+  ]
+}

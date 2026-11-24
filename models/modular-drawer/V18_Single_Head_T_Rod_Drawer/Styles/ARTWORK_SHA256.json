@@ -1,0 +1,13 @@
+{
+  "source_scope": "Local repo originals; no network fonts/assets; design sketches are not production geometry.",
+  "sources": {
+    "models/filament-spool-lv/Source/lv_official_selfsupport_A/lv-logo.svg": "efdd0a30880cb518a39e28f9f24c381e3b5110f5e28423715a9d134577f666c4",
+    "models/filament-spool-lv/Source/lv_official_selfsupport_A/lv-circle.svg": "cce94e7cb8e694881fc0687800dc595c98b9cbc47904b48019fa27ac7f2be797",
+    "models/filament-spool-lv/Source/lv_official_selfsupport_A/lv-pointed.svg": "a918c3254d0d8971f92db3098ab6ee923051fa95abd8c2fbb98c31353479a038",
+    "models/filament-spool-lv/Source/lv_official_selfsupport_A/lv-diamond.svg": "c59e59fc03a2f48db21e8ac759a46d0839297b4f807ed89d5be7db8d9782e50e",
+    "models/mark-miaozhuang-three-variants/miaozhuang-logo.svg": "da64a6e0b6ae3edc979473b7986154b944df171a2ac0f5d520205e88e43e13c1",
+    "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/light_motif.py": "a13d649bf44e751519ffccfcd5682701ad0f634c04be672880b88edd9e2d56bf",
+    "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/light_parameters.json": "b0cddfa644a5b85186a75467505258e80f2ecdd05af8b87bcd3a7f27b740eb42",
+    "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Print_Parts/04_Drawer.step": "4fab31b0c8a9abac78bae99e9d4ee4634a2a545abd49272ac800f2d9df6a380b"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "baseline_step": "V18_Baseline_Drawer.step",
+  "baseline_sha256": "4fab31b0c8a9abac78bae99e9d4ee4634a2a545abd49272ac800f2d9df6a380b",
+  "expected_drawer_bbox_mm": [144.10, 230.00, 86.00],
+  "front_grip_half_span_mm": 33.05,
+  "front_grip_floor_z_mm": 73.0,
+  "front_grip_shoulder_z_mm": 86.0,
+  "front_side_join_z_mm": 79.6,
+  "front_corner_flat_width_mm": 7.25,
+  "front_corner_blend_end_x_mm": 26.0,
+  "front_boolean_stop_y_mm": 10.5,
+  "side_wall_mask_width_mm": 6.25,
+  "side_front_hold_y_mm": 11.0,
+  "side_taper_rejoins_at_y_mm": 204.0,
+  "side_original_top_z_mm": 84.0,
+  "rear_preservation_start_y_mm": 205.0
+}

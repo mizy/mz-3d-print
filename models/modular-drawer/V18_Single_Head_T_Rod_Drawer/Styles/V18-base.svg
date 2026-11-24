@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="665" height="520" viewBox="0 0 665 520" role="img" aria-label="V18 原版 素面 正视外观概念，与 V18 把手等轮廓">
+ <title>V18 原版 素面 · V18 外观草图</title>
+ <defs><linearGradient id="panel" x1="0" x2=".17" y1="0" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#f6ecd7"/><stop offset="1" stop-color="#deccb0"/></linearGradient>
+ <radialGradient id="cc-space"><stop stop-color="#212622"/><stop offset=".75" stop-color="#212622" stop-opacity=".97"/><stop offset="1" stop-color="#212622" stop-opacity="0"/></radialGradient>
+ <clipPath id="front"><path d="M3.100,0.450 L3.100,86.000 L141.000,86.000 L141.000,0.450 L93.850,0.450 L93.850,5.300 L93.823,5.803 L93.741,6.299 L93.607,6.784 L93.420,7.252 L93.185,7.697 L92.902,8.114 L92.576,8.497 L92.211,8.843 L91.810,9.148 L91.379,9.408 L90.922,9.619 L90.445,9.780 L89.954,9.889 L89.453,9.943 L89.212,9.950 L89.200,9.950 L54.900,9.950 L54.397,9.923 L53.901,9.841 L53.416,9.707 L52.948,9.520 L52.503,9.285 L52.086,9.002 L51.703,8.676 L51.357,8.311 L51.052,7.910 L50.792,7.479 L50.581,7.022 L50.420,6.545 L50.311,6.054 L50.257,5.553 L50.250,5.312 L50.250,5.300 L50.250,0.450 L3.100,0.450Z"/></clipPath><clipPath id="safe"><rect x="9" y="15" width="126.1" height="60" rx="4"/></clipPath></defs>
+ <rect width="665" height="520" rx="22" fill="#f5f7f1"/>
+ <rect x="1" y="1" width="663" height="518" rx="21" fill="none" stroke="#c9d9cf"/>
+ <g font-family="system-ui, PingFang SC, sans-serif">
+ <text x="27" y="36" font-size="12" font-weight="700" fill="#597368" letter-spacing="2.1">V18　／　正视草图　00</text>
+ <text x="27" y="72" font-size="30" font-weight="740" fill="#213c33">V18 原版 素面</text>
+ <text x="28" y="99" font-size="15" fill="#597368">燕麦暖白 × 无图案</text>
+ <g transform="translate(87.5 145) scale(3.4)">
+ <path d="M0,86 H144.1 V2.1 Q144.1,0 141,0 H93.4 L93.85,.45 V5.3 A4.65,4.65 0 0 1 89.2,9.95 H54.9 A4.65,4.65 0 0 1 50.25,5.3 V.45 L50.7,0 H3.1 Q0,0 0,2.1 Z" fill="#c7ae88" stroke="#c7ae88" stroke-width=".36"/><path d="M3.100,0.450 L3.100,86.000 L141.000,86.000 L141.000,0.450 L93.850,0.450 L93.850,5.300 L93.823,5.803 L93.741,6.299 L93.607,6.784 L93.420,7.252 L93.185,7.697 L92.902,8.114 L92.576,8.497 L92.211,8.843 L91.810,9.148 L91.379,9.408 L90.922,9.619 L90.445,9.780 L89.954,9.889 L89.453,9.943 L89.212,9.950 L89.200,9.950 L54.900,9.950 L54.397,9.923 L53.901,9.841 L53.416,9.707 L52.948,9.520 L52.503,9.285 L52.086,9.002 L51.703,8.676 L51.357,8.311 L51.052,7.910 L50.792,7.479 L50.581,7.022 L50.420,6.545 L50.311,6.054 L50.257,5.553 L50.250,5.312 L50.250,5.300 L50.250,0.450 L3.100,0.450Z" fill="url(#panel)" stroke="#fdf6e9" stroke-width=".24"/>
+ <g clip-path="url(#front)"><path d="M3.1,85.7 H141" stroke="#c7ae88" stroke-width=".37" fill="none"/></g>
+ <path d="M3.1,.55 H50.3 M93.8,.55 H141" stroke="#fdf6e9" opacity=".9" stroke-width=".45"/>
+ <g fill="none" stroke="#5d7168" opacity=".70" stroke-width=".23"><path d="M.16,88 V95 M144.0,88 V95 M0,92.5 H144.1 M0,92.5 l2,-.8m-2,.8 2,.8 M144.1,92.5 l-2,-.8m2,.8 -2,.8"/><path d="M50.25,-2V-10 M93.85,-2V-10 M50.25,-7.4 H93.85 M50.25,-7.4 l2,-.8m-2,.8 2,.8 M93.85,-7.4 l-2,-.8m2,.8 -2,.8" /></g>
+ <text x="72.05" y="97.6" fill="#5d7168" text-anchor="middle" font-size="2.95" letter-spacing=".45">144.10 mm · 原版名义外宽</text>
+ <text x="72.05" y="-9.2" fill="#5d7168" text-anchor="middle" font-size="2.80" letter-spacing=".28">43.60 mm · 握口不变</text>
+ </g>
+ <text x="27" y="503" font-size="12" fill="#60786d">相同抽屉外形 · 仅外观构思 · 未做新模型</text>
+ </g></svg>

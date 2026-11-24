@@ -1,0 +1,89 @@
+{
+  "baseline_sha256": "4fab31b0c8a9abac78bae99e9d4ee4634a2a545abd49272ac800f2d9df6a380b",
+  "candidate_bounds_XYZ_mm": [
+    144.1,
+    230,
+    86
+  ],
+  "interpretation": "Geometric OCC readback only. No slicing, print, physical motion or strength test. All edits remove material and visibly leave the original floor and rear catch shape unchanged. Independent local protected regions checked per candidate.",
+  "note_B": "Different kernels/export roundtrips yielded a sub-cubic-mm boolean volume balancing residual, so B removed volume is reported rounded; all out-of-zone and protected region differences remain zero.",
+  "original_drawer_lateral_nominal_total_mm": 0.6,
+  "variants": [
+    {
+      "name": "A 双侧叶脉",
+      "file": "04_Drawer_A_Leaf_Vein.step",
+      "sha256": "5f7b585ce257d03b89df60c4568566da51a9a46afc3c44f1bac71d9fbe4d8d90",
+      "valid_solids": 1,
+      "bounds_mm": [
+        -0.0,
+        144.1,
+        0.0,
+        230.0,
+        -0.0,
+        86.0
+      ],
+      "volume_mm3": 158285.57397406516,
+      "baseline_volume_mm3": 163876.36615936595,
+      "removed_mm3": 5590.795450829734,
+      "added_mm3": 0.0,
+      "symmetric_difference_outside_edit_boxes_mm3": [
+        0.0,
+        0.0
+      ],
+      "base_support_floor_and_rear_stop_changed_mm3": 0.0,
+      "pure_removal_of_sealed_original": true,
+      "assembly_note": "Outside protected shell, tray CAD has no material addition; the original signed tray operating envelopes cannot gain rigid-body collision from removal alone. This is not an opening/strength print test."
+    },
+    {
+      "name": "B 波浪前握口",
+      "file": "V18_B_Wave_Grip_Drawer.step",
+      "sha256": "10f7401840d3fcc01a91996f1f84ff53eb7190f395aaefdb344fd9d468492fff",
+      "valid_solids": 1,
+      "bounds_mm": [
+        -0.0,
+        144.1,
+        -0.0,
+        230.0,
+        -0.0,
+        86.0
+      ],
+      "volume_mm3": 161870.00978686544,
+      "baseline_volume_mm3": 163876.36615936595,
+      "removed_mm3": 2006.0888509300025,
+      "added_mm3": 0.0,
+      "volume_partition_residual_mm3": -0.26752157049486414,
+      "symmetric_difference_outside_edit_boxes_mm3": [
+        0.0,
+        0.0
+      ],
+      "base_support_floor_and_rear_stop_changed_mm3": 0.0,
+      "pure_removal_of_sealed_original": true,
+      "assembly_note": "Outside protected shell, tray CAD has no material addition; the original signed tray operating envelopes cannot gain rigid-body collision from removal alone. This is not an opening/strength print test."
+    },
+    {
+      "name": "C 前面画框开窗",
+      "file": "C_Front_Picture_Window.step",
+      "sha256": "0fa502a9b41cfa3c68b85e86935abfcf75ec034ae83cad2f39c147c5dba74ecf",
+      "valid_solids": 1,
+      "bounds_mm": [
+        0.0,
+        144.1,
+        0.0,
+        230.0,
+        -0.0,
+        86.0
+      ],
+      "volume_mm3": 153740.13608661407,
+      "baseline_volume_mm3": 163876.36615936595,
+      "removed_mm3": 10136.230016469246,
+      "added_mm3": 0.0,
+      "symmetric_difference_outside_edit_boxes_mm3": [
+        0.0,
+        0.0
+      ],
+      "base_support_floor_and_rear_stop_changed_mm3": 0.0,
+      "pure_removal_of_sealed_original": true,
+      "assembly_note": "Outside protected shell, tray CAD has no material addition; the original signed tray operating envelopes cannot gain rigid-body collision from removal alone. This is not an opening/strength print test."
+    }
+  ]
+}

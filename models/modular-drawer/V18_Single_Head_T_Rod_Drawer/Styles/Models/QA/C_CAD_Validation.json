@@ -1,0 +1,49 @@
+{
+  "variant": "V18 C Front Picture Window",
+  "seed_sha256": "4fab31b0c8a9abac78bae99e9d4ee4634a2a545abd49272ac800f2d9df6a380b",
+  "step": "C_Front_Picture_Window.step",
+  "step_sha256": "0fa502a9b41cfa3c68b85e86935abfcf75ec034ae83cad2f39c147c5dba74ecf",
+  "unit": "mm",
+  "valid_brep_solids": 1,
+  "readback_bbox_XYZ_mm": [
+    144.1,
+    230,
+    86
+  ],
+  "original_bbox_XYZ_mm": [
+    144.1,
+    230,
+    86
+  ],
+  "exact_removed_region_Xmin_Xmax_Ymin_Ymax_Zmin_Zmax_mm": [
+    24.05,
+    120.05,
+    0.0,
+    2.7,
+    22.0,
+    62.0
+  ],
+  "scheme": "one XZ rounded rectangle, four analytic tangential arcs, tool spans full original wall; removal only",
+  "parameters": {
+    "window_width_mm": 96.0,
+    "window_height_mm": 40.0,
+    "corner_radius_mm": 10.0,
+    "window_center_z_mm": 42.0
+  },
+  "front_thickness_mm": 2.7,
+  "notch_nominal_bottom_mm": 76.05,
+  "notch_floor_to_window_top_nominal_mm": 14.05,
+  "outer_side_reserve_each_mm": 24.05,
+  "bottom_sill_nominal_height_mm": 22.0,
+  "front_window_area_mm2": 3754.159265,
+  "old_volume_mm3": 163876.366159,
+  "new_volume_mm3": 153740.136087,
+  "material_volume_removed_mm3": 10136.230073,
+  "removed_CAD_volume_percentage": 6.185291,
+  "added_material_mm3": 0,
+  "open_to_inside": true,
+  "retained_nominal_envelope_and_interfaces_by_subtraction": true,
+  "no_slicing_or_physical_tests": true,
+  "separate_clear_lens_or_retention_not_included": true,
+  "note": "No modification to grip, lower face, rails, interior fillets, sidewalls, back wall, or stopper. Long horizontal crown not assessed for bridging, no claim of support-free printing."
+}

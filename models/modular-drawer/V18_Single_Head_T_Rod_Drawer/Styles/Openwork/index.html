@@ -1,0 +1,87 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>V18｜贯穿镂空方案与孔形预览</title><style>:root{--ink:#223b32;--soft:#49675d;--line:#cbdad1}*{box-sizing:border-box}body{background:#eaf2ec;color:var(--ink);margin:0;font:16px/1.55 system-ui,'PingFang SC',sans-serif}header{border-top:6px solid #23765f;background:#f6faf6;padding:10px max(16px,calc((100vw - 1140px)/2));border-bottom:1px solid var(--line);display:flex;gap:14px;align-items:center;flex-wrap:wrap}header strong{white-space:nowrap}a{color:#17634f;text-underline-offset:3px}main{max-width:1160px;margin:auto;padding:23px 18px 30px}h1{font-size:clamp(1.9rem,6vw,3.5rem);letter-spacing:-.035em;line-height:1.1;margin:0 0 10px}h2{margin-top:0;font-size:1.55rem;line-height:1.2}p{margin:.45rem 0;color:var(--soft)}.lead{max-width:83ch}.ow-grid{margin-top:14px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.ow-card{overflow:hidden;border-radius:16px;background:#fff;border:1px solid var(--line)}.ow-card img{width:100%;height:auto;display:block}.ow-card p{margin:0;padding:7px 13px 12px;font-size:.85rem}.tool{margin:26px 0 14px;border:1px solid var(--line);background:#fcfef9;border-radius:18px;padding:17px}.controls,.presets{display:flex;gap:10px;flex-wrap:wrap}.controls label{flex:1 1 126px;min-width:0;font-size:.86rem;font-weight:700}.controls input,.controls select{display:block;width:100%;padding:7px 10px;background:#fff;color:var(--ink);border:1px solid #8caea0;border-radius:7px;font:inherit}.presets button{border:1px solid #8fae9d;background:#eef6ef;color:#164d3c;padding:5px 12px;border-radius:8px;font:inherit;cursor:pointer}.presets button[aria-pressed=true]{background:#1b6b56;color:white}.preview{margin-top:16px;padding:8px;background:#eef4ed;border-radius:12px}.preview svg{display:block;width:100%;max-width:850px;margin:0 auto}.metrics{font-size:.9rem;color:#2e5a4b;min-height:2.6em}.metrics.warn,.note{background:#fff0e3;color:#69442e;padding:8px 11px;border-left:3px solid #a46f4d;border-radius:0 6px 6px 0}.rules{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.rules article{border:1px solid var(--line);border-radius:13px;background:#fbfdfb;padding:11px}.rules h3{font-size:1rem;margin:0}.rules p{font-size:.87rem}.muted{font-size:.86rem}@media(max-width:620px){main{padding:18px 12px}.ow-grid,.rules{grid-template-columns:1fr}.tool{padding:12px}}:focus-visible{outline:3px solid #2d9b7f;outline-offset:2px}</style></head><body><header><strong>V18 / 侧壁镂空 · 二维设计预览</strong><a href="../index.html">第一轮外观</a><a href="../../index.html#planner">调整抽屉长宽高</a></header><main>
+<h1>让开孔本身成为图案</h1>
+<p class="lead">两侧优先开贯穿窗。蓝绿斜条是孔后背景示意，不是印上去的图。默认 V18 素面、STEP 和 3MF 保持原样。<a href="../Models/index.html">A 叶脉、B 波浪握口、C 画框窗已出单独 STEP，查看对比及下载</a>。</p>
+<div class="ow-grid"><article class="ow-card"><img src="lv.svg" alt="LV 香花窗侧壁正视草图" width="690" height="397"><p>借用旧 LV 尖花外轮廓，不切字母，不保留会掉落的中心孤岛。</p></article><article class="ow-card"><img src="cc.svg" alt="香奈儿 绗格窗侧壁正视草图" width="690" height="397"><p>用圆角菱孔表现绗格。孔与孔保留连筋；原双 C 如需保留，可另放不挖孔的前脸。</p></article><article class="ow-card"><img src="personal.svg" alt="苗壮 芽叶窗侧壁正视草图" width="690" height="397"><p>提取芽叶构图，不把原标志整体挖掉。每组中间留下完整竖筋；立方体标记可留在前脸。</p></article><article class="ow-card"><img src="solid.svg" alt="V18 原版封闭侧壁正视草图" width="690" height="397"><p>原版仍是当前默认打印件。保留四面挡板，用于螺丝、卡扣等小件。</p></article></div>
+<section class="tool" aria-labelledby="hole-title"><h2 id="hole-title">自定义孔形与疏密</h2>
+<p class="muted">这是 2D 正交侧视。孔形及比例可调；前脸可另外设计，但本预览不出前板通孔。整屉长宽高请用原有的 3D 规划工具。换孔形不会移动导轨、握口或前后定位。</p>
+<div class="presets" role="group" aria-label="套用镂空预设"><button data-preset="lv" type="button">LV</button><button data-preset="cc" type="button">香奈儿</button><button data-preset="personal" type="button">苗壮</button><button data-preset="solid" type="button">封闭</button></div>
+<div class="controls">
+<label>孔形<select id="ow-shape"><option value="flower">尖花</option><option value="diamond">圆角菱形</option><option value="leaf">镜像对叶</option><option value="slot">圆角条窗</option></select></label>
+<label>孔宽／组宽 (mm)<input id="ow-w" type="number" min="8" max="44" step="1"></label>
+<label>孔高 (mm)<input id="ow-h" type="number" min="8" max="38" step="1"></label>
+<label>第一排孔数／组数<input id="ow-n" type="number" min="0" max="11" step="1"></label>
+<label>排数<select id="ow-rows"><option value="1">单排</option><option value="2">双排错位</option></select></label>
+<label>最小保留连筋 (mm)<input id="ow-web" type="number" min="5" max="16" step="1"></label>
+</div>
+<div class="preview" aria-label="当前镂空侧壁轮廓"><svg id="ow-svg" viewBox="0 0 230 92" role="img" aria-label="真实通孔概念侧视"></svg></div>
+<p id="ow-metrics" class="metrics" role="status"></p>
+<noscript><p class="note">此浏览器关闭了脚本，可用上面的静态草图比较。</p></noscript>
+</section>
+<div class="rules">
+<article><h3>两侧主体可开孔</h3><p>原侧壁实测 CAD 厚 0.96 mm。示意的切孔只放在 Y38–192、Z19–65 mm 带内。留整条底沿、顶沿、前后角柱、挡边、后定位与滑动区；不挖底板。</p></article>
+<article><h3>前脸只作可选小排</h3><p>原前板 CAD 厚 2.70 mm，握口 43.60 mm。若需要连贯纹样，另画握口下方的少量窗，不预设为默认，也不切后署名及挡片。</p></article>
+<article><h3>小物用封闭版</h3><p>镂空只适合不会掉出孔的大物。需先样件验证薄壁、桥接、孔边连筋、抗变形和装配。图中连筋阈值只是布置筛选，不是最低安全厚度。</p></article>
+</div><p class="note">面积只按画出来的二维贯穿轮廓粗估；双侧名义去料体积以 0.96 mm 同厚侧壁计算，不是切片重量或结构认证。</p>
+</main><script>const CFG = {"presets":{"lv":{"shape":"flower","w":23,"h":25,"n":5,"rows":1,"web":7,"name":"LV 香花窗","color":"#9b653e","s":"#593823"},"cc":{"shape":"diamond","w":16,"h":15,"n":7,"rows":2,"web":5,"name":"香奈儿 绗格窗","color":"#313c37","s":"#1c2722"},"personal":{"shape":"leaf","w":31,"h":24,"n":4,"rows":1,"web":6,"name":"苗壮 芽叶窗","color":"#729180","s":"#344d40"},"solid":{"shape":"slot","w":20,"h":20,"n":0,"rows":1,"web":6,"name":"V18 原版封闭","color":"#d6c6a9","s":"#8b765b"}},"shapes":{"flower":"M1.763-4.001C1.512-13.172-2.341-16.444-2.341-16.444-6.813-11.207-6.486-4.001-6.486-4.001-13.335-4.279-19.078 0-19.078 0-19.078 0-13.335 4.278-6.486 4.001-6.486 4.001-6.813 11.207-2.341 16.444-2.341 16.444 1.512 13.173 1.763 4.001 1.763 4.001 9.04 4.114 14.382 0 9.04-4.114 1.763-4.001 1.763-4.001","diamond":"M0,-.5 Q.05,-.5 .09,-.456 L.455,-.09 Q.5,-.05 .5,0 Q.5,.05 .455,.09 L.09,.455 Q.05,.5 0,.5 Q-.05,.5 -.09,.455 L-.455,.09 Q-.5,.05 -.5,0 Q-.5,-.05 -.455,-.09 L-.09,-.456 Q-.05,-.5 0,-.5 Z","leaf":"M-.5,.5 C-.49,-.09 -.16,-.43 .5,-.5 C.49,.09 .16,.43 -.5,.5 Z","slot":"M-.28,-.5 H.28 Q.5,-.5 .5,-.18 V.18 Q.5,.5 .28,.5 H-.28 Q-.5,.5 -.5,.18 V-.18 Q-.5,-.5 -.28,-.5 Z"}};
+'use strict';
+(()=>{
+ const $=id=>document.getElementById('ow-'+id), fields=['shape','w','h','n','rows','web'], svg=$('svg'), messages=$('metrics');
+ const ns='http://www.w3.org/2000/svg',measures={}; let selected='lv',lastMarkup='',lastCount=-1;
+ const format=new Intl.NumberFormat('zh-CN',{maximumFractionDigits:2});
+ for(const [name,d] of Object.entries(CFG.shapes)){
+  const p=document.createElementNS(ns,'path');p.setAttribute('d',d);p.setAttribute('visibility','hidden');svg.append(p);
+  const box=p.getBBox(), l=p.getTotalLength(); let prev=p.getPointAtLength(0),a=0;
+  for(let i=1;i<=960;i++){const q=p.getPointAtLength(i*l/960);a+=prev.x*q.y-q.x*prev.y;prev=q;}
+  measures[name]={w:box.width,h:box.height,cx:box.x+box.width/2,cy:box.y+box.height/2,ratio:Math.abs(a*.5/(box.width*box.height))};p.remove();
+ }
+ function saveVals(k){
+  selected=k;const x=CFG.presets[k];
+  for(const f of fields)$(f).value=x[f];
+  for(const b of document.querySelectorAll('[data-preset]'))b.setAttribute('aria-pressed',String(b.dataset.preset===k));
+  redraw();
+ }
+ function shape(cx,cy,w,h,kind,mirror=1){
+  const b=measures[kind];const d=CFG.shapes[kind];
+  return [d,'translate('+cx+' '+cy+') scale('+(mirror*w/b.w)+' '+((kind==='flower'?-1:1)*h/b.h)+') translate('+(-b.cx)+' '+(-b.cy)+')',w*h*b.ratio];
+ }
+ function paths(o){
+  if(!o.n)return [];
+  const pitch=(154-o.w)/Math.max(1,o.n-1);const result=[];
+  for(let row=0;row<o.rows;row++){
+   const n=row===1&&o.n>1?o.n-1:o.n;
+   const y=o.rows===1?40:40+(row===0?-1:1)*(o.h+o.web)*.5;
+   for(let i=0;i<n;i++){
+    const x=115+pitch*(i-(n-1)/2);
+    if(o.shape==='leaf'){
+     const w=(o.w-o.web)/2,d=(w+o.web)/2;
+     result.push(shape(x-d,y,w,o.h,o.shape),shape(x+d,y,w,o.h,o.shape,-1));
+    } else result.push(shape(x,y,o.w,o.h,o.shape));
+   }
+  }
+  return result;
+ }
+ function redraw(){
+  const value=Object.fromEntries(fields.map(x=>[x,x==='shape'?$(x).value:+$(x).value]));
+  const errors=[];
+  const numeric=fields.filter(x=>x!=='shape').every(x=>$(x).value!==''&&$(x).checkValidity());
+  if(!numeric)errors.push('请输入范围内的整数。');
+  if(value.n>0&&value.shape==='leaf'&&(value.w-value.web)/2<3)errors.push('镜像叶片每侧至少留 3 mm 画宽，请加宽组或减小连筋。');
+  if(value.n>1&&(value.n*value.w+(value.n-1)*value.web)>154+1e-8)errors.push('一排放不下指定孔宽和连筋，请减少孔数或减小孔宽。');
+  if(value.n>0&&value.rows===2&&2*value.h+value.web>42)errors.push('双排太高，会超出预留带；请减小孔高或选单排。');
+  messages.classList.toggle('warn',!!errors.length);
+  if(errors.length){messages.textContent=errors.join(' ')+' 预览保留最后一个有效方案。';return;}
+  const pp=paths(value),p=CFG.presets[selected],area=pp.reduce((a,v)=>a+v[2],0);
+  const m=pp.map(([d,t])=>'<path d="'+d+'" transform="'+t+'" fill="black"/>').join('');
+  const edge=pp.map(([d,t])=>'<path d="'+d+'" transform="'+t+'" fill="none" stroke="'+p.s+'" stroke-width=".7" vector-effect="non-scaling-stroke"/>').join('');
+  lastMarkup='<defs><pattern id="ow-behind" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(32)"><rect width="8" height="8" fill="#e9f8f5"/><rect width="3" height="8" fill="#9cd8d1"/></pattern><mask id="ow-through" maskUnits="userSpaceOnUse" x="0" y="0" width="230" height="84"><rect width="230" height="84" fill="white"/>'+m+'</mask></defs><rect x="3.1" y="0" width="223.8" height="84" fill="url(#ow-behind)"/><g mask="url(#ow-through)"><rect x="3.1" y="0" width="223.8" height="84" fill="'+p.color+'"/><rect x="38" y="19" width="154" height="46" fill="none" stroke="#fff" opacity=".58" stroke-width=".42" stroke-dasharray="2 1.8"/></g>'+edge+'<text x="3.1" y="90" font-size="4.2" fill="#33574d">前 · 握口端</text><text x="226.9" y="90" font-size="4.2" fill="#33574d" text-anchor="end">后 · 原 V18</text>';
+  svg.innerHTML=lastMarkup;
+  svg.dataset.holes=String(pp.length); svg.dataset.areaMm2=area.toFixed(4);
+  const pitch=value.n>1?(154-value.w)/(value.n-1)-value.w:Infinity;
+  const gap=Math.min(pitch,value.rows===2&&value.n>0?value.web:Infinity,value.shape==='leaf'&&value.n>0?value.web:Infinity);
+  messages.textContent=value.n===0?'封闭侧壁（0 个孔），原 V18 默认。':'每侧 '+pp.length+' 个通孔 · 单侧开孔面积约 '+format.format(area)+' mm²'+(Number.isFinite(gap)?' · 孔包络间最窄保留约 '+format.format(gap)+' mm':'')+' · 两侧名义去料约 '+format.format(2*area*.96/1000)+' cm³。';
+ }
+ for(const b of document.querySelectorAll('[data-preset]'))b.onclick=()=>saveVals(b.dataset.preset);
+ for(const f of fields)$(f).oninput=()=>{for(const b of document.querySelectorAll('[data-preset]'))b.setAttribute('aria-pressed','false');redraw();};
+ saveVals('lv');
+})();
+</script></body></html>

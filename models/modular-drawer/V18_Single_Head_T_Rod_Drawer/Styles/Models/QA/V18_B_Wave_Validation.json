@@ -1,0 +1,34 @@
+{
+  "source_baseline_sha256": "4fab31b0c8a9abac78bae99e9d4ee4634a2a545abd49272ac800f2d9df6a380b",
+  "step_sha256": "10f7401840d3fcc01a91996f1f84ff53eb7190f395aaefdb344fd9d468492fff",
+  "step_reimport_valid_solids": 1,
+  "step_roundtrip_volume_difference_mm3": 0.0,
+  "step_has_faceted_entities": false,
+  "bbox_mm": [
+    144.1,
+    230.0,
+    86.0
+  ],
+  "source_volume_mm3": 163876.36615936595,
+  "new_volume_mm3": 161870.02338237746,
+  "removed_volume_mm3": 2006.1120435419748,
+  "added_volume_mm3": 0.0,
+  "delta_below_grip_mm3": 0.0,
+  "unchanged_floor_and_slide_lands": true,
+  "delta_rear_region_mm3": 0.0,
+  "rear_region_start_y_mm": 205.0,
+  "delta_outside_exact_top_cutters_mm3": 0.0,
+  "front_grip_width_mm": 66.1,
+  "front_grip_approx_depth_mm": 13.0,
+  "front_grip_centre_x_mm": 72.05,
+  "front_topology_contour_probe_max_deviation_mm": 0.002615136427948528,
+  "analytic_profile_type": "closed bounded BRep; exact tangent piecewise Bezier curves on ruled trimming surfaces",
+  "side_front_top_mm": 79.6,
+  "side_legacy_top_mm": 84.0,
+  "side_geometry_probe_count": 82,
+  "limitations": [
+    "Closed side walls; no perforating windows",
+    "No slicer, physical print, ergonomic validation, load, or anti-lift certification",
+    "Functional rear CAD contact geometry unchanged in measured region; final installed tray should be checked empty."
+  ]
+}
