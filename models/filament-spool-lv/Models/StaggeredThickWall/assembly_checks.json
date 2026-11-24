@@ -1,0 +1,268 @@
+{
+  "checks": {
+    "wide": {
+      "valid": true,
+      "solids": 1,
+      "upper_interface_difference_mm3": 0.0,
+      "window_probes": [
+        {
+          "layer": "outer",
+          "angle": 0,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 45,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 90,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 135,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 180,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 225,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 270,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 315,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 22.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 67.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 112.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 157.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 202.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 247.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 292.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 337.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        }
+      ]
+    },
+    "narrow": {
+      "valid": true,
+      "solids": 1,
+      "upper_interface_difference_mm3": 0.0,
+      "window_probes": [
+        {
+          "layer": "outer",
+          "angle": 0,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 45,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 90,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 135,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 180,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 225,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 270,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "outer",
+          "angle": 315,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 22.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 67.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 112.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 157.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 202.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 247.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 292.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        },
+        {
+          "layer": "inner",
+          "angle": 337.5,
+          "opening_material_fraction": 0.0,
+          "opposite_wall_material_fraction": 1.0
+        }
+      ]
+    }
+  },
+  "limits": [
+    "Nominal CAD fit only, not physical fit or strength certification.",
+    "Actual paper-core inner diameter and refill width not supplied; compatibility cannot be certified.",
+    "Insertion sampled at axial offsets and original clocking; elastic latch behavior not simulated."
+  ],
+  "assembly": {
+    "outer_face_separation_mm": 67.4,
+    "nominal_minimum_shaft_bore_mm": 55.0,
+    "nominal_wide_barrel_outer_diameter_mm": 81.7,
+    "nominal_narrow_barrel_outer_diameter_mm": 81.3,
+    "maximum_barrel_diameter_excluding_key_mm": 81.7,
+    "coil_space_between_3p6mm_rib_envelopes_mm": 60.2,
+    "samples": [
+      {
+        "axial_offset_mm": 0,
+        "twist_deg": 0,
+        "baseline_interference_mm3": 69.98642470166051,
+        "new_interference_mm3": 69.98642470166689,
+        "new_minus_baseline_mm3": 6.3806737671257e-12
+      },
+      {
+        "axial_offset_mm": 0,
+        "twist_deg": 44,
+        "baseline_interference_mm3": 0.0,
+        "new_interference_mm3": 0.0,
+        "new_minus_baseline_mm3": 0.0
+      },
+      {
+        "axial_offset_mm": 0,
+        "twist_deg": 50,
+        "baseline_interference_mm3": 0.0,
+        "new_interference_mm3": 0.0,
+        "new_minus_baseline_mm3": 0.0
+      },
+      {
+        "axial_offset_mm": 2,
+        "twist_deg": 50,
+        "baseline_interference_mm3": 0.0,
+        "new_interference_mm3": 0.0,
+        "new_minus_baseline_mm3": 0.0
+      },
+      {
+        "axial_offset_mm": 5,
+        "twist_deg": 50,
+        "baseline_interference_mm3": 0.0,
+        "new_interference_mm3": 0.0,
+        "new_minus_baseline_mm3": 0.0
+      },
+      {
+        "axial_offset_mm": 10,
+        "twist_deg": 50,
+        "baseline_interference_mm3": 0.0,
+        "new_interference_mm3": 0.0,
+        "new_minus_baseline_mm3": 0.0
+      }
+    ],
+    "shaft_54p9mm_interference_mm3": 0.0
+  }
+}

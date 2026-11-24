@@ -1,0 +1,20 @@
+{
+  "build_light.py": "246eaaa941d28d1e7f702389d856373b1b5586dd4efcc744da47a372e4f6979e",
+  "parameters.json": "b01e7e68a3698a665d92f9ca4d748775e04a85d6ffe1c63db2936a5b63d1ae49",
+  "requirements.txt": "b2d29e6c5f5d7698d54f8d4ce1b6b63410fbce33483c70e15e47d62e025f9cc0",
+  "narrow_lock.py": "1dcf8d8e8e2d63f2fe62237433a305ffb66df53227e739d7c2d9a35e9927a81f",
+  "official_hub.py": "d15d08fac96d0a42daab6fb3b1471852a9992a3ab6066e6aa86e573a40f6b59c",
+  "wide_cap_planes.json": "ed03491dc0f5e77ce61d23e0f841492c7489ba9276f0b43b2dca1190df1733ed",
+  "parking_slot.py": "9db1414a90208f916bd27e92a37c6309e2008c28b5465fb4040ff6245415f628",
+  "wide_lock.py": "59e9d811289c00f61c21b97a8d42c80216517659ddf4d36d2fd5baa34aae31fb",
+  "official_key.py": "889ce6d4adea50cfb3a8e8b14f790c0ccba1a0e2a45a617c22e54429e57963cb",
+  "hub_windows.py": "b04150215417219f9da193b343802b21d7433364493e93476cfd070f956aa747",
+  "README.md": "5d4075c317899686e4018a66ef06928d2c8c499f26871b5fcb4854704bea9622",
+  "build_official.py": "f3e664651f0f671c86bbcba22feef380097e77fa70d09a65a0389569032ed324",
+  "light_parameters.json": "b0cddfa644a5b85186a75467505258e80f2ecdd05af8b87bcd3a7f27b740eb42",
+  "official_flange.py": "3f77169d940cec8e49f7a48d0e506321b453abb757d620650c436aa90aaa49eb",
+  "wide_lock_sketches.json": "d7d342c29e7da962bbe0ac200807d59c913a6e3bc107afe5d6999225fe49a247",
+  "light_motif.py": "a13d649bf44e751519ffccfcd5682701ad0f634c04be672880b88edd9e2d56bf",
+  "wide_marker.py": "81ff6127bae8053b1ac22a7618a51bdaa50939ff42e8c658192413e44acbabde",
+  "light_flange.py": "411cba3f4e7c8688f6291792c8d30d2e5506d3f43253b0a9f5e950ab5774ac05"
+}

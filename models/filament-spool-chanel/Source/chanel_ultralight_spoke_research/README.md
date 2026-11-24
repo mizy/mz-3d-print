@@ -1,3 +1,0 @@
-Native exploratory open-spoke source, NOT a 60 g result or printing release. Run build_light.py --output YOUR_NEW_FOLDER with CadQuery 2.8. Complete functional hub, roof membranes and rolling ring remain. Four plaques replace the dense pattern; open sectors reduce lateral filament containment. Editable effective flange controls: rib_width/rib_total_height/rib_count, plaque_width/plaque_height/plaque_logo_scale, rim_width subject to parking-slot clearance, and skin_thickness for plaques. The legacy dense-logo controls are used only in discarded donor geometry and do not drive visible plaque pattern. No mechanical certification.
-
-Revision 2 restores all four complete hole pads. Use the latest validation/hash, not the superseded partial ring candidate.

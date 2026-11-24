@@ -1,23 +1,26 @@
 {
   "id": "filament-spool-lv",
-  "title": "LV 镂空轻量料盘 A · 待修订原型",
+  "title": "LV · OPEN ARCH 大面积错位长窗",
   "category": "打印配件 / 料盘",
   "status": "design",
   "cls": "derived",
-  "summary": "单色 PETG Matte；标称 Ø200×67 mm，约110.6g体积估算。双孔为自拟待修订，须改成官方料盘孔位后核验；缺防反转锁止，接口未核实，禁止装料。",
-  "cover": "Design/A_actual_CAD_preview.png",
+  "summary": "宽、窄两半均为原生 BRep，错位开放拱窗；共享官方接口，未切片或实物验证。",
+  "cover": "Models/StaggeredThickWall/LV_OPEN_ARCH_CUTAWAY.png",
   "downloads": [
-    "Models/A_wide_PROTOTYPE.step",
-    "Models/A_narrow_PROTOTYPE.step",
-    "Models/A_wide_PROTOTYPE.stl",
-    "Models/A_narrow_PROTOTYPE.stl"
+    "Models/StaggeredThickWall/LV_OPEN_ARCH_A_wide.step",
+    "Models/StaggeredThickWall/LV_OPEN_ARCH_A_narrow.step"
   ],
   "downloadGroups": [
     {
-      "prefix": "Models/",
-      "label": "仅工程审查与空载试配的原型文件",
-      "note": "不是可用成品。未切片、未实打、未验证拓竹补充装接口；禁止装料，不得把1kg简化分析当承重认证。"
+      "prefix": "Models/StaggeredThickWall/",
+      "label": "当前宽、窄两件 STEP",
+      "note": "wide 为宽半盘，narrow 为窄半盘；各文件仅一个有效实体。未切片或实物认证。"
     }
   ],
-  "gallery": []
+  "gallery": [
+    "Models/StaggeredThickWall/LV_OPEN_ARCH_CUTAWAY.png",
+    "Design/LV_four_native_motifs.png"
+  ],
+  "baseProject": "filament-spool-base",
+  "parametricSource": "Source/StaggeredThickWall/lv_staggered_source/build_light.py"
 }

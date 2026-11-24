@@ -1,0 +1,17 @@
+{
+  "status": "step_delivered_at_user_request_additional_checks_stopped",
+  "step": "Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A.step",
+  "sha256": "f35f444630b65ab58192d7441fe3449257493b6fee486155d532bb0baadccb5e",
+  "bytes": 5929005,
+  "valid_brep_solids": 2,
+  "skin_mm": 1.2,
+  "bond_mm": 1.6,
+  "rib_width_height_mm": [
+    5,
+    3.6
+  ],
+  "logo_bridge_mm": 1.4,
+  "physical_strength_verified": false,
+  "further_slicing_or_path_checks": "stopped_by_user",
+  "user_3mf_modified": false
+}

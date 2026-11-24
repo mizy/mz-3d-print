@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/tmp/chanel_window_assembly/paper_core_check.py", line 20, in <module>
-    ap=argparse.ArgumentParser();ap.add_argument('--measurements',required=True);ap.add_argument('--spool',required=True);ap.add_argument('--output',required=True);a=ap.parse_args();run(a.measurements,a.spool,a.output)
-                                                                                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/tmp/chanel_window_assembly/paper_core_check.py", line 9, in run
-    if any(q.get(k) is None for k in FIELDS):raise ValueError('Real paper-core measurements and chosen axial placement are required; template null values are deliberately not guessed.')
-                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ValueError: Real paper-core measurements and chosen axial placement are required; template null values are deliberately not guessed.

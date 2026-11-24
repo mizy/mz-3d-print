@@ -1,2 +1,0 @@
-wide {'valid': True, 'solids': 1, 'faces': 514, 'volume': 48793.83421087075, 'boundary': 0, 'nonmanifold': 0}
-narrow {'valid': True, 'solids': 1, 'faces': 403, 'volume': 45368.19299529835, 'boundary': 0, 'nonmanifold': 0}

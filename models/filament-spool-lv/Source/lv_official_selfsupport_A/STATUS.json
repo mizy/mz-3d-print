@@ -1,0 +1,15 @@
+{
+  "status": "geometry_and_slicing_reviewed_not_strength_certified",
+  "step_sha256": "5acabebffae12bd0f9c9e569092f8e16929347f8a114bafcb97fea0aa4033fab",
+  "default_sliced_total_g": 118.446762085,
+  "lower_material_2wall_trial_g": 109.85118103,
+  "achieved_100g": false,
+  "no_new_simulation": true,
+  "current_print_project_modified": false,
+  "raw_tessellation_zero_area_faces_per_half": 16,
+  "cleaning_moves_vertices": false,
+  "cleaned_mesh_boundary_nonmanifold": [
+    0,
+    0
+  ]
+}

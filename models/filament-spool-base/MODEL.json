@@ -1,0 +1,12 @@
+{
+  "id": "filament-spool-base",
+  "title": "共享基础料盘 · 官方接口参数化基准",
+  "category": "打印配件 / 料盘",
+  "status": "design",
+  "cls": "derived",
+  "summary": "Chanel 与 LV 共用的筒、卡扣、定位键、基础盘面和 A 收纳槽；品牌几何与开窗参数由各派生项目维护。未新增切片或实物认证。",
+  "downloads": [
+    "Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE_wide.step",
+    "Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE_narrow.step"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "version": [
+    "1",
+    "0",
+    "0",
+    "39109 (Git)",
+    "https://github.com/FreeCAD/FreeCAD",
+    "2024/11/18 16:48:00",
+    "(HEAD detached at 1.0.0)",
+    "2fcc5317fe3aee96ca73475986a577719fc78e20"
+  ],
+  "inputs": [
+    {
+      "volume": 626.3251490017203,
+      "faces": 46,
+      "valid": true
+    },
+    {
+      "volume": 10526.299998254442,
+      "faces": 133,
+      "valid": true
+    },
+    {
+      "volume": 1772.6167206970883,
+      "faces": 59,
+      "valid": true
+    },
+    {
+      "volume": 10357.597269387523,
+      "faces": 151,
+      "valid": true
+    }
+  ],
+  "0.0": {
+    "volume": 10161.405250135536,
+    "valid": false,
+    "solids": 1,
+    "faces": 214
+  },
+  "1e-05": {
+    "volume": 10690.158773727682,
+    "valid": false,
+    "solids": 1,
+    "faces": 223
+  },
+  "0.001": {
+    "volume": 1.687538997430238e-13,
+    "valid": true,
+    "solids": 2,
+    "faces": 4
+  }
+}

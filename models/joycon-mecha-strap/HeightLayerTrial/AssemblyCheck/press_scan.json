@@ -1,0 +1,307 @@
+{
+  "coordinate_system": "original author body axes; press direction -Z, not print Z",
+  "pose_basis": "button broad cap up, circular actuator down; hole-axis centered X=33.25 or 74.35 and Y=-6.9, NOT verified seated rest position",
+  "scan": "button cap maximum Z from 7 to 16 mm, 0.25 mm steps; two positions; rigid parts",
+  "samples": {
+    "left": [
+      {
+        "cap_top_z_mm": 7.0,
+        "intersection_mm3": 116.3675199709631
+      },
+      {
+        "cap_top_z_mm": 7.25,
+        "intersection_mm3": 116.36839552545155
+      },
+      {
+        "cap_top_z_mm": 7.5,
+        "intersection_mm3": 116.36411135113856
+      },
+      {
+        "cap_top_z_mm": 7.75,
+        "intersection_mm3": 97.16702669019098
+      },
+      {
+        "cap_top_z_mm": 8.0,
+        "intersection_mm3": 77.97030795360259
+      },
+      {
+        "cap_top_z_mm": 8.25,
+        "intersection_mm3": 58.77324285959196
+      },
+      {
+        "cap_top_z_mm": 8.5,
+        "intersection_mm3": 39.57593570521775
+      },
+      {
+        "cap_top_z_mm": 8.75,
+        "intersection_mm3": 24.223478138333217
+      },
+      {
+        "cap_top_z_mm": 9.0,
+        "intersection_mm3": 24.22405730895004
+      },
+      {
+        "cap_top_z_mm": 9.25,
+        "intersection_mm3": 24.22418465639559
+      },
+      {
+        "cap_top_z_mm": 9.5,
+        "intersection_mm3": 24.224526532231152
+      },
+      {
+        "cap_top_z_mm": 9.75,
+        "intersection_mm3": 25.944295757304303
+      },
+      {
+        "cap_top_z_mm": 10.0,
+        "intersection_mm3": 27.44453543830984
+      },
+      {
+        "cap_top_z_mm": 10.25,
+        "intersection_mm3": 28.719263393526944
+      },
+      {
+        "cap_top_z_mm": 10.5,
+        "intersection_mm3": 29.768641199054667
+      },
+      {
+        "cap_top_z_mm": 10.75,
+        "intersection_mm3": 30.484542797549693
+      },
+      {
+        "cap_top_z_mm": 11.0,
+        "intersection_mm3": 30.54241057061093
+      },
+      {
+        "cap_top_z_mm": 11.25,
+        "intersection_mm3": 30.374302837571502
+      },
+      {
+        "cap_top_z_mm": 11.5,
+        "intersection_mm3": 29.934179852209166
+      },
+      {
+        "cap_top_z_mm": 11.75,
+        "intersection_mm3": 26.925133577330598
+      },
+      {
+        "cap_top_z_mm": 12.0,
+        "intersection_mm3": 23.569911035828493
+      },
+      {
+        "cap_top_z_mm": 12.25,
+        "intersection_mm3": 16.97700812096059
+      },
+      {
+        "cap_top_z_mm": 12.5,
+        "intersection_mm3": 10.497434994438342
+      },
+      {
+        "cap_top_z_mm": 12.75,
+        "intersection_mm3": 5.2826738003801195
+      },
+      {
+        "cap_top_z_mm": 13.0,
+        "intersection_mm3": 2.337081626899694
+      },
+      {
+        "cap_top_z_mm": 13.25,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 13.5,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 13.75,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 14.0,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 14.25,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 14.5,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 14.75,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 15.0,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 15.25,
+        "intersection_mm3": 1.1441769422790742
+      },
+      {
+        "cap_top_z_mm": 15.5,
+        "intersection_mm3": 2.1197838212003526
+      },
+      {
+        "cap_top_z_mm": 15.75,
+        "intersection_mm3": 2.8684945502031383
+      },
+      {
+        "cap_top_z_mm": 16.0,
+        "intersection_mm3": 3.3905545015745133
+      }
+    ],
+    "right": [
+      {
+        "cap_top_z_mm": 7.0,
+        "intersection_mm3": 110.83215152355486
+      },
+      {
+        "cap_top_z_mm": 7.25,
+        "intersection_mm3": 110.83302915744791
+      },
+      {
+        "cap_top_z_mm": 7.5,
+        "intersection_mm3": 110.82874409910971
+      },
+      {
+        "cap_top_z_mm": 7.75,
+        "intersection_mm3": 91.63165997479514
+      },
+      {
+        "cap_top_z_mm": 8.0,
+        "intersection_mm3": 72.43494598999662
+      },
+      {
+        "cap_top_z_mm": 8.25,
+        "intersection_mm3": 53.2378783945804
+      },
+      {
+        "cap_top_z_mm": 8.5,
+        "intersection_mm3": 34.040573201747826
+      },
+      {
+        "cap_top_z_mm": 8.75,
+        "intersection_mm3": 18.688110696364408
+      },
+      {
+        "cap_top_z_mm": 9.0,
+        "intersection_mm3": 18.688692568329884
+      },
+      {
+        "cap_top_z_mm": 9.25,
+        "intersection_mm3": 18.688821323794667
+      },
+      {
+        "cap_top_z_mm": 9.5,
+        "intersection_mm3": 18.689156692228988
+      },
+      {
+        "cap_top_z_mm": 9.75,
+        "intersection_mm3": 20.40893152525344
+      },
+      {
+        "cap_top_z_mm": 10.0,
+        "intersection_mm3": 21.90917329241059
+      },
+      {
+        "cap_top_z_mm": 10.25,
+        "intersection_mm3": 23.18390227547434
+      },
+      {
+        "cap_top_z_mm": 10.5,
+        "intersection_mm3": 24.233286830891604
+      },
+      {
+        "cap_top_z_mm": 10.75,
+        "intersection_mm3": 24.949178724252004
+      },
+      {
+        "cap_top_z_mm": 11.0,
+        "intersection_mm3": 25.007049630099118
+      },
+      {
+        "cap_top_z_mm": 11.25,
+        "intersection_mm3": 24.838947056903862
+      },
+      {
+        "cap_top_z_mm": 11.5,
+        "intersection_mm3": 24.39881258527218
+      },
+      {
+        "cap_top_z_mm": 11.75,
+        "intersection_mm3": 21.389772187742967
+      },
+      {
+        "cap_top_z_mm": 12.0,
+        "intersection_mm3": 18.034846205838523
+      },
+      {
+        "cap_top_z_mm": 12.25,
+        "intersection_mm3": 12.595018107317552
+      },
+      {
+        "cap_top_z_mm": 12.5,
+        "intersection_mm3": 7.268724130998332
+      },
+      {
+        "cap_top_z_mm": 12.75,
+        "intersection_mm3": 3.207286714915199
+      },
+      {
+        "cap_top_z_mm": 13.0,
+        "intersection_mm3": 1.4149417540484042
+      },
+      {
+        "cap_top_z_mm": 13.25,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 13.5,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 13.75,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 14.0,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 14.25,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 14.5,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 14.75,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 15.0,
+        "intersection_mm3": 0.0
+      },
+      {
+        "cap_top_z_mm": 15.25,
+        "intersection_mm3": 1.14417706793886
+      },
+      {
+        "cap_top_z_mm": 15.5,
+        "intersection_mm3": 2.119779598031755
+      },
+      {
+        "cap_top_z_mm": 15.75,
+        "intersection_mm3": 2.8684930225434377
+      },
+      {
+        "cap_top_z_mm": 16.0,
+        "intersection_mm3": 3.390557128638155
+      }
+    ]
+  }
+}

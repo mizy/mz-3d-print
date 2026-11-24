@@ -1,0 +1,340 @@
+{
+  "left": {
+    "lower_contact_bracket_mm": [
+      13.19921875,
+      13.201171875
+    ],
+    "upper_contact_bracket_mm": [
+      15.009765625,
+      15.01171875
+    ],
+    "demo_initial_H_mm": 14.75,
+    "demo_final_H_mm": 13.25,
+    "demo_samples": [
+      {
+        "press_displacement_mm": 0.0,
+        "cap_top_z_mm": 14.75,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.05000000000000071,
+        "cap_top_z_mm": 14.7,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.09999999999999964,
+        "cap_top_z_mm": 14.65,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.15000000000000036,
+        "cap_top_z_mm": 14.6,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.1999999999999993,
+        "cap_top_z_mm": 14.55,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.25,
+        "cap_top_z_mm": 14.5,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.3000000000000007,
+        "cap_top_z_mm": 14.45,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.34999999999999964,
+        "cap_top_z_mm": 14.4,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.40000000000000036,
+        "cap_top_z_mm": 14.35,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.4499999999999993,
+        "cap_top_z_mm": 14.3,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.5,
+        "cap_top_z_mm": 14.25,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.5500000000000007,
+        "cap_top_z_mm": 14.2,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.5999999999999996,
+        "cap_top_z_mm": 14.15,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.6500000000000004,
+        "cap_top_z_mm": 14.1,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.6999999999999993,
+        "cap_top_z_mm": 14.05,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.75,
+        "cap_top_z_mm": 14.0,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.8000000000000007,
+        "cap_top_z_mm": 13.95,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.8499999999999996,
+        "cap_top_z_mm": 13.9,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.9000000000000004,
+        "cap_top_z_mm": 13.85,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.9499999999999993,
+        "cap_top_z_mm": 13.8,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.0,
+        "cap_top_z_mm": 13.75,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.0500000000000007,
+        "cap_top_z_mm": 13.7,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.0999999999999996,
+        "cap_top_z_mm": 13.65,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.1500000000000004,
+        "cap_top_z_mm": 13.6,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.1999999999999993,
+        "cap_top_z_mm": 13.55,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.25,
+        "cap_top_z_mm": 13.5,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.3000000000000007,
+        "cap_top_z_mm": 13.45,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.3499999999999996,
+        "cap_top_z_mm": 13.4,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.4000000000000004,
+        "cap_top_z_mm": 13.35,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.4499999999999993,
+        "cap_top_z_mm": 13.3,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.5,
+        "cap_top_z_mm": 13.25,
+        "collision_mm3": 0
+      }
+    ]
+  },
+  "right": {
+    "lower_contact_bracket_mm": [
+      13.19921875,
+      13.201171875
+    ],
+    "upper_contact_bracket_mm": [
+      15.009765625,
+      15.01171875
+    ],
+    "demo_initial_H_mm": 14.75,
+    "demo_final_H_mm": 13.25,
+    "demo_samples": [
+      {
+        "press_displacement_mm": 0.0,
+        "cap_top_z_mm": 14.75,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.05000000000000071,
+        "cap_top_z_mm": 14.7,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.09999999999999964,
+        "cap_top_z_mm": 14.65,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.15000000000000036,
+        "cap_top_z_mm": 14.6,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.1999999999999993,
+        "cap_top_z_mm": 14.55,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.25,
+        "cap_top_z_mm": 14.5,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.3000000000000007,
+        "cap_top_z_mm": 14.45,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.34999999999999964,
+        "cap_top_z_mm": 14.4,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.40000000000000036,
+        "cap_top_z_mm": 14.35,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.4499999999999993,
+        "cap_top_z_mm": 14.3,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.5,
+        "cap_top_z_mm": 14.25,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.5500000000000007,
+        "cap_top_z_mm": 14.2,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.5999999999999996,
+        "cap_top_z_mm": 14.15,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.6500000000000004,
+        "cap_top_z_mm": 14.1,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.6999999999999993,
+        "cap_top_z_mm": 14.05,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.75,
+        "cap_top_z_mm": 14.0,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.8000000000000007,
+        "cap_top_z_mm": 13.95,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.8499999999999996,
+        "cap_top_z_mm": 13.9,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.9000000000000004,
+        "cap_top_z_mm": 13.85,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 0.9499999999999993,
+        "cap_top_z_mm": 13.8,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.0,
+        "cap_top_z_mm": 13.75,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.0500000000000007,
+        "cap_top_z_mm": 13.7,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.0999999999999996,
+        "cap_top_z_mm": 13.65,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.1500000000000004,
+        "cap_top_z_mm": 13.6,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.1999999999999993,
+        "cap_top_z_mm": 13.55,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.25,
+        "cap_top_z_mm": 13.5,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.3000000000000007,
+        "cap_top_z_mm": 13.45,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.3499999999999996,
+        "cap_top_z_mm": 13.4,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.4000000000000004,
+        "cap_top_z_mm": 13.35,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.4499999999999993,
+        "cap_top_z_mm": 13.3,
+        "collision_mm3": 0
+      },
+      {
+        "press_displacement_mm": 1.5,
+        "cap_top_z_mm": 13.25,
+        "collision_mm3": 0
+      }
+    ]
+  }
+}

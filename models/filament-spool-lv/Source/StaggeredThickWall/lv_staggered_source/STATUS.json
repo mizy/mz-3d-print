@@ -1,0 +1,8 @@
+{
+  "revision": "LV_OPEN_ARCH_A",
+  "geometry_complete": true,
+  "full_export": "PASS: two separate single-solid BRep STEP files",
+  "slicing": "NOT_PERFORMED_USER_WILL_CHECK",
+  "strength": "NOT_CERTIFIED",
+  "interfaces": "CAD protected regions unchanged"
+}

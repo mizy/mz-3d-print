@@ -1,0 +1,16 @@
+{
+  "id": "doubao-figure",
+  "title": "豆包 Q 版分件手办",
+  "category": "摆件/手办",
+  "status": "design",
+  "cls": "derived",
+  "summary": "V5 围巾分色修正版：基于图生 3D 母版重切，约 100 mm，九件七色盘。肤色盘仅头和双手，围巾完整独立。已做 Bambu Studio 无切片回读及虚拟装配，未实物试装。",
+  "cover": "Multipart100mm_ScarfV5/Doubao_V5_Plate_Contents.png",
+  "downloads": [
+    "Multipart100mm_ScarfV5/Doubao_V5_ScarfPartition_9Parts_7Colors_P1S.3mf",
+    "Multipart100mm_ScarfV5/README.md"
+  ],
+  "gallery": [
+    "Multipart100mm_ScarfV5/Doubao_V5_Plate_Contents.png"
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "inner_diameter_mm": null,
-  "outer_diameter_mm": null,
-  "length_mm": null,
-  "notch_width_mm": null,
-  "notch_axial_height_mm": null,
-  "axial_start_mm": null,
-  "measurement_source": "Fill actual caliper measurements or identified manufacturer drawing. axial_start is placement relative to wide outside face z=0, not a paper dimension."
-}

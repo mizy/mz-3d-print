@@ -1,0 +1,72 @@
+{
+  "01_base": {
+    "valid": true,
+    "solids": 1,
+    "bbox_mm": [
+      237.6,
+      127.2,
+      6.4
+    ],
+    "solid_volume_mm3": 83985.41
+  },
+  "02_small_parts": {
+    "valid": true,
+    "solids": 1,
+    "bbox_mm": [
+      75.2,
+      59.2,
+      22.0
+    ],
+    "solid_volume_mm3": 30052.35
+  },
+  "03_nozzle_pockets": {
+    "valid": true,
+    "solids": 1,
+    "bbox_mm": [
+      75.2,
+      59.2,
+      12.0
+    ],
+    "solid_volume_mm3": 45250.8
+  },
+  "04_open_tray": {
+    "valid": true,
+    "solids": 1,
+    "bbox_mm": [
+      75.2,
+      59.2,
+      22.0
+    ],
+    "solid_volume_mm3": 26740.74
+  },
+  "05_tool_cup": {
+    "valid": true,
+    "solids": 1,
+    "bbox_mm": [
+      75.2,
+      59.2,
+      65.0
+    ],
+    "solid_volume_mm3": 72543.23
+  },
+  "06_glue_cup": {
+    "valid": true,
+    "solids": 1,
+    "bbox_mm": [
+      75.2,
+      59.2,
+      50.0
+    ],
+    "solid_volume_mm3": 49678.34
+  },
+  "07_precision_tools": {
+    "valid": true,
+    "solids": 1,
+    "bbox_mm": [
+      75.2,
+      59.2,
+      58.0
+    ],
+    "solid_volume_mm3": 84414.46
+  }
+}

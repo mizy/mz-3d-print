@@ -43,8 +43,6 @@
     └── build-site.mjs     # 扫描 models/*/MODEL.json → 生成 index.html + models.json
 ```
 
-模型目录里的 HTML 资产会被自动扫描：页首「资料导航」和该模型卡片的「网页资料」区都会生成链接，链接名取 HTML 自己的 `<title>`（没有 title 时退回「模型名 · 文件名」）。新增或删除 HTML 后跑一次 `bun tools/build-site.mjs` 即可。
-
 ## 什么进库、什么不进（2026-11-16 清理后的规则）
 
 - **进库**：可直接下载去打的成品（**3mf 优先**，内含打印设置）、一份预览图、建模脚本 / `MODEL.json` / 设计说明。
@@ -94,3 +92,11 @@ git add -A && git commit -m "feat: 加入 xxx" && git push
 - **支撑**：`tree(auto)`、45°、`critical_regions_only=1`、`top_z` 0.32、`XY` 0.35、界面 2 层 / 间距 0.5、8 mm brim。
 - **首层脱盘是炒面的根因**：温水+洗洁精洗板、首层 0.20 mm / 线宽 0.5 / 25–30 mm/s、热床 75 ℃、前 3 层辅助风扇关、PETG 打印时别开外排风（穿堂风会让腔温掉到 5 ℃）。
 - 完整的踩坑台账在 `3d-print-ideas` 技能的 `docs/print-pitfalls.md`（29 条），不在这里重复。
+
+## 料盘共享基础构型
+
+Chanel 与 LV 的共同参数化基础集中在 [`models/filament-spool-base/`](models/filament-spool-base/README.md)，品牌项目仅维护派生差异；旧源码引用路径兼容保留。STEP 优先交付，参数源码配套；用户自行切片。
+
+### 料盘 STEP 当前入口（2026-11-19）
+
+共享基准、香奈儿、LV 各只保留 wide / narrow 两个当前 STEP。入口见各 `models/filament-spool-*/README.md`；旧合并/历史 STEP 已移入可恢复废纸篓，源码和 3MF 保留。

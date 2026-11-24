@@ -1,0 +1,90 @@
+{
+  "scale": {
+    "volume": 10693.061355210124,
+    "valid": true,
+    "solids": 1,
+    "source_vertex_states": {
+      "TopAbs_State.TopAbs_ON": 362,
+      "TopAbs_State.TopAbs_IN": 21,
+      "TopAbs_State.TopAbs_OUT": 4
+    },
+    "source_vertices_outside": [
+      {
+        "point": [
+          97.20000267,
+          -13.50000038,
+          5e-08
+        ],
+        "distance": 3.329413907085595e-05
+      },
+      {
+        "point": [
+          91.19999887,
+          -11.89999981,
+          0.80000006
+        ],
+        "distance": 2.1460262495129984e-07
+      },
+      {
+        "point": [
+          4.11702518,
+          -0.2999994,
+          5e-08
+        ],
+        "distance": 3.329413903127261e-05
+      },
+      {
+        "point": [
+          4.11702518,
+          1.7e-07,
+          0.29999985
+        ],
+        "distance": 3.255209251278568e-05
+      }
+    ]
+  },
+  "nurbs": {
+    "volume": 10690.119346533493,
+    "valid": false,
+    "solids": 1,
+    "source_vertex_states": {
+      "TopAbs_State.TopAbs_ON": 362,
+      "TopAbs_State.TopAbs_IN": 21,
+      "TopAbs_State.TopAbs_OUT": 4
+    },
+    "source_vertices_outside": [
+      {
+        "point": [
+          97.20000267,
+          -13.79999995,
+          0.29999985
+        ],
+        "distance": 3.255209327669818e-05
+      },
+      {
+        "point": [
+          97.20000267,
+          -13.50000038,
+          5e-08
+        ],
+        "distance": 3.3294138769476463e-05
+      },
+      {
+        "point": [
+          4.11702518,
+          -0.2999994,
+          5e-08
+        ],
+        "distance": 3.329413873034507e-05
+      },
+      {
+        "point": [
+          4.11702518,
+          1.7e-07,
+          0.29999985
+        ],
+        "distance": 3.2552092512696345e-05
+      }
+    ]
+  }
+}

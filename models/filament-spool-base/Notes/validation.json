@@ -1,0 +1,78 @@
+{
+  "compatibility_links": 75,
+  "all_resolve": true,
+  "source_syntax": true,
+  "step_hashes": {
+    "models/filament-spool-chanel/Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A.step": "f35f444630b65ab58192d7441fe3449257493b6fee486155d532bb0baadccb5e",
+    "models/filament-spool-lv/Models/StaggeredThickWall/LV_STAGGERED_THICK_WALL_A.step": "97737a6ad18fab456a8bb124e1d90c0c52e0390743a52dd04c5764e926a977d8"
+  },
+  "slicing": "not run",
+  "cadquery_version": "2.8.0",
+  "brand_imports_and_config_resolution": "passed both brands",
+  "full_regeneration": {
+    "chanel": {
+      "valid": true,
+      "solids": 2,
+      "parts": {
+        "wide": {
+          "valid": true,
+          "solids": 1,
+          "faces": 1797,
+          "volume_mm3": 74237.6439325446,
+          "bbox_mm": [
+            200.0,
+            200.0,
+            40.700000200000005
+          ]
+        },
+        "narrow": {
+          "valid": true,
+          "solids": 1,
+          "faces": 1704,
+          "volume_mm3": 72239.96091977632,
+          "bbox_mm": [
+            200.0,
+            200.0,
+            34.100000200000004
+          ]
+        }
+      },
+      "output_location": "temporary directory; not promoted to current model"
+    },
+    "lv": {
+      "valid": true,
+      "solids": 2,
+      "parts": {
+        "wide": {
+          "valid": true,
+          "solids": 1,
+          "faces": 1956,
+          "volume_mm3": 99248.96028334547,
+          "bbox_mm": [
+            200.0,
+            200.0,
+            40.700000100000004
+          ]
+        },
+        "narrow": {
+          "valid": true,
+          "solids": 1,
+          "faces": 1864,
+          "volume_mm3": 89155.2319023742,
+          "bbox_mm": [
+            200.0,
+            200.0,
+            34.100000200000004
+          ]
+        }
+      },
+      "output_location": "temporary directory; not promoted to current model"
+    }
+  },
+  "site_index": "not regenerated: build-site requires newly added files to be tracked; no staging/commit performed",
+  "lv_regeneration_comparison": {
+    "kernel_version_note": "Current source originally pins CadQuery 2.7.0. Shared migration build check used cached 2.8.0. This is a build-validity check, not geometric equivalence certification. Original delivered STEP retained unchanged.",
+    "wide_volume_delta_mm3": -40.1945800686226,
+    "narrow_volume_delta_mm3": 6.42267259536311e-05
+  }
+}

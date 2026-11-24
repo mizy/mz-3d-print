@@ -1,0 +1,434 @@
+[
+  {
+    "mode": "original",
+    "fuzzy": 0,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.597269387523,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": true,
+      "volume": 10161.24458111126,
+      "solids": 1,
+      "faces": 213,
+      "shells": 1
+    }
+  },
+  {
+    "mode": "original",
+    "fuzzy": 1e-07,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.597269387523,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": true,
+      "volume": 10161.736144364551,
+      "solids": 1,
+      "faces": 213,
+      "shells": 1
+    }
+  },
+  {
+    "mode": "original",
+    "fuzzy": 1e-05,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.597269387523,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": false,
+      "volume": 10693.012586059196,
+      "solids": 1,
+      "faces": 222,
+      "shells": 1
+    }
+  },
+  {
+    "mode": "original",
+    "fuzzy": 0.0001,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.597269387523,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": true,
+      "volume": 0.0,
+      "solids": 0,
+      "faces": 0,
+      "shells": 0
+    }
+  },
+  {
+    "mode": "fix",
+    "fuzzy": 0,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.597269387523,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": true,
+      "volume": 10161.900865899906,
+      "solids": 1,
+      "faces": 213,
+      "shells": 1
+    }
+  },
+  {
+    "mode": "fix",
+    "fuzzy": 1e-07,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.597269387523,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": true,
+      "volume": 10161.736144364675,
+      "solids": 1,
+      "faces": 213,
+      "shells": 1
+    }
+  },
+  {
+    "mode": "fix",
+    "fuzzy": 1e-05,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.597269387523,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": false,
+      "volume": 10693.012586059229,
+      "solids": 1,
+      "faces": 222,
+      "shells": 1
+    }
+  },
+  {
+    "mode": "fix",
+    "fuzzy": 0.0001,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.597269387523,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": true,
+      "volume": 0.0,
+      "solids": 0,
+      "faces": 0,
+      "shells": 0
+    }
+  },
+  {
+    "mode": "unify",
+    "fuzzy": 0,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.59856077977,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": true,
+      "volume": 60.44015584897089,
+      "solids": 7,
+      "faces": 65,
+      "shells": 7
+    }
+  },
+  {
+    "mode": "unify",
+    "fuzzy": 1e-07,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.59856077977,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": true,
+      "volume": 60.420921893812334,
+      "solids": 7,
+      "faces": 65,
+      "shells": 7
+    }
+  },
+  {
+    "mode": "unify",
+    "fuzzy": 1e-05,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.59856077977,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": false,
+      "volume": 10692.913748076484,
+      "solids": 1,
+      "faces": 221,
+      "shells": 1
+    }
+  },
+  {
+    "mode": "unify",
+    "fuzzy": 0.0001,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.59856077977,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": true,
+      "volume": 0.0,
+      "solids": 0,
+      "faces": 0,
+      "shells": 0
+    }
+  },
+  {
+    "mode": "fix_unify",
+    "fuzzy": 0,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.59856077977,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": true,
+      "volume": 60.420921893749316,
+      "solids": 7,
+      "faces": 65,
+      "shells": 7
+    }
+  },
+  {
+    "mode": "fix_unify",
+    "fuzzy": 1e-07,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.59856077977,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": true,
+      "volume": 60.420921893749316,
+      "solids": 7,
+      "faces": 65,
+      "shells": 7
+    }
+  },
+  {
+    "mode": "fix_unify",
+    "fuzzy": 1e-05,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.59856077977,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": false,
+      "volume": 10692.913748076517,
+      "solids": 1,
+      "faces": 221,
+      "shells": 1
+    }
+  },
+  {
+    "mode": "fix_unify",
+    "fuzzy": 0.0001,
+    "inputs": [
+      {
+        "valid": true,
+        "volume": 10357.59856077977,
+        "solids": 1,
+        "faces": 151,
+        "shells": 1
+      },
+      {
+        "valid": true,
+        "volume": 1772.6167206970883,
+        "solids": 1,
+        "faces": 59,
+        "shells": 1
+      }
+    ],
+    "output": {
+      "valid": true,
+      "volume": 0.0,
+      "solids": 0,
+      "faces": 0,
+      "shells": 0
+    }
+  }
+]

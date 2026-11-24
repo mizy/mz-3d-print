@@ -1,0 +1,92 @@
+[
+  {
+    "source": "models/filament-spool-base/Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE.step",
+    "source_sha256": "bdaede34a24c5cd80b7c7f63cc33f1d28684d43209536d1d925e037057b7d0fc",
+    "parts": [
+      {
+        "path": "models/filament-spool-base/Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE_wide.step",
+        "part": "wide",
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 112474.47018012973,
+        "volume_difference_mm3": 1.3058888725936413e-07,
+        "area_difference_mm2": 8.862116374075413e-09,
+        "bbox_max_difference_mm": 4.73188056795366e-16,
+        "faces": 170,
+        "sha256": "fdad4b38fd85dfe2b224a1f4071c1893930d71a240dfbf3f4be134f63f75913c"
+      },
+      {
+        "path": "models/filament-spool-base/Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE_narrow.step",
+        "part": "narrow",
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 108699.05767691927,
+        "volume_difference_mm3": 5.107722245156765e-09,
+        "area_difference_mm2": 7.8580342233181e-10,
+        "bbox_max_difference_mm": 5.338314359524836e-15,
+        "faces": 107,
+        "sha256": "244465c50eb39b9ef961c1356776908db5d7b0d964613faa651470933bb80878"
+      }
+    ]
+  },
+  {
+    "source": "models/filament-spool-chanel/Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A.step",
+    "source_sha256": "f35f444630b65ab58192d7441fe3449257493b6fee486155d532bb0baadccb5e",
+    "parts": [
+      {
+        "path": "models/filament-spool-chanel/Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A_wide.step",
+        "part": "wide",
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 74237.84395494587,
+        "volume_difference_mm3": 1.1091469787061214e-07,
+        "area_difference_mm2": 1.208973117172718e-07,
+        "bbox_max_difference_mm": 0.0,
+        "faces": 1797,
+        "sha256": "e1746565f709391dd1c6f0dcc9a5e8c0a2ac64f3c8b4398138f248ef060cb48c"
+      },
+      {
+        "path": "models/filament-spool-chanel/Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A_narrow.step",
+        "part": "narrow",
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 72240.2395596343,
+        "volume_difference_mm3": 2.051820047199726e-09,
+        "area_difference_mm2": 2.09402060136199e-08,
+        "bbox_max_difference_mm": 0.0,
+        "faces": 1704,
+        "sha256": "c8c9eef738b56b9c7399c5f73e86bc02096643c34f8c8f021d8df0ef78e4c60e"
+      }
+    ]
+  },
+  {
+    "source": "models/filament-spool-lv/Models/StaggeredThickWall/LV_STAGGERED_THICK_WALL_A.step",
+    "source_sha256": "97737a6ad18fab456a8bb124e1d90c0c52e0390743a52dd04c5764e926a977d8",
+    "parts": [
+      {
+        "path": "models/filament-spool-lv/Models/StaggeredThickWall/LV_STAGGERED_THICK_WALL_A_wide.step",
+        "part": "wide",
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 99294.31328461325,
+        "volume_difference_mm3": 0.05895957000029739,
+        "area_difference_mm2": 6.903428584337234e-08,
+        "bbox_max_difference_mm": 0.0,
+        "faces": 1940,
+        "sha256": "180831892990b9e74f537a1de6cbe52e51137d0175c81e87e07cd61b6e0fae9d"
+      },
+      {
+        "path": "models/filament-spool-lv/Models/StaggeredThickWall/LV_STAGGERED_THICK_WALL_A_narrow.step",
+        "part": "narrow",
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 89158.60608166149,
+        "volume_difference_mm3": 0.03784838553110603,
+        "area_difference_mm2": 6.917980499565601e-08,
+        "bbox_max_difference_mm": 0.0,
+        "faces": 1864,
+        "sha256": "6ddb67015248bc34928b96630bea8cf825c4555acbb00940fff06314ba772efb"
+      }
+    ]
+  }
+]

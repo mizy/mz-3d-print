@@ -1,0 +1,69 @@
+{
+  "status": "reference-based trial, NOT verified fit or retention",
+  "source_sha256": "5105e445906318fb9497d8a1882d734856294e384dc7767576dda8a660036a50",
+  "body_source_solid_indices": [
+    3,
+    2
+  ],
+  "button_source_solid_index": 0,
+  "functional_geometry_unchanged": true,
+  "parts": [
+    {
+      "part": "reference_outer_body_UNCHANGED",
+      "valid": true,
+      "volume_mm3": 10357.597269387523
+    },
+    {
+      "part": "reference_rail_component_UNCHANGED",
+      "valid": true,
+      "volume_mm3": 1772.6167206970883
+    },
+    {
+      "part": "left_graphite_armor",
+      "valid": true,
+      "volume_mm3": 171.7
+    },
+    {
+      "part": "left_cyan_inlay",
+      "valid": true,
+      "volume_mm3": 41.81999999999998
+    },
+    {
+      "part": "right_graphite_armor",
+      "valid": true,
+      "volume_mm3": 171.7
+    },
+    {
+      "part": "right_cyan_inlay",
+      "valid": true,
+      "volume_mm3": 41.819999999999986
+    },
+    {
+      "part": "button_1_UNCHANGED_UNSEATED",
+      "valid": true,
+      "volume_mm3": 626.3251490017202
+    },
+    {
+      "part": "button_2_UNCHANGED_UNSEATED",
+      "valid": true,
+      "volume_mm3": 626.3251490017205
+    }
+  ],
+  "source_body_components_not_fused": true,
+  "button_positions": "separate print parts, not seated simulation",
+  "slicing_performed": false,
+  "source_body_contact_check": {
+    "minimum_distance_mm": 0.0,
+    "inner_solution": true,
+    "computed_common_volume_mm3": 0.0,
+    "conclusion": "mixed penetration and coincident contact, union topology unreliable; no repaired geometry accepted",
+    "component2_vertices_inside3": 28,
+    "component3_vertices_inside2": 19,
+    "max_sampled_depth_2_into3_mm": 0.5001405681609746,
+    "max_sampled_depth_3_into2_mm": 1.9000005771655477
+  },
+  "repair_tests": "Diagnostics/repair_results.json",
+  "independent_freecad_tests": "Diagnostics/freecad_results.json",
+  "button_mesh_comparison": "Diagnostics/button_comparison.json",
+  "button_return_and_travel_validated": false
+}

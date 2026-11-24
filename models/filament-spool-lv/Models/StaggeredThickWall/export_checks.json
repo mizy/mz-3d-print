@@ -1,0 +1,28 @@
+{
+  "wide": {
+    "valid": true,
+    "solids": 1,
+    "mesh_entities": [],
+    "shaft_54p9mm_interference_mm3": 0.0,
+    "bbox_mm": [
+      200.0,
+      200.0,
+      40.700000100000004
+    ],
+    "bytes": 9472394,
+    "sha256": "2744e20569e94d878f76f3ca1593901989ebd46d0ae4a76daa3d85308aae36a1"
+  },
+  "narrow": {
+    "valid": true,
+    "solids": 1,
+    "mesh_entities": [],
+    "shaft_54p9mm_interference_mm3": 0.0,
+    "bbox_mm": [
+      200.0,
+      200.0,
+      34.100000200000004
+    ],
+    "bytes": 9266924,
+    "sha256": "6fc2019984c0fc370b175c16a2ff58f6e27b5279c34f6d1c67ae8472966e774e"
+  }
+}

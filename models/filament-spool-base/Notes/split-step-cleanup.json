@@ -1,0 +1,47 @@
+[
+  {
+    "original": "models/filament-spool-base/Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE.step",
+    "trash": "[本机可恢复归档]/mz-spool-step-cleanup-20261119-155256/models/filament-spool-base/Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE.step",
+    "sha256": "bdaede34a24c5cd80b7c7f63cc33f1d28684d43209536d1d925e037057b7d0fc"
+  },
+  {
+    "original": "models/filament-spool-chanel/Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A.step",
+    "trash": "[本机可恢复归档]/mz-spool-step-cleanup-20261119-155256/models/filament-spool-chanel/Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A.step",
+    "sha256": "f35f444630b65ab58192d7441fe3449257493b6fee486155d532bb0baadccb5e"
+  },
+  {
+    "original": "models/filament-spool-lv/Models/StaggeredThickWall/LV_STAGGERED_THICK_WALL_A.step",
+    "trash": "[本机可恢复归档]/mz-spool-step-cleanup-20261119-155256/models/filament-spool-lv/Models/StaggeredThickWall/LV_STAGGERED_THICK_WALL_A.step",
+    "sha256": "97737a6ad18fab456a8bb124e1d90c0c52e0390743a52dd04c5764e926a977d8"
+  },
+  {
+    "original": "models/filament-spool-chanel/Notes/chanel_connected_skin_fix/UNRELEASED_connection_only.step",
+    "trash": "[本机可恢复归档]/mz-spool-step-cleanup-20261119-155256/models/filament-spool-chanel/Notes/chanel_connected_skin_fix/UNRELEASED_connection_only.step",
+    "sha256": "89c7e15c34ecded9780f7e48d9001b6e9ece010eb5f154d48ba31ebe5623eea0"
+  },
+  {
+    "original": "models/filament-spool-lv/Models/A_narrow_PROTOTYPE.step",
+    "trash": "[本机可恢复归档]/mz-spool-step-cleanup-20261119-155256/models/filament-spool-lv/Models/A_narrow_PROTOTYPE.step",
+    "sha256": "32778a1c54b76d3031e8bc64594242eb6d8950e1d40ae68bb59b3747f7e1e928"
+  },
+  {
+    "original": "models/filament-spool-lv/Models/A_wide_PROTOTYPE.step",
+    "trash": "[本机可恢复归档]/mz-spool-step-cleanup-20261119-155256/models/filament-spool-lv/Models/A_wide_PROTOTYPE.step",
+    "sha256": "6d03afaa821dadd943e17ed061b6c069d9a8581851af1a59dad0a12327ed7f61"
+  },
+  {
+    "original": "models/filament-spool-lv/Models/A_narrow_PROTOTYPE.stl",
+    "trash": "[本机可恢复归档]/mz-spool-step-cleanup-20261119-155256/models/filament-spool-lv/Models/A_narrow_PROTOTYPE.stl",
+    "sha256": "c256d4955a8ae4be8d0501ae0d6734b89214956dab53294885386f1c25a220e4"
+  },
+  {
+    "original": "models/filament-spool-lv/Models/A_wide_PROTOTYPE.stl",
+    "trash": "[本机可恢复归档]/mz-spool-step-cleanup-20261119-155256/models/filament-spool-lv/Models/A_wide_PROTOTYPE.stl",
+    "sha256": "a122f24d03cf7bcf618c5190fdc4893a5ba372d90e9fdb600e31e7a66636c7ec"
+  },
+  {
+    "original": "models/filament-spool-lv/Models/OfficialSelfSupport/LV_OFFICIAL_SELF_SUPPORT_A.step",
+    "trash": "[本机可恢复归档]/mz-spool-step-cleanup-20261119-155256/models/filament-spool-lv/Models/OfficialSelfSupport/LV_OFFICIAL_SELF_SUPPORT_A.step",
+    "sha256": "5acabebffae12bd0f9c9e569092f8e16929347f8a114bafcb97fea0aa4033fab"
+  }
+]

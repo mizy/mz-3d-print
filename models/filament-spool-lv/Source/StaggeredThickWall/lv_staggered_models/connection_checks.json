@@ -1,0 +1,79 @@
+{
+  "wide": {
+    "outer_continuous_bond": {
+      "missing_mm3": 0.0,
+      "pass": true
+    },
+    "inner_continuous_bond": {
+      "missing_mm3": 0.0,
+      "pass": true
+    },
+    "upper_mating_zone_z26plus": {
+      "symmetric_difference_mm3": 0.0,
+      "pass": true
+    },
+    "hub_exterior_unchanged": {
+      "protrusion_mm3": 0.0,
+      "pass": true
+    },
+    "inner_window": {
+      "material_fraction": 0.0,
+      "pass": true
+    },
+    "outer_wall_behind_inner_window": {
+      "material_fraction": 1.0,
+      "pass": true
+    },
+    "outer_window": {
+      "material_fraction": 0.0,
+      "pass": true
+    },
+    "inner_wall_behind_outer_window": {
+      "material_fraction": 1.0,
+      "pass": true
+    },
+    "valid": true,
+    "solids": 1
+  },
+  "narrow": {
+    "outer_continuous_bond": {
+      "missing_mm3": 0.0,
+      "pass": true
+    },
+    "inner_continuous_bond": {
+      "missing_mm3": 0.0,
+      "pass": true
+    },
+    "upper_mating_zone_z26plus": {
+      "symmetric_difference_mm3": 0.0,
+      "pass": true
+    },
+    "hub_exterior_unchanged": {
+      "protrusion_mm3": 0.0,
+      "pass": true
+    },
+    "inner_window": {
+      "material_fraction": 0.0,
+      "pass": true
+    },
+    "outer_wall_behind_inner_window": {
+      "material_fraction": 1.0,
+      "pass": true
+    },
+    "outer_window": {
+      "material_fraction": 0.0,
+      "pass": true
+    },
+    "inner_wall_behind_outer_window": {
+      "material_fraction": 1.0,
+      "pass": true
+    },
+    "valid": true,
+    "solids": 1
+  },
+  "step": {
+    "valid": true,
+    "solids": 2,
+    "mesh_entities": []
+  }
+}

@@ -1,0 +1,107 @@
+3D
+
+M
+O
+
+D
+
+EL
+
+O
+
+N
+LY
+
+Fully 3d Printable
+Replacement Strap
+for Nintendo
+Switch Joy-Con
+C
+
+Cool Kid
+
+VIEW IN BROWSER
+updated 14. 9. 2023 | published 14. 9. 2023
+
+Summary
+This is a Joy-Con Strap that I remodeled after buying a used Nintendo
+switch that didn't come with any straps.
+Gadgets > Video Games
+Tags: holder
+
+nintendo
+
+replacement
+
+joycon
+
+switchcontroller
+
+gaming
+
+switch
+
+nintendoswitch
+
+joyconstrap
+
+games
+
+strap
+
+controllerstrap
+
+replacementpart
+switchstrap
+
+This is a fully 3d printable strap for a Nintendo Switch Joy-Con that I
+remixed after buying a used Nintendo Switch that came without any straps
+for the Joy-Cons. It is a great solution if you've lost you straps or even if
+you never had them like me.
+The strap is modeled after the Nintendo version but, unlike the original,
+this strap slides on from the bottom so that the button built into the JoyCon can lock the strap in place. While this lock is significantly better than
+nothing it isn't perfect and can slip, especially after lots of wear and tear.
+The buttons on the strap simply clip in with a little pressure and don't
+come out. They also have a slightly pointed shape to make pressing the
+
+button easy and to give it a snappy feel. Because the buttons don't have a
+spring in them you may need to hold the strap with the buttons facing
+down in order to slide the strap onto the Joy-Con. This is because the
+buttons will block the rails from sliding when they are pressed in.
+On the bottom end of the strap a peg as been modeled to attach any strap
+you feel like adding that you might have laying around. You can also use
+this without a strap if you just want an easier way to push the buttons. I
+have also found that it is usually easier to use a bent paper clip to pull the
+added strap around the peg.
+Assembly Video:
+Print Instructions:
+Strap Body:
+Print with supports and in the default orientation.
+Buttons:
+Supports are recommended but not required. Print the clip in its default
+orientation (on its side) otherwise the clip will probably break off.
+
+This remix is based on
+Nintendo Switch Joy-Con Strap
+by youmu_i19
+
+Model files
+strap-body.stl
+
+button.stl
+ Print two of these
+
+joy-con-strap.step
+
+License 
+This work is licensed under a
+Creative Commons (4.0 International License)
+Attribution
+
+✖ | Sharing without ATTRIBUTION
+✔ | Remix Culture allowed
+✔ | Commercial Use
+✔ | Free Cultural Works
+✔ | Meets Open Definition
+
+

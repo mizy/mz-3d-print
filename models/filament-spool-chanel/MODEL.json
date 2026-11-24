@@ -1,35 +1,23 @@
 {
   "id": "filament-spool-chanel",
-  "title": "香奈儿 A · 模型内薄斜膜自支撑候选",
+  "title": "香奈儿 · 加厚连通盘面",
   "category": "打印配件 / 料盘",
   "status": "design",
   "cls": "derived",
-  "summary": "当前打印工程与最新自支撑 STEP、参数源码保留；旧交付已移入可恢复废纸篓。重量以当前工艺切片为准，实物强度未认证。",
+  "summary": "加厚连通盘面版；基础构型引用 filament-spool-base，未新增切片或实物认证。",
   "cover": "Design/selfsupport_roof_preview.png",
   "downloads": [
-    "Models/ChanelLight/PARKING_A_WINDOW_TRIAL.3mf",
-    "Models/ChanelLight/CHANEL_PARKING_A_SELF_SUPPORT_ROOF_TRIAL.step",
-    "Source/CHANEL_SELF_SUPPORT_ROOF_PARAMETRIC_SOURCE.zip",
-    "Models/ChanelLight/CHANEL_PARKING_A_WINDOW_LIGHT_TRIAL.step",
-    "Source/CHANEL_PARKING_A_WINDOW_PARAMETRIC_SOURCE.zip",
-    "Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE.step"
+    "Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A_wide.step",
+    "Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A_narrow.step"
   ],
   "downloadGroups": [
     {
-      "prefix": "Models/OfficialBaseline/",
-      "label": "官方附件逆向基准",
-      "note": "单 STEP 双实体，原生参数化源码配套。"
-    },
-    {
       "prefix": "Models/ChanelLight/",
-      "label": "轻量双 C 派生",
-      "note": "当前打印3MF、最新自支撑STEP；旧开窗基准仅供研究复现。"
-    },
-    {
-      "prefix": "Source/",
-      "label": "参数化源码",
-      "note": "独立再生验证通过，STEP 本身不含特征树。"
+      "label": "当前宽、窄两件 STEP",
+      "note": "wide 为宽半盘，narrow 为窄半盘；各文件仅一个有效实体。未切片或实物认证。"
     }
   ],
-  "gallery": []
+  "gallery": [],
+  "baseProject": "filament-spool-base",
+  "parametricSource": "Source/chanel_reinforced_connected_fix/build_light.py"
 }

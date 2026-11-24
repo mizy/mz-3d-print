@@ -1,0 +1,22 @@
+{
+  "button": {
+    "valid": true,
+    "results": "<OCP.OCP.BOPAlgo.BOPAlgo_ListOfCheckResult object at 0x11da775f0>"
+  },
+  "body": {
+    "valid": true,
+    "results": "<OCP.OCP.BOPAlgo.BOPAlgo_ListOfCheckResult object at 0x11d987230>"
+  },
+  "rail": {
+    "valid": true,
+    "results": "<OCP.OCP.BOPAlgo.BOPAlgo_ListOfCheckResult object at 0x11da74530>"
+  },
+  "pair": {
+    "valid": true,
+    "results": "<OCP.OCP.BOPAlgo.BOPAlgo_ListOfCheckResult object at 0x11da775f0>"
+  },
+  "scaled_candidate": {
+    "valid": false,
+    "results": "<OCP.OCP.BOPAlgo.BOPAlgo_ListOfCheckResult object at 0x11d987230>"
+  }
+}

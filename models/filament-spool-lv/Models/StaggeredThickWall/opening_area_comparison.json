@@ -1,0 +1,26 @@
+{
+  "wide": {
+    "outer": {
+      "flat_profile_area_mm2": 2713.6609922831713,
+      "previous_triangle_nominal_area_mm2": 952.0,
+      "ratio": 2.8504842355915665
+    },
+    "inner": {
+      "flat_profile_area_mm2": 1617.4180111804121,
+      "previous_triangle_nominal_area_mm2": 264.0,
+      "ratio": 6.12658337568338
+    }
+  },
+  "narrow": {
+    "outer": {
+      "flat_profile_area_mm2": 1397.9041282596954,
+      "previous_triangle_nominal_area_mm2": 784.0,
+      "ratio": 1.7830409799230809
+    },
+    "inner": {
+      "flat_profile_area_mm2": 1445.0498109497646,
+      "previous_triangle_nominal_area_mm2": 264.0,
+      "ratio": 5.473673526324866
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "mesh topology checked; NOT physical fit verified; NOT parametric STEP",
+  "source_components": 2,
+  "body_watertight": true,
+  "body_connected_components": 1,
+  "body_volume_mm3": 11036.430619061815,
+  "reference_mesh_union_volume_mm3": 10684.750262356876,
+  "added_exterior_volume_mm3": 351.6803567049392,
+  "body_extents_mm": [
+    101.05168743431568,
+    15.199999988079071,
+    12.700024869796835
+  ],
+  "mesh_vertex_merge_digits": 4,
+  "maximum_vertex_merge_grid_mm": 0.0001,
+  "source_functional_geometry": "original author mesh, no scaling or feature redesign; Boolean union and 0.0001 mm vertex merge",
+  "button": "original author mesh, translation only; print two; no travel or spring test",
+  "slicing_performed": false,
+  "color_partition_volume_error_mm3": -1.8189894035458565e-12,
+  "cad_source_unchanged": true
+}

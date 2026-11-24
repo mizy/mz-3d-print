@@ -1,0 +1,42 @@
+{
+  "stl_volume_mm3": 627.39589283061,
+  "step_tessellated_volume_mm3": 612.6053759348071,
+  "stl_watertight": true,
+  "step_tessellation_watertight": false,
+  "stl_extents": [
+    16.099937438964844,
+    11.899935722351074,
+    8.801421165466309
+  ],
+  "step_mesh_extents": [
+    16.10002,
+    8.801421,
+    11.899990000000003
+  ],
+  "rotation_row_vectors": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  ],
+  "translation_stl_center_to_step_center": [
+    74.44758,
+    -6.9000695,
+    29.059995
+  ],
+  "sample_count_each_direction": 300,
+  "max_surface_distance_mm": 0.0052280740263856325,
+  "mean_surface_distance_mm": 0.000827614733875958,
+  "note": "best rigid axis alignment, sampled tessellated-surface comparison; not a full exact CAD equivalence proof"
+}

@@ -1,0 +1,1124 @@
+{
+  "refined_unify0": {
+    "brep_valid": true,
+    "boolean_valid": false,
+    "faults": [
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      }
+    ],
+    "volume": 10690.05614173827
+  },
+  "refined_unify0.0001": {
+    "brep_valid": true,
+    "boolean_valid": false,
+    "faults": [
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      }
+    ],
+    "volume": 10690.05614173827
+  },
+  "refined_unify0.001": {
+    "brep_valid": true,
+    "boolean_valid": false,
+    "faults": [
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      }
+    ],
+    "volume": 10690.05614173827
+  },
+  "refined_unify_fix0": {
+    "brep_valid": true,
+    "boolean_valid": false,
+    "faults": [
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      }
+    ],
+    "volume": 10690.05614173827
+  },
+  "refined_unify_fix0.0001": {
+    "brep_valid": true,
+    "boolean_valid": false,
+    "faults": [
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      }
+    ],
+    "volume": 10690.05614173827
+  },
+  "refined_unify_fix0.001": {
+    "brep_valid": true,
+    "boolean_valid": false,
+    "faults": [
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_SelfIntersect",
+        "shapes1": 2,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      },
+      {
+        "status": "BOPAlgo_CheckStatus.BOPAlgo_TooSmallEdge",
+        "shapes1": 1,
+        "shapes2": 0,
+        "distance1": 0.0
+      }
+    ],
+    "volume": 10690.05614173827
+  }
+}

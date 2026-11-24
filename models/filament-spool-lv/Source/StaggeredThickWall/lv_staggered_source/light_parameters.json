@@ -1,0 +1,62 @@
+{
+  "baseline_parameters": "parameters.json",
+  "light_flange": {
+    "core_keep_radius": 44.5,
+    "skin_thickness": 1.2,
+    "rib_width": 5.0,
+    "rib_total_height": 3.6,
+    "rib_count": 8,
+    "rim_width": 5.0,
+    "hole_pad_radius": 3.1,
+    "motif_size": 12.0,
+    "local_bridge_width": 1.4,
+    "motif_rings": [
+      {
+        "radius": 53.0,
+        "count": 16
+      },
+      {
+        "radius": 70.0,
+        "count": 24
+      },
+      {
+        "radius": 86.0,
+        "count": 32
+      }
+    ],
+    "rim_overlap": 0.8,
+    "rim_bond_inner_margin": 0.4,
+    "hub_overlap": 0.5,
+    "hub_bond_width": 1.5,
+    "bond_height": 1.6
+  },
+  "parking_slots": {
+    "enabled": true,
+    "channel_length": 10.0,
+    "channel_diameter": 2.1,
+    "channel_center_z": 2.15,
+    "throat_width": 1.7,
+    "top_mouth_width": 2.1,
+    "selected_sx": 1,
+    "radial_offset": 0.9
+  },
+  "hub_windows": {
+    "enabled": true,
+    "count": 8,
+    "outer_phase_deg": 0.0,
+    "inner_phase_deg": 22.5,
+    "half_angle_deg": 10.0,
+    "bottom": 5.5,
+    "inner_bottom": 6.0,
+    "wide_outer_top": 36.0,
+    "narrow_outer_top": 23.2,
+    "inner_top": 28.0,
+    "roof_angle_deg": 50.0,
+    "bottom_corner": 1.5,
+    "wide_inner_wall": 4.0,
+    "narrow_inner_wall": 4.0,
+    "outer_wall": 4.0,
+    "thick_top": 19.5,
+    "taper_top": 22.5
+  }
+}

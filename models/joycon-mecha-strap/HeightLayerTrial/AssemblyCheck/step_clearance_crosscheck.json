@@ -1,0 +1,74 @@
+[
+  {
+    "x": 33.25,
+    "cap_top_z": 14.75,
+    "minimum_distance_mm": 0.149980163498725,
+    "distance_to_source_components": [
+      0.149980163498725,
+      3.59230188130142
+    ]
+  },
+  {
+    "x": 33.25,
+    "cap_top_z": 14,
+    "minimum_distance_mm": 0.149980163498725,
+    "distance_to_source_components": [
+      0.149980163498725,
+      3.2236811003624184
+    ]
+  },
+  {
+    "x": 33.25,
+    "cap_top_z": 13.25,
+    "minimum_distance_mm": 0.0,
+    "distance_to_source_components": [
+      0.0,
+      2.884593428943874
+    ]
+  },
+  {
+    "x": 74.35,
+    "cap_top_z": 14.75,
+    "minimum_distance_mm": 0.1499814986428163,
+    "distance_to_source_components": [
+      0.1499814986428163,
+      3.5923018813014154
+    ]
+  },
+  {
+    "x": 74.35,
+    "cap_top_z": 14,
+    "minimum_distance_mm": 0.1499814986428163,
+    "distance_to_source_components": [
+      0.1499814986428163,
+      3.2236811003624135
+    ]
+  },
+  {
+    "x": 74.35,
+    "cap_top_z": 13.25,
+    "minimum_distance_mm": 0.0,
+    "distance_to_source_components": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "x": 33.25,
+    "cap_top_z": 13.75,
+    "minimum_distance_mm": 0.149980163498725,
+    "distance_to_source_components": [
+      0.149980163498725,
+      3.1312322675976247
+    ]
+  },
+  {
+    "x": 74.35,
+    "cap_top_z": 13.75,
+    "minimum_distance_mm": 0.1499814986428163,
+    "distance_to_source_components": [
+      0.1499814986428163,
+      3.13123226759762
+    ]
+  }
+]

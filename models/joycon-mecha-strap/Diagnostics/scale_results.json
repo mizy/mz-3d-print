@@ -1,0 +1,20 @@
+[
+  {
+    "scale": 1000,
+    "volume_original_units": 0.0,
+    "valid": true,
+    "report": ""
+  },
+  {
+    "scale": 0.01,
+    "volume_original_units": 10689.924680233387,
+    "valid": true,
+    "report": ""
+  },
+  {
+    "scale": 10,
+    "volume_original_units": 0.0,
+    "valid": true,
+    "report": ""
+  }
+]

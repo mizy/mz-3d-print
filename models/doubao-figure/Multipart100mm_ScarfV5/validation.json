@@ -1,0 +1,587 @@
+{
+  "printer": "Bambu Lab P1S 0.4 nozzle",
+  "plate_piece_counts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    1
+  ],
+  "mesh_reopen": [
+    {
+      "name": "01 底座",
+      "plate": 1,
+      "palette_hex": "#88AFCF",
+      "triangle_count": 4866,
+      "coordinate_roundtrip_max_mm": 1.0035278315001506e-06,
+      "bed_z_min_mm": 0.0
+    },
+    {
+      "name": "02 双鞋（连体）",
+      "plate": 2,
+      "palette_hex": "#292832",
+      "triangle_count": 5784,
+      "coordinate_roundtrip_max_mm": 4.815148919590229e-07,
+      "bed_z_min_mm": 0.0
+    },
+    {
+      "name": "03 牛仔蓝裤",
+      "plate": 3,
+      "palette_hex": "#557DA8",
+      "triangle_count": 4440,
+      "coordinate_roundtrip_max_mm": 1.7051869924955554e-06,
+      "bed_z_min_mm": 5.700000009767336e-07
+    },
+    {
+      "name": "04 燕麦白卫衣",
+      "plate": 4,
+      "palette_hex": "#DDD1B5",
+      "triangle_count": 19442,
+      "coordinate_roundtrip_max_mm": 2.2015078355863693e-06,
+      "bed_z_min_mm": 4.3000000005122274e-07
+    },
+    {
+      "name": "05 红围巾",
+      "plate": 5,
+      "palette_hex": "#C92631",
+      "triangle_count": 17084,
+      "coordinate_roundtrip_max_mm": 1.9123486327821126e-06,
+      "bed_z_min_mm": 1.90999999993835e-06
+    },
+    {
+      "name": "06 肤色头（含隐藏颈榫）",
+      "plate": 6,
+      "palette_hex": "#E2B196",
+      "triangle_count": 37996,
+      "coordinate_roundtrip_max_mm": 1.0033813460097463e-06,
+      "bed_z_min_mm": 0.0
+    },
+    {
+      "name": "07 左手",
+      "plate": 6,
+      "palette_hex": "#E2B196",
+      "triangle_count": 1322,
+      "coordinate_roundtrip_max_mm": 9.586499023495065e-07,
+      "bed_z_min_mm": -9.600000003828768e-07
+    },
+    {
+      "name": "08 右手",
+      "plate": 6,
+      "palette_hex": "#E2B196",
+      "triangle_count": 1480,
+      "coordinate_roundtrip_max_mm": 4.818371581727376e-07,
+      "bed_z_min_mm": 0.0
+    },
+    {
+      "name": "09 棕色发帽",
+      "plate": 7,
+      "palette_hex": "#684637",
+      "triangle_count": 81232,
+      "coordinate_roundtrip_max_mm": 1.957348633396805e-06,
+      "bed_z_min_mm": -1.900000000887303e-06
+    }
+  ],
+  "scan_pitch_mm": 0.1,
+  "recommended_path_max_overlap_mm3": 0.0016488739678039792,
+  "motion": {
+    "01_shoes_to_base": {
+      "samples": 71,
+      "distance_mm": 7,
+      "step_mm": 0.1,
+      "unit_direction_away": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "initial_mm3": {
+        "shoes/base": 0.0
+      },
+      "final_mm3": {
+        "shoes/base": 1.2351231148954867e-14
+      },
+      "maximum_overlap_mm3_and_distance_from_seat_mm": {
+        "shoes/base": [
+          1.2351231148954867e-14,
+          0.0
+        ]
+      },
+      "samples_above_0_001_mm3": {
+        "shoes/base": 0
+      }
+    },
+    "03b_Rhand_to_top": {
+      "samples": 81,
+      "distance_mm": 8,
+      "step_mm": 0.1,
+      "unit_direction_away": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "initial_mm3": {
+        "handR/top": 0.0,
+        "handR/handL": 0.0
+      },
+      "final_mm3": {
+        "handR/top": 0.0016488739678039792,
+        "handR/handL": 0.0
+      },
+      "maximum_overlap_mm3_and_distance_from_seat_mm": {
+        "handR/top": [
+          0.0016488739678039792,
+          0.0
+        ],
+        "handR/handL": [
+          0,
+          null
+        ]
+      },
+      "samples_above_0_001_mm3": {
+        "handR/top": 1,
+        "handR/handL": 0
+      }
+    },
+    "03a_Lhand_to_top": {
+      "samples": 81,
+      "distance_mm": 8,
+      "step_mm": 0.1,
+      "unit_direction_away": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "initial_mm3": {
+        "handL/top": 0.0
+      },
+      "final_mm3": {
+        "handL/top": 0.0005238219452853087
+      },
+      "maximum_overlap_mm3_and_distance_from_seat_mm": {
+        "handL/top": [
+          0.0005238219452853087,
+          0.0
+        ]
+      },
+      "samples_above_0_001_mm3": {
+        "handL/top": 0
+      }
+    },
+    "04_top_with_hands_to_pants": {
+      "samples": 101,
+      "distance_mm": 10,
+      "step_mm": 0.1,
+      "unit_direction_away": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "initial_mm3": {
+        "top/pants": 0.0,
+        "top/shoes": 0.0,
+        "top/base": 0.0,
+        "handL/pants": 0.0,
+        "handL/shoes": 0.0,
+        "handL/base": 0.0,
+        "handR/pants": 0.0,
+        "handR/shoes": 0.0,
+        "handR/base": 0.0
+      },
+      "final_mm3": {
+        "top/pants": 1.0130457066469047e-05,
+        "top/shoes": 0.0,
+        "top/base": 0.0,
+        "handL/pants": 2.9917883879979427e-10,
+        "handL/shoes": 0.0,
+        "handL/base": 0.0,
+        "handR/pants": 0.000947773533696024,
+        "handR/shoes": 0.0,
+        "handR/base": 0.0
+      },
+      "maximum_overlap_mm3_and_distance_from_seat_mm": {
+        "top/pants": [
+          1.0130457066469047e-05,
+          0.0
+        ],
+        "top/shoes": [
+          0,
+          null
+        ],
+        "top/base": [
+          0,
+          null
+        ],
+        "handL/pants": [
+          2.9917883879979427e-10,
+          0.0
+        ],
+        "handL/shoes": [
+          0,
+          null
+        ],
+        "handL/base": [
+          0,
+          null
+        ],
+        "handR/pants": [
+          0.000947773533696024,
+          0.0
+        ],
+        "handR/shoes": [
+          0,
+          null
+        ],
+        "handR/base": [
+          0,
+          null
+        ]
+      },
+      "samples_above_0_001_mm3": {
+        "top/pants": 0,
+        "top/shoes": 0,
+        "top/base": 0,
+        "handL/pants": 0,
+        "handL/shoes": 0,
+        "handL/base": 0,
+        "handR/pants": 0,
+        "handR/shoes": 0,
+        "handR/base": 0
+      }
+    },
+    "02_trousers_to_shoes": {
+      "samples": 81,
+      "distance_mm": 8,
+      "step_mm": 0.1,
+      "unit_direction_away": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "initial_mm3": {
+        "pants/shoes": 0.0,
+        "pants/base": 0.0
+      },
+      "final_mm3": {
+        "pants/shoes": 3.7915046057778256e-05,
+        "pants/base": 0.0
+      },
+      "maximum_overlap_mm3_and_distance_from_seat_mm": {
+        "pants/shoes": [
+          3.7915046057778256e-05,
+          0.0
+        ],
+        "pants/base": [
+          0,
+          null
+        ]
+      },
+      "samples_above_0_001_mm3": {
+        "pants/shoes": 0,
+        "pants/base": 0
+      }
+    },
+    "04alt_Lhand_after_top": {
+      "samples": 81,
+      "distance_mm": 8,
+      "step_mm": 0.1,
+      "unit_direction_away": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "initial_mm3": {
+        "handL/top": 0.0,
+        "handL/pants": 19.01560266940579,
+        "handL/shoes": 0.0,
+        "handL/base": 0.0
+      },
+      "final_mm3": {
+        "handL/top": 0.0005238219452853087,
+        "handL/pants": 2.9917883879979427e-10,
+        "handL/shoes": 0.0,
+        "handL/base": 0.0
+      },
+      "maximum_overlap_mm3_and_distance_from_seat_mm": {
+        "handL/top": [
+          0.0005238219452853087,
+          0.0
+        ],
+        "handL/pants": [
+          19.01560266940579,
+          8.0
+        ],
+        "handL/shoes": [
+          0,
+          null
+        ],
+        "handL/base": [
+          0,
+          null
+        ]
+      },
+      "samples_above_0_001_mm3": {
+        "handL/top": 0,
+        "handL/pants": 75,
+        "handL/shoes": 0,
+        "handL/base": 0
+      }
+    },
+    "04alt_Rhand_after_top": {
+      "samples": 81,
+      "distance_mm": 8,
+      "step_mm": 0.1,
+      "unit_direction_away": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "initial_mm3": {
+        "handR/top": 0.0,
+        "handR/pants": 19.081875060787343,
+        "handR/shoes": 0.0,
+        "handR/base": 0.0
+      },
+      "final_mm3": {
+        "handR/top": 0.0016488739678039792,
+        "handR/pants": 0.000947773533696024,
+        "handR/shoes": 0.0,
+        "handR/base": 0.0
+      },
+      "maximum_overlap_mm3_and_distance_from_seat_mm": {
+        "handR/top": [
+          0.0016488739678039792,
+          0.0
+        ],
+        "handR/pants": [
+          19.081875060787343,
+          8.0
+        ],
+        "handR/shoes": [
+          0,
+          null
+        ],
+        "handR/base": [
+          0,
+          null
+        ]
+      },
+      "samples_above_0_001_mm3": {
+        "handR/top": 1,
+        "handR/pants": 80,
+        "handR/shoes": 0,
+        "handR/base": 0
+      }
+    },
+    "05_scarf_to_top": {
+      "samples": 181,
+      "distance_mm": 18,
+      "step_mm": 0.1,
+      "unit_direction_away": [
+        0.0,
+        -0.8741572761215378,
+        0.4856429311786321
+      ],
+      "initial_mm3": {
+        "redscarf/top": 0.0,
+        "redscarf/handL": 0.0,
+        "redscarf/handR": 0.0,
+        "redscarf/pants": 0.0,
+        "redscarf/shoes": 0.0,
+        "redscarf/base": 0.0
+      },
+      "final_mm3": {
+        "redscarf/top": 0.0,
+        "redscarf/handL": 0.0,
+        "redscarf/handR": 0.0,
+        "redscarf/pants": 0.0,
+        "redscarf/shoes": 0.0,
+        "redscarf/base": 0.0
+      },
+      "maximum_overlap_mm3_and_distance_from_seat_mm": {
+        "redscarf/top": [
+          1.4552262091472452e-05,
+          0.8999999999999986
+        ],
+        "redscarf/handL": [
+          0,
+          null
+        ],
+        "redscarf/handR": [
+          0,
+          null
+        ],
+        "redscarf/pants": [
+          0,
+          null
+        ],
+        "redscarf/shoes": [
+          0,
+          null
+        ],
+        "redscarf/base": [
+          0,
+          null
+        ]
+      },
+      "samples_above_0_001_mm3": {
+        "redscarf/top": 0,
+        "redscarf/handL": 0,
+        "redscarf/handR": 0,
+        "redscarf/pants": 0,
+        "redscarf/shoes": 0,
+        "redscarf/base": 0
+      }
+    },
+    "07_head_to_clothing": {
+      "samples": 151,
+      "distance_mm": 15,
+      "step_mm": 0.1,
+      "unit_direction_away": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "initial_mm3": {
+        "skinhead/redscarf": 0.0,
+        "skinhead/top": 0.0,
+        "skinhead/handL": 0.0,
+        "skinhead/handR": 0.0,
+        "skinhead/pants": 0.0,
+        "skinhead/shoes": 0.0,
+        "skinhead/base": 0.0,
+        "hair5/redscarf": 0.0,
+        "hair5/top": 0.0,
+        "hair5/handL": 0.0,
+        "hair5/handR": 0.0,
+        "hair5/pants": 0.0,
+        "hair5/shoes": 0.0,
+        "hair5/base": 0.0
+      },
+      "final_mm3": {
+        "skinhead/redscarf": 4.673348889932275e-08,
+        "skinhead/top": 0.0,
+        "skinhead/handL": 0.0,
+        "skinhead/handR": 0.0,
+        "skinhead/pants": 0.0,
+        "skinhead/shoes": 0.0,
+        "skinhead/base": 0.0,
+        "hair5/redscarf": 0.0,
+        "hair5/top": 0.0,
+        "hair5/handL": 0.0,
+        "hair5/handR": 0.0,
+        "hair5/pants": 0.0,
+        "hair5/shoes": 0.0,
+        "hair5/base": 0.0
+      },
+      "maximum_overlap_mm3_and_distance_from_seat_mm": {
+        "skinhead/redscarf": [
+          4.673348889932275e-08,
+          0.0
+        ],
+        "skinhead/top": [
+          0,
+          null
+        ],
+        "skinhead/handL": [
+          0,
+          null
+        ],
+        "skinhead/handR": [
+          0,
+          null
+        ],
+        "skinhead/pants": [
+          0,
+          null
+        ],
+        "skinhead/shoes": [
+          0,
+          null
+        ],
+        "skinhead/base": [
+          0,
+          null
+        ],
+        "hair5/redscarf": [
+          0,
+          null
+        ],
+        "hair5/top": [
+          0,
+          null
+        ],
+        "hair5/handL": [
+          0,
+          null
+        ],
+        "hair5/handR": [
+          0,
+          null
+        ],
+        "hair5/pants": [
+          0,
+          null
+        ],
+        "hair5/shoes": [
+          0,
+          null
+        ],
+        "hair5/base": [
+          0,
+          null
+        ]
+      },
+      "samples_above_0_001_mm3": {
+        "skinhead/redscarf": 0,
+        "skinhead/top": 0,
+        "skinhead/handL": 0,
+        "skinhead/handR": 0,
+        "skinhead/pants": 0,
+        "skinhead/shoes": 0,
+        "skinhead/base": 0,
+        "hair5/redscarf": 0,
+        "hair5/top": 0,
+        "hair5/handL": 0,
+        "hair5/handR": 0,
+        "hair5/pants": 0,
+        "hair5/shoes": 0,
+        "hair5/base": 0
+      }
+    },
+    "06_skin_head_into_hair": {
+      "samples": 201,
+      "distance_mm": 20,
+      "step_mm": 0.1,
+      "unit_direction_away": [
+        0.20515248496555455,
+        -0.8206099398622182,
+        -0.5333964609104418
+      ],
+      "initial_mm3": {
+        "skinhead/hair5": 0.0
+      },
+      "final_mm3": {
+        "skinhead/hair5": 6.97600453237057e-08
+      },
+      "maximum_overlap_mm3_and_distance_from_seat_mm": {
+        "skinhead/hair5": [
+          6.97600453237057e-08,
+          0.0
+        ]
+      },
+      "samples_above_0_001_mm3": {
+        "skinhead/hair5": 0
+      }
+    }
+  },
+  "red_wrap_and_skin_partition": {
+    "source_red_upper_roll_z_mm_approx": 55.5,
+    "key_preserved_part_lower_z_mm": 53.1,
+    "skin_blend_volume_mm3": 328.35111238133885,
+    "neck_face_fusion_volume_mm3": 87.26648697638699,
+    "red_scarf_volume_mm3": 1907.5817045639528
+  },
+  "sliced": false,
+  "printed": false
+}

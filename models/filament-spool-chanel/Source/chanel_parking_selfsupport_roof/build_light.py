@@ -1,7 +1,8 @@
 import argparse,json,hashlib,time
 from pathlib import Path
 import cadquery as cq
-from build_official import load,R
+from build_official import load
+R=Path(__file__).resolve().parent
 import official_hub as H,official_key as K
 from light_flange import build_light_flange,DEFAULTS
 from parking_slot import apply_slots

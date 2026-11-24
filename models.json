@@ -1430,39 +1430,194 @@
     "bytes": 80129708
   },
   {
-    "id": "filament-spool-chanel",
-    "title": "香奈儿 A · 模型内薄斜膜自支撑候选",
+    "id": "doubao-figure",
+    "title": "豆包 Q 版分件手办",
+    "category": "摆件/手办",
+    "status": "design",
+    "cls": "derived",
+    "summary": "V5 围巾分色修正版：基于图生 3D 母版重切，约 100 mm，九件七色盘。肤色盘仅头和双手，围巾完整独立。已做 Bambu Studio 无切片回读及虚拟装配，未实物试装。",
+    "cover": "doubao-figure/Multipart100mm_ScarfV5/Doubao_V5_Plate_Contents.png",
+    "downloads": [
+      "Multipart100mm_ScarfV5/Doubao_V5_ScarfPartition_9Parts_7Colors_P1S.3mf",
+      "Multipart100mm_ScarfV5/README.md"
+    ],
+    "gallery": [
+      "Multipart100mm_ScarfV5/Doubao_V5_Plate_Contents.png"
+    ],
+    "dir": "doubao-figure",
+    "files": [
+      {
+        "rel": "Multipart100mm_ScarfV5/Doubao_V5_Plate_Contents.png",
+        "size": 419561,
+        "url": "models/doubao-figure/Multipart100mm_ScarfV5/Doubao_V5_Plate_Contents.png"
+      },
+      {
+        "rel": "Multipart100mm_ScarfV5/Doubao_V5_ScarfPartition_9Parts_7Colors_P1S.3mf",
+        "size": 2539648,
+        "url": "models/doubao-figure/Multipart100mm_ScarfV5/Doubao_V5_ScarfPartition_9Parts_7Colors_P1S.3mf"
+      },
+      {
+        "rel": "Multipart100mm_ScarfV5/README.md",
+        "size": 1796,
+        "url": "models/doubao-figure/Multipart100mm_ScarfV5/README.md"
+      },
+      {
+        "rel": "Multipart100mm_ScarfV5/validation.json",
+        "size": 13195,
+        "url": "models/doubao-figure/Multipart100mm_ScarfV5/validation.json"
+      },
+      {
+        "rel": "README.md",
+        "size": 523,
+        "url": "models/doubao-figure/README.md"
+      }
+    ],
+    "bytes": 2974723
+  },
+  {
+    "id": "filament-spool-base",
+    "title": "共享基础料盘 · 官方接口参数化基准",
     "category": "打印配件 / 料盘",
     "status": "design",
     "cls": "derived",
-    "summary": "当前打印工程与最新自支撑 STEP、参数源码保留；旧交付已移入可恢复废纸篓。重量以当前工艺切片为准，实物强度未认证。",
+    "summary": "Chanel 与 LV 共用的筒、卡扣、定位键、基础盘面和 A 收纳槽；品牌几何与开窗参数由各派生项目维护。未新增切片或实物认证。",
+    "downloads": [
+      "Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE_wide.step",
+      "Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE_narrow.step"
+    ],
+    "dir": "filament-spool-base",
+    "cover": null,
+    "files": [
+      {
+        "rel": "Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE_narrow.step",
+        "size": 163300,
+        "url": "models/filament-spool-base/Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE_narrow.step"
+      },
+      {
+        "rel": "Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE_wide.step",
+        "size": 305747,
+        "url": "models/filament-spool-base/Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE_wide.step"
+      },
+      {
+        "rel": "Notes/shared-source-migration.json",
+        "size": 6999,
+        "url": "models/filament-spool-base/Notes/shared-source-migration.json"
+      },
+      {
+        "rel": "Notes/split-step-cleanup.json",
+        "size": 3035,
+        "url": "models/filament-spool-base/Notes/split-step-cleanup.json"
+      },
+      {
+        "rel": "Notes/split-step-validation.json",
+        "size": 3716,
+        "url": "models/filament-spool-base/Notes/split-step-validation.json"
+      },
+      {
+        "rel": "Notes/validation.json",
+        "size": 2402,
+        "url": "models/filament-spool-base/Notes/validation.json"
+      },
+      {
+        "rel": "README.md",
+        "size": 3505,
+        "url": "models/filament-spool-base/README.md"
+      },
+      {
+        "rel": "Source/build_official.py",
+        "size": 3600,
+        "url": "models/filament-spool-base/Source/build_official.py"
+      },
+      {
+        "rel": "Source/check_shared.py",
+        "size": 1328,
+        "url": "models/filament-spool-base/Source/check_shared.py"
+      },
+      {
+        "rel": "Source/narrow_lock.py",
+        "size": 3543,
+        "url": "models/filament-spool-base/Source/narrow_lock.py"
+      },
+      {
+        "rel": "Source/official_flange.py",
+        "size": 4717,
+        "url": "models/filament-spool-base/Source/official_flange.py"
+      },
+      {
+        "rel": "Source/official_hub.py",
+        "size": 4822,
+        "url": "models/filament-spool-base/Source/official_hub.py"
+      },
+      {
+        "rel": "Source/official_key.py",
+        "size": 1933,
+        "url": "models/filament-spool-base/Source/official_key.py"
+      },
+      {
+        "rel": "Source/parameters.json",
+        "size": 2892,
+        "url": "models/filament-spool-base/Source/parameters.json"
+      },
+      {
+        "rel": "Source/parking_slot.py",
+        "size": 2208,
+        "url": "models/filament-spool-base/Source/parking_slot.py"
+      },
+      {
+        "rel": "Source/requirements.txt",
+        "size": 16,
+        "url": "models/filament-spool-base/Source/requirements.txt"
+      },
+      {
+        "rel": "Source/split_step.py",
+        "size": 1899,
+        "url": "models/filament-spool-base/Source/split_step.py"
+      },
+      {
+        "rel": "Source/wide_cap_planes.json",
+        "size": 748,
+        "url": "models/filament-spool-base/Source/wide_cap_planes.json"
+      },
+      {
+        "rel": "Source/wide_lock.py",
+        "size": 3224,
+        "url": "models/filament-spool-base/Source/wide_lock.py"
+      },
+      {
+        "rel": "Source/wide_lock_sketches.json",
+        "size": 33355,
+        "url": "models/filament-spool-base/Source/wide_lock_sketches.json"
+      },
+      {
+        "rel": "Source/wide_marker.py",
+        "size": 2092,
+        "url": "models/filament-spool-base/Source/wide_marker.py"
+      }
+    ],
+    "bytes": 555081
+  },
+  {
+    "id": "filament-spool-chanel",
+    "title": "香奈儿 · 加厚连通盘面",
+    "category": "打印配件 / 料盘",
+    "status": "design",
+    "cls": "derived",
+    "summary": "加厚连通盘面版；基础构型引用 filament-spool-base，未新增切片或实物认证。",
     "cover": "filament-spool-chanel/Design/selfsupport_roof_preview.png",
     "downloads": [
-      "Models/ChanelLight/PARKING_A_WINDOW_TRIAL.3mf",
-      "Models/ChanelLight/CHANEL_PARKING_A_SELF_SUPPORT_ROOF_TRIAL.step",
-      "Source/CHANEL_SELF_SUPPORT_ROOF_PARAMETRIC_SOURCE.zip",
-      "Models/ChanelLight/CHANEL_PARKING_A_WINDOW_LIGHT_TRIAL.step",
-      "Source/CHANEL_PARKING_A_WINDOW_PARAMETRIC_SOURCE.zip",
-      "Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE.step"
+      "Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A_wide.step",
+      "Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A_narrow.step"
     ],
     "downloadGroups": [
       {
-        "prefix": "Models/OfficialBaseline/",
-        "label": "官方附件逆向基准",
-        "note": "单 STEP 双实体，原生参数化源码配套。"
-      },
-      {
         "prefix": "Models/ChanelLight/",
-        "label": "轻量双 C 派生",
-        "note": "当前打印3MF、最新自支撑STEP；旧开窗基准仅供研究复现。"
-      },
-      {
-        "prefix": "Source/",
-        "label": "参数化源码",
-        "note": "独立再生验证通过，STEP 本身不含特征树。"
+        "label": "当前宽、窄两件 STEP",
+        "note": "wide 为宽半盘，narrow 为窄半盘；各文件仅一个有效实体。未切片或实物认证。"
       }
     ],
     "gallery": [],
+    "baseProject": "filament-spool-base",
+    "parametricSource": "Source/chanel_reinforced_connected_fix/build_light.py",
     "dir": "filament-spool-chanel",
     "files": [
       {
@@ -1486,74 +1641,29 @@
         "url": "models/filament-spool-chanel/Design/parking_A_preview.png"
       },
       {
-        "rel": "Design/parking_A_window_light_preview.png",
-        "size": 519940,
-        "url": "models/filament-spool-chanel/Design/parking_A_window_light_preview.png"
-      },
-      {
         "rel": "Design/selfsupport_roof_preview.png",
         "size": 289246,
         "url": "models/filament-spool-chanel/Design/selfsupport_roof_preview.png"
       },
       {
-        "rel": "Design/ultralight_spoke_research_preview.png",
-        "size": 269473,
-        "url": "models/filament-spool-chanel/Design/ultralight_spoke_research_preview.png"
+        "rel": "Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A_narrow.step",
+        "size": 2817221,
+        "url": "models/filament-spool-chanel/Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A_narrow.step"
       },
       {
-        "rel": "Design/ultralight_wall_relief_research_preview.png",
-        "size": 281932,
-        "url": "models/filament-spool-chanel/Design/ultralight_wall_relief_research_preview.png"
-      },
-      {
-        "rel": "Design/window_spool_assembly_cutaway.png",
-        "size": 385309,
-        "url": "models/filament-spool-chanel/Design/window_spool_assembly_cutaway.png"
-      },
-      {
-        "rel": "Models/AssemblyReview/ENTRY_ORIENTATION_SEATED_51.step",
-        "size": 6636868,
-        "url": "models/filament-spool-chanel/Models/AssemblyReview/ENTRY_ORIENTATION_SEATED_51.step"
-      },
-      {
-        "rel": "Models/AssemblyReview/NOMINAL_LOCK_0_RIGID_OVERLAP.step",
-        "size": 6452267,
-        "url": "models/filament-spool-chanel/Models/AssemblyReview/NOMINAL_LOCK_0_RIGID_OVERLAP.step"
-      },
-      {
-        "rel": "Models/AssemblyReview/RETAINED_PREDETENT_8.step",
-        "size": 6635410,
-        "url": "models/filament-spool-chanel/Models/AssemblyReview/RETAINED_PREDETENT_8.step"
-      },
-      {
-        "rel": "Models/ChanelLight/CHANEL_PARKING_A_SELF_SUPPORT_ROOF_TRIAL.step",
-        "size": 6313420,
-        "url": "models/filament-spool-chanel/Models/ChanelLight/CHANEL_PARKING_A_SELF_SUPPORT_ROOF_TRIAL.step"
-      },
-      {
-        "rel": "Models/ChanelLight/CHANEL_PARKING_A_WINDOW_LIGHT_TRIAL.step",
-        "size": 6154673,
-        "url": "models/filament-spool-chanel/Models/ChanelLight/CHANEL_PARKING_A_WINDOW_LIGHT_TRIAL.step"
+        "rel": "Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A_wide.step",
+        "size": 3032679,
+        "url": "models/filament-spool-chanel/Models/ChanelLight/CHANEL_REINFORCED_CONNECTED_SELF_SUPPORT_A_wide.step"
       },
       {
         "rel": "Models/ChanelLight/PARKING_A_WINDOW_TRIAL.3mf",
-        "size": 5818376,
+        "size": 3444472,
         "url": "models/filament-spool-chanel/Models/ChanelLight/PARKING_A_WINDOW_TRIAL.3mf"
       },
       {
-        "rel": "Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE.step",
-        "size": 473216,
-        "url": "models/filament-spool-chanel/Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE.step"
-      },
-      {
-        "rel": "Models/UltraLightResearch/CHANEL_ULTRALIGHT_SPOKE_RESEARCH.step",
-        "size": 1460321,
-        "url": "models/filament-spool-chanel/Models/UltraLightResearch/CHANEL_ULTRALIGHT_SPOKE_RESEARCH.step"
-      },
-      {
-        "rel": "Models/UltraLightResearch/CHANEL_ULTRALIGHT_WALL_RELIEF_RESEARCH.step",
-        "size": 1703434,
-        "url": "models/filament-spool-chanel/Models/UltraLightResearch/CHANEL_ULTRALIGHT_WALL_RELIEF_RESEARCH.step"
+        "rel": "Models/OfficialBaseline",
+        "size": 128,
+        "url": "models/filament-spool-chanel/Models/OfficialBaseline"
       },
       {
         "rel": "Notes/CAD_IMPORT_STATUS.json",
@@ -1589,6 +1699,11 @@
         "rel": "Notes/README.md",
         "size": 797,
         "url": "models/filament-spool-chanel/Notes/README.md"
+      },
+      {
+        "rel": "Notes/README_before_split_2026-11-19.md",
+        "size": 7221,
+        "url": "models/filament-spool-chanel/Notes/README_before_split_2026-11-19.md"
       },
       {
         "rel": "Notes/STEP_SERIALIZATION_VALIDATION.json",
@@ -1961,179 +2076,19 @@
         "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/verify_variant_mesh.py"
       },
       {
-        "rel": "Notes/chanel_parking_A_window_light/DELIVERY_MANIFEST.json",
-        "size": 499,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/DELIVERY_MANIFEST.json"
+        "rel": "Notes/chanel_reinforced_connected_fix/DELIVERY_STATUS.json",
+        "size": 512,
+        "url": "models/filament-spool-chanel/Notes/chanel_reinforced_connected_fix/DELIVERY_STATUS.json"
       },
       {
-        "rel": "Notes/chanel_parking_A_window_light/FINAL_INDEPENDENT_REVIEW.md",
-        "size": 3807,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/FINAL_INDEPENDENT_REVIEW.md"
+        "rel": "Notes/chanel_reinforced_connected_fix/cad_validation.json",
+        "size": 5527,
+        "url": "models/filament-spool-chanel/Notes/chanel_reinforced_connected_fix/cad_validation.json"
       },
       {
-        "rel": "Notes/chanel_parking_A_window_light/FINAL_RESULTS.json",
-        "size": 4256,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/FINAL_RESULTS.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/INDEPENDENT_PLAN.md",
-        "size": 3905,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/INDEPENDENT_PLAN.md"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/README.md",
-        "size": 4025,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/README.md"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/REFERENCE_FEM_REPORT_119g_REV2.md",
-        "size": 3725,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/REFERENCE_FEM_REPORT_119g_REV2.md"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/REPORT_SHA256.json",
-        "size": 3370,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/REPORT_SHA256.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/gcode_mass.json",
-        "size": 15786,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/gcode_mass.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/gcode_mass.py",
-        "size": 1999,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/gcode_mass.py"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/long_v2/cad_validation.json",
-        "size": 1724,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_v2/cad_validation.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/long_v2/mesh_reports.json",
-        "size": 4104,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_v2/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/long_v2/narrow_slice_result.json",
-        "size": 3979,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_v2/narrow_slice_result.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/long_v2/protected_regions.json",
-        "size": 1499,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_v2/protected_regions.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/long_v2/slice_reports.json",
-        "size": 7845,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_v2/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/long_v2/wide_slice_result.json",
-        "size": 3980,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_v2/wide_slice_result.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/long_wide_v3/cad_validation.json",
-        "size": 1723,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_wide_v3/cad_validation.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/long_wide_v3/mesh_reports.json",
-        "size": 4114,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_wide_v3/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/long_wide_v3/narrow_slice_result.json",
-        "size": 3994,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_wide_v3/narrow_slice_result.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/long_wide_v3/protected_regions.json",
-        "size": 1499,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_wide_v3/protected_regions.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/long_wide_v3/slice_reports.json",
-        "size": 7870,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_wide_v3/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/long_wide_v3/wide_slice_result.json",
-        "size": 3990,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_wide_v3/wide_slice_result.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/native_wide3.log",
-        "size": 385,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/native_wide3.log"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/pack_and_slice.py",
-        "size": 2565,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/pack_and_slice.py"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/preview_wide3.py",
-        "size": 1765,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/preview_wide3.py"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/reference_provenance.json",
-        "size": 267,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/reference_provenance.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/saved_source_reproduce.log",
-        "size": 385,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/saved_source_reproduce.log"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/saved_source_validation.json",
-        "size": 5222,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/saved_source_validation.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/short_v2/cad_validation.json",
-        "size": 1725,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/short_v2/cad_validation.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/short_v2/mesh_reports.json",
-        "size": 4091,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/short_v2/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/short_v2/narrow_slice_result.json",
-        "size": 3987,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/short_v2/narrow_slice_result.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/short_v2/slice_reports.json",
-        "size": 7840,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/short_v2/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/short_v2/wide_slice_result.json",
-        "size": 3967,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/short_v2/wide_slice_result.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/source_reproduction.json",
-        "size": 198,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/source_reproduction.json"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/summarize.py",
-        "size": 1542,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/summarize.py"
-      },
-      {
-        "rel": "Notes/chanel_parking_A_window_light/verify_regions.py",
-        "size": 1101,
-        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/verify_regions.py"
+        "rel": "Notes/chanel_reinforced_connected_fix/source_manifest.json",
+        "size": 1615,
+        "url": "models/filament-spool-chanel/Notes/chanel_reinforced_connected_fix/source_manifest.json"
       },
       {
         "rel": "Notes/chanel_selfsupport_roof/DELIVERY_MANIFEST.json",
@@ -2349,721 +2304,6 @@
         "rel": "Notes/chanel_selfsupport_roof/verify.py",
         "size": 1485,
         "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/verify.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/RESEARCH_PLAN.md",
-        "size": 1620,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/RESEARCH_PLAN.md"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/REVISION2.md",
-        "size": 500,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/REVISION2.md"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/check.log",
-        "size": 489,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/check.log"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/check.py",
-        "size": 705,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/check.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/INDEPENDENT_60G_FEASIBILITY.md",
-        "size": 4401,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/INDEPENDENT_60G_FEASIBILITY.md"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/REV2_CORRECTION_REVIEW.md",
-        "size": 2496,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/REV2_CORRECTION_REVIEW.md"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/REV2_FINAL_RESULTS.json",
-        "size": 5271,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/REV2_FINAL_RESULTS.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/SPOKE_FINAL_INDEPENDENT_REVIEW.md",
-        "size": 3966,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/SPOKE_FINAL_INDEPENDENT_REVIEW.md"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/analyze_paths.py",
-        "size": 1681,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/analyze_paths.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/gcode_mass.json",
-        "size": 15770,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/gcode_mass.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/gcode_mass.py",
-        "size": 1987,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/gcode_mass.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/gcode_mass_fine.json",
-        "size": 15880,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/gcode_mass_fine.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/gcode_mass_fine.py",
-        "size": 2028,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/gcode_mass_fine.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/latest_config_diff.json",
-        "size": 1928,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/latest_config_diff.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/latest_controlled_comparison.json",
-        "size": 278,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/latest_controlled_comparison.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/latest_user_settings.json",
-        "size": 58174,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/latest_user_settings.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/pack_and_slice.py",
-        "size": 2753,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/pack_and_slice.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/pack_and_slice_latest.py",
-        "size": 2818,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/pack_and_slice_latest.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_latest_baseline.json",
-        "size": 1564,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_latest_baseline.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_latest_spoke.json",
-        "size": 959,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_latest_spoke.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_latest_spoke_auto.json",
-        "size": 960,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_latest_spoke_auto.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_relief_rev2.json",
-        "size": 924,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_relief_rev2.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_relief_rev2_auto.json",
-        "size": 924,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_relief_rev2_auto.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_spoke.json",
-        "size": 959,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_spoke.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_spoke_rev2.json",
-        "size": 961,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_spoke_rev2.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/mesh_reports.json",
-        "size": 4004,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/narrow_result.json",
-        "size": 3874,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/slice_reports.json",
-        "size": 7648,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/wide_result.json",
-        "size": 3872,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/mesh_reports.json",
-        "size": 3943,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/narrow_result.json",
-        "size": 3812,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/slice_reports.json",
-        "size": 7529,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/wide_result.json",
-        "size": 3811,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/mesh_reports.json",
-        "size": 3954,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/narrow_result.json",
-        "size": 3817,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/slice_reports.json",
-        "size": 7545,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/wide_result.json",
-        "size": 3822,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/mesh_reports.json",
-        "size": 3935,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/narrow_result.json",
-        "size": 3811,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/slice_reports.json",
-        "size": 7520,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/wide_result.json",
-        "size": 3803,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/mesh_reports.json",
-        "size": 3945,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/narrow_result.json",
-        "size": 3819,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/slice_reports.json",
-        "size": 7538,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/wide_result.json",
-        "size": 3813,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke/mesh_reports.json",
-        "size": 3940,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke/narrow_result.json",
-        "size": 3795,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke/slice_reports.json",
-        "size": 7509,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke/wide_result.json",
-        "size": 3808,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/mesh_reports.json",
-        "size": 3946,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/narrow_result.json",
-        "size": 3806,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/slice_reports.json",
-        "size": 7526,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/wide_result.json",
-        "size": 3814,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/manifest.json",
-        "size": 3381,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/manifest.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/protected_regions.json",
-        "size": 609,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/protected_regions.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/saved_source_validation.json",
-        "size": 5467,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/saved_source_validation.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/superseded_hole_pad_truncated/CHANEL_ULTRALIGHT_SPOKE_RESEARCH.step",
-        "size": 1450643,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/superseded_hole_pad_truncated/CHANEL_ULTRALIGHT_SPOKE_RESEARCH.step"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/superseded_hole_pad_truncated/manifest.json",
-        "size": 3217,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/superseded_hole_pad_truncated/manifest.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/superseded_hole_pad_truncated/validation.json",
-        "size": 5467,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/superseded_hole_pad_truncated/validation.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/validation.json",
-        "size": 5467,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/validation.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/variant_mesh.json",
-        "size": 220,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/variant_mesh.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/variant_mesh.log",
-        "size": 167,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/variant_mesh.log"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/variant_parameters.json",
-        "size": 1373,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/variant_parameters.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_spoke_research/variant_validation.json",
-        "size": 5466,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/variant_validation.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/README.md",
-        "size": 2484,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/README.md"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/RESEARCH_PLAN.md",
-        "size": 1620,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/RESEARCH_PLAN.md"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/REVISION2.md",
-        "size": 500,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/REVISION2.md"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/assembly_relief.log",
-        "size": 293,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/assembly_relief.log"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/assembly_relief.py",
-        "size": 506,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/assembly_relief.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/assembly_relief_rev2.log",
-        "size": 293,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/assembly_relief_rev2.log"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/assembly_relief_rev2.py",
-        "size": 521,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/assembly_relief_rev2.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/broad_masks_initial.log",
-        "size": 1588,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/broad_masks_initial.log"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/check_relief.py",
-        "size": 1877,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/check_relief.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/check_relief_exact.log",
-        "size": 989,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/check_relief_exact.log"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/check_relief_final.log",
-        "size": 1928,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/check_relief_final.log"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/check_relief_rev2.log",
-        "size": 2592,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/check_relief_rev2.log"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/check_relief_rev2.py",
-        "size": 2259,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/check_relief_rev2.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/INDEPENDENT_60G_FEASIBILITY.md",
-        "size": 4401,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/INDEPENDENT_60G_FEASIBILITY.md"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/RELIEF_INDEPENDENT_REVIEW.md",
-        "size": 2340,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/RELIEF_INDEPENDENT_REVIEW.md"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/REV2_CORRECTION_REVIEW.md",
-        "size": 2496,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/REV2_CORRECTION_REVIEW.md"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/REV2_FINAL_RESULTS.json",
-        "size": 5271,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/REV2_FINAL_RESULTS.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/SPOKE_FINAL_INDEPENDENT_REVIEW.md",
-        "size": 3966,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/SPOKE_FINAL_INDEPENDENT_REVIEW.md"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/analyze_paths.py",
-        "size": 1681,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/analyze_paths.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass.json",
-        "size": 15770,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass.py",
-        "size": 1987,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass_fine.json",
-        "size": 15880,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass_fine.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass_fine.py",
-        "size": 2028,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass_fine.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/latest_config_diff.json",
-        "size": 1928,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/latest_config_diff.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/latest_controlled_comparison.json",
-        "size": 278,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/latest_controlled_comparison.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/latest_user_settings.json",
-        "size": 58174,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/latest_user_settings.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/pack_and_slice.py",
-        "size": 2753,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/pack_and_slice.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/pack_and_slice_latest.py",
-        "size": 2818,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/pack_and_slice_latest.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_latest_baseline.json",
-        "size": 1564,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_latest_baseline.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_latest_spoke.json",
-        "size": 959,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_latest_spoke.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_latest_spoke_auto.json",
-        "size": 960,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_latest_spoke_auto.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_relief.json",
-        "size": 925,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_relief.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_relief_auto.json",
-        "size": 925,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_relief_auto.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_relief_rev2.json",
-        "size": 924,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_relief_rev2.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_relief_rev2_auto.json",
-        "size": 924,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_relief_rev2_auto.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_spoke.json",
-        "size": 959,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_spoke.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_spoke_rev2.json",
-        "size": 961,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_spoke_rev2.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/mesh_reports.json",
-        "size": 4004,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/narrow_result.json",
-        "size": 3874,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/slice_reports.json",
-        "size": 7648,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/wide_result.json",
-        "size": 3872,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/mesh_reports.json",
-        "size": 3943,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/narrow_result.json",
-        "size": 3812,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/slice_reports.json",
-        "size": 7529,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/wide_result.json",
-        "size": 3811,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/mesh_reports.json",
-        "size": 3935,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/narrow_result.json",
-        "size": 3813,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/slice_reports.json",
-        "size": 7522,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/wide_result.json",
-        "size": 3803,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/mesh_reports.json",
-        "size": 3948,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/narrow_result.json",
-        "size": 3815,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/slice_reports.json",
-        "size": 7537,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/wide_result.json",
-        "size": 3816,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/mesh_reports.json",
-        "size": 3935,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/narrow_result.json",
-        "size": 3811,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/slice_reports.json",
-        "size": 7520,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/wide_result.json",
-        "size": 3803,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/mesh_reports.json",
-        "size": 3945,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/narrow_result.json",
-        "size": 3819,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/slice_reports.json",
-        "size": 7538,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/wide_result.json",
-        "size": 3813,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/mesh_reports.json",
-        "size": 3946,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/mesh_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/narrow_result.json",
-        "size": 3806,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/narrow_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/slice_reports.json",
-        "size": 7526,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/slice_reports.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/wide_result.json",
-        "size": 3814,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/wide_result.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/manifest.json",
-        "size": 4020,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/manifest.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_assembly_checks.json",
-        "size": 390,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_assembly_checks.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_protected_regions.json",
-        "size": 2459,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_protected_regions.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_rev2_assembly_checks.json",
-        "size": 390,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_rev2_assembly_checks.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_rev2_protected_regions.json",
-        "size": 3307,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_rev2_protected_regions.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_rev2_reproduce.log",
-        "size": 383,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_rev2_reproduce.log"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_rev2_variant_test.json",
-        "size": 755,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_rev2_variant_test.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_rev2_variant_test.log",
-        "size": 222,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_rev2_variant_test.log"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_rev2_variant_test.py",
-        "size": 1152,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_rev2_variant_test.py"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/saved_source_rev2_validation.json",
-        "size": 5949,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/saved_source_rev2_validation.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/status.json",
-        "size": 372,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/status.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/superseded_hole_pad_truncated/CHANEL_ULTRALIGHT_WALL_RELIEF_RESEARCH.step",
-        "size": 1693751,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/superseded_hole_pad_truncated/CHANEL_ULTRALIGHT_WALL_RELIEF_RESEARCH.step"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/superseded_hole_pad_truncated/validation.json",
-        "size": 6073,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/superseded_hole_pad_truncated/validation.json"
-      },
-      {
-        "rel": "Notes/chanel_ultralight_wall_relief_research/validation.json",
-        "size": 5949,
-        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/validation.json"
       },
       {
         "rel": "Notes/cleanup_105g.json",
@@ -3941,104 +3181,14 @@
         "url": "models/filament-spool-chanel/Notes/weight_trials_v5/protected_interfaces.json"
       },
       {
-        "rel": "Notes/window_spool_assembly/ASSEMBLY_AND_PAPER_CORE_EVIDENCE.md",
-        "size": 4782,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/ASSEMBLY_AND_PAPER_CORE_EVIDENCE.md"
-      },
-      {
-        "rel": "Notes/window_spool_assembly/DELIVERY_MANIFEST.json",
-        "size": 819,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/DELIVERY_MANIFEST.json"
-      },
-      {
-        "rel": "Notes/window_spool_assembly/README.md",
-        "size": 4166,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/README.md"
-      },
-      {
-        "rel": "Notes/window_spool_assembly/REFERENCE_OFFICIAL_STL_ASSEMBLY.md",
-        "size": 2384,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/REFERENCE_OFFICIAL_STL_ASSEMBLY.md"
-      },
-      {
-        "rel": "Notes/window_spool_assembly/REFERENCE_official_assembly_overlap.json",
-        "size": 41698,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/REFERENCE_official_assembly_overlap.json"
-      },
-      {
-        "rel": "Notes/window_spool_assembly/REFERENCE_official_assembly_overlap_extra.json",
-        "size": 18194,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/REFERENCE_official_assembly_overlap_extra.json"
-      },
-      {
-        "rel": "Notes/window_spool_assembly/REPORT_SHA256.json",
-        "size": 1297,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/REPORT_SHA256.json"
-      },
-      {
-        "rel": "Notes/window_spool_assembly/assembly.log",
-        "size": 27224,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/assembly.log"
-      },
-      {
-        "rel": "Notes/window_spool_assembly/assembly_results.json",
-        "size": 40514,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/assembly_results.json"
-      },
-      {
-        "rel": "Notes/window_spool_assembly/paper_core_support_geometry.json",
-        "size": 625,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/paper_core_support_geometry.json"
-      },
-      {
-        "rel": "Notes/window_spool_assembly/paper_template_validation.log",
-        "size": 1130,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/paper_template_validation.log"
-      },
-      {
-        "rel": "Notes/window_spool_assembly/path_results.csv",
-        "size": 3847,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/path_results.csv"
-      },
-      {
-        "rel": "Notes/window_spool_assembly/refill_install.html",
-        "size": 115143,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/refill_install.html"
-      },
-      {
-        "rel": "Notes/window_spool_assembly/refill_install.txt",
-        "size": 2956,
-        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/refill_install.txt"
-      },
-      {
         "rel": "README.md",
-        "size": 6164,
+        "size": 1507,
         "url": "models/filament-spool-chanel/README.md"
-      },
-      {
-        "rel": "Source/CHANEL_PARKING_A_WINDOW_PARAMETRIC_SOURCE.zip",
-        "size": 34703,
-        "url": "models/filament-spool-chanel/Source/CHANEL_PARKING_A_WINDOW_PARAMETRIC_SOURCE.zip"
       },
       {
         "rel": "Source/CHANEL_SELF_SUPPORT_ROOF_PARAMETRIC_SOURCE.zip",
         "size": 33785,
         "url": "models/filament-spool-chanel/Source/CHANEL_SELF_SUPPORT_ROOF_PARAMETRIC_SOURCE.zip"
-      },
-      {
-        "rel": "Source/CHANEL_ULTRALIGHT_SPOKE_RESEARCH_SOURCE.zip",
-        "size": 25259,
-        "url": "models/filament-spool-chanel/Source/CHANEL_ULTRALIGHT_SPOKE_RESEARCH_SOURCE.zip"
-      },
-      {
-        "rel": "Source/CHANEL_ULTRALIGHT_WALL_RELIEF_RESEARCH_SOURCE.zip",
-        "size": 28410,
-        "url": "models/filament-spool-chanel/Source/CHANEL_ULTRALIGHT_WALL_RELIEF_RESEARCH_SOURCE.zip"
-      },
-      {
-        "rel": "Source/WINDOW_SPOOL_ASSEMBLY_REPRODUCTION.zip",
-        "size": 8346,
-        "url": "models/filament-spool-chanel/Source/WINDOW_SPOOL_ASSEMBLY_REPRODUCTION.zip"
       },
       {
         "rel": "Source/assembly_v6/README.md",
@@ -4059,6 +3209,111 @@
         "rel": "Source/build_official.py",
         "size": 4936,
         "url": "models/filament-spool-chanel/Source/build_official.py"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/HUB_README.md",
+        "size": 4471,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/HUB_README.md"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/NARROW_LOCK_README.md",
+        "size": 2601,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/NARROW_LOCK_README.md"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/README.md",
+        "size": 974,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/README.md"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/WIDE_MARKER_README.md",
+        "size": 1950,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/WIDE_MARKER_README.md"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/build_light.py",
+        "size": 2127,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/build_light.py"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/build_official.py",
+        "size": 3600,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/build_official.py"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/hub_windows.py",
+        "size": 3696,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/hub_windows.py"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/light_flange.py",
+        "size": 4177,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/light_flange.py"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/light_motif.py",
+        "size": 1981,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/light_motif.py"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/light_parameters.json",
+        "size": 1400,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/light_parameters.json"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/narrow_lock.py",
+        "size": 3543,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/narrow_lock.py"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/official_flange.py",
+        "size": 4717,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/official_flange.py"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/official_hub.py",
+        "size": 4822,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/official_hub.py"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/official_key.py",
+        "size": 1933,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/official_key.py"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/parameters.json",
+        "size": 2892,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/parameters.json"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/parking_slot.py",
+        "size": 2208,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/parking_slot.py"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/requirements.txt",
+        "size": 38,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/requirements.txt"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/wide_cap_planes.json",
+        "size": 748,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/wide_cap_planes.json"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/wide_lock.py",
+        "size": 3224,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/wide_lock.py"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/wide_lock_sketches.json",
+        "size": 33355,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/wide_lock_sketches.json"
+      },
+      {
+        "rel": "Source/chanel_connected_skin_fix/wide_marker.py",
+        "size": 2092,
+        "url": "models/filament-spool-chanel/Source/chanel_connected_skin_fix/wide_marker.py"
       },
       {
         "rel": "Source/chanel_motif.py",
@@ -4087,7 +3342,7 @@
       },
       {
         "rel": "Source/chanel_official_light/build_light.py",
-        "size": 1930,
+        "size": 1962,
         "url": "models/filament-spool-chanel/Source/chanel_official_light/build_light.py"
       },
       {
@@ -4161,131 +3416,6 @@
         "url": "models/filament-spool-chanel/Source/chanel_official_light/wide_marker.py"
       },
       {
-        "rel": "Source/chanel_parking_A_window_light/HUB_README.md",
-        "size": 4471,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/HUB_README.md"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/NARROW_LOCK_README.md",
-        "size": 2601,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/NARROW_LOCK_README.md"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/README.md",
-        "size": 4025,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/README.md"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/WIDE_MARKER_README.md",
-        "size": 1950,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/WIDE_MARKER_README.md"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/build_light.py",
-        "size": 2094,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/build_light.py"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/build_official.py",
-        "size": 3600,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/build_official.py"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/hub_windows.py",
-        "size": 2217,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/hub_windows.py"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/light_flange.py",
-        "size": 3353,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/light_flange.py"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/light_motif.py",
-        "size": 1981,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/light_motif.py"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/light_parameters.json",
-        "size": 1143,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/light_parameters.json"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/long_wide_windows.json",
-        "size": 1143,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/long_wide_windows.json"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/long_windows.json",
-        "size": 1143,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/long_windows.json"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/narrow_lock.py",
-        "size": 3543,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/narrow_lock.py"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/official_flange.py",
-        "size": 4717,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/official_flange.py"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/official_hub.py",
-        "size": 4822,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/official_hub.py"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/official_key.py",
-        "size": 1933,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/official_key.py"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/parameters.json",
-        "size": 2892,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/parameters.json"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/parking_slot.py",
-        "size": 2208,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/parking_slot.py"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/requirements.txt",
-        "size": 38,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/requirements.txt"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/short_windows.json",
-        "size": 1143,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/short_windows.json"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/variant.json",
-        "size": 1143,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/variant.json"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/wide_cap_planes.json",
-        "size": 748,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/wide_cap_planes.json"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/wide_lock.py",
-        "size": 3224,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/wide_lock.py"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/wide_lock_sketches.json",
-        "size": 33355,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/wide_lock_sketches.json"
-      },
-      {
-        "rel": "Source/chanel_parking_A_window_light/wide_marker.py",
-        "size": 2092,
-        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/wide_marker.py"
-      },
-      {
         "rel": "Source/chanel_parking_selfsupport_roof/HUB_README.md",
         "size": 4471,
         "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/HUB_README.md"
@@ -4307,7 +3437,7 @@
       },
       {
         "rel": "Source/chanel_parking_selfsupport_roof/build_light.py",
-        "size": 2099,
+        "size": 2131,
         "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/build_light.py"
       },
       {
@@ -4396,199 +3526,94 @@
         "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/wide_marker.py"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/README.md",
-        "size": 760,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/README.md"
+        "rel": "Source/chanel_reinforced_connected_fix/README.md",
+        "size": 1171,
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/README.md"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/build_light.py",
-        "size": 2091,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/build_light.py"
+        "rel": "Source/chanel_reinforced_connected_fix/build_light.py",
+        "size": 2133,
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/build_light.py"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/build_official.py",
+        "rel": "Source/chanel_reinforced_connected_fix/build_official.py",
         "size": 3600,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/build_official.py"
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/build_official.py"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/flange_previous.py",
-        "size": 3353,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/flange_previous.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_spoke_research/hub_windows.py",
+        "rel": "Source/chanel_reinforced_connected_fix/hub_windows.py",
         "size": 3696,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/hub_windows.py"
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/hub_windows.py"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/light_flange.py",
-        "size": 2368,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/light_flange.py"
+        "rel": "Source/chanel_reinforced_connected_fix/light_flange.py",
+        "size": 4402,
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/light_flange.py"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/light_motif.py",
-        "size": 1981,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/light_motif.py"
+        "rel": "Source/chanel_reinforced_connected_fix/light_motif.py",
+        "size": 2021,
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/light_motif.py"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/light_parameters.json",
-        "size": 1373,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/light_parameters.json"
+        "rel": "Source/chanel_reinforced_connected_fix/light_parameters.json",
+        "size": 1429,
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/light_parameters.json"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/narrow_lock.py",
+        "rel": "Source/chanel_reinforced_connected_fix/narrow_lock.py",
         "size": 3543,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/narrow_lock.py"
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/narrow_lock.py"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/official_flange.py",
+        "rel": "Source/chanel_reinforced_connected_fix/official_flange.py",
         "size": 4717,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/official_flange.py"
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/official_flange.py"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/official_hub.py",
+        "rel": "Source/chanel_reinforced_connected_fix/official_hub.py",
         "size": 4822,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/official_hub.py"
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/official_hub.py"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/official_key.py",
+        "rel": "Source/chanel_reinforced_connected_fix/official_key.py",
         "size": 1933,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/official_key.py"
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/official_key.py"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/parameters.json",
+        "rel": "Source/chanel_reinforced_connected_fix/parameters.json",
         "size": 2892,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/parameters.json"
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/parameters.json"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/parking_slot.py",
+        "rel": "Source/chanel_reinforced_connected_fix/parking_slot.py",
         "size": 2208,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/parking_slot.py"
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/parking_slot.py"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/wide_cap_planes.json",
+        "rel": "Source/chanel_reinforced_connected_fix/requirements.txt",
+        "size": 38,
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/requirements.txt"
+      },
+      {
+        "rel": "Source/chanel_reinforced_connected_fix/wide_cap_planes.json",
         "size": 748,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/wide_cap_planes.json"
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/wide_cap_planes.json"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/wide_lock.py",
+        "rel": "Source/chanel_reinforced_connected_fix/wide_lock.py",
         "size": 3224,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/wide_lock.py"
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/wide_lock.py"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/wide_lock_sketches.json",
+        "rel": "Source/chanel_reinforced_connected_fix/wide_lock_sketches.json",
         "size": 33355,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/wide_lock_sketches.json"
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/wide_lock_sketches.json"
       },
       {
-        "rel": "Source/chanel_ultralight_spoke_research/wide_marker.py",
+        "rel": "Source/chanel_reinforced_connected_fix/wide_marker.py",
         "size": 2092,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/wide_marker.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/README.md",
-        "size": 730,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/README.md"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/build_light.py",
-        "size": 2091,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/build_light.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/build_official.py",
-        "size": 3600,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/build_official.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/build_relief.py",
-        "size": 2210,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/build_relief.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/center_relief.py",
-        "size": 2518,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/center_relief.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/flange_previous.py",
-        "size": 3353,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/flange_previous.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/hub_windows.py",
-        "size": 3696,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/hub_windows.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/light_flange.py",
-        "size": 2368,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/light_flange.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/light_motif.py",
-        "size": 1981,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/light_motif.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/light_parameters.json",
-        "size": 1373,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/light_parameters.json"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/narrow_lock.py",
-        "size": 3543,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/narrow_lock.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/official_flange.py",
-        "size": 4717,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/official_flange.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/official_hub.py",
-        "size": 4822,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/official_hub.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/official_key.py",
-        "size": 1933,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/official_key.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/parameters.json",
-        "size": 2892,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/parameters.json"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/parking_slot.py",
-        "size": 2208,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/parking_slot.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/relief.json",
-        "size": 1791,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/relief.json"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/wide_cap_planes.json",
-        "size": 748,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/wide_cap_planes.json"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/wide_lock.py",
-        "size": 3224,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/wide_lock.py"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/wide_lock_sketches.json",
-        "size": 33355,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/wide_lock_sketches.json"
-      },
-      {
-        "rel": "Source/chanel_ultralight_wall_relief_research/wide_marker.py",
-        "size": 2092,
-        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/wide_marker.py"
+        "url": "models/filament-spool-chanel/Source/chanel_reinforced_connected_fix/wide_marker.py"
       },
       {
         "rel": "Source/check_hole_profiles.py",
@@ -5079,69 +4104,35 @@
         "rel": "Source/weight_trials_v5/requirements.txt",
         "size": 44,
         "url": "models/filament-spool-chanel/Source/weight_trials_v5/requirements.txt"
-      },
-      {
-        "rel": "Source/window_spool_assembly/README.md",
-        "size": 4166,
-        "url": "models/filament-spool-chanel/Source/window_spool_assembly/README.md"
-      },
-      {
-        "rel": "Source/window_spool_assembly/check_assembly.py",
-        "size": 2979,
-        "url": "models/filament-spool-chanel/Source/window_spool_assembly/check_assembly.py"
-      },
-      {
-        "rel": "Source/window_spool_assembly/paper_core_check.py",
-        "size": 2551,
-        "url": "models/filament-spool-chanel/Source/window_spool_assembly/paper_core_check.py"
-      },
-      {
-        "rel": "Source/window_spool_assembly/paper_core_measurements.template.json",
-        "size": 346,
-        "url": "models/filament-spool-chanel/Source/window_spool_assembly/paper_core_measurements.template.json"
-      },
-      {
-        "rel": "Source/window_spool_assembly/requirements.txt",
-        "size": 33,
-        "url": "models/filament-spool-chanel/Source/window_spool_assembly/requirements.txt"
-      },
-      {
-        "rel": "Source/window_spool_assembly/visualize_assembly.py",
-        "size": 2567,
-        "url": "models/filament-spool-chanel/Source/window_spool_assembly/visualize_assembly.py"
       }
     ],
-    "bytes": 94798762,
-    "html": [
-      {
-        "rel": "models/filament-spool-chanel/Notes/window_spool_assembly/refill_install.html",
-        "size": 115143,
-        "title": "Refill Filament with Bambu Reusable Spool / Refill | Bambu Lab Wiki"
-      }
-    ]
+    "bytes": 56658142
   },
   {
     "id": "filament-spool-lv",
-    "title": "LV 镂空轻量料盘 A · 待修订原型",
+    "title": "LV · OPEN ARCH 大面积错位长窗",
     "category": "打印配件 / 料盘",
     "status": "design",
     "cls": "derived",
-    "summary": "单色 PETG Matte；标称 Ø200×67 mm，约110.6g体积估算。双孔为自拟待修订，须改成官方料盘孔位后核验；缺防反转锁止，接口未核实，禁止装料。",
-    "cover": "filament-spool-lv/Design/A_actual_CAD_preview.png",
+    "summary": "宽、窄两半均为原生 BRep，错位开放拱窗；共享官方接口，未切片或实物验证。",
+    "cover": "filament-spool-lv/Models/StaggeredThickWall/LV_OPEN_ARCH_CUTAWAY.png",
     "downloads": [
-      "Models/A_wide_PROTOTYPE.step",
-      "Models/A_narrow_PROTOTYPE.step",
-      "Models/A_wide_PROTOTYPE.stl",
-      "Models/A_narrow_PROTOTYPE.stl"
+      "Models/StaggeredThickWall/LV_OPEN_ARCH_A_wide.step",
+      "Models/StaggeredThickWall/LV_OPEN_ARCH_A_narrow.step"
     ],
     "downloadGroups": [
       {
-        "prefix": "Models/",
-        "label": "仅工程审查与空载试配的原型文件",
-        "note": "不是可用成品。未切片、未实打、未验证拓竹补充装接口；禁止装料，不得把1kg简化分析当承重认证。"
+        "prefix": "Models/StaggeredThickWall/",
+        "label": "当前宽、窄两件 STEP",
+        "note": "wide 为宽半盘，narrow 为窄半盘；各文件仅一个有效实体。未切片或实物认证。"
       }
     ],
-    "gallery": [],
+    "gallery": [
+      "Models/StaggeredThickWall/LV_OPEN_ARCH_CUTAWAY.png",
+      "Design/LV_four_native_motifs.png"
+    ],
+    "baseProject": "filament-spool-base",
+    "parametricSource": "Source/StaggeredThickWall/lv_staggered_source/build_light.py",
     "dir": "filament-spool-lv",
     "files": [
       {
@@ -5150,24 +4141,59 @@
         "url": "models/filament-spool-lv/Design/A_actual_CAD_preview.png"
       },
       {
-        "rel": "Models/A_narrow_PROTOTYPE.step",
-        "size": 21761299,
-        "url": "models/filament-spool-lv/Models/A_narrow_PROTOTYPE.step"
+        "rel": "Design/LV_four_native_motifs.png",
+        "size": 80997,
+        "url": "models/filament-spool-lv/Design/LV_four_native_motifs.png"
       },
       {
-        "rel": "Models/A_narrow_PROTOTYPE.stl",
-        "size": 4061684,
-        "url": "models/filament-spool-lv/Models/A_narrow_PROTOTYPE.stl"
+        "rel": "Design/LV_official_selfsupport_A.png",
+        "size": 593860,
+        "url": "models/filament-spool-lv/Design/LV_official_selfsupport_A.png"
       },
       {
-        "rel": "Models/A_wide_PROTOTYPE.step",
-        "size": 21872231,
-        "url": "models/filament-spool-lv/Models/A_wide_PROTOTYPE.step"
+        "rel": "Models/StaggeredThickWall/LV_OPEN_ARCH_A_narrow.step",
+        "size": 9266924,
+        "url": "models/filament-spool-lv/Models/StaggeredThickWall/LV_OPEN_ARCH_A_narrow.step"
       },
       {
-        "rel": "Models/A_wide_PROTOTYPE.stl",
-        "size": 4032284,
-        "url": "models/filament-spool-lv/Models/A_wide_PROTOTYPE.stl"
+        "rel": "Models/StaggeredThickWall/LV_OPEN_ARCH_A_wide.step",
+        "size": 9472394,
+        "url": "models/filament-spool-lv/Models/StaggeredThickWall/LV_OPEN_ARCH_A_wide.step"
+      },
+      {
+        "rel": "Models/StaggeredThickWall/LV_OPEN_ARCH_CUTAWAY.png",
+        "size": 220829,
+        "url": "models/filament-spool-lv/Models/StaggeredThickWall/LV_OPEN_ARCH_CUTAWAY.png"
+      },
+      {
+        "rel": "Models/StaggeredThickWall/README.md",
+        "size": 214,
+        "url": "models/filament-spool-lv/Models/StaggeredThickWall/README.md"
+      },
+      {
+        "rel": "Models/StaggeredThickWall/assembly_checks.json",
+        "size": 7487,
+        "url": "models/filament-spool-lv/Models/StaggeredThickWall/assembly_checks.json"
+      },
+      {
+        "rel": "Models/StaggeredThickWall/export_checks.json",
+        "size": 600,
+        "url": "models/filament-spool-lv/Models/StaggeredThickWall/export_checks.json"
+      },
+      {
+        "rel": "Models/StaggeredThickWall/opening_area_comparison.json",
+        "size": 665,
+        "url": "models/filament-spool-lv/Models/StaggeredThickWall/opening_area_comparison.json"
+      },
+      {
+        "rel": "Models/StaggeredThickWall/validation.json",
+        "size": 5359,
+        "url": "models/filament-spool-lv/Models/StaggeredThickWall/validation.json"
+      },
+      {
+        "rel": "Notes/README_before_split_2026-11-19.md",
+        "size": 5329,
+        "url": "models/filament-spool-lv/Notes/README_before_split_2026-11-19.md"
       },
       {
         "rel": "Notes/ams_3d/REPORT.md",
@@ -5246,13 +4272,188 @@
       },
       {
         "rel": "README.md",
-        "size": 4111,
+        "size": 1780,
         "url": "models/filament-spool-lv/README.md"
       },
       {
         "rel": "Source/LV_Monogram.svg",
         "size": 3193,
         "url": "models/filament-spool-lv/Source/LV_Monogram.svg"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_models/connection_checks.json",
+        "size": 1603,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_models/connection_checks.json"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_models/validation.json",
+        "size": 5557,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_models/validation.json"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/HUB_README.md",
+        "size": 4471,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/HUB_README.md"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/NARROW_LOCK_README.md",
+        "size": 2601,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/NARROW_LOCK_README.md"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/README.md",
+        "size": 2993,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/README.md"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/STATUS.json",
+        "size": 259,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/STATUS.json"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/WIDE_MARKER_README.md",
+        "size": 1950,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/WIDE_MARKER_README.md"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/build_light.py",
+        "size": 2314,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/build_light.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/build_official.py",
+        "size": 3600,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/build_official.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/check_assembly.py",
+        "size": 3263,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/check_assembly.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/check_cad.py",
+        "size": 269,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/check_cad.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/check_clocking.py",
+        "size": 637,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/check_clocking.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/check_export.py",
+        "size": 789,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/check_export.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/check_lock_pose.py",
+        "size": 536,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/check_lock_pose.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/hub_windows.py",
+        "size": 2751,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/hub_windows.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/light_flange.py",
+        "size": 3948,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/light_flange.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/light_parameters.json",
+        "size": 1331,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/light_parameters.json"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/lv-circle.svg",
+        "size": 820,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/lv-circle.svg"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/lv-diamond.svg",
+        "size": 821,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/lv-diamond.svg"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/lv-logo.svg",
+        "size": 1141,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/lv-logo.svg"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/lv-pointed.svg",
+        "size": 642,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/lv-pointed.svg"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/lv_motif.py",
+        "size": 3945,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/lv_motif.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/model_paths.py",
+        "size": 424,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/model_paths.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/narrow_lock.py",
+        "size": 3543,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/narrow_lock.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/official_flange.py",
+        "size": 4717,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/official_flange.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/official_hub.py",
+        "size": 4822,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/official_hub.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/official_key.py",
+        "size": 1933,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/official_key.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/parameters.json",
+        "size": 2892,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/parameters.json"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/parking_slot.py",
+        "size": 2208,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/parking_slot.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/preview_cad.py",
+        "size": 1661,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/preview_cad.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/requirements.txt",
+        "size": 78,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/requirements.txt"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/wide_cap_planes.json",
+        "size": 748,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/wide_cap_planes.json"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/wide_lock.py",
+        "size": 3224,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/wide_lock.py"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/wide_lock_sketches.json",
+        "size": 33355,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/wide_lock_sketches.json"
+      },
+      {
+        "rel": "Source/StaggeredThickWall/lv_staggered_source/wide_marker.py",
+        "size": 2092,
+        "url": "models/filament-spool-lv/Source/StaggeredThickWall/lv_staggered_source/wide_marker.py"
       },
       {
         "rel": "Source/ams_3d/.gitignore",
@@ -5300,12 +4501,142 @@
         "url": "models/filament-spool-lv/Source/check_mesh.py"
       },
       {
+        "rel": "Source/lv_official_selfsupport_A/HUB_README.md",
+        "size": 4471,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/HUB_README.md"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/NARROW_LOCK_README.md",
+        "size": 2601,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/NARROW_LOCK_README.md"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/README.md",
+        "size": 3669,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/README.md"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/STATUS.json",
+        "size": 490,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/STATUS.json"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/WIDE_MARKER_README.md",
+        "size": 1950,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/WIDE_MARKER_README.md"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/build_light.py",
+        "size": 2113,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/build_light.py"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/build_official.py",
+        "size": 3600,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/build_official.py"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/hub_windows.py",
+        "size": 3696,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/hub_windows.py"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/light_flange.py",
+        "size": 3274,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/light_flange.py"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/light_parameters.json",
+        "size": 1147,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/light_parameters.json"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/lv-circle.svg",
+        "size": 820,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/lv-circle.svg"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/lv-diamond.svg",
+        "size": 821,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/lv-diamond.svg"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/lv-logo.svg",
+        "size": 1141,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/lv-logo.svg"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/lv-pointed.svg",
+        "size": 642,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/lv-pointed.svg"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/lv_motif.py",
+        "size": 3945,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/lv_motif.py"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/narrow_lock.py",
+        "size": 3543,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/narrow_lock.py"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/official_flange.py",
+        "size": 4717,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/official_flange.py"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/official_hub.py",
+        "size": 4822,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/official_hub.py"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/official_key.py",
+        "size": 1933,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/official_key.py"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/parameters.json",
+        "size": 2892,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/parameters.json"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/parking_slot.py",
+        "size": 2208,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/parking_slot.py"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/requirements.txt",
+        "size": 77,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/requirements.txt"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/wide_cap_planes.json",
+        "size": 748,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/wide_cap_planes.json"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/wide_lock.py",
+        "size": 3224,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/wide_lock.py"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/wide_lock_sketches.json",
+        "size": 33355,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/wide_lock_sketches.json"
+      },
+      {
+        "rel": "Source/lv_official_selfsupport_A/wide_marker.py",
+        "size": 2092,
+        "url": "models/filament-spool-lv/Source/lv_official_selfsupport_A/wide_marker.py"
+      },
+      {
         "rel": "Source/requirements.txt",
         "size": 135,
         "url": "models/filament-spool-lv/Source/requirements.txt"
       }
     ],
-    "bytes": 55711284
+    "bytes": 23838042
   },
   {
     "id": "idea-003",
@@ -6002,6 +5333,319 @@
     "bytes": 3878052
   },
   {
+    "id": "joycon-mecha-strap",
+    "title": "Joy-Con机甲侧饰结构试配",
+    "category": "游戏配件",
+    "status": "design",
+    "cls": "derived",
+    "summary": "CC BY参考几何＋原创侧饰；主体融合和按键实配未验证，不是可打印成品。",
+    "dir": "joycon-mecha-strap",
+    "cover": null,
+    "files": [
+      {
+        "rel": "Diagnostics/api_check.json",
+        "size": 612,
+        "url": "models/joycon-mecha-strap/Diagnostics/api_check.json"
+      },
+      {
+        "rel": "Diagnostics/button_comparison.json",
+        "size": 856,
+        "url": "models/joycon-mecha-strap/Diagnostics/button_comparison.json"
+      },
+      {
+        "rel": "Diagnostics/candidate_check.json",
+        "size": 1766,
+        "url": "models/joycon-mecha-strap/Diagnostics/candidate_check.json"
+      },
+      {
+        "rel": "Diagnostics/contact_classification.json",
+        "size": 34345,
+        "url": "models/joycon-mecha-strap/Diagnostics/contact_classification.json"
+      },
+      {
+        "rel": "Diagnostics/finish_check.json",
+        "size": 27566,
+        "url": "models/joycon-mecha-strap/Diagnostics/finish_check.json"
+      },
+      {
+        "rel": "Diagnostics/freecad_results.json",
+        "size": 903,
+        "url": "models/joycon-mecha-strap/Diagnostics/freecad_results.json"
+      },
+      {
+        "rel": "Diagnostics/penetration.json",
+        "size": 7388,
+        "url": "models/joycon-mecha-strap/Diagnostics/penetration.json"
+      },
+      {
+        "rel": "Diagnostics/refined_results.json",
+        "size": 265,
+        "url": "models/joycon-mecha-strap/Diagnostics/refined_results.json"
+      },
+      {
+        "rel": "Diagnostics/repair_results.json",
+        "size": 7756,
+        "url": "models/joycon-mecha-strap/Diagnostics/repair_results.json"
+      },
+      {
+        "rel": "Diagnostics/scale_results.json",
+        "size": 309,
+        "url": "models/joycon-mecha-strap/Diagnostics/scale_results.json"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/REPORT.md",
+        "size": 2606,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/REPORT.md"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/body_original_axes_ANALYSIS_ONLY.stl",
+        "size": 881984,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/body_original_axes_ANALYSIS_ONLY.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/left_button_H13.25_ANALYSIS_ONLY.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/left_button_H13.25_ANALYSIS_ONLY.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/left_button_H14.75_ANALYSIS_ONLY.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/left_button_H14.75_ANALYSIS_ONLY.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/left_button_capZ10.00_ANALYSIS_ONLY.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/left_button_capZ10.00_ANALYSIS_ONLY.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/left_button_capZ12.75_ANALYSIS_ONLY.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/left_button_capZ12.75_ANALYSIS_ONLY.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/left_button_capZ14.00_ANALYSIS_ONLY.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/left_button_capZ14.00_ANALYSIS_ONLY.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/left_button_capZ9.25_ANALYSIS_ONLY.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/left_button_capZ9.25_ANALYSIS_ONLY.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/press_comparison.png",
+        "size": 72330,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/press_comparison.png"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/press_refined.json",
+        "size": 8243,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/press_refined.json"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/press_scan.json",
+        "size": 7089,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/press_scan.json"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/right_button_H13.25_ANALYSIS_ONLY.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/right_button_H13.25_ANALYSIS_ONLY.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/right_button_H14.75_ANALYSIS_ONLY.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/right_button_H14.75_ANALYSIS_ONLY.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/right_button_capZ10.00_ANALYSIS_ONLY.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/right_button_capZ10.00_ANALYSIS_ONLY.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/right_button_capZ12.75_ANALYSIS_ONLY.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/right_button_capZ12.75_ANALYSIS_ONLY.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/right_button_capZ14.00_ANALYSIS_ONLY.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/right_button_capZ14.00_ANALYSIS_ONLY.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/right_button_capZ9.25_ANALYSIS_ONLY.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/right_button_capZ9.25_ANALYSIS_ONLY.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/AssemblyCheck/step_clearance_crosscheck.json",
+        "size": 1446,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/AssemblyCheck/step_clearance_crosscheck.json"
+      },
+      {
+        "rel": "HeightLayerTrial/BODY_ALL_SINGLE_COLOR.stl",
+        "size": 882584,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/BODY_ALL_SINGLE_COLOR.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/BODY_GRAY_TO_HEIGHT.stl",
+        "size": 880184,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/BODY_GRAY_TO_HEIGHT.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/BODY_HEIGHT_COLORS_GEOMETRY_ONLY.3mf",
+        "size": 238200,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/BODY_HEIGHT_COLORS_GEOMETRY_ONLY.3mf"
+      },
+      {
+        "rel": "HeightLayerTrial/BUTTON_PRINT_TWO.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/BUTTON_PRINT_TWO.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/CYAN_TOP_LAYERS.stl",
+        "size": 2284,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/CYAN_TOP_LAYERS.stl"
+      },
+      {
+        "rel": "HeightLayerTrial/README.md",
+        "size": 2864,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/README.md"
+      },
+      {
+        "rel": "HeightLayerTrial/preview.png",
+        "size": 22036,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/preview.png"
+      },
+      {
+        "rel": "HeightLayerTrial/validation.json",
+        "size": 739,
+        "url": "models/joycon-mecha-strap/HeightLayerTrial/validation.json"
+      },
+      {
+        "rel": "MeshTrial/BODY_GRAPHITE_MESH_TRIAL.stl",
+        "size": 887384,
+        "url": "models/joycon-mecha-strap/MeshTrial/BODY_GRAPHITE_MESH_TRIAL.stl"
+      },
+      {
+        "rel": "MeshTrial/BODY_SINGLE_SOLID_MESH_TRIAL.stl",
+        "size": 882584,
+        "url": "models/joycon-mecha-strap/MeshTrial/BODY_SINGLE_SOLID_MESH_TRIAL.stl"
+      },
+      {
+        "rel": "MeshTrial/BUTTON_ORIGINAL_PRINT_TWO.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/MeshTrial/BUTTON_ORIGINAL_PRINT_TWO.stl"
+      },
+      {
+        "rel": "MeshTrial/INLAYS_CYAN_MESH_TRIAL.stl",
+        "size": 4484,
+        "url": "models/joycon-mecha-strap/MeshTrial/INLAYS_CYAN_MESH_TRIAL.stl"
+      },
+      {
+        "rel": "MeshTrial/README.md",
+        "size": 2061,
+        "url": "models/joycon-mecha-strap/MeshTrial/README.md"
+      },
+      {
+        "rel": "MeshTrial/preview.png",
+        "size": 22269,
+        "url": "models/joycon-mecha-strap/MeshTrial/preview.png"
+      },
+      {
+        "rel": "MeshTrial/validation.json",
+        "size": 843,
+        "url": "models/joycon-mecha-strap/MeshTrial/validation.json"
+      },
+      {
+        "rel": "Models/JOYCON_MECHA_REFERENCE_TRIAL.step",
+        "size": 3866903,
+        "url": "models/joycon-mecha-strap/Models/JOYCON_MECHA_REFERENCE_TRIAL.step"
+      },
+      {
+        "rel": "PrintProjects/README.md",
+        "size": 1803,
+        "url": "models/joycon-mecha-strap/PrintProjects/README.md"
+      },
+      {
+        "rel": "PrintProjects/archive.json",
+        "size": 306,
+        "url": "models/joycon-mecha-strap/PrintProjects/archive.json"
+      },
+      {
+        "rel": "PrintProjects/working.3mf",
+        "size": 341587,
+        "url": "models/joycon-mecha-strap/PrintProjects/working.3mf"
+      },
+      {
+        "rel": "README.md",
+        "size": 7478,
+        "url": "models/joycon-mecha-strap/README.md"
+      },
+      {
+        "rel": "Reference/AUTHOR_NOTES.txt",
+        "size": 2430,
+        "url": "models/joycon-mecha-strap/Reference/AUTHOR_NOTES.txt"
+      },
+      {
+        "rel": "Reference/Button.stl",
+        "size": 314284,
+        "url": "models/joycon-mecha-strap/Reference/Button.stl"
+      },
+      {
+        "rel": "Reference/Joy Con Strap.step",
+        "size": 2677922,
+        "url": "models/joycon-mecha-strap/Reference/Joy Con Strap.step"
+      },
+      {
+        "rel": "Reference/Strap Body.stl",
+        "size": 1041184,
+        "url": "models/joycon-mecha-strap/Reference/Strap Body.stl"
+      },
+      {
+        "rel": "Source/build.py",
+        "size": 3830,
+        "url": "models/joycon-mecha-strap/Source/build.py"
+      },
+      {
+        "rel": "Source/build_height_trial.py",
+        "size": 5284,
+        "url": "models/joycon-mecha-strap/Source/build_height_trial.py"
+      },
+      {
+        "rel": "Source/build_mesh_trial.py",
+        "size": 3428,
+        "url": "models/joycon-mecha-strap/Source/build_mesh_trial.py"
+      },
+      {
+        "rel": "Source/check_button_motion.py",
+        "size": 1676,
+        "url": "models/joycon-mecha-strap/Source/check_button_motion.py"
+      },
+      {
+        "rel": "Source/height_parameters.json",
+        "size": 83,
+        "url": "models/joycon-mecha-strap/Source/height_parameters.json"
+      },
+      {
+        "rel": "Source/parameters.json",
+        "size": 41,
+        "url": "models/joycon-mecha-strap/Source/parameters.json"
+      },
+      {
+        "rel": "preview.png",
+        "size": 20590,
+        "url": "models/joycon-mecha-strap/preview.png"
+      },
+      {
+        "rel": "validation.json",
+        "size": 2010,
+        "url": "models/joycon-mecha-strap/validation.json"
+      }
+    ],
+    "bytes": 17574795
+  },
+  {
     "id": "mark-variants",
     "title": "「苗壮」mark 三变体（含源上传件）",
     "category": "其他",
@@ -6520,23 +6164,291 @@
         "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Source/build_v18.py"
       },
       {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/ARTWORK_SHA256.json",
+        "size": 1332,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/ARTWORK_SHA256.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/04_Drawer_A_Leaf_Vein.step",
+        "size": 1563099,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/04_Drawer_A_Leaf_Vein.step"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/C_Front_Picture_Window.step",
+        "size": 638956,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/C_Front_Picture_Window.step"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/Comparison_CN.png",
+        "size": 153500,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/Comparison_CN.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/QA/C_CAD_Validation.json",
+        "size": 1610,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/QA/C_CAD_Validation.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/QA/Edit_Regions.json",
+        "size": 1330,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/QA/Edit_Regions.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/QA/Independent_Compatibility.json",
+        "size": 3432,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/QA/Independent_Compatibility.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/QA/Leaf_Vein_Validation.json",
+        "size": 4483,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/QA/Leaf_Vein_Validation.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/QA/V18_B_Wave_Validation.json",
+        "size": 1364,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/QA/V18_B_Wave_Validation.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/README_CN.md",
+        "size": 2744,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/README_CN.md"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/A/Leaf_Vein_Parameters.json",
+        "size": 985,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/A/Leaf_Vein_Parameters.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/A/build_leaf.py",
+        "size": 6022,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/A/build_leaf.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/B/Wave_Drawer.FCStd",
+        "size": 250512,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/B/Wave_Drawer.FCStd"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/B/build_wave_tray.py",
+        "size": 7806,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/B/build_wave_tray.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/B/wave_params.json",
+        "size": 623,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/B/wave_params.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/C/C_parameters.json",
+        "size": 116,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/C/C_parameters.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/C/build_c_front_window.py",
+        "size": 5578,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/C/build_c_front_window.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/check_trays.py",
+        "size": 3252,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/Source/check_trays.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/V18_B_Wave_Grip_Drawer.step",
+        "size": 687513,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/V18_B_Wave_Grip_Drawer.step"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Models/index.html",
+        "size": 3385,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/index.html"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Openwork/README_CN.md",
+        "size": 864,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Openwork/README_CN.md"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Openwork/cc.svg",
+        "size": 9697,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Openwork/cc.svg"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Openwork/index.html",
+        "size": 12596,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Openwork/index.html"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Openwork/lv.svg",
+        "size": 6588,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Openwork/lv.svg"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Openwork/personal.svg",
+        "size": 4779,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Openwork/personal.svg"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/Openwork/solid.svg",
+        "size": 2045,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Openwork/solid.svg"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/README_CN.md",
+        "size": 858,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/README_CN.md"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/V18-base.svg",
+        "size": 3619,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/V18-base.svg"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/V18-cc.svg",
+        "size": 8309,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/V18-cc.svg"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/V18-lv.svg",
+        "size": 9622,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/V18-lv.svg"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/V18-personal.svg",
+        "size": 6826,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/V18-personal.svg"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Styles/index.html",
+        "size": 9306,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/index.html"
+      },
+      {
         "rel": "V18_Single_Head_T_Rod_Drawer/V18_RELEASE_SHA256SUMS",
-        "size": 3417,
+        "size": 6582,
         "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/V18_RELEASE_SHA256SUMS"
       },
       {
         "rel": "V18_Single_Head_T_Rod_Drawer/index.html",
-        "size": 50270,
+        "size": 52632,
         "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/index.html"
       }
     ],
-    "bytes": 57363371,
+    "bytes": 60781649,
     "html": [
       {
+        "rel": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/index.html",
+        "size": 3385,
+        "title": "V18｜三款可替换抽屉 STEP"
+      },
+      {
+        "rel": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Openwork/index.html",
+        "size": 12596,
+        "title": "V18｜贯穿镂空方案与孔形预览"
+      },
+      {
+        "rel": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/index.html",
+        "size": 9306,
+        "title": "V18 | 抽屉外观选样"
+      },
+      {
         "rel": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/index.html",
-        "size": 50270,
+        "size": 52632,
         "title": "V18｜单头 T 杆通用模块化抽屉 · 说明书"
       }
     ]
+  },
+  {
+    "id": "workstation-modular",
+    "title": "3D打印工作站模块化收纳",
+    "category": "桌面收纳",
+    "status": "design",
+    "cls": "original",
+    "summary": "238×127mm底座，6个可替换工具/零件模块；参数化STEP初版，未切片未实配。",
+    "dir": "workstation-modular",
+    "cover": null,
+    "files": [
+      {
+        "rel": "Models/01_base.step",
+        "size": 104191,
+        "url": "models/workstation-modular/Models/01_base.step"
+      },
+      {
+        "rel": "Models/02_small_parts.step",
+        "size": 44075,
+        "url": "models/workstation-modular/Models/02_small_parts.step"
+      },
+      {
+        "rel": "Models/03_nozzle_pockets.step",
+        "size": 74824,
+        "url": "models/workstation-modular/Models/03_nozzle_pockets.step"
+      },
+      {
+        "rel": "Models/04_open_tray.step",
+        "size": 29749,
+        "url": "models/workstation-modular/Models/04_open_tray.step"
+      },
+      {
+        "rel": "Models/05_tool_cup.step",
+        "size": 44075,
+        "url": "models/workstation-modular/Models/05_tool_cup.step"
+      },
+      {
+        "rel": "Models/06_glue_cup.step",
+        "size": 29749,
+        "url": "models/workstation-modular/Models/06_glue_cup.step"
+      },
+      {
+        "rel": "Models/07_precision_tools.step",
+        "size": 73998,
+        "url": "models/workstation-modular/Models/07_precision_tools.step"
+      },
+      {
+        "rel": "Models/ASSEMBLY_REFERENCE_NOT_FOR_SINGLE_PART_PRINT.step",
+        "size": 409964,
+        "url": "models/workstation-modular/Models/ASSEMBLY_REFERENCE_NOT_FOR_SINGLE_PART_PRINT.step"
+      },
+      {
+        "rel": "README.md",
+        "size": 3217,
+        "url": "models/workstation-modular/README.md"
+      },
+      {
+        "rel": "Source/build.py",
+        "size": 3522,
+        "url": "models/workstation-modular/Source/build.py"
+      },
+      {
+        "rel": "Source/check_assembly.py",
+        "size": 866,
+        "url": "models/workstation-modular/Source/check_assembly.py"
+      },
+      {
+        "rel": "Source/parameters.json",
+        "size": 158,
+        "url": "models/workstation-modular/Source/parameters.json"
+      },
+      {
+        "rel": "Source/render.py",
+        "size": 2163,
+        "url": "models/workstation-modular/Source/render.py"
+      },
+      {
+        "rel": "assembly_validation.json",
+        "size": 114,
+        "url": "models/workstation-modular/assembly_validation.json"
+      },
+      {
+        "rel": "preview.png",
+        "size": 107785,
+        "url": "models/workstation-modular/preview.png"
+      },
+      {
+        "rel": "validation.json",
+        "size": 1079,
+        "url": "models/workstation-modular/validation.json"
+      }
+    ],
+    "bytes": 929529
   }
 ]

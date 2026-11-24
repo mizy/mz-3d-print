@@ -1,0 +1,55 @@
+{
+  "baseline_parameters": "parameters.json",
+  "light_flange": {
+    "core_keep_radius": 44.5,
+    "skin_thickness": 0.4,
+    "rib_width": 4.0,
+    "rib_total_height": 3.2,
+    "rib_count": 8,
+    "rim_width": 5.0,
+    "hole_pad_radius": 3.1,
+    "motif_size": 12.0,
+    "local_bridge_width": 1.2,
+    "motif_rings": [
+      {
+        "radius": 53.0,
+        "count": 16
+      },
+      {
+        "radius": 70.0,
+        "count": 24
+      },
+      {
+        "radius": 86.0,
+        "count": 32
+      }
+    ]
+  },
+  "parking_slots": {
+    "enabled": true,
+    "channel_length": 10.0,
+    "channel_diameter": 2.1,
+    "channel_center_z": 2.15,
+    "throat_width": 1.7,
+    "top_mouth_width": 2.1,
+    "selected_sx": 1,
+    "radial_offset": 0.9
+  },
+  "hub_windows": {
+    "enabled": true,
+    "count": 4,
+    "phase_deg": 45.0,
+    "width": 42.0,
+    "corner_radius": 3.0,
+    "radial_start": 33.5,
+    "radial_depth": 14.0,
+    "wide_bottom": 4.5,
+    "wide_top": 35.0,
+    "narrow_bottom": 4.5,
+    "narrow_top": 22.0,
+    "roof_angle_deg": 50.0,
+    "web_vertical_thickness": 1.1,
+    "web_half_angle_deg": 36.0,
+    "web_join_overlap": 0.2
+  }
+}
