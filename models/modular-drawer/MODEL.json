@@ -1,0 +1,15 @@
+{
+  "id": "modular-drawer",
+  "title": "通用模块化抽屉",
+  "category": "家居收纳",
+  "status": "design",
+  "cls": "original",
+  "summary": "当前 V18 H100：同型平底侧板、单头 T 杆。双列双层 18 种 74 件；附单格 19 件未切片 P1S / PETG 排盘、原寸 STEP 与离线说明。",
+  "gallery": [],
+  "downloads": [
+    "V18_Single_Head_T_Rod_Drawer/Print/V18_H100_Single_Module_P1S_PETG_UNSLICED.3mf",
+    "V18_Single_Head_T_Rod_Drawer/Reference/V18_H100_2x2_Universal_Closed.step",
+    "V18_Single_Head_T_Rod_Drawer/Reference/V18_H100_2x2_Universal_Open.step",
+    "V18_Single_Head_T_Rod_Drawer/Print_Parts/01_V18_Universal_Bilateral_Side_T_Rod.step"
+  ]
+}

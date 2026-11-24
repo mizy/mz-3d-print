@@ -1,0 +1,28 @@
+{
+  "separate_valid_solids": [
+    74,
+    74,
+    1
+  ],
+  "printed_side_bbox_mm": [
+    17.3,
+    240,
+    102.7
+  ],
+  "pair_candidates": 1862,
+  "changed_pair_overlap_mm3": 0.0,
+  "nominal_dimensions_mm": [
+    326.7,
+    240,
+    202.7
+  ],
+  "unchanged_inherited_placed_instances": 60,
+  "only_moved_open_drawer": 69,
+  "first_src_file_sha256": "9433cea9c75cb902a4c53a20f9e940230580c1efe210e3f213ac0dc6cf0c3827",
+  "second_src_file_sha256": "4d88d167c6d8258db26bfe68b0f4571742502c38bfedd01ab90051dd31256e97",
+  "step_hashes": {
+    "Print_Parts/01_V18_Universal_Bilateral_Side_T_Rod.step": "c3be14d0c2811ef510d182373135061afe009d1d39b78842ab02386c8be90a00",
+    "Reference/V18_H100_2x2_Universal_Closed.step": "058b1b2001d58c3e532d7bdc73f971ec40767fda294e0a9033f1862707c745c4",
+    "Reference/V18_H100_2x2_Universal_Open.step": "a780684a69e32e4d1a4573aff04ffe69a78dd47a9cba8e5d62b2db0d910dd5f6"
+  }
+}

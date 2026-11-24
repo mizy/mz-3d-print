@@ -1,0 +1,403 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="V18 H100 平底通用模块化抽屉离线组装说明书和实时 3D 尺寸工具"><title>V18｜单头 T 杆通用模块化抽屉 · 说明书</title>
+<style>
+:root{--ink:#142b27;--soft:#506760;--line:#d1e0d6;--paper:#fcfdfa;--green:#126958;--wash:#e6f2ea;--warm:#f8ebe0;--brown:#7e4b2e}*{box-sizing:border-box}body{margin:0;background:#edf3ef;color:var(--ink);font:16px/1.58 system-ui,'PingFang SC','Microsoft YaHei',sans-serif}a{color:var(--green);text-underline-offset:3px}a:focus-visible,button:focus-visible,input:focus-visible,canvas:focus-visible,select:focus-visible{outline:3px solid #2b9780;outline-offset:3px}header{border-top:6px solid var(--green);background:#f6faf6;border-bottom:1px solid var(--line)}.w{max-width:1200px;margin:auto;padding-inline:24px}header .w{padding-block:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}nav{display:flex;gap:14px;flex-wrap:wrap;font-size:.87rem}h1,h2,h3,p,figure{margin:0}h1,h2,h3{line-height:1.17}h1{font-size:clamp(2.6rem,6vw,4.7rem);letter-spacing:-.05em}h2{font-size:clamp(1.52rem,4vw,2.65rem);letter-spacing:-.03em}h3{font-size:1.13rem}.micro{color:var(--green);letter-spacing:.09em;font-size:.77rem;font-weight:800;margin-bottom:.5rem}.hero{margin-top:22px;padding:clamp(23px,5vw,55px);background:linear-gradient(130deg,#fcfefa,#dfefe6);border:1px solid var(--line);border-radius:25px}.hero p:not(.micro){margin-top:14px;max-width:68ch;color:var(--soft);font-size:1.06rem}.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}.chip{padding:5px 11px;background:var(--wash);border-radius:40px;font-size:.8rem;font-weight:720}.chip.warn{background:var(--warm);color:var(--brown)}section{margin-top:45px}.intro{margin-top:8px;color:var(--soft);max-width:87ch}canvas{display:block;width:100%;touch-action:none;outline-offset:-4px}input[type=number],select{display:block;width:100%;margin-top:3px;padding:6px 7px;border:1px solid #abc2b5;border-radius:6px;background:white;font:inherit;color:var(--ink)}button{font:inherit;color:var(--ink);background:#eff6f2;border:1px solid #aec4b8;border-radius:8px;padding:5px 9px;cursor:pointer}button:hover{background:#dcefe4}.note{margin:13px 0 0;background:#f9eee5;border-left:4px solid #a8704e;padding:9px 13px;border-radius:0 8px 8px 0;color:#62402c;font-size:.93rem}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:14px}.card{padding:15px;background:var(--paper);border:1px solid var(--line);border-radius:13px}.card p,.card li{margin-top:7px;color:var(--soft);font-size:.92rem}.cadcolor{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:6px}.table{overflow:auto;margin-top:12px;background:var(--paper);border:1px solid var(--line);border-radius:14px}table{width:100%;min-width:570px;border-collapse:collapse;text-align:left}th,td{padding:8px 12px;border-bottom:1px solid var(--line)}thead{background:var(--wash)}tbody tr:last-child td{border:0}.steps{padding:0;list-style:none;counter-reset:n;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.steps li::before{counter-increment:n;content:counter(n,decimal-leading-zero);display:block;color:var(--green);font-weight:800;font-size:.79rem;margin-bottom:3px}figure{margin-top:14px;padding:10px;border:1px solid var(--line);background:var(--paper);border-radius:14px;overflow:auto}figure svg{width:100%;min-width:710px;display:block}figcaption{padding:3px 5px;font-size:.89rem;color:var(--soft)}.tag{display:inline-block;padding:2px 7px;background:var(--wash);border-radius:7px;font-weight:700}.fit{font-weight:720;color:var(--ink)}footer{margin-top:41px;padding:22px 0;border-top:1px solid var(--line);color:var(--soft);font-size:.86rem}
+@media(max-width:590px){.w{padding-inline:12px}.grid,.steps{grid-template-columns:1fr}.hero{border-radius:16px}}@media print{body{background:#fff}nav{display:none}section{break-inside:avoid}}
+
+[hidden]{display:none!important}.vg-tabs{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin:14px 0}.vg-tabs button[aria-pressed=true]{background:#1a6858;color:white;border-color:#1a6858}.vg-shell{display:grid;grid-template-columns:minmax(310px,1fr) minmax(0,1.44fr);border:1px solid #cdded3;background:white;border-radius:18px;overflow:hidden}.vg-control{padding:15px;min-width:0}.vg-pane h3{margin:3px 0 8px}.vg-help{font-size:.81rem;color:#516860;margin:7px 0}.vg-fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:9px 0}.vg-fields label,.vg-level label{font-size:.81rem;color:#516860}.vg-fields input,.vg-level input{min-width:0;font-variant-numeric:tabular-nums}.vg-scroll{overflow:auto;border:1px solid #d5e2da;border-radius:10px;margin-top:10px}.vg-scroll table{min-width:0;table-layout:auto}.vg-scroll th,.vg-scroll td{padding:5px 6px;text-align:center;font-size:.8rem;border:1px solid #e3ebe5}.vg-scroll th:first-child{width:94px;min-width:82px}.vg-scroll th>span{display:block}.vg-scroll th>input{min-width:68px;font-size:.75rem;padding:3px 2px;text-align:center}.vg-cell{width:100%;min-height:35px;min-width:64px;line-height:1.12;border-color:#cee0d4;background:#edf7ef;color:#1d5e50;font-size:.77rem}.vg-cell.empty{border-style:dashed;background:#fafafa;color:#687972}.vg-cell.chosen{background:#246f61;color:#fff;outline:2px solid #8bc7b9;outline-offset:1px}.vg-actions{display:flex;flex-wrap:wrap;gap:5px;margin:7px 0}.vg-actions button,.vg-file{font-size:.77rem}.vg-file{display:inline-flex;align-items:center;position:relative;cursor:pointer;padding:5px 8px;overflow:hidden;border:1px solid #aec4b8;border-radius:8px;background:#eff6f2}.vg-file input{position:absolute;inset:0;opacity:0;width:100%;margin:0;cursor:pointer}.vg-file:focus-within{outline:3px solid #2b9780}.vg-level{border-top:1px solid #dce9df;margin-top:8px;display:grid;grid-template-columns:1fr 1.5fr;align-items:end;gap:7px}.vg-limits{border-top:1px solid #dde8e1;margin:12px 0 7px;padding:7px 0}.vg-limits summary{cursor:pointer;font-weight:680;font-size:.85rem;color:#246a5c}.vg-note{font-size:.82rem;border-radius:7px;background:#eaf4ed;padding:7px 8px;margin:7px 0;color:#244f45}.vg-note.warn{background:#faeee4;color:#794a32}.vg-view{min-width:0;background:radial-gradient(circle at 46% 38%,#fbfefa,#e6f1ea);border-left:1px solid #d9e8de}.vg-view canvas{height:405px;width:100%;touch-action:none;display:block}.vg-view-in{padding:0 13px 10px}.vg-measure{white-space:pre-line;font-size:.84rem;color:#284741;line-height:1.63}.vg-parts-note{margin-top:8px;color:#516860}@media(max-width:835px){.vg-shell{grid-template-columns:1fr}.vg-view{border-left:0;border-top:1px solid #d7e6dc}.vg-view }@media(max-width:420px){.vg-control{padding:10px}.vg-fields{gap:5px}.vg-view canvas{height:285px}}@media print{.vg-tabs,.vg-control,.vg-actions{display:none}.vg-shell{display:block}.vg-view canvas{height:240px}}
+
+</style></head><body>
+<header><div class="w"><strong>V18 / H100 UNIVERSAL</strong><nav aria-label="说明书目录"><a href="#planner">3D 自定义</a><a href="#dims">原版尺寸</a><a href="#bom">零件清单</a><a href="#build">装配</a><a href="#fit-audit">配合审核</a><a href="#resources">资源</a></nav></div></header>
+<main class="w"><div class="hero"><p class="micro">离线说明书 · 平底双列双层 H100 套件</p><h1>V18 单头 T 杆通用模块化抽屉</h1><p>一款平底侧板打六件：上、下层各三件，左右两只抽屉在每层共用一件 10 mm 中板。V18 所有梁接头统一用单头 T 杆。六块侧板不再有前／后下横穿中板的圆孔，两面各用各自的 T 槽。底面保留 V17 的平底和上下叠装定位孔，层距仍为 100 mm。</p><div class="chips"><span class="chip">列 × 层：2 × 2</span><span class="chip">原组外廓 326.70 × 240 × 202.70 mm</span><span class="chip">18 种文件 · 共 74 件</span><span class="chip warn">未切片、未实物认证</span></div><p><strong>原寸 2 × 2 总装：</strong> <a download href="Reference/V18_H100_2x2_Universal_Closed.step">下载闭合总装 STEP</a>　·　<a download href="Reference/V18_H100_2x2_Universal_Open.step">下载抽屉拉出总装 STEP</a></p><p><strong>打印 3MF：</strong> <a download href="Print/V18_H100_Single_Module_P1S_PETG_UNSLICED.3mf">下载单格 Bambu 工程（19 件，未切片）</a></p></div>
+<section id="planner">
+ <p class="micro">01 / 自定义尺寸 · 两个独立模式</p><h2>单个抽屉，或像表格一样组合</h2>
+ <p class="intro">可以先调一只抽屉的宽、深、高，也可以切到网格规划整柜。两个模式各自保存当前尺寸，共用下方的实时 3D 视窗。原寸装配与配合限制见后文。</p>
+ <div class="vg-tabs" role="group" aria-label="选择尺寸编辑模式">
+  <button id="vg-m-single" type="button" aria-pressed="true">单模块</button><button id="vg-m-grid" type="button" aria-pressed="false">多模块网格</button>
+  
+ </div>
+ <div class="vg-shell">
+  <div class="vg-control">
+   <div id="vg-single" class="vg-pane">
+    <h3>调一格的宽、深、高</h3><p class="vg-help">只改这一格，不影响多模块方案。宽为带两块侧板的单格外宽，高为一层框架高度。</p>
+    <div class="vg-fields"><label>宽 W<input id="vg-s-w" type="number" value="172" min="100" max="350" step=".1"></label><label>深 D<input id="vg-s-d" type="number" value="240" min="120" max="400" step=".1"></label><label>高 H<input id="vg-s-h" type="number" value="100" min="55" max="220" step=".1"></label></div>
+   </div>
+   <div id="vg-matrix" class="vg-pane" hidden>
+    <h3>多模块网格</h3>
+    <div class="vg-fields"><label>行数（从上到下）<input id="vg-rows" type="number" value="2" min="1" max="8" step="1"></label><label>列数<input id="vg-cols" type="number" value="2" min="1" max="8" step="1"></label><label>默认深度 D<input id="vg-global" type="number" value="240" min="120" max="400" step=".1"></label></div>
+    <div class="vg-actions"><button type="button" id="vg-resize">应用行列</button><button type="button" id="vg-reset">恢复 2×2</button><button type="button" id="vg-undo">撤销</button></div>
+    <p class="vg-help">列头和行头直接改 mm。点起点，再点对角选矩形；键盘可用方向键移动焦点、Shift + 方向键扩选。缩小若裁到已有模块会拒绝，不丢数据。</p>
+    <div class="vg-scroll" tabindex="0" aria-label="可滚动的模块表格"><table id="vg-grid" aria-label="可选和编辑的模块格子"></table></div>
+    <p id="vg-selected" class="vg-help" aria-live="polite">未选格子</p>
+    <div class="vg-actions"><button type="button" id="vg-merge">合并</button><button type="button" id="vg-split">拆分</button><button type="button" id="vg-delete">删除留空</button><button type="button" id="vg-add">补回空格</button><button type="button" id="vg-clear-selection">清除选择</button></div>
+    <div class="vg-level"><label>起点模块独立深度<input type="number" id="vg-depth" min="120" max="400" step=".1"></label><div class="vg-actions"><button type="button" id="vg-setdepth">设深度</button><button type="button" id="vg-backdepth">恢复默认深度</button></div></div>
+    <div class="vg-actions"><button type="button" id="vg-export">保存网格 JSON</button><label class="vg-file">读入网格 JSON<input id="vg-import" type="file" accept=".json,application/json"></label></div>
+   </div>
+   <details class="vg-limits"><summary>柜内和打印机限值</summary><div class="vg-fields">
+   <label>柜宽<input id="vg-limit-cw" type="number" value="350" min="1" max="3000"></label><label>柜深<input id="vg-limit-cd" type="number" value="250" min="1" max="3000"></label><label>柜高<input id="vg-limit-ch" type="number" value="205" min="1" max="3000"></label>
+   <label>热床 X<input id="vg-limit-bx" type="number" value="256" min="1" max="3000"></label><label>热床 Y<input id="vg-limit-by" type="number" value="256" min="1" max="3000"></label><label>打印 Z<input id="vg-limit-bz" type="number" value="256" min="1" max="3000"></label></div></details>
+   <p id="vg-status" class="vg-note" role="status"></p>
+  </div>
+  <div class="vg-view"><canvas id="vg-canvas" tabindex="0" role="img" aria-label="实时规划框与抽屉三维图，可用方向键旋转和加减缩放"></canvas>
+   <div class="vg-view-in"><div class="vg-actions"><button type="button" id="vg-view-iso">斜视</button><button type="button" id="vg-view-front">正视</button><button type="button" id="vg-view-side">侧视</button><button type="button" id="vg-open" aria-pressed="false">打开一只规划屉</button></div>
+   <p class="vg-help">拖动旋转，滚轮缩放。米色为抽屉，绿为侧板，橘色为合并占位或冲突界面。</p>
+   <p id="vg-measure" class="vg-measure" aria-live="polite"></p>
+   <p id="vg-issues" class="vg-note warn" aria-live="polite"></p></div>
+  </div>
+ </div>
+ <p class="note"><strong>导向净宽与制造范围：</strong>连续标准格名义外宽是列宽之和减 17.30 ×（列数 − 1），共板时只保留一个边界。删除保留规划格位但不画该处抽屉、梁和专属侧板；相邻格仍可能留一块共边。合并只画大屉与跨距，不补编新梁、锁或托轨。不同深度保留共同前线，后定位若不齐不能直接做。本包 STEP 是表中列出的 V18 原寸，不随网页尺寸改变；通用网格 JSON 只保存布局，不能作为生产 STEP 输入。</p>
+</section>
+
+<section id="dims"><p class="micro">02 / 设计与原寸</p><h2>一块双面侧板，六处同向安装</h2><div class="grid"><article class="card"><h3>框与屉</h3><p>单格名义外宽 172、深 240、高 100 mm。全组主体高 200；顶榫多 2.70，最高 202.70。每只屉外廓 144.10 × 230 × 86 mm，工作托面 Z10，名义总横向游隙 0.60 mm。</p></article><article class="card"><h3>侧板与叠放</h3><p>板截面最大宽 17.30：中腹板 10，两边工作托轨各出 3.65 mm。同件始终前对前，不前后倒换、不倒置。上下靠板面直接承压，不加独立垫片、盖帽或横桥。</p></article><article class="card"><h3>上榫、下孔</h3><p>保留 Ø5.00 定位榫，突出 2.70 mm。下孔前 X5.80 × Y5.40，后 X5.80 × Y6.90，深 3.225 mm。叠装时侧板端面承压；榫不在孔底承压，也不限制上拔。孔底名义余量 0.525 mm。</p></article></div><div class="grid"><article class="card"><h3>柜内原位</h3><p>例如柜内 350 × 250 mm，居中摆放用原外廓左右各约 11.65、前后各 5 mm。门口最窄处、铰链和工具空间不包含在这两个数中。</p></article><article class="card"><h3>前后锁分工</h3><p>每个抽屉格的前梁两端各一杆一轮、后梁两端各上／下两对，合计 6 个单头 T 杆和 6 个偏心轮。中板只共享板身，每一面的杆和锁轮独立。</p></article><article class="card"><h3>版本变化</h3><p>V18 六块侧板不再开用于前／后下双头杆的横穿圆孔。V17 的平底（两处原 1.20 mm 让位凹位已去掉）、托轨、叠装定位、Ø2.00 拨片轴孔及其装入键位不变。</p></article></div><h3 style="margin-top:22px">网页尺寸与原寸 STEP</h3>
+<p class="intro">两种在线下运行的 3D 模式都只画包络与摆放，不重建锁孔、拨片和定位件。V18 的直接打印零件见下表；特殊尺寸或网格上的合并／混深方案，需要另做 CAD 与装配校验。</p>
+<p class="note">3D 自定义和热床读数只检查名义尺寸与单件外接框，不考虑摆盘、裙边、支撑或桥接。柜门、铰链、抽屉前方和背面装配空间要另量。</p>
+</section>
+<section id="bom"><p class="micro">03 / 打印零件清单</p><h2>一套 2×2：18 种，合计 74 件</h2><p class="intro">点击名称打开对应单件 STEP。单格仍是 19 件：2 侧板、前／后梁各 1、抽屉 1、拨片 2、单头 T 杆 6、偏心轮 6。2×2 中 4 根旧双头杆换成 8 根单头 T 杆，整组净增加 4 件；<code>Reference</code> 的 74 实体总装仅供查看，不整组打印。</p><div class="table"><table><thead><tr><th>编号 / 文件</th><th>份数</th><th>单件 CAD 外框 X × Y × Z / mm</th></tr></thead><tbody><tr><td><a href="Print_Parts/01_V18_Universal_Bilateral_Side_T_Rod.step">01　通用平底侧板（双面 T 槽）</a></td><td>6</td><td>17.30 × 240.00 × 102.70</td></tr><tr><td><a href="Print_Parts/02_Front_Beam.step">02　前梁</a></td><td>4</td><td>137.40 × 16.00 × 9.80</td></tr><tr><td><a href="Print_Parts/03_Rear_Beam.step">03　后 X 梁</a></td><td>4</td><td>144.70 × 10.90 × 100.00</td></tr><tr><td><a href="Print_Parts/04_Drawer.step">04　签名抽屉</a></td><td>4</td><td>144.10 × 230.00 × 86.00</td></tr><tr><td><a href="Print_Parts/05_Short_Paddle_Left_Any_Panel.step">05　左手短轴拨片</a></td><td>4</td><td>14.66 × 3.00 × 4.91</td></tr><tr><td><a href="Print_Parts/06_Short_Paddle_Right_Any_Panel.step">06　右手短轴拨片</a></td><td>4</td><td>14.66 × 3.00 × 4.91</td></tr><tr><td><a href="Print_Parts/09_Front_Single_Left_Outer_Rod.step">09　前左单头 T 杆</a></td><td>4</td><td>15.68 × 5.10 × 4.92</td></tr><tr><td><a href="Print_Parts/10_Front_Single_Right_Outer_Rod.step">10　前右单头 T 杆</a></td><td>4</td><td>15.68 × 5.10 × 4.92</td></tr><tr><td><a href="Print_Parts/11_Rear_Lower_Single_Left_Outer_Rod.step">11　后下左单头 T 杆</a></td><td>4</td><td>7.37 × 2.40 × 2.31</td></tr><tr><td><a href="Print_Parts/12_Rear_Lower_Single_Right_Outer_Rod.step">12　后下右单头 T 杆</a></td><td>4</td><td>7.37 × 2.40 × 2.31</td></tr><tr><td><a href="Print_Parts/13_Rear_Upper_Single_Left_Rod.step">13　后上左单头 T 杆</a></td><td>4</td><td>7.37 × 2.40 × 2.31</td></tr><tr><td><a href="Print_Parts/14_Rear_Upper_Single_Right_Rod.step">14　后上右单头 T 杆</a></td><td>4</td><td>7.37 × 2.40 × 2.31</td></tr><tr><td><a href="Print_Parts/15_Cam_Left_Front.step">15　左前偏心轮</a></td><td>4</td><td>8.20 × 11.20 × 8.20</td></tr><tr><td><a href="Print_Parts/16_Cam_Right_Front.step">16　右前偏心轮</a></td><td>4</td><td>8.20 × 11.20 × 8.20</td></tr><tr><td><a href="Print_Parts/17_Cam_Left_Rear_Lower.step">17　左后下偏心轮</a></td><td>4</td><td>3.85 × 5.26 × 3.85</td></tr><tr><td><a href="Print_Parts/18_Cam_Right_Rear_Lower.step">18　右后下偏心轮</a></td><td>4</td><td>3.85 × 5.26 × 3.85</td></tr><tr><td><a href="Print_Parts/19_Cam_Left_Rear_Upper.step">19　左后上偏心轮</a></td><td>4</td><td>3.85 × 5.26 × 3.85</td></tr><tr><td><a href="Print_Parts/20_Cam_Right_Rear_Upper.step">20　右后上偏心轮</a></td><td>4</td><td>3.85 × 5.26 × 3.85</td></tr></tbody></table></div></section>
+<section id="build"><p class="micro">04 / 从柜外装起</p><h2>下层一组，上层一组，然后再叠放</h2>
+<figure><svg viewBox="0 0 1080 245" role="img" aria-label="三个装配阶段：前后梁与三块板，装两只抽屉，再叠上层">
+<rect width="1080" height="245" rx="16" fill="#f3f8f3"/><g fill="none" stroke="#d4e1d7"><path d="M360 20V222M720 20V222"/></g>
+<g font-family="system-ui,sans-serif" fill="#1c463d"><text x="25" y="32" font-size="16" font-weight="700">① 柜外合一层：三块同向板</text><text x="388" y="32" font-size="16" font-weight="700">② 先装拨片，工作位归位</text><text x="750" y="32" font-size="16" font-weight="700">③ 上层整体垂直落座</text>
+<g fill="#7ba99c" stroke="#46776b" stroke-width="2"><path d="M77 77h13v100H77zM174 77h13v100h-13zM270 77h13v100h-13zM423 73h13v113h-13zM534 73h13v113h-13zM644 73h13v113h-13zM785 67h12v127h-12zM898 67h12v127h-12zM1012 67h12v127h-12z"/></g>
+<g fill="#91aeb4" stroke="#5b7c82" stroke-width="2"><path d="M96 93h70v12H96zM194 93h69v12h-69zM96 152h70v11H96zM194 152h69v11h-69zM797 111h215v10H797zM797 185h215v10H797z"/></g>
+<g fill="#c99877" stroke="#91644d" stroke-width="2"><path d="M439 98h92v69h-92zM550 98h91v69h-91zM805 131h86v44h-86zM917 131h86v44h-86zM805 69h86v31h-86zM917 69h86v31h-86z"/></g>
+<g fill="#bd7149"><circle cx="92" cy="99" r="4"/><circle cx="170" cy="99" r="4"/><circle cx="192" cy="99" r="4"/><circle cx="268" cy="99" r="4"/><circle cx="92" cy="157" r="4"/><circle cx="170" cy="157" r="4"/><circle cx="192" cy="157" r="4"/><circle cx="268" cy="157" r="4"/><circle cx="450" cy="89" r="5"/><circle cx="520" cy="89" r="5"/><circle cx="562" cy="89" r="5"/><circle cx="630" cy="89" r="5"/><path d="M865 91h6v21h7l-10 12-10-12h7zm102 0h6v21h7l-10 12-10-12h7z"/></g><text x="26" y="212" font-size="13">橙：中板左右各锁各的，不穿板</text><text x="388" y="212" font-size="13">下层拨片必须先装，再叠上层</text><text x="750" y="212" font-size="13">三块对应板面贴合；榫只定位</text></g></svg><figcaption>先在柜外操作后梁。干涉调试尽量空框；不要带载硬扳偏心或强压榫孔。</figcaption></figure>
+<ol class="steps"><li class="card"><h3>认清前、后和上下</h3><p>短浅前梁与前 T 槽朝柜门，带 X 和上下锁位的后梁朝里；上榫朝上。每层三块侧板放同一个方向。先试一套 T 槽、单头杆和偏心轮，核对滑入、抓头及反向解锁。</p></li><li class="card"><h3>先把轮放到开位</h3><p>前梁从空屉格内的唯一大工具口操作；后梁从背面操作。所有单头 T 杆沿深度 Y 方向从通道端进入：前杆从朝柜门的一端沿 +Y 向里进，后下和后上杆从背面沿 −Y 向前进。T 肩挡住杆的横向拉力，杆不横穿侧板。</p></li><li class="card"><h3>中板两面各装各自的杆，再合梁</h3><p>每格两侧各装前、后下、后上 3 根单头 T 杆。梁沿 X 抵住对应侧板承肩后，再锁每个偏心轮。中板两面的接头可以分别解锁；这不等于可以抽走共用中板。前后和上下轮不混装。</p></li><li class="card"><h3>两面拨片独立</h3><p>取下屉体再装左右手短轴拨片，装入角约 120°；通常工作范围 0–90°。外板只装靠各自抽屉的一面，中板两面都装。叠放前先完成下层拨片安装，再转回 0–90° 工作区。叠好后若要拆装下层拨片本身，先卸载并抬离上层，恢复约 120° 服务角所需空间。</p></li><li class="card"><h3>上层整体垂直落座</h3><p>先在柜外把上层做成独立空框，垂直对准三块板的前后榫孔，由上向下落下。三个接触面同时坐实，不能只挨到一根榫；不用垫片或盖帽。</p></li><li class="card"><h3>空载检查抽拉及释放</h3><p>先慢开验证两边拨片。原开放总装只把右上屉前移 110.5 mm，是展示位置而非实物额定行程。需要整屉退出时先卸载、回推卸力，再将左右拨片移至约 90° 释放位，托住抽屉退出。拆抽屉不等于拆拨片，不必为此抬上层。</p></li></ol></section>
+<section id="fit-audit"><p class="micro">05 / 配合审核</p><h2>T 槽各面独立，运动配合保留</h2><p class="intro">先分清零件在装好后是否仍需运动。固定件靠台肩或偏心轮保持位置；孔不能紧到装不进去。抽屉滑动、偏心轮转动及杆件装入保留各自余量。拨片的同名义轴孔单独核对，不能把这项设置套用到其他运动部位。</p>
+<div class="table"><table><thead><tr><th>界面</th><th>用途与本版处理</th><th>验证方法</th></tr></thead><tbody>
+<tr><td>上下侧板定位榫／孔</td><td>沿用 V17 固定叠放配合：前孔 X5.80 × Y5.40，后孔 X5.80 × Y6.90。对 Ø5.00 榫，X 总余量 0.80；前 Y 总余量 0.40，后 Y 总余量 1.90 mm。</td><td>对准三块侧板同步落座，确认不顶底、不摇晃，不靠硬压入位。</td></tr>
+<tr><td>通用板两面的单头 T 杆通道</td><td>旧前／后下横穿圆孔取消；各 T 槽从对应前／后端开口。中板两面的杆分别由自身 T 肩承拉，不通过对侧杆传力。两根相对单头杆的名义 X 向端距：前 4.10 mm，后下 11.096 mm。两个位置各取左右杆 13 个插入姿态，对侧杆已在位，未发现相交。</td><td>空架试两面各自插杆、锁紧和解锁，确认槽肩完整、插入没有毛刺。</td></tr>
+<tr><td>梁端、原 T 肩、偏心轮座</td><td>梁端承肩名义面贴面，偏心轮转动抓头并夹紧，不靠孔轴过盈。前/后轮的名义径向余量分别为 0.180 / 0.0846 mm；活动轮座和 T 肩键式可拆杆的原插入通道不收紧。</td><td>确认梁端与肩坐实，轮能从开位转到锁位，再可逆释放。</td></tr>
+<tr><td>抽屉／托轨、短轴拨片／轴座</td><td>导槽宽 144.70，屉宽 144.10，横向总余量 0.60 mm。拨片 Ø2.00 轴配 Ø2.00 圆轴孔，CAD 名义径向余量为 0；不改键位。0–90° 用于工作及取屉，约 120° 仅用于拨片装拆。</td><td>四处按轴对中时，CAD 工作扫掠和单层装拆采样无相交；径向错位 0.020 mm 的试算发生干涉。整套打印前，先做不同朝向的拨片和孔小样。</td></tr>
+</tbody></table></div><p class="note">上表是 CAD 名义尺寸差，不是打印公差，也不保证实物能顺转。V17 原叠放定位几何在 63 个采样（X ±0.15 mm、Y ±0.08 mm、转角 ±0.025° 的测试组合）中无相交；V18 继承该定位几何。这不等于实物装配公差。拨片给零设计余量：先试孔缩和转动；若小样发紧，可另做 Ø2.10 mm 对照小样，不是本包默认值。不得靠硬拧补偿。</p><p class="intro"><a href="Mating_Clearance_Audit.md">读取完整的 V18 配合审核记录</a></p></section>
+<section id="trial"><p class="micro">06 / 打印与验收</p><h2>先试拨片、前定位孔和单头 T 接头</h2><div class="grid"><article class="card"><h3>先试孔、杆、轮</h3><p>先试 Ø2.00 拨片、前叠装定位孔和单头 T 槽接头。拨片不得卡死；单头杆应从对应前／后端顺利滑入，轮应能锁合和逆向退出。不要用敲打补偿打印误差。</p></article><article class="card"><h3>单件及首层</h3><p>侧板 Z0 大面落床、上榫向上；只保留需要的底部定位孔。小拱窗、独立 T 槽和拨片轴孔的打印效果自行检查。用自己的材料、喷嘴和切片器确认桥接、支撑及轮的手感。随包 3MF 是单格（19 件）的 Bambu Studio 摆盘工程，不是整组 2 × 2。三盘分别 1／4／14 件，P1S 0.4 mm 喷嘴和 Generic PETG 全局预设；未切片、无 G-code。机器或材料不同时，先更换预设。</p></article><article class="card"><h3>装配检查不是载荷认证</h3><p>原寸闭合／拉出总装各 74 实体；精确装配和回读结果以随包验证为准。固定叠放及拨片仅通过文档列出的 CAD 几何采样，不等于实物装配验收。没有实物疲劳、承载或防倾覆测试；组合必须有可靠柜体支承和防移动安排。</p></article></div></section>
+<section id="resources"><p class="micro">07 / 文件与资源</p><h2>此发行包不用联网</h2><p class="intro">先解压完整 ZIP，再打开本页。如果只单独拿出 HTML，3D 与说明仍可用，同包 STEP 链接则需把对应目录放回原位。</p><div class="grid"><article class="card"><h3>总装与原说明</h3><p><a href="Reference/V18_H100_2x2_Universal_Closed.step">闭合总装 STEP</a><br><a href="Reference/V18_H100_2x2_Universal_Open.step">开放总装 STEP</a><br><a href="README_CN.md">原始 README</a></p></article><article class="card"><h3>源代码与单件</h3><p><a href="Print_Schedule.json">整组机器可读零件份数</a><br><a href="Single_Bay_Print_Schedule.json">单格机器可读零件份数</a><br><a href="Source/build_v18.py">FreeCAD 生成脚本</a><br><a href="Source/Seed/H100_Original_Single_Module.step">原单格种子 STEP</a></p></article><article class="card"><h3>验证与版本</h3><p><a href="Geometry_Validation.json">实体检查</a><br><a href="Independent_Readback.json">独立回读</a><br><a href="V18_RELEASE_SHA256SUMS">V18 完整发行包校验清单</a></p></article></div></section>
+</main><footer><div class="w">V18 / 平底通用模块化抽屉。调尺寸不改变包内原 STEP，3D 只用于单模块与网格规划。</div></footer>
+<script>
+'use strict';
+const VGrid=(()=>{
+ const EDGE=17.30,WEB=10,PEG=2.70, MAX=8;
+ const bounds=(v,l,h)=>typeof v==='number'&&Number.isFinite(v)&&v>=l&&v<=h;
+ const sum=(a)=>a.reduce((x,y)=>x+y,0);
+ const round=(n)=>Math.round(n*1000)/1000;
+ const clone=(o)=>JSON.parse(JSON.stringify(o));
+ const size={w:[100,350],h:[55,220],d:[120,400]};
+ const defaultState=()=>({ws:[172,172],hs:[100,100],d:240,blocks:[{r:0,c:0,rs:1,cs:1,depth:null},{r:0,c:1,rs:1,cs:1,depth:null},{r:1,c:0,rs:1,cs:1,depth:null},{r:1,c:1,rs:1,cs:1,depth:null}]});
+ function validate(g){
+  if(!g||!Array.isArray(g.ws)||!Array.isArray(g.hs)||!Array.isArray(g.blocks)||g.ws.length<1||g.ws.length>MAX||g.hs.length<1||g.hs.length>MAX||g.blocks.length>64)throw Error('行列数须为 1–8，格子数据格式错误。');
+  if(!g.ws.every(v=>bounds(v,...size.w))||!g.hs.every(v=>bounds(v,...size.h))||!bounds(g.d,...size.d))throw Error('每格宽 100–350，高 55–220，深 120–400 mm。');
+  const used=new Set(),blocks=[];
+  for(const a of g.blocks){
+   if(!a||!['r','c','rs','cs'].every(k=>Number.isInteger(a[k]))||a.r<0||a.c<0||a.rs<1||a.cs<1||a.r+a.rs>g.hs.length||a.c+a.cs>g.ws.length||!(a.depth===null||bounds(a.depth,...size.d)))throw Error('模块超出网格，或深度不合法。');
+   for(let r=a.r;r<a.r+a.rs;r++)for(let c=a.c;c<a.c+a.cs;c++){const id=r+':'+c;if(used.has(id))throw Error('文件内有重叠模块。');used.add(id);}
+   blocks.push({r:a.r,c:a.c,rs:a.rs,cs:a.cs,depth:a.depth});
+  }
+  return {ws:[...g.ws],hs:[...g.hs],d:g.d,blocks};
+ }
+ const contains=(b,r,c)=>r>=b.r&&r<b.r+b.rs&&c>=b.c&&c<b.c+b.cs;
+ const one=(g,r,c)=>g.blocks.find(b=>contains(b,r,c));
+ const rect=([r,c],[q,p])=>({r:Math.min(r,q),c:Math.min(c,p),rs:Math.abs(r-q)+1,cs:Math.abs(c-p)+1});
+ function operation(g,selection,action){
+  const n=clone(g),s=selection;
+  if(!s)throw Error('先在网格中选中格子。');
+  const picked=new Set();let filled=0;
+  for(let r=s.r;r<s.r+s.rs;r++)for(let c=s.c;c<s.c+s.cs;c++){const b=one(n,r,c);if(b){picked.add(b);filled++;}}
+  const all=s.rs*s.cs;
+  const whole=[...picked].every(b=>contains(s,b.r,b.c)&&contains(s,b.r+b.rs-1,b.c+b.cs-1));
+  if(action==='split'){
+   if(picked.size!==1)throw Error('选中一个已合并模块再拆分。');
+   const [b]=picked;if(b.rs*b.cs===1)throw Error('这格没有合并。');n.blocks=n.blocks.filter(x=>x!==b);
+   for(let r=b.r;r<b.r+b.rs;r++)for(let c=b.c;c<b.c+b.cs;c++)n.blocks.push({r,c,rs:1,cs:1,depth:b.depth});
+  }else if(action==='merge'){
+   if(!whole)throw Error('范围截断了已有合并块，请先拆分，或圈住整个块。');
+   if(filled!==all)throw Error('不能把空格或不完整形状合并；请先补齐该矩形。');
+   if(picked.size<2)throw Error('至少选择两个完整模块。');
+   const ds=[...new Set([...picked].map(b=>b.depth??g.d))];
+   if(ds.length!==1)throw Error('合并前要把所选模块的深度统一。');
+   const onlyGlobal=[...picked].every(b=>b.depth===null);
+   n.blocks=n.blocks.filter(b=>!picked.has(b));n.blocks.push({...s,depth:onlyGlobal?null:ds[0]});
+  }else if(action==='delete'){
+   if(!whole)throw Error('删除范围截断了已有合并块；先拆分，或圈住整个块。');
+   if(!picked.size)throw Error('这片已为空。');n.blocks=n.blocks.filter(b=>!picked.has(b));
+  }else if(action==='add'){
+   if(filled)throw Error('补回范围必须全是空格，不能覆盖现有模块。');
+   for(let r=s.r;r<s.r+s.rs;r++)for(let c=s.c;c<s.c+s.cs;c++)n.blocks.push({r,c,rs:1,cs:1,depth:null});
+  }else throw Error('未知编辑操作。');
+  return validate(n);
+ }
+ function resize(g,rr,cc){
+  if(!Number.isInteger(rr)||!Number.isInteger(cc)||rr<1||cc<1||rr>MAX||cc>MAX)throw Error('行、列须为 1–8 的整数。');
+  if(g.blocks.some(b=>b.r+b.rs>rr||b.c+b.cs>cc))throw Error('缩小将裁掉已有模块；先移除相关格子，再缩小。');
+  const n=clone(g),oldr=n.hs.length,oldc=n.ws.length;
+  n.hs.length=Math.min(rr,oldr);n.ws.length=Math.min(cc,oldc);
+  while(n.hs.length<rr)n.hs.push(100);while(n.ws.length<cc)n.ws.push(172);
+  for(let r=0;r<rr;r++)for(let c=0;c<cc;c++)if(r>=oldr||c>=oldc)n.blocks.push({r,c,rs:1,cs:1,depth:null});
+  return validate(n);
+ }
+ function setDepth(g,where,depth){
+  const n=clone(g);const b=where&&one(n,where.r,where.c);
+  if(!b)throw Error('请选择有模块的格子。');b.depth=depth;return validate(n);
+ }
+ function derive(g){
+  const px=[0],pz=[];
+  for(const w of g.ws)px.push(px.at(-1)+w-EDGE);
+  for(let r=0;r<g.hs.length;r++)pz[r]=sum(g.hs.slice(r+1));
+  const ms=g.blocks.map(b=>{
+   const x=px[b.c],z=pz[b.r+b.rs-1],w=px[b.c+b.cs]-x+EDGE,h=sum(g.hs.slice(b.r,b.r+b.rs)),d=b.depth??g.d;
+   return {...b,x,z,w,h,d,opening:w-27.30,tray:[w-27.90,d-10,h-14]};
+  });
+  const issues=new Set();const bits=[];
+  for(const b of ms){
+   if(b.rs>1||b.cs>1)issues.add('合并模块没有现成的内部托轨／横梁设计；仅画一只规划屉与跨距，不表示可制造。');
+   for(const x of [b.x+EDGE/2,b.x+b.w-EDGE/2]) bits.push({x,z:b.z,h:b.h,d:b.d,refs:[b],mixed:false});
+  }
+  // Same boundary is a single board only for matching depth, lower plane and height.
+  const boards=[];
+  for(const bb of bits){
+   const same=boards.find(o=>Math.abs(o.x-bb.x)<.001&&Math.abs(o.z-bb.z)<.001&&Math.abs(o.h-bb.h)<.001&&Math.abs(o.d-bb.d)<.001);
+   if(same)same.refs.push(...bb.refs);else boards.push(bb);
+  }
+  for(let i=0;i<boards.length;i++)for(let j=i+1;j<boards.length;j++){
+   const a=boards[i],b=boards[j];if(Math.abs(a.x-b.x)<.001&&Math.min(a.z+a.h,b.z+b.h)-Math.max(a.z,b.z)>.001){a.mixed=b.mixed=true;issues.add('同一横向边界深度或高度段不一致，不能共用已验证侧板；橙色为冲突预留。');}
+  }
+  for(const a of boards)if(a.z>0.001){
+   const low=boards.filter(b=>Math.abs(b.x-a.x)<.001&&Math.abs(b.z+b.h-a.z)<.001);
+   if(!low.length){a.mixed=true;issues.add('上层有侧板悬在空位或跨合并区上方，需单独设计支承，不能直接安装。');}
+   else if(!low.some(b=>Math.abs(b.d-a.d)<.001)){
+    a.mixed=true;issues.add('上下层深度不同，后定位点不对齐；不能直接使用标准叠层。');
+   }
+  }
+  const ext=ms.length?[round(Math.max(...ms.map(x=>x.x+x.w))-Math.min(...ms.map(x=>x.x))),round(Math.max(...ms.map(x=>x.d))),round(Math.max(...ms.map(x=>x.z+x.h))+PEG)]:[0,0,0];
+  return {modules:ms,boards,ext,plan:[round(px.at(-1)+EDGE),round(Math.max(g.d,...ms.map(b=>b.d))),round(sum(g.hs)+PEG)],issues:[...issues]};
+ }
+ function upload(text){
+  if(text.length>170000)throw Error('规划 JSON 太大。');
+  const o=JSON.parse(text);
+  if(!o||o.schema!=='v16-grid-preview-v1'||o.preview_only!==true)throw Error('只接受本页导出的多模块规划 JSON，不是原生 STEP 参数。');
+  return validate(o.grid);
+ }
+ const serialize=(grid)=>JSON.stringify({schema:'v16-grid-preview-v1',preview_only:true,grid:validate(grid)},null,2);
+ return {EDGE,WEB,PEG,MAX,size,defaultState,validate,one,rect,operation,resize,setDepth,derive,upload,serialize,round};
+})();
+if(typeof module!=='undefined'&&module.exports)module.exports=VGrid;
+
+(()=>{
+'use strict';
+const $=id=>document.getElementById('vg-'+id),cv=$('canvas'),ctx=cv.getContext('2d');
+const G=VGrid, sizes=G.size,fmt=v=>Number(Number(v).toFixed(2)).toString();
+let mode='single',g=G.defaultState(),unit={w:172,d:240,h:100},a=null,b=null,waitCorner=false,undo=[],error='',stamp=0;
+let az=-1.09,el=.51,zoom=1,ptr=null,opened=false,raf=null;
+const defaultBed={cw:350,cd:250,ch:205,bx:256,by:256,bz:256};let clearances={...defaultBed};
+function status(s,bad=false){$('status').textContent=s;$('status').className=bad?'vg-note warn':'vg-note';}
+function copy(o){return JSON.parse(JSON.stringify(o));}
+function next(n,selection=true){
+ undo.push(copy(g));if(undo.length>30)undo.shift();g=n;
+ if(!selection){a=b=null;waitCorner=false;}
+ renderGrid();renderDepth();updateCanvas();
+}
+function handle(f){try{f();status('规划已更新。');}catch(e){status(e.message,true);}}
+const selected=()=>a&&G.rect(a,b??a);
+function setMode(n){
+ mode=n;
+ $('single').hidden=n!=='single';$('matrix').hidden=n!=='grid';
+ $('m-single').setAttribute('aria-pressed',String(n==='single'));
+ $('m-grid').setAttribute('aria-pressed',String(n==='grid'));
+ status(n==='single'?'单模块 W、D、H 与多模块方案独立，不会相互覆盖。':'首次点选为起点，再点对角可选中矩形范围。键盘用 Tab 和 Enter。');
+ updateCanvas();
+}
+for(const [id,k] of [['m-single','single'],['m-grid','grid']])$(id).onclick=()=>setMode(k);
+function elmt(tag,txt,cl){const e=document.createElement(tag);if(txt)e.textContent=txt;if(cl)e.className=cl;return e;}
+function changeValue(elt,key,obj,range,onSave){
+ const n=elt.valueAsNumber;
+ if(!Number.isFinite(n)||n<range[0]||n>range[1]){status('输入范围 '+range.join('–')+' mm，旧布局暂保留。',true);if(elt===document.activeElement)elt.addEventListener('blur',()=>elt.value=obj[key],{once:true});return;}
+ obj[key]=n;onSave();
+}
+const selectedModule=()=>a?G.one(g,a[0],a[1]):null;
+function renderDepth(){
+ const q=selectedModule(),sel=selected();
+ $('depth').disabled=!q;$('backdepth').disabled=!q;
+ $('depth').value=q?(q.depth??g.d):'';
+ $('selected').textContent=sel?'已选 '+(sel.r+1)+'–'+(sel.r+sel.rs)+' 行 / '+(sel.c+1)+'–'+(sel.c+sel.cs)+' 列'+(q?' · 起点模块深 '+fmt(q.depth??g.d)+' mm':' · 起点为空'):'未选格子';
+}
+function renderGrid(){
+ $('rows').value=g.hs.length;$('cols').value=g.ws.length;$('global').value=g.d;
+ const table=$('grid');table.replaceChildren();
+ const h=elmt('thead'),hr=elmt('tr');hr.append(elmt('th','行高 ↓ / 列宽 →'));h.append(hr);table.append(h);
+ const dim=(kind,i,value)=>{
+  const input=elmt('input');input.type='number';input.step='.1';input.min=sizes[kind][0];input.max=sizes[kind][1];input.value=value;
+  input.setAttribute('aria-label',(kind==='h'?'第 '+(i+1)+' 行高':'第 '+(i+1)+' 列宽')+'（毫米）');
+  input.oninput=()=>{
+   const r=g[kind==='h'?'hs':'ws'],old=r[i],v=input.valueAsNumber;
+   if(!Number.isFinite(v)||v<Number(input.min)||v>Number(input.max)){status('尺寸超出范围，保留该行列前值。',true);return;}
+   if(v===old)return;
+   const prior=copy(g);r[i]=v;undo.push(prior);if(undo.length>30)undo.shift();updateCanvas();status('行列尺寸已更新。');
+  };input.onblur=()=>{input.value=g[kind==='h'?'hs':'ws'][i];};return input;
+ };
+ for(let c=0;c<g.ws.length;c++){const th=elmt('th');th.scope='col';th.append(elmt('span','第 '+(c+1)+' 列'),dim('w',c,g.ws[c]));hr.append(th);}
+ const body=elmt('tbody');table.append(body);
+ for(let r=0;r<g.hs.length;r++){
+  const row=elmt('tr'),head=elmt('th');head.scope='row';head.append(elmt('span','第 '+(r+1)+' 行'),dim('h',r,g.hs[r]));row.append(head);body.append(row);
+  for(let c=0;c<g.ws.length;c++){
+   const cl=elmt('td'),bb=G.one(g,r,c);
+   let s=bb?(bb.rs*bb.cs>1?'合并 '+bb.rs+'×'+bb.cs:'抽屉'):'空位';
+   const btn=elmt('button',s,'vg-cell'+(bb?'':' empty'));
+   btn.type='button';btn.dataset.row=r;btn.dataset.col=c;
+   btn.setAttribute('aria-label','第 '+(r+1)+' 行第 '+(c+1)+' 列 '+s);
+   btn.onclick=(ev)=>{
+    if((ev.shiftKey&&a)||waitCorner){b=[r,c];waitCorner=false;}
+    else{a=[r,c];b=null;waitCorner=true;}
+    selectionPaint();renderDepth();updateCanvas();
+   };
+   btn.onkeydown=ev=>{
+    if(!['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(ev.key))return;
+    ev.preventDefault();let rr=r,cc=c;if(ev.key==='ArrowUp')rr--;if(ev.key==='ArrowDown')rr++;if(ev.key==='ArrowLeft')cc--;if(ev.key==='ArrowRight')cc++;
+    const tgt=table.querySelector('button[data-row="'+rr+'"][data-col="'+cc+'"]');
+    if(!tgt)return;
+    if(ev.shiftKey){if(!a)a=[r,c];b=[rr,cc];waitCorner=false;selectionPaint();renderDepth();updateCanvas();}
+    tgt.focus();
+   };
+   cl.append(btn);row.append(cl);
+  }
+ }
+ selectionPaint();
+}
+function selectionPaint(){
+ const s=selected();
+ for(const e of $('grid').querySelectorAll('[data-row]')){
+  const r=Number(e.dataset.row),c=Number(e.dataset.col),on=Boolean(s&&r>=s.r&&r<s.r+s.rs&&c>=s.c&&c<s.c+s.cs);
+  e.classList.toggle('chosen',on);e.setAttribute('aria-pressed',String(on));
+ }
+}
+$('resize').onclick=()=>handle(()=>next(G.resize(g,$('rows').valueAsNumber,$('cols').valueAsNumber),false));
+for(const [btn,what] of [['merge','merge'],['split','split'],['delete','delete'],['add','add']])$(btn).onclick=()=>handle(()=>next(G.operation(g,selected(),what)));
+$('clear-selection').onclick=()=>{a=b=null;waitCorner=false;renderDepth();selectionPaint();updateCanvas();status('选择已清除。');};
+$('undo').onclick=()=>handle(()=>{if(!undo.length)throw Error('没有可撤销的更改。');g=undo.pop();a=b=null;waitCorner=false;renderGrid();renderDepth();updateCanvas();});
+$('global').oninput=e=>{
+ const v=e.target.valueAsNumber;if(!Number.isFinite(v)||v<sizes.d[0]||v>sizes.d[1]){status('统一深度须为 120–400 mm。',true);return;}
+ if(g.d===v)return;undo.push(copy(g));if(undo.length>30)undo.shift();g.d=v;renderDepth();updateCanvas();status('统一深度已更新；专用深度保持不变。');
+};
+$('global').onblur=()=>{$('global').value=g.d;};
+$('setdepth').onclick=()=>handle(()=>next(G.setDepth(g,a&&{r:a[0],c:a[1]},$('depth').valueAsNumber)));
+$('backdepth').onclick=()=>handle(()=>next(G.setDepth(g,a&&{r:a[0],c:a[1]},null)));
+$('reset').onclick=()=>handle(()=>next(G.defaultState(),false));
+function download(text,name){
+ const a=elmt('a');const url=URL.createObjectURL(new Blob([text],{type:'application/json'}));
+ a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+}
+$('export').onclick=()=>download(G.serialize(g),'V18-grid-preview.json');
+$('import').onchange=async ev=>{
+ const f=ev.target.files?.[0];if(!f)return;
+ const now=++stamp;
+ try{if(f.size>170000)throw Error('规划 JSON 太大。');const raw=await f.text();if(now!==stamp)return;const n=G.upload(raw);next(n,false);status('规划 JSON 已导入；原状态可撤销。');}
+ catch(e){if(now===stamp)status('没有导入：'+e.message,true);}
+ finally{if(now===stamp)ev.target.value='';}
+};
+for(const k of ['w','d','h']){
+ const ctl=$('s-'+k);ctl.oninput=()=>changeValue(ctl,k,unit,sizes[k],()=>{updateCanvas();status('单模块尺寸已更新。');});
+}
+for(const k of Object.keys(defaultBed)){
+ const ctl=$('limit-'+k);ctl.oninput=()=>changeValue(ctl,k,clearances,[1,3000],updateCanvas);
+}
+const cos=Math.cos,sin=Math.sin;
+const col={board:[57,120,105],mid:[42,110,96],tray:[202,141,102],beam:[107,147,151],bad:[208,122,66],merged:[204,143,67],chosen:[203,152,90]};
+const vsub=(a,b)=>a.map((x,i)=>x-b[i]),dot=(a,b)=>a.reduce((s,x,i)=>s+x*b[i],0),cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]];
+const normalize=a=>{const l=Math.hypot(...a)||1;return a.map(v=>v/l)};
+function box(out,x0,y0,z0,x1,y1,z1,k,transform){
+ if(x1<=x0||y1<=y0||z1<=z0)return;
+ let p=[[x0,y0,z0],[x1,y0,z0],[x1,y1,z0],[x0,y1,z0],[x0,y0,z1],[x1,y0,z1],[x1,y1,z1],[x0,y1,z1]];
+ if(transform)p=p.map(transform);
+ for(const q of [[0,3,2,1],[4,5,6,7],[0,1,5,4],[3,7,6,2],[0,4,7,3],[1,2,6,5]])out.push([q.map(i=>p[i]),k]);
+}
+function mesh(data){
+ const model=[],through=[],sel=mode==='grid'?selected():null;
+ const openTarget=opened?[...data.modules].sort((a,b)=>(b.z-a.z)||(b.x-a.x))[0]:null;
+ const seen=new Set();
+ for(const b of data.boards){
+  // When two alternatives geometrically overlap, show one max-depth envelope for matching height,
+  // not two solid faces at the same coordinates. Other conflicts remain in orange.
+  const id=[b.x,b.z,b.h].join('/');
+  if(b.mixed&&seen.has(id))continue;seen.add(id);
+  const d=b.mixed?Math.max(...data.boards.filter(o=>Math.abs(o.x-b.x)<.001&&o.z===b.z&&o.h===b.h).map(o=>o.d)):b.d;
+  const {x,z,h}=b,k=b.mixed?'bad':b.refs.length>1?'mid':'board';
+  box(model,x-8.65,0,z,x+8.65,d,z+10,k);
+  box(model,x-5,0,z+10,x+5,d,z+16,k);
+  box(model,x-5,0,z+h-10,x+5,d,z+h,k);
+  for(const [l,w] of [[0,27],[d*.5-7,14],[d-27,27]])box(model,x-5,l,z+16,x+5,l+w,z+h-10,k);
+  for(const y of [24,d-24])box(model,x-2.5,y-2.5,z+h,x+2.5,y+2.5,z+h+2.7,k);
+ }
+ for(const b of data.modules){
+  let l=b.x+13.95,r=b.x+b.w-13.95;
+  const {z,h,d}=b, yShift=b===openTarget?-110.5:0, k=b.rs*b.cs>1?'merged':sel&&sel.r<b.r+b.rs&&sel.r+sel.rs>b.r&&sel.c<b.c+b.cs&&sel.c+sel.cs>b.c?'chosen':'tray';
+  if(b.rs*b.cs===1){
+   box(model,l,0,z,r,16,z+9.8,'beam');box(model,l,d-11,z,r,d,z+6,'beam');box(model,l,d-8,z+h-7,r,d,z+h,'beam');
+   for(const [a,f] of [[l+1,r-1],[r-1,l+1]]){
+    const dh=h-13,L=Math.hypot(f-a,dh),cc=(f-a)/L,ss=dh/L;
+    box(model,0,d-8,-1.7,L,d,1.7,'beam',p=>[a+cc*p[0]-ss*p[2],p[1],z+6+ss*p[0]+cc*p[2]]);
+   }
+  }
+  const a=3+yShift,c=d-7+yShift,bz=z+10,t=bz+Math.max(3,h-14);
+  box(model,l,a,bz,r,c,bz+2.6,k);box(model,l,a,bz+2.6,l+1,c,t,k);box(model,r-1,a,bz+2.6,r,c,t,k);
+  box(model,l+1,a,bz+2.6,r-1,a+2.4,t,k);box(model,l+1,c-1,bz+2.6,r-1,c,t-4,k);
+ }
+ return model;
+}
+const fit=(dim,bed)=>dim[2]<=bed[2]&&((dim[0]<=bed[0]&&dim[1]<=bed[1])||(dim[0]<=bed[1]&&dim[1]<=bed[0]));
+let active=null,faces=[];
+function updateCanvas(){
+ const state=mode==='single'?{ws:[unit.w],hs:[unit.h],d:unit.d,blocks:[{r:0,c:0,rs:1,cs:1,depth:null}]}:g;
+ active=G.derive(state);faces=mesh(active);drawSoon();printMeasures();
+}
+function printMeasures(){
+ const {ext,plan,modules,boards,issues}=active;
+ const trip=a=>a.map(fmt).join(' × ');
+ if(!modules.length){$('measure').textContent='当前为空网格。规划范围 '+trip(plan)+' mm；没有零件、净空和打印外框可核。';$('issues').textContent='空格不绘制侧板、屉或轨。';return;}
+ const cabinet=[clearances.cw,clearances.cd,clearances.ch],diff=cabinet.map((x,i)=>G.round(x-ext[i]));
+ const d=[clearances.bx,clearances.by,clearances.bz],parts=[];
+ for(const b of boards)parts.push([17.3,b.d,b.h+2.7]);
+ for(const m of modules){parts.push(m.tray);if(m.rs*m.cs===1)parts.push([m.w-34.6,16,9.8],[m.w-27.3,10.9,m.h]);}
+ const fail=parts.filter(p=>!fit(p,d)).length;
+ $('measure').textContent=[
+  '占用外廓 W×D×H：'+trip(ext)+' mm（含最高 2.70 mm 榫）',
+  '规划网格：'+trip(plan)+' mm · '+modules.length+' 模块 · '+boards.length+' 个侧板候选界面'+(mode==='grid'?'（含冲突未定）':''),
+  '柜体余量：'+trip(diff)+' mm '+(diff.some(x=>x<0)?'· 有轴超尺寸':'· 名义可容纳'),
+  '单件热床：'+(fail?fail+' 件外接框超限':'所示外接框均不过界')+'，未验摆盘 / 支撑',
+  (mode==='single'?'单屉 ': '选中模块的屉 ') + (mode==='single'?trip(modules[0].tray):(()=>{const match=modules.find(o=>a&&o.r<=a[0]&&o.r+o.rs>a[0]&&o.c<=a[1]&&o.c+o.cs>a[1]);return match?trip(match.tray):'—';})())+' mm'
+ ].join('\n');
+ $('issues').textContent=issues.length?issues.join(' '):'此为三维尺寸规划，不是新的 STEP 或载荷验证。只有一致的边界合为一块；橘色屉表示合并占位。';
+}
+function drawSoon(){if(raf===null)raf=requestAnimationFrame(draw);}
+function draw(){
+ raf=null;if(!ctx)return;
+ const dev=Math.min(devicePixelRatio||1,1.6),w=Math.max(1,Math.round(cv.clientWidth*dev)),h=Math.max(1,Math.round(cv.clientHeight*dev));
+ if(cv.width!==w||cv.height!==h){cv.width=w;cv.height=h;}
+ ctx.clearRect(0,0,w,h);
+ cv.dataset.polygons=faces.length;cv.dataset.mode=mode;
+ if(!faces.length){ctx.font='16px system-ui';ctx.textAlign='center';ctx.fillStyle='#516960';ctx.fillText('空网格 · 未显示任何零件',w/2,h/2);return;}
+ const dir=[cos(az)*cos(el),sin(az)*cos(el),sin(el)],right=normalize(cross([0,0,1],dir)),up=normalize(cross(dir,right));
+ const projected=faces.map(([pts,k])=>{
+  const p=pts.map(v=>[dot(v,right),dot(v,up),dot(v,dir)]);
+  const n=normalize(cross(vsub(pts[1],pts[0]),vsub(pts[2],pts[0])));
+  return [p, k, p.reduce((x,v)=>x+v[2],0)/4, .66+.31*Math.abs(dot(n,[.35,-.55,.75]))];
+ });
+ let low=[Infinity,Infinity],hi=[-Infinity,-Infinity];
+ for(const [p] of projected)for(const v of p)for(let a=0;a<2;a++){low[a]=Math.min(low[a],v[a]);hi[a]=Math.max(hi[a],v[a]);}
+ const S=Math.min(w*.84/Math.max(1,hi[0]-low[0]),h*.83/Math.max(1,hi[1]-low[1]))*zoom,mx=(hi[0]+low[0])/2,my=(hi[1]+low[1])/2;
+ projected.sort((a,b)=>a[2]-b[2]);
+ for(const [p,k,z,light] of projected){
+  ctx.beginPath();for(let i=0;i<4;i++){const xx=w/2+(p[i][0]-mx)*S,yy=h/2-(p[i][1]-my)*S;if(i===0)ctx.moveTo(xx,yy);else ctx.lineTo(xx,yy);}
+  ctx.closePath();ctx.fillStyle='rgb('+col[k].map(v=>Math.round(v*light)).join(',')+')';ctx.fill();ctx.lineWidth=.55*dev;ctx.strokeStyle='rgba(30,51,48,.15)';ctx.stroke();
+ }
+}
+$('open').onclick=()=>{opened=!opened;$('open').setAttribute('aria-pressed',String(opened));$('open').textContent=opened?'关回一只规划屉':'打开一只规划屉';updateCanvas();};
+for(const [n,v] of Object.entries({iso:[-1.09,.51],front:[-Math.PI/2,0],side:[0,0]}))$('view-'+n).onclick=()=>{[az,el]=v;zoom=1;drawSoon();};
+cv.onpointerdown=e=>{ptr=[e.pointerId,e.clientX,e.clientY];cv.setPointerCapture(e.pointerId);};
+cv.onpointermove=e=>{if(!ptr||e.pointerId!==ptr[0])return;az+=(e.clientX-ptr[1])*.009;el=Math.max(-1.38,Math.min(1.38,el+(e.clientY-ptr[2])*.009));ptr=[e.pointerId,e.clientX,e.clientY];drawSoon();};
+for(const k of ['pointerup','pointercancel','lostpointercapture'])cv.addEventListener(k,()=>ptr=null);
+function changeZoom(k){zoom=Math.max(.5,Math.min(3,zoom*k));drawSoon();}
+cv.addEventListener('wheel',e=>{e.preventDefault();changeZoom(Math.exp(-e.deltaY*.001));},{passive:false});
+cv.onkeydown=e=>{if(e.key==='ArrowLeft')az-=.12;else if(e.key==='ArrowRight')az+=.12;else if(e.key==='ArrowUp')el=Math.min(1.38,el+.12);else if(e.key==='ArrowDown')el=Math.max(-1.38,el-.12);else if(e.key==='+'||e.key==='=')changeZoom(1.11);else if(e.key==='-')changeZoom(.90);else return;e.preventDefault();drawSoon();};
+new ResizeObserver(drawSoon).observe(cv);
+window.V16Planner={get state(){return {mode,unit:copy(unit),grid:copy(g),layout:active,faces:faces.length};}};
+renderGrid();renderDepth();setMode('single');
+})();
+
+</script>
+</body></html>

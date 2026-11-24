@@ -1,0 +1,137 @@
+{
+  "version": "V18",
+  "side": {
+    "side_verified": "Print_Parts/01_V18_Universal_Bilateral_Side_T_Rod.step",
+    "file_size": 266869,
+    "sha256": "c3be14d0c2811ef510d182373135061afe009d1d39b78842ab02386c8be90a00",
+    "bbox_mm": [
+      17.3,
+      240.0,
+      102.7
+    ],
+    "unchanged_gap_mm": 0.6,
+    "paddle_unchanged_diametric_mm": 2.0,
+    "signed_input": "9433cea9c75cb902a4c53a20f9e940230580c1efe210e3f213ac0dc6cf0c3827",
+    "removed_previous_shared_through_paths": [
+      {
+        "label": "front",
+        "axis_Y0_Z0_mm": [
+          13.0,
+          5
+        ],
+        "previous_open_diameter_mm": 4.72,
+        "exact_stock_added_mm3": 58.73794495892557,
+        "restored_bounds_xyz_mm": [
+          166.35,
+          183.65,
+          10.64,
+          15.58,
+          2.42,
+          7.58
+        ],
+        "original_axis_air_in_v17_mm3": 0.09817477042468101,
+        "retained_axis_air_in_v18_mm3": 0
+      },
+      {
+        "label": "rear_lower",
+        "axis_Y0_Z0_mm": [
+          241.8,
+          5
+        ],
+        "previous_open_diameter_mm": 2.34,
+        "exact_stock_added_mm3": 47.633771843533495,
+        "restored_bounds_xyz_mm": [
+          166.35,
+          183.65,
+          240.41,
+          242.97,
+          3.61,
+          6.39
+        ],
+        "original_axis_air_in_v17_mm3": 0.09817477042468181,
+        "retained_axis_air_in_v18_mm3": 0
+      }
+    ]
+  },
+  "total_solids_closed_open": [
+    74,
+    74
+  ],
+  "unchanged_physical_instances_vs_V17": 60,
+  "modified_if_new_or_universal_pieces": 14,
+  "only_open_body_index_69_motion_Y_mm": -110.5,
+  "frame_outer_dimensions_mm": [
+    326.7,
+    240,
+    202.7
+  ],
+  "n_print_skus": 18,
+  "single_independent_bay_piece_count": 19,
+  "shared_heads": 0,
+  "single_head_T_rod_qty": 24,
+  "anti_drop_paddles_qty": 8,
+  "cams_qty": 24,
+  "independent_t_slot_tests": [
+    {
+      "station": "front",
+      "min_X_separation_between_rods_mm": 4.100000000000023,
+      "side_checks": [
+        {
+          "hand": "L",
+          "t_slot_sampled_poses": 13,
+          "panel_overlap_mm3": 0.0,
+          "other_inserted_rod_overlap_mm3": 0.0,
+          "nominal_locked_cam_overlap_mm3": 0.0,
+          "t_shoulder_backout_if_forced_mm3": 0.325039999999981,
+          "locked_cam_rod_backout_if_forced_mm3": 0.16799377447789227
+        },
+        {
+          "hand": "R",
+          "t_slot_sampled_poses": 13,
+          "panel_overlap_mm3": 0.0,
+          "other_inserted_rod_overlap_mm3": 0.0,
+          "nominal_locked_cam_overlap_mm3": 0.0,
+          "t_shoulder_backout_if_forced_mm3": 0.3250399999999356,
+          "locked_cam_rod_backout_if_forced_mm3": 0.1679937775056568
+        }
+      ]
+    },
+    {
+      "station": "rear_lower",
+      "min_X_separation_between_rods_mm": 11.096000000000004,
+      "side_checks": [
+        {
+          "hand": "L",
+          "t_slot_sampled_poses": 13,
+          "panel_overlap_mm3": 0.0,
+          "other_inserted_rod_overlap_mm3": 0.0,
+          "nominal_locked_cam_overlap_mm3": 0.0,
+          "t_shoulder_backout_if_forced_mm3": 0.03374662791981957,
+          "locked_cam_rod_backout_if_forced_mm3": 0.01744161563321577
+        },
+        {
+          "hand": "R",
+          "t_slot_sampled_poses": 13,
+          "panel_overlap_mm3": 0.0,
+          "other_inserted_rod_overlap_mm3": 0.0,
+          "nominal_locked_cam_overlap_mm3": 0.0,
+          "t_shoulder_backout_if_forced_mm3": 0.03374662792019769,
+          "locked_cam_rod_backout_if_forced_mm3": 0.01744161579600758
+        }
+      ]
+    }
+  ],
+  "max_nonintentional_overlap_changed_pairs_mm3": 0.0,
+  "checked_changed_body_pair_candidates_in_two_poses": 1862,
+  "unchanged_from_V17": [
+    "six identical side boards, print pose unchanged",
+    "side stack locators 5.80×5.40 front / 5.80×6.90 rear, Ø5 peg",
+    "2.00 Ø journal / 2.00 shaft, 0.60 total drawer side gap, 120° service before stacking, 90° released drawer removal",
+    "all existing beams, tray, cam, single rods and paddle STEP bytes; same finished outer dimensions"
+  ],
+  "exact_step_hashes": {
+    "Print_Parts/01_V18_Universal_Bilateral_Side_T_Rod.step": "c3be14d0c2811ef510d182373135061afe009d1d39b78842ab02386c8be90a00",
+    "Reference/V18_H100_2x2_Universal_Closed.step": "058b1b2001d58c3e532d7bdc73f971ec40767fda294e0a9033f1862707c745c4",
+    "Reference/V18_H100_2x2_Universal_Open.step": "a780684a69e32e4d1a4573aff04ffe69a78dd47a9cba8e5d62b2db0d910dd5f6"
+  }
+}
