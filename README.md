@@ -43,6 +43,8 @@
     └── build-site.mjs     # 扫描 models/*/MODEL.json → 生成 index.html + models.json
 ```
 
+模型目录里的 HTML 资产会被自动扫描：页首「资料导航」和该模型卡片的「网页资料」区都会生成链接，链接名取 HTML 自己的 `<title>`（没有 title 时退回「模型名 · 文件名」）。新增或删除 HTML 后跑一次 `bun tools/build-site.mjs` 即可。
+
 ## 什么进库、什么不进（2026-11-16 清理后的规则）
 
 - **进库**：可直接下载去打的成品（**3mf 优先**，内含打印设置）、一份预览图、建模脚本 / `MODEL.json` / 设计说明。

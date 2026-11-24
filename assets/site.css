@@ -2,4 +2,5 @@
 
 .download-group{margin-top:14px}.download-group h3{font-size:13px;margin:0 0 4px;color:var(--ink)}.group-note{margin:0;font-size:11px;color:var(--muted)}.files a small{display:block;color:var(--muted);font-size:10px}.download-group+.download-group{border-top:1px solid var(--line);padding-top:14px}
 
-.resources{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:14px;font-size:12px}.resources a{color:var(--muted);text-decoration:none}.resources a:hover{color:var(--green);text-decoration:underline}
+.resources{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:14px;font-size:12px}.resources a{color:var(--muted);text-decoration:none}.resources a:hover{color:var(--green);text-decoration:underline}.resources a.html-resource{color:#a0e2bd}
+.html-links{border-top:1px solid var(--line);padding-top:10px;margin-top:2px}.html-links h3{font-size:12px;font-weight:500;margin:0 0 6px;color:var(--muted)}.html-links a{display:block;font-size:12px;padding:8px 10px;border:1px solid #365342;background:#1c2d25;border-radius:5px;text-decoration:none;margin-top:6px}.html-links a small{display:block;margin-top:2px;color:var(--muted);font-size:10px;overflow-wrap:anywhere}

@@ -1431,21 +1431,35 @@
   },
   {
     "id": "filament-spool-chanel",
-    "title": "双 C 料盘 · 外滚环/主筋/筒壁加厚试验版",
+    "title": "香奈儿 A · 模型内薄斜膜自支撑候选",
     "category": "打印配件 / 料盘",
     "status": "design",
     "cls": "derived",
-    "summary": "外滚环、8条主筋和筒壁加厚，无新增内部承力环。全实体估重168.06 g，非稀疏填充切片重量；STEP坐标核对通过但CAD内核回读未完成，兼容性未知，未验证1 kg/AMS运行。",
-    "cover": "filament-spool-chanel/Design/actual_preview.png",
+    "summary": "当前打印工程与最新自支撑 STEP、参数源码保留；旧交付已移入可恢复废纸篓。重量以当前工艺切片为准，实物强度未认证。",
+    "cover": "filament-spool-chanel/Design/selfsupport_roof_preview.png",
     "downloads": [
-      "Models/CHANEL_SOURCE21_wide.step",
-      "Models/CHANEL_SOURCE21_narrow.step"
+      "Models/ChanelLight/PARKING_A_WINDOW_TRIAL.3mf",
+      "Models/ChanelLight/CHANEL_PARKING_A_SELF_SUPPORT_ROOF_TRIAL.step",
+      "Source/CHANEL_SELF_SUPPORT_ROOF_PARAMETRIC_SOURCE.zip",
+      "Models/ChanelLight/CHANEL_PARKING_A_WINDOW_LIGHT_TRIAL.step",
+      "Source/CHANEL_PARKING_A_WINDOW_PARAMETRIC_SOURCE.zip",
+      "Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE.step"
     ],
     "downloadGroups": [
       {
-        "prefix": "Models/",
-        "label": "两片 STEP · 几何审查与自行切片",
-        "note": "STEP内核回读未完成，兼容性未知；不是已验证直接可打印件。168.06 g是全实体估重，100 g目标需重新切片核算。"
+        "prefix": "Models/OfficialBaseline/",
+        "label": "官方附件逆向基准",
+        "note": "单 STEP 双实体，原生参数化源码配套。"
+      },
+      {
+        "prefix": "Models/ChanelLight/",
+        "label": "轻量双 C 派生",
+        "note": "当前打印3MF、最新自支撑STEP；旧开窗基准仅供研究复现。"
+      },
+      {
+        "prefix": "Source/",
+        "label": "参数化源码",
+        "note": "独立再生验证通过，STEP 本身不含特征树。"
       }
     ],
     "gallery": [],
@@ -1457,14 +1471,89 @@
         "url": "models/filament-spool-chanel/Design/actual_preview.png"
       },
       {
-        "rel": "Models/CHANEL_SOURCE21_narrow.step",
-        "size": 71233258,
-        "url": "models/filament-spool-chanel/Models/CHANEL_SOURCE21_narrow.step"
+        "rel": "Design/assembly_v6/CHANEL_v6_assembly_path_checks.png",
+        "size": 244169,
+        "url": "models/filament-spool-chanel/Design/assembly_v6/CHANEL_v6_assembly_path_checks.png"
       },
       {
-        "rel": "Models/CHANEL_SOURCE21_wide.step",
-        "size": 71701199,
-        "url": "models/filament-spool-chanel/Models/CHANEL_SOURCE21_wide.step"
+        "rel": "Design/official_and_light_preview.png",
+        "size": 311064,
+        "url": "models/filament-spool-chanel/Design/official_and_light_preview.png"
+      },
+      {
+        "rel": "Design/parking_A_preview.png",
+        "size": 490342,
+        "url": "models/filament-spool-chanel/Design/parking_A_preview.png"
+      },
+      {
+        "rel": "Design/parking_A_window_light_preview.png",
+        "size": 519940,
+        "url": "models/filament-spool-chanel/Design/parking_A_window_light_preview.png"
+      },
+      {
+        "rel": "Design/selfsupport_roof_preview.png",
+        "size": 289246,
+        "url": "models/filament-spool-chanel/Design/selfsupport_roof_preview.png"
+      },
+      {
+        "rel": "Design/ultralight_spoke_research_preview.png",
+        "size": 269473,
+        "url": "models/filament-spool-chanel/Design/ultralight_spoke_research_preview.png"
+      },
+      {
+        "rel": "Design/ultralight_wall_relief_research_preview.png",
+        "size": 281932,
+        "url": "models/filament-spool-chanel/Design/ultralight_wall_relief_research_preview.png"
+      },
+      {
+        "rel": "Design/window_spool_assembly_cutaway.png",
+        "size": 385309,
+        "url": "models/filament-spool-chanel/Design/window_spool_assembly_cutaway.png"
+      },
+      {
+        "rel": "Models/AssemblyReview/ENTRY_ORIENTATION_SEATED_51.step",
+        "size": 6636868,
+        "url": "models/filament-spool-chanel/Models/AssemblyReview/ENTRY_ORIENTATION_SEATED_51.step"
+      },
+      {
+        "rel": "Models/AssemblyReview/NOMINAL_LOCK_0_RIGID_OVERLAP.step",
+        "size": 6452267,
+        "url": "models/filament-spool-chanel/Models/AssemblyReview/NOMINAL_LOCK_0_RIGID_OVERLAP.step"
+      },
+      {
+        "rel": "Models/AssemblyReview/RETAINED_PREDETENT_8.step",
+        "size": 6635410,
+        "url": "models/filament-spool-chanel/Models/AssemblyReview/RETAINED_PREDETENT_8.step"
+      },
+      {
+        "rel": "Models/ChanelLight/CHANEL_PARKING_A_SELF_SUPPORT_ROOF_TRIAL.step",
+        "size": 6313420,
+        "url": "models/filament-spool-chanel/Models/ChanelLight/CHANEL_PARKING_A_SELF_SUPPORT_ROOF_TRIAL.step"
+      },
+      {
+        "rel": "Models/ChanelLight/CHANEL_PARKING_A_WINDOW_LIGHT_TRIAL.step",
+        "size": 6154673,
+        "url": "models/filament-spool-chanel/Models/ChanelLight/CHANEL_PARKING_A_WINDOW_LIGHT_TRIAL.step"
+      },
+      {
+        "rel": "Models/ChanelLight/PARKING_A_WINDOW_TRIAL.3mf",
+        "size": 5818376,
+        "url": "models/filament-spool-chanel/Models/ChanelLight/PARKING_A_WINDOW_TRIAL.3mf"
+      },
+      {
+        "rel": "Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE.step",
+        "size": 473216,
+        "url": "models/filament-spool-chanel/Models/OfficialBaseline/BAMBU_OFFICIAL_REFERENCE_NATIVE_BASELINE.step"
+      },
+      {
+        "rel": "Models/UltraLightResearch/CHANEL_ULTRALIGHT_SPOKE_RESEARCH.step",
+        "size": 1460321,
+        "url": "models/filament-spool-chanel/Models/UltraLightResearch/CHANEL_ULTRALIGHT_SPOKE_RESEARCH.step"
+      },
+      {
+        "rel": "Models/UltraLightResearch/CHANEL_ULTRALIGHT_WALL_RELIEF_RESEARCH.step",
+        "size": 1703434,
+        "url": "models/filament-spool-chanel/Models/UltraLightResearch/CHANEL_ULTRALIGHT_WALL_RELIEF_RESEARCH.step"
       },
       {
         "rel": "Notes/CAD_IMPORT_STATUS.json",
@@ -1507,14 +1596,2114 @@
         "url": "models/filament-spool-chanel/Notes/STEP_SERIALIZATION_VALIDATION.json"
       },
       {
+        "rel": "Notes/assembly_v6/README.md",
+        "size": 2508,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/README.md"
+      },
+      {
+        "rel": "Notes/assembly_v6/exact_pipe_path_poses.json",
+        "size": 1158,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/exact_pipe_path_poses.json"
+      },
+      {
+        "rel": "Notes/assembly_v6/exact_pipe_poses.json",
+        "size": 2398,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/exact_pipe_poses.json"
+      },
+      {
+        "rel": "Notes/assembly_v6/failed_visual_attempt/INCOMPLETE_SECTION_DO_NOT_USE.png",
+        "size": 177220,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/failed_visual_attempt/INCOMPLETE_SECTION_DO_NOT_USE.png"
+      },
+      {
+        "rel": "Notes/assembly_v6/failed_visual_attempt/README.txt",
+        "size": 419,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/failed_visual_attempt/README.txt"
+      },
+      {
+        "rel": "Notes/assembly_v6/full_assembly_validation.json",
+        "size": 1562,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/full_assembly_validation.json"
+      },
+      {
+        "rel": "Notes/assembly_v6/path_radial_validation.json",
+        "size": 30739,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/path_radial_validation.json"
+      },
+      {
+        "rel": "Notes/assembly_v6/radial_scan.json",
+        "size": 600785,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/radial_scan.json"
+      },
+      {
+        "rel": "Notes/assembly_v6/scripts_snapshot/exact_path_poses.py",
+        "size": 1054,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/scripts_snapshot/exact_path_poses.py"
+      },
+      {
+        "rel": "Notes/assembly_v6/scripts_snapshot/exact_pose.py",
+        "size": 1094,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/scripts_snapshot/exact_pose.py"
+      },
+      {
+        "rel": "Notes/assembly_v6/scripts_snapshot/full_assembly.py",
+        "size": 2215,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/scripts_snapshot/full_assembly.py"
+      },
+      {
+        "rel": "Notes/assembly_v6/scripts_snapshot/path_scan.py",
+        "size": 1564,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/scripts_snapshot/path_scan.py"
+      },
+      {
+        "rel": "Notes/assembly_v6/scripts_snapshot/radial_scan.py",
+        "size": 4355,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/scripts_snapshot/radial_scan.py"
+      },
+      {
+        "rel": "Notes/assembly_v6/summary.json",
+        "size": 1891,
+        "url": "models/filament-spool-chanel/Notes/assembly_v6/summary.json"
+      },
+      {
+        "rel": "Notes/chanel_official_light_validation/README.md",
+        "size": 2879,
+        "url": "models/filament-spool-chanel/Notes/chanel_official_light_validation/README.md"
+      },
+      {
+        "rel": "Notes/chanel_official_light_validation/light_parameters_variant.json",
+        "size": 632,
+        "url": "models/filament-spool-chanel/Notes/chanel_official_light_validation/light_parameters_variant.json"
+      },
+      {
+        "rel": "Notes/chanel_official_light_validation/light_preserved_regions.json",
+        "size": 2138,
+        "url": "models/filament-spool-chanel/Notes/chanel_official_light_validation/light_preserved_regions.json"
+      },
+      {
+        "rel": "Notes/chanel_official_light_validation/mesh_reports.json",
+        "size": 3981,
+        "url": "models/filament-spool-chanel/Notes/chanel_official_light_validation/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_official_light_validation/parameter_variant_mesh_validation.json",
+        "size": 342,
+        "url": "models/filament-spool-chanel/Notes/chanel_official_light_validation/parameter_variant_mesh_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_official_light_validation/parameter_variant_validation.json",
+        "size": 4643,
+        "url": "models/filament-spool-chanel/Notes/chanel_official_light_validation/parameter_variant_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_official_light_validation/slice_reports.json",
+        "size": 7605,
+        "url": "models/filament-spool-chanel/Notes/chanel_official_light_validation/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_official_light_validation/source_regenerated_validation.json",
+        "size": 4643,
+        "url": "models/filament-spool-chanel/Notes/chanel_official_light_validation/source_regenerated_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/DELIVERY_MANIFEST.json",
+        "size": 481,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/DELIVERY_MANIFEST.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/README.md",
+        "size": 3169,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/README.md"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/REPORT_SHA256.json",
+        "size": 2618,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/REPORT_SHA256.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/SUMMARY.json",
+        "size": 222,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/SUMMARY.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/FEM_INDEPENDENT_AUDIT.md",
+        "size": 4320,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/FEM_INDEPENDENT_AUDIT.md"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/REV2_FINAL_INDEPENDENT_REVIEW.md",
+        "size": 3992,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/REV2_FINAL_INDEPENDENT_REVIEW.md"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/check_ligaments.log",
+        "size": 1740,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/check_ligaments.log"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/check_ligaments.py",
+        "size": 999,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/check_ligaments.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/fem_crosscheck.json",
+        "size": 895,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/fem_crosscheck.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/manifest.json",
+        "size": 1896,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/manifest.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/mesh_reports.json",
+        "size": 4009,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/pack_and_slice.py",
+        "size": 2565,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/pack_and_slice.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/revised_ligament_samples.json",
+        "size": 2527,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/revised_ligament_samples.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/revised_slice.log",
+        "size": 320,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/revised_slice.log"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/ring_local_sections_revised.json",
+        "size": 934,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/ring_local_sections_revised.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/ring_section_revised.log",
+        "size": 827,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/ring_section_revised.log"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/ring_section_revised.py",
+        "size": 996,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/ring_section_revised.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/slice_reports.json",
+        "size": 7662,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/independent/weight_comparison_revised.json",
+        "size": 824,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/independent/weight_comparison_revised.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/mesh_reports.json",
+        "size": 4009,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/preview_revised.py",
+        "size": 1821,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/preview_revised.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/revised_protected_regions.json",
+        "size": 1918,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/revised_protected_regions.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/revised_reproduce.log",
+        "size": 386,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/revised_reproduce.log"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/revised_variant.log",
+        "size": 384,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/revised_variant.log"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/revised_variant_mesh.json",
+        "size": 236,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/revised_variant_mesh.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/slice_reports.json",
+        "size": 7662,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/source_reproduction.json",
+        "size": 132,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/source_reproduction.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/validation.json",
+        "size": 4921,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/validation.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/variant_validation.json",
+        "size": 4918,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/variant_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/verify_revised_regions.py",
+        "size": 938,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/verify_revised_regions.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_rev2/verify_revised_variant_mesh.py",
+        "size": 675,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_rev2/verify_revised_variant_mesh.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/DELIVERY_MANIFEST.json",
+        "size": 481,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/DELIVERY_MANIFEST.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/DO_NOT_PRINT.txt",
+        "size": 131,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/DO_NOT_PRINT.txt"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/README.md",
+        "size": 2736,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/README.md"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/SUMMARY.json",
+        "size": 222,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/SUMMARY.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/independent/FEM_INDEPENDENT_AUDIT.md",
+        "size": 4233,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/independent/FEM_INDEPENDENT_AUDIT.md"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/independent/fem_crosscheck.json",
+        "size": 895,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/independent/fem_crosscheck.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/independent/pack_and_slice.py",
+        "size": 2565,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/independent/pack_and_slice.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/independent/slice.log",
+        "size": 320,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/independent/slice.log"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/mesh_reports.json",
+        "size": 4010,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/preview.py",
+        "size": 1805,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/preview.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/protected_regions.json",
+        "size": 1918,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/protected_regions.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/reproduce.log",
+        "size": 385,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/reproduce.log"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/slice_reports.json",
+        "size": 7649,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/source_reproduction.json",
+        "size": 132,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/source_reproduction.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/validation.json",
+        "size": 4892,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/validation.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/variant.log",
+        "size": 386,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/variant.log"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/variant_mesh.json",
+        "size": 236,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/variant_mesh.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/variant_validation.json",
+        "size": 4892,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/variant_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/verify_regions.py",
+        "size": 922,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/verify_regions.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_trial/verify_variant_mesh.py",
+        "size": 666,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_trial/verify_variant_mesh.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/DELIVERY_MANIFEST.json",
+        "size": 499,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/DELIVERY_MANIFEST.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/FINAL_INDEPENDENT_REVIEW.md",
+        "size": 3807,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/FINAL_INDEPENDENT_REVIEW.md"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/FINAL_RESULTS.json",
+        "size": 4256,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/FINAL_RESULTS.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/INDEPENDENT_PLAN.md",
+        "size": 3905,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/INDEPENDENT_PLAN.md"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/README.md",
+        "size": 4025,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/README.md"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/REFERENCE_FEM_REPORT_119g_REV2.md",
+        "size": 3725,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/REFERENCE_FEM_REPORT_119g_REV2.md"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/REPORT_SHA256.json",
+        "size": 3370,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/REPORT_SHA256.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/gcode_mass.json",
+        "size": 15786,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/gcode_mass.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/gcode_mass.py",
+        "size": 1999,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/gcode_mass.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/long_v2/cad_validation.json",
+        "size": 1724,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_v2/cad_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/long_v2/mesh_reports.json",
+        "size": 4104,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_v2/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/long_v2/narrow_slice_result.json",
+        "size": 3979,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_v2/narrow_slice_result.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/long_v2/protected_regions.json",
+        "size": 1499,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_v2/protected_regions.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/long_v2/slice_reports.json",
+        "size": 7845,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_v2/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/long_v2/wide_slice_result.json",
+        "size": 3980,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_v2/wide_slice_result.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/long_wide_v3/cad_validation.json",
+        "size": 1723,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_wide_v3/cad_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/long_wide_v3/mesh_reports.json",
+        "size": 4114,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_wide_v3/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/long_wide_v3/narrow_slice_result.json",
+        "size": 3994,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_wide_v3/narrow_slice_result.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/long_wide_v3/protected_regions.json",
+        "size": 1499,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_wide_v3/protected_regions.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/long_wide_v3/slice_reports.json",
+        "size": 7870,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_wide_v3/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/long_wide_v3/wide_slice_result.json",
+        "size": 3990,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/long_wide_v3/wide_slice_result.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/native_wide3.log",
+        "size": 385,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/native_wide3.log"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/pack_and_slice.py",
+        "size": 2565,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/pack_and_slice.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/preview_wide3.py",
+        "size": 1765,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/preview_wide3.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/reference_provenance.json",
+        "size": 267,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/reference_provenance.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/saved_source_reproduce.log",
+        "size": 385,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/saved_source_reproduce.log"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/saved_source_validation.json",
+        "size": 5222,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/saved_source_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/short_v2/cad_validation.json",
+        "size": 1725,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/short_v2/cad_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/short_v2/mesh_reports.json",
+        "size": 4091,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/short_v2/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/short_v2/narrow_slice_result.json",
+        "size": 3987,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/short_v2/narrow_slice_result.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/short_v2/slice_reports.json",
+        "size": 7840,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/short_v2/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/short_v2/wide_slice_result.json",
+        "size": 3967,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/short_v2/wide_slice_result.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/source_reproduction.json",
+        "size": 198,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/source_reproduction.json"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/summarize.py",
+        "size": 1542,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/summarize.py"
+      },
+      {
+        "rel": "Notes/chanel_parking_A_window_light/verify_regions.py",
+        "size": 1101,
+        "url": "models/filament-spool-chanel/Notes/chanel_parking_A_window_light/verify_regions.py"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/DELIVERY_MANIFEST.json",
+        "size": 499,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/DELIVERY_MANIFEST.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/FINAL_INDEPENDENT_REVIEW.md",
+        "size": 4754,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/FINAL_INDEPENDENT_REVIEW.md"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/README.md",
+        "size": 4224,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/README.md"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/REPORT_SHA256.json",
+        "size": 4036,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/REPORT_SHA256.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/analyze_paths.py",
+        "size": 1681,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/analyze_paths.py"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/assembly_checks.json",
+        "size": 495,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/assembly_checks.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/baseline_user_auto/mesh_reports.json",
+        "size": 4105,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/baseline_user_auto/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/baseline_user_auto/narrow_slice_result.json",
+        "size": 3991,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/baseline_user_auto/narrow_slice_result.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/baseline_user_auto/slice_reports.json",
+        "size": 7858,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/baseline_user_auto/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/baseline_user_auto/wide_slice_result.json",
+        "size": 3981,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/baseline_user_auto/wide_slice_result.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/cad_validation.json",
+        "size": 1811,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/cad_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/check_envelope.py",
+        "size": 799,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/check_envelope.py"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/controlled_comparison.json",
+        "size": 286,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/controlled_comparison.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/final_project_slice_result.json",
+        "size": 6779,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/final_project_slice_result.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/pack_and_slice.py",
+        "size": 2753,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/pack_and_slice.py"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/paper_envelope.json",
+        "size": 618,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/paper_envelope.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/paths_baseline_user_auto.json",
+        "size": 14007,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/paths_baseline_user_auto.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/paths_roof_auto.json",
+        "size": 1600,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/paths_roof_auto.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/paths_roof_no_support.json",
+        "size": 1600,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/paths_roof_no_support.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/preview.py",
+        "size": 2134,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/preview.py"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/project_replace_status.json",
+        "size": 1470,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/project_replace_status.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/protected_regions.json",
+        "size": 1446,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/protected_regions.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/roof_analytic_faces.json",
+        "size": 2,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/roof_analytic_faces.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/roof_auto/mesh_reports.json",
+        "size": 4011,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/roof_auto/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/roof_auto/narrow_slice_result.json",
+        "size": 3885,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/roof_auto/narrow_slice_result.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/roof_auto/slice_reports.json",
+        "size": 7666,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/roof_auto/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/roof_auto/wide_slice_result.json",
+        "size": 3879,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/roof_auto/wide_slice_result.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/roof_geometry.py",
+        "size": 702,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/roof_geometry.py"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/roof_high_bridges.json",
+        "size": 11907,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/roof_high_bridges.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/roof_no_support/mesh_reports.json",
+        "size": 4007,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/roof_no_support/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/roof_no_support/narrow_slice_result.json",
+        "size": 3884,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/roof_no_support/narrow_slice_result.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/roof_no_support/slice_reports.json",
+        "size": 7661,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/roof_no_support/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/roof_no_support/wide_slice_result.json",
+        "size": 3875,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/roof_no_support/wide_slice_result.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/saved_source_reproduce.log",
+        "size": 385,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/saved_source_reproduce.log"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/saved_source_validation.json",
+        "size": 5354,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/saved_source_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/source_reproduction.json",
+        "size": 198,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/source_reproduction.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/user_project_settings.json",
+        "size": 52150,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/user_project_settings.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/variant.log",
+        "size": 292,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/variant.log"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/variant_mesh.json",
+        "size": 236,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/variant_mesh.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/variant_mesh.py",
+        "size": 652,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/variant_mesh.py"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/variant_validation.json",
+        "size": 1811,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/variant_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/verify.log",
+        "size": 1519,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/verify.log"
+      },
+      {
+        "rel": "Notes/chanel_selfsupport_roof/verify.py",
+        "size": 1485,
+        "url": "models/filament-spool-chanel/Notes/chanel_selfsupport_roof/verify.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/RESEARCH_PLAN.md",
+        "size": 1620,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/RESEARCH_PLAN.md"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/REVISION2.md",
+        "size": 500,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/REVISION2.md"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/check.log",
+        "size": 489,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/check.log"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/check.py",
+        "size": 705,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/check.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/INDEPENDENT_60G_FEASIBILITY.md",
+        "size": 4401,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/INDEPENDENT_60G_FEASIBILITY.md"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/REV2_CORRECTION_REVIEW.md",
+        "size": 2496,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/REV2_CORRECTION_REVIEW.md"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/REV2_FINAL_RESULTS.json",
+        "size": 5271,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/REV2_FINAL_RESULTS.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/SPOKE_FINAL_INDEPENDENT_REVIEW.md",
+        "size": 3966,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/SPOKE_FINAL_INDEPENDENT_REVIEW.md"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/analyze_paths.py",
+        "size": 1681,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/analyze_paths.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/gcode_mass.json",
+        "size": 15770,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/gcode_mass.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/gcode_mass.py",
+        "size": 1987,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/gcode_mass.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/gcode_mass_fine.json",
+        "size": 15880,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/gcode_mass_fine.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/gcode_mass_fine.py",
+        "size": 2028,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/gcode_mass_fine.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/latest_config_diff.json",
+        "size": 1928,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/latest_config_diff.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/latest_controlled_comparison.json",
+        "size": 278,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/latest_controlled_comparison.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/latest_user_settings.json",
+        "size": 58174,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/latest_user_settings.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/pack_and_slice.py",
+        "size": 2753,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/pack_and_slice.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/pack_and_slice_latest.py",
+        "size": 2818,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/pack_and_slice_latest.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_latest_baseline.json",
+        "size": 1564,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_latest_baseline.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_latest_spoke.json",
+        "size": 959,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_latest_spoke.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_latest_spoke_auto.json",
+        "size": 960,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_latest_spoke_auto.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_relief_rev2.json",
+        "size": 924,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_relief_rev2.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_relief_rev2_auto.json",
+        "size": 924,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_relief_rev2_auto.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_spoke.json",
+        "size": 959,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_spoke.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/paths_spoke_rev2.json",
+        "size": 961,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/paths_spoke_rev2.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/mesh_reports.json",
+        "size": 4004,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/narrow_result.json",
+        "size": 3874,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/slice_reports.json",
+        "size": 7648,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/wide_result.json",
+        "size": 3872,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_baseline/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/mesh_reports.json",
+        "size": 3943,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/narrow_result.json",
+        "size": 3812,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/slice_reports.json",
+        "size": 7529,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/wide_result.json",
+        "size": 3811,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/mesh_reports.json",
+        "size": 3954,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/narrow_result.json",
+        "size": 3817,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/slice_reports.json",
+        "size": 7545,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/wide_result.json",
+        "size": 3822,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_latest_spoke_auto/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/mesh_reports.json",
+        "size": 3935,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/narrow_result.json",
+        "size": 3811,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/slice_reports.json",
+        "size": 7520,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/wide_result.json",
+        "size": 3803,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/mesh_reports.json",
+        "size": 3945,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/narrow_result.json",
+        "size": 3819,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/slice_reports.json",
+        "size": 7538,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/wide_result.json",
+        "size": 3813,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_relief_rev2_auto/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke/mesh_reports.json",
+        "size": 3940,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke/narrow_result.json",
+        "size": 3795,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke/slice_reports.json",
+        "size": 7509,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke/wide_result.json",
+        "size": 3808,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/mesh_reports.json",
+        "size": 3946,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/narrow_result.json",
+        "size": 3806,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/slice_reports.json",
+        "size": 7526,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/wide_result.json",
+        "size": 3814,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/independent/slice_spoke_rev2/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/manifest.json",
+        "size": 3381,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/manifest.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/protected_regions.json",
+        "size": 609,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/protected_regions.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/saved_source_validation.json",
+        "size": 5467,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/saved_source_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/superseded_hole_pad_truncated/CHANEL_ULTRALIGHT_SPOKE_RESEARCH.step",
+        "size": 1450643,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/superseded_hole_pad_truncated/CHANEL_ULTRALIGHT_SPOKE_RESEARCH.step"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/superseded_hole_pad_truncated/manifest.json",
+        "size": 3217,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/superseded_hole_pad_truncated/manifest.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/superseded_hole_pad_truncated/validation.json",
+        "size": 5467,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/superseded_hole_pad_truncated/validation.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/validation.json",
+        "size": 5467,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/validation.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/variant_mesh.json",
+        "size": 220,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/variant_mesh.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/variant_mesh.log",
+        "size": 167,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/variant_mesh.log"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/variant_parameters.json",
+        "size": 1373,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/variant_parameters.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_spoke_research/variant_validation.json",
+        "size": 5466,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_spoke_research/variant_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/README.md",
+        "size": 2484,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/README.md"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/RESEARCH_PLAN.md",
+        "size": 1620,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/RESEARCH_PLAN.md"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/REVISION2.md",
+        "size": 500,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/REVISION2.md"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/assembly_relief.log",
+        "size": 293,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/assembly_relief.log"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/assembly_relief.py",
+        "size": 506,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/assembly_relief.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/assembly_relief_rev2.log",
+        "size": 293,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/assembly_relief_rev2.log"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/assembly_relief_rev2.py",
+        "size": 521,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/assembly_relief_rev2.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/broad_masks_initial.log",
+        "size": 1588,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/broad_masks_initial.log"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/check_relief.py",
+        "size": 1877,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/check_relief.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/check_relief_exact.log",
+        "size": 989,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/check_relief_exact.log"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/check_relief_final.log",
+        "size": 1928,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/check_relief_final.log"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/check_relief_rev2.log",
+        "size": 2592,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/check_relief_rev2.log"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/check_relief_rev2.py",
+        "size": 2259,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/check_relief_rev2.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/INDEPENDENT_60G_FEASIBILITY.md",
+        "size": 4401,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/INDEPENDENT_60G_FEASIBILITY.md"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/RELIEF_INDEPENDENT_REVIEW.md",
+        "size": 2340,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/RELIEF_INDEPENDENT_REVIEW.md"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/REV2_CORRECTION_REVIEW.md",
+        "size": 2496,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/REV2_CORRECTION_REVIEW.md"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/REV2_FINAL_RESULTS.json",
+        "size": 5271,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/REV2_FINAL_RESULTS.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/SPOKE_FINAL_INDEPENDENT_REVIEW.md",
+        "size": 3966,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/SPOKE_FINAL_INDEPENDENT_REVIEW.md"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/analyze_paths.py",
+        "size": 1681,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/analyze_paths.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass.json",
+        "size": 15770,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass.py",
+        "size": 1987,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass_fine.json",
+        "size": 15880,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass_fine.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass_fine.py",
+        "size": 2028,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/gcode_mass_fine.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/latest_config_diff.json",
+        "size": 1928,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/latest_config_diff.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/latest_controlled_comparison.json",
+        "size": 278,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/latest_controlled_comparison.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/latest_user_settings.json",
+        "size": 58174,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/latest_user_settings.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/pack_and_slice.py",
+        "size": 2753,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/pack_and_slice.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/pack_and_slice_latest.py",
+        "size": 2818,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/pack_and_slice_latest.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_latest_baseline.json",
+        "size": 1564,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_latest_baseline.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_latest_spoke.json",
+        "size": 959,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_latest_spoke.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_latest_spoke_auto.json",
+        "size": 960,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_latest_spoke_auto.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_relief.json",
+        "size": 925,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_relief.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_relief_auto.json",
+        "size": 925,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_relief_auto.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_relief_rev2.json",
+        "size": 924,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_relief_rev2.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_relief_rev2_auto.json",
+        "size": 924,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_relief_rev2_auto.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_spoke.json",
+        "size": 959,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_spoke.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/paths_spoke_rev2.json",
+        "size": 961,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/paths_spoke_rev2.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/mesh_reports.json",
+        "size": 4004,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/narrow_result.json",
+        "size": 3874,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/slice_reports.json",
+        "size": 7648,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/wide_result.json",
+        "size": 3872,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_baseline/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/mesh_reports.json",
+        "size": 3943,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/narrow_result.json",
+        "size": 3812,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/slice_reports.json",
+        "size": 7529,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/wide_result.json",
+        "size": 3811,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_latest_spoke/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/mesh_reports.json",
+        "size": 3935,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/narrow_result.json",
+        "size": 3813,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/slice_reports.json",
+        "size": 7522,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/wide_result.json",
+        "size": 3803,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/mesh_reports.json",
+        "size": 3948,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/narrow_result.json",
+        "size": 3815,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/slice_reports.json",
+        "size": 7537,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/wide_result.json",
+        "size": 3816,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_auto/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/mesh_reports.json",
+        "size": 3935,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/narrow_result.json",
+        "size": 3811,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/slice_reports.json",
+        "size": 7520,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/wide_result.json",
+        "size": 3803,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/mesh_reports.json",
+        "size": 3945,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/narrow_result.json",
+        "size": 3819,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/slice_reports.json",
+        "size": 7538,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/wide_result.json",
+        "size": 3813,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_relief_rev2_auto/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/mesh_reports.json",
+        "size": 3946,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/narrow_result.json",
+        "size": 3806,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/narrow_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/slice_reports.json",
+        "size": 7526,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/slice_reports.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/wide_result.json",
+        "size": 3814,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/independent/slice_spoke_rev2/wide_result.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/manifest.json",
+        "size": 4020,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/manifest.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_assembly_checks.json",
+        "size": 390,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_assembly_checks.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_protected_regions.json",
+        "size": 2459,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_protected_regions.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_rev2_assembly_checks.json",
+        "size": 390,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_rev2_assembly_checks.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_rev2_protected_regions.json",
+        "size": 3307,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_rev2_protected_regions.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_rev2_reproduce.log",
+        "size": 383,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_rev2_reproduce.log"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_rev2_variant_test.json",
+        "size": 755,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_rev2_variant_test.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_rev2_variant_test.log",
+        "size": 222,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_rev2_variant_test.log"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/relief_rev2_variant_test.py",
+        "size": 1152,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/relief_rev2_variant_test.py"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/saved_source_rev2_validation.json",
+        "size": 5949,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/saved_source_rev2_validation.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/status.json",
+        "size": 372,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/status.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/superseded_hole_pad_truncated/CHANEL_ULTRALIGHT_WALL_RELIEF_RESEARCH.step",
+        "size": 1693751,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/superseded_hole_pad_truncated/CHANEL_ULTRALIGHT_WALL_RELIEF_RESEARCH.step"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/superseded_hole_pad_truncated/validation.json",
+        "size": 6073,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/superseded_hole_pad_truncated/validation.json"
+      },
+      {
+        "rel": "Notes/chanel_ultralight_wall_relief_research/validation.json",
+        "size": 5949,
+        "url": "models/filament-spool-chanel/Notes/chanel_ultralight_wall_relief_research/validation.json"
+      },
+      {
+        "rel": "Notes/cleanup_105g.json",
+        "size": 569,
+        "url": "models/filament-spool-chanel/Notes/cleanup_105g.json"
+      },
+      {
+        "rel": "Notes/cleanup_latest_manifest.json",
+        "size": 37597,
+        "url": "models/filament-spool-chanel/Notes/cleanup_latest_manifest.json"
+      },
+      {
         "rel": "Notes/design_validation.json",
         "size": 1470,
         "url": "models/filament-spool-chanel/Notes/design_validation.json"
       },
       {
+        "rel": "Notes/hole_geometry_audit_105g/README.md",
+        "size": 2906,
+        "url": "models/filament-spool-chanel/Notes/hole_geometry_audit_105g/README.md"
+      },
+      {
+        "rel": "Notes/hole_geometry_audit_105g/manifest.json",
+        "size": 655,
+        "url": "models/filament-spool-chanel/Notes/hole_geometry_audit_105g/manifest.json"
+      },
+      {
+        "rel": "Notes/hole_geometry_audit_105g/measure.py",
+        "size": 2655,
+        "url": "models/filament-spool-chanel/Notes/hole_geometry_audit_105g/measure.py"
+      },
+      {
+        "rel": "Notes/hole_geometry_audit_105g/measurements.json",
+        "size": 23337,
+        "url": "models/filament-spool-chanel/Notes/hole_geometry_audit_105g/measurements.json"
+      },
+      {
+        "rel": "Notes/hole_geometry_audit_105g/official_wiki/README.md",
+        "size": 2433,
+        "url": "models/filament-spool-chanel/Notes/hole_geometry_audit_105g/official_wiki/README.md"
+      },
+      {
+        "rel": "Notes/hole_geometry_audit_105g/official_wiki/bands.json",
+        "size": 30698,
+        "url": "models/filament-spool-chanel/Notes/hole_geometry_audit_105g/official_wiki/bands.json"
+      },
+      {
+        "rel": "Notes/hole_geometry_audit_105g/official_wiki/bands.py",
+        "size": 1318,
+        "url": "models/filament-spool-chanel/Notes/hole_geometry_audit_105g/official_wiki/bands.py"
+      },
+      {
+        "rel": "Notes/hole_geometry_audit_105g/official_wiki/measure.py",
+        "size": 1012,
+        "url": "models/filament-spool-chanel/Notes/hole_geometry_audit_105g/official_wiki/measure.py"
+      },
+      {
+        "rel": "Notes/hole_geometry_audit_105g/official_wiki/measurements.json",
+        "size": 10797,
+        "url": "models/filament-spool-chanel/Notes/hole_geometry_audit_105g/official_wiki/measurements.json"
+      },
+      {
+        "rel": "Notes/hole_geometry_audit_105g/original_radial_bands.json",
+        "size": 19647,
+        "url": "models/filament-spool-chanel/Notes/hole_geometry_audit_105g/original_radial_bands.json"
+      },
+      {
+        "rel": "Notes/hole_geometry_audit_105g/original_radial_bands.py",
+        "size": 1100,
+        "url": "models/filament-spool-chanel/Notes/hole_geometry_audit_105g/original_radial_bands.py"
+      },
+      {
         "rel": "Notes/hole_profiles.json",
         "size": 16253,
         "url": "models/filament-spool-chanel/Notes/hole_profiles.json"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/STATUS.md",
+        "size": 1350,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/STATUS.md"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/SUPERSEDED.txt",
+        "size": 153,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/SUPERSEDED.txt"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/boss_scan.json",
+        "size": 785584,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/boss_scan.json"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/boss_scan.py",
+        "size": 1099,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/boss_scan.py"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/check_flange.py",
+        "size": 2840,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/check_flange.py"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/check_key.py",
+        "size": 727,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/check_key.py"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/check_narrow_full.py",
+        "size": 1368,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/check_narrow_full.py"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/disc_measure.py",
+        "size": 1055,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/disc_measure.py"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/disc_measurements.json",
+        "size": 23873,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/disc_measurements.json"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/flange_section_validation.json",
+        "size": 5214,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/flange_section_validation.json"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/flange_validation.json",
+        "size": 208,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/flange_validation.json"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/key_validation.json",
+        "size": 1179,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/key_validation.json"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/narrow_full_sections.json",
+        "size": 4702,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/narrow_full_sections.json"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/radial.json",
+        "size": 3890,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/radial.json"
+      },
+      {
+        "rel": "Notes/official_baseline_wip/radial.py",
+        "size": 835,
+        "url": "models/filament-spool-chanel/Notes/official_baseline_wip/radial.py"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/DELIVERY_MANIFEST.json",
+        "size": 530,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/DELIVERY_MANIFEST.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/OFFICIAL_STL_ASSEMBLY.md",
+        "size": 2384,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/OFFICIAL_STL_ASSEMBLY.md"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/README.md",
+        "size": 2879,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/README.md"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/REPORT_SHA256.json",
+        "size": 3149,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/REPORT_SHA256.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/assembly_check.py",
+        "size": 696,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/assembly_check.py"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/assembly_path.json",
+        "size": 5519,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/assembly_path.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/assembly_path.py",
+        "size": 820,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/assembly_path.py"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/assembly_poses.json",
+        "size": 1563,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/assembly_poses.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/assembly_scan.json",
+        "size": 28178,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/assembly_scan.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/assembly_scan.py",
+        "size": 604,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/assembly_scan.py"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/check_light_preserved.py",
+        "size": 1061,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/check_light_preserved.py"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/final_archive.py",
+        "size": 6940,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/final_archive.py"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/flange_section_validation.json",
+        "size": 5214,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/flange_section_validation.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/hub_parameter_native_tests.json",
+        "size": 436,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/hub_parameter_native_tests.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/key_validation.json",
+        "size": 1179,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/key_validation.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/mesh_reports.json",
+        "size": 3907,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/mesh_reports.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/narrow_full_sections.json",
+        "size": 4702,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/narrow_full_sections.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/narrow_lock_validation.json",
+        "size": 1409,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/narrow_lock_validation.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/nominal_circle_validation.json",
+        "size": 1537,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/nominal_circle_validation.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/official_assembly_overlap.json",
+        "size": 41698,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/official_assembly_overlap.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/official_assembly_overlap.py",
+        "size": 2757,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/official_assembly_overlap.py"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/official_assembly_overlap_extra.json",
+        "size": 18194,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/official_assembly_overlap_extra.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/official_assembly_overlap_extra.py",
+        "size": 2717,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/official_assembly_overlap_extra.py"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/pack_and_slice.py",
+        "size": 2565,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/pack_and_slice.py"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/parameter_variant_mesh_validation.json",
+        "size": 342,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/parameter_variant_mesh_validation.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/parameter_variant_validation.json",
+        "size": 4737,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/parameter_variant_validation.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/parameters_variant_full.json",
+        "size": 2892,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/parameters_variant_full.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/slice_reports.json",
+        "size": 7460,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/slice_reports.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/source_regenerated_validation.json",
+        "size": 4737,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/source_regenerated_validation.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/source_reproduction.json",
+        "size": 432,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/source_reproduction.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/verify_light_variant.py",
+        "size": 791,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/verify_light_variant.py"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/wide_marker_validation.json",
+        "size": 698,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/wide_marker_validation.json"
+      },
+      {
+        "rel": "Notes/official_parametric_validation/wide_nominal_full_sections.json",
+        "size": 7574,
+        "url": "models/filament-spool-chanel/Notes/official_parametric_validation/wide_nominal_full_sections.json"
+      },
+      {
+        "rel": "Notes/parametric_v4_constant_guide_check.json",
+        "size": 7112,
+        "url": "models/filament-spool-chanel/Notes/parametric_v4_constant_guide_check.json"
+      },
+      {
+        "rel": "Notes/parametric_v4_final_interface_check.json",
+        "size": 1927,
+        "url": "models/filament-spool-chanel/Notes/parametric_v4_final_interface_check.json"
+      },
+      {
+        "rel": "Notes/parametric_v4_validation.json",
+        "size": 4650,
+        "url": "models/filament-spool-chanel/Notes/parametric_v4_validation.json"
+      },
+      {
+        "rel": "Notes/parametric_v5/TEST_PLAN.txt",
+        "size": 2730,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/TEST_PLAN.txt"
+      },
+      {
+        "rel": "Notes/parametric_v5/audit_scripts_snapshot/README.txt",
+        "size": 266,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/audit_scripts_snapshot/README.txt"
+      },
+      {
+        "rel": "Notes/parametric_v5/audit_scripts_snapshot/baseline.py",
+        "size": 965,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/audit_scripts_snapshot/baseline.py"
+      },
+      {
+        "rel": "Notes/parametric_v5/audit_scripts_snapshot/check_variant.py",
+        "size": 1425,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/audit_scripts_snapshot/check_variant.py"
+      },
+      {
+        "rel": "Notes/parametric_v5/audit_scripts_snapshot/component_tests.py",
+        "size": 3071,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/audit_scripts_snapshot/component_tests.py"
+      },
+      {
+        "rel": "Notes/parametric_v5/audit_scripts_snapshot/independent_reimport.py",
+        "size": 669,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/audit_scripts_snapshot/independent_reimport.py"
+      },
+      {
+        "rel": "Notes/parametric_v5/components.json",
+        "size": 4812,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/components.json"
+      },
+      {
+        "rel": "Notes/parametric_v5/default_validation.json",
+        "size": 2055,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/default_validation.json"
+      },
+      {
+        "rel": "Notes/parametric_v5/independent_step_readback.json",
+        "size": 515,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/independent_step_readback.json"
+      },
+      {
+        "rel": "Notes/parametric_v5/lock_dimension_test_validation.json",
+        "size": 2070,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/lock_dimension_test_validation.json"
+      },
+      {
+        "rel": "Notes/parametric_v5/step_entity_counts.json",
+        "size": 242,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/step_entity_counts.json"
+      },
+      {
+        "rel": "Notes/parametric_v5/summary.json",
+        "size": 2028,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/summary.json"
+      },
+      {
+        "rel": "Notes/parametric_v5/thick_print_test_validation.json",
+        "size": 2071,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/thick_print_test_validation.json"
+      },
+      {
+        "rel": "Notes/parametric_v5/thick_variant_independent.json",
+        "size": 881,
+        "url": "models/filament-spool-chanel/Notes/parametric_v5/thick_variant_independent.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/README.md",
+        "size": 1494,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/README.md"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/default_build_validation.json",
+        "size": 2056,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/default_build_validation.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_base_reference_sections.json",
+        "size": 18974,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_base_reference_sections.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/README.md",
+        "size": 1877,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/README.md"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/RESEARCH_STATUS.txt",
+        "size": 2127,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/RESEARCH_STATUS.txt"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/assembly_kinematics/README.md",
+        "size": 1815,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/assembly_kinematics/README.md"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/assembly_kinematics/angular_features.json",
+        "size": 9363,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/assembly_kinematics/angular_features.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/assembly_kinematics/angular_features.log",
+        "size": 4288,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/assembly_kinematics/angular_features.log"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/assembly_kinematics/angular_features.py",
+        "size": 1268,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/assembly_kinematics/angular_features.py"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/assembly_kinematics/manifest.json",
+        "size": 646,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/assembly_kinematics/manifest.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/assembly_kinematics/retention_probe.json",
+        "size": 33331,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/assembly_kinematics/retention_probe.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/assembly_kinematics/retention_probe.log",
+        "size": 1319,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/assembly_kinematics/retention_probe.log"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/assembly_kinematics/retention_probe.py",
+        "size": 1510,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/assembly_kinematics/retention_probe.py"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/check_replacement.log",
+        "size": 837,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/check_replacement.log"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/constant_band_validation.json",
+        "size": 9353,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/constant_band_validation.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/final_export_check_manifest.json",
+        "size": 605,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/final_export_check_manifest.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/final_export_independent_readback.json",
+        "size": 2613,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/final_export_independent_readback.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/final_step_check.log",
+        "size": 3452,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/final_step_check.log"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/final_step_check.py",
+        "size": 2399,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/final_step_check.py"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/manifest.json",
+        "size": 1897,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/manifest.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/plateau_scan.json",
+        "size": 15778,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/plateau_scan.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/probe_narrow_nominal.log",
+        "size": 127,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/probe_narrow_nominal.log"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/probe_narrow_nominal.py",
+        "size": 819,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/probe_narrow_nominal.py"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/reordered.log",
+        "size": 279,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/reordered.log"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/replace.log",
+        "size": 1260,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/replace.log"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/replace_pipe.log",
+        "size": 600,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/replace_pipe.log"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/v6_parameter_audit.json",
+        "size": 2243,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/v6_parameter_audit.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/validate_bases_snapshot.py",
+        "size": 1442,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/validate_bases_snapshot.py"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/independent_research/wide_reordered_report.json",
+        "size": 264,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/independent_research/wide_reordered_report.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/lock_dimension_test_validation.json",
+        "size": 2071,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/lock_dimension_test_validation.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/step_entity_counts.json",
+        "size": 211,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/step_entity_counts.json"
+      },
+      {
+        "rel": "Notes/parametric_v6_candidate/summary.json",
+        "size": 3199,
+        "url": "models/filament-spool-chanel/Notes/parametric_v6_candidate/summary.json"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/README.md",
+        "size": 2387,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/README.md"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/check.log",
+        "size": 877,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/check.log"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/check.py",
+        "size": 1090,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/check.py"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/overhang.py",
+        "size": 1019,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/overhang.py"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/overhang_paths.json",
+        "size": 21264,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/overhang_paths.json"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/report.json",
+        "size": 843,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/report.json"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/slice_studio.py",
+        "size": 1611,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/slice_studio.py"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/studio_slice_0.log",
+        "size": 154,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/studio_slice_0.log"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/studio_slice_1.log",
+        "size": 154,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/studio_slice_1.log"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/studio_slice_results.json",
+        "size": 8006,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/studio_slice_results.json"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/two_plate_package/README.md",
+        "size": 1025,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/two_plate_package/README.md"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/two_plate_package/manual_plates.py",
+        "size": 1225,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/two_plate_package/manual_plates.py"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/two_plate_package/run6.log",
+        "size": 0,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/two_plate_package/run6.log"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/two_plate_package/slicing_result.json",
+        "size": 7319,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/two_plate_package/slicing_result.json"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/two_plate_package/validate.py",
+        "size": 1630,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/two_plate_package/validate.py"
+      },
+      {
+        "rel": "Notes/preprint_105g_mesh_audit/two_plate_package/validation.json",
+        "size": 1938,
+        "url": "models/filament-spool-chanel/Notes/preprint_105g_mesh_audit/two_plate_package/validation.json"
       },
       {
         "rel": "Notes/repair_audit.json",
@@ -1532,9 +3721,339 @@
         "url": "models/filament-spool-chanel/Notes/stitch_audit.json"
       },
       {
-        "rel": "README.md",
+        "rel": "Notes/weight_trials_v5/R38_5_CAD_validation.json",
+        "size": 2053,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/R38_5_CAD_validation.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/R38_5_parameters.json",
+        "size": 767,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/R38_5_parameters.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/R38_5_skin04_CAD_validation.json",
+        "size": 2053,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/R38_5_skin04_CAD_validation.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/R38_5_skin04_parameters.json",
+        "size": 767,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/R38_5_skin04_parameters.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/README.md",
+        "size": 1725,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/README.md"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/component_volumes.json",
+        "size": 750,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/component_volumes.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/geometric_risks.json",
+        "size": 632,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/geometric_risks.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/geometry_summary.json",
+        "size": 1059,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/geometry_summary.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/README.md",
+        "size": 2179,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/README.md"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/audit_backup.py",
+        "size": 1884,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/audit_backup.py"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/boundary_gap_proximity.json",
+        "size": 1114,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/boundary_gap_proximity.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/check_outerwall_geometry.py",
+        "size": 2326,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/check_outerwall_geometry.py"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/component_check.json",
+        "size": 191,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/component_check.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/gap_distance.py",
+        "size": 1213,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/gap_distance.py"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/local_seam_repair.py",
+        "size": 3206,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/local_seam_repair.py"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/local_seam_repair_report.json",
+        "size": 3746,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/local_seam_repair_report.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/lock_outerwall_geometry_comparison.json",
+        "size": 2787,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/lock_outerwall_geometry_comparison.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/manifest.json",
+        "size": 2009,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/manifest.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/repair_independent_checks.json",
+        "size": 1427,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/repair_independent_checks.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/slice_repair.log",
+        "size": 250,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/slice_repair.log"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/slice_repair.py",
+        "size": 2032,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/slice_repair.py"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/step_audit.json",
+        "size": 423,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/step_audit.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/studio_mesh_audit.json",
+        "size": 3382,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/studio_mesh_audit.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_mesh_repair/verify_repair.py",
+        "size": 1825,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_mesh_repair/verify_repair.py"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/README.md",
+        "size": 2424,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/README.md"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/final_candidate_support_breakdown.json",
+        "size": 1684,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/final_candidate_support_breakdown.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/final_geometry_slices.log",
+        "size": 757,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/final_geometry_slices.log"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/final_nonmodel.py",
+        "size": 1361,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/final_nonmodel.py"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/final_summary.py",
+        "size": 3695,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/final_summary.py"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/final_weight_comparison.json",
+        "size": 15353,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/final_weight_comparison.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/height_mass_breakdown.json",
+        "size": 399,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/height_mass_breakdown.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/manifest.json",
+        "size": 2003,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/manifest.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/narrow_geometry.json",
+        "size": 324,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/narrow_geometry.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/pack_brep.py",
+        "size": 1516,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/pack_brep.py"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/paired_settings_results.json",
+        "size": 7103,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/paired_settings_results.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/run_final_geometry.py",
+        "size": 855,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/run_final_geometry.py"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/run_variants.py",
+        "size": 1376,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/run_variants.py"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/slice_candidate.py",
+        "size": 1253,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/slice_candidate.py"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/summarize.py",
+        "size": 1740,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/summarize.py"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/independent_slicing/wide_retess_geometry.json",
+        "size": 325,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/independent_slicing/wide_retess_geometry.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/original_lower_skin04_CAD_validation.json",
+        "size": 2054,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/original_lower_skin04_CAD_validation.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/original_lower_skin04_parameters.json",
+        "size": 767,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/original_lower_skin04_parameters.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/preferred_trial_summary.json",
+        "size": 1186,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/preferred_trial_summary.json"
+      },
+      {
+        "rel": "Notes/weight_trials_v5/protected_interfaces.json",
+        "size": 1564,
+        "url": "models/filament-spool-chanel/Notes/weight_trials_v5/protected_interfaces.json"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/ASSEMBLY_AND_PAPER_CORE_EVIDENCE.md",
+        "size": 4782,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/ASSEMBLY_AND_PAPER_CORE_EVIDENCE.md"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/DELIVERY_MANIFEST.json",
+        "size": 819,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/DELIVERY_MANIFEST.json"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/README.md",
+        "size": 4166,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/README.md"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/REFERENCE_OFFICIAL_STL_ASSEMBLY.md",
+        "size": 2384,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/REFERENCE_OFFICIAL_STL_ASSEMBLY.md"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/REFERENCE_official_assembly_overlap.json",
+        "size": 41698,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/REFERENCE_official_assembly_overlap.json"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/REFERENCE_official_assembly_overlap_extra.json",
+        "size": 18194,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/REFERENCE_official_assembly_overlap_extra.json"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/REPORT_SHA256.json",
+        "size": 1297,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/REPORT_SHA256.json"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/assembly.log",
+        "size": 27224,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/assembly.log"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/assembly_results.json",
+        "size": 40514,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/assembly_results.json"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/paper_core_support_geometry.json",
+        "size": 625,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/paper_core_support_geometry.json"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/paper_template_validation.log",
+        "size": 1130,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/paper_template_validation.log"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/path_results.csv",
         "size": 3847,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/path_results.csv"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/refill_install.html",
+        "size": 115143,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/refill_install.html"
+      },
+      {
+        "rel": "Notes/window_spool_assembly/refill_install.txt",
+        "size": 2956,
+        "url": "models/filament-spool-chanel/Notes/window_spool_assembly/refill_install.txt"
+      },
+      {
+        "rel": "README.md",
+        "size": 6164,
         "url": "models/filament-spool-chanel/README.md"
+      },
+      {
+        "rel": "Source/CHANEL_PARKING_A_WINDOW_PARAMETRIC_SOURCE.zip",
+        "size": 34703,
+        "url": "models/filament-spool-chanel/Source/CHANEL_PARKING_A_WINDOW_PARAMETRIC_SOURCE.zip"
+      },
+      {
+        "rel": "Source/CHANEL_SELF_SUPPORT_ROOF_PARAMETRIC_SOURCE.zip",
+        "size": 33785,
+        "url": "models/filament-spool-chanel/Source/CHANEL_SELF_SUPPORT_ROOF_PARAMETRIC_SOURCE.zip"
+      },
+      {
+        "rel": "Source/CHANEL_ULTRALIGHT_SPOKE_RESEARCH_SOURCE.zip",
+        "size": 25259,
+        "url": "models/filament-spool-chanel/Source/CHANEL_ULTRALIGHT_SPOKE_RESEARCH_SOURCE.zip"
+      },
+      {
+        "rel": "Source/CHANEL_ULTRALIGHT_WALL_RELIEF_RESEARCH_SOURCE.zip",
+        "size": 28410,
+        "url": "models/filament-spool-chanel/Source/CHANEL_ULTRALIGHT_WALL_RELIEF_RESEARCH_SOURCE.zip"
+      },
+      {
+        "rel": "Source/WINDOW_SPOOL_ASSEMBLY_REPRODUCTION.zip",
+        "size": 8346,
+        "url": "models/filament-spool-chanel/Source/WINDOW_SPOOL_ASSEMBLY_REPRODUCTION.zip"
+      },
+      {
+        "rel": "Source/assembly_v6/README.md",
+        "size": 952,
+        "url": "models/filament-spool-chanel/Source/assembly_v6/README.md"
+      },
+      {
+        "rel": "Source/assembly_v6/path_visual_snapshot.py",
+        "size": 2781,
+        "url": "models/filament-spool-chanel/Source/assembly_v6/path_visual_snapshot.py"
+      },
+      {
+        "rel": "Source/assembly_v6/reproduce_assembly.py",
+        "size": 2211,
+        "url": "models/filament-spool-chanel/Source/assembly_v6/reproduce_assembly.py"
       },
       {
         "rel": "Source/build_official.py",
@@ -1545,6 +4064,531 @@
         "rel": "Source/chanel_motif.py",
         "size": 1867,
         "url": "models/filament-spool-chanel/Source/chanel_motif.py"
+      },
+      {
+        "rel": "Source/chanel_official_light/HUB_README.md",
+        "size": 4471,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/HUB_README.md"
+      },
+      {
+        "rel": "Source/chanel_official_light/NARROW_LOCK_README.md",
+        "size": 2601,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/NARROW_LOCK_README.md"
+      },
+      {
+        "rel": "Source/chanel_official_light/README.md",
+        "size": 2249,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/README.md"
+      },
+      {
+        "rel": "Source/chanel_official_light/WIDE_MARKER_README.md",
+        "size": 1950,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/WIDE_MARKER_README.md"
+      },
+      {
+        "rel": "Source/chanel_official_light/build_light.py",
+        "size": 1930,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/build_light.py"
+      },
+      {
+        "rel": "Source/chanel_official_light/build_official.py",
+        "size": 3600,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/build_official.py"
+      },
+      {
+        "rel": "Source/chanel_official_light/light_flange.py",
+        "size": 3067,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/light_flange.py"
+      },
+      {
+        "rel": "Source/chanel_official_light/light_motif.py",
+        "size": 1981,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/light_motif.py"
+      },
+      {
+        "rel": "Source/chanel_official_light/light_parameters.json",
+        "size": 632,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/light_parameters.json"
+      },
+      {
+        "rel": "Source/chanel_official_light/narrow_lock.py",
+        "size": 3543,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/narrow_lock.py"
+      },
+      {
+        "rel": "Source/chanel_official_light/official_flange.py",
+        "size": 4717,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/official_flange.py"
+      },
+      {
+        "rel": "Source/chanel_official_light/official_hub.py",
+        "size": 4822,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/official_hub.py"
+      },
+      {
+        "rel": "Source/chanel_official_light/official_key.py",
+        "size": 1933,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/official_key.py"
+      },
+      {
+        "rel": "Source/chanel_official_light/parameters.json",
+        "size": 2892,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/parameters.json"
+      },
+      {
+        "rel": "Source/chanel_official_light/requirements.txt",
+        "size": 38,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/requirements.txt"
+      },
+      {
+        "rel": "Source/chanel_official_light/wide_cap_planes.json",
+        "size": 748,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/wide_cap_planes.json"
+      },
+      {
+        "rel": "Source/chanel_official_light/wide_lock.py",
+        "size": 3224,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/wide_lock.py"
+      },
+      {
+        "rel": "Source/chanel_official_light/wide_lock_sketches.json",
+        "size": 33355,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/wide_lock_sketches.json"
+      },
+      {
+        "rel": "Source/chanel_official_light/wide_marker.py",
+        "size": 2092,
+        "url": "models/filament-spool-chanel/Source/chanel_official_light/wide_marker.py"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/HUB_README.md",
+        "size": 4471,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/HUB_README.md"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/NARROW_LOCK_README.md",
+        "size": 2601,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/NARROW_LOCK_README.md"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/README.md",
+        "size": 4025,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/README.md"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/WIDE_MARKER_README.md",
+        "size": 1950,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/WIDE_MARKER_README.md"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/build_light.py",
+        "size": 2094,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/build_light.py"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/build_official.py",
+        "size": 3600,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/build_official.py"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/hub_windows.py",
+        "size": 2217,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/hub_windows.py"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/light_flange.py",
+        "size": 3353,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/light_flange.py"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/light_motif.py",
+        "size": 1981,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/light_motif.py"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/light_parameters.json",
+        "size": 1143,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/light_parameters.json"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/long_wide_windows.json",
+        "size": 1143,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/long_wide_windows.json"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/long_windows.json",
+        "size": 1143,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/long_windows.json"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/narrow_lock.py",
+        "size": 3543,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/narrow_lock.py"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/official_flange.py",
+        "size": 4717,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/official_flange.py"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/official_hub.py",
+        "size": 4822,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/official_hub.py"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/official_key.py",
+        "size": 1933,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/official_key.py"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/parameters.json",
+        "size": 2892,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/parameters.json"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/parking_slot.py",
+        "size": 2208,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/parking_slot.py"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/requirements.txt",
+        "size": 38,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/requirements.txt"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/short_windows.json",
+        "size": 1143,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/short_windows.json"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/variant.json",
+        "size": 1143,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/variant.json"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/wide_cap_planes.json",
+        "size": 748,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/wide_cap_planes.json"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/wide_lock.py",
+        "size": 3224,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/wide_lock.py"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/wide_lock_sketches.json",
+        "size": 33355,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/wide_lock_sketches.json"
+      },
+      {
+        "rel": "Source/chanel_parking_A_window_light/wide_marker.py",
+        "size": 2092,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_A_window_light/wide_marker.py"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/HUB_README.md",
+        "size": 4471,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/HUB_README.md"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/NARROW_LOCK_README.md",
+        "size": 2601,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/NARROW_LOCK_README.md"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/README.md",
+        "size": 4224,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/README.md"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/WIDE_MARKER_README.md",
+        "size": 1950,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/WIDE_MARKER_README.md"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/build_light.py",
+        "size": 2099,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/build_light.py"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/build_official.py",
+        "size": 3600,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/build_official.py"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/hub_windows.py",
+        "size": 3696,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/hub_windows.py"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/light_flange.py",
+        "size": 3353,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/light_flange.py"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/light_motif.py",
+        "size": 1981,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/light_motif.py"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/light_parameters.json",
+        "size": 1267,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/light_parameters.json"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/narrow_lock.py",
+        "size": 3543,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/narrow_lock.py"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/official_flange.py",
+        "size": 4717,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/official_flange.py"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/official_hub.py",
+        "size": 4822,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/official_hub.py"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/official_key.py",
+        "size": 1933,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/official_key.py"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/parameters.json",
+        "size": 2892,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/parameters.json"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/parking_slot.py",
+        "size": 2208,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/parking_slot.py"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/requirements.txt",
+        "size": 38,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/requirements.txt"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/variant.json",
+        "size": 1267,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/variant.json"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/wide_cap_planes.json",
+        "size": 748,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/wide_cap_planes.json"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/wide_lock.py",
+        "size": 3224,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/wide_lock.py"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/wide_lock_sketches.json",
+        "size": 33355,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/wide_lock_sketches.json"
+      },
+      {
+        "rel": "Source/chanel_parking_selfsupport_roof/wide_marker.py",
+        "size": 2092,
+        "url": "models/filament-spool-chanel/Source/chanel_parking_selfsupport_roof/wide_marker.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/README.md",
+        "size": 760,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/README.md"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/build_light.py",
+        "size": 2091,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/build_light.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/build_official.py",
+        "size": 3600,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/build_official.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/flange_previous.py",
+        "size": 3353,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/flange_previous.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/hub_windows.py",
+        "size": 3696,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/hub_windows.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/light_flange.py",
+        "size": 2368,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/light_flange.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/light_motif.py",
+        "size": 1981,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/light_motif.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/light_parameters.json",
+        "size": 1373,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/light_parameters.json"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/narrow_lock.py",
+        "size": 3543,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/narrow_lock.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/official_flange.py",
+        "size": 4717,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/official_flange.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/official_hub.py",
+        "size": 4822,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/official_hub.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/official_key.py",
+        "size": 1933,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/official_key.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/parameters.json",
+        "size": 2892,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/parameters.json"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/parking_slot.py",
+        "size": 2208,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/parking_slot.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/wide_cap_planes.json",
+        "size": 748,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/wide_cap_planes.json"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/wide_lock.py",
+        "size": 3224,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/wide_lock.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/wide_lock_sketches.json",
+        "size": 33355,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/wide_lock_sketches.json"
+      },
+      {
+        "rel": "Source/chanel_ultralight_spoke_research/wide_marker.py",
+        "size": 2092,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_spoke_research/wide_marker.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/README.md",
+        "size": 730,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/README.md"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/build_light.py",
+        "size": 2091,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/build_light.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/build_official.py",
+        "size": 3600,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/build_official.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/build_relief.py",
+        "size": 2210,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/build_relief.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/center_relief.py",
+        "size": 2518,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/center_relief.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/flange_previous.py",
+        "size": 3353,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/flange_previous.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/hub_windows.py",
+        "size": 3696,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/hub_windows.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/light_flange.py",
+        "size": 2368,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/light_flange.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/light_motif.py",
+        "size": 1981,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/light_motif.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/light_parameters.json",
+        "size": 1373,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/light_parameters.json"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/narrow_lock.py",
+        "size": 3543,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/narrow_lock.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/official_flange.py",
+        "size": 4717,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/official_flange.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/official_hub.py",
+        "size": 4822,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/official_hub.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/official_key.py",
+        "size": 1933,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/official_key.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/parameters.json",
+        "size": 2892,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/parameters.json"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/parking_slot.py",
+        "size": 2208,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/parking_slot.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/relief.json",
+        "size": 1791,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/relief.json"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/wide_cap_planes.json",
+        "size": 748,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/wide_cap_planes.json"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/wide_lock.py",
+        "size": 3224,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/wide_lock.py"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/wide_lock_sketches.json",
+        "size": 33355,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/wide_lock_sketches.json"
+      },
+      {
+        "rel": "Source/chanel_ultralight_wall_relief_research/wide_marker.py",
+        "size": 2092,
+        "url": "models/filament-spool-chanel/Source/chanel_ultralight_wall_relief_research/wide_marker.py"
       },
       {
         "rel": "Source/check_hole_profiles.py",
@@ -1577,6 +4621,371 @@
         "url": "models/filament-spool-chanel/Source/normalize_source.py"
       },
       {
+        "rel": "Source/official_baseline/HUB_README.md",
+        "size": 4471,
+        "url": "models/filament-spool-chanel/Source/official_baseline/HUB_README.md"
+      },
+      {
+        "rel": "Source/official_baseline/NARROW_LOCK_README.md",
+        "size": 2601,
+        "url": "models/filament-spool-chanel/Source/official_baseline/NARROW_LOCK_README.md"
+      },
+      {
+        "rel": "Source/official_baseline/README.md",
+        "size": 1794,
+        "url": "models/filament-spool-chanel/Source/official_baseline/README.md"
+      },
+      {
+        "rel": "Source/official_baseline/WIDE_MARKER_README.md",
+        "size": 1950,
+        "url": "models/filament-spool-chanel/Source/official_baseline/WIDE_MARKER_README.md"
+      },
+      {
+        "rel": "Source/official_baseline/build_official.py",
+        "size": 3600,
+        "url": "models/filament-spool-chanel/Source/official_baseline/build_official.py"
+      },
+      {
+        "rel": "Source/official_baseline/narrow_lock.py",
+        "size": 3543,
+        "url": "models/filament-spool-chanel/Source/official_baseline/narrow_lock.py"
+      },
+      {
+        "rel": "Source/official_baseline/official_flange.py",
+        "size": 4717,
+        "url": "models/filament-spool-chanel/Source/official_baseline/official_flange.py"
+      },
+      {
+        "rel": "Source/official_baseline/official_hub.py",
+        "size": 4822,
+        "url": "models/filament-spool-chanel/Source/official_baseline/official_hub.py"
+      },
+      {
+        "rel": "Source/official_baseline/official_key.py",
+        "size": 1933,
+        "url": "models/filament-spool-chanel/Source/official_baseline/official_key.py"
+      },
+      {
+        "rel": "Source/official_baseline/parameters.json",
+        "size": 2892,
+        "url": "models/filament-spool-chanel/Source/official_baseline/parameters.json"
+      },
+      {
+        "rel": "Source/official_baseline/requirements.txt",
+        "size": 38,
+        "url": "models/filament-spool-chanel/Source/official_baseline/requirements.txt"
+      },
+      {
+        "rel": "Source/official_baseline/wide_cap_planes.json",
+        "size": 748,
+        "url": "models/filament-spool-chanel/Source/official_baseline/wide_cap_planes.json"
+      },
+      {
+        "rel": "Source/official_baseline/wide_lock.py",
+        "size": 3224,
+        "url": "models/filament-spool-chanel/Source/official_baseline/wide_lock.py"
+      },
+      {
+        "rel": "Source/official_baseline/wide_lock_sketches.json",
+        "size": 33355,
+        "url": "models/filament-spool-chanel/Source/official_baseline/wide_lock_sketches.json"
+      },
+      {
+        "rel": "Source/official_baseline/wide_marker.py",
+        "size": 2092,
+        "url": "models/filament-spool-chanel/Source/official_baseline/wide_marker.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/README.md",
+        "size": 1656,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/README.md"
+      },
+      {
+        "rel": "Source/parametric_rebuild/STAGE_REPORT_before_completion.json",
+        "size": 1316,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/STAGE_REPORT_before_completion.json"
+      },
+      {
+        "rel": "Source/parametric_rebuild/STATUS.md",
+        "size": 620,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/STATUS.md"
+      },
+      {
+        "rel": "Source/parametric_rebuild/build.py",
+        "size": 2292,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/build.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/build_lock_pipes.py",
+        "size": 2821,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/build_lock_pipes.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/checkpoints/2026-11-18_validated_native_segments.zip",
+        "size": 5101941,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/checkpoints/2026-11-18_validated_native_segments.zip"
+      },
+      {
+        "rel": "Source/parametric_rebuild/flange_validation.json",
+        "size": 172,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/flange_validation.json"
+      },
+      {
+        "rel": "Source/parametric_rebuild/narrow_segment_validation.json",
+        "size": 6172,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/narrow_segment_validation.json"
+      },
+      {
+        "rel": "Source/parametric_rebuild/native_lock_sections.json",
+        "size": 791971,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/native_lock_sections.json"
+      },
+      {
+        "rel": "Source/parametric_rebuild/native_loft.py",
+        "size": 1559,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/native_loft.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/parameters.json",
+        "size": 438,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/parameters.json"
+      },
+      {
+        "rel": "Source/parametric_rebuild/rebuild.py",
+        "size": 1510,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/rebuild.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/requirements.txt",
+        "size": 44,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/requirements.txt"
+      },
+      {
+        "rel": "Source/parametric_rebuild/research/adaptive_native.py",
+        "size": 3435,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/research/adaptive_native.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/research/assemble_narrow.py",
+        "size": 1191,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/research/assemble_narrow.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/research/fit_wire.py",
+        "size": 2852,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/research/fit_wire.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/research/legacy_initial/dense_profiles.json",
+        "size": 29204641,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/research/legacy_initial/dense_profiles.json"
+      },
+      {
+        "rel": "Source/parametric_rebuild/research/legacy_initial/fit_wire.py",
+        "size": 2425,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/research/legacy_initial/fit_wire.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/research/legacy_initial/measured_profiles.json",
+        "size": 5132638,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/research/legacy_initial/measured_profiles.json"
+      },
+      {
+        "rel": "Source/parametric_rebuild/research/legacy_initial/test_concat.py",
+        "size": 1165,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/research/legacy_initial/test_concat.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/research/paired_edges.py",
+        "size": 1559,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/research/paired_edges.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/research/reference_mesh.py",
+        "size": 2006,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/research/reference_mesh.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/research/sew_narrow_pipe.py",
+        "size": 1660,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/research/sew_narrow_pipe.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/research/sew_segments.py",
+        "size": 1018,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/research/sew_segments.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/research/sew_wide_pipe.py",
+        "size": 1913,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/research/sew_wide_pipe.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/structural_body.py",
+        "size": 2227,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/structural_body.py"
+      },
+      {
+        "rel": "Source/parametric_rebuild/wide_segment_validation.json",
+        "size": 14288,
+        "url": "models/filament-spool-chanel/Source/parametric_rebuild/wide_segment_validation.json"
+      },
+      {
+        "rel": "Source/parametric_v5/README.md",
+        "size": 5459,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/README.md"
+      },
+      {
+        "rel": "Source/parametric_v5/body.py",
+        "size": 4354,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/body.py"
+      },
+      {
+        "rel": "Source/parametric_v5/config.py",
+        "size": 2859,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/config.py"
+      },
+      {
+        "rel": "Source/parametric_v5/lock.py",
+        "size": 3392,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/lock.py"
+      },
+      {
+        "rel": "Source/parametric_v5/motif.py",
+        "size": 1981,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/motif.py"
+      },
+      {
+        "rel": "Source/parametric_v5/native_lock_sections.json",
+        "size": 791971,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/native_lock_sections.json"
+      },
+      {
+        "rel": "Source/parametric_v5/native_loft.py",
+        "size": 1559,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/native_loft.py"
+      },
+      {
+        "rel": "Source/parametric_v5/parameters.json",
+        "size": 768,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/parameters.json"
+      },
+      {
+        "rel": "Source/parametric_v5/presets/lock_dimension_test.json",
+        "size": 769,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/presets/lock_dimension_test.json"
+      },
+      {
+        "rel": "Source/parametric_v5/presets/thick_print_test.json",
+        "size": 762,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/presets/thick_print_test.json"
+      },
+      {
+        "rel": "Source/parametric_v5/rebuild.py",
+        "size": 2761,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/rebuild.py"
+      },
+      {
+        "rel": "Source/parametric_v5/requirements.txt",
+        "size": 44,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/requirements.txt"
+      },
+      {
+        "rel": "Source/parametric_v5/run_component_tests.py",
+        "size": 3094,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/run_component_tests.py"
+      },
+      {
+        "rel": "Source/parametric_v5/test_output/components.json",
+        "size": 4910,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/test_output/components.json"
+      },
+      {
+        "rel": "Source/parametric_v5/test_output/fractional_ribs.json",
+        "size": 645,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/test_output/fractional_ribs.json"
+      },
+      {
+        "rel": "Source/parametric_v5/test_output/negative_skin.json",
+        "size": 644,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/test_output/negative_skin.json"
+      },
+      {
+        "rel": "Source/parametric_v5/test_output/too_thin_core.json",
+        "size": 641,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/test_output/too_thin_core.json"
+      },
+      {
+        "rel": "Source/parametric_v5/test_output/unknown_key.json",
+        "size": 658,
+        "url": "models/filament-spool-chanel/Source/parametric_v5/test_output/unknown_key.json"
+      },
+      {
+        "rel": "Source/parametric_v6_candidate/README.md",
+        "size": 6746,
+        "url": "models/filament-spool-chanel/Source/parametric_v6_candidate/README.md"
+      },
+      {
+        "rel": "Source/parametric_v6_candidate/body.py",
+        "size": 4354,
+        "url": "models/filament-spool-chanel/Source/parametric_v6_candidate/body.py"
+      },
+      {
+        "rel": "Source/parametric_v6_candidate/config.py",
+        "size": 2859,
+        "url": "models/filament-spool-chanel/Source/parametric_v6_candidate/config.py"
+      },
+      {
+        "rel": "Source/parametric_v6_candidate/lock.py",
+        "size": 4929,
+        "url": "models/filament-spool-chanel/Source/parametric_v6_candidate/lock.py"
+      },
+      {
+        "rel": "Source/parametric_v6_candidate/motif.py",
+        "size": 1981,
+        "url": "models/filament-spool-chanel/Source/parametric_v6_candidate/motif.py"
+      },
+      {
+        "rel": "Source/parametric_v6_candidate/native_lock_sections.json",
+        "size": 791971,
+        "url": "models/filament-spool-chanel/Source/parametric_v6_candidate/native_lock_sections.json"
+      },
+      {
+        "rel": "Source/parametric_v6_candidate/native_loft.py",
+        "size": 1559,
+        "url": "models/filament-spool-chanel/Source/parametric_v6_candidate/native_loft.py"
+      },
+      {
+        "rel": "Source/parametric_v6_candidate/parameters.json",
+        "size": 768,
+        "url": "models/filament-spool-chanel/Source/parametric_v6_candidate/parameters.json"
+      },
+      {
+        "rel": "Source/parametric_v6_candidate/presets/lock_dimension_test.json",
+        "size": 769,
+        "url": "models/filament-spool-chanel/Source/parametric_v6_candidate/presets/lock_dimension_test.json"
+      },
+      {
+        "rel": "Source/parametric_v6_candidate/presets/thick_print_test.json",
+        "size": 762,
+        "url": "models/filament-spool-chanel/Source/parametric_v6_candidate/presets/thick_print_test.json"
+      },
+      {
+        "rel": "Source/parametric_v6_candidate/rebuild.py",
+        "size": 3021,
+        "url": "models/filament-spool-chanel/Source/parametric_v6_candidate/rebuild.py"
+      },
+      {
+        "rel": "Source/parametric_v6_candidate/requirements.txt",
+        "size": 44,
+        "url": "models/filament-spool-chanel/Source/parametric_v6_candidate/requirements.txt"
+      },
+      {
+        "rel": "Source/parametric_v6_candidate/run_component_tests.py",
+        "size": 3094,
+        "url": "models/filament-spool-chanel/Source/parametric_v6_candidate/run_component_tests.py"
+      },
+      {
         "rel": "Source/repair_source.py",
         "size": 796,
         "url": "models/filament-spool-chanel/Source/repair_source.py"
@@ -1598,11 +5007,118 @@
       },
       {
         "rel": "Source/verify_step_serialization.py",
-        "size": 1347,
+        "size": 1200,
         "url": "models/filament-spool-chanel/Source/verify_step_serialization.py"
+      },
+      {
+        "rel": "Source/weight_trials_v5/README.md",
+        "size": 1069,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/README.md"
+      },
+      {
+        "rel": "Source/weight_trials_v5/body.py",
+        "size": 4363,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/body.py"
+      },
+      {
+        "rel": "Source/weight_trials_v5/config.py",
+        "size": 2914,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/config.py"
+      },
+      {
+        "rel": "Source/weight_trials_v5/lock.py",
+        "size": 3392,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/lock.py"
+      },
+      {
+        "rel": "Source/weight_trials_v5/motif.py",
+        "size": 1981,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/motif.py"
+      },
+      {
+        "rel": "Source/weight_trials_v5/native_lock_sections.json",
+        "size": 791971,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/native_lock_sections.json"
+      },
+      {
+        "rel": "Source/weight_trials_v5/native_loft.py",
+        "size": 1559,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/native_loft.py"
+      },
+      {
+        "rel": "Source/weight_trials_v5/parameters.json",
+        "size": 768,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/parameters.json"
+      },
+      {
+        "rel": "Source/weight_trials_v5/presets/lower_R38.5_skin0.4_keep_rib_total3.2.json",
+        "size": 767,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/presets/lower_R38.5_skin0.4_keep_rib_total3.2.json"
+      },
+      {
+        "rel": "Source/weight_trials_v5/presets/lower_inner_R38.0.json",
+        "size": 767,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/presets/lower_inner_R38.0.json"
+      },
+      {
+        "rel": "Source/weight_trials_v5/presets/lower_inner_R38.5.json",
+        "size": 767,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/presets/lower_inner_R38.5.json"
+      },
+      {
+        "rel": "Source/weight_trials_v5/presets/original_lower_skin0.4_keep_rib_total3.2.json",
+        "size": 767,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/presets/original_lower_skin0.4_keep_rib_total3.2.json"
+      },
+      {
+        "rel": "Source/weight_trials_v5/rebuild.py",
+        "size": 2756,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/rebuild.py"
+      },
+      {
+        "rel": "Source/weight_trials_v5/requirements.txt",
+        "size": 44,
+        "url": "models/filament-spool-chanel/Source/weight_trials_v5/requirements.txt"
+      },
+      {
+        "rel": "Source/window_spool_assembly/README.md",
+        "size": 4166,
+        "url": "models/filament-spool-chanel/Source/window_spool_assembly/README.md"
+      },
+      {
+        "rel": "Source/window_spool_assembly/check_assembly.py",
+        "size": 2979,
+        "url": "models/filament-spool-chanel/Source/window_spool_assembly/check_assembly.py"
+      },
+      {
+        "rel": "Source/window_spool_assembly/paper_core_check.py",
+        "size": 2551,
+        "url": "models/filament-spool-chanel/Source/window_spool_assembly/paper_core_check.py"
+      },
+      {
+        "rel": "Source/window_spool_assembly/paper_core_measurements.template.json",
+        "size": 346,
+        "url": "models/filament-spool-chanel/Source/window_spool_assembly/paper_core_measurements.template.json"
+      },
+      {
+        "rel": "Source/window_spool_assembly/requirements.txt",
+        "size": 33,
+        "url": "models/filament-spool-chanel/Source/window_spool_assembly/requirements.txt"
+      },
+      {
+        "rel": "Source/window_spool_assembly/visualize_assembly.py",
+        "size": 2567,
+        "url": "models/filament-spool-chanel/Source/window_spool_assembly/visualize_assembly.py"
       }
     ],
-    "bytes": 143160301
+    "bytes": 94798762,
+    "html": [
+      {
+        "rel": "models/filament-spool-chanel/Notes/window_spool_assembly/refill_install.html",
+        "size": 115143,
+        "title": "Refill Filament with Bambu Reusable Spool / Refill | Bambu Lab Wiki"
+      }
+    ]
   },
   {
     "id": "filament-spool-lv",
@@ -2620,5 +6136,589 @@
       }
     ],
     "bytes": 13384752
+  },
+  {
+    "id": "tv-cabinet-modular-drawer",
+    "title": "电视柜模块抽屉｜V10 标准高与双倍高",
+    "category": "家居收纳",
+    "status": "design",
+    "cls": "original",
+    "summary": "两种同占地规格，48/96 mm 叠层节距。无导向垫，保留侧旋扣和前后托沿；各有独立未切片 PETG 3MF。",
+    "gallery": [
+      "V10_Prototype/V10_Assembly_Release_CN.png"
+    ],
+    "downloads": [
+      "V10_Prototype/Print/V10_Keepers_No_Guide_Pads_P1S_PETG_UNSLICED.3mf",
+      "V10_Prototype/STEP/00_V10_Locked_Tray_Open_85mm_REFERENCE.step",
+      "V10_2X_Height/Print/V10_2X_Height_P1S_PETG_UNSLICED.3mf",
+      "V10_2X_Height/STEP/00_V10_2X_Locked_Open85_REFERENCE.step"
+    ],
+    "dir": "tv-cabinet-modular-drawer",
+    "cover": null,
+    "files": [
+      {
+        "rel": ".gitignore",
+        "size": 73,
+        "url": "models/tv-cabinet-modular-drawer/.gitignore"
+      },
+      {
+        "rel": "README.md",
+        "size": 1716,
+        "url": "models/tv-cabinet-modular-drawer/README.md"
+      },
+      {
+        "rel": "SHA256SUMS",
+        "size": 335,
+        "url": "models/tv-cabinet-modular-drawer/SHA256SUMS"
+      },
+      {
+        "rel": "V10_2X_Height/Print/V10_2X_Height_P1S_PETG_UNSLICED.3mf",
+        "size": 785270,
+        "url": "models/tv-cabinet-modular-drawer/V10_2X_Height/Print/V10_2X_Height_P1S_PETG_UNSLICED.3mf"
+      },
+      {
+        "rel": "V10_2X_Height/README_V10_2X_CN.md",
+        "size": 3276,
+        "url": "models/tv-cabinet-modular-drawer/V10_2X_Height/README_V10_2X_CN.md"
+      },
+      {
+        "rel": "V10_2X_Height/SHA256SUMS",
+        "size": 1159,
+        "url": "models/tv-cabinet-modular-drawer/V10_2X_Height/SHA256SUMS"
+      },
+      {
+        "rel": "V10_2X_Height/STEP/00_V10_2X_Locked_Open85_REFERENCE.step",
+        "size": 2062230,
+        "url": "models/tv-cabinet-modular-drawer/V10_2X_Height/STEP/00_V10_2X_Locked_Open85_REFERENCE.step"
+      },
+      {
+        "rel": "V10_2X_Height/STEP/01_V10_2X_Side_Left.step",
+        "size": 341628,
+        "url": "models/tv-cabinet-modular-drawer/V10_2X_Height/STEP/01_V10_2X_Side_Left.step"
+      },
+      {
+        "rel": "V10_2X_Height/STEP/01b_V10_2X_Side_Right.step",
+        "size": 344749,
+        "url": "models/tv-cabinet-modular-drawer/V10_2X_Height/STEP/01b_V10_2X_Side_Right.step"
+      },
+      {
+        "rel": "V10_2X_Height/STEP/08_V10_2X_Signed_Tray.step",
+        "size": 840009,
+        "url": "models/tv-cabinet-modular-drawer/V10_2X_Height/STEP/08_V10_2X_Signed_Tray.step"
+      },
+      {
+        "rel": "V10_2X_Height/STEP/10_V10_2X_Rear_X_Lip.step",
+        "size": 163184,
+        "url": "models/tv-cabinet-modular-drawer/V10_2X_Height/STEP/10_V10_2X_Rear_X_Lip.step"
+      },
+      {
+        "rel": "V10_2X_Height/Source/build_double_height.py",
+        "size": 10994,
+        "url": "models/tv-cabinet-modular-drawer/V10_2X_Height/Source/build_double_height.py"
+      },
+      {
+        "rel": "V10_2X_Height/Source/double_height.json",
+        "size": 163,
+        "url": "models/tv-cabinet-modular-drawer/V10_2X_Height/Source/double_height.json"
+      },
+      {
+        "rel": "V10_2X_Height/Source/frame_v9_parameters.json",
+        "size": 616,
+        "url": "models/tv-cabinet-modular-drawer/V10_2X_Height/Source/frame_v9_parameters.json"
+      },
+      {
+        "rel": "V10_2X_Height/V10_2X_Print_Static_Check.json",
+        "size": 6339,
+        "url": "models/tv-cabinet-modular-drawer/V10_2X_Height/V10_2X_Print_Static_Check.json"
+      },
+      {
+        "rel": "V10_2X_Height/V10_2X_TEST.json",
+        "size": 4590,
+        "url": "models/tv-cabinet-modular-drawer/V10_2X_Height/V10_2X_TEST.json"
+      },
+      {
+        "rel": "V10_Prototype/Print/V10_Keepers_No_Guide_Pads_P1S_PETG_UNSLICED.3mf",
+        "size": 565942,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/Print/V10_Keepers_No_Guide_Pads_P1S_PETG_UNSLICED.3mf"
+      },
+      {
+        "rel": "V10_Prototype/README_V10_CN.md",
+        "size": 3849,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/README_V10_CN.md"
+      },
+      {
+        "rel": "V10_Prototype/SHA256SUMS",
+        "size": 3050,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/SHA256SUMS"
+      },
+      {
+        "rel": "V10_Prototype/STEP/00_V10_Locked_Tray_Open_85mm_REFERENCE.step",
+        "size": 1905207,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/00_V10_Locked_Tray_Open_85mm_REFERENCE.step"
+      },
+      {
+        "rel": "V10_Prototype/STEP/01_V10_Left_Frame_Side_Local_Keepers.step",
+        "size": 341685,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/01_V10_Left_Frame_Side_Local_Keepers.step"
+      },
+      {
+        "rel": "V10_Prototype/STEP/01b_V10_Right_Frame_Side_Local_Keepers.step",
+        "size": 344958,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/01b_V10_Right_Frame_Side_Local_Keepers.step"
+      },
+      {
+        "rel": "V10_Prototype/STEP/02_V10_Left_Transverse_Keeper.step",
+        "size": 22153,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/02_V10_Left_Transverse_Keeper.step"
+      },
+      {
+        "rel": "V10_Prototype/STEP/02b_V10_Right_Transverse_Keeper.step",
+        "size": 22333,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/02b_V10_Right_Transverse_Keeper.step"
+      },
+      {
+        "rel": "V10_Prototype/STEP/03_Captive_Lever_Axle_Print_Two.step",
+        "size": 8516,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/03_Captive_Lever_Axle_Print_Two.step"
+      },
+      {
+        "rel": "V10_Prototype/STEP/04_Axle_C_Clip_Print_Two.step",
+        "size": 8920,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/04_Axle_C_Clip_Print_Two.step"
+      },
+      {
+        "rel": "V10_Prototype/STEP/05_Mode_Selector_Key_Print_Two.step",
+        "size": 12382,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/05_Mode_Selector_Key_Print_Two.step"
+      },
+      {
+        "rel": "V10_Prototype/STEP/05b_V10_Structural_Frame_Turn_Lock_Print_Four.step",
+        "size": 21334,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/05b_V10_Structural_Frame_Turn_Lock_Print_Four.step"
+      },
+      {
+        "rel": "V10_Prototype/STEP/08_Signed_Flat_Tray_Local_Inner_Rear_Backers.step",
+        "size": 674236,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/08_Signed_Flat_Tray_Local_Inner_Rear_Backers.step"
+      },
+      {
+        "rel": "V10_Prototype/STEP/09_V10_Front_Beam_Auxiliary_Floor_Lip.step",
+        "size": 101448,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/09_V10_Front_Beam_Auxiliary_Floor_Lip.step"
+      },
+      {
+        "rel": "V10_Prototype/STEP/10_V10_Light_Rear_X_Auxiliary_Floor_Lip.step",
+        "size": 171423,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/10_V10_Light_Rear_X_Auxiliary_Floor_Lip.step"
+      },
+      {
+        "rel": "V10_Prototype/STEP/Optional_Stacking/06_front_round_locator_insert.step",
+        "size": 82457,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/Optional_Stacking/06_front_round_locator_insert.step"
+      },
+      {
+        "rel": "V10_Prototype/STEP/Optional_Stacking/07_rear_float_locator_insert.step",
+        "size": 82974,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/STEP/Optional_Stacking/07_rear_float_locator_insert.step"
+      },
+      {
+        "rel": "V10_Prototype/Source/Inputs/README.md",
+        "size": 371,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/Source/Inputs/README.md"
+      },
+      {
+        "rel": "V10_Prototype/Source/Inputs/V10_Base_Geometry.brep",
+        "size": 929665,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/Source/Inputs/V10_Base_Geometry.brep"
+      },
+      {
+        "rel": "V10_Prototype/Source/brep_tools.py",
+        "size": 2087,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/Source/brep_tools.py"
+      },
+      {
+        "rel": "V10_Prototype/Source/build_frame_v9.py",
+        "size": 16452,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/Source/build_frame_v9.py"
+      },
+      {
+        "rel": "V10_Prototype/Source/build_v10.py",
+        "size": 10674,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/Source/build_v10.py"
+      },
+      {
+        "rel": "V10_Prototype/Source/v10_parameters.json",
+        "size": 540,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/Source/v10_parameters.json"
+      },
+      {
+        "rel": "V10_Prototype/Trial/11_Left_Keeper_Housing_27mm.step",
+        "size": 74626,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/Trial/11_Left_Keeper_Housing_27mm.step"
+      },
+      {
+        "rel": "V10_Prototype/V10_Assembly_Release_CN.png",
+        "size": 763950,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/V10_Assembly_Release_CN.png"
+      },
+      {
+        "rel": "V10_Prototype/V10_Bottom_Lip_Check_CN.md",
+        "size": 3095,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/V10_Bottom_Lip_Check_CN.md"
+      },
+      {
+        "rel": "V10_Prototype/V10_Floor_Lips_Independent.json",
+        "size": 41405,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/V10_Floor_Lips_Independent.json"
+      },
+      {
+        "rel": "V10_Prototype/V10_Validation.json",
+        "size": 5675,
+        "url": "models/tv-cabinet-modular-drawer/V10_Prototype/V10_Validation.json"
+      },
+      {
+        "rel": "V14_Production_Drawer/README_CN.md",
+        "size": 3520,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/README_CN.md"
+      },
+      {
+        "rel": "V14_Production_Drawer/Run_V14_Template.command",
+        "size": 1517,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/Run_V14_Template.command"
+      },
+      {
+        "rel": "V14_Production_Drawer/SHA256SUMS",
+        "size": 3099,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/SHA256SUMS"
+      },
+      {
+        "rel": "V14_Production_Drawer/Seed/V13_Core_Separated_Rod_And_Bit_REFERENCE.step",
+        "size": 299614,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/Seed/V13_Core_Separated_Rod_And_Bit_REFERENCE.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/Seed/V13_W180_D200_H52_Approved.step",
+        "size": 1866430,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/Seed/V13_W180_D200_H52_Approved.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/V14_Template.FCMacro",
+        "size": 4495,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/V14_Template.FCMacro"
+      },
+      {
+        "rel": "V14_Production_Drawer/V14_WDH_Live_Preview.html",
+        "size": 23693,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/V14_WDH_Live_Preview.html"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Dimensions_Used.json",
+        "size": 78,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Dimensions_Used.json"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Independent_BRep_Readback.json",
+        "size": 1077,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Independent_BRep_Readback.json"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Independent_Paddle_Motion.log",
+        "size": 319,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Independent_Paddle_Motion.log"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Print_Parts/Drawer.step",
+        "size": 610982,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Print_Parts/Drawer.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Print_Parts/Front_Beam.step",
+        "size": 38687,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Print_Parts/Front_Beam.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Print_Parts/Left_Integrated_Rectangular_Paddle.step",
+        "size": 25679,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Print_Parts/Left_Integrated_Rectangular_Paddle.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Print_Parts/Left_Side.step",
+        "size": 123274,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Print_Parts/Left_Side.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Print_Parts/Modular_Rods_And_Cams_Independent_Bodies.step",
+        "size": 1325305,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Print_Parts/Modular_Rods_And_Cams_Independent_Bodies.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Print_Parts/One_Piece_Frame.step",
+        "size": 291535,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Print_Parts/One_Piece_Frame.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Print_Parts/Rear_Beam.step",
+        "size": 89283,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Print_Parts/Rear_Beam.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Print_Parts/Right_Integrated_Rectangular_Paddle.step",
+        "size": 25791,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Print_Parts/Right_Integrated_Rectangular_Paddle.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Print_Parts/Right_Side.step",
+        "size": 123447,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Print_Parts/Right_Side.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Reference/V14_Modular_Closed.FCStd",
+        "size": 735506,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Reference/V14_Modular_Closed.FCStd"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Reference/V14_Modular_Closed.step",
+        "size": 2406211,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Reference/V14_Modular_Closed.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Reference/V14_Modular_Open.step",
+        "size": 2407290,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Reference/V14_Modular_Open.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Reference/V14_One_Piece_Closed.step",
+        "size": 972705,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Reference/V14_One_Piece_Closed.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Reference/V14_One_Piece_Open.step",
+        "size": 973784,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Reference/V14_One_Piece_Open.step"
+      },
+      {
+        "rel": "V14_Production_Drawer/W180/Validation.json",
+        "size": 15356,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/W180/Validation.json"
+      },
+      {
+        "rel": "V14_Production_Drawer/build_v14_wdh.py",
+        "size": 15234,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/build_v14_wdh.py"
+      },
+      {
+        "rel": "V14_Production_Drawer/coupon_exact_core.py",
+        "size": 4328,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/coupon_exact_core.py"
+      },
+      {
+        "rel": "V14_Production_Drawer/dimensions.json",
+        "size": 78,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/dimensions.json"
+      },
+      {
+        "rel": "V14_Production_Drawer/one_piece_stop.py",
+        "size": 3699,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/one_piece_stop.py"
+      },
+      {
+        "rel": "V14_Production_Drawer/production_cams.py",
+        "size": 8314,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/production_cams.py"
+      },
+      {
+        "rel": "V14_Production_Drawer/production_paddle.py",
+        "size": 1695,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/production_paddle.py"
+      },
+      {
+        "rel": "V14_Production_Drawer/verify_export.py",
+        "size": 2433,
+        "url": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/verify_export.py"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/Preview/V15_Molded_Paddle_Comparison.png",
+        "size": 121147,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/Preview/V15_Molded_Paddle_Comparison.png"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/README_CN.md",
+        "size": 2524,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/README_CN.md"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/Run_V15_Template.command",
+        "size": 1517,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/Run_V15_Template.command"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/SHA256SUMS",
+        "size": 3298,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/SHA256SUMS"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/Seed/V13_Core_Separated_Rod_And_Bit_REFERENCE.step",
+        "size": 299614,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/Seed/V13_Core_Separated_Rod_And_Bit_REFERENCE.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/Seed/V13_W180_D200_H52_Approved.step",
+        "size": 1866430,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/Seed/V13_W180_D200_H52_Approved.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/V15_Template.FCMacro",
+        "size": 4495,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/V15_Template.FCMacro"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/V15_WDH_Live_Preview.html",
+        "size": 23693,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/V15_WDH_Live_Preview.html"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Dimensions_Used.json",
+        "size": 78,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Dimensions_Used.json"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Independent_BRep_Readback.json",
+        "size": 1409,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Independent_BRep_Readback.json"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Independent_Paddle_Motion.log",
+        "size": 319,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Independent_Paddle_Motion.log"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Drawer.step",
+        "size": 627486,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Drawer.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Front_Beam.step",
+        "size": 35687,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Front_Beam.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Left_Integrated_Rectangular_Paddle.step",
+        "size": 184714,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Left_Integrated_Rectangular_Paddle.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Left_Side.step",
+        "size": 129117,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Left_Side.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Modular_Rods_And_Cams_Independent_Bodies.step",
+        "size": 1283532,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Modular_Rods_And_Cams_Independent_Bodies.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Print_Parts/One_Piece_Frame.step",
+        "size": 303102,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Print_Parts/One_Piece_Frame.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Rear_Beam.step",
+        "size": 82882,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Rear_Beam.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Right_Integrated_Rectangular_Paddle.step",
+        "size": 191149,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Right_Integrated_Rectangular_Paddle.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Right_Side.step",
+        "size": 129660,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Print_Parts/Right_Side.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Reference/V15_Modular_Closed.FCStd",
+        "size": 1350683,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Reference/V15_Modular_Closed.FCStd"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Reference/V15_Modular_Closed.step",
+        "size": 2710971,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Reference/V15_Modular_Closed.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Reference/V15_Modular_Open.step",
+        "size": 2712211,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Reference/V15_Modular_Open.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Reference/V15_One_Piece_Closed.step",
+        "size": 1328926,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Reference/V15_One_Piece_Closed.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Reference/V15_One_Piece_Open.step",
+        "size": 1330166,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Reference/V15_One_Piece_Open.step"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/W180/Validation.json",
+        "size": 15923,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/W180/Validation.json"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/build_v15_wdh.py",
+        "size": 15367,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/build_v15_wdh.py"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/coupon_exact_core.py",
+        "size": 4351,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/coupon_exact_core.py"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/dimensions.json",
+        "size": 78,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/dimensions.json"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/one_piece_stop.py",
+        "size": 3699,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/one_piece_stop.py"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/production_cams.py",
+        "size": 8779,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/production_cams.py"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/production_paddle_v15.py",
+        "size": 4822,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/production_paddle_v15.py"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/verify_export.py",
+        "size": 3011,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/verify_export.py"
+      },
+      {
+        "rel": "V15_Rounded_Single_Port_Drawer/visible_fillet.py",
+        "size": 1839,
+        "url": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/visible_fillet.py"
+      }
+    ],
+    "bytes": 37974875,
+    "html": [
+      {
+        "rel": "models/tv-cabinet-modular-drawer/V14_Production_Drawer/V14_WDH_Live_Preview.html",
+        "size": 23693,
+        "title": "V14 模块化抽屉 · 尺寸配置器"
+      },
+      {
+        "rel": "models/tv-cabinet-modular-drawer/V15_Rounded_Single_Port_Drawer/V15_WDH_Live_Preview.html",
+        "size": 23693,
+        "title": "V15 模块化抽屉 · 尺寸配置器"
+      }
+    ]
   }
 ]

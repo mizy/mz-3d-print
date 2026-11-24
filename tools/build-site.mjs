@@ -39,6 +39,16 @@ function isImage(rel) {
 function isModel(rel) {
   return /\.(stl|3mf|step|stp|obj|scad|zip)$/i.test(rel);
 }
+function isHtml(rel) {
+  return /\.html?$/i.test(rel);
+}
+// HTML 资产的链接文字取页面自己的 <title>；没有 title 时退回「模型名 + 文件名」。
+function pageTitle(abs) {
+  const head = fs.readFileSync(abs, "utf8").slice(0, 20000);
+  const match = head.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+  return match ? match[1].replace(/\s+/g, " ").trim() : "";
+}
+const shortLabel = (text, max = 40) => (text.length > max ? `${text.slice(0, max - 1)}…` : text);
 
 const enc = (rel) => rel.split("/").map(encodeURIComponent).join("/");
 const human = (n) => (n >= 1048576 ? `${(n / 1048576).toFixed(1)} MB` : `${Math.max(1, Math.round(n / 1024))} KB`);
@@ -71,6 +81,16 @@ for (const dir of fs.readdirSync(MODELS, { withFileTypes: true })) {
 }
 models.sort((a, b) => String(a.id).localeCompare(String(b.id), "zh"));
 
+for (const m of models) {
+  const html = m.files.filter((f) => isHtml(f.rel)).map((f) => ({
+    rel: `models/${m.dir}/${f.rel}`,
+    size: f.size,
+    title: pageTitle(path.join(MODELS, m.dir, f.rel)),
+  }));
+  if (html.length) m.html = html;
+}
+const htmlAssets = models.flatMap((m) => (m.html ?? []).map((a) => ({ ...a, modelTitle: m.title })));
+
 fs.writeFileSync(path.join(ROOT, "models.json"), JSON.stringify(models, null, 2));
 
 const esc = (v) => String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -97,9 +117,15 @@ const card = (m) => {
   const downloadHtml = grouped.map(g => `<section class="download-group"><h3>${esc(g.label)}</h3>${g.note ? `<p class="group-note">${esc(g.note)}</p>` : ""}<ul class="files">${g.files.map(fileItem).join("")}</ul></section>`).join("") + (ungrouped.length ? `<ul class="files">${ungrouped.map(fileItem).join("")}</ul>` : "");
   const gallery = new Set(m.gallery ?? []);
   const imgs = m.files.filter(f => isImage(f.rel) && gallery.has(f.rel) && `${m.dir}/${f.rel}` !== m.cover);
-  const others = m.files.filter(f => !models_.includes(f) && !imgs.includes(f) && `${m.dir}/${f.rel}` !== m.cover);
+  const others = m.files.filter(f => !models_.includes(f) && !imgs.includes(f) && !isHtml(f.rel) && `${m.dir}/${f.rel}` !== m.cover);
+  const htmls = m.html ?? [];
+  const htmlLinks = htmls.length
+    ? `<div class="html-links"><h3>网页资料（${htmls.length}）</h3>${htmls
+        .map((a) => `<a href="${assetUrl(a.rel)}">${esc(a.title || shortLabel(`${m.title} · ${path.basename(a.rel)}`))}<small>${esc(a.rel)} · ${human(a.size)}</small></a>`)
+        .join("")}</div>`
+    : "";
   return `<article id="model-${esc(m.id)}" class="card" data-cls="${esc(m.cls)}" data-id="${esc(m.id)}" data-text="${encodeURIComponent(
-    [m.title, m.category, m.id, ...m.files.map((f) => f.rel)].join(" ")
+    [m.title, m.category, m.id, ...m.files.map((f) => f.rel), ...(m.html ?? []).map((a) => a.title)].join(" ")
   )}">
   <a class="thumb" href="${m.cover ? assetUrl(`models/${m.cover}`) : `#model-${esc(m.id)}`}">
     ${m.cover ? `<img loading="lazy" src="${assetUrl(`models/${m.cover}`)}" alt="${esc(m.title)}">` : `<div class="noimg">无预览</div>`}
@@ -110,6 +136,7 @@ const card = (m) => {
     <p class="meta"><span class="badge ${esc(m.cls)}">${CLS_LABEL[m.cls] ?? m.cls}</span> ${esc(m.category)} · ${esc(m.id)} · ${human(m.bytes)}</p>
     ${m.summary ? `<p class="sum">${esc(m.summary)}</p>` : ""}
     ${models_.length ? `<details class="downloads"><summary>当前模型 <span>${models_.length} 个 · 展开下载</span></summary>${downloadHtml}</details>` : `<p class="group-note">${m.release ? "完整工程请从上方 Release 获取。" : "暂无当前模型下载。"}</p>`}
+    ${htmlLinks}
     ${
       others.length
         ? `<details><summary>设计文档与历史资料（${others.length}）</summary><ul class="files dim">${others
@@ -128,6 +155,13 @@ const card = (m) => {
 </article>`;
 };
 
+const htmlNav = htmlAssets
+  .map((a) => {
+    const label = a.title || `${a.modelTitle} · ${path.basename(a.rel)}`;
+    return `<a class="html-resource" href="${assetUrl(a.rel)}" title="${esc(a.rel)}">网页 · ${esc(shortLabel(label))}</a>`;
+  })
+  .join("");
+
 const html = `<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -142,7 +176,7 @@ const html = `<!doctype html>
 <header>
   <div class="topline"><h1>苗壮的 3D 打印模型库</h1><a class="repo" href="https://github.com/mizy/mz-3d-print">GitHub ↗</a></div>
   <p class="lead">模型、设计图和试错记录。打印机：Bambu Lab P1S · AMS</p>
-  <nav class="resources" aria-label="资料导航"><a href="https://github.com/mizy/mz-3d-print/tree/main/models">项目目录</a><a href="https://github.com/mizy/mz-3d-print/tree/main/models/dog-bowl-shared">狗碗共享资料</a></nav>
+  <nav class="resources" aria-label="资料导航"><a href="https://github.com/mizy/mz-3d-print/tree/main/models">项目目录</a><a href="https://github.com/mizy/mz-3d-print/tree/main/models/dog-bowl-shared">狗碗共享资料</a>${htmlNav}</nav>
   <p class="notice">来源与打印验证状态见各项目说明。<a href="README.md">仓库说明 ↗</a></p>
 </header>
 <section class="catalog" aria-label="模型筛选">
