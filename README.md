@@ -35,13 +35,23 @@
 .
 ├── index.html              # GitHub Pages 索引页（自动生成，别手改）
 ├── models.json            # 索引数据（自动生成）
+├── manifest.json          # 本页的 PWA 清单（作用域 /mz-3d-print/）
+├── sw.js                  # 本页的 Service Worker（预缓存索引页，模型下载不入缓存）
+├── offline.html           # 断网兜底页
 ├── models/
 │   └── <模型目录>/
 │       ├── MODEL.json     # 元数据：id / 标题 / 分类 / 来源类别 / 一句话说明
 │       └── ...           # stl / 3mf / preview png / 建模脚本 / 设计说明 md
-└── tools/
-    └── build-site.mjs     # 扫描 models/*/MODEL.json → 生成 index.html + models.json
+├── tools/
+│   ├── build-site.mjs     # 扫描 models/*/MODEL.json → 生成 index.html + models.json
+│   └── check-site.mjs     # 发布前自检：页面链接 / manifest / SW 预缓存
+└── .github/workflows/
+    └── deploy.yml         # push 到 main 即发布到 https://mizy.github.io/mz-3d-print/
 ```
+
+发布走本仓库自己的 Pages：push 到 `main` 后 workflow 先跑 `node tools/check-site.mjs`，再把 `index.html`、`models.json`、`models/`、`assets/`、PWA 文件装进产物发布。索引页是本仓库自己的，不再从别的仓库导出。
+
+LFS 文件（狗碗）在索引页里指向 `media.githubusercontent.com` 下载地址，所以 CI 不需要拉 LFS 内容。
 
 ## 什么进库、什么不进（2026-11-16 清理后的规则）
 
