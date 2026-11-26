@@ -143,7 +143,11 @@ if(CAD.expansion){
   const b=el('button',null,label);b.type='button';b.dataset.show=id;row.append(b);
  }
  const link=el('a',null,'下载新增 17 件 STEP');link.href='STEP/'+CAD.parts.expansion.name;
- row.append(link);card.append(row,el('p','sheet-note','先保留左格原装配，前后梁接上共用中板，再装新外侧板与锁件。拉篮仅作为两格虚拟量规，关闭至拉出 110.5 mm 全部采样无干涉；不核对历史版、未切片。'));sec.append(card);
+ row.append(link);
+ if(e.print_3mf){const a=el('a',null,'下载右格一盘 3MF（P1S / PETG）');a.href=e.print_3mf.path;row.append(a);}
+ card.append(row,el('p','sheet-note','先保留左格原装配，前后梁接上共用中板，再装新外侧板与锁件。拉篮仅作为两格虚拟量规，关闭至拉出 110.5 mm 全部采样无干涉；不核对历史版。'));
+ if(e.print_3mf)card.append(el('p','sheet-note','3MF 只含新增 17 件：P1S 0.4 mm、Generic PETG、0.20 mm 层高、两道墙、10% Gyroid，全局设置、未切片。和旧骨架粘接前先干装，确认导轨齐平、抽屉能推到底。'));
+ sec.append(card);
 }
 for(const b of document.querySelectorAll('[data-show]'))b.onclick=()=>{const s=$('part');if(s.disabled)return;s.value=b.dataset.show;s.dispatchEvent(new Event('change'));$('review3d').scrollIntoView({block:'start'});};
 for(const p of Object.values(CAD.parts)){const li=el('li'),a=el('a',null,p.title+'：'+p.name);a.href='STEP/'+p.name;li.append(a);$('filelist').append(li);}

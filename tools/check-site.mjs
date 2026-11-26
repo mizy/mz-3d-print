@@ -16,6 +16,14 @@ const exists = (file) => fs.existsSync(path.join(ROOT, file));
 function checkIndexLinks() {
   const html = read("index.html");
   if (!/class="card"/.test(html)) fail("index.html has no model cards");
+  const drawer = "models/modular-drawer/latest/";
+  if (html.includes(`href="${drawer}Source/rear-key-template.html"`)) fail("Drawer source template is not a public review entry");
+  const drawerReview = `href="${drawer}index.html"`;
+  if (html.split(drawerReview).length - 1 !== 2) fail("Expected drawer review in gallery navigation and model card");
+  const drawerPrint = `${drawer}Print/Right_Bay_Frame_P1S_PETG_UNSLICED.3mf`;
+  if (!html.includes(`href="${drawerPrint}"`)) fail("Missing right-bay drawer print plate on gallery");
+  if (!read(`${drawer}index.html`).includes(drawerPrint.slice(drawer.length))) fail("Missing right-bay print plate on drawer review");
+
 
   // 只校验站内相对链接；LFS 文件走 media.githubusercontent.com 绝对地址，不在发布产物的检查范围。
   const refs = new Set();

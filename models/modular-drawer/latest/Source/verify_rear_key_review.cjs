@@ -54,6 +54,12 @@ try{
  assert(!/附件下载|全卡槽|胶接对照/.test(await p.locator('main').innerText()));
  assert.deepEqual(errors,[]);assert.deepEqual(requests,[]);
  assert.equal(Object.keys(data.parts).length,10);
+ if(data.expansion.print_3mf){
+  const info=data.expansion.print_3mf, links=p.locator('#expansion-review a[href$=".3mf"]');
+  assert.equal(await links.count(),1);
+  assert.equal(await links.getAttribute('href'),info.path);
+  assert.equal(crypto.createHash('sha256').update(fs.readFileSync(info.path)).digest('hex'),info.sha256);
+ }
  assert.equal(data.expansion.basket_count_in_outputs,0);
  assert.equal(data.expansion.trays_both_guide_samples_mm.length,23);
  assert.equal(data.expansion.static_overlap_mm3,0);

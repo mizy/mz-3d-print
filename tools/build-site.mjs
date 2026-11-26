@@ -82,7 +82,7 @@ for (const dir of fs.readdirSync(MODELS, { withFileTypes: true })) {
 models.sort((a, b) => String(a.id).localeCompare(String(b.id), "zh"));
 
 for (const m of models) {
-  const html = m.files.filter((f) => isHtml(f.rel)).map((f) => ({
+  const html = m.files.filter((f) => isHtml(f.rel) && !(m.dir === "modular-drawer" && f.rel === "latest/Source/rear-key-template.html")).map((f) => ({
     rel: `models/${m.dir}/${f.rel}`,
     size: f.size,
     title: pageTitle(path.join(MODELS, m.dir, f.rel)),

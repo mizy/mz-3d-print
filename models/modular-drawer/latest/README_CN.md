@@ -17,3 +17,5 @@
 [评审 3D](index.html#expansion-review) · [新增件 STEP](STEP/07_Right_Bay_Frame_Expansion_17_Parts.step) · [两格骨架检查 STEP](STEP/00_Two_Bay_Horizontal_Frame_Check.step)。左格保留，右格借用中侧板；不附拉篮。配件为外侧板、前梁、后板各 1，限位拨片、双 T 插键、止退片各 2，下方拉杆和偏心轮各 4。两格组装外廓 326.7 × 240 × 102.7 mm。只验证同版设计，同现有旧版不做兼容结论。
 
 CAD 验证右格梁和外侧板滑合、双 T 键和止退片装入、两格静态配合及各 23 个抽拉位置，并回读了分件 STEP。未做实际承重、配合和切片。
+
+**一盘 3MF：** [右格新增 17 件 · P1S / Generic PETG](Print/Right_Bay_Frame_P1S_PETG_UNSLICED.3mf)，不重复打印旧侧板或抽屉。全局 0.20 mm 层高、两道墙、10% Gyroid，未切片。旧件粘接前先干装并确认滑轨齐平。

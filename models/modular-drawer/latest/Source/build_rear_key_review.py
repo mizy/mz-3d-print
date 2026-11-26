@@ -1,4 +1,4 @@
-import sys,json
+import sys,json,hashlib
 from pathlib import Path
 from report_geometry import inspect,meshes,views,to_view
 step,out,qa=map(Path,sys.argv[1:4]);fit=json.loads(qa.read_text())
@@ -38,6 +38,9 @@ expand=None
 exp_path=qa.parent/'expansion-fit.json'
 if exp_path.is_file():
  expand=json.loads(exp_path.read_text())
+ plate=step.parent/'Print'/'Right_Bay_Frame_P1S_PETG_UNSLICED.3mf'
+ if plate.is_file():
+  expand['print_3mf']={'path':'Print/'+plate.name,'sha256':hashlib.sha256(plate.read_bytes()).hexdigest()}
  for k,stem,title,n in [
    ('two_bay','00_Two_Bay_Horizontal_Frame_Check','左右两格 · 骨架总装',35),
    ('expansion','07_Right_Bay_Frame_Expansion_17_Parts','新增右格 · 17 件，不含拉篮',17)]:
