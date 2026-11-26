@@ -1,0 +1,44 @@
+{
+  "case": "fea_solid_drawer_2kg",
+  "elapsed_seconds": 57.3,
+  "mesh": {
+    "nodes": 36209,
+    "elements_t10": 18648,
+    "dof": 108627,
+    "mesh_size": 3.0,
+    "units": "mm",
+    "mesh_seconds": 17.0
+  },
+  "fixes": [
+    "x_min",
+    "x_max",
+    "y_min",
+    "y_max"
+  ],
+  "loads": [
+    "z_min: fz=-19.6"
+  ],
+  "material": {
+    "name": "petg",
+    "E_mpa": 1400.0,
+    "nu": 0.35
+  },
+  "solver": "rust wgpu PCG",
+  "field_summary": {
+    "max_displacement": 0.00029452832073918045,
+    "load_point_delta": 0.00015500884277497867,
+    "stiffness": 126444399.22987346,
+    "max_von_mises": 23.452561817214388,
+    "mean_von_mises": 0.008571708428611305,
+    "strain_energy": 1.5190864262463897e-06,
+    "display_scale": 500.0
+  },
+  "gates": {
+    "反力平衡 |ΣR+F|/|F|": true,
+    "能量一致性 |SE-0.5u·f|/(0.5u·f)": true,
+    "VTP 读回审计(几何/拓扑/场数组)": true,
+    "单元 Jacobian > 0": true,
+    "输出文件齐全": true
+  },
+  "report_html": "fea_solid_drawer_2kg/fea_solid_drawer_2kg_report.html"
+}

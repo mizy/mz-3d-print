@@ -1,0 +1,23 @@
+{
+  "step": "../../Print_Parts/04_Drawer.step",
+  "out": "drawer_step_3mm.msh",
+  "size_min": 1.0,
+  "size_max": 3.0,
+  "order": 2,
+  "nodes": 182453,
+  "tets_t10": 91720,
+  "tets_t4": 0,
+  "bbox_mm": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      144.1,
+      230.0,
+      86.0
+    ]
+  ],
+  "seconds": 25.2
+}

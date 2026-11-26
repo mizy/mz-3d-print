@@ -1,0 +1,41 @@
+{
+  "cases": [
+    {
+      "name": "bottom_20N_point_simple",
+      "gravity": false,
+      "tilt_deg": 90,
+      "supports": [
+        {
+          "type": "line",
+          "axis": "x",
+          "at": -71.09
+        },
+        {
+          "type": "line",
+          "axis": "x",
+          "at": 71.09
+        },
+        {
+          "type": "line",
+          "axis": "y",
+          "at": -114.04
+        },
+        {
+          "type": "line",
+          "axis": "y",
+          "at": 114.04
+        }
+      ],
+      "loads": [
+        {
+          "type": "point",
+          "at": [
+            0,
+            0
+          ],
+          "force_n": 20.0
+        }
+      ]
+    }
+  ]
+}

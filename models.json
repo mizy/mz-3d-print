@@ -6024,6 +6024,316 @@
         "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Mating_Clearance_Audit.md"
       },
       {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/README.md",
+        "size": 2139,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/README.md"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/build_drawer_3mf.py",
+        "size": 4399,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/build_drawer_3mf.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/build_windowed_3mf.py",
+        "size": 5243,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/build_windowed_3mf.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/compare_windowed.png",
+        "size": 173009,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/compare_windowed.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/cut_side_windows.py",
+        "size": 1583,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/cut_side_windows.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/drawer_windowed.step",
+        "size": 650576,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/drawer_windowed.step"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/drawer_windowed.stl",
+        "size": 181084,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/drawer_windowed.stl"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/preview_normal.png",
+        "size": 6120,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/preview_normal.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/preview_windowed.png",
+        "size": 7314,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/preview_windowed.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/probe_step.py",
+        "size": 295,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/probe_step.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/render_variant.py",
+        "size": 1533,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/drawer_print_prep/render_variant.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/REPORT.md",
+        "size": 4712,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/REPORT.md"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/bottom_panel.stl",
+        "size": 684,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/bottom_panel.stl"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/build_cases.py",
+        "size": 4360,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/build_cases.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/build_wall_cases.py",
+        "size": 1970,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/build_wall_cases.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/drawer_printed.stl",
+        "size": 575684,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/drawer_printed.stl"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_20n/deflection.png",
+        "size": 353991,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_20n/deflection.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_20n/report.json",
+        "size": 801,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_20n/report.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_20n/stress.png",
+        "size": 168596,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_20n/stress.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_2kg/deflection.png",
+        "size": 386196,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_2kg/deflection.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_2kg/report.json",
+        "size": 797,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_2kg/report.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_2kg/stress.png",
+        "size": 256301,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_2kg/stress.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_bottom/deflection.png",
+        "size": 388243,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_bottom/deflection.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_bottom/report.json",
+        "size": 3998,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_bottom/report.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_bottom/stress.png",
+        "size": 258504,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_bottom/stress.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_bottom_check/deflection.png",
+        "size": 405774,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_bottom_check/deflection.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_bottom_check/report.json",
+        "size": 1710,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_bottom_check/report.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_bottom_check/stress.png",
+        "size": 320961,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_bottom_check/stress.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_wall/deflection.png",
+        "size": 209669,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_wall/deflection.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_wall/report.json",
+        "size": 3305,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_wall/report.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_wall/stress.png",
+        "size": 153772,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/fea_wall/stress.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/front_wall.stl",
+        "size": 684,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/front_wall.stl"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/loads_20n.json",
+        "size": 678,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/loads_20n.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/loads_2kg.json",
+        "size": 60258,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/loads_2kg.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/loads_bottom.json",
+        "size": 367920,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/loads_bottom.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/loads_check.json",
+        "size": 121529,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/loads_check.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/loads_wall.json",
+        "size": 11555,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/loads_wall.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/measure.err",
+        "size": 0,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/measure.err"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/measure.json",
+        "size": 1135,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/measure.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/measure_drawer.py",
+        "size": 3049,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/measure_drawer.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/section.json",
+        "size": 489,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/section.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/wall_section.json",
+        "size": 120,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_drawer_infill/wall_section.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/REPORT.md",
+        "size": 5167,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/REPORT.md"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/drawer_step_3mm.stats.json",
+        "size": 321,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/drawer_step_3mm.stats.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_drawer_2kg/fea_solid_drawer_2kg_deformation.png",
+        "size": 81302,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_drawer_2kg/fea_solid_drawer_2kg_deformation.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_drawer_2kg/fea_solid_drawer_2kg_displacement.png",
+        "size": 48084,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_drawer_2kg/fea_solid_drawer_2kg_displacement.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_drawer_2kg/fea_solid_drawer_2kg_report.html",
+        "size": 1965726,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_drawer_2kg/fea_solid_drawer_2kg_report.html"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_drawer_2kg/fea_solid_drawer_2kg_report.json",
+        "size": 3030,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_drawer_2kg/fea_solid_drawer_2kg_report.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_drawer_2kg/fea_solid_drawer_2kg_stress.png",
+        "size": 32313,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_drawer_2kg/fea_solid_drawer_2kg_stress.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_drawer_2kg/summary.json",
+        "size": 1044,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_drawer_2kg/summary.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_deformation.png",
+        "size": 523816,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_deformation.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_displacement.png",
+        "size": 140022,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_displacement.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_report.html",
+        "size": 7427161,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_report.html"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_report.json",
+        "size": 3066,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_report.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_stress.png",
+        "size": 419849,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_stress.png"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_plate_box_2kg/summary.json",
+        "size": 1051,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_plate_box_2kg/summary.json"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/run_chain.sh",
+        "size": 1665,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/run_chain.sh"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/run_solid_case.py",
+        "size": 4034,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/run_solid_case.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/step_3mm.log",
+        "size": 156149,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/step_3mm.log"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/step_to_msh.py",
+        "size": 2188,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/step_to_msh.py"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Print/V18_H100_Drawer_single_P1S_PETG.3mf",
+        "size": 165066,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Print/V18_H100_Drawer_single_P1S_PETG.3mf"
+      },
+      {
+        "rel": "V18_Single_Head_T_Rod_Drawer/Print/V18_H100_Drawer_windowed_P1S_PETG.3mf",
+        "size": 52963,
+        "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Print/V18_H100_Drawer_windowed_P1S_PETG.3mf"
+      },
+      {
         "rel": "V18_Single_Head_T_Rod_Drawer/Print/V18_H100_Single_Module_P1S_PETG_UNSLICED.3mf",
         "size": 1767017,
         "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Print/V18_H100_Single_Module_P1S_PETG_UNSLICED.3mf"
@@ -6334,8 +6644,18 @@
         "url": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/index.html"
       }
     ],
-    "bytes": 60781649,
+    "bytes": 76916406,
     "html": [
+      {
+        "rel": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_drawer_2kg/fea_solid_drawer_2kg_report.html",
+        "size": 1965726,
+        "title": "结构静刚度求解报告 — fea_solid_drawer_2kg"
+      },
+      {
+        "rel": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Notes/fea_solid_solver/fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_report.html",
+        "size": 7427161,
+        "title": "结构静刚度求解报告 — fea_solid_plate_box_2kg"
+      },
       {
         "rel": "models/modular-drawer/V18_Single_Head_T_Rod_Drawer/Styles/Models/index.html",
         "size": 3385,

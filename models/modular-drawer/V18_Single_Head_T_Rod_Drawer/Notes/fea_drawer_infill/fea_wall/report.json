@@ -1,0 +1,131 @@
+{
+  "schema": "print-fea/1",
+  "model": {
+    "path": "front_wall.stl",
+    "volume_cm3": 11.86,
+    "area_cm2": 118.6
+  },
+  "print": {
+    "material": "PETG",
+    "E_mpa": 2000.0,
+    "thickness_mm": 1.0
+  },
+  "cases": [
+    {
+      "max_deflection_mm": 76.183,
+      "deflection_at": [
+        -0.0,
+        41.7
+      ],
+      "max_stress_mpa": 106.89,
+      "stress_p999_mpa": 91.89,
+      "hotspot": [
+        70.6,
+        37.6
+      ],
+      "safety_factor": 0.25,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 15.1,
+      "thickness_mm": 1.0,
+      "elements": 8364,
+      "name": "front_pull_30N_60mm",
+      "warnings": [
+        "挠度 >5mm：肉眼可见，考虑加筋或加厚",
+        "应力 > Z 强度一半：长期载荷有蠕变风险"
+      ]
+    },
+    {
+      "max_deflection_mm": 67.615,
+      "deflection_at": [
+        -0.0,
+        41.7
+      ],
+      "max_stress_mpa": 106.26,
+      "stress_p999_mpa": 90.22,
+      "hotspot": [
+        70.6,
+        37.6
+      ],
+      "safety_factor": 0.25,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 15.1,
+      "thickness_mm": 1.0,
+      "elements": 8364,
+      "name": "front_pull_30N_80mm",
+      "warnings": [
+        "挠度 >5mm：肉眼可见，考虑加筋或加厚",
+        "应力 > Z 强度一半：长期载荷有蠕变风险"
+      ]
+    },
+    {
+      "max_deflection_mm": 126.972,
+      "deflection_at": [
+        -0.0,
+        41.7
+      ],
+      "max_stress_mpa": 178.16,
+      "stress_p999_mpa": 153.16,
+      "hotspot": [
+        70.6,
+        37.6
+      ],
+      "safety_factor": 0.15,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 15.1,
+      "thickness_mm": 1.0,
+      "elements": 8364,
+      "name": "front_pull_50N_60mm",
+      "warnings": [
+        "挠度 >5mm：肉眼可见，考虑加筋或加厚",
+        "应力 > Z 强度一半：长期载荷有蠕变风险"
+      ]
+    },
+    {
+      "max_deflection_mm": 112.692,
+      "deflection_at": [
+        -0.0,
+        41.7
+      ],
+      "max_stress_mpa": 177.09,
+      "stress_p999_mpa": 150.37,
+      "hotspot": [
+        70.6,
+        37.6
+      ],
+      "safety_factor": 0.15,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 15.1,
+      "thickness_mm": 1.0,
+      "elements": 8364,
+      "name": "front_pull_50N_80mm",
+      "warnings": [
+        "挠度 >5mm：肉眼可见，考虑加筋或加厚",
+        "应力 > Z 强度一半：长期载荷有蠕变风险"
+      ]
+    },
+    {
+      "max_deflection_mm": 94.563,
+      "deflection_at": [
+        -0.0,
+        41.7
+      ],
+      "max_stress_mpa": 167.12,
+      "stress_p999_mpa": 125.01,
+      "hotspot": [
+        0.8,
+        40.7
+      ],
+      "safety_factor": 0.16,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 15.1,
+      "thickness_mm": 1.0,
+      "elements": 8364,
+      "name": "front_pull_30N_point",
+      "warnings": [
+        "挠度 >5mm：肉眼可见，考虑加筋或加厚",
+        "应力 > Z 强度一半：长期载荷有蠕变风险"
+      ]
+    }
+  ],
+  "note": "Kirchhoff 薄板 + Morley 单元；支座边缘应力为奇异点，看 stress_p999 / 热点含义"
+}

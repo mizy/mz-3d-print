@@ -1,0 +1,627 @@
+{
+  "cases": [
+    {
+      "name": "front_pull_30N_60mm",
+      "gravity": false,
+      "tilt_deg": 90,
+      "supports": [
+        {
+          "type": "line",
+          "axis": "x",
+          "at": -71.09,
+          "clamp": true
+        },
+        {
+          "type": "line",
+          "axis": "x",
+          "at": 71.09,
+          "clamp": true
+        },
+        {
+          "type": "line",
+          "axis": "y",
+          "at": -41.7,
+          "clamp": true
+        }
+      ],
+      "loads": [
+        {
+          "type": "point",
+          "at": [
+            -30.0,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            -25.714,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            -21.429,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            -17.143,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            -12.857,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            -8.571,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            -4.286,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            0.0,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            4.286,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            8.571,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            12.857,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            17.143,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            21.429,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            25.714,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            30.0,
+            39.7
+          ],
+          "force_n": 2.0
+        }
+      ]
+    },
+    {
+      "name": "front_pull_30N_80mm",
+      "gravity": false,
+      "tilt_deg": 90,
+      "supports": [
+        {
+          "type": "line",
+          "axis": "x",
+          "at": -71.09,
+          "clamp": true
+        },
+        {
+          "type": "line",
+          "axis": "x",
+          "at": 71.09,
+          "clamp": true
+        },
+        {
+          "type": "line",
+          "axis": "y",
+          "at": -41.7,
+          "clamp": true
+        }
+      ],
+      "loads": [
+        {
+          "type": "point",
+          "at": [
+            -40.0,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            -34.286,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            -28.571,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            -22.857,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            -17.143,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            -11.429,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            -5.714,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            0.0,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            5.714,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            11.429,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            17.143,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            22.857,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            28.571,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            34.286,
+            39.7
+          ],
+          "force_n": 2.0
+        },
+        {
+          "type": "point",
+          "at": [
+            40.0,
+            39.7
+          ],
+          "force_n": 2.0
+        }
+      ]
+    },
+    {
+      "name": "front_pull_50N_60mm",
+      "gravity": false,
+      "tilt_deg": 90,
+      "supports": [
+        {
+          "type": "line",
+          "axis": "x",
+          "at": -71.09,
+          "clamp": true
+        },
+        {
+          "type": "line",
+          "axis": "x",
+          "at": 71.09,
+          "clamp": true
+        },
+        {
+          "type": "line",
+          "axis": "y",
+          "at": -41.7,
+          "clamp": true
+        }
+      ],
+      "loads": [
+        {
+          "type": "point",
+          "at": [
+            -30.0,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            -25.714,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            -21.429,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            -17.143,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            -12.857,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            -8.571,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            -4.286,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            0.0,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            4.286,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            8.571,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            12.857,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            17.143,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            21.429,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            25.714,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            30.0,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        }
+      ]
+    },
+    {
+      "name": "front_pull_50N_80mm",
+      "gravity": false,
+      "tilt_deg": 90,
+      "supports": [
+        {
+          "type": "line",
+          "axis": "x",
+          "at": -71.09,
+          "clamp": true
+        },
+        {
+          "type": "line",
+          "axis": "x",
+          "at": 71.09,
+          "clamp": true
+        },
+        {
+          "type": "line",
+          "axis": "y",
+          "at": -41.7,
+          "clamp": true
+        }
+      ],
+      "loads": [
+        {
+          "type": "point",
+          "at": [
+            -40.0,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            -34.286,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            -28.571,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            -22.857,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            -17.143,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            -11.429,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            -5.714,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            0.0,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            5.714,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            11.429,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            17.143,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            22.857,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            28.571,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            34.286,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        },
+        {
+          "type": "point",
+          "at": [
+            40.0,
+            39.7
+          ],
+          "force_n": 3.3333333333333335
+        }
+      ]
+    },
+    {
+      "name": "front_pull_30N_point",
+      "gravity": false,
+      "tilt_deg": 90,
+      "supports": [
+        {
+          "type": "line",
+          "axis": "x",
+          "at": -71.09,
+          "clamp": true
+        },
+        {
+          "type": "line",
+          "axis": "x",
+          "at": 71.09,
+          "clamp": true
+        },
+        {
+          "type": "line",
+          "axis": "y",
+          "at": -41.7,
+          "clamp": true
+        }
+      ],
+      "loads": [
+        {
+          "type": "point",
+          "at": [
+            0,
+            40.7
+          ],
+          "force_n": 30.0
+        }
+      ]
+    }
+  ]
+}

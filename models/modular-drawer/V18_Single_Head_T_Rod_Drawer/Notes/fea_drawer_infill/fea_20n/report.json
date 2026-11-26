@@ -1,0 +1,36 @@
+{
+  "schema": "print-fea/1",
+  "model": {
+    "path": "bottom_panel.stl",
+    "volume_cm3": 84.31,
+    "area_cm2": 324.3
+  },
+  "print": {
+    "material": "PETG",
+    "E_mpa": 2000.0,
+    "thickness_mm": 2.6
+  },
+  "cases": [
+    {
+      "max_deflection_mm": 2.614,
+      "deflection_at": [
+        -0.9,
+        -0.6
+      ],
+      "max_stress_mpa": 10.8,
+      "stress_p999_mpa": 7.22,
+      "hotspot": [
+        -0.9,
+        0.7
+      ],
+      "safety_factor": 2.5,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 107.1,
+      "thickness_mm": 2.6,
+      "elements": 12829,
+      "name": "bottom_20N_point_simple",
+      "warnings": []
+    }
+  ],
+  "note": "Kirchhoff 薄板 + Morley 单元；支座边缘应力为奇异点，看 stress_p999 / 热点含义"
+}

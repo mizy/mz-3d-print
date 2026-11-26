@@ -1,0 +1,42 @@
+{
+  "case": "fea_solid_plate_box_2kg",
+  "elapsed_seconds": 1076.8,
+  "mesh": {
+    "mesh_size": 2.0,
+    "units": "mm",
+    "geometry": "box:142.18,228.08,2.6",
+    "mesh_seconds": 0.0
+  },
+  "fixes": [
+    "x_min",
+    "x_max",
+    "y_min",
+    "y_max"
+  ],
+  "loads": [
+    "z_min: fz=-19.6"
+  ],
+  "material": {
+    "name": "petg",
+    "E_mpa": 1400.0,
+    "nu": 0.35
+  },
+  "solver": "python scipy spsolve (SuperLU)",
+  "field_summary": {
+    "max_displacement": 0.23970661530520881,
+    "load_point_delta": 0.07671306111873144,
+    "stiffness": 255497.56083476785,
+    "max_von_mises": 0.45901964557220093,
+    "mean_von_mises": 0.07516120623816396,
+    "strain_energy": 0.0007517879989097868,
+    "display_scale": 280.3212803771328
+  },
+  "gates": {
+    "反力平衡 |ΣR+F|/|F|": true,
+    "能量一致性 |SE-0.5u·f|/(0.5u·f)": true,
+    "VTP 读回审计(几何/拓扑/场数组)": true,
+    "单元 Jacobian > 0": true,
+    "输出文件齐全": true
+  },
+  "report_html": "fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_report.html"
+}

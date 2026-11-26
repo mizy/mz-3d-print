@@ -1,0 +1,26 @@
+{
+  "low": {
+    "core_modulus_ratio": 0.05,
+    "D_Nmm": 2005.9,
+    "E_eff_MPa": 1369.5,
+    "stiffness_factor": 0.685
+  },
+  "mid": {
+    "core_modulus_ratio": 0.1,
+    "D_Nmm": 2054.5,
+    "E_eff_MPa": 1402.7,
+    "stiffness_factor": 0.701
+  },
+  "high": {
+    "core_modulus_ratio": 0.15,
+    "D_Nmm": 2103.1,
+    "E_eff_MPa": 1435.9,
+    "stiffness_factor": 0.718
+  },
+  "geometry": {
+    "total_mm": 2.6,
+    "skin_mm": 0.4,
+    "core_mm": 1.8,
+    "skin_center_offset_mm": 1.1
+  }
+}

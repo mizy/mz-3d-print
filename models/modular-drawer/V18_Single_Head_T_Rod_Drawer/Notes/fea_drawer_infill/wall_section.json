@@ -1,0 +1,8 @@
+{
+  "wall": {
+    "width_mm": 142.18,
+    "height_mm": 83.4,
+    "thickness_mm": 1.0,
+    "stiffness_factor": 0.84
+  }
+}

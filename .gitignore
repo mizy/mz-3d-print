@@ -6,3 +6,11 @@ node_modules/
 !models/dog-bowl-shared/**/*.gcode
 !models/dog-bowl-lv/**/*.gcode
 !models/dog-bowl-chanel/**/*.gcode
+
+# 切片副本不进库（README「什么进库」规则）：保留源 3mf，sliced 由使用者自己切
+*sliced.3mf
+
+# FEA 求解器大中间产物，可重算；报告、脚本和小图进库
+models/modular-drawer/**/Notes/fea_solid_solver/**/*.msh
+models/modular-drawer/**/Notes/fea_solid_solver/**/*.vtp
+models/modular-drawer/**/Notes/fea_solid_solver/**/*.vtu

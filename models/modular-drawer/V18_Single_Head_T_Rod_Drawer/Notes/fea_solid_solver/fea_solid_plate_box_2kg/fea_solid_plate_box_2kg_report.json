@@ -1,0 +1,127 @@
+{
+  "decision": {
+    "title": "结构静刚度求解报告 — fea_solid_plate_box_2kg",
+    "kind": "linear_static"
+  },
+  "input": {
+    "geometry": "box:142.18,228.08,2.6",
+    "units": "mm",
+    "order": 2,
+    "mesh_size": 2.0,
+    "mesh_stats": "61095 单元 / 121718 节点"
+  },
+  "material": {
+    "name": "petg",
+    "E": 1400000000.0,
+    "nu": 0.35
+  },
+  "units": {
+    "length": "mm",
+    "force": "N",
+    "stress": "MPa",
+    "stiffness": "N/m",
+    "energy": "J"
+  },
+  "load_cases": {
+    "fixes": [
+      "x_min",
+      "x_max",
+      "y_min",
+      "y_max"
+    ],
+    "loads": [
+      {
+        "face": "z_min",
+        "force_total": [
+          0.0,
+          0.0,
+          -19.6
+        ],
+        "nodes": 38727
+      }
+    ],
+    "load_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "results": {
+    "field_summary": {
+      "max_displacement": 0.23970661530520881,
+      "load_point_delta": 0.07671306111873144,
+      "stiffness": 255497.56083476785,
+      "max_von_mises": 0.45901964557220093,
+      "mean_von_mises": 0.07516120623816396,
+      "strain_energy": 0.0007517879989097868,
+      "display_scale": 280.3212803771328
+    },
+    "reaction_sum": [
+      -3.1355664484138124e-11,
+      -2.4819312620730227e-11,
+      19.59999999929655
+    ]
+  },
+  "validation": {
+    "benchmarks": [
+      {
+        "name": "拉伸杆 δ=FL/(EA)",
+        "analytical": "4.7619e-06 m",
+        "measured": "4.8056e-06 m",
+        "rel_error": "0.92%",
+        "extra": "平均σ_vm: 9.945e+06 vs 解析 1.000e+07 Pa",
+        "passed": true
+      },
+      {
+        "name": "悬臂梁 δ=FL³/(3EI)",
+        "analytical": "1.9048e-03 m",
+        "measured": "1.9044e-03 m",
+        "rel_error": "0.02%",
+        "extra": "k: 5.251e+05 vs 5.250e+05 N/m",
+        "passed": true
+      }
+    ],
+    "convergence": null
+  },
+  "gates": {
+    "反力平衡 |ΣR+F|/|F|": {
+      "measured": "0.0000%",
+      "threshold": "< 1%",
+      "passed": true
+    },
+    "能量一致性 |SE-0.5u·f|/(0.5u·f)": {
+      "measured": "0.0000%",
+      "threshold": "< 2%",
+      "passed": true
+    },
+    "VTP 读回审计(几何/拓扑/场数组)": {
+      "measured": "ok",
+      "threshold": "完整保留",
+      "passed": true
+    },
+    "单元 Jacobian > 0": {
+      "measured": "ok",
+      "threshold": "全部为正",
+      "passed": true
+    },
+    "输出文件齐全": {
+      "measured": "ok",
+      "threshold": "VTP+VTU+JSON+HTML+PNG",
+      "passed": true
+    }
+  },
+  "outputs": {
+    "mesh_vtp": "fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_mesh.vtp",
+    "deformed_mesh_vtp": "fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_deformed.vtp",
+    "volume_mesh_vtu": "fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_volume.vtu",
+    "deformation_png": "fea_solid_plate_box_2kg/fea_solid_plate_box_2kg_deformation.png",
+    "report_json": null,
+    "report_html": null
+  },
+  "runtime": {
+    "solver": "python scipy spsolve (SuperLU)",
+    "element": "T10",
+    "native_times_s": null
+  },
+  "generated_at": "2026-11-25T10:09:24"
+}

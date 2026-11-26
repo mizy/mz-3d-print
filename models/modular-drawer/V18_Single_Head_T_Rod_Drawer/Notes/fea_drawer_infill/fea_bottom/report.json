@@ -1,0 +1,176 @@
+{
+  "schema": "print-fea/1",
+  "model": {
+    "path": "bottom_panel.stl",
+    "volume_cm3": 84.31,
+    "area_cm2": 324.3
+  },
+  "print": {
+    "material": "PETG",
+    "E_mpa": 2000.0,
+    "thickness_mm": 2.6
+  },
+  "cases": [
+    {
+      "max_deflection_mm": 0.188,
+      "deflection_at": [
+        -0.9,
+        -0.6
+      ],
+      "max_stress_mpa": 0.22,
+      "stress_p999_mpa": 0.22,
+      "hotspot": [
+        -0.9,
+        0.7
+      ],
+      "safety_factor": 124.2,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 107.1,
+      "thickness_mm": 2.6,
+      "elements": 12829,
+      "name": "bottom_0.5kg_simple",
+      "warnings": []
+    },
+    {
+      "max_deflection_mm": 0.376,
+      "deflection_at": [
+        -0.9,
+        -0.6
+      ],
+      "max_stress_mpa": 0.43,
+      "stress_p999_mpa": 0.43,
+      "hotspot": [
+        -0.9,
+        0.7
+      ],
+      "safety_factor": 62.1,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 107.1,
+      "thickness_mm": 2.6,
+      "elements": 12829,
+      "name": "bottom_1kg_simple",
+      "warnings": []
+    },
+    {
+      "max_deflection_mm": 0.753,
+      "deflection_at": [
+        -0.9,
+        -0.6
+      ],
+      "max_stress_mpa": 0.87,
+      "stress_p999_mpa": 0.86,
+      "hotspot": [
+        -0.9,
+        0.7
+      ],
+      "safety_factor": 31.05,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 107.1,
+      "thickness_mm": 2.6,
+      "elements": 12829,
+      "name": "bottom_2kg_simple",
+      "warnings": []
+    },
+    {
+      "max_deflection_mm": 1.129,
+      "deflection_at": [
+        -0.9,
+        -0.6
+      ],
+      "max_stress_mpa": 1.3,
+      "stress_p999_mpa": 1.29,
+      "hotspot": [
+        -0.9,
+        0.7
+      ],
+      "safety_factor": 20.7,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 107.1,
+      "thickness_mm": 2.6,
+      "elements": 12829,
+      "name": "bottom_3kg_simple",
+      "warnings": []
+    },
+    {
+      "max_deflection_mm": 0.105,
+      "deflection_at": [
+        -0.9,
+        -0.6
+      ],
+      "max_stress_mpa": 0.38,
+      "stress_p999_mpa": 0.38,
+      "hotspot": [
+        -70.5,
+        -7.0
+      ],
+      "safety_factor": 70.2,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 107.1,
+      "thickness_mm": 2.6,
+      "elements": 12829,
+      "name": "bottom_1kg_clamped",
+      "warnings": []
+    },
+    {
+      "max_deflection_mm": 0.21,
+      "deflection_at": [
+        -0.9,
+        -0.6
+      ],
+      "max_stress_mpa": 0.77,
+      "stress_p999_mpa": 0.75,
+      "hotspot": [
+        -70.5,
+        -7.0
+      ],
+      "safety_factor": 35.1,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 107.1,
+      "thickness_mm": 2.6,
+      "elements": 12829,
+      "name": "bottom_2kg_clamped",
+      "warnings": []
+    },
+    {
+      "max_deflection_mm": 2.275,
+      "deflection_at": [
+        -0.9,
+        -0.6
+      ],
+      "max_stress_mpa": 3.64,
+      "stress_p999_mpa": 3.57,
+      "hotspot": [
+        -0.9,
+        0.7
+      ],
+      "safety_factor": 7.42,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 107.1,
+      "thickness_mm": 2.6,
+      "elements": 12829,
+      "name": "bottom_2kg_40mm_patch_simple",
+      "warnings": []
+    },
+    {
+      "max_deflection_mm": 2.614,
+      "deflection_at": [
+        -0.9,
+        -0.6
+      ],
+      "max_stress_mpa": 10.8,
+      "stress_p999_mpa": 7.22,
+      "hotspot": [
+        -0.9,
+        0.7
+      ],
+      "safety_factor": 2.5,
+      "sf_basis": "min(strength_xy, strength_z) / max bending stress",
+      "mass_g": 107.1,
+      "thickness_mm": 2.6,
+      "elements": 12829,
+      "name": "bottom_20N_point_simple",
+      "warnings": []
+    }
+  ],
+  "note": "Kirchhoff 薄板 + Morley 单元；支座边缘应力为奇异点，看 stress_p999 / 热点含义"
+}
