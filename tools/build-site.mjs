@@ -64,7 +64,7 @@ for (const dir of fs.readdirSync(MODELS, { withFileTypes: true })) {
   const meta = JSON.parse(fs.readFileSync(metaPath, "utf8"));
   const files = walk(abs).filter(isTracked)
     .map((f) => path.relative(abs, f))
-    .filter((r) => !r.endsWith("MODEL.json"))
+    .filter((r) => !r.endsWith("MODEL.json") && !(dir.name === "modular-drawer" && r.startsWith("History/")))
     .map((r) => ({ rel: r, size: fs.statSync(path.join(abs, r)).size }));
   const cover = meta.cover ? files.find(f => f.rel === meta.cover && isImage(f.rel)) : null;
   if (meta.cover && !cover) throw new Error(`${dir.name}: cover is missing or untracked: ${meta.cover}`);
@@ -101,6 +101,7 @@ const assetUrl = (rel) => {
   const attr = execFileSync("git", ["check-attr", "filter", "--", resolved], {cwd: ROOT, encoding: "utf8"}).trim();
   return attr.endsWith(": lfs") ? `https://media.githubusercontent.com/media/mizy/mz-3d-print/main/${enc(resolved)}` : enc(resolved);
 };
+const publicLabel = (name) => name.replace(/miao[ _.-]*zhuang|zhuang[ _.-]*miao|苗壮|苗壯/gi, "personal");
 const card = (m) => {
   const hasCurrentModels = m.files.some(f => f.rel.startsWith("Models/"));
   const selected = Array.isArray(m.downloads) ? new Set(m.downloads) : null;
@@ -109,7 +110,7 @@ const card = (m) => {
   const fileItem = f => {
     const name = path.basename(f.rel);
     const label = partLabels[name];
-    return `<li><a href="${assetUrl(`models/${m.dir}/${f.rel}`)}" download>${label ? `${esc(label)}<small>${esc(name)}</small>` : esc(f.rel)}</a><span>${KIND_LABEL[path.extname(f.rel).toLowerCase()] ?? ""} ${human(f.size)}</span></li>`;
+    return `<li><a href="${assetUrl(`models/${m.dir}/${f.rel}`)}" download>${label ? `${esc(label)}<small>${esc(name)}</small>` : esc(publicLabel(f.rel))}</a><span>${KIND_LABEL[path.extname(f.rel).toLowerCase()] ?? ""} ${human(f.size)}</span></li>`;
   };
   const groups = Array.isArray(m.downloadGroups) ? m.downloadGroups : [];
   const grouped = groups.map(g => ({...g, files: models_.filter(f => f.rel.startsWith(g.prefix))})).filter(g => g.files.length);
@@ -140,7 +141,7 @@ const card = (m) => {
     ${
       others.length
         ? `<details><summary>设计文档与历史资料（${others.length}）</summary><ul class="files dim">${others
-            .map((f) => `<li><a href="${assetUrl(`models/${m.dir}/${f.rel}`)}">${esc(f.rel)}</a><span>${human(f.size)}</span></li>`)
+            .map((f) => `<li><a href="${assetUrl(`models/${m.dir}/${f.rel}`)}">${esc(publicLabel(f.rel))}</a><span>${human(f.size)}</span></li>`)
             .join("")}</ul></details>`
         : ""
     }
@@ -167,7 +168,7 @@ const html = `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>苗壮的 3D 打印模型库</title>
+<title>3D 打印模型库</title>
 <meta name="description" content="3D 打印模型与改造件索引：原创设计、改造件与参数记录，直接下载 STL / 3MF。">
 <meta name="theme-color" content="#0f1115">
 <link rel="manifest" href="manifest.json">
@@ -182,7 +183,7 @@ const html = `<!doctype html>
 <body>
 <a class="skip" href="#grid">跳到模型列表</a>
 <header>
-  <div class="topline"><h1>苗壮的 3D 打印模型库</h1><a class="repo" href="https://github.com/mizy/mz-3d-print">GitHub ↗</a></div>
+  <div class="topline"><h1>3D 打印模型库</h1><a class="repo" href="https://github.com/mizy/mz-3d-print">GitHub ↗</a></div>
   <p class="lead">模型、设计图和试错记录。打印机：Bambu Lab P1S · AMS</p>
   <nav class="resources" aria-label="资料导航"><a href="https://github.com/mizy/mz-3d-print/tree/main/models">项目目录</a><a href="https://github.com/mizy/mz-3d-print/tree/main/models/dog-bowl-shared">狗碗共享资料</a>${htmlNav}</nav>
   <p class="notice">来源与打印验证状态见各项目说明。<a href="README.md">仓库说明 ↗</a></p>

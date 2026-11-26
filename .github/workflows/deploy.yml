@@ -37,6 +37,11 @@ jobs:
           mkdir _site
           cp index.html models.json README.md manifest.json sw.js offline.html .nojekyll _site/
           cp -R assets models _site/
+          rm -rf _site/models/modular-drawer/History
+          mkdir _site/tools
+          cp tools/check-site.mjs _site/tools/
+          node _site/tools/check-site.mjs
+          rm -r _site/tools
 
       - uses: actions/configure-pages@v5
 

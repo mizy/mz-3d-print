@@ -1,16 +1,9 @@
 # 通用模块化抽屉
 
-**当前版：V18 H100（平底、单头 T 杆）。** [打开离线说明和尺寸配置器](V18_Single_Head_T_Rod_Drawer/index.html)。
+**当前评审：** [打开 latest HTML](latest/index.html) · [闭合总成](latest/STEP/00_Rear_Key_Closed_Review.step) · [说明](latest/README_CN.md)。
 
-| 要做什么 | 打开哪个文件 |
-| --- | --- |
-| 先打独立单格（19 件） | [P1S / PETG 排盘 3MF，未切片](V18_Single_Head_T_Rod_Drawer/Print/V18_H100_Single_Module_P1S_PETG_UNSLICED.3mf) |
-| 检查 2×2 总装 | [闭合 STEP](V18_Single_Head_T_Rod_Drawer/Reference/V18_H100_2x2_Universal_Closed.step) · [右上抽屉打开 STEP](V18_Single_Head_T_Rod_Drawer/Reference/V18_H100_2x2_Universal_Open.step) |
-| 自己排盘 | [V18 单件 STEP](V18_Single_Head_T_Rod_Drawer/Print_Parts/) · [整套 BOM](V18_Single_Head_T_Rod_Drawer/Print_Schedule.json) · [单格 BOM](V18_Single_Head_T_Rod_Drawer/Single_Bay_Print_Schedule.json) |
-| 查配合或修改 CAD | [装配说明](V18_Single_Head_T_Rod_Drawer/README_CN.md) · [间隙审计](V18_Single_Head_T_Rod_Drawer/Mating_Clearance_Audit.md) · [可编辑源码](V18_Single_Head_T_Rod_Drawer/Source/) |
+本轮后板内壁修平，双 T 插键与止退片保留功能槽，前梁、侧板及大耳狗低侧拉篮不变。打开评审可离线看 3D、三视图、STEP，以及一角试配样件。3D 需要 WebGPU；三视图不需要。此为 CAD 评审，未切片或实物承重测试。
 
-2×2 为 326.70 × 240 × 202.70 mm（含顶部定位榫）。六块侧板同型，前下和后下无横向圆通孔；中板两面都用各自的单头杆与偏心轮。整套 18 种、74 件。总装 STEP 只看装配，不整组打印。拨片轴/孔同为名义 Ø2.00 mm，应先打样，CAD 检查不等于真实打印或负载试验。
+**横向补第二格：** [查看总装和最终检查](latest/index.html#expansion-review) · [下载新增的 17 件骨架 STEP](latest/STEP/07_Right_Bay_Frame_Expansion_17_Parts.step)。共用中侧板，不含拉篮。
 
-### 历史版本
-
-当前目录只发布完整 V18。旧版不与 V18 混打；需要复现时查阅 [历史源、输入和固定 Git 版本](History/README.md)。
+**历史资料：** [归档和重建索引](History/README.md)。历史模型、说明和排盘不在当前报告里。

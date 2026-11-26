@@ -1,6 +1,10 @@
 # 历史版本：复现资料，不是打印入口
 
-当前请用 [V18 说明书](../V18_Single_Head_T_Rod_Drawer/index.html)。历史目录只收录能解释设计来源与重建的源、参数和必要种子，不保存旧打印盘、旧总装、渲染图或安装包。不要把历史输入的 STEP 当作当前打印件。
+当前请用 [latest HTML](../latest/index.html)。历史 STEP 只用于追溯和重建，不当作当前打印件。
+
+- 其余旧评审原件仅保留在本机，不对外发布。
+- [V18 的完整独立归档](Archived/V18_Single_Head_T_Rod_Drawer/index.html)：原说明与旧排盘仍可查，未混入当前报告。
+- 更早版本的重建输入见下文。
 
 ## V10、V14、V15
 
@@ -19,11 +23,11 @@ git archive d8f05e05495b43a4299faea8d646993c5c3c92c6 models/tv-cabinet-modular-d
 
 ## V16、V17
 
-下列是历史 H100 默认尺寸的工程重建，不保证旧文件头时间戳、说明书包和排盘工程逐字节一致。两版共用 [76 实体输入](Inputs/H100_True_Shared_10mm_Center_2x2_Closed.step)，另一份固定 [H100 单格输入](../V18_Single_Head_T_Rod_Drawer/Source/Seed/H100_Original_Single_Module.step) 与 V18 共享，不再复制一份。当前 V18 还保留 [签名 V17 闭合 STEP 种子](../V18_Single_Head_T_Rod_Drawer/Source/Seed/V17_H100_2x2_Universal_Closed.step)，只供 V18 再生。以本目录做起点时：
+下列是历史 H100 默认尺寸的工程重建，不保证旧文件头时间戳、说明书包和排盘工程逐字节一致。两版共用 [76 实体输入](Inputs/H100_True_Shared_10mm_Center_2x2_Closed.step)，另一份固定 [H100 单格输入](Archived/V18_Single_Head_T_Rod_Drawer/Source/Seed/H100_Original_Single_Module.step) 与 V18 共享，不再复制一份。历史 V18 还保留 [签名 V17 闭合 STEP 种子](Archived/V18_Single_Head_T_Rod_Drawer/Source/Seed/V17_H100_2x2_Universal_Closed.step)，只供 V18 再生。以本目录做起点时：
 
 ```sh
 seed=Inputs/H100_True_Shared_10mm_Center_2x2_Closed.step
-single=../V18_Single_Head_T_Rod_Drawer/Source/Seed/H100_Original_Single_Module.step
+single=Archived/V18_Single_Head_T_Rod_Drawer/Source/Seed/H100_Original_Single_Module.step
 python3 V16/build_universal.py "$seed" "$single" /absolute/path/to/new-v16-output
 python3 V17/build_v17.py "$seed" "$single" /absolute/path/to/new-v17-output 2.00
 ```

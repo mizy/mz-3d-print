@@ -1,0 +1,67 @@
+const {chromium}=require(process.env.PLAYWRIGHT_PATH||'playwright'),{pathToFileURL}=require('node:url'),path=require('node:path'),fs=require('node:fs'),assert=require('node:assert/strict'),crypto=require('node:crypto');
+(async()=>{const b=await chromium.launch({executablePath:process.env.CHROMIUM_PATH,headless:true,args:['--enable-unsafe-webgpu']});
+try{
+ const p=await b.newPage({viewport:{width:1200,height:780}}),errors=[],requests=[];
+ p.on('pageerror',e=>errors.push(e.message));p.on('request',r=>{if(/^https?:/.test(r.url()))requests.push(r.url())});await p.route(/^https?:\/\//,r=>r.abort());
+ await p.goto(pathToFileURL(path.resolve('index.html')).href,{waitUntil:'commit',timeout:90000});
+ await p.waitForFunction(()=>!document.querySelector('#part').disabled||document.querySelector('#status').dataset.error,null,{timeout:90000});
+ assert.equal(await p.locator('#status').getAttribute('data-error'),null,await p.locator('#status').textContent());
+ const matches=[['3D · 关到底的总成','00_Rear_Key_Closed_Review.step','19'],['3D · 紧配后板','03_Rear_Board_Slide_Key_Review.step','1'],['3D · 背插键','04_Rear_Slide_Key.step','1'],['3D · 止退片','05_Rear_Key_Stop_Blade.step','1'],['3D · 一角试配小样','06_Rear_Stop_Corner_Fit_Coupon.step','4']];
+ for(const [n,f,c] of matches){
+  await p.getByRole('button',{name:n}).evaluate(x=>x.click());
+  await p.waitForFunction(([file,ct])=>document.querySelector('#view-file a')?.textContent===file&&document.querySelector('#scene').dataset.visibleParts===ct,[f,c]);
+ }
+ assert.equal(await p.locator('#scene').getAttribute('data-renderer'),'webgpu');
+ assert(await p.locator('#navCube .cube-region').count()>10);
+ await p.waitForFunction(()=>document.querySelector('#scene').dataset.displayMode==='edges'&&Number(document.querySelector('#scene').dataset.edgeMeshes)>0);
+ const hit=p.locator('#scene');
+ await p.getByRole('button',{name:'3D · 背插键'}).evaluate(x=>x.click());
+ await p.waitForFunction(()=>document.querySelector('#view-file a').textContent==='04_Rear_Slide_Key.step'&&document.querySelector('#scene').dataset.visibleParts==='1'&&Number(document.querySelector('#scene').dataset.edgeMeshes)>0);
+ await hit.scrollIntoViewIfNeeded();
+ const rect=await hit.boundingBox();const xy=[rect.x+rect.width*.50,rect.y+rect.height*.50];
+ await p.mouse.move(...xy);
+ await p.waitForFunction(()=>document.querySelector('#scene').dataset.hoveredPart!=='');
+ await p.mouse.move(rect.x+5,rect.y+5);
+ await p.waitForFunction(()=>document.querySelector('#scene').dataset.hoveredPart==='');
+ await p.mouse.click(...xy);
+ await p.waitForFunction(()=>document.querySelector('#scene').dataset.selectedPart==='0');
+ assert.match(await p.locator('#pick-state').innerText(),/已选中/);
+ await p.keyboard.press('Escape');
+ await p.waitForFunction(()=>document.querySelector('#scene').dataset.selectedPart==='');
+ await p.mouse.click(...xy,{button:'right'});
+ await p.getByRole('menuitem',{name:'隐藏此部件'}).waitFor({timeout:12000});
+ await p.getByRole('menuitem',{name:'隐藏此部件'}).click();
+ await p.waitForFunction(()=>document.querySelector('#scene').dataset.visibleParts==='0');
+ await p.mouse.click(...xy,{button:'right'});
+ await p.getByRole('menuitem',{name:'显示全部'}).click();
+ await p.waitForFunction(()=>document.querySelector('#scene').dataset.visibleParts==='1');
+ await p.getByRole('button',{name:'3D · 两格骨架总装'}).evaluate(x=>x.click());
+ await p.waitForFunction(()=>document.querySelector('#view-file a').textContent==='00_Two_Bay_Horizontal_Frame_Check.step'&&document.querySelector('#scene').dataset.visibleParts==='35');
+ await p.getByRole('button',{name:'3D · 只看右格补打件'}).evaluate(x=>x.click());
+ await p.waitForFunction(()=>document.querySelector('#view-file a').textContent==='07_Right_Bay_Frame_Expansion_17_Parts.step'&&document.querySelector('#scene').dataset.visibleParts==='17');
+ const data=JSON.parse(await p.locator('#cad-data').textContent());
+ assert.equal(await p.locator('#sheets .sheet').count(),6);
+ for(const pn of data.panels){
+  const figures=p.locator('#sheet-'+pn.id+' svg');
+  assert.equal(await figures.count(),3);
+  assert.equal(await figures.evaluateAll(x=>new Set(x.map(v=>v.dataset.mmScale)).size),1);
+ }
+ for(const pr of Object.values(data.parts))assert.equal(crypto.createHash('sha256').update(fs.readFileSync('STEP/'+pr.name)).digest('hex'),pr.sha256);
+ assert.equal(data.fit.removed_legacy_step_mm,.30);
+ assert.equal(data.fit.inner_rear_face_unified_Y_mm,238.8);
+ assert.equal(data.fit.upper_drawer_clearance_mm,.8);
+ assert.equal(data.fit.key_back_to_front_samples.length,18);assert.equal(data.fit.drawer_travel_samples.length,23);
+ assert(!/附件下载|全卡槽|胶接对照/.test(await p.locator('main').innerText()));
+ assert.deepEqual(errors,[]);assert.deepEqual(requests,[]);
+ assert.equal(Object.keys(data.parts).length,10);
+ assert.equal(data.expansion.basket_count_in_outputs,0);
+ assert.equal(data.expansion.trays_both_guide_samples_mm.length,23);
+ assert.equal(data.expansion.static_overlap_mm3,0);
+ const fallback=await b.newPage();
+ await fallback.addInitScript(()=>Object.defineProperty(navigator,"gpu",{configurable:true,value:undefined}));
+ await fallback.goto(pathToFileURL(path.resolve('index.html')).href);
+ await fallback.waitForFunction(()=>document.querySelector('#status').dataset.error==='true');
+ assert.equal(await fallback.locator('#sheets .sheet').count(),6);
+ assert.equal(await fallback.locator('#filelist a').count(),10);
+ console.log('PASS rear-only HTML: WebGPU default edges, GPU hover/selection/right-click and inline edges, 35-solids frame/17-solids expansion, current-only paths; no-WebGPU drawing fallback.');
+}finally{await b.close()}})().catch(e=>{console.error(e);process.exitCode=1});

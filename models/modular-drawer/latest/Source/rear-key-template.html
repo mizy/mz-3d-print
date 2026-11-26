@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="模块化抽屉 · 只改后板：三视图、装配和 STEP"><title>Latest｜模块化抽屉 · 只改后板</title>
+<style>
+:root{color-scheme:light;--ink:#142d38;--muted:#496475;--teal:#0e6b63;--line:#cddde0;--paper:#fff;--wash:#e8f2ee;--hidden:#728795;--badge:#065a53;--warn:#795125}*{box-sizing:border-box}
+html{scroll-behavior:smooth}body{margin:0;background:#eff5f4;color:var(--ink);font:16px/1.55 system-ui,-apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif}
+h1,h2,h3,p{margin:0}h1,h2,h3{line-height:1.16}a{color:var(--teal);text-underline-offset:3px}button,select{font:inherit;background:#f7fbfa;color:var(--ink);border:1px solid #a8c0c3;border-radius:8px;padding:7px 10px;cursor:pointer}button:hover,select:hover{background:#e4f1ed}:focus-visible{outline:3px solid #268976;outline-offset:3px}
+header{border-top:6px solid var(--teal);border-bottom:1px solid var(--line);background:#fbfdfd}.wrap{max-width:1350px;margin:auto;padding:0 24px}.head{display:flex;gap:16px;justify-content:space-between;flex-wrap:wrap;padding-block:13px}nav{display:flex;gap:13px;flex-wrap:wrap;font-size:.88rem}.head strong{color:var(--teal);letter-spacing:.065em;font-size:.91rem}.hero{margin-top:22px;padding:clamp(20px,5vw,50px);border:1px solid var(--line);border-radius:25px;background:linear-gradient(122deg,#fff,#e0efe9 90%)}.kicker{font-size:.76rem;font-weight:800;letter-spacing:.11em;color:var(--teal);margin-bottom:8px}.hero h1{font-size:clamp(2.16rem,5vw,4.25rem);letter-spacing:-.048em}.intro,.hero .lead{margin-top:10px;color:var(--muted);max-width:76ch}.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:17px}.chip{background:#d7e9df;padding:5px 10px;border-radius:20px;font-size:.78rem;font-weight:720}.chip.warn{background:#f2e8d9;color:var(--warn)}
+section{margin-top:38px;scroll-margin-top:12px}section>h2{font-size:clamp(1.6rem,4vw,2.65rem);letter-spacing:-.035em}.viewer{display:grid;grid-template-columns:minmax(0,1fr) 290px;margin-top:14px;border:1px solid var(--line);border-radius:20px;background:#fff;overflow:hidden}.stage{min-width:0;border-right:1px solid var(--line);background:radial-gradient(ellipse at 47% 40%,#fff,#e6f1ef 72%,#dceae7);position:relative}.stage canvas{display:block;width:100%;height:clamp(285px,44vw,590px);touch-action:none;cursor:grab;outline-offset:-4px}.stage canvas:active{cursor:grabbing}.stage-label{position:absolute;left:13px;bottom:10px;font-size:.74rem;pointer-events:none;color:#3d615a;background:#e6f3eecc;border-radius:4px;padding:3px 6px}.control{padding:15px;min-width:0}.control label[for="part"]{display:block;font-size:.86rem;font-weight:700}.control select{display:block;width:100%;margin:5px 0 11px}.buttonrow{display:flex;flex-wrap:wrap;gap:6px;margin:5px 0 10px}.buttonrow button{font-size:.84rem;padding:5px 8px}.check{font-size:.87rem;color:var(--muted);display:block;margin:8px 0}.status{padding:9px;background:#ecf4f0;color:#305e52;font-size:.84rem;border-radius:8px}.filename{overflow-wrap:anywhere;font: .76rem/1.5 system-ui;margin-top:10px}.legend,.provenance,.sheet{border:1px solid var(--line);background:var(--paper);border-radius:17px;padding:15px;margin-top:13px}.legend{display:flex;gap:7px 19px;flex-wrap:wrap;align-items:center;font-size:.83rem;color:var(--muted)}.line{display:inline-block;height:0;width:22px;border-top:2px solid #192e41;margin:0 5px 2px 0}.line.dash{border-top:1px dashed var(--hidden)}.line.dimension{border-color:#137b80}.line.lead{border-color:#a85a22}.legend small{flex-basis:100%}.sheet{padding:clamp(11px,2vw,19px);margin-top:14px}.sheet-head{display:flex;gap:11px;align-items:baseline;justify-content:space-between;flex-wrap:wrap}.sheet-number{color:var(--teal);font-size:.72rem;font-weight:800;letter-spacing:.05em}.sheet h3{font-size:1.55rem}.sheet-note{font-size:.85rem;color:var(--muted);margin-top:5px}.ortho{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin-top:9px}.view{min-width:0;margin:0;background:#f4f8fa;border:1px solid #d9e4e7;border-radius:11px;overflow:hidden}.view figcaption{font-weight:700;padding:9px 9px 0;font-size:.84rem}.view figcaption small{font-weight:400;color:var(--muted);display:block}.view svg{width:100%;height:auto;display:block}.view .vline{stroke:#20384a;stroke-width:1.06;fill:none}.view .hline{stroke:var(--hidden);stroke-width:.75;stroke-dasharray:2.5 2.7;fill:none}.hide-hidden .view .hline{display:none}.view .dim{stroke:#137a7d;stroke-width:.75;fill:none}.view .leader{stroke:#a85a22;stroke-width:1.03;fill:none}.view .dv,.view .anchor-label{font-size:11px;fill:#165b62;font-weight:680}.view .anchor-label{fill:#fff;font-size:9.6px}.callouts{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}.callout{min-width:0;flex:1 1 220px;padding:8px 10px;color:var(--muted);font-size:.83rem;border-radius:8px;background:#f3f7f6}.callout strong{color:var(--ink)}.dot{display:inline-flex;width:19px;height:19px;align-items:center;justify-content:center;margin-right:5px;font-size:11px;border-radius:50%;background:#a85a22;color:#fff}.note{margin:12px 0;padding:8px 11px;background:#f4eee5;border-left:3px solid #a1663f;border-radius:0 8px 8px 0;color:#64472e;font-size:.89rem}.provenance ul{columns:2;column-gap:30px;padding-left:23px;margin:6px 0}.provenance li{break-inside:avoid;overflow-wrap:anywhere;font-size:.83rem;padding:3px 0}.provenance code{display:block;word-break:break-all;font: .74rem/1.4 monospace;color:var(--muted)}footer{margin:30px 0 0;border-top:1px solid var(--line);padding:17px 0;color:var(--muted);font-size:.78rem}
+@media(max-width:900px){.viewer{grid-template-columns:1fr}.stage{border-right:0;border-bottom:1px solid var(--line)}.ortho{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:620px){.wrap{padding-inline:10px}.hero{border-radius:17px}.head{gap:8px}.ortho{grid-template-columns:1fr}.view svg{max-height:250px}.provenance ul{columns:1}.callout{flex-basis:100%}}@media print{body{background:white}header,.viewer{display:none}.sheet{break-inside:avoid}.wrap{padding-inline:0}.view{break-inside:avoid}section{margin-top:18px}.ortho{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+.navcube { position: relative; width: 108px; height: 108px; perspective: 500px; touch-action: none; cursor: grab; border-radius: 16px; }
+.navcube:active { cursor: grabbing; }
+.cube { pointer-events: none; position: absolute; width: 56px; height: 56px; top: 26px; left: 26px; transform-style: preserve-3d; }
+.cube-region { pointer-events: auto; position: absolute; top: 50%; left: 50%; display: grid; place-items: center; padding: 0; border: 0; background: #253934; color: #d1e5de; box-shadow: inset 0 0 0 .5px #ffffff2b; font-size: 11px; backface-visibility: hidden; -webkit-backface-visibility: hidden; touch-action: none; user-select: none; }
+.cube-region.edge-region { background: #435b53; }
+.cube-region.corner-region { background: #62776d; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+.cube-region:hover, .cube-region:active { background: #8dcbb0; color: #142a22; }
+.axis-overlay { position: absolute; inset: 0; overflow: visible; pointer-events: none; }
+.axis-edge { stroke-width: 1.7; stroke-linecap: round; }
+.axis-edge.axis-x, .axis-dot.axis-x { stroke: #ff8080; fill: #ff8080; }
+.axis-edge.axis-y, .axis-dot.axis-y { stroke: #8ee6a8; fill: #8ee6a8; }
+.axis-edge.axis-z, .axis-dot.axis-z { stroke: #7fb0ff; fill: #7fb0ff; }
+.axis-label { font-size: 9px; font-weight: 700; text-anchor: middle; dominant-baseline: middle; }
+.axis-label.axis-x { fill: #ff8080; }
+.axis-label.axis-y { fill: #8ee6a8; }
+.axis-label.axis-z { fill: #7fb0ff; }
+.context-menu { position: fixed; z-index: 6; min-width: 212px; max-width: min(288px, calc(100vw - 16px)); padding: 6px; border-radius: 14px; display: grid; gap: 2px; font-size: 12px; }
+.context-menu-title { padding: 7px 10px 6px; color: var(--muted); font-size: 11px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.context-menu-item { display: flex; align-items: center; min-height: 38px; padding: 8px 10px; border: 0; border-radius: 9px; background: transparent; color: var(--text); text-align: left; font-size: 12px; }
+.context-menu-item:hover:not(:disabled), .context-menu-item:focus-visible { background: #ffffff12; outline: none; }
+.context-menu-sep { height: 1px; margin: 4px 6px; background: var(--line); }
+.context-menu-styles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; padding: 2px 4px 4px; }
+.context-menu-styles button { min-height: 34px; padding: 4px 2px; border: 1px solid #ffffff12; border-radius: 8px; background: #0f161c; color: #b9c6cc; font-size: 11px; }
+.context-menu-styles button:hover { background: #1b262e; }
+.context-menu-styles button[aria-pressed="true"] { border-color: #b7fbd855; background: #16241f; color: var(--accent); }
+.mz-nav{position:absolute;top:9px;right:12px;z-index:2;display:grid;justify-items:center;gap:1px}
+.mz-nav .navcube{background:#e8f0eeb8;border:1px solid #a3b9b1}
+.mz-nav .cube-region{min-height:0;margin:0;border-radius:0;line-height:1}
+.mz-nav .cube-region.corner-region{background:#62776d;clip-path:polygon(50% 0,100% 100%,0 100%)}
+.mz-projection{display:flex;gap:3px;padding:3px;background:#e8f0ee;border:1px solid #a3b9b1;border-radius:7px}
+.mz-projection button{min-height:26px;padding:2px 6px;border-radius:4px;font-size:11px}
+.mz-projection button[aria-pressed=true]{background:#285c50;color:white}
+#contextMenu{z-index:100;background:#15222a;color:#e4eef0;--line:#3d515b;--text:#e4eef0;--muted:#97adb8;--accent:#b7fbd8;border:1px solid #53717c;box-shadow:0 10px 28px #0a1b2960}
+#contextMenu[hidden]{display:none}
+#contextMenu button{margin:0;width:100%;cursor:pointer}
+.drawer-study-table{border-collapse:collapse;width:100%;margin-top:11px;font-size:.85rem}.drawer-study-table th,.drawer-study-table td{text-align:left;padding:7px;border-bottom:1px solid #d9e4e7}.drawer-study-table th{background:#edf5f3}</style></head><body>
+<header><div class="wrap head"><strong>LATEST / REAR SLIDE KEY</strong><nav aria-label="评审目录"><a href="#review3d">3D 装配</a><a href="#joints">装拆步骤</a><a href="#drawings">部件三视图</a><a href="#expansion-review" id="expand-nav" hidden>横向扩展</a><a href="#sources">STEP 文件</a></nav></div></header><main class="wrap">
+<div class="hero"><p class="kicker">结构评审 · 最小改动</p><h1>模块化抽屉 · 只改后板</h1><p id="summary" class="lead">只改后板上口。双 T 键借原槽定位，新后板主槽做紧配，再由可拆止退片阻止键后退。拉篮、侧板、前梁和下方锁件都保留。</p><div class="chips"><span class="chip">骨架 172 × 240 × 102.7 mm</span><span class="chip">一款通用双面侧板</span><span class="chip warn">CAD 评审 · 先试配小样</span></div></div>
+<section id="review3d"><p class="kicker">01 / CAD 预览</p><h2>关闭总成和部件切换</h2><p class="intro">按已导出的 STEP 显示；由 @mizy/mz-3d-viewer 1.0.0（WebGPU）渲染；拖动旋转，在画布上滚轮缩放；默认显示边线。悬停高亮，单击选中部件，双击适应该部件，右键操作，Esc 取消选中。右上 NavCube 切换视角。也可用按钮缩放，或聚焦后用方向键、＋/− 和 Home 操作。</p>
+<div class="viewer">
+ <div class="stage" id="stage"><canvas id="scene" role="img" tabindex="0" aria-label="CAD 模型的可旋转三维预览"></canvas><div class="mz-nav" aria-label="视角导航">    <div id="navCube" class="navcube" tabindex="0" role="group" aria-label="导航立方体：点击面、棱或角切换视角，拖动或按方向键旋转。数字 1 到 6 切换六面，Home 回到等轴视图。">
+      <div class="cube"></div>
+      <svg class="axis-overlay" aria-hidden="true" focusable="false">
+        <line class="axis-edge axis-x" /><line class="axis-edge axis-y" /><line class="axis-edge axis-z" />
+        <circle class="axis-dot axis-x" r="2.6" /><circle class="axis-dot axis-y" r="2.6" /><circle class="axis-dot axis-z" r="2.6" />
+        <text class="axis-label axis-x">X</text>
+        <text class="axis-label axis-y">Z</text>
+        <text class="axis-label axis-z">−Y</text>
+      </svg>
+    </div>
+
+<div class="mz-projection" role="group" aria-label="相机投影">
+  <button type="button" id="mz-ortho" aria-pressed="true">正交</button>
+  <button type="button" id="mz-perspective" aria-pressed="false">透视</button>
+</div></div><span class="stage-label">亮蓝绿：侧板　蓝：前梁　深蓝：后板　橙：插键、锁件与拨片</span></div>
+ <div class="control"><label for="part">显示模型</label><select id="part"></select><div class="buttonrow"><button type="button" data-camera="iso">斜视</button><button type="button" data-camera="front">从前</button><button type="button" data-camera="back">从后</button><button type="button" data-camera="top">从顶</button><button type="button" data-camera="side">从右</button><button type="button" id="reset">复位</button></div>
+ <div class="buttonrow"><button type="button" id="zoom-out" aria-label="缩小">−</button><button type="button" id="zoom-in" aria-label="放大">＋</button></div>
+
+ <p id="pick-state" class="sheet-note" aria-label="部件状态">悬停高亮 · 单击选中 · 右键操作</p><p id="status" role="status" class="status">读取离线预览…</p><p class="filename" id="view-file"></p>
+ </div>
+</div><p class="note">@mizy/mz-3d-viewer 1.0.0 离线使用原 STEP 的显示网格，不能代替 BRep 验证、量规或打印。装配画面不会改变零件位置，也不会推断动态干涉。</p></section>
+<section id="joints"><p class="kicker">02 / 紧配与锁止</p><h2>侧向夹紧，轴向用止退片</h2>
+<div class="sheet"><div class="sheet-head"><h3>新后板承力槽 · 名义零间隙</h3><span class="sheet-number">同款双 T 插键与止退片各两枚</span></div>
+<ol><li>前、后下的偏心轮照旧装。原侧板、前梁和 78 mm 低侧拉篮不改。</li>
+<li>从背面把双 T 插键推齐。新后板工作面按插键等尺寸建模，不预留夹紧间隙；仅入口倒角，原侧板旧槽不改。</li>
+<li>从顶部放下止退片，嵌进插键尾部的凹口。它只锁住“往后退”的方向，与顶边平齐。拆时先挑起止退片，再拔插键；如果叠装遮住顶部，须先留出取片空间。</li></ol>
+<p class="sheet-note"><strong>旧台阶已去掉：</strong> 后板内侧的 0.30 mm 矩形台阶削平至同一基准平面，不往拉篮方向加料。双 T 插键的导入端改用四个平面倒角；真正用于止退、挑出和装入的槽还在。</p><p class="sheet-note">全宽外背仍是 Y245，顶部仍齐 Z100；后上接头到拉篮名义净空 0.80 mm。止退片的装拆槽仍有独立活动间隙，不是主承力槽。</p>
+<p class="note">名义 CAD 零间隙不保证打印后能装进，也不是强度保证。先试一枚键配已打印侧板，再打印一角四件小样测试压入、手感、抗后退和拆卸，别先打印整块后板。本轮没有 3MF，未切片。</p>
+<div class="buttonrow"><button type="button" data-show="assembly">3D · 关到底的总成</button><button type="button" data-show="rear">3D · 紧配后板</button><button type="button" data-show="key">3D · 背插键</button><button type="button" data-show="blade">3D · 止退片</button><button type="button" data-show="coupon">3D · 一角试配小样</button></div></div></section>
+<section id="expansion-review" hidden></section><section id="drawings"><p class="kicker">03 / STEP 正投影</p><h2>侧板、前梁、后板、背插键、止退片与拉篮</h2>
+<div class="legend"><strong>图例</strong><span><i class="line"></i>可见边</span><span><i class="line dash"></i>遮挡边</span><span><i class="line dimension"></i>外廓尺寸（mm）</span><span><i class="line lead"></i>接口识别引线</span><label><input id="hidden" checked type="checkbox">显示隐藏棱线</label><small>各零件三视图来自新 STEP，三张使用同一比例。左右从 X、前后从 Y、竖直从 Z 量。</small></div><div id="sheets"></div></section>
+<section id="sources"><p class="kicker">04 / 文件和证据</p><h2>本轮 STEP 下载</h2><div class="provenance"><ul id="filelist"></ul><ul id="notes"></ul></div></section></main><div id="contextMenu" class="context-menu" role="menu" aria-label="模型操作" tabindex="-1" hidden></div><footer><div class="wrap">模块化抽屉 latest · 离线评审。制造和安装均以原 STEP 与实物试配为准。</div></footer>
+<script type="application/json" id="cad-data"><!-- DATA_SLOT --></script>
+<script>
+'use strict';
+const CAD=JSON.parse(document.getElementById('cad-data').textContent), $=id=>document.getElementById(id);
+const SVG='http://www.w3.org/2000/svg', format=new Intl.NumberFormat('zh-CN',{maximumFractionDigits:4});
+const el=(t,c,text)=>{let n=document.createElement(t);if(c)n.className=c;if(text!==undefined)n.textContent=text;return n;};
+function sv(t,attrs,text){const n=document.createElementNS(SVG,t);for(const [k,v] of Object.entries(attrs||{}))n.setAttribute(k,v);if(text!==undefined)n.textContent=text;return n;}
+const plotScale=views=>Math.min(...views.flatMap(v=>[255/Math.max(.1,v.extent[0]),136/Math.max(.1,v.extent[1])]));
+function viewSvg(p,v,scale){
+ const W=360,H=225, P=[28,33,77,56], s=scale||plotScale([v]);
+ const w=v.extent[0]*s,h=v.extent[1]*s;
+ const x=P[0]+(W-P[0]-P[2]-w)*.5,y=P[1]+(H-P[1]-P[3]-h)*.5+h;
+ const fx=u=>x+u*s,fy=t=>y-t*s;
+ const sx=sv('svg',{viewBox:'0 0 '+W+' '+H,role:'img','aria-label':p.title+' '+v.title,'data-mm-scale':s});
+ for(const j of [1,0]) {
+  let axes='';
+  for(const l of v.layers[j]) if(l.length>1) axes+='M'+l.map(a=>[fx(a[0]).toFixed(2),fy(a[1]).toFixed(2)].join(',')).join('L');
+  sx.append(sv('path',{class:j?'hline':'vline',d:axes,'stroke-linecap':'round','stroke-linejoin':'round'}));
+ }
+ const l=x,r=x+w,b=y,t=y-h, yD=b+23,xD=r+19;
+ for(const [cx,cy,radius] of v.visible_full_circles)sx.append(sv('circle',{class:'vline',cx:fx(cx),cy:fy(cy),r:radius*s,'data-cad-circle':radius}));
+ if(false){
+  const g=CAD.meta.slot_pair,q0=fx(g.bottom),q1=fx(g.back);
+  sx.append(sv('path',{class:'slot-datum',d:`M${q0},${fy(g.z[0])}V${fy(g.z[1])} M${q0},${fy(g.z[0])}H${q1} M${q0},${fy(g.z[1])}H${q1}`,'vector-effect':'non-scaling-stroke',stroke:'#137a83','stroke-width':'.8','stroke-dasharray':'2 2',fill:'none'}));
+ }
+ const dim=(a)=>sx.append(sv('path',{class:'dim',d:a}));
+ dim(`M${l},${b+3}V${yD+4} M${r},${b+3}V${yD+4} M${l},${yD}H${r} M${l},${yD}l5,-2m-5,2l5,2 M${r},${yD}l-5,-2m5,2l-5,2`);
+ dim(`M${r+3},${t}H${xD+4} M${r+3},${b}H${xD+4} M${xD},${t}V${b} M${xD},${t}l-2,5m2,-5l2,5 M${xD},${b}l-2,-5m2,5l2,-5`);
+ sx.append(sv('text',{class:'dv',x:(l+r)*.5,y:yD+15,'text-anchor':'middle'},format.format(v.extent[0])),
+           sv('text',{class:'dv',x:xD+7,y:(t+b)*.5+4},format.format(v.extent[1])));
+ for(const [j,a] of p.anchor.entries())if(a.view===v.key){
+  let u=a.at[0],v0=a.at[1];
+  if(a.units==='mm'){u=u/(v.extent[0]||1);v0=v0/(v.extent[1]||1)}
+  if(!Number.isFinite(u+v0)||u<0||u>1||v0<0||v0>1)continue;
+  const xx=l+w*u,yy=b-h*v0,sg=a.placement==='bottom'?1:-1;
+  const tx=Math.max(16,Math.min(338,xx+(u<.22?15:-15))),ty=sg<0?Math.max(11,t-12):Math.min(216,b+12);
+  sx.append(sv('path',{class:'leader',d:`M${xx},${yy}L${xx},${ty}H${tx}`}),sv('circle',{cx:xx,cy:yy,r:2,fill:'#a85a22'}),
+   sv('circle',{cx:tx,cy:ty,r:7.1,fill:'#a85a22'}),sv('text',{class:'anchor-label',x:tx,y:ty+3.3,'pointer-events':'none','text-anchor':'middle'},j+1));
+ }
+ return sx;
+}
+for(const p of CAD.panels){
+ const s=el('article','sheet');s.id='sheet-'+p.id;
+ const head=el('div','sheet-head');head.append(el('h3',null,p.title),el('span','sheet-number',p.extent.map(x=>format.format(x)).join(' × ')+' mm'));
+ s.append(head,el('p','sheet-note',p.memo));const g=el('div','ortho');
+ for(const v of p.views){
+  const f=el('figure','view'),c=el('figcaption',null,v.title);c.append(el('small',null,v.axes));f.append(c,viewSvg(p,v,plotScale(p.views)));g.append(f);
+ }
+ s.append(g);
+ const c=el('div','callouts');for(const [i,a] of p.anchor.entries()){const d=el('div','callout');d.append(el('span','dot',i+1),el('strong',null,a.name),el('div',null,a.text));c.append(d)}
+ s.append(c);$('sheets').append(s);
+}
+$('hidden').onchange=()=> $('sheets').classList.toggle('hide-hidden',!$('hidden').checked);
+if(CAD.expansion){
+ const e=CAD.expansion, sec=$('expansion-review'), card=el('div','sheet'), row=el('div','buttonrow');
+ sec.hidden=false;$('expand-nav').hidden=false;
+ sec.append(el('p','kicker','横向扩展 / 最终 CAD 检查'),el('h2',null,'右边接一格，共用中间侧板'));
+ card.append(el('p','sheet-note','两格骨架外廓：'+e.overall_XYZ_mm.join(' × ')+' mm。闭合总装 35 件，其中右格实际补打 17 件；两份模型均不含拉篮。'));
+ card.append(el('p','sheet-note','新增：外侧板 1、前梁 1、后板 1、限位拨片 2、拉杆 4、偏心轮 4、双 T 插键 2、止退片 2。'));
+ for(const [label,id] of [['3D · 两格骨架总装','two_bay'],['3D · 只看右格补打件','expansion']]){
+  const b=el('button',null,label);b.type='button';b.dataset.show=id;row.append(b);
+ }
+ const link=el('a',null,'下载新增 17 件 STEP');link.href='STEP/'+CAD.parts.expansion.name;
+ row.append(link);card.append(row,el('p','sheet-note','先保留左格原装配，前后梁接上共用中板，再装新外侧板与锁件。拉篮仅作为两格虚拟量规，关闭至拉出 110.5 mm 全部采样无干涉；不核对历史版、未切片。'));sec.append(card);
+}
+for(const b of document.querySelectorAll('[data-show]'))b.onclick=()=>{const s=$('part');if(s.disabled)return;s.value=b.dataset.show;s.dispatchEvent(new Event('change'));$('review3d').scrollIntoView({block:'start'});};
+for(const p of Object.values(CAD.parts)){const li=el('li'),a=el('a',null,p.title+'：'+p.name);a.href='STEP/'+p.name;li.append(a);$('filelist').append(li);}
+for(const t of CAD.meta.build_notes)$('notes').append(el('li',null,t));
+</script><script id="mz-viewer-runtime"><!-- MZ_VIEWER_SLOT --></script></body></html>
