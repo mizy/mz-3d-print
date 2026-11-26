@@ -1,0 +1,48 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false   # LFS 文件在页面里指向 media.githubusercontent.com，不需要下载进产物
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check site
+        run: node tools/check-site.mjs
+
+      - name: Stage public files
+        run: |
+          mkdir _site
+          cp index.html models.json README.md manifest.json sw.js offline.html .nojekyll _site/
+          cp -R assets models _site/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>苗壮的 3D 打印模型库</title>
 <meta name="description" content="3D 打印模型与改造件索引：原创设计、改造件与参数记录，直接下载 STL / 3MF。">
+<meta name="theme-color" content="#0f1115">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/icons/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="3D 打印">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
@@ -284,7 +292,7 @@
 <div class="empty" id="empty" hidden><h2>没有找到匹配的项目</h2><p>试试其他关键词，或清除筛选。</p><button id="reset">查看全部模型</button></div>
 </main>
 <footer>
-  生成时间 2026-11-24 · 共 17 个项目 · 文件大小按目录引用合计（含重复引用）
+  生成时间 2026-11-26 · 共 17 个项目 · 文件大小按目录引用合计（含重复引用）
   · 索引由 <code>tools/build-site.mjs</code> 从 <code>models/*/MODEL.json</code> 生成 · 打印机：Bambu Lab P1S
 </footer>
 <script>
@@ -310,6 +318,15 @@
       cls = b.dataset.f;
       for (const x of document.querySelectorAll('.filters button')) x.setAttribute('aria-pressed', String(x === b));
       apply();
+    });
+  }
+</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js', { scope: '/mz-3d-print/' }).catch((error) => {
+        console.warn('[pwa] service worker registration failed', error);
+      });
     });
   }
 </script>

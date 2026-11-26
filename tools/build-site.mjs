@@ -169,6 +169,14 @@ const html = `<!doctype html>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>苗壮的 3D 打印模型库</title>
 <meta name="description" content="3D 打印模型与改造件索引：原创设计、改造件与参数记录，直接下载 STL / 3MF。">
+<meta name="theme-color" content="#0f1115">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/icons/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="3D 打印">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
@@ -220,6 +228,15 @@ ${models.map(card).join("\n")}
       cls = b.dataset.f;
       for (const x of document.querySelectorAll('.filters button')) x.setAttribute('aria-pressed', String(x === b));
       apply();
+    });
+  }
+</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js', { scope: '/mz-3d-print/' }).catch((error) => {
+        console.warn('[pwa] service worker registration failed', error);
+      });
     });
   }
 </script>
