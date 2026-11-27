@@ -38,6 +38,7 @@ jobs:
           cp index.html models.json README.md manifest.json sw.js offline.html .nojekyll _site/
           cp -R assets models _site/
           rm -rf _site/models/modular-drawer/History
+          rm -f _site/models/dog-bowl-lv/Design/bottom-personal-mark.png
           mkdir _site/tools
           cp tools/check-site.mjs _site/tools/
           node _site/tools/check-site.mjs

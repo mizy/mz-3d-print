@@ -566,8 +566,7 @@
       "Models/LV_bowl_and_logo.step"
     ],
     "gallery": [
-      "Design/current-exterior.png",
-      "Design/bottom-personal-mark.png"
+      "Design/current-exterior.png"
     ],
     "dir": "dog-bowl-lv",
     "files": [
@@ -590,11 +589,6 @@
         "rel": "Design/back--9d02c63128.png",
         "size": 762318,
         "url": "models/dog-bowl-lv/Design/back--9d02c63128.png"
-      },
-      {
-        "rel": "Design/bottom-personal-mark.png",
-        "size": 24447,
-        "url": "models/dog-bowl-lv/Design/bottom-personal-mark.png"
       },
       {
         "rel": "Design/chanel_front--741fde7bf7.png",
@@ -903,12 +897,12 @@
       },
       {
         "rel": "Notes/bottom-personal-mark-validation.json",
-        "size": 777,
+        "size": 783,
         "url": "models/dog-bowl-lv/Notes/bottom-personal-mark-validation.json"
       },
       {
         "rel": "Notes/bottom-personal-mark.md",
-        "size": 1926,
+        "size": 1879,
         "url": "models/dog-bowl-lv/Notes/bottom-personal-mark.md"
       },
       {
@@ -1427,7 +1421,7 @@
         "url": "models/dog-bowl-lv/Source/voxel_fuse--4f229288e3.py"
       }
     ],
-    "bytes": 66361054
+    "bytes": 66336566
   },
   {
     "id": "doubao-figure",

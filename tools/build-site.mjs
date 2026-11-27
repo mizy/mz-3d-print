@@ -64,7 +64,8 @@ for (const dir of fs.readdirSync(MODELS, { withFileTypes: true })) {
   const meta = JSON.parse(fs.readFileSync(metaPath, "utf8"));
   const files = walk(abs).filter(isTracked)
     .map((f) => path.relative(abs, f))
-    .filter((r) => !r.endsWith("MODEL.json") && !(dir.name === "modular-drawer" && r.startsWith("History/")))
+    .filter((r) => !r.endsWith("MODEL.json") && !(dir.name === "modular-drawer" && r.startsWith("History/"))
+      && !(dir.name === "dog-bowl-lv" && r === "Design/bottom-personal-mark.png"))
     .map((r) => ({ rel: r, size: fs.statSync(path.join(abs, r)).size }));
   const cover = meta.cover ? files.find(f => f.rel === meta.cover && isImage(f.rel)) : null;
   if (meta.cover && !cover) throw new Error(`${dir.name}: cover is missing or untracked: ${meta.cover}`);
