@@ -1,4 +1,4 @@
-PASS 35 stationary frame solids, 17 supplied parts [326.7, 240.0, 102.7] 0.0
-PASS independent second bay beam and side approach
-PASS both revised basket travel envelopes and upper cam access
+PASS 43 stationary frame solids, 21 supplied parts and eight deliberate collar contacts [326.7, 240.0, 102.7] 0.0
+PASS complete second-bay beam insertions with lockwheel and rods in situ
+PASS both revised basket travel envelopes and all keeper access
 PASS final independently selectable STEP set, read back current expansion

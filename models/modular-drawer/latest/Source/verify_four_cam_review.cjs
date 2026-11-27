@@ -6,11 +6,15 @@ try{
  const p=await b.newPage({viewport:{width:1280,height:900}}),err=[],net=[];
  p.on('pageerror',e=>err.push(e.message));p.on('request',r=>{if(/^https?:/.test(r.url()))net.push(r.url())});await p.route(/^https?:\/\//,r=>r.abort());await p.goto(pathToFileURL(path.join(room,'index.html')).href);
  const d=JSON.parse(await p.locator('#cad-data').textContent()),sha=f=>crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex');
- assert.equal(d.parts.assembly.nSolids,19);assert.deepEqual(d.parts.assembly.extent,[172,240,102.7]);assert.equal(d.parts.coupon.nSolids,4);assert.equal(d.parts.two_bay.nSolids,35);assert.equal(d.parts.expansion.nSolids,17);
+ assert.equal(d.parts.assembly.nSolids,23);assert.deepEqual(d.parts.assembly.extent,[172,240,102.7]);assert.equal(d.parts.coupon.nSolids,5);assert.equal(d.parts.two_bay.nSolids,43);assert.equal(d.parts.expansion.nSolids,21);
  for(const x of Object.values(d.parts))assert.equal(sha(path.join(room,'STEP',x.name)),x.sha256);
  assert.equal(sha(path.join(room,d.expansion.print_3mf.path)),d.expansion.print_3mf.sha256);
+ assert.equal(d.stop_fit.source_sha256,d.parts.assembly.sha256);
+ assert.deepEqual(d.stop_fit.nominal_contact_bracket_mm,[104.5,104.75]);
+ assert(d.stop_fit.released_samples.at(-1)[0]===240 && d.stop_fit.released_samples.every(row=>Math.max(...row.slice(1))<.001));
+ assert.match(await p.locator('#joints').innerText(),/104\.5–104\.75 mm/);
  const axis={side:[1,2],side_top:[1,0],rear_end:[0,2],front:[0,2],top:[0,1]};
- assert.equal(d.panels.length,9);assert.equal(d.panels.find(x=>x.id==='rear').anchor.length,5);
+ assert.equal(d.panels.length,10);assert.equal(d.panels.find(x=>x.id==='rear').anchor.length,5);
  for(const s of d.panels){
   const figs=p.locator('#sheet-'+s.id+' svg');assert.equal(await figs.count(),s.views.length);
   assert.equal(await figs.evaluateAll(x=>new Set(x.map(v=>v.dataset.mmScale)).size),1);
@@ -28,11 +32,13 @@ try{
  const rv=d.panels.find(x=>x.id==='rear').views.find(x=>x.key==='rear_end'),circs=rv.visible_full_circles.filter(c=>Math.abs(c[2]-4.28)<1e-5);
  assert.equal(circs.length,2);assert.equal(rv.hidden_full_circles.length,2);
  const fv=d.panels.find(x=>x.id==='rear').views.find(x=>x.key==='front');assert.equal(fv.hidden_full_circles.length,2);assert.equal(fv.visible_full_circles.filter(c=>Math.abs(c[2]-4.28)<1e-5).length,2);
- assert.equal(await p.locator('#sheet-rear .cad-hidden-circle').count(),4);assert(Math.abs(Math.abs(circs[1][0]-circs[0][0])-120.9)<.001);assert.equal(circs[0][1],circs[1][1]);
- await p.waitForFunction(()=>document.querySelector('#scene').dataset.visibleParts==='19',null,{timeout:60000});
+ assert.equal(await p.locator('#sheet-rear .cad-hidden-circle').count(),4);
+ assert.deepEqual(await p.locator('#sheet-rear [data-feature-mm]').evaluateAll(es=>es.map(x=>+x.dataset.featureMm).sort((a,b)=>a-b)),[87,120.9]);
+ assert.equal(d.fit.axial_keepers.designed_collar_contact_mm3.length,4);assert(Math.abs(Math.abs(circs[1][0]-circs[0][0])-120.9)<.001);assert.equal(circs[0][1],circs[1][1]);
+ await p.waitForFunction(()=>document.querySelector('#scene').dataset.visibleParts==='23',null,{timeout:60000});
  assert.equal(await p.locator('#scene').getAttribute('data-renderer'),'webgpu');assert(await p.locator('#navCube .cube-region').count()>10);
  await p.waitForFunction(()=>document.querySelector('#scene').dataset.displayMode==='edges'&&Number(document.querySelector('#scene').dataset.edgeMeshes)>0);
- for(const [id,n] of [['rear','1'],['coupon','4'],['expansion','17'],['two_bay','35'],['rod','1']]){
+ for(const [id,n] of [['rear','1'],['coupon','5'],['expansion','21'],['two_bay','43'],['rod','1']]){
   await p.locator('#part').selectOption(id);await p.waitForFunction(ct=>document.querySelector('#scene').dataset.visibleParts===ct,n);
  }
  await p.locator('#scene').scrollIntoViewIfNeeded();const r=await p.locator('#scene').boundingBox(),xy=[r.x+r.width*.50,r.y+r.height*.50];
@@ -46,6 +52,6 @@ try{
   for(const {id:s} of d.panels)await p.locator('#sheet-'+s).screenshot({path:path.join(process.env.CHECK_DRAWINGS_DIR,s+'.png')});
  }
  const fallback=await b.newPage();await fallback.addInitScript(()=>Object.defineProperty(navigator,'gpu',{configurable:true,value:undefined}));await fallback.goto(pathToFileURL(path.join(room,'index.html')).href);
- assert.equal(await fallback.locator('#sheets .sheet').count(),9);
+ assert.equal(await fallback.locator('#sheets .sheet').count(),10);
  console.log('PASS orthographic BRep extents and equal scales, live leaders, two exact rear cam mouths, all current STEP/3MF digests, offline WebGPU selection/context/edges/NavCube, fallback, and latest-only links.');
 }finally{await b.close()}})().catch(e=>{console.error(e);process.exitCode=1});

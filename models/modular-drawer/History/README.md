@@ -41,3 +41,5 @@ V16 的原批准 ZIP、历史自定义 W/D/H 实验，以及 V17 旧版网页和
 - [双 T 后插键旧版（完整 latest 快照）](Archived/Rear_Slide_Key_2026-11-26.tar.gz)：包括旧评审、全部分件与右格 3MF，来源提交 `522add26cc566bc99979954de78d5a817a5fee5f`。用于追溯，不用于现版。
 - [当时的闭合总成输入](Inputs/Rear_Keys_2026-11-26_Closed.step)：制作四偏心轮现版时锁定的名义 CAD 基线。
 - [薄轮、向外加厚、六枚 8 mm 等试验](Archived/Rear_Cam_Experiments_2026-11-27/README.md)：未通过实物强度试配，不属于现版。
+
+- [四轮首推版 5abe20f](https://github.com/mizy/mz-3d-print/tree/5abe20f41e6477b914a02104aaca5b7bcd6dcb9b/models/modular-drawer/latest)：Astra 复核发现缺整组轴向止退、3MF 有严格读取兼容问题，保留 Git 历史，不用于打印。

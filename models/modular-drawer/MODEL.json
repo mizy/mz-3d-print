@@ -4,16 +4,17 @@
   "category": "家居收纳",
   "status": "design",
   "cls": "original",
-  "summary": "后板四颗 11.2 mm 偏心轮、背面齐平；含闭合总成、零件图、后角小样和右格 3MF。",
+  "summary": "后板四颗 11.2 mm 偏心轮、背面齐平、前后独立轴向止退；提供总成、正投影、小样和右格 3MF。",
   "gallery": [],
   "downloads": [
     "latest/Print/Right_Bay_Frame_P1S_PETG_UNSLICED.3mf",
-    "latest/STEP/07_Right_Bay_Frame_Expansion_17_Parts.step",
+    "latest/STEP/07_Right_Bay_Frame_Expansion_21_Parts.step",
     "latest/STEP/00_Four_Cam_Closed_Assembly.step",
     "latest/STEP/03_Rear_Board_Four_Cam.step",
     "latest/STEP/04_Rear_Upper_Straight_Rod.step",
     "latest/STEP/05_Rear_Upper_Cam_11p2mm.step",
     "latest/STEP/06_Rear_Upper_Cam_Fit_Coupon.step",
-    "latest/STEP/27_Cinnamoroll_Corner_Relief_Drawer.step"
+    "latest/STEP/27_Cinnamoroll_Corner_Relief_Drawer.step",
+    "latest/STEP/11_Cam_Axial_Keeper_Pin.step"
   ]
 }

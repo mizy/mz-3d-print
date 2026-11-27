@@ -1,6 +1,7 @@
 import FreeCAD as A,Part,sys,json
 from pathlib import Path
 from step_units import ensure_mm
+from axial_cam_keepers import build as build_keepers, verify as verify_keepers
 V=A.Vector
 r=Part.read(sys.argv[1]).Solids
 out=Path(sys.argv[2]);out.mkdir(parents=True,exist_ok=True)
@@ -35,7 +36,7 @@ seat=Part.makeCylinder(4.28,11.75,V(xc,233.35,zc),V(0,1,0))
 entry=cyl(25.24,yc,2.40,8.57)
 rear=one(rear.cut([p for k in (seat,entry) for p in (k,mir(k))]))
 # A matching stepped return wall keeps the two relieved corners enclosed, with
-# 0.80 mm nominated face clearance and an approximately 0.96 mm replacement wall.
+# 0.80 mm nominal Y-direction clearance (0.5657 mm normal to the 45° ramps) and an approximately 0.96 mm replacement wall.
 core=prism(24.5,20.3,[(240,77.45),(231.55,85.9),(231.55,97),(240.5,97),(240.5,77.45)])
 grow=prism(24.45,21.31,[(240,76.092355),(230.59,85.502355),(230.59,97),(240.5,97),(240.5,76.092355)])
 patch=grow.cut(core).common(b(25.60,230,76,45.77,238,96))
@@ -52,14 +53,16 @@ pull=sample([0,-.025,-.05,-.1,-.2,-.3,-.6,-1,-2,-3,-4,-5,-6,-8,-10,-13],lambda x
 print('pull',pull,flush=True)
 insert=sample([0,.2,.5,1,2,3,4,5,6,8,10,12],lambda y:(c(m(rod,y=y),side),c(m(open_cam,y=y),rear)))
 print('insert',insert,flush=True)
-base=r[:15]; full=base[:3]+[rear]+base[4:14]+[basket,rod,m(r[9],y=1.45,z=87),cam,mir(cam)]
+base=r[:15]; new_left,new_right,pins,pin_rows=build_keepers(base[0],base[1]); full=[new_left,new_right,base[2],rear]+base[4:14]+[basket,rod,m(r[9],y=1.45,z=87),cam,mir(cam)]+pins
+keeper_fit=verify_keepers(full,pin_rows)
+print("AXIAL KEEPERS",keeper_fit,flush=True)
 right_rod=full[16]
 right_cam=full[18]
 right_locked=right_cam.copy()
 right_locked.rotate(V(158.1,238.45,92),V(0,1,0),-10)
 assert c(m(right_rod,x=.6),right_locked)>.15
 assert abs(right_rod.BoundBox.ZMin-rod.BoundBox.ZMin)<1e-6
-static=max(c(a,b) for i,a in enumerate(full) for b in full[i+1:])
+static=keeper_fit['max_static_non_fit_overlap_mm3']
 print('max-static',static,flush=True)
 travel=[0,-.1,-.3,-.6,-1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-12,-16,-22,-30,-45,-60,-85,-100,-110.5]
 drawer=sample(travel,lambda d:(max(c(m(basket,y=d),p) for p in full if p is not basket),))
@@ -77,11 +80,11 @@ assert old.common(b(10,0,0,185,245,75)).cut(basket).Volume<.001
 def save(s,name,count):
  f=out/name;s.exportStep(str(f));ensure_mm(f,s)
  chk=Part.read(str(f));assert chk.isValid() and len(chk.Solids)==count
-save(Part.makeCompound(full),'00_Four_Cam_Closed_Assembly.step',19)
+save(Part.makeCompound(full),'00_Four_Cam_Closed_Assembly.step',23)
 qc=Part.read(str(out/'00_Four_Cam_Closed_Assembly.step'))
 assert abs(qc.BoundBox.YLength-240)<1e-5 and qc.BoundBox.ZMax<102.701
 assert abs(qc.Solids[16].BoundBox.ZMin-89.54)<1e-5
-save(Part.makeCompound([one(side.common(b(15,229,77,25.3,245.1,100.1))),one(rear.common(b(25.27,231.5,77,45,245.1,100.1))),rod,cam]),'06_Rear_Upper_Cam_Fit_Coupon.step',4)
-metrics=dict(cad_sample_count=len(drawer),travel_mm=110.5,nominal_clearance_mm=.8,local_thickness_mm=outer-232.35,cam_diameter_mm=8.2,cam_thickness_mm=11.2,rear_wall_nominal_mm=6.2,front_floor_mm=1.0,recess_mm=.25,slot_depth_mm=.97,rod_axis_shift_mm=1.45,outward_mm=outer-245,overall_depth_mm=outer-5,drawer_corner_depth_loss_mm=6.45,drawer_material_delta_mm3=(basket.Volume-old.Volume),cabinet_nominal_depth_mm=250,volume_delta_mm3=rear.Volume-r[3].Volume,checked_lock_angle_deg=10,drawer_samples=drawer,turn_samples=turn,lock_samples=pull,assembly_samples=insert,max_static_overlap_mm3=static)
+save(Part.makeCompound([one(new_left.common(b(15,229,77,25.3,245.1,100.1))),one(rear.common(b(25.27,231.5,77,45,245.1,100.1))),rod,cam,pins[2]]),'06_Rear_Upper_Cam_Fit_Coupon.step',5)
+metrics=dict(cad_sample_count=len(drawer),travel_mm=110.5,nominal_y_clearance_mm=.8,minimum_45deg_ramp_normal_clearance_mm=.5656854,axial_keepers=keeper_fit,local_thickness_mm=outer-232.35,cam_diameter_mm=8.2,cam_thickness_mm=11.2,rear_wall_nominal_mm=6.2,front_floor_mm=1.0,recess_mm=.25,slot_depth_mm=.97,rod_axis_shift_mm=1.45,outward_mm=outer-245,overall_depth_mm=outer-5,drawer_corner_depth_loss_mm=6.45,drawer_material_delta_mm3=(basket.Volume-old.Volume),cabinet_nominal_depth_mm=250,volume_delta_mm3=rear.Volume-r[3].Volume,checked_lock_angle_deg=10,drawer_samples=drawer,turn_samples=turn,lock_samples=pull,assembly_samples=insert,max_static_overlap_mm3=static)
 (out.parent/'QA'/'four-cam-fit.json').write_text(json.dumps(metrics,indent=2)+'\n')
 print('FIT',metrics,flush=True)

@@ -1,4 +1,4 @@
-"""Export the current 17-part STEP as one unsliced P1S PETG plate."""
+"""Export the current 21-part STEP as one unsliced P1S PETG plate."""
 import sys, hashlib, json, zipfile, uuid, itertools
 from pathlib import Path
 from collections import Counter
@@ -11,11 +11,11 @@ sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 for stem,h in proof['hashes'].items():assert sha(s/(stem+'.step'))==h
 assembly=Part.read(str(s/'00_Two_Bay_Horizontal_Frame_Check.step'))
 closed=Part.read(str(s/'00_Four_Cam_Closed_Assembly.step'))
-kit=Part.read(str(s/'07_Right_Bay_Frame_Expansion_17_Parts.step'))
+kit=Part.read(str(s/'07_Right_Bay_Frame_Expansion_21_Parts.step'))
 basket=Part.read(str(s/'27_Cinnamoroll_Corner_Relief_Drawer.step')).Solids[0]
 assert all(x.isValid() for x in (assembly,closed,kit,basket))
 p=kit.Solids
-assert len(p)==17 and len(assembly.Solids)==35
+assert len(p)==21 and len(assembly.Solids)==43
 V=A.Vector
 def collision(x,y):
  a,b=x.BoundBox,y.BoundBox
@@ -30,7 +30,7 @@ for disp in [0,-.1,-.3,-.6,-1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-12,-16,-22,-30,-45,-6
  peak=max(peak,max(collision(q,part) for part in assembly.Solids))
 assert peak<.001,peak
 print('PASS actual low-side basket, 23 positions, peak overlap',peak,flush=True)
-names=['01 右外侧板','02 前梁','03 后板','04 左限位拨片','05 右限位拨片','06 前左拉杆','07 前右拉杆','08 后左下拉杆','09 后右下拉杆','10 前左偏心轮','11 前右偏心轮','12 后左下偏心轮','13 后右下偏心轮','14 后左上拉杆','15 后右上拉杆','16 后左上偏心轮','17 后右上偏心轮']
+names=['01 右外侧板','02 前梁','03 后板','04 左限位拨片','05 右限位拨片','06 前左拉杆','07 前右拉杆','08 后左下拉杆','09 后右下拉杆','10 前左偏心轮','11 前右偏心轮','12 后左下偏心轮','13 后右下偏心轮','14 后左上拉杆','15 后右上拉杆','16 后左上偏心轮','17 后右上偏心轮','18 前左止退针','19 前右止退针','20 后左止退针','21 后右止退针']
 # XY centering, bed contact left at Z=0. Frame panels upright as designed.
 # Front beam puts its wider face down; paddles and blades on broad faces, rods transverse, cams axis vertical.
 poses=[((0,0,1),90,128,190),((1,0,0),90,128,142),((0,0,1),0,128,108)]
@@ -39,6 +39,7 @@ poses += [((0,0,1),0,x,70) for x in (99,128,157,186)]
 poses += [((1,0,0),90,x,35) for x in (44,68,92,116)]
 poses += [((0,0,1),0,x,35) for x in (145,172)]
 poses += [((1,0,0),90,x,35) for x in (198,220)]
+poses += [((0,0,1),0,x,15) for x in (44,65)] + [((1,0,0),180,x,15) for x in (86,107)]
 NS="http://schemas.microsoft.com/3dmanufacturing/core/2015/02"
 PN="http://schemas.microsoft.com/3dmanufacturing/production/2015/06"
 BAMBU="http://schemas.bambulab.com/package/2021"
@@ -89,12 +90,12 @@ for n,(shape,name,(axis,angle,cx,cy)) in enumerate(zip(p,names,poses),1):
  allbounds.append(bounds)
  rows.append((name,len(v),len(f),round(vol,3),bounds,xyz[2][1]))
  leaf=f'/3D/Objects/object_{n}.model'; label=quoteattr(name)
- models[leaf[1:]]=f'{xmlhead}<model unit="millimeter" xmlns="{NS}" xmlns:p="{PN}" requiredextensions="p"><resources><object id="{n}" type="model" name={label} p:UUID="{uid(f"mesh/{n}")}"><mesh><vertices>'+''.join(f'<vertex x="{fmt(x)}" y="{fmt(y)}" z="{fmt(z)}"/>' for x,y,z in v)+'</vertices><triangles>'+''.join(f'<triangle v1="{a}" v2="{b}" v3="{c}"/>' for a,b,c in f)+'</triangles></mesh></object></resources></model>'
+ models[leaf[1:]]=f'{xmlhead}<model unit="millimeter" xmlns="{NS}" xmlns:p="{PN}" requiredextensions="p"><resources><object id="{n}" type="model" name={label} p:UUID="{uid(f"mesh/{n}")}"><mesh><vertices>'+''.join(f'<vertex x="{fmt(x)}" y="{fmt(y)}" z="{fmt(z)}"/>' for x,y,z in v)+'</vertices><triangles>'+''.join(f'<triangle v1="{a}" v2="{b}" v3="{c}"/>' for a,b,c in f)+'</triangles></mesh></object></resources><build/></model>'
  u=uid(f'part/{n}')
  resources.append(f'<object id="{n}" type="model" name={label} p:UUID="{u}"><components><component p:path="{leaf}" objectid="{n}" p:UUID="{uid(f"component/{n}")}"/></components></object>')
  rels.append(f'<Relationship Target="{leaf}" Id="rel{n}" Type="{MODREL}"/>')
  tr=f'{identity} {cx} {cy} 0'
- build.append(f'<item objectid="{n}" p:UUID="{uid(f"item/{n}")}" transform="{tr}" printable="1"/>')
+ build.append(f'<item objectid="{n}" p:UUID="{uid(f"item/{n}")}" transform="{tr}"/>')
  objects.append(f'<object id="{n}">'+meta('name',name)+f'<metadata face_count="{len(f)}"/><part id="{n}" subtype="normal_part">'+meta('name',name)+meta('matrix',mat)+f'<mesh_stat face_count="{len(f)}" edges_fixed="0" degenerate_facets="0" facets_removed="0" facets_reversed="0" backwards_edges="0"/></part></object>')
  instances.append('<model_instance>'+meta('object_id',n)+meta('instance_id',0)+meta('identify_id',100+n)+'</model_instance>')
  ass.append(f'<assemble_item object_id="{n}" instance_id="0" transform="{tr}" offset="0 0 0"/><assemble_item object_id="{n}" volume_id="0" transform="{identity} 0 0 0"/>')
@@ -107,7 +108,7 @@ with zipfile.ZipFile(old) as z:
  root_rels=z.read('_rels/.rels')
 assert cfg['printer_settings_id']=='Bambu Lab P1S 0.4 nozzle' and cfg['filament_settings_id']==['Generic PETG']
 cfg.update(enable_prime_tower='0',enable_support='0',print_sequence='by layer')
-main=f'{xmlhead}<model unit="millimeter" xmlns="{NS}" xmlns:BambuStudio="{BAMBU}" xmlns:p="{PN}" requiredextensions="p"><metadata name="Application">BambuStudio-02.09.01.70</metadata><metadata name="BambuStudio:3mfVersion">1</metadata><metadata name="Title">Right Bay Frame Expansion</metadata><resources>'+''.join(resources)+'</resources><build>'+''.join(build)+'</build></model>'
+main=f'{xmlhead}<model unit="millimeter" xmlns="{NS}" xmlns:BambuStudio="{BAMBU}" xmlns:p="{PN}" requiredextensions="p"><metadata name="Application">BambuStudio-02.09.01.70</metadata><metadata name="BambuStudio:3mfVersion">1</metadata><metadata name="Title">Right Bay Frame Expansion</metadata><resources>'+''.join(resources)+'</resources><build p:UUID="'+uid('build/main')+'">'+''.join(build)+'</build></model>'
 plate='<plate>'+meta('plater_id',1)+meta('plater_name','01 右格骨架＋配件')+meta('locked','false')+meta('gcode_file','')+''.join(instances)+'</plate>'
 settings=xmlhead+'<config>'+''.join(objects)+plate+'<assemble>'+''.join(ass)+'</assemble></config>'
 with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=7) as z:
@@ -116,7 +117,7 @@ with zipfile.ZipFile(out) as z:
  assert z.testzip() is None
  assert not any('gcode' in f for f in z.namelist())
  root=E.fromstring(z.read('3D/3dmodel.model')); conf=E.fromstring(z.read('Metadata/model_settings.config'))
- seq=list(map(str,range(1,18)))
+ seq=list(map(str,range(1,22)))
  assert [o.attrib['id'] for o in root.findall('.//{*}object')]==seq
  assert [o.attrib['objectid'] for o in root.findall('.//{*}item')]==seq
  assert [o.attrib['id'] for o in conf.findall('object')]==seq
@@ -124,6 +125,6 @@ with zipfile.ZipFile(out) as z:
  assert Counter(o.attrib['object_id'] for o in conf.findall('.//assemble_item'))==Counter({i:2 for i in seq})
  for r in root.findall('.//{*}component'):
   n=r.attrib['objectid']; src=r.attrib[f'{{{PN}}}path'][1:];o=E.fromstring(z.read(src)).find('.//{*}object');assert o.attrib['id']==n
-print('PASS ZIP, all object and assembly references, 17 independently editable watertight objects, 1 plate, no gcode',flush=True)
+print('PASS ZIP, all object and assembly references, 21 independently editable watertight objects, 1 plate, no gcode',flush=True)
 for row in rows:print(row)
 print('OUTPUT',out,out.stat().st_size,sha(out),flush=True)

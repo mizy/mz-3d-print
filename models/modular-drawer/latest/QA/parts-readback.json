@@ -1,11 +1,12 @@
 {
-  "01_Universal_Side_Panel.step": "2c0fb2c4d5b06c2ad6f024f8b168e8123bea1c3e5586518d0af8af74adf1a5b3",
-  "02_Front_Beam.step": "ec7037f43a07a2b1f08edc8304434e15fe108d5c7eca749110cc9eb1938f7f06",
-  "03_Rear_Board_Four_Cam.step": "dc57f4c28e318bd36fc126535e5da86d207d46ea7b0c95ead8aa798092ad6ac5",
-  "04_Rear_Upper_Straight_Rod.step": "9992e61f7597c2fca9f7dc8f71a06e07f5ab0f51aecbe4618441a2714f2857a1",
-  "05_Rear_Upper_Cam_11p2mm.step": "709b0330280077ebcb00129a16de9aff756af9057672d901e941d0c29ada5d2c",
-  "08_Drawer_Stop_Paddle.step": "9054a31ccc32f7373bafcc0046d56ec23ef6ca8fedc6139e167163fe024b57c2",
-  "09_Lower_Cam_11p2mm.step": "bc4bd6343cb3320f8fd0f911546e9f118e806da18379af3f51fff461886b3de2",
-  "10_Lower_Straight_Rod.step": "55ebf004e382566d066a4193c9d6c2f3136ca043e6c2820d51b18d8721454a03",
-  "27_Cinnamoroll_Corner_Relief_Drawer.step": "c6b4de0f2af834f65a431cd63dadb4472b7eab335eead370bbca22673e3547ac"
+  "01_Universal_Side_Panel.step": "e0bd7c789c717430a5c983cf7334c40c9e03185d9ae50daf52819872503ca70a",
+  "02_Front_Beam.step": "84a4676d58d05c827872f81d43d96614e8d4ffda9df2be142d9f1d82fb98d463",
+  "03_Rear_Board_Four_Cam.step": "eab57df7f4aadd78138b8eca8b62e06757d6ed4efd3b4f51e11719f5378d4308",
+  "04_Rear_Upper_Straight_Rod.step": "db9baa413a2b7cfd6711bfad5ec7f8d5ab83bb017ffdbe2a5ae5215b6bdb6118",
+  "05_Rear_Upper_Cam_11p2mm.step": "3c6dbcecafdbc01144c1adef6aa37d2bfa589724be14c3e8b2a62780214a777b",
+  "08_Drawer_Stop_Paddle.step": "cb9a3b30390dc47755ff77c83eaac660e3c0132c2e38c33d0fb50d8fa2a399d7",
+  "09_Lower_Cam_11p2mm.step": "ce35b8bbe2876f1eee2ce441d9b7ce2c8420b5b16676d13bcaefff19e60c5ce6",
+  "10_Lower_Straight_Rod.step": "27c6cd5d439e214aa51de43cd06e76b0c5f4bef08e992c3a8be46105661feeb5",
+  "11_Cam_Axial_Keeper_Pin.step": "a350159167805d390bce975af39c6facc64e04fd4fdc58c4e8c4abb874b0fb06",
+  "27_Cinnamoroll_Corner_Relief_Drawer.step": "c63d203335de4be1b48ac6bd8ed3b5148ce2d24aa843a0ec2b33b51ffeaba62a"
 }

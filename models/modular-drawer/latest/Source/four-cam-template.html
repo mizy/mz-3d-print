@@ -71,10 +71,10 @@ section{margin-top:38px;scroll-margin-top:12px}section>h2{font-size:clamp(1.6rem
 </div><p class="note">@mizy/mz-3d-viewer 1.0.0 离线使用原 STEP 的显示网格，不能代替 BRep 验证、量规或打印。装配画面不会改变零件位置，也不会推断动态干涉。</p></section>
 <section id="joints"><p class="kicker">02 / 装配与锁止</p><h2>后板四轮，背面齐平</h2>
 <div class="sheet"><div class="sheet-head"><h3>上方从背面、下方从内侧装轮</h3><span class="sheet-number">4 枚后板偏心轮（11.2 mm）</span></div>
-<ol><li>先把偏心轮装入轮座，再把直拉杆从对应侧槽送入，转动偏心轮锁紧。不要带着拉杆直接把轮塞入。</li><li>后上两颗用背面同一个孔装入和拧紧；两颗后下轮与两颗前梁轮保持原操作侧。</li><li>让位只在抽屉两个上后角，深度最多少 6.45 mm；承托、底板、闭合位置和总深 240 mm 不变。</li></ol>
-<p class="sheet-note">外背 Y245；上轮端面低于背面 0.25 mm。上锁座局部厚 12.65 mm，其余后板不加厚。原平后壁拉篮和新后板不直接通用。</p><p class="note">用一角小样实测夹紧、晃动与拆卸后再打整块。CAD 计算没有实测强度或打印公差，不切片。</p>
+<ol><li>先将各梁的轮、杆装成一组（轮先入座，杆在解锁角插入），再把前梁组从正面、四锁后板组从背面沿两侧 T 槽滑到位。不要在侧板和梁都已就位时尝试单独塞杆。</li><li>拧紧轮后装止退针：前两枚从底部向上插，后两枚从顶部向下插；轻推后确认头部不冒出。取梁先卸载、解除对应止退针，整组才可沿原方向抽出。叠装挡住顶部先移开上层；托住框架并留出底部空间再取前针。</li><li>后上两颗用背面同一个孔装入和拧紧；两颗后下轮与两颗前梁轮保持原操作侧。</li><li>让位只在抽屉两个上后角，深度最多少 6.45 mm；承托、底板、闭合位置和总深 240 mm 不变。</li><li><strong>取下抽屉：</strong>拨片处在挡位时，约拉出 104.5–104.75 mm 即接触。先推回少许卸力，再把左右拨片都旋到 90° 释放位。固定框架与释放后的拨片通过了完整移除路径的 CAD 样点检查。</li></ol>
+<p class="sheet-note">外背 Y245；上轮端面低于背面 0.25 mm。上锁座局部厚 12.65 mm，其余后板不加厚。后角让位沿 Y 的名义间隙 0.80 mm，45° 斜面最短距离约 0.566 mm。原平后壁拉篮和新后板不直接通用。</p><p class="note">先用五件一角小样试夹紧、晃动、止退针是否松脱及是否方便拔出，再打整块。CAD 计算没有实测强度或打印公差，不切片。</p>
 <div class="buttonrow"><button type="button" data-show="assembly">3D · 关到底的总成</button><button type="button" data-show="rear">3D · 四轮后板</button><button type="button" data-show="rod">3D · 后上直拉杆</button><button type="button" data-show="cam">3D · 后上偏心轮</button><button type="button" data-show="drawer">3D · 抽屉后角</button><button type="button" data-show="coupon">3D · 一角试配小样</button></div></div></section>
-<section id="expansion-review" hidden></section><section id="drawings"><p class="kicker">03 / STEP 正投影</p><h2>九类部件正投影与锁位标注</h2>
+<section id="expansion-review" hidden></section><section id="drawings"><p class="kicker">03 / STEP 正投影</p><h2>十类部件正投影与锁位标注</h2>
 <div class="legend"><strong>图例</strong><span><i class="line"></i>可见边</span><span><i class="line dash"></i>遮挡边</span><span><i class="line dimension"></i>外廓尺寸（mm）</span><span><i class="line lead"></i>接口识别引线</span><label><input id="hidden" checked type="checkbox">显示隐藏棱线</label><small>各零件三视图来自新 STEP，三张使用同一比例。左右从 X、前后从 Y、竖直从 Z 量。</small></div><div id="sheets"></div></section>
 <section id="sources"><p class="kicker">04 / 文件和证据</p><h2>现版 STEP 与验证</h2><div class="provenance"><ul id="filelist"></ul><ul id="notes"></ul></div></section></main><div id="contextMenu" class="context-menu" role="menu" aria-label="模型操作" tabindex="-1" hidden></div><footer><div class="wrap">模块化抽屉 latest · 离线评审。制造和安装均以原 STEP 与实物试配为准。</div></footer>
 <script type="application/json" id="cad-data"><!-- DATA_SLOT --></script>
@@ -108,6 +108,18 @@ function viewSvg(p,v,scale){
  dim(`M${r+3},${t}H${xD+4} M${r+3},${b}H${xD+4} M${xD},${t}V${b} M${xD},${t}l-2,5m2,-5l2,5 M${xD},${b}l-2,-5m2,5l2,-5`);
  sx.append(sv('text',{class:'dv',x:(l+r)*.5,y:yD+15,'text-anchor':'middle'},format.format(v.extent[0])),
            sv('text',{class:'dv',x:xD+7,y:(t+b)*.5+4},format.format(v.extent[1])));
+ for(const d of v.dimensions||[]){
+  const ax=fx(d.a[0]), bx=fx(d.b[0]), ay=fy(d.a[1]),by=fy(d.b[1]),txt=format.format(d.value);
+  if(d.kind==='horizontal'){
+   const dy=ay+25;
+   dim(`M${ax},${ay+4}V${dy+4} M${bx},${by+4}V${dy+4} M${ax},${dy}H${bx} M${ax},${dy}l4,-2m-4,2l4,2 M${bx},${dy}l-4,-2m4,2l-4,2`);
+   sx.append(sv('text',{class:'dv',x:(ax+bx)/2,y:dy-4,'text-anchor':'middle','data-feature-mm':d.value},txt));
+  }else{
+   const dx=l-13;
+   dim(`M${ax-4},${ay}H${dx-3} M${bx-4},${by}H${dx-3} M${dx},${ay}V${by} M${dx},${ay}l-2,4m2,-4l2,4 M${dx},${by}l-2,-4m2,4l2,-4`);
+   sx.append(sv('text',{class:'dv',x:dx-4,y:(ay+by)/2,'text-anchor':'end','data-feature-mm':d.value},txt));
+  }
+ }
  for(const [j,a] of p.anchor.entries())if(a.view===v.key){
   let u=a.at[0],v0=a.at[1];
   if(a.units==='mm'){u=u/(v.extent[0]||1);v0=v0/(v.extent[1]||1)}
@@ -135,16 +147,16 @@ if(CAD.expansion){
  const e=CAD.expansion, sec=$('expansion-review'), card=el('div','sheet'), row=el('div','buttonrow');
  sec.hidden=false;$('expand-nav').hidden=false;
  sec.append(el('p','kicker','横向扩展 / 最终 CAD 检查'),el('h2',null,'右边接一格，共用中间侧板'));
- card.append(el('p','sheet-note','两格骨架外廓：'+e.overall_XYZ_mm.join(' × ')+' mm。闭合总装 35 件，其中右格实际补打 17 件；两份模型均不含拉篮。'));
- card.append(el('p','sheet-note','新增：外侧板 1、前梁 1、后板 1、限位拨片 2、直拉杆 6、偏心轮 6。'));
+ card.append(el('p','sheet-note','两格骨架外廓：'+e.overall_XYZ_mm.join(' × ')+' mm。闭合总装 43 件，其中右格实际补打 21 件；两份模型均不含拉篮。'));
+ card.append(el('p','sheet-note','新增：外侧板 1、前梁 1、后板 1、限位拨片 2、直拉杆 6、偏心轮 6、止退针 4。'));
  for(const [label,id] of [['3D · 两格骨架总装','two_bay'],['3D · 只看右格补打件','expansion']]){
   const b=el('button',null,label);b.type='button';b.dataset.show=id;row.append(b);
  }
- const link=el('a',null,'下载新增 17 件 STEP');link.href='STEP/'+CAD.parts.expansion.name;
+ const link=el('a',null,'下载新增 21 件 STEP');link.href='STEP/'+CAD.parts.expansion.name;
  row.append(link);
  if(e.print_3mf){const a=el('a',null,'下载右格一盘 3MF（P1S / PETG）');a.href=e.print_3mf.path;row.append(a);}
- card.append(row,el('p','sheet-note','先保留左格原装配，前后梁接上共用中板，再装新外侧板与锁件；上轮由背面进入。拉篮仅作为两格虚拟量规，关闭至拉出 110.5 mm 全部采样无干涉；不核对历史版。'));
- if(e.print_3mf)card.append(el('p','sheet-note','3MF 只含新增 17 件：P1S 0.4 mm、Generic PETG、0.20 mm 层高、两道墙、10% Gyroid，全局设置、未切片。和旧骨架粘接前先干装，确认导轨齐平、抽屉能推到底。'));
+ card.append(row,el('p','sheet-note','保留左格原装配，先放新外侧板，再把前后梁分别从两端整组滑入；最后锁轮、插入止退针。两格通过固定框架与闭合干涉检查；限位拨片不是可无视的障碍。正常挡位约拉出 104.5–104.75 mm 接触，取下时先解锁两片。未核对历史版。'));
+ if(e.print_3mf)card.append(el('p','sheet-note','3MF 只含新增 21 件：P1S 0.4 mm、Generic PETG、0.20 mm 层高、两道墙、10% Gyroid，全局设置、未切片。和旧骨架粘接前先干装，确认导轨齐平、抽屉能推到底。'));
  sec.append(card);
 }
 for(const b of document.querySelectorAll('[data-show]'))b.onclick=()=>{const s=$('part');if(s.disabled)return;s.value=b.dataset.show;s.dispatchEvent(new Event('change'));$('review3d').scrollIntoView({block:'start'});};
