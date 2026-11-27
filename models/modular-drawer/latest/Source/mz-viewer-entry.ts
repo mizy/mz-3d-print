@@ -68,7 +68,7 @@ async function setup(): Promise<void> {
   menu.disabled = true;
   controls.forEach(e => { e.disabled = true; });
   const cad = JSON.parse(byId("cad-data").textContent ?? "") as Cad;
-  menu.add(new Option("后板背插键 · 关合总成", "assembly"));
+  menu.add(new Option("四偏心轮 · 关合总成", "assembly"));
   const models = [...cad.panels, ...(cad.trays ?? []), ...(cad.handles ?? [])];
   for (const p of models) menu.add(new Option(p.title + "（单件）", p.id));
   const viewer: ModelViewer = await createModelViewer(canvas, {
@@ -191,7 +191,7 @@ async function setup(): Promise<void> {
     stage.setActiveMaterial("original");
     if (stage.style === "edges") changeStyle("edges");
     canvas.dataset.draws = String(root.children.length);
-    status.textContent = (panel?.title ?? "后板背插键 · 关合总成") + " · " + part.nSolids + " 个实体 · "
+    status.textContent = (panel?.title ?? "四偏心轮 · 关合总成") + " · " + part.nSolids + " 个实体 · "
       + part.extent.map(x => fmt.format(x)).join(" × ") + " mm · mz-3d-viewer / " + viewer.backend.toUpperCase();
     const ref = byId("view-file");
     const link = document.createElement("a");

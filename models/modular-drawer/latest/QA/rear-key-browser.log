@@ -1,1 +1,0 @@
-PASS rear-only HTML: WebGPU default edges, GPU hover/selection/right-click and inline edges, 35-solids frame/17-solids expansion, current-only paths; no-WebGPU drawing fallback.

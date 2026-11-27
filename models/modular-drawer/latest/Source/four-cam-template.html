@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="模块化抽屉 · 只改后板：三视图、装配和 STEP"><title>Latest｜模块化抽屉 · 只改后板</title>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="模块化抽屉 · 后板四偏心轮：三视图、装配和 STEP"><title>Latest｜模块化抽屉 · 后板四偏心轮</title>
 <style>
 :root{color-scheme:light;--ink:#142d38;--muted:#496475;--teal:#0e6b63;--line:#cddde0;--paper:#fff;--wash:#e8f2ee;--hidden:#728795;--badge:#065a53;--warn:#795125}*{box-sizing:border-box}
 html{scroll-behavior:smooth}body{margin:0;background:#eff5f4;color:var(--ink);font:16px/1.55 system-ui,-apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif}
@@ -43,9 +43,9 @@ section{margin-top:38px;scroll-margin-top:12px}section>h2{font-size:clamp(1.6rem
 #contextMenu{z-index:100;background:#15222a;color:#e4eef0;--line:#3d515b;--text:#e4eef0;--muted:#97adb8;--accent:#b7fbd8;border:1px solid #53717c;box-shadow:0 10px 28px #0a1b2960}
 #contextMenu[hidden]{display:none}
 #contextMenu button{margin:0;width:100%;cursor:pointer}
-.drawer-study-table{border-collapse:collapse;width:100%;margin-top:11px;font-size:.85rem}.drawer-study-table th,.drawer-study-table td{text-align:left;padding:7px;border-bottom:1px solid #d9e4e7}.drawer-study-table th{background:#edf5f3}</style></head><body>
-<header><div class="wrap head"><strong>LATEST / REAR SLIDE KEY</strong><nav aria-label="评审目录"><a href="#review3d">3D 装配</a><a href="#joints">装拆步骤</a><a href="#drawings">部件三视图</a><a href="#expansion-review" id="expand-nav" hidden>横向扩展</a><a href="#sources">STEP 文件</a></nav></div></header><main class="wrap">
-<div class="hero"><p class="kicker">结构评审 · 最小改动</p><h1>模块化抽屉 · 只改后板</h1><p id="summary" class="lead">只改后板上口。双 T 键借原槽定位，新后板主槽做紧配，再由可拆止退片阻止键后退。拉篮、侧板、前梁和下方锁件都保留。</p><div class="chips"><span class="chip">骨架 172 × 240 × 102.7 mm</span><span class="chip">一款通用双面侧板</span><span class="chip warn">CAD 评审 · 先试配小样</span></div></div>
+.hline.cad-hidden-circle{fill:none;stroke:#728795;stroke-width:1;stroke-dasharray:3 3}.drawer-study-table{border-collapse:collapse;width:100%;margin-top:11px;font-size:.85rem}.drawer-study-table th,.drawer-study-table td{text-align:left;padding:7px;border-bottom:1px solid #d9e4e7}.drawer-study-table th{background:#edf5f3}</style></head><body>
+<header><div class="wrap head"><strong>LATEST / FOUR REAR CAMS</strong><nav aria-label="评审目录"><a href="#review3d">3D 装配</a><a href="#joints">装拆步骤</a><a href="#drawings">部件三视图</a><a href="#expansion-review" id="expand-nav" hidden>横向扩展</a><a href="#sources">STEP 文件</a></nav></div></header><main class="wrap">
+<div class="hero"><p class="kicker">结构评审 · 最小改动</p><h1>模块化抽屉 · 后板四偏心轮</h1><p id="summary" class="lead">后板上二下二共四颗 11.2 mm 偏心轮，背面齐平。抽屉只让两个后上角，整体外廓、滑轨和底板不改。</p><div class="chips"><span class="chip">骨架 172 × 240 × 102.7 mm</span><span class="chip">一款通用双面侧板</span><span class="chip warn">CAD 评审 · 先试配小样</span></div></div>
 <section id="review3d"><p class="kicker">01 / CAD 预览</p><h2>关闭总成和部件切换</h2><p class="intro">按已导出的 STEP 显示；由 @mizy/mz-3d-viewer 1.0.0（WebGPU）渲染；拖动旋转，在画布上滚轮缩放；默认显示边线。悬停高亮，单击选中部件，双击适应该部件，右键操作，Esc 取消选中。右上 NavCube 切换视角。也可用按钮缩放，或聚焦后用方向键、＋/− 和 Home 操作。</p>
 <div class="viewer">
  <div class="stage" id="stage"><canvas id="scene" role="img" tabindex="0" aria-label="CAD 模型的可旋转三维预览"></canvas><div class="mz-nav" aria-label="视角导航">    <div id="navCube" class="navcube" tabindex="0" role="group" aria-label="导航立方体：点击面、棱或角切换视角，拖动或按方向键旋转。数字 1 到 6 切换六面，Home 回到等轴视图。">
@@ -62,24 +62,21 @@ section{margin-top:38px;scroll-margin-top:12px}section>h2{font-size:clamp(1.6rem
 <div class="mz-projection" role="group" aria-label="相机投影">
   <button type="button" id="mz-ortho" aria-pressed="true">正交</button>
   <button type="button" id="mz-perspective" aria-pressed="false">透视</button>
-</div></div><span class="stage-label">亮蓝绿：侧板　蓝：前梁　深蓝：后板　橙：插键、锁件与拨片</span></div>
+</div></div><span class="stage-label">亮蓝绿：侧板　蓝：前梁　深蓝：后板　橙：拉杆、偏心轮与拨片</span></div>
  <div class="control"><label for="part">显示模型</label><select id="part"></select><div class="buttonrow"><button type="button" data-camera="iso">斜视</button><button type="button" data-camera="front">从前</button><button type="button" data-camera="back">从后</button><button type="button" data-camera="top">从顶</button><button type="button" data-camera="side">从右</button><button type="button" id="reset">复位</button></div>
  <div class="buttonrow"><button type="button" id="zoom-out" aria-label="缩小">−</button><button type="button" id="zoom-in" aria-label="放大">＋</button></div>
 
  <p id="pick-state" class="sheet-note" aria-label="部件状态">悬停高亮 · 单击选中 · 右键操作</p><p id="status" role="status" class="status">读取离线预览…</p><p class="filename" id="view-file"></p>
  </div>
 </div><p class="note">@mizy/mz-3d-viewer 1.0.0 离线使用原 STEP 的显示网格，不能代替 BRep 验证、量规或打印。装配画面不会改变零件位置，也不会推断动态干涉。</p></section>
-<section id="joints"><p class="kicker">02 / 紧配与锁止</p><h2>侧向夹紧，轴向用止退片</h2>
-<div class="sheet"><div class="sheet-head"><h3>新后板承力槽 · 名义零间隙</h3><span class="sheet-number">同款双 T 插键与止退片各两枚</span></div>
-<ol><li>前、后下的偏心轮照旧装。原侧板、前梁和 78 mm 低侧拉篮不改。</li>
-<li>从背面把双 T 插键推齐。新后板工作面按插键等尺寸建模，不预留夹紧间隙；仅入口倒角，原侧板旧槽不改。</li>
-<li>从顶部放下止退片，嵌进插键尾部的凹口。它只锁住“往后退”的方向，与顶边平齐。拆时先挑起止退片，再拔插键；如果叠装遮住顶部，须先留出取片空间。</li></ol>
-<p class="sheet-note"><strong>旧台阶已去掉：</strong> 后板内侧的 0.30 mm 矩形台阶削平至同一基准平面，不往拉篮方向加料。双 T 插键的导入端改用四个平面倒角；真正用于止退、挑出和装入的槽还在。</p><p class="sheet-note">全宽外背仍是 Y245，顶部仍齐 Z100；后上接头到拉篮名义净空 0.80 mm。止退片的装拆槽仍有独立活动间隙，不是主承力槽。</p>
-<p class="note">名义 CAD 零间隙不保证打印后能装进，也不是强度保证。先试一枚键配已打印侧板，再打印一角四件小样测试压入、手感、抗后退和拆卸，别先打印整块后板。本轮没有 3MF，未切片。</p>
-<div class="buttonrow"><button type="button" data-show="assembly">3D · 关到底的总成</button><button type="button" data-show="rear">3D · 紧配后板</button><button type="button" data-show="key">3D · 背插键</button><button type="button" data-show="blade">3D · 止退片</button><button type="button" data-show="coupon">3D · 一角试配小样</button></div></div></section>
-<section id="expansion-review" hidden></section><section id="drawings"><p class="kicker">03 / STEP 正投影</p><h2>侧板、前梁、后板、背插键、止退片与拉篮</h2>
+<section id="joints"><p class="kicker">02 / 装配与锁止</p><h2>后板四轮，背面齐平</h2>
+<div class="sheet"><div class="sheet-head"><h3>上方从背面、下方从内侧装轮</h3><span class="sheet-number">4 枚后板偏心轮（11.2 mm）</span></div>
+<ol><li>先把偏心轮装入轮座，再把直拉杆从对应侧槽送入，转动偏心轮锁紧。不要带着拉杆直接把轮塞入。</li><li>后上两颗用背面同一个孔装入和拧紧；两颗后下轮与两颗前梁轮保持原操作侧。</li><li>让位只在抽屉两个上后角，深度最多少 6.45 mm；承托、底板、闭合位置和总深 240 mm 不变。</li></ol>
+<p class="sheet-note">外背 Y245；上轮端面低于背面 0.25 mm。上锁座局部厚 12.65 mm，其余后板不加厚。原平后壁拉篮和新后板不直接通用。</p><p class="note">用一角小样实测夹紧、晃动与拆卸后再打整块。CAD 计算没有实测强度或打印公差，不切片。</p>
+<div class="buttonrow"><button type="button" data-show="assembly">3D · 关到底的总成</button><button type="button" data-show="rear">3D · 四轮后板</button><button type="button" data-show="rod">3D · 后上直拉杆</button><button type="button" data-show="cam">3D · 后上偏心轮</button><button type="button" data-show="drawer">3D · 抽屉后角</button><button type="button" data-show="coupon">3D · 一角试配小样</button></div></div></section>
+<section id="expansion-review" hidden></section><section id="drawings"><p class="kicker">03 / STEP 正投影</p><h2>九类部件正投影与锁位标注</h2>
 <div class="legend"><strong>图例</strong><span><i class="line"></i>可见边</span><span><i class="line dash"></i>遮挡边</span><span><i class="line dimension"></i>外廓尺寸（mm）</span><span><i class="line lead"></i>接口识别引线</span><label><input id="hidden" checked type="checkbox">显示隐藏棱线</label><small>各零件三视图来自新 STEP，三张使用同一比例。左右从 X、前后从 Y、竖直从 Z 量。</small></div><div id="sheets"></div></section>
-<section id="sources"><p class="kicker">04 / 文件和证据</p><h2>本轮 STEP 下载</h2><div class="provenance"><ul id="filelist"></ul><ul id="notes"></ul></div></section></main><div id="contextMenu" class="context-menu" role="menu" aria-label="模型操作" tabindex="-1" hidden></div><footer><div class="wrap">模块化抽屉 latest · 离线评审。制造和安装均以原 STEP 与实物试配为准。</div></footer>
+<section id="sources"><p class="kicker">04 / 文件和证据</p><h2>现版 STEP 与验证</h2><div class="provenance"><ul id="filelist"></ul><ul id="notes"></ul></div></section></main><div id="contextMenu" class="context-menu" role="menu" aria-label="模型操作" tabindex="-1" hidden></div><footer><div class="wrap">模块化抽屉 latest · 离线评审。制造和安装均以原 STEP 与实物试配为准。</div></footer>
 <script type="application/json" id="cad-data"><!-- DATA_SLOT --></script>
 <script>
 'use strict';
@@ -100,6 +97,7 @@ function viewSvg(p,v,scale){
   sx.append(sv('path',{class:j?'hline':'vline',d:axes,'stroke-linecap':'round','stroke-linejoin':'round'}));
  }
  const l=x,r=x+w,b=y,t=y-h, yD=b+23,xD=r+19;
+ for(const [cx,cy,radius] of v.hidden_full_circles||[])sx.append(sv('circle',{class:'hline cad-hidden-circle',cx:fx(cx),cy:fy(cy),r:radius*s,'data-cad-hidden-circle':radius}));
  for(const [cx,cy,radius] of v.visible_full_circles)sx.append(sv('circle',{class:'vline',cx:fx(cx),cy:fy(cy),r:radius*s,'data-cad-circle':radius}));
  if(false){
   const g=CAD.meta.slot_pair,q0=fx(g.bottom),q1=fx(g.back);
@@ -138,14 +136,14 @@ if(CAD.expansion){
  sec.hidden=false;$('expand-nav').hidden=false;
  sec.append(el('p','kicker','横向扩展 / 最终 CAD 检查'),el('h2',null,'右边接一格，共用中间侧板'));
  card.append(el('p','sheet-note','两格骨架外廓：'+e.overall_XYZ_mm.join(' × ')+' mm。闭合总装 35 件，其中右格实际补打 17 件；两份模型均不含拉篮。'));
- card.append(el('p','sheet-note','新增：外侧板 1、前梁 1、后板 1、限位拨片 2、拉杆 4、偏心轮 4、双 T 插键 2、止退片 2。'));
+ card.append(el('p','sheet-note','新增：外侧板 1、前梁 1、后板 1、限位拨片 2、直拉杆 6、偏心轮 6。'));
  for(const [label,id] of [['3D · 两格骨架总装','two_bay'],['3D · 只看右格补打件','expansion']]){
   const b=el('button',null,label);b.type='button';b.dataset.show=id;row.append(b);
  }
  const link=el('a',null,'下载新增 17 件 STEP');link.href='STEP/'+CAD.parts.expansion.name;
  row.append(link);
  if(e.print_3mf){const a=el('a',null,'下载右格一盘 3MF（P1S / PETG）');a.href=e.print_3mf.path;row.append(a);}
- card.append(row,el('p','sheet-note','先保留左格原装配，前后梁接上共用中板，再装新外侧板与锁件。拉篮仅作为两格虚拟量规，关闭至拉出 110.5 mm 全部采样无干涉；不核对历史版。'));
+ card.append(row,el('p','sheet-note','先保留左格原装配，前后梁接上共用中板，再装新外侧板与锁件；上轮由背面进入。拉篮仅作为两格虚拟量规，关闭至拉出 110.5 mm 全部采样无干涉；不核对历史版。'));
  if(e.print_3mf)card.append(el('p','sheet-note','3MF 只含新增 17 件：P1S 0.4 mm、Generic PETG、0.20 mm 层高、两道墙、10% Gyroid，全局设置、未切片。和旧骨架粘接前先干装，确认导轨齐平、抽屉能推到底。'));
  sec.append(card);
 }

@@ -5781,17 +5781,17 @@
     "category": "家居收纳",
     "status": "design",
     "cls": "original",
-    "summary": "当前后板内壁修平；双 T 插键与止退片可拆。含闭合总成、原尺寸 STEP 和一角小样。",
+    "summary": "后板四颗 11.2 mm 偏心轮、背面齐平；含闭合总成、零件图、后角小样和右格 3MF。",
     "gallery": [],
     "downloads": [
       "latest/Print/Right_Bay_Frame_P1S_PETG_UNSLICED.3mf",
       "latest/STEP/07_Right_Bay_Frame_Expansion_17_Parts.step",
-      "latest/STEP/00_Rear_Key_Closed_Review.step",
-      "latest/STEP/03_Rear_Board_Slide_Key_Review.step",
-      "latest/STEP/04_Rear_Slide_Key.step",
-      "latest/STEP/05_Rear_Key_Stop_Blade.step",
-      "latest/STEP/06_Rear_Stop_Corner_Fit_Coupon.step",
-      "latest/STEP/27_Cinnamoroll_Honeycomb_Low_Sides.step"
+      "latest/STEP/00_Four_Cam_Closed_Assembly.step",
+      "latest/STEP/03_Rear_Board_Four_Cam.step",
+      "latest/STEP/04_Rear_Upper_Straight_Rod.step",
+      "latest/STEP/05_Rear_Upper_Cam_11p2mm.step",
+      "latest/STEP/06_Rear_Upper_Cam_Fit_Coupon.step",
+      "latest/STEP/27_Cinnamoroll_Corner_Relief_Drawer.step"
     ],
     "dir": "modular-drawer",
     "cover": null,
@@ -5803,112 +5803,147 @@
       },
       {
         "rel": "README.md",
-        "size": 816,
+        "size": 722,
         "url": "models/modular-drawer/README.md"
       },
       {
         "rel": "SHA256SUMS",
-        "size": 405,
+        "size": 965,
         "url": "models/modular-drawer/SHA256SUMS"
       },
       {
         "rel": "latest/Print/Right_Bay_Frame_P1S_PETG_UNSLICED.3mf",
-        "size": 809821,
+        "size": 894577,
         "url": "models/modular-drawer/latest/Print/Right_Bay_Frame_P1S_PETG_UNSLICED.3mf"
       },
       {
+        "rel": "latest/QA/browser.log",
+        "size": 201,
+        "url": "models/modular-drawer/latest/QA/browser.log"
+      },
+      {
+        "rel": "latest/QA/drawings.log",
+        "size": 115,
+        "url": "models/modular-drawer/latest/QA/drawings.log"
+      },
+      {
         "rel": "latest/QA/expansion-fit.json",
-        "size": 4192,
+        "size": 3564,
         "url": "models/modular-drawer/latest/QA/expansion-fit.json"
       },
       {
-        "rel": "latest/QA/expansion-geometry.log",
-        "size": 262,
-        "url": "models/modular-drawer/latest/QA/expansion-geometry.log"
+        "rel": "latest/QA/expansion.log",
+        "size": 265,
+        "url": "models/modular-drawer/latest/QA/expansion.log"
       },
       {
-        "rel": "latest/QA/rear-key-browser.log",
-        "size": 178,
-        "url": "models/modular-drawer/latest/QA/rear-key-browser.log"
+        "rel": "latest/QA/four-cam-fit.json",
+        "size": 3881,
+        "url": "models/modular-drawer/latest/QA/four-cam-fit.json"
       },
       {
-        "rel": "latest/QA/rear-key-fit.json",
-        "size": 4562,
-        "url": "models/modular-drawer/latest/QA/rear-key-fit.json"
+        "rel": "latest/QA/parts-readback.json",
+        "size": 918,
+        "url": "models/modular-drawer/latest/QA/parts-readback.json"
       },
       {
-        "rel": "latest/QA/rear-key-geometry.log",
-        "size": 873,
-        "url": "models/modular-drawer/latest/QA/rear-key-geometry.log"
+        "rel": "latest/QA/parts-readback.log",
+        "size": 38,
+        "url": "models/modular-drawer/latest/QA/parts-readback.log"
       },
       {
-        "rel": "latest/QA/rear-key-report.log",
-        "size": 20,
-        "url": "models/modular-drawer/latest/QA/rear-key-report.log"
+        "rel": "latest/QA/print-package.log",
+        "size": 1775,
+        "url": "models/modular-drawer/latest/QA/print-package.log"
       },
       {
         "rel": "latest/README_CN.md",
-        "size": 2949,
+        "size": 1770,
         "url": "models/modular-drawer/latest/README_CN.md"
       },
       {
         "rel": "latest/SHA256SUMS",
-        "size": 3160,
+        "size": 3702,
         "url": "models/modular-drawer/latest/SHA256SUMS"
       },
       {
-        "rel": "latest/STEP/00_Rear_Key_Closed_Review.step",
-        "size": 5805599,
-        "url": "models/modular-drawer/latest/STEP/00_Rear_Key_Closed_Review.step"
+        "rel": "latest/STEP/00_Four_Cam_Closed_Assembly.step",
+        "size": 6138692,
+        "url": "models/modular-drawer/latest/STEP/00_Four_Cam_Closed_Assembly.step"
       },
       {
         "rel": "latest/STEP/00_Two_Bay_Horizontal_Frame_Check.step",
-        "size": 4097504,
+        "size": 4744796,
         "url": "models/modular-drawer/latest/STEP/00_Two_Bay_Horizontal_Frame_Check.step"
       },
       {
         "rel": "latest/STEP/01_Universal_Side_Panel.step",
-        "size": 330839,
+        "size": 331111,
         "url": "models/modular-drawer/latest/STEP/01_Universal_Side_Panel.step"
       },
       {
         "rel": "latest/STEP/02_Front_Beam.step",
-        "size": 58405,
+        "size": 59141,
         "url": "models/modular-drawer/latest/STEP/02_Front_Beam.step"
       },
       {
-        "rel": "latest/STEP/03_Rear_Board_Slide_Key_Review.step",
-        "size": 128974,
-        "url": "models/modular-drawer/latest/STEP/03_Rear_Board_Slide_Key_Review.step"
+        "rel": "latest/STEP/03_Rear_Board_Four_Cam.step",
+        "size": 115631,
+        "url": "models/modular-drawer/latest/STEP/03_Rear_Board_Four_Cam.step"
       },
       {
-        "rel": "latest/STEP/04_Rear_Slide_Key.step",
-        "size": 36174,
-        "url": "models/modular-drawer/latest/STEP/04_Rear_Slide_Key.step"
+        "rel": "latest/STEP/04_Rear_Upper_Straight_Rod.step",
+        "size": 12299,
+        "url": "models/modular-drawer/latest/STEP/04_Rear_Upper_Straight_Rod.step"
       },
       {
-        "rel": "latest/STEP/05_Rear_Key_Stop_Blade.step",
-        "size": 11802,
-        "url": "models/modular-drawer/latest/STEP/05_Rear_Key_Stop_Blade.step"
+        "rel": "latest/STEP/05_Rear_Upper_Cam_11p2mm.step",
+        "size": 201697,
+        "url": "models/modular-drawer/latest/STEP/05_Rear_Upper_Cam_11p2mm.step"
       },
       {
-        "rel": "latest/STEP/06_Rear_Stop_Corner_Fit_Coupon.step",
-        "size": 115909,
-        "url": "models/modular-drawer/latest/STEP/06_Rear_Stop_Corner_Fit_Coupon.step"
+        "rel": "latest/STEP/06_Rear_Upper_Cam_Fit_Coupon.step",
+        "size": 270438,
+        "url": "models/modular-drawer/latest/STEP/06_Rear_Upper_Cam_Fit_Coupon.step"
       },
       {
         "rel": "latest/STEP/07_Right_Bay_Frame_Expansion_17_Parts.step",
-        "size": 1858535,
+        "size": 2182700,
         "url": "models/modular-drawer/latest/STEP/07_Right_Bay_Frame_Expansion_17_Parts.step"
       },
       {
-        "rel": "latest/STEP/27_Cinnamoroll_Honeycomb_Low_Sides.step",
-        "size": 3526300,
-        "url": "models/modular-drawer/latest/STEP/27_Cinnamoroll_Honeycomb_Low_Sides.step"
+        "rel": "latest/STEP/08_Drawer_Stop_Paddle.step",
+        "size": 173066,
+        "url": "models/modular-drawer/latest/STEP/08_Drawer_Stop_Paddle.step"
+      },
+      {
+        "rel": "latest/STEP/09_Lower_Cam_11p2mm.step",
+        "size": 194223,
+        "url": "models/modular-drawer/latest/STEP/09_Lower_Cam_11p2mm.step"
+      },
+      {
+        "rel": "latest/STEP/10_Lower_Straight_Rod.step",
+        "size": 12242,
+        "url": "models/modular-drawer/latest/STEP/10_Lower_Straight_Rod.step"
+      },
+      {
+        "rel": "latest/STEP/27_Cinnamoroll_Corner_Relief_Drawer.step",
+        "size": 3545235,
+        "url": "models/modular-drawer/latest/STEP/27_Cinnamoroll_Corner_Relief_Drawer.step"
+      },
+      {
+        "rel": "latest/Source/build_four_cam_geometry.py",
+        "size": 5549,
+        "url": "models/modular-drawer/latest/Source/build_four_cam_geometry.py"
+      },
+      {
+        "rel": "latest/Source/build_four_cam_review.py",
+        "size": 7222,
+        "url": "models/modular-drawer/latest/Source/build_four_cam_review.py"
       },
       {
         "rel": "latest/Source/build_horizontal_expansion.py",
-        "size": 5589,
+        "size": 5233,
         "url": "models/modular-drawer/latest/Source/build_horizontal_expansion.py"
       },
       {
@@ -5917,43 +5952,38 @@
         "url": "models/modular-drawer/latest/Source/build_mz_viewer.mjs"
       },
       {
-        "rel": "latest/Source/build_rear_key_geometry.py",
-        "size": 9958,
-        "url": "models/modular-drawer/latest/Source/build_rear_key_geometry.py"
-      },
-      {
-        "rel": "latest/Source/build_rear_key_review.py",
-        "size": 4537,
-        "url": "models/modular-drawer/latest/Source/build_rear_key_review.py"
-      },
-      {
         "rel": "latest/Source/build_right_bay_3mf.py",
-        "size": 9092,
+        "size": 9111,
         "url": "models/modular-drawer/latest/Source/build_right_bay_3mf.py"
       },
       {
+        "rel": "latest/Source/export_four_cam_parts.py",
+        "size": 1134,
+        "url": "models/modular-drawer/latest/Source/export_four_cam_parts.py"
+      },
+      {
+        "rel": "latest/Source/four-cam-template.html",
+        "size": 22417,
+        "url": "models/modular-drawer/latest/Source/four-cam-template.html"
+      },
+      {
         "rel": "latest/Source/mz-viewer-entry.ts",
-        "size": 11756,
+        "size": 11750,
         "url": "models/modular-drawer/latest/Source/mz-viewer-entry.ts"
       },
       {
         "rel": "latest/Source/mz-viewer-runtime.json",
-        "size": 588,
+        "size": 629,
         "url": "models/modular-drawer/latest/Source/mz-viewer-runtime.json"
       },
       {
         "rel": "latest/Source/mz-viewer.runtime.js",
-        "size": 1680417,
+        "size": 1680353,
         "url": "models/modular-drawer/latest/Source/mz-viewer.runtime.js"
       },
       {
-        "rel": "latest/Source/rear-key-template.html",
-        "size": 22594,
-        "url": "models/modular-drawer/latest/Source/rear-key-template.html"
-      },
-      {
         "rel": "latest/Source/report_geometry.py",
-        "size": 6573,
+        "size": 6663,
         "url": "models/modular-drawer/latest/Source/report_geometry.py"
       },
       {
@@ -5962,9 +5992,9 @@
         "url": "models/modular-drawer/latest/Source/step_units.py"
       },
       {
-        "rel": "latest/Source/verify_rear_key_review.cjs",
-        "size": 6126,
-        "url": "models/modular-drawer/latest/Source/verify_rear_key_review.cjs"
+        "rel": "latest/Source/verify_four_cam_review.cjs",
+        "size": 5110,
+        "url": "models/modular-drawer/latest/Source/verify_four_cam_review.cjs"
       },
       {
         "rel": "latest/Source/viewer-release.json",
@@ -5973,21 +6003,21 @@
       },
       {
         "rel": "latest/Source/复现.md",
-        "size": 2083,
+        "size": 1398,
         "url": "models/modular-drawer/latest/Source/复现.md"
       },
       {
         "rel": "latest/index.html",
-        "size": 8849957,
+        "size": 11506731,
         "url": "models/modular-drawer/latest/index.html"
       }
     ],
-    "bytes": 27412323,
+    "bytes": 32162838,
     "html": [
       {
         "rel": "models/modular-drawer/latest/index.html",
-        "size": 8849957,
-        "title": "Latest｜模块化抽屉 · 只改后板"
+        "size": 11506731,
+        "title": "Latest｜模块化抽屉 · 后板四偏心轮"
       }
     ]
   },

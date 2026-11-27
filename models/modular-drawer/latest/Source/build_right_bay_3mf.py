@@ -10,9 +10,9 @@ s=d/'STEP'; proof=json.loads((d/'QA/expansion-fit.json').read_text())
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 for stem,h in proof['hashes'].items():assert sha(s/(stem+'.step'))==h
 assembly=Part.read(str(s/'00_Two_Bay_Horizontal_Frame_Check.step'))
-closed=Part.read(str(s/'00_Rear_Key_Closed_Review.step'))
+closed=Part.read(str(s/'00_Four_Cam_Closed_Assembly.step'))
 kit=Part.read(str(s/'07_Right_Bay_Frame_Expansion_17_Parts.step'))
-basket=Part.read(str(s/'27_Cinnamoroll_Honeycomb_Low_Sides.step')).Solids[0]
+basket=Part.read(str(s/'27_Cinnamoroll_Corner_Relief_Drawer.step')).Solids[0]
 assert all(x.isValid() for x in (assembly,closed,kit,basket))
 p=kit.Solids
 assert len(p)==17 and len(assembly.Solids)==35
@@ -30,15 +30,15 @@ for disp in [0,-.1,-.3,-.6,-1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-12,-16,-22,-30,-45,-6
  peak=max(peak,max(collision(q,part) for part in assembly.Solids))
 assert peak<.001,peak
 print('PASS actual low-side basket, 23 positions, peak overlap',peak,flush=True)
-names=['01 右外侧板','02 前梁','03 后板','04 左限位拨片','05 右限位拨片','06 前左拉杆','07 前右拉杆','08 后左下拉杆','09 后右下拉杆','10 前左偏心轮','11 前右偏心轮','12 后左下偏心轮','13 后右下偏心轮','14 左双T滑键','15 右双T滑键','16 左止退片','17 右止退片']
+names=['01 右外侧板','02 前梁','03 后板','04 左限位拨片','05 右限位拨片','06 前左拉杆','07 前右拉杆','08 后左下拉杆','09 后右下拉杆','10 前左偏心轮','11 前右偏心轮','12 后左下偏心轮','13 后右下偏心轮','14 后左上拉杆','15 后右上拉杆','16 后左上偏心轮','17 后右上偏心轮']
 # XY centering, bed contact left at Z=0. Frame panels upright as designed.
 # Front beam puts its wider face down; paddles and blades on broad faces, rods transverse, cams axis vertical.
 poses=[((0,0,1),90,128,190),((1,0,0),90,128,142),((0,0,1),0,128,108)]
 poses += [((1,0,0),90,45,70),((1,0,0),90,71,70)]
 poses += [((0,0,1),0,x,70) for x in (99,128,157,186)]
 poses += [((1,0,0),90,x,35) for x in (44,68,92,116)]
-poses += [((0,0,1),0,x,35) for x in (142,162)]
-poses += [((1,0,0),90,x,35) for x in (182,201)]
+poses += [((0,0,1),0,x,35) for x in (145,172)]
+poses += [((1,0,0),90,x,35) for x in (198,220)]
 NS="http://schemas.microsoft.com/3dmanufacturing/core/2015/02"
 PN="http://schemas.microsoft.com/3dmanufacturing/production/2015/06"
 BAMBU="http://schemas.bambulab.com/package/2021"

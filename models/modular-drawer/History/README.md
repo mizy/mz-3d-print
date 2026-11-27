@@ -35,3 +35,9 @@ python3 V17/build_v17.py "$seed" "$single" /absolute/path/to/new-v17-output 2.00
 历史打印件如仅为复核：旧版重建会生成各自侧板，并保留与 V18 字节相同的 17 类共用打印 STEP。V18 已移除的 07 / 08 双头杆只保留一份 [历史小输入](Inputs/Former_Double_Rods/)，不用于 V18。旧版 3MF 的板材排布和设置只见历史归档，不承诺从 CAD 自动生成。
 
 V16 的原批准 ZIP、历史自定义 W/D/H 实验，以及 V17 旧版网页和完整排盘归入本机历史归档，不在当前版本分发。V11–V13 的未跟踪草稿同样保留在本机历史归档，不纳入此仓库版本；未验证其全部能从当前目录重建。
+
+## 后板连接归档（2026-11-27）
+
+- [双 T 后插键旧版（完整 latest 快照）](Archived/Rear_Slide_Key_2026-11-26.tar.gz)：包括旧评审、全部分件与右格 3MF，来源提交 `522add26cc566bc99979954de78d5a817a5fee5f`。用于追溯，不用于现版。
+- [当时的闭合总成输入](Inputs/Rear_Keys_2026-11-26_Closed.step)：制作四偏心轮现版时锁定的名义 CAD 基线。
+- [薄轮、向外加厚、六枚 8 mm 等试验](Archived/Rear_Cam_Experiments_2026-11-27/README.md)：未通过实物强度试配，不属于现版。

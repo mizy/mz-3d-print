@@ -7,9 +7,9 @@
   "renderer": "WebGPU",
   "three": "0.187.0",
   "esbuild": "0.28.2",
-  "byteLength": 1680417,
-  "sha256": "6644912698cfe0724bd79d95208667ad949f66a9c0fcbb47d97ae0edf0eaff14",
+  "byteLength": 1680353,
+  "sha256": "2f3b3e6e82c5040500f0dead7c86c96609cf2dd5aefee74d51c0bdef53922934",
   "offline": true,
-  "uiSources": "matching release commit: native NavCube and context menu",
+  "uiSources": "matching release commit: native NavCube and context menu; drawer adapter assembly caption updated",
   "meshSource": "current signed STEP mesh"
 }

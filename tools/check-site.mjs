@@ -17,7 +17,8 @@ function checkIndexLinks() {
   const html = read("index.html");
   if (!/class="card"/.test(html)) fail("index.html has no model cards");
   const drawer = "models/modular-drawer/latest/";
-  if (html.includes(`href="${drawer}Source/rear-key-template.html"`)) fail("Drawer source template is not a public review entry");
+  if (/href="models\/modular-drawer\/latest\/Source\/[^/"]+-template\.html"/.test(html)) fail("Drawer source template is not a public review entry");
+  if (/models\/modular-drawer\/latest\/STEP\/(?:00_Rear_Key|03_Rear_Board_Slide|04_Rear_Slide_Key|05_Rear_Key_Stop)/.test(html)) fail("Drawer gallery points at a superseded lock version");
   const drawerReview = `href="${drawer}index.html"`;
   if (html.split(drawerReview).length - 1 !== 2) fail("Expected drawer review in gallery navigation and model card");
   const drawerPrint = `${drawer}Print/Right_Bay_Frame_P1S_PETG_UNSLICED.3mf`;

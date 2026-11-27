@@ -1,9 +1,7 @@
 # 通用模块化抽屉
 
-**当前评审：** [打开 latest HTML](latest/index.html) · [闭合总成](latest/STEP/00_Rear_Key_Closed_Review.step) · [说明](latest/README_CN.md)。
+[当前 HTML：3D、工业三视图、配件、说明](latest/index.html) · [单格闭合总成](latest/STEP/00_Four_Cam_Closed_Assembly.step) · [装配与限制](latest/README_CN.md)
 
-本轮后板内壁修平，双 T 插键与止退片保留功能槽，前梁、侧板及大耳狗低侧拉篮不变。打开评审可离线看 3D、三视图、STEP，以及一角试配样件。3D 需要 WebGPU；三视图不需要。此为 CAD 评审，未切片或实物承重测试。
+现版后板四颗 11.2 mm 偏心轮（上二下二），外背齐平，整组深 240 mm。两个后上角局部收进，底板、滑轨、侧板和前梁沿用。HTML 交付的是实际 STEP 正投影；三视图不要求 WebGPU。
 
-**横向补第二格：** [查看总装和最终检查](latest/index.html#expansion-review) · [下载新增的 17 件骨架 STEP](latest/STEP/07_Right_Bay_Frame_Expansion_17_Parts.step)。共用中侧板，不含拉篮。
-
-**历史资料：** [归档和重建索引](History/README.md)。历史模型、说明和排盘不在当前报告里。
+[横向第二格](latest/index.html#expansion-review) · [右格 17 件 STEP](latest/STEP/07_Right_Bay_Frame_Expansion_17_Parts.step) · [P1S/PETG 右格 3MF](latest/Print/Right_Bay_Frame_P1S_PETG_UNSLICED.3mf)。旧结构和薄轮对照均在 [History](History/README.md)。

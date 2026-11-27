@@ -74,18 +74,19 @@ def views(q,order,include_tangent=False):
   for i,row in enumerate(AXES[name],1):
    for j,value in enumerate(row,1):setattr(mat,f'A{i}{j}',float(value))
   shape=q.copy();shape.transformShape(mat,True,True)
-  # TechDraw returns visible G0, visible tangent G1, hidden G0, hidden tangent G1.
-  # Standard orthographic drawing shows G0 edges; keep tangent transitions unmarked.
-  g=T.project(shape,V(0,0,1)); layers=[]; round_samples=[]
+  # projectEx exposes outline generators that the 4-group project omits.
+  # In particular, smooth shaft silhouettes remain part of the actual BRep outline.
+  # Group order is sharp, smooth, seam, outline, iso for each visibility class.
+  g=T.projectEx(shape,V(0,0,1)); layers=[]; round_samples=[]
   def circle_key(e):
    c=e.Curve
    if not isinstance(c,Part.Circle) or abs(e.Length-2*math.pi*c.Radius)>.00001:return None
    return tuple(round(v,5) for v in (c.Center.x,c.Center.y,c.Radius))
   circles=sorted({k for e in g[0].Edges if (k:=circle_key(e)) is not None})
   show=set(circles)
-  for k in (0,2):
-   raw=list(g[k].Edges)+(list(g[k+1].Edges) if include_tangent else [])
-   edges=[e for e in raw if e.Length>.008 and not (k==2 and circle_key(e) in show)]
+  for k in (0,5):
+   raw=list(g[k].Edges)+list(g[k+3].Edges)+(list(g[k+1].Edges) if include_tangent else [])
+   edges=[e for e in raw if e.Length>.008 and not (k==5 and circle_key(e) in show)]
    lines=[]
    for e in edges:
     poly=[[round(v.x,5),round(v.y,5)] for v in e.discretize(Deflection=CHORD)]

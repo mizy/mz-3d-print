@@ -4,7 +4,7 @@ from pathlib import Path
 from itertools import combinations
 from step_units import ensure_mm
 V=A.Vector; d,out=map(Path,sys.argv[1:3]);out.mkdir(exist_ok=True)
-base=d/'00_Rear_Key_Closed_Review.step'
+base=d/'00_Four_Cam_Closed_Assembly.step'
 seed=Part.read(str(base));p=seed.Solids
 assert seed.isValid() and len(p)==19
 def bb(q):
@@ -19,7 +19,7 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 pitch=154.7
 twin=m(p[0],x=pitch)
 assert max(p[1].cut(twin).Volume,twin.cut(p[1]).Volume)<.001
-label=['左外侧板','共用中侧板','前梁','后板','左限位拨片','右限位拨片','前左拉杆','前右拉杆','后下左拉杆','后下右拉杆','前左偏心轮','前右偏心轮','后下左偏心轮','后下右偏心轮','拉篮','后上左双 T 插键','后上右双 T 插键','左止退片','右止退片']
+label=['左外侧板','共用中侧板','前梁','后板','左限位拨片','右限位拨片','前左拉杆','前右拉杆','后下左拉杆','后下右拉杆','前左偏心轮','前右偏心轮','后下左偏心轮','后下右偏心轮','拉篮','后上左拉杆','后上右拉杆','后上左偏心轮','后上右偏心轮']
 left={i:p[i] for i in range(19) if i!=14}
 extra={i:m(p[i],x=pitch) for i in range(1,19) if i!=14}
 lrows=[('Left bay - '+label[i],q) for i,q in left.items()]
@@ -41,17 +41,12 @@ for dx in [0,.05,.12,.2,.3,.5,.8,1,1.5,2,3,5,8,12,16,22]:
  assert max(joins+[free])<.001,(dx,joins,free)
  moving.append([dx,*[round(j,7) for j in joins],round(free,7)])
 print('PASS independent second bay beam and side approach',flush=True)
-key_samp=[];blade_samp=[]
-for y in [0,.025,.05,.12,.2,.3,.42,.65,.85,1,1.5,2,3,4,5,6,8,10]:
- peak=max(c(m(extra[i],y=y),r) for i in [15,16] for j,r in [*left.items(),*[(k,r) for k,r in extra.items() if k not in (15,16,17,18)]])
+cam_samp=[]
+# Install the upper cams from the back before inserting the two upper rods from the sides.
+for y in [0,.1,.3,.5,1,2,3,4,6,8,10,12,15]:
+ peak=max(c(m(extra[i],y=y),q) for i in (17,18) for q in [*kept,*[r for k,r in extra.items() if k not in (15,16,17,18)]])
  assert peak<.001,(y,peak)
- key_samp.append([y,round(peak,7)])
-for z in [0,.1,.3,.6,1,2,3.5,5,7.5,9]:
- peak=max(c(m(extra[i],z=z),r) for i in [17,18] for r in [*kept,*[r for k,r in extra.items() if k not in (17,18)]] )
- assert peak<.001,(z,peak)
- blade_samp.append([z,round(peak,7)])
-stops=[round(c(m(extra[i],y=.35),extra[i+2]),6) for i in (15,16)]
-assert min(stops)>.001
+ cam_samp.append([y,round(peak,7)])
 # The same unmodified basket is used only as a virtual inspection gauge in each bay;
 # neither downloadable frame file contains a basket.
 travel=[]
@@ -60,7 +55,7 @@ for y in [0,-.1,-.3,-.6,-1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-12,-16,-22,-30,-45,-60,-
  v0=max(c(t0,r) for _,r in rows);v1=max(c(t1,r) for _,r in rows);cross=c(t0,t1)
  assert max(v0,v1,cross)<.001,(y,v0,v1,cross)
  travel.append([y,round(v0,7),round(v1,7),round(cross,7)])
-print('PASS both original basket travel envelopes and rear keepers',flush=True)
+print('PASS both revised basket travel envelopes and upper cam access',flush=True)
 
 def export(stem,rs):
  f=out/(stem+'.step');doc=A.newDocument('Current_Drawer_Expansion');obs=[]
@@ -82,9 +77,9 @@ for x in [0,pitch]:
  for off in [0,-.3,-12,-110.5]:
   assert max(c(m(p[14],x=x,y=off),r) for r in rr.Solids)<.001
 result=dict(source_sha256=sha(base),hashes={f.stem:sha(f) for f in [two,kit]},
- new_parts_count=len(erows),two_bay_parts_count=len(rows),part_counts={'outer_side':1,'front_beam':1,'rear_board':1,'drawer_stop_paddles':2,'lower_cam_rods':4,'lower_cams':4,'upper_double_t_keys':2,'flush_anti_backout_blades':2},
+ new_parts_count=len(erows),two_bay_parts_count=len(rows),part_counts={'outer_side':1,'front_beam':1,'rear_board':1,'drawer_stop_paddles':2,'lower_cam_rods':4,'lower_cams':4,'upper_cam_rods':2,'upper_cams':2},
  overall_XYZ_mm=size,center_pitch_mm=pitch,basket_count_in_outputs=0,static_overlap_mm3=round(pair_vol,7),assembly_approach_samples_mm=moving,
- key_insertion_samples_mm=key_samp,blade_insertion_samples_mm=blade_samp,positive_anti_backout_overlap_mm3=stops,trays_both_guide_samples_mm=travel,
+ upper_cam_insertion_samples_mm=cam_samp,trays_both_guide_samples_mm=travel,
  limits='名义 CAD 静态及采样配合，不验旧版、不确认打印松紧和承重；未切片。')
 (out/'expansion-fit.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
 print('PASS final independently selectable STEP set, read back current expansion',flush=True)
